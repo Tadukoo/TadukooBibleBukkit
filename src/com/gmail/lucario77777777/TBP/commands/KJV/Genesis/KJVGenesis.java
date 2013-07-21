@@ -27,6 +27,9 @@ public class KJVGenesis extends KJV {
 			}else if(args[2].equals("3")){
 				KJVGenesisCh3.Run(sender, args);
 				return true;
+			}else if(args[2].equals("4")){
+				KJVGenesisCh4.Run(sender, args);
+				return true;
 			}else{
 				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Genesis Chapter " + args[2] + " yet.");
 				return true;
