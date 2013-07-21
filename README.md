@@ -48,6 +48,6 @@ for other translations.
 
 Progress
 --------
-* King James Version (KJV) (0.8%)
+* King James Version (KJV) (0.10%)
     * Genesis Started.
 	* Exodus through Revelation coming soon.
