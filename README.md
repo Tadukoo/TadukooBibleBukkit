@@ -30,16 +30,18 @@ Command Usage
    * < translation > can currently only be KJV.
 /bible list or /bible ?
    * Shows a list of available translations.
-
-Upcoming Commands
------------------
-/bible < translation > announce < book > < chapter # > < verse # >
-   * Broadcasts the verse you chose.
 /bible < translation > book [ book ] [ part # ] [ ? ]
    * Gives you part of the Bible in book form.
    * [ book ] can be any book of the Bible.
    * [ part # ] is the part of the book you want. It does not go by chapter.
    * [ ? ] can be typed to see what the [ part # ] you chose would give you.
+      * Feature not yet implemented (the question mark)
+   * NOTE: THE BOOKS ARE NOWHERE NEAR AS COMPLETE AS THE THROUGH-CHAT COMMANDS.
+
+Upcoming Commands
+-----------------
+/bible < translation > announce < book > < chapter # > < verse # >
+   * Broadcasts the verse you chose.
 
 Translations
 ------------
@@ -48,6 +50,16 @@ for other translations.
 
 Progress
 --------
-* King James Version (KJV) (0.08%)
+* King James Version (KJV) (0.1%)
     * Genesis Started.
 	* Exodus through Revelation coming soon.
+
+Version System
+--------------
+* Alpha
+   * Alpha will be the current version until the Pentateuch (Genesis, Exodus, Leviticus, Numbers, and Deuteronomy), the Gospels (Matthew, Mark, Luke, and John),
+   and the 3 Johns (1, 2, and 3 John) are completed.
+* Beta
+   * Beta will be from the time Alpha is completed (which will be Beta 0.1)
+* Official Release
+   * The "official release" will be once the entire Bible is complete in the KJV translation. This will be v.1.0.

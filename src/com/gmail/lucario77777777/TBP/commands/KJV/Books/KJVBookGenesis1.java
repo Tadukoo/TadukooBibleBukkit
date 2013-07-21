@@ -1,13 +1,13 @@
 package com.gmail.lucario77777777.TBP.commands.KJV.Books;
 
 import com.gmail.lucario77777777.TBP.commands.KJV.Books.KJVBookGenesis;
+import com.gmail.lucario77777777.TBP.commands.KJV.bible.Genesis.KJVBibleGenesisCh1;
 
-import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BookMeta;
-import org.bukkit.material.*;
 
 import com.gmail.lucario77777777.TBP.Main;
 
@@ -18,11 +18,16 @@ public class KJVBookGenesis1 extends KJVBookGenesis {
 	
 	public static boolean Run(CommandSender sender, String[] args)
 	{
-		Material.WRITTEN_BOOK book;
-		book.setTitle("Genesis Part 1");
-		book.setAuthor("Moses");
-		book.setPages("1: ");
-		book.setPages("2: ");
+		ItemStack book = new ItemStack(Material.WRITTEN_BOOK, 1);
+
+		BookMeta meta = (BookMeta) book.getItemMeta();
+		
+		meta.setTitle("Genesis Part 1");
+		meta.setAuthor("Moses");
+		meta.addPage("Chapter 1" + "\n 1 " + KJVBibleGenesisCh1.getV1() + "\n 2 " + KJVBibleGenesisCh1.getV2() +
+				"\n 3 " + KJVBibleGenesisCh1.getV3());
+		meta.addPage(" 4 " + KJVBibleGenesisCh1.getV4() + "\n 5 " + KJVBibleGenesisCh1.getV5());
+		book.setItemMeta(meta);
 		((Player) sender).getInventory().addItem(book);
 		return true;
 		}

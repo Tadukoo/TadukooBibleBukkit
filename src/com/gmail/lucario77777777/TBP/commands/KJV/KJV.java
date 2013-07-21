@@ -1,6 +1,7 @@
 package com.gmail.lucario77777777.TBP.commands.KJV;
 
 import com.gmail.lucario77777777.TBP.commands.MainCommandExecutor;
+import com.gmail.lucario77777777.TBP.commands.KJV.Books.KJVBook;
 import com.gmail.lucario77777777.TBP.commands.KJV.Genesis.KJVGenesis;
 //import com.gmail.lucario77777777.TBP.commands.KJV.Books.KJVBook;
 
@@ -27,8 +28,7 @@ public class KJV extends MainCommandExecutor {
 				sender.sendMessage(ChatColor.GREEN + "KJV is the King James Version.");
 				return true;
 			}else if(args[1].equalsIgnoreCase("book")){
-				sender.sendMessage(ChatColor.RED + "Sorry, but getting the books has been disabled for now.");
-				//KJVBook.Run(sender, args, playerType);
+				KJVBook.Run(sender, args, playerType);
 				return true;
 			}else if(args[1].equalsIgnoreCase("books")){
 				sender.sendMessage(ChatColor.GREEN + "Page 1 of 5");

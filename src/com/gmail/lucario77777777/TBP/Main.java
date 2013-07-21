@@ -14,11 +14,11 @@ public class Main extends JavaPlugin {
 	
 	@Override
 	public void onDisable () {
-		getLogger().info("Tadukoo Bible version Alpha 0.0.0 is disabled!");
+		getLogger().info("Tadukoo Bible is disabled!");
 	}
 	@Override
 	public void onEnable () {
-		getLogger().info("Tadukoo Bible version Alpha 0.0.0 is enabled!");
+		getLogger().info("Tadukoo Bible is enabled!");
 		getCommand("bible").setExecutor(new MainCommandExecutor(this));
 	}
 }
