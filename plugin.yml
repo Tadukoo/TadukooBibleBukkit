@@ -1,0 +1,14 @@
+name: Tadukoo Bible
+main: com.gmail.lucario77777777.TBP.Main
+version: Alpha 0.0.0
+description: Read the Bible using commands.
+commands:
+   bible:
+      description: Read the Bible.
+      usage: /<command> <translation> <book> [chapter] [verse] or /<command> <translation> info/? or /<command> <list/?> or /<command> <translation> book [book] [part]
+      permission: TadukooBible.use
+      permission-message: You don't have <permission>.
+permissions:
+   TadukooBible.use:
+      description: Gives access to the plugin.
+      default: true
