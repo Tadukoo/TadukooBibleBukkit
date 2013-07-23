@@ -12,6 +12,9 @@ commands). If you use this staff on the water, it would part, like how Moses par
 and plugins upset Tadukoo, so he decided to add to the mix. He decided that he would start a plugin that would allow players to read the Bible through
 commands on a server.
 
+A few days into coding this plugin, Tadukoo found an outdated Bukkit plugin where it would show a daily Bible verse on the server, which came from
+Bible Gateway. It only allowed for one translation (Tadukoo thinks it was NIV).
+
 Goal
 ----
 The goal of the Tadukoo Bible Project is to spread the Gospel through a Minecraft plugin, in the hopes that more people will read God's word through
@@ -43,6 +46,10 @@ Upcoming Commands
 /bible < translation > announce < book > < chapter # > < verse # >
    * Broadcasts the verse you chose.
 
+Known Issues
+------------
+The book cuts off part of the verses on pages 3 and 5.
+
 Translations
 ------------
 Currently the only translation in the plugin is the King James Version (KJV), which is public domain. In the future, Tadukoo will be requesting permission
@@ -57,7 +64,7 @@ Bukkit API (Currently this plugin is built off of [Build 1793] (http://dl.bukkit
 
 Progress
 --------
-* King James Version (KJV) (0.56%)
+* King James Version (KJV) (0.60%)
     * Through-chat commands
        * Genesis Started. (Genesis 1-14 complete)
 	   * Exodus through Revelation coming soon.
