@@ -93,6 +93,21 @@ public class KJVGenesis extends KJV {
 			}else if(args[2].equals("25")){
 				KJVGenesisCh25.Run(sender, args);
 				return true;
+			}else if(args[2].equals("26")){
+				KJVGenesisCh26.Run(sender, args);
+				return true;
+			}else if(args[2].equals("27")){
+				KJVGenesisCh27.Run(sender, args);
+				return true;
+			}else if(args[2].equals("28")){
+				KJVGenesisCh28.Run(sender, args);
+				return true;
+			}else if(args[2].equals("29")){
+				KJVGenesisCh29.Run(sender, args);
+				return true;
+			}else if(args[2].equals("30")){
+				KJVGenesisCh30.Run(sender, args);
+				return true;
 			}else{
 				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Genesis Chapter " + args[2] + " yet.");
 				return true;
