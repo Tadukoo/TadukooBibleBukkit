@@ -64,9 +64,9 @@ Bukkit API (Currently this plugin is built off of [Build 1794] (http://dl.bukkit
 
 Progress
 --------
-* King James Version (KJV) (0.92%)
+* King James Version (KJV) (0.96%)
     * Through-chat commands
-       * Genesis Started. (Genesis 1-23 complete)
+       * Genesis Started. (Genesis 1-24 complete)
 	   * Exodus through Revelation coming soon.
 	* Books
 	   * Genesis Part 1 Started.
@@ -77,7 +77,7 @@ Version System
    * Alpha will be the current version until the Pentateuch (Genesis, Exodus, Leviticus, Numbers, and Deuteronomy), the Gospels (Matthew, Mark, Luke, and John),
    and the 3 Johns (1, 2, and 3 John) are completed.
 * Beta
-   * Beta will be from the time Alpha is completed (which will be Beta 0.1)
+   * Beta will be from the time Alpha is completed (which will be Beta 0.2), until the time that the official release comes.
 * Official Release
    * The "official release" will be once the entire Bible is complete in the KJV translation. This will be v.1.0.
 * Decimals
