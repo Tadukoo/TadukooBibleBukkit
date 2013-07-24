@@ -31,8 +31,10 @@ Command Usage
    * [ chapter # ] can be replaced with ? or info to see info about the book you chose.
    * [ verse # ] can be replaced with # to see how many verses are in that chapter.
    * < translation > can currently only be KJV.
+   
 /bible list or /bible ?
    * Shows a list of available translations.
+   
 /bible < translation > book [ book ] [ part # ] [ ? ]
    * Gives you part of the Bible in book form.
    * [ book ] can be any book of the Bible.
