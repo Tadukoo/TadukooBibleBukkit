@@ -60,13 +60,13 @@ Download
 Currently you are unable to download the plugin jar file. Once this plugin is in Beta, it will be available on BukkitDev.
 
 Currently to download and install this mod, you must download the classes and plugin.yml file, then import them into eclipse, along with importing the
-Bukkit API (Currently this plugin is built off of [Build 1793] (http://dl.bukkit.org/downloads/bukkit/view/02212_1.6.2-R0.1/))
+Bukkit API (Currently this plugin is built off of [Build 1794] (http://dl.bukkit.org/downloads/bukkit/view/02214_1.6.2-R0.1/))
 
 Progress
 --------
-* King James Version (KJV) (0.68%)
+* King James Version (KJV) (0.72%)
     * Through-chat commands
-       * Genesis Started. (Genesis 1-17 complete)
+       * Genesis Started. (Genesis 1-18 complete)
 	   * Exodus through Revelation coming soon.
 	* Books
 	   * Genesis Part 1 Started.
