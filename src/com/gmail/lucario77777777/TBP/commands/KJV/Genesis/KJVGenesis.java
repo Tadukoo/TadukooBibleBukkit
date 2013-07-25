@@ -108,6 +108,24 @@ public class KJVGenesis extends KJV {
 			}else if(args[2].equals("30")){
 				KJVGenesisCh30.Run(sender, args);
 				return true;
+			}else if(args[2].equals("31")){
+				KJVGenesisCh31.Run(sender, args);
+				return true;
+			}else if(args[2].equals("32")){
+				KJVGenesisCh32.Run(sender, args);
+				return true;
+			}else if(args[2].equals("33")){
+				KJVGenesisCh33.Run(sender, args);
+				return true;
+			}else if(args[2].equals("34")){
+				KJVGenesisCh34.Run(sender, args);
+				return true;
+			}else if(args[2].equals("?")){
+				sender.sendMessage(ChatColor.GREEN + "Genesis tells about Creation up through the time the " +
+						"Israelites go to Egypt.");
+				sender.sendMessage(ChatColor.GREEN + "It was written by Moses.");
+				sender.sendMessage(ChatColor.GREEN + "It has 50 chapters.");
+				return true;
 			}else{
 				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Genesis Chapter " + args[2] + " yet.");
 				return true;
