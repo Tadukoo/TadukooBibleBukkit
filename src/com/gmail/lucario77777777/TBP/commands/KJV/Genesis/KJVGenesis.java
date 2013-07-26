@@ -138,6 +138,9 @@ public class KJVGenesis extends KJV {
 			}else if(args[2].equals("40")){
 				KJVGenesisCh40.Run(sender, args);
 				return true;
+			}else if(args[2].equals("41")){
+				KJVGenesisCh41.Run(sender, args);
+				return true;
 			}else if(args[2].equals("?")){
 				sender.sendMessage(ChatColor.GREEN + "Genesis tells about Creation up through the time the " +
 						"Israelites go to Egypt.");
