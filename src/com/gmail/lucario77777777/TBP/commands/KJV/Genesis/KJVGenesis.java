@@ -153,6 +153,21 @@ public class KJVGenesis extends KJV {
 			}else if(args[2].equals("45")){
 				KJVGenesisCh45.Run(sender, args);
 				return true;
+			}else if(args[2].equals("46")){
+				KJVGenesisCh46.Run(sender, args);
+				return true;
+			}else if(args[2].equals("47")){
+				KJVGenesisCh47.Run(sender, args);
+				return true;
+			}else if(args[2].equals("48")){
+				KJVGenesisCh48.Run(sender, args);
+				return true;
+			}else if(args[2].equals("49")){
+				KJVGenesisCh49.Run(sender, args);
+				return true;
+			}else if(args[2].equals("50")){
+				KJVGenesisCh50.Run(sender, args);
+				return true;
 			}else if(args[2].equals("?")){
 				sender.sendMessage(ChatColor.GREEN + "Genesis tells about Creation up through the time the " +
 						"Israelites go to Egypt.");
@@ -160,7 +175,7 @@ public class KJVGenesis extends KJV {
 				sender.sendMessage(ChatColor.GREEN + "It has 50 chapters.");
 				return true;
 			}else{
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Genesis Chapter " + args[2] + " yet.");
+				sender.sendMessage(ChatColor.RED + "Sorry, Genesis only has 50 chapters.");
 				return true;
 			}
 		}else{
