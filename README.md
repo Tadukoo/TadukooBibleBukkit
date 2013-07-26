@@ -66,12 +66,12 @@ Bukkit API (Currently this plugin is built off of [Build 1794] (http://dl.bukkit
 
 Progress
 --------
-* King James Version (KJV) (1.36%)
+* King James Version (KJV) (1.4%)
     * Through-chat commands
-       * Genesis Started. (Genesis 1-34 complete)
-	   * Exodus through Revelation coming soon.
-	* Books
-	   * Genesis Part 1 Started.
+       * Genesis Started. (Genesis 1-35 complete)
+       * Exodus through Revelation coming soon.
+    * Books
+       * Genesis Part 1 Started.
 
 Version System
 --------------
@@ -86,21 +86,21 @@ Version System
    * Currently the entire system is based off of just the King James Version through-chat commands.
    * Each book of the Bible is either considered 2% or part of 2% of the entirety.
       * Each 1% is + 0.0.1 to the version number. (so Genesis being completed would be Alpha 0.0.2)
-	  * Each book is then divided by chapters, so for example Genesis is 50 chapters. Each chapter is then 2% towards the book.
-	     * Since Genesis counts as 2%, each chapter is then 2% of 2%, which adds 0.0.0.04 to the version number.
-		 * (i.e. Genesis Chapter Six being completed brings the version up to Alpha 0.0.0.24)
-		 * The books which are not two percent by themselves are:
-		    * Judges and Ruth = 2%
-			* Ezra, Nehemiah, and Esther = 2%
-			* Psalms is divided into five sections:
-			   * Psalms 1-30 = 2%
-			   * Psalms 31-60 = 2%
-			   * Psalms 61-90 = 2%
-			   * Psalms 91-120 = 2%
-			   * Psalms 121-150 = 2%
-			* Ecclesiastes and Song of Songs = 2%
-			* Jeremiah and Lamentations = 2%
-			* Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, and Malachi = 2%
-			* Titus and Philemon = 2%
-			* 1 John, 2 John, and 3 John = 2%
-			* Jude and Revelation = 2%
+      * Each book is then divided by chapters, so for example Genesis is 50 chapters. Each chapter is then 2% towards the book.
+         * Since Genesis counts as 2%, each chapter is then 2% of 2%, which adds 0.0.0.04 to the version number.
+         * (i.e. Genesis Chapter Six being completed brings the version up to Alpha 0.0.0.24)
+         * The books which are not two percent by themselves are:
+            * Judges and Ruth = 2%
+            * Ezra, Nehemiah, and Esther = 2%
+            * Psalms is divided into five sections:
+               * Psalms 1-30 = 2%
+               * Psalms 31-60 = 2%
+               * Psalms 61-90 = 2%
+               * Psalms 91-120 = 2%
+               * Psalms 121-150 = 2%
+            * Ecclesiastes and Song of Songs = 2%
+            * Jeremiah and Lamentations = 2%
+            * Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, and Malachi = 2%
+            * Titus and Philemon = 2%
+            * 1 John, 2 John, and 3 John = 2%
+            * Jude and Revelation = 2%
