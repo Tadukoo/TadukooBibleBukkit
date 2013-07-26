@@ -24,6 +24,15 @@ public class KJV extends MainCommandExecutor {
 			if(args[1].equalsIgnoreCase("Genesis") || args[1].equalsIgnoreCase("Gen")){
 				KJVGenesis.Run(sender, args);
 				return true;
+			}else if(args[1].equals("1")){
+				KJV1Books.Run(sender, args);
+				return true;
+			}else if(args[1].equals("2")){
+				KJV2Books.Run(sender, args);
+				return true;
+			}else if(args[1].equals("3")){
+				KJV3Books.Run(sender, args);
+				return true;
 			}else if(args[1].equals("?") || args[1].equalsIgnoreCase("info")){
 				sender.sendMessage(ChatColor.GREEN + "KJV is the King James Version.");
 				return true;
@@ -63,7 +72,8 @@ public class KJV extends MainCommandExecutor {
 				sender.sendMessage(ChatColor.GREEN + "Page 5 of 5");
 				sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
 				sender.sendMessage(ChatColor.RED + "2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter," +
-						" 2 Peter, 1 John, 2 John, 3 John, Jude, and Revelation.");
+						" 2 Peter, " + ChatColor.GREEN + "1 John, 2 John, 3 John, " + ChatColor.RED + "Jude, " +
+								"and Revelation.");
 				return true;
 			}else{
 				sender.sendMessage(ChatColor.RED + "Sorry, we don't have " + args[1] + " in the King James Version yet, or it isn't a book of the Bible.");

@@ -29,7 +29,7 @@ Command Usage
    * If [ chapter # ] or [ verse # ] is empty, it will go with 1.
    * [ chapter # ] can be replaced with # to see how many chapters are in that book.
    * [ chapter # ] can be replaced with ? or info to see info about the book you chose.
-   * [ verse # ] can be replaced with # to see how many verses are in that chapter.
+   * [ verse # ] can be replaced with # or ? to see how many verses are in that chapter.
    * < translation > can currently only be KJV.
    
 /bible list or /bible ?
@@ -72,13 +72,15 @@ Bukkit API (Currently this plugin is built off of [Build 1795] (http://dl.bukkit
 
 Progress
 --------
-* King James Version (KJV) (2%)
+* King James Version (KJV) (4%)
     * Through-chat commands
        * Completed:
 	      * Genesis
+		  * 1 John, 2 John, and 3 John
 	   * Partially Complete:
 	   * Not Yet Started:
-          * Exodus through Revelation.
+          * Exodus through 2 Peter
+		  * Jude and Revelation.
     * Books
        * Genesis Part 1 Started.
 

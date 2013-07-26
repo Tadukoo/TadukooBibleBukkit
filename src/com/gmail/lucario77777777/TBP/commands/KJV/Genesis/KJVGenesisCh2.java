@@ -119,7 +119,7 @@ public class KJVGenesisCh2 extends KJVGenesis {
 				String v25 = KJVBibleGenesisCh2.getV25();
 				sender.sendMessage(ChatColor.GREEN + v25);
 				return true;
-			}else if(args[3].equals("?") || args[3].equals("?")){
+			}else if(args[3].equals("?") || args[3].equals("#")){
 				String info = KJVBibleGenesisCh2.getInfo();
 				sender.sendMessage(ChatColor.GREEN + info);
 				return true;

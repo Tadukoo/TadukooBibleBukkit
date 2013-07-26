@@ -143,7 +143,7 @@ public class KJVGenesisCh1 extends KJVGenesis {
 				String v31 = KJVBibleGenesisCh1.getV31();
 				sender.sendMessage(ChatColor.GREEN + v31);
 				return true;
-			}else if(args[3].equals("?") || args[3].equals("?")){
+			}else if(args[3].equals("?") || args[3].equals("#")){
 				String info = KJVBibleGenesisCh1.getInfo();
 				sender.sendMessage(ChatColor.GREEN + info);
 				return true;

@@ -99,7 +99,7 @@ public class KJVGenesisCh23 extends KJVGenesis {
 				String v20 = KJVBibleGenesisCh23.getV20();
 				sender.sendMessage(ChatColor.GREEN + v20);
 				return true;
-			}else if(args[3].equals("?") || args[3].equals("?")){
+			}else if(args[3].equals("?") || args[3].equals("#")){
 				String info = KJVBibleGenesisCh23.getInfo();
 				sender.sendMessage(ChatColor.GREEN + info);
 				return true;

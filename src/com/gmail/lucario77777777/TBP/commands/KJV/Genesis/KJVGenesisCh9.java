@@ -135,7 +135,7 @@ public class KJVGenesisCh9 extends KJVGenesis {
 				String v29 = KJVBibleGenesisCh9.getV29();
 				sender.sendMessage(ChatColor.GREEN + v29);
 				return true;
-			}else if(args[3].equals("?") || args[3].equals("?")){
+			}else if(args[3].equals("?") || args[3].equals("#")){
 				String info = KJVBibleGenesisCh9.getInfo();
 				sender.sendMessage(ChatColor.GREEN + info);
 				return true;
