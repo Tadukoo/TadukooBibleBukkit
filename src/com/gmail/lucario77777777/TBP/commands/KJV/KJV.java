@@ -33,35 +33,36 @@ public class KJV extends MainCommandExecutor {
 			}else if(args[1].equalsIgnoreCase("books")){
 				sender.sendMessage(ChatColor.GREEN + "Page 1 of 5");
 				sender.sendMessage(ChatColor.GREEN + "The Books of the Bible are:");
-				sender.sendMessage(ChatColor.GREEN + "Genesis, Exodus, Leviticus, Numbers, Deuteronomy," +
-						" Joshua, Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, 2 Kings, 1 Chronicles, 2 Chronicles");
+				sender.sendMessage(ChatColor.YELLOW + "Genesis, " + ChatColor.RED + "Exodus, Leviticus, " +
+						"Numbers, Deuteronomy, Joshua, Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, 2 Kings, " +
+						"1 Chronicles, 2 Chronicles");
 				sender.sendMessage(ChatColor.GREEN + "Type /bible kjv books2 for the next page.");
 				return true;
 			}else if(args[1].equalsIgnoreCase("books2")){
 				sender.sendMessage(ChatColor.GREEN + "Page 2 of 5");
 				sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
-				sender.sendMessage(ChatColor.GREEN + "Ezra, Nehemiah, Esther, Job, Psalms, Proverbs," +
+				sender.sendMessage(ChatColor.RED + "Ezra, Nehemiah, Esther, Job, Psalms, Proverbs," +
 						" Ecclesiastes, Song of Songs, Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel");
 				sender.sendMessage(ChatColor.GREEN + "Type /bible kjv books3 for the next page.");
 				return true;
 			}else if(args[1].equalsIgnoreCase("books3")){
 				sender.sendMessage(ChatColor.GREEN + "Page 3 of 5");
 				sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
-				sender.sendMessage(ChatColor.GREEN + "Hosea, Joel, Amos, Obadiah, Jonah, Micah," +
+				sender.sendMessage(ChatColor.RED + "Hosea, Joel, Amos, Obadiah, Jonah, Micah," +
 						" Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi, Matthew, Mark, Luke, John");
 				sender.sendMessage(ChatColor.GREEN + "Type /bible kjv books4 for the next page.");
 				return true;
 			}else if(args[1].equalsIgnoreCase("books4")){
 				sender.sendMessage(ChatColor.GREEN + "Page 4 of 5");
 				sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
-				sender.sendMessage(ChatColor.GREEN + "Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians," +
+				sender.sendMessage(ChatColor.RED + "Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians," +
 						" Ephesian, Philippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy");
 				sender.sendMessage(ChatColor.GREEN + "Type /bible kjv books5 for the next page.");
 				return true;
 			}else if(args[1].equalsIgnoreCase("books5")){
 				sender.sendMessage(ChatColor.GREEN + "Page 5 of 5");
 				sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
-				sender.sendMessage(ChatColor.GREEN + "2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter," +
+				sender.sendMessage(ChatColor.RED + "2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter," +
 						" 2 Peter, 1 John, 2 John, 3 John, Jude, and Revelation.");
 				return true;
 			}else{

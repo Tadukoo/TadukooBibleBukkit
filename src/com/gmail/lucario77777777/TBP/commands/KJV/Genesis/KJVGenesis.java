@@ -123,6 +123,21 @@ public class KJVGenesis extends KJV {
 			}else if(args[2].equals("35")){
 				KJVGenesisCh35.Run(sender, args);
 				return true;
+			}else if(args[2].equals("36")){
+				KJVGenesisCh36.Run(sender, args);
+				return true;
+			}else if(args[2].equals("37")){
+				KJVGenesisCh37.Run(sender, args);
+				return true;
+			}else if(args[2].equals("38")){
+				KJVGenesisCh38.Run(sender, args);
+				return true;
+			}else if(args[2].equals("39")){
+				KJVGenesisCh39.Run(sender, args);
+				return true;
+			}else if(args[2].equals("40")){
+				KJVGenesisCh40.Run(sender, args);
+				return true;
 			}else if(args[2].equals("?")){
 				sender.sendMessage(ChatColor.GREEN + "Genesis tells about Creation up through the time the " +
 						"Israelites go to Egypt.");

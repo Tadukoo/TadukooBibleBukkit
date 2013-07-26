@@ -35,6 +35,12 @@ Command Usage
 /bible list or /bible ?
    * Shows a list of available translations.
    
+/bible < translation > books
+   * Lists all the books in the Bible for that translation.
+   * Books in red aren't available yet.
+   * Books in green are completely available.
+   * Books in yellow are partially available, but incomplete.
+   
 /bible < translation > book [ book ] [ part # ] [ ? ]
    * Gives you part of the Bible in book form.
    * [ book ] can be any book of the Bible.
@@ -62,13 +68,13 @@ Download
 Currently you are unable to download the plugin jar file. Once this plugin is in Beta, it will be available on BukkitDev.
 
 Currently to download and install this mod, you must download the classes and plugin.yml file, then import them into eclipse, along with importing the
-Bukkit API (Currently this plugin is built off of [Build 1794] (http://dl.bukkit.org/downloads/bukkit/view/02214_1.6.2-R0.1/))
+Bukkit API (Currently this plugin is built off of [Build 1795] (http://dl.bukkit.org/downloads/bukkit/view/02218_1.6.2-R0.1/))
 
 Progress
 --------
-* King James Version (KJV) (1.4%)
+* King James Version (KJV) (1.6%)
     * Through-chat commands
-       * Genesis Started. (Genesis 1-35 complete)
+       * Genesis Started. (Genesis 1-40 complete)
        * Exodus through Revelation coming soon.
     * Books
        * Genesis Part 1 Started.
