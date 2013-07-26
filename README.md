@@ -72,9 +72,9 @@ Bukkit API (Currently this plugin is built off of [Build 1795] (http://dl.bukkit
 
 Progress
 --------
-* King James Version (KJV) (1.64%)
+* King James Version (KJV) (1.68%)
     * Through-chat commands
-       * Genesis Started. (Genesis 1-41 complete)
+       * Genesis Started. (Genesis 1-42 complete)
        * Exodus through Revelation coming soon.
     * Books
        * Genesis Part 1 Started.
