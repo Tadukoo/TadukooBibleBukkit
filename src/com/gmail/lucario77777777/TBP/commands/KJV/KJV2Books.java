@@ -19,22 +19,22 @@ public class KJV2Books extends KJV {
 			sender.sendMessage(ChatColor.RED + "There is no book titled 2!");
 			return true;
 		}else if(args.length >=3){
-			if(args[2].equalsIgnoreCase("Samuel")){
+			if(args[2].equalsIgnoreCase("Samuel") || args[2].equalsIgnoreCase("Sam")){
 				sender.sendMessage(ChatColor.RED + "Sorry, we don't have 2 Samuel yet.");
 				return true;
 			}else if(args[2].equalsIgnoreCase("Kings")){
 				sender.sendMessage(ChatColor.RED + "Sorry, we don't have 2 Kings yet.");
 				return true;
-			}else if(args[2].equalsIgnoreCase("Chronicles")){
+			}else if(args[2].equalsIgnoreCase("Chronicles") || args[2].equalsIgnoreCase("Chr")){
 				sender.sendMessage(ChatColor.RED + "Sorry, we don't have 2 Chronicles yet.");
 				return true;
-			}else if(args[2].equalsIgnoreCase("Corinthians")){
+			}else if(args[2].equalsIgnoreCase("Corinthians") || args[2].equalsIgnoreCase("Cor")){
 				sender.sendMessage(ChatColor.RED + "Sorry, we don't have 2 Corinthians yet.");
 				return true;
-			}else if(args[2].equalsIgnoreCase("Thessalonians")){
+			}else if(args[2].equalsIgnoreCase("Thessalonians") || args[2].equalsIgnoreCase("Thes")){
 				sender.sendMessage(ChatColor.RED + "Sorry, we don't have 2 Thessalonians yet.");
 				return true;
-			}else if(args[2].equalsIgnoreCase("Timothy")){
+			}else if(args[2].equalsIgnoreCase("Timothy") || args[2].equalsIgnoreCase("Tim")){
 				sender.sendMessage(ChatColor.RED + "Sorry, we don't have 2 Timothy yet.");
 				return true;
 			}else if(args[2].equalsIgnoreCase("Peter")){
