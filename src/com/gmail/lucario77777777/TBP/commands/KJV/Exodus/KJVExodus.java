@@ -106,6 +106,15 @@ public class KJVExodus extends KJV{
 			}else if(args[2].equals("30")){
 				KJVExodusCh30.Run(sender, args);
 				return true;
+			}else if(args[2].equals("31")){
+				KJVExodusCh31.Run(sender, args);
+				return true;
+			}else if(args[2].equals("32")){
+				KJVExodusCh32.Run(sender, args);
+				return true;
+			}else if(args[2].equals("33")){
+				KJVExodusCh33.Run(sender, args);
+				return true;
 			}else if(args[2].equals("?")){
 				sender.sendMessage(ChatColor.GREEN + "Exodus tells about the time from the Exodus of the " +
 						"Israelites from Egypt up to the laws given to the Israelites by God.");
