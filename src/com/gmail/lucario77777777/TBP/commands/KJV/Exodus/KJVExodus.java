@@ -28,6 +28,24 @@ public class KJVExodus extends KJV{
 			}else if(args[2].equals("4")){
 				KJVExodusCh4.Run(sender, args);
 				return true;
+			}else if(args[2].equals("5")){
+				KJVExodusCh5.Run(sender, args);
+				return true;
+			}else if(args[2].equals("6")){
+				KJVExodusCh6.Run(sender, args);
+				return true;
+			}else if(args[2].equals("7")){
+				KJVExodusCh7.Run(sender, args);
+				return true;
+			}else if(args[2].equals("8")){
+				KJVExodusCh8.Run(sender, args);
+				return true;
+			}else if(args[2].equals("9")){
+				KJVExodusCh9.Run(sender, args);
+				return true;
+			}else if(args[2].equals("10")){
+				KJVExodusCh10.Run(sender, args);
+				return true;
 			}else if(args[2].equals("?")){
 				sender.sendMessage(ChatColor.GREEN + "Exodus tells about the Exodus from Egypt up to the laws" +
 						" given to the Israelites by God.");
