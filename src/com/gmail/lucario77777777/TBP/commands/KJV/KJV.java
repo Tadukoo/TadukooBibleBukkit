@@ -2,6 +2,7 @@ package com.gmail.lucario77777777.TBP.commands.KJV;
 
 import com.gmail.lucario77777777.TBP.commands.MainCommandExecutor;
 import com.gmail.lucario77777777.TBP.commands.KJV.Books.KJVBook;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodus;
 import com.gmail.lucario77777777.TBP.commands.KJV.Genesis.KJVGenesis;
 //import com.gmail.lucario77777777.TBP.commands.KJV.Books.KJVBook;
 
@@ -25,7 +26,7 @@ public class KJV extends MainCommandExecutor {
 				KJVGenesis.Run(sender, args);
 				return true;
 			}else if(args[1].equals("Exodus") || args[1].equalsIgnoreCase("Exo")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Exodus yet.");
+				KJVExodus.Run(sender, args);
 				return true;
 			}else if(args[1].equalsIgnoreCase("Leviticus") || args[1].equalsIgnoreCase("Lev")){
 				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Leviticus yet.");
