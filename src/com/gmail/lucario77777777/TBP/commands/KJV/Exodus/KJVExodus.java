@@ -46,6 +46,12 @@ public class KJVExodus extends KJV{
 			}else if(args[2].equals("10")){
 				KJVExodusCh10.Run(sender, args);
 				return true;
+			}else if(args[2].equals("11")){
+				KJVExodusCh11.Run(sender, args);
+				return true;
+			}else if(args[2].equals("12")){
+				KJVExodusCh12.Run(sender, args);
+				return true;
 			}else if(args[2].equals("?")){
 				sender.sendMessage(ChatColor.GREEN + "Exodus tells about the Exodus from Egypt up to the laws" +
 						" given to the Israelites by God.");
