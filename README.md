@@ -72,16 +72,15 @@ Bukkit API (Currently this plugin is built off of [1.6.2-R0.1 Beta Build 1805] (
 
 Progress
 --------
-* King James Version (KJV) (6%)
+* King James Version (KJV) (8%)
     * Through-chat commands
        * Completed:
-	      * Genesis
-		  * Exodus
+	      * Genesis through Leviticus
 		  * 1 John, 2 John, and 3 John
 	   * Partially Complete:
 	      * None at the moment.
 	   * Not Yet Started:
-          * Leviticus through 2 Peter
+          * Numbers through 2 Peter
 		  * Jude and Revelation.
     * Books
        * Genesis Part 1 Started.

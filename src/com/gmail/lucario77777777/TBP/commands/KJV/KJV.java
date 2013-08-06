@@ -4,6 +4,7 @@ import com.gmail.lucario77777777.TBP.commands.MainCommandExecutor;
 import com.gmail.lucario77777777.TBP.commands.KJV.Books.KJVBook;
 import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodus;
 import com.gmail.lucario77777777.TBP.commands.KJV.Genesis.KJVGenesis;
+import com.gmail.lucario77777777.TBP.commands.KJV.Leviticus.KJVLeviticus;
 //import com.gmail.lucario77777777.TBP.commands.KJV.Books.KJVBook;
 
 import org.bukkit.ChatColor;
@@ -29,7 +30,7 @@ public class KJV extends MainCommandExecutor {
 				KJVExodus.Run(sender, args);
 				return true;
 			}else if(args[1].equalsIgnoreCase("Leviticus") || args[1].equalsIgnoreCase("Lev")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Leviticus yet.");
+				KJVLeviticus.Run(sender, args);
 				return true;
 			}else if(args[1].equalsIgnoreCase("Numbers") || args[1].equalsIgnoreCase("Num")){
 				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Numbers yet.");
@@ -187,8 +188,8 @@ public class KJV extends MainCommandExecutor {
 			}else if(args[1].equalsIgnoreCase("books")){
 				sender.sendMessage(ChatColor.GREEN + "Page 1 of 5");
 				sender.sendMessage(ChatColor.GREEN + "The Books of the Bible are:");
-				sender.sendMessage(ChatColor.GREEN + "Genesis, Exodus, " + ChatColor.RED
-						+ "Leviticus, Numbers, Deuteronomy, Joshua, Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, " +
+				sender.sendMessage(ChatColor.GREEN + "Genesis, Exodus, Leviticus, " + ChatColor.RED
+						+ "Numbers, Deuteronomy, Joshua, Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, " +
 						"2 Kings, 1 Chronicles, 2 Chronicles");
 				sender.sendMessage(ChatColor.GREEN + "Type /bible kjv books2 for the next page.");
 				return true;
