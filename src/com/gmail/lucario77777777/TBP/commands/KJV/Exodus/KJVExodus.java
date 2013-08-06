@@ -115,6 +115,27 @@ public class KJVExodus extends KJV{
 			}else if(args[2].equals("33")){
 				KJVExodusCh33.Run(sender, args);
 				return true;
+			}else if(args[2].equals("34")){
+				KJVExodusCh34.Run(sender, args);
+				return true;
+			}else if(args[2].equals("35")){
+				KJVExodusCh35.Run(sender, args);
+				return true;
+			}else if(args[2].equals("36")){
+				KJVExodusCh36.Run(sender, args);
+				return true;
+			}else if(args[2].equals("37")){
+				KJVExodusCh37.Run(sender, args);
+				return true;
+			}else if(args[2].equals("38")){
+				KJVExodusCh38.Run(sender, args);
+				return true;
+			}else if(args[2].equals("39")){
+				KJVExodusCh39.Run(sender, args);
+				return true;
+			}else if(args[2].equals("40")){
+				KJVExodusCh40.Run(sender, args);
+				return true;
 			}else if(args[2].equals("?")){
 				sender.sendMessage(ChatColor.GREEN + "Exodus tells about the time from the Exodus of the " +
 						"Israelites from Egypt up to the laws given to the Israelites by God.");
@@ -122,7 +143,7 @@ public class KJVExodus extends KJV{
 				sender.sendMessage(ChatColor.GREEN + "It has 40 chapters.");
 				return true;
 			}else{
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Exodus Chapter " + args[2] + " yet.");
+				sender.sendMessage(ChatColor.RED + "Sorry, Exodus only has 40 chapters.");
 				return true;
 			}
 		}else{

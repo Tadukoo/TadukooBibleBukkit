@@ -187,7 +187,7 @@ public class KJV extends MainCommandExecutor {
 			}else if(args[1].equalsIgnoreCase("books")){
 				sender.sendMessage(ChatColor.GREEN + "Page 1 of 5");
 				sender.sendMessage(ChatColor.GREEN + "The Books of the Bible are:");
-				sender.sendMessage(ChatColor.GREEN + "Genesis, " + ChatColor.YELLOW + "Exodus, " + ChatColor.RED
+				sender.sendMessage(ChatColor.GREEN + "Genesis, Exodus, " + ChatColor.RED
 						+ "Leviticus, Numbers, Deuteronomy, Joshua, Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, " +
 						"2 Kings, 1 Chronicles, 2 Chronicles");
 				sender.sendMessage(ChatColor.GREEN + "Type /bible kjv books2 for the next page.");
