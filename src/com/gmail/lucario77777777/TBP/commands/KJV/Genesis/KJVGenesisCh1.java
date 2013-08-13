@@ -1,5 +1,9 @@
 package com.gmail.lucario77777777.TBP.commands.KJV.Genesis;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
 import com.gmail.lucario77777777.TBP.commands.KJV.bible.Genesis.KJVBibleGenesisCh1;
 
 import org.bukkit.ChatColor;
@@ -10,6 +14,41 @@ import com.gmail.lucario77777777.TBP.Main;
 public class KJVGenesisCh1 extends KJVGenesis {
 	public KJVGenesisCh1(Main plugin) {
 		super(plugin);
+	}
+	public static void Run2(CommandSender sender, String[] args){
+		BufferedReader br = null;
+		String sFile = "";
+		try {
+			String sCurrentLine;
+			br = new BufferedReader(new FileReader("GenesisCh1.txt"));
+			while ((sCurrentLine = br.readLine()) != null){
+				sFile += sCurrentLine;
+			}
+		}catch (IOException e){
+			e.printStackTrace();
+		} finally {
+			try {
+				if (br != null)br.close();
+			} catch (IOException ex) {
+				ex.printStackTrace();
+			}
+		}
+		int verse = 1;
+		if(args.length <= 3){
+			verse = 1;
+		}else if(args.length ==4){
+			verse = 1;
+			try{
+				verse = Integer.parseInt(args[3]);
+			}catch(NumberFormatException e){
+				verse = 1;
+			}
+			if(verse > 31){
+				verse = 1;
+			}
+		}
+		String[] verses = sFile.split("¬");
+		sender.sendMessage(ChatColor.GREEN + verses[verse]);
 	}
 	
 	public static boolean Run(CommandSender sender, String[] args)

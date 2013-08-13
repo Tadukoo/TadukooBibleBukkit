@@ -15,11 +15,11 @@ public class KJVGenesis extends KJV {
 	public static boolean Run(CommandSender sender, String[] args)
 	{
 		if(args.length <= 2){
-			KJVGenesisCh1.Run(sender, args);
+			KJVGenesisCh1.Run2(sender, args);
 			return true;
 		}else if(args.length >=3){
 			if(args[2].equals("1")){
-				KJVGenesisCh1.Run(sender, args);
+				KJVGenesisCh1.Run2(sender, args);
 				return true;
 			}else if(args[2].equals("2")){
 				KJVGenesisCh2.Run(sender, args);

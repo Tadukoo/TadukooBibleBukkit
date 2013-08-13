@@ -27,8 +27,9 @@ public class KJV extends MainCommandExecutor {
 			KJVGenesis.Run(sender, args);
 			return true;
 		}else if(args.length >=2){
-			KJVEnumBooks command = KJVEnumBooks.valueOf(args[1].toUpperCase());
-			if(command.fromString(args[1]) != null){
+			KJVEnumBooks book = KJVEnumBooks.GENESIS;
+			KJVEnumBooks command = book.fromString(args[1].toUpperCase());
+			if(book.fromString(args[1].toUpperCase()) != null){
 				if(command.isAvailable() == true){
 					switch(command){
 						case GENESIS:
@@ -262,9 +263,12 @@ public class KJV extends MainCommandExecutor {
 					}
 				return true;
 				}else if(command.isAvailable() == false){
-					sender.sendMessage(ChatColor.RED + "Sorry, " + command.getBook() + "is not available yet.");
+					sender.sendMessage(ChatColor.RED + "Sorry, " + command.getBook() + " is not available yet.");
 					return true;
 				}
+			}else{
+				sender.sendMessage(ChatColor.RED + "An error occured.");
+				return false;
 			}
 		}else{
 			sender.sendMessage(ChatColor.RED + "An error occured.");
