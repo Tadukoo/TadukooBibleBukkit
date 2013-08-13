@@ -14,14 +14,14 @@ public class KJV3John extends KJV {
 	
 	public static boolean Run(CommandSender sender, String[] args)
 	{
-		if(args.length <= 3){
+		if(args.length <= 2){
 			KJV3JohnCh1.Run(sender, args);
 			return true;
-		}else if(args.length >=4){
-			if(args[3].equals("1")){
+		}else if(args.length >=3){
+			if(args[2].equals("1")){
 				KJV3JohnCh1.Run(sender, args);
 				return true;
-			}else if(args[3].equals("?")){
+			}else if(args[2].equals("?")){
 				sender.sendMessage(ChatColor.GREEN + "3 John teaches about loving God and other people.");
 				sender.sendMessage(ChatColor.GREEN + "It was written by the apostle John.");
 				sender.sendMessage(ChatColor.GREEN + "It has 1 chapter.");

@@ -14,26 +14,26 @@ public class KJV1John extends KJV {
 	
 	public static boolean Run(CommandSender sender, String[] args)
 	{
-		if(args.length <= 3){
+		if(args.length <= 2){
 			KJV1JohnCh1.Run(sender, args);
 			return true;
-		}else if(args.length >=4){
-			if(args[3].equals("1")){
+		}else if(args.length >=3){
+			if(args[2].equals("1")){
 				KJV1JohnCh1.Run(sender, args);
 				return true;
-			}else if(args[3].equals("2")){
+			}else if(args[2].equals("2")){
 				KJV1JohnCh2.Run(sender, args);
 				return true;
-			}else if(args[3].equals("3")){
+			}else if(args[2].equals("3")){
 				KJV1JohnCh3.Run(sender, args);
 				return true;
-			}else if(args[3].equals("4")){
+			}else if(args[2].equals("4")){
 				KJV1JohnCh4.Run(sender, args);
 				return true;
-			}else if(args[3].equals("5")){
+			}else if(args[2].equals("5")){
 				KJV1JohnCh5.Run(sender, args);
 				return true;
-			}else if(args[3].equals("?")){
+			}else if(args[2].equals("?")){
 				sender.sendMessage(ChatColor.GREEN + "1 John teaches about how to discern true teachers.");
 				sender.sendMessage(ChatColor.GREEN + "It was written by the apostle John.");
 				sender.sendMessage(ChatColor.GREEN + "It has 5 chapters.");

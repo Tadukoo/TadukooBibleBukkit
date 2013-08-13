@@ -1,11 +1,15 @@
 package com.gmail.lucario77777777.TBP.commands.KJV;
 
 import com.gmail.lucario77777777.TBP.commands.MainCommandExecutor;
-import com.gmail.lucario77777777.TBP.commands.KJV.Books.KJVBook;
-import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodus;
 import com.gmail.lucario77777777.TBP.commands.KJV.Genesis.KJVGenesis;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodus;
+import com.gmail.lucario77777777.TBP.commands.KJV.John1st.KJV1John;
+import com.gmail.lucario77777777.TBP.commands.KJV.John2nd.KJV2John;
+import com.gmail.lucario77777777.TBP.commands.KJV.John3rd.KJV3John;
 import com.gmail.lucario77777777.TBP.commands.KJV.Leviticus.KJVLeviticus;
-//import com.gmail.lucario77777777.TBP.commands.KJV.Books.KJVBook;
+import com.gmail.lucario77777777.TBP.commands.KJV.Numbers.KJVNumbers;
+import com.gmail.lucario77777777.TBP.commands.KJV.Books.KJVBook;
+import com.gmail.lucario77777777.TBP.commands.KJV.KJVEnumBooks;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -23,211 +27,268 @@ public class KJV extends MainCommandExecutor {
 			KJVGenesis.Run(sender, args);
 			return true;
 		}else if(args.length >=2){
-			if(args[1].equalsIgnoreCase("Genesis") || args[1].equalsIgnoreCase("Gen")){
-				KJVGenesis.Run(sender, args);
+			KJVEnumBooks command = KJVEnumBooks.valueOf(args[1].toUpperCase());
+			if(command.fromString(args[1]) != null){
+				if(command.isAvailable() == true){
+					switch(command){
+						case GENESIS:
+							KJVGenesis.Run(sender, args);
+							return true;
+						case EXODUS:
+							KJVExodus.Run(sender, args);
+							return true;
+						case LEVITICUS:
+							KJVLeviticus.Run(sender, args);
+							return true;
+						case NUMBERS:
+							KJVNumbers.Run(sender, args);
+							return true;
+						case DEUTERONOMY:
+							//KJVDeuteronomy.Run(sender, args);
+							return true;
+						case JOSHUA:
+							//KJVJoshua.Run(sender, args);
+							return true;
+						case JUDGES:
+							//KJVJudges.Run(sender, args);
+							return true;
+						case RUTH:
+							//KJVRuth.Run(sender, args);
+							return true;
+						case SAMUEL1:
+							//KJV1Samuel.Run(sender, args);
+							return true;
+						case SAMUEL2:
+							//KJV2Samuel.Run(sender, args);
+							return true;
+						case KINGS1:
+							//KJV1Kings.Run(sender, args);
+							return true;
+						case KINGS2:
+							//KJV2Kings.Run(sender, args);
+							return true;
+						case CHRONICLES1:
+							//KJV1Chronicles.Run(sender, args);
+							return true;
+						case CHRONICLES2:
+							//KJV1Chronicles.Run(sender, args);
+							return true;
+						case EZRA:
+							//KJVEzra.Run(sender, args);
+							return true;
+						case NEHEMIAH:
+							//KJVNehemiah.Run(sender, args);
+							return true;
+						case ESTHER:
+							//KJVEsther.Run(sender, args);
+							return true;
+						case JOB:
+							//KJVJob.Run(sender, args);
+							return true;
+						case PSALMS:
+							//KJVPsalms.Run(sender, args);
+							return true;
+						case PROVERBS:
+							//KJVProverbs.Run(sender, args);
+							return true;
+						case ECCLESIASTES:
+							//KJVEcclesiastes.Run(sender, args);
+							return true;
+						case SONGOFSONGS:
+							//KJVSongOfSongs.Run(sender, args);
+							return true;
+						case ISAIAH:
+							//KJVIsaiah.Run(sender, args);
+							return true;
+						case JEREMIAH:
+							//KJVJeremiah.Run(sender, args);
+							return true;
+						case LAMENTATIONS:
+							//KJVLamentations.Run(sender, args);
+							return true;
+						case EZEKIEL:
+							//KJVEzekiel.Run(sender, args);
+							return true;
+						case DANIEL:
+							//KJVDaniel.Run(sender, args);
+							return true;
+						case HOSEA:
+							//KJVHosea.Run(sender, args);
+							return true;
+						case JOEL:
+							//KJVJoel.Run(sender, args);
+							return true;
+						case AMOS:
+							//KJVAmos.Run(sender, args);
+							return true;
+						case OBADIAH:
+							//KJVObadiah.Run(sender, args);
+							return true;
+						case JONAH:
+							//KJVJonah.Run(sender, args);
+							return true;
+						case MICAH:
+							//KJVMicah.Run(sender, args);
+							return true;
+						case NAHUM:
+							//KJVNahum.Run(sender, args);
+							return true;
+						case HABAKKUK:
+							//KJVHabakkuk.Run(sender, args);
+							return true;
+						case ZEPHANIAH:
+							//KJVZephaniah.Run(sender, args);
+							return true;
+						case HAGGAI:
+							//KJVHaggai.Run(sender, args);
+							return true;
+						case ZECHARIAH:
+							//KJVZechariah.Run(sender, args);
+							return true;
+						case MALACHI:
+							//KJVMalachi.Run(sender, args);
+							return true;
+						case MATTHEW:
+							//KJVMatthew.Run(sender, args);
+							return true;
+						case MARK:
+							//KJVMark.Run(sender, args);
+							return true;
+						case LUKE:
+							//KJVLuke.Run(sender, args);
+							return true;
+						case JOHN:
+							//KJVJohn.Run(sender, args);
+							return true;
+						case ACTS:
+							//KJVActs.Run(sender, args);
+							return true;
+						case ROMANS:
+							//KJVRomans.Run(sender, args);
+							return true;
+						case CORINTHIANS1:
+							//KJV1Corinthians.Run(sender, args);
+							return true;
+						case CORINTHIANS2:
+							//KJV2Corinthians.Run(sender, args);
+							return true;
+						case GALATIANS:
+							//KJVGalatians.Run(sender, args);
+							return true;
+						case EPHESIANS:
+							//KJVEphesians.Run(sender, args);
+							return true;
+						case PHILIPPIANS:
+							//KJVPhilippians.Run(sender, args);
+							return true;
+						case COLOSSIANS:
+							//KJVColossians.Run(sender, args);
+							return true;
+						case THESSALONIANS1:
+							//KJV1Thessalonians.Run(sender, args);
+							return true;
+						case THESSALONIANS2:
+							//KJV2Thessalonians.Run(sender, args);
+							return true;
+						case TIMOTHY1:
+							//KJV1Timothy.Run(sender, args);
+							return true;
+						case TIMOTHY2:
+							//KJV2Timothy.Run(sender, args);
+							return true;
+						case TITUS:
+							//KJVTitus.Run(sender, args);
+							return true;
+						case PHILEMON:
+							//KJVPhilemon.Run(sender, args);
+							return true;
+						case HEBREWS:
+							//KJVHebrews.Run(sender, args);
+							return true;
+						case JAMES:
+							//KJVJames.Run(sender, args);
+							return true;
+						case PETER1:
+							//KJV1Peter.Run(sender, args);
+							return true;
+						case PETER2:
+							//KJV2Peter.Run(sender, args);
+							return true;
+						case JOHN1:
+							KJV1John.Run(sender, args);
+							return true;
+						case JOHN2:
+							KJV2John.Run(sender, args);
+							return true;
+						case JOHN3:
+							KJV3John.Run(sender, args);
+							return true;
+						case JUDE:
+							//KJVJude.Run(sender, args);
+							return true;
+						case REVELATION:
+							//KJVRevelation.Run(sender, args);
+							return true;
+						case FIRST:
+							first(sender);
+							return true;
+						case SECOND:
+							second(sender);
+							return true;
+						case THIRD:
+							third(sender);
+							return true;
+						case INFO:
+							info(sender);
+							return true;
+						case BOOKS:
+							BooksList.list1(sender);
+							return true;
+						case BOOKS2:
+							BooksList.list2(sender);
+							return true;
+						case BOOKS3:
+							BooksList.list3(sender);
+							return true;
+						case BOOKS4:
+							BooksList.list4(sender);
+							return true;
+						case BOOKS5:
+							BooksList.list5(sender);
+							return true;
+						case BOOK:
+							KJVBook.Run(sender, args, playerType);
+							return true;
+					}
 				return true;
-			}else if(args[1].equals("Exodus") || args[1].equalsIgnoreCase("Exo")){
-				KJVExodus.Run(sender, args);
-				return true;
-			}else if(args[1].equalsIgnoreCase("Leviticus") || args[1].equalsIgnoreCase("Lev")){
-				KJVLeviticus.Run(sender, args);
-				return true;
-			}else if(args[1].equalsIgnoreCase("Numbers") || args[1].equalsIgnoreCase("Num")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Numbers yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Deuteronomy") || args[1].equalsIgnoreCase("Deu")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Deuteronomy yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Joshua") || args[1].equalsIgnoreCase("Jos")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Joshua yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Judges") || args[1].equalsIgnoreCase("Jud")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Judges yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Ruth")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Ruth yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Ezra")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Ezra yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Nehemiah") || args[1].equalsIgnoreCase("Neh")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Nehemiah yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Esther") || args[1].equalsIgnoreCase("Est")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Esther yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Job")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Job yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Psalms") || args[1].equalsIgnoreCase("Psalm")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Psalms yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Proverbs") || args[1].equalsIgnoreCase("Pro")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Proverbs yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Ecclesiastes") || args[1].equalsIgnoreCase("Ecc")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Ecclesiastes yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Song")){
-				Song.Run(sender, args);
-				return true;
-			}else if(args[1].equalsIgnoreCase("Isaiah") || args[1].equalsIgnoreCase("Isa")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Isaiah yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Jeremiah") || args[1].equalsIgnoreCase("Jer")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Jeremiah yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Lamentations") || args[1].equalsIgnoreCase("Lam")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Lamentations yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Ezekiel") || args[1].equalsIgnoreCase("Eze")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Ezekiel yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Daniel") || args[1].equalsIgnoreCase("Dan")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Daniel yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Hosea")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Hosea yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Joel")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Joel yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Amos")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Amos yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Obadiah")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Obadiah yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Jonah")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Jonah yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Micah")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Micah yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Nahum")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Nahum yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Habakkuk") || args[1].equalsIgnoreCase("Hab")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Habakkuk yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Zephaniah") || args[1].equalsIgnoreCase("Zep")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Zephaniah yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Haggai") || args[1].equalsIgnoreCase("Hag")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Haggai yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Zechariah") || args[1].equalsIgnoreCase("Zec")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Zechariah yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Malachi") || args[1].equalsIgnoreCase("Mal")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Malachi yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Matthew") || args[1].equalsIgnoreCase("Mat")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Matthew yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Mark")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Mark yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Luke")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Luke yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("John")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have John yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Acts")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Acts yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Romans") || args[1].equalsIgnoreCase("Rom")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Romans yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Galatians") || args[1].equalsIgnoreCase("Gal")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Galatians yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Ephesians") || args[1].equalsIgnoreCase("Eph")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Ephesians yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Philippians") || args[1].equalsIgnoreCase("Phili")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Philippians yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Colossians") || args[1].equalsIgnoreCase("Col")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Colossians yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Titus") || args[1].equalsIgnoreCase("Tit")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Titus yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Philemon") || args[1].equalsIgnoreCase("Phile")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Philemon yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Hebrews") || args[1].equalsIgnoreCase("Heb")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Hebrews yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("James") || args[1].equalsIgnoreCase("Jam")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have James yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Jude")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Jude yet.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("Revelation") || args[1].equalsIgnoreCase("Rev")){
-				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Revelation yet.");
-				return true;
-			}else if(args[1].equals("1")){
-				KJV1Books.Run(sender, args);
-				return true;
-			}else if(args[1].equals("2")){
-				KJV2Books.Run(sender, args);
-				return true;
-			}else if(args[1].equals("3")){
-				KJV3Books.Run(sender, args);
-				return true;
-			}else if(args[1].equals("?") || args[1].equalsIgnoreCase("info")){
-				sender.sendMessage(ChatColor.GREEN + "KJV is the King James Version.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("book")){
-				KJVBook.Run(sender, args, playerType);
-				return true;
-			}else if(args[1].equalsIgnoreCase("books")){
-				sender.sendMessage(ChatColor.GREEN + "Page 1 of 5");
-				sender.sendMessage(ChatColor.GREEN + "The Books of the Bible are:");
-				sender.sendMessage(ChatColor.GREEN + "Genesis, Exodus, Leviticus, " + ChatColor.RED
-						+ "Numbers, Deuteronomy, Joshua, Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, " +
-						"2 Kings, 1 Chronicles, 2 Chronicles");
-				sender.sendMessage(ChatColor.GREEN + "Type /bible kjv books2 for the next page.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("books2")){
-				sender.sendMessage(ChatColor.GREEN + "Page 2 of 5");
-				sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
-				sender.sendMessage(ChatColor.RED + "Ezra, Nehemiah, Esther, Job, Psalms, Proverbs," +
-						" Ecclesiastes, Song of Songs, Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel");
-				sender.sendMessage(ChatColor.GREEN + "Type /bible kjv books3 for the next page.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("books3")){
-				sender.sendMessage(ChatColor.GREEN + "Page 3 of 5");
-				sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
-				sender.sendMessage(ChatColor.RED + "Hosea, Joel, Amos, Obadiah, Jonah, Micah," +
-						" Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi, Matthew, Mark, Luke, John");
-				sender.sendMessage(ChatColor.GREEN + "Type /bible kjv books4 for the next page.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("books4")){
-				sender.sendMessage(ChatColor.GREEN + "Page 4 of 5");
-				sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
-				sender.sendMessage(ChatColor.RED + "Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians," +
-						" Ephesians, Philippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy");
-				sender.sendMessage(ChatColor.GREEN + "Type /bible kjv books5 for the next page.");
-				return true;
-			}else if(args[1].equalsIgnoreCase("books5")){
-				sender.sendMessage(ChatColor.GREEN + "Page 5 of 5");
-				sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
-				sender.sendMessage(ChatColor.RED + "2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter," +
-						" 2 Peter, " + ChatColor.GREEN + "1 John, 2 John, 3 John, " + ChatColor.RED + "Jude, " +
-								"and Revelation.");
-				return true;
-			}else{
-				sender.sendMessage(ChatColor.RED + "Sorry, " + args[1] + " isn't a book of the Bible.");
-				return true;
+				}else if(command.isAvailable() == false){
+					sender.sendMessage(ChatColor.RED + "Sorry, " + command.getBook() + "is not available yet.");
+					return true;
+				}
 			}
 		}else{
 			sender.sendMessage(ChatColor.RED + "An error occured.");
 			return true;
 		}
+		return false;
+	}
+	
+	public static void first(CommandSender sender){
+		sender.sendMessage(ChatColor.YELLOW + "You must not put a space after the 1, and you must use 1, not " +
+				"first.");
+	}
+	
+	public static void second(CommandSender sender){
+		sender.sendMessage(ChatColor.YELLOW + "You must not put a space after the 2, and you must use 2, not " +
+				"second.");
+	}
+	
+	public static void third(CommandSender sender){
+		sender.sendMessage(ChatColor.YELLOW + "You must not put a space after the 3, and you must use 3, not " +
+				"third.");
+	}
+	
+	public static void info(CommandSender sender){
+		sender.sendMessage(ChatColor.GREEN + "KJV is the King James Version.");
 	}
 }

@@ -14,96 +14,96 @@ public class KJV1JohnCh5 extends KJV1John {
 	
 	public static boolean Run(CommandSender sender, String[] args)
 	{
-		if(args.length <= 4){
+		if(args.length <= 3){
 			String v1 = KJVBible1JohnCh5.getV1();
 			sender.sendMessage(ChatColor.GREEN + v1);
 			return true;
-		}else if(args.length ==5){
-			if(args[4].equals("1")){
+		}else if(args.length ==4){
+			if(args[3].equals("1")){
 				String v1 = KJVBible1JohnCh5.getV1();
 				sender.sendMessage(ChatColor.GREEN + v1);
 				return true;
-			}else if(args[4].equals("2")){
+			}else if(args[3].equals("2")){
 				String v2 = KJVBible1JohnCh5.getV2();
 				sender.sendMessage(ChatColor.GREEN + v2);
 				return true;
-			}else if(args[4].equals("3")){
+			}else if(args[3].equals("3")){
 				String v3 = KJVBible1JohnCh5.getV3();
 				sender.sendMessage(ChatColor.GREEN + v3);
 				return true;
-			}else if(args[4].equals("4")){
+			}else if(args[3].equals("4")){
 				String v4 = KJVBible1JohnCh5.getV4();
 				sender.sendMessage(ChatColor.GREEN + v4);
 				return true;
-			}else if(args[4].equals("5")){
+			}else if(args[3].equals("5")){
 				String v5 = KJVBible1JohnCh5.getV5();
 				sender.sendMessage(ChatColor.GREEN + v5);
 				return true;
-			}else if(args[4].equals("6")){
+			}else if(args[3].equals("6")){
 				String v6 = KJVBible1JohnCh5.getV6();
 				sender.sendMessage(ChatColor.GREEN + v6);
 				return true;
-			}else if(args[4].equals("7")){
+			}else if(args[3].equals("7")){
 				String v7 = KJVBible1JohnCh5.getV7();
 				sender.sendMessage(ChatColor.GREEN + v7);
 				return true;
-			}else if(args[4].equals("8")){
+			}else if(args[3].equals("8")){
 				String v8 = KJVBible1JohnCh5.getV8();
 				sender.sendMessage(ChatColor.GREEN + v8);
 				return true;
-			}else if(args[4].equals("9")){
+			}else if(args[3].equals("9")){
 				String v9 = KJVBible1JohnCh5.getV9();
 				sender.sendMessage(ChatColor.GREEN + v9);
 				return true;
-			}else if(args[4].equals("10")){
+			}else if(args[3].equals("10")){
 				String v10 = KJVBible1JohnCh5.getV10();
 				sender.sendMessage(ChatColor.GREEN + v10);
 				return true;
-			}else if(args[4].equals("11")){
+			}else if(args[3].equals("11")){
 				String v11 = KJVBible1JohnCh5.getV11();
 				sender.sendMessage(ChatColor.GREEN + v11);
 				return true;
-			}else if(args[4].equals("12")){
+			}else if(args[3].equals("12")){
 				String v12 = KJVBible1JohnCh5.getV12();
 				sender.sendMessage(ChatColor.GREEN + v12);
 				return true;
-			}else if(args[4].equals("13")){
+			}else if(args[3].equals("13")){
 				String v13 = KJVBible1JohnCh5.getV13();
 				sender.sendMessage(ChatColor.GREEN + v13);
 				return true;
-			}else if(args[4].equals("14")){
+			}else if(args[3].equals("14")){
 				String v14 = KJVBible1JohnCh5.getV14();
 				sender.sendMessage(ChatColor.GREEN + v14);
 				return true;
-			}else if(args[4].equals("15")){
+			}else if(args[3].equals("15")){
 				String v15 = KJVBible1JohnCh5.getV15();
 				sender.sendMessage(ChatColor.GREEN + v15);
 				return true;
-			}else if(args[4].equals("16")){
+			}else if(args[3].equals("16")){
 				String v16 = KJVBible1JohnCh5.getV16();
 				sender.sendMessage(ChatColor.GREEN + v16);
 				return true;
-			}else if(args[4].equals("17")){
+			}else if(args[3].equals("17")){
 				String v17 = KJVBible1JohnCh5.getV17();
 				sender.sendMessage(ChatColor.GREEN + v17);
 				return true;
-			}else if(args[4].equals("18")){
+			}else if(args[3].equals("18")){
 				String v18 = KJVBible1JohnCh5.getV18();
 				sender.sendMessage(ChatColor.GREEN + v18);
 				return true;
-			}else if(args[4].equals("19")){
+			}else if(args[3].equals("19")){
 				String v19 = KJVBible1JohnCh5.getV19();
 				sender.sendMessage(ChatColor.GREEN + v19);
 				return true;
-			}else if(args[4].equals("20")){
+			}else if(args[3].equals("20")){
 				String v20 = KJVBible1JohnCh5.getV20();
 				sender.sendMessage(ChatColor.GREEN + v20);
 				return true;
-			}else if(args[4].equals("21")){
+			}else if(args[3].equals("21")){
 				String v21 = KJVBible1JohnCh5.getV21();
 				sender.sendMessage(ChatColor.GREEN + v21);
 				return true;
-			}else if(args[4].equals("?") || args[4].equals("#")){
+			}else if(args[3].equals("?") || args[3].equals("#")){
 				String info = KJVBible1JohnCh5.getInfo();
 				sender.sendMessage(ChatColor.GREEN + info);
 				return true;

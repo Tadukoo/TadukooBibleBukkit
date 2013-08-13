@@ -14,14 +14,14 @@ public class KJV2John extends KJV {
 	
 	public static boolean Run(CommandSender sender, String[] args)
 	{
-		if(args.length <= 3){
+		if(args.length <= 2){
 			KJV2JohnCh1.Run(sender, args);
 			return true;
-		}else if(args.length >=4){
-			if(args[3].equals("1")){
+		}else if(args.length >=3){
+			if(args[2].equals("1")){
 				KJV2JohnCh1.Run(sender, args);
 				return true;
-			}else if(args[3].equals("?")){
+			}else if(args[2].equals("?")){
 				sender.sendMessage(ChatColor.GREEN + "2 John teaches about focusing on Jesus Christ.");
 				sender.sendMessage(ChatColor.GREEN + "It was written by the apostle John.");
 				sender.sendMessage(ChatColor.GREEN + "It has 1 chapter.");
