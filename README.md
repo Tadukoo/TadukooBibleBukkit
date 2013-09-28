@@ -58,6 +58,8 @@ Known Issues
 ------------
 The book cuts off part of the verses on pages 3 and 5.
 
+Currently Genesis does not work due to changes being made in the plugin. It will be fixed ASAP.
+
 Translations
 ------------
 Currently the only translation in the plugin is the King James Version (KJV), which is public domain. In the future, Tadukoo will be requesting permission

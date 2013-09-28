@@ -1,5 +1,7 @@
 package com.gmail.lucario77777777.TBP.commands.KJV.Genesis;
 
+//import java.util.logging.Logger;
+
 import com.gmail.lucario77777777.TBP.commands.KJV.KJV;
 
 import org.bukkit.ChatColor;
@@ -14,11 +16,46 @@ public class KJVGenesis extends KJV {
 	
 	public static boolean Run(CommandSender sender, String[] args)
 	{
+		String verse = null;
 		if(args.length <= 2){
-			KJVGenesisCh1.Run2(sender, args);
+			String chp = "1";
+			String v = "1";
+			String ref = "ch" + chp + "v" + v;
+			verse = 
+					Main.
+					plugin.
+					getKJVGenesisConfig().
+					getString(
+							ref);
+			sender.sendMessage(ChatColor.GREEN + verse);
 			return true;
 		}else if(args.length >=3){
-			if(args[2].equals("1")){
+			if(args[2].equalsIgnoreCase("?")){
+				verse = Main.plugin.getKJVGenesisConfig().getString("GenInfo");
+				sender.sendMessage(ChatColor.GREEN + verse);
+				return true;
+			}else{
+				String chp = args[2];
+				String v = null;
+				if(args.length == 3){
+					v = "1";
+				}else{
+					v = args[3];
+				}
+				//try{
+				String ref = "ch" + chp + "v" + v;
+					verse = Main.plugin.getKJVGenesisConfig().getString(ref);
+					sender.sendMessage(ChatColor.GREEN + verse);
+				//}catch(Exception e){
+					//Logger.getLogger(ChatColor.RED + "An error occurred. Error: " + e);
+					//sender.sendMessage(ChatColor.RED + "An error occurred. Error: " + e);
+					//sender.sendMessage(ChatColor.RED + "Please check to make sure you typed in a verse/ " +
+							//"chapter number that exists.");
+				//}
+				
+			//if( <= 50){
+				
+			/*if(args[2].equals("1")){
 				KJVGenesisCh1.Run2(sender, args);
 				return true;
 			}else if(args[2].equals("2")){
@@ -167,16 +204,12 @@ public class KJVGenesis extends KJV {
 				return true;
 			}else if(args[2].equals("50")){
 				KJVGenesisCh50.Run(sender, args);
+				return true;*/
+			
 				return true;
-			}else if(args[2].equals("?")){
-				sender.sendMessage(ChatColor.GREEN + "Genesis tells about Creation up through the time the " +
-						"Israelites go to Egypt.");
-				sender.sendMessage(ChatColor.GREEN + "It was written by Moses.");
-				sender.sendMessage(ChatColor.GREEN + "It has 50 chapters.");
-				return true;
-			}else{
+			/*}else{
 				sender.sendMessage(ChatColor.RED + "Sorry, Genesis only has 50 chapters.");
-				return true;
+				return true;*/
 			}
 		}else{
 			sender.sendMessage(ChatColor.RED + "An error occured.");

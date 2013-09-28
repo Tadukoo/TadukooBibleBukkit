@@ -1,8 +1,10 @@
 package com.gmail.lucario77777777.TBP.commands.KJV.Genesis;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 import com.gmail.lucario77777777.TBP.commands.KJV.bible.Genesis.KJVBibleGenesisCh1;
 
@@ -16,22 +18,30 @@ public class KJVGenesisCh1 extends KJVGenesis {
 		super(plugin);
 	}
 	public static void Run2(CommandSender sender, String[] args){
+		InputStreamReader isr = null;
 		BufferedReader br = null;
 		String sFile = "";
+		FileInputStream fstream;
 		try {
-			String sCurrentLine;
-			br = new BufferedReader(new FileReader("GenesisCh1.txt"));
-			while ((sCurrentLine = br.readLine()) != null){
-				sFile += sCurrentLine;
+			fstream = new FileInputStream("/bible/KJVGenCh1.txt");
+			try (DataInputStream dstream = new DataInputStream(fstream)) {
+				String sCurrentLine;
+				isr = new InputStreamReader(dstream);
+				br = new BufferedReader(isr);
+				while ((sCurrentLine = br.readLine()) != null){
+					sFile += sCurrentLine;
+				}
+			}catch (IOException e){
+				e.printStackTrace();
+				} finally {
+					try {
+						if (br != null)br.close();
+					} catch (IOException ex) {
+						ex.printStackTrace();
+					}
 			}
-		}catch (IOException e){
-			e.printStackTrace();
-		} finally {
-			try {
-				if (br != null)br.close();
-			} catch (IOException ex) {
-				ex.printStackTrace();
-			}
+		}catch (Exception e){
+			sender.sendMessage(ChatColor.RED + "Error:" + e.getMessage());
 		}
 		int verse = 1;
 		if(args.length <= 3){
@@ -42,6 +52,7 @@ public class KJVGenesisCh1 extends KJVGenesis {
 				verse = Integer.parseInt(args[3]);
 			}catch(NumberFormatException e){
 				verse = 1;
+				sender.sendMessage(ChatColor.RED + "An error occured, using verse 1.");
 			}
 			if(verse > 31){
 				verse = 1;
