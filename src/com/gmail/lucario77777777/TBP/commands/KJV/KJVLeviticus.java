@@ -7,21 +7,20 @@ import org.bukkit.command.CommandSender;
 
 import com.gmail.lucario77777777.TBP.Main;
 
-public class KJV3John extends KJV {
-	public KJV3John(Main plugin) {
+public class KJVLeviticus extends KJV{
+	public KJVLeviticus(Main plugin){
 		super(plugin);
 	}
 	
-	public static boolean Run(CommandSender sender, String[] args, Main plugin)
-	{
+	public static boolean Run(CommandSender sender, String[] args, Main plugin){
 		String chp = null;
 		String v = null;
 		String verse = null;
-		if(args.length >= 3){
-			if(args[2].equalsIgnoreCase("info") || args[2].equalsIgnoreCase("?")){
-				verse = plugin.getKJV3John().getString("John3Info");
+		if(args.length >=3){
+			if(args[2].equalsIgnoreCase("?") || args[2].equalsIgnoreCase("info")){
+				verse = plugin.getKJVLev().getString("LevInfo");
 			}else if(args[2].equalsIgnoreCase("#")){
-				verse = plugin.getKJV3John().getString("John3#");
+				verse = plugin.getKJVLev().getString("Lev#");
 			}else{
 				chp = args[2];
 				if(args.length == 3){
@@ -40,13 +39,13 @@ public class KJV3John extends KJV {
 		if(v == null){
 			v = "1";
 		}
-		try {
+		try{
 			if(verse == null){
 				String ref = "ch" + chp + "v" + v;
-				verse = plugin.getKJV3John().getString(ref);
+				verse = plugin.getKJVLev().getString(ref);
 			}
 			sender.sendMessage(ChatColor.GREEN + verse);
-		}catch (Exception e){
+		}catch(Exception e){
 			plugin.getLogger().log(Level.SEVERE, "An error occurred. Error: " + e);
 			sender.sendMessage(ChatColor.RED + "An error occurred. Error: " + e);
 			sender.sendMessage(ChatColor.RED + "Please check to make sure you typed in a verse/ " +

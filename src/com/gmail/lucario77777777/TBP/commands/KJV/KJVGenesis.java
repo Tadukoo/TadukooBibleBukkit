@@ -20,9 +20,9 @@ public class KJVGenesis extends KJV {
 		String verse = null;
 		if(args.length >=3){
 			if(args[2].equalsIgnoreCase("?") || args[2].equalsIgnoreCase("info")){
-				verse = plugin.getKJVGenesisConfig().getString("GenInfo");
+				verse = plugin.getKJVGen().getString("GenInfo");
 			}else if(args[2].equalsIgnoreCase("#")){
-				verse = plugin.getKJVGenesisConfig().getString("Gen#");
+				verse = plugin.getKJVGen().getString("Gen#");
 			}else{
 				chp = args[2];
 				if(args.length == 3){
@@ -44,7 +44,7 @@ public class KJVGenesis extends KJV {
 		try{
 			if(verse == null){
 				String ref = "ch" + chp + "v" + v;
-				verse = plugin.getKJVGenesisConfig().getString(ref);
+				verse = plugin.getKJVGen().getString(ref);
 			}
 			sender.sendMessage(ChatColor.GREEN + verse);
 		}catch(Exception e){

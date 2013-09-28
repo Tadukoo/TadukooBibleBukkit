@@ -1,8 +1,6 @@
 package com.gmail.lucario77777777.TBP.commands.KJV;
 
 import com.gmail.lucario77777777.TBP.commands.MainCommandExecutor;
-import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodus;
-import com.gmail.lucario77777777.TBP.commands.KJV.Leviticus.KJVLeviticus;
 import com.gmail.lucario77777777.TBP.commands.KJV.Books.KJVBook;
 import com.gmail.lucario77777777.TBP.commands.KJV.KJVEnumBooks;
 
@@ -31,10 +29,10 @@ public class KJV extends MainCommandExecutor {
 							KJVGenesis.Run(sender, args, plugin);
 							return true;
 						case EXODUS:
-							KJVExodus.Run(sender, args);
+							KJVExodus.Run(sender, args, plugin);
 							return true;
 						case LEVITICUS:
-							KJVLeviticus.Run(sender, args);
+							KJVLeviticus.Run(sender, args, plugin);
 							return true;
 						case NUMBERS:
 							KJVNumbers.Run(sender, args, plugin);

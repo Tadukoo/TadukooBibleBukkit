@@ -1,17 +1,56 @@
-package com.gmail.lucario77777777.TBP.commands.KJV.Exodus;
+package com.gmail.lucario77777777.TBP.commands.KJV;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.lucario77777777.TBP.Main;
-import com.gmail.lucario77777777.TBP.commands.KJV.KJV;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh1;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh10;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh11;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh12;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh13;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh14;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh15;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh16;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh17;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh18;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh19;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh2;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh20;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh21;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh22;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh23;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh24;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh25;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh26;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh27;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh28;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh29;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh3;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh30;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh31;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh32;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh33;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh34;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh35;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh36;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh37;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh38;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh39;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh4;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh40;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh5;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh6;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh7;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh8;
+import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodusCh9;
 
 public class KJVExodus extends KJV{
 	public KJVExodus(Main plugin){
 		super(plugin);
 	}
 	
-	public static boolean Run(CommandSender sender, String[] args){
+	public static boolean Run(CommandSender sender, String[] args, Main plugin){
 		if(args.length <= 2){
 			KJVExodusCh1.Run(sender, args);
 			return true;

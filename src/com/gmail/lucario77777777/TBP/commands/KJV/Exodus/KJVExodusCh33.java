@@ -1,5 +1,6 @@
 package com.gmail.lucario77777777.TBP.commands.KJV.Exodus;
 
+import com.gmail.lucario77777777.TBP.commands.KJV.KJVExodus;
 import com.gmail.lucario77777777.TBP.commands.KJV.bible.Exodus.KJVBibleExodusCh33;
 
 import org.bukkit.ChatColor;

@@ -19,9 +19,9 @@ public class KJV2John extends KJV {
 		String verse = null;
 		if(args.length >= 3){
 			if(args[2].equalsIgnoreCase("info") || args[2].equalsIgnoreCase("?")){
-				verse = plugin.getKJV2JohnConfig().getString("John2Info");
+				verse = plugin.getKJV2John().getString("John2Info");
 			}else if(args[2].equalsIgnoreCase("#")){
-				verse = plugin.getKJV2JohnConfig().getString("John2#");
+				verse = plugin.getKJV2John().getString("John2#");
 			}else{
 				chp = args[2];
 				if(args.length == 3){
@@ -43,7 +43,7 @@ public class KJV2John extends KJV {
 		try {
 			if(verse == null){
 				String ref = "ch" + chp + "v" + v;
-				verse = plugin.getKJV2JohnConfig().getString(ref);
+				verse = plugin.getKJV2John().getString(ref);
 			}
 			sender.sendMessage(ChatColor.GREEN + verse);
 		}catch (Exception e){

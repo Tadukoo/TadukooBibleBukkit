@@ -18,9 +18,9 @@ public class KJVNumbers extends KJV{
 		String verse = null;
 		if(args.length >=3){
 			if(args[2].equalsIgnoreCase("?") || args[2].equalsIgnoreCase("info")){
-				verse = plugin.getKJVNumbersConfig().getString("NumInfo");
+				verse = plugin.getKJVNum().getString("NumInfo");
 			}else if(args[2].equalsIgnoreCase("#")){
-				verse = plugin.getKJVNumbersConfig().getString("Num#");
+				verse = plugin.getKJVNum().getString("Num#");
 			}else{
 				chp = args[2];
 				if(args.length == 3){
@@ -42,7 +42,7 @@ public class KJVNumbers extends KJV{
 		try{
 			if(verse == null){
 				String ref = "ch" + chp + "v" + v;
-				verse = plugin.getKJVNumbersConfig().getString(ref);
+				verse = plugin.getKJVNum().getString(ref);
 			}
 			sender.sendMessage(ChatColor.GREEN + verse);
 		}catch(Exception e){

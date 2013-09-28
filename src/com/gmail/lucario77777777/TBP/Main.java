@@ -15,10 +15,12 @@ import com.gmail.lucario77777777.TBP.commands.MainCommandExecutor;
 public class Main extends JavaPlugin {
 	public static Main plugin;
 	PluginDescriptionFile pdfFile = this.getDescription();
-	public FileConfiguration KJVGenesis = null;
-	public File KJVGenesisFile = null;
-	public FileConfiguration KJVNumbers = null;
-	public File KJVNumbersFile = null;
+	public FileConfiguration KJVGen = null;
+	public File KJVGenFile = null;
+	public FileConfiguration KJVLev = null;
+	public File KJVLevFile = null;
+	public FileConfiguration KJVNum = null;
+	public File KJVNumFile = null;
 	public FileConfiguration KJV1John = null;
 	public File KJV1JohnFile = null;
 	public FileConfiguration KJV2John = null;
@@ -29,95 +31,136 @@ public class Main extends JavaPlugin {
 	@Override
 	public void onDisable () {
 		saveConfig();
-		saveKJVGenesisConfig();
-		saveKJV1JohnConfig();
-		saveKJV2JohnConfig();
-		saveKJV3JohnConfig();
+		saveKJV();
 	}
 	@Override
 	public void onEnable () {
 		getConfig().options().copyDefaults(true);
 		saveConfig();
-		reloadKJVGenesisConfig();
-		getKJVGenesisConfig().options().copyDefaults(true);
-		saveKJVGenesisConfig();
-		reloadKJVNumbersConfig();
-		getKJVNumbersConfig().options().copyDefaults(true);
-		saveKJVNumbersConfig();
-		reloadKJV1JohnConfig();
-		getKJV1JohnConfig().options().copyDefaults(true);
-		saveKJV1JohnConfig();
-		reloadKJV2JohnConfig();
-		getKJV2JohnConfig().options().copyDefaults(true);
-		saveKJV2JohnConfig();
-		reloadKJV3JohnConfig();
-		getKJV3JohnConfig().options().copyDefaults(true);
-		saveKJV3JohnConfig();
+		reloadKJV();
+		defaultKJV();
+		saveKJV();
 		getCommand("bible").setExecutor(new MainCommandExecutor(this));
-		this.getLogger().log(Level.INFO,"Tadukoo Bible");
 	}
 	
-	public void reloadKJVGenesisConfig() {
-	    if (KJVGenesisFile == null || KJVGenesis == null) {
-	    KJVGenesisFile = new File(getDataFolder(), "bible/KJV/Genesis.yml");
+	public void reloadKJV() {
+		reloadKJVGen();
+		reloadKJVLev();
+		reloadKJVNum();
+		reloadKJV1John();
+		reloadKJV2John();
+		reloadKJV3John();
+	}
+	
+	public void defaultKJV() {
+		getKJVGen().options().copyDefaults(true);
+		getKJVLev().options().copyDefaults(true);
+		getKJVNum().options().copyDefaults(true);
+		getKJV1John().options().copyDefaults(true);
+		getKJV2John().options().copyDefaults(true);
+		getKJV3John().options().copyDefaults(true);
+	}
+	
+	public void saveKJV() {
+		saveKJVGen();
+		saveKJVLev();
+		saveKJVNum();
+		saveKJV1John();
+		saveKJV2John();
+		saveKJV3John();
+	}
+	
+	public void reloadKJVGen() {
+	    if (KJVGenFile == null || KJVGen == null) {
+	    KJVGenFile = new File(getDataFolder(), "bible/KJV/Genesis.yml");
 	    }
-	    KJVGenesis = YamlConfiguration.loadConfiguration(KJVGenesisFile);
+	    KJVGen = YamlConfiguration.loadConfiguration(KJVGenFile);
 	    InputStream defConfigStream = this.getResource("bible/KJV/Genesis.yml");
 	    if (defConfigStream != null) {
 	        YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(defConfigStream);
-	        KJVGenesis.setDefaults(defConfig);
+	        KJVGen.setDefaults(defConfig);
 	    }
 	}
 	
-	public FileConfiguration getKJVGenesisConfig() {
-	    if (KJVGenesis == null || KJVGenesisFile == null) {
-	        this.reloadKJVGenesisConfig();
+	public FileConfiguration getKJVGen() {
+	    if (KJVGen == null || KJVGenFile == null) {
+	        this.reloadKJVGen();
 	    }
-	    return KJVGenesis;
+	    return KJVGen;
 	}
 	
-	public void saveKJVGenesisConfig() {
-	    if (KJVGenesis == null || KJVGenesisFile == null) {
+	public void saveKJVGen() {
+	    if (KJVGen == null || KJVGenFile == null) {
 	    return;
 	    }
 	    try {
-	        getKJVGenesisConfig().save(KJVGenesisFile);
+	        getKJVGen().save(KJVGenFile);
 	    } catch (IOException ex) {
-	        this.getLogger().log(Level.SEVERE, "Could not save config to " + KJVGenesisFile + ex);
+	        this.getLogger().log(Level.SEVERE, "Could not save config to " + KJVGenFile + ex);
 	    }
 	}
 	
-	public void reloadKJVNumbersConfig() {
-		if (KJVNumbersFile == null || KJVNumbers == null) {
-			KJVNumbersFile = new File(getDataFolder(), "bible/KJV/Numbers.yml");
+	public void reloadKJVLev() {
+		if (KJVLevFile == null || KJVLev == null) {
+			KJVLevFile = new File(getDataFolder(), "bible/KJV/Leviticus.yml");
 		}
-		KJVNumbers = YamlConfiguration.loadConfiguration(KJVNumbersFile);
+		KJVLev = YamlConfiguration.loadConfiguration(KJVLevFile);
+		InputStream defConfigStream = this.getResource("bible/KJV/Leviticus.yml");
+		if (defConfigStream != null) {
+			YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(defConfigStream);
+			KJVLev.setDefaults(defConfig);
+		}
+	}
+	
+	public FileConfiguration getKJVLev() {
+		if (KJVLev == null || KJVLevFile == null){
+			this.reloadKJVLev();
+		}
+		return KJVLev;
+	}
+	
+	public void saveKJVLev() {
+		if (KJVLev == null || KJVLevFile == null) {
+		    return;
+		    }
+		    try {
+		        getKJVLev().save(KJVLevFile);
+		    } catch (IOException ex) {
+		        this.getLogger().log(Level.SEVERE, "Could not save config to " + KJVLevFile + ex);
+		    }
+	}
+	
+	public void reloadKJVNum() {
+		if (KJVNumFile == null || KJVNum == null) {
+			KJVNumFile = new File(getDataFolder(), "bible/KJV/Numbers.yml");
+		}
+		KJVNum = YamlConfiguration.loadConfiguration(KJVNumFile);
 		InputStream defConfigStream = this.getResource("bible/KJV/Numbers.yml");
 		if (defConfigStream != null) {
 			YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(defConfigStream);
-			KJVNumbers.setDefaults(defConfig);
+			KJVNum.setDefaults(defConfig);
 		}
 	}
 	
-	public FileConfiguration getKJVNumbersConfig() {
-		if (KJVNumbers == null || KJVNumbersFile == null) {
-			this.reloadKJVNumbersConfig();
+	public FileConfiguration getKJVNum() {
+		if (KJVNum == null || KJVNumFile == null) {
+			this.reloadKJVNum();
 		}
-		return KJVNumbers;
+		return KJVNum;
 	}
 	
-	public void saveKJVNumbersConfig() {
-		if (KJVNumbers == null || KJVNumbersFile == null) {
+	public void saveKJVNum() {
+		if (KJVNum == null || KJVNumFile == null) {
 			return;
 		}
 		try {
-			getKJVNumbersConfig().save(KJVNumbersFile);
+			getKJVNum().save(KJVNumFile);
 		} catch (IOException ex) {
-			this.getLogger().log(Level.SEVERE, "Could not save config to " + KJVNumbersFile + ex);
+			this.getLogger().log(Level.SEVERE, "Could not save config to " + KJVNumFile + ex);
 		}
 	}
 	
-	public void reloadKJV1JohnConfig() {
+	public void reloadKJV1John() {
 	    if (KJV1JohnFile == null || KJV1John == null) {
 	    KJV1JohnFile = new File(getDataFolder(), "bible/KJV/1John.yml");
 	    }
@@ -129,25 +172,25 @@ public class Main extends JavaPlugin {
 	    }
 	}
 	
-	public FileConfiguration getKJV1JohnConfig() {
+	public FileConfiguration getKJV1John() {
 	    if (KJV1John == null || KJV1JohnFile == null) {
-	        this.reloadKJV1JohnConfig();
+	        this.reloadKJV1John();
 	    }
 	    return KJV1John;
 	}
 	
-	public void saveKJV1JohnConfig() {
+	public void saveKJV1John() {
 	    if (KJV1John == null || KJV1JohnFile == null) {
 	    return;
 	    }
 	    try {
-	        getKJV1JohnConfig().save(KJV1JohnFile);
+	        getKJV1John().save(KJV1JohnFile);
 	    } catch (IOException ex) {
 	        this.getLogger().log(Level.SEVERE, "Could not save config to " + KJV1JohnFile + ex);
 	    }
 	}
 	
-	public void reloadKJV2JohnConfig() {
+	public void reloadKJV2John() {
 		if (KJV2JohnFile == null || KJV2John == null){
 			KJV2JohnFile = new File(getDataFolder(), "bible/KJV/2John.yml");
 		}
@@ -159,25 +202,25 @@ public class Main extends JavaPlugin {
 		}
 	}
 	
-	public FileConfiguration getKJV2JohnConfig() {
+	public FileConfiguration getKJV2John() {
 		if (KJV2John == null || KJV2JohnFile == null) {
-			this.reloadKJV2JohnConfig();
+			this.reloadKJV2John();
 		}
 		return KJV2John;
 	}
 	
-	public void saveKJV2JohnConfig() {
+	public void saveKJV2John() {
 		if (KJV2John == null || KJV2JohnFile == null) {
 			return;
 		}
 		try {
-			getKJV2JohnConfig().save(KJV2JohnFile);
+			getKJV2John().save(KJV2JohnFile);
 		} catch (IOException ex) {
 			this.getLogger().log(Level.SEVERE, "Could not save config to " + KJV2JohnFile + ex);
 		}
 	}
 	
-	public void reloadKJV3JohnConfig() {
+	public void reloadKJV3John() {
 		if (KJV3JohnFile == null || KJV3John == null){
 			KJV3JohnFile = new File(getDataFolder(), "bible/KJV/3John.yml");
 		}
@@ -189,19 +232,19 @@ public class Main extends JavaPlugin {
 		}
 	}
 	
-	public FileConfiguration getKJV3JohnConfig() {
+	public FileConfiguration getKJV3John() {
 		if (KJV3John == null || KJV3JohnFile == null) {
-			this.reloadKJV3JohnConfig();
+			this.reloadKJV3John();
 		}
 		return KJV3John;
 	}
 	
-	public void saveKJV3JohnConfig() {
+	public void saveKJV3John() {
 		if (KJV3John == null || KJV3JohnFile == null){
 			return;
 		}
 		try {
-			getKJV3JohnConfig().save(KJV3JohnFile);
+			getKJV3John().save(KJV3JohnFile);
 		} catch (IOException ex) {
 			this.getLogger().log(Level.SEVERE, "Could not save config to " + KJV3JohnFile + ex);
 		}
