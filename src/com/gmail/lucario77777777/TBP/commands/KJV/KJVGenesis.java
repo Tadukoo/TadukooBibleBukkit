@@ -1,8 +1,7 @@
-package com.gmail.lucario77777777.TBP.commands.KJV.Genesis;
+package com.gmail.lucario77777777.TBP.commands.KJV;
 
 import java.util.logging.Level;
 
-import com.gmail.lucario77777777.TBP.commands.KJV.KJV;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;

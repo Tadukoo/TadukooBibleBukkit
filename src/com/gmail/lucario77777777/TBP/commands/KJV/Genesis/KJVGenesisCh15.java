@@ -1,5 +1,6 @@
 package com.gmail.lucario77777777.TBP.commands.KJV.Genesis;
 
+import com.gmail.lucario77777777.TBP.commands.KJV.KJVGenesis;
 import com.gmail.lucario77777777.TBP.commands.KJV.bible.Genesis.KJVBibleGenesisCh15;
 
 import org.bukkit.ChatColor;

@@ -52,7 +52,7 @@ Command Usage
 Upcoming Commands
 -----------------
 /bible < translation > announce < book > < chapter # > < verse # >
-   * Broadcasts the verse you chose.
+   * Broadcasts the verse you choose.
 
 Known Issues
 ------------
@@ -60,7 +60,7 @@ The book cuts off part of the verses on pages 3 and 5.
 
 The book is completely blank for now due to changes in plugin set-up.
 
-Currently Genesis 5-50 does not work due to changes being made in the plugin. It will be fixed ASAP. These changes are being made to greatly reduce
+Currently Genesis 6-50 do not work due to changes being made in the plugin. They will be fixed ASAP. These changes are being made to greatly reduce
 plugin size.
 
 Translations

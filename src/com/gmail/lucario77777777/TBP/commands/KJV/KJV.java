@@ -1,7 +1,6 @@
 package com.gmail.lucario77777777.TBP.commands.KJV;
 
 import com.gmail.lucario77777777.TBP.commands.MainCommandExecutor;
-import com.gmail.lucario77777777.TBP.commands.KJV.Genesis.KJVGenesis;
 import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodus;
 import com.gmail.lucario77777777.TBP.commands.KJV.John1st.KJV1John;
 import com.gmail.lucario77777777.TBP.commands.KJV.John2nd.KJV2John;
