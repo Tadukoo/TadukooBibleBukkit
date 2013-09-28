@@ -2,9 +2,6 @@ package com.gmail.lucario77777777.TBP.commands.KJV;
 
 import com.gmail.lucario77777777.TBP.commands.MainCommandExecutor;
 import com.gmail.lucario77777777.TBP.commands.KJV.Exodus.KJVExodus;
-import com.gmail.lucario77777777.TBP.commands.KJV.John1st.KJV1John;
-import com.gmail.lucario77777777.TBP.commands.KJV.John2nd.KJV2John;
-import com.gmail.lucario77777777.TBP.commands.KJV.John3rd.KJV3John;
 import com.gmail.lucario77777777.TBP.commands.KJV.Leviticus.KJVLeviticus;
 import com.gmail.lucario77777777.TBP.commands.KJV.Numbers.KJVNumbers;
 import com.gmail.lucario77777777.TBP.commands.KJV.Books.KJVBook;
@@ -215,13 +212,13 @@ public class KJV extends MainCommandExecutor {
 							//KJV2Peter.Run(sender, args);
 							return true;
 						case JOHN1:
-							KJV1John.Run(sender, args);
+							KJV1John.Run(sender, args, plugin);
 							return true;
 						case JOHN2:
-							KJV2John.Run(sender, args);
+							KJV2John.Run(sender, args, plugin);
 							return true;
 						case JOHN3:
-							KJV3John.Run(sender, args);
+							KJV3John.Run(sender, args, plugin);
 							return true;
 						case JUDE:
 							//KJVJude.Run(sender, args);
