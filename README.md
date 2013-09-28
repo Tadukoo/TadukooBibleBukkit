@@ -29,7 +29,7 @@ Command Usage
    * If [ chapter # ] or [ verse # ] is empty, it will go with 1.
    * [ chapter # ] can be replaced with # to see how many chapters are in that book.
    * [ chapter # ] can be replaced with ? or info to see info about the book you chose.
-   * [ verse # ] can be replaced with # or ? to see how many verses are in that chapter.
+   * [ verse # ] can be replaced with #, ?, or info to see how many verses are in that chapter.
    * < translation > can currently only be KJV.
    
 /bible list or /bible ?
@@ -45,7 +45,7 @@ Command Usage
    * Gives you part of the Bible in book form.
    * [ book ] can be any book of the Bible.
    * [ part # ] is the part of the book you want. It does not go by chapter.
-   * [ ? ] can be typed to see what the [ part # ] you chose would give you.
+   * [ ? ] can be typed to see what the [ part # ] you choose would give you.
       * Feature not yet implemented (the question mark)
    * NOTE: THE BOOKS ARE NOWHERE NEAR AS COMPLETE AS THE THROUGH-CHAT COMMANDS.
 
@@ -60,7 +60,7 @@ The book cuts off part of the verses on pages 3 and 5.
 
 The book is completely blank for now due to changes in plugin set-up.
 
-Currently Genesis 6-50 do not work due to changes being made in the plugin. They will be fixed ASAP. These changes are being made to greatly reduce
+Currently Genesis 11-50 do not work due to changes being made in the plugin. They will be fixed ASAP. These changes are being made to greatly reduce
 plugin size.
 
 Translations
