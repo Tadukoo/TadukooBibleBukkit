@@ -12,14 +12,14 @@ public class KJVBookGenesis extends KJVBook {
 		super(plugin);
 	}
 	
-	public static boolean Run(CommandSender sender, String[] args)
+	public static boolean Run(CommandSender sender, String[] args, Main plugin)
 	{
 		if(args.length <= 3){
-			KJVBookGenesis1.Run(sender, args);
+			KJVBookGenesis1.Run(sender, args, plugin);
 			return true;
 		}else if(args.length >=4){
 			if(args[3].equals("1")){
-				KJVBookGenesis1.Run(sender, args);
+				KJVBookGenesis1.Run(sender, args, plugin);
 				return true;
 			}else{
 				sender.sendMessage(ChatColor.RED + "Sorry, we don't have Genesis Chapter " + args[3] + " in KJV yet.");

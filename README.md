@@ -58,7 +58,10 @@ Known Issues
 ------------
 The book cuts off part of the verses on pages 3 and 5.
 
-Currently Genesis does not work due to changes being made in the plugin. It will be fixed ASAP.
+The book is completely blank for now due to changes in plugin set-up.
+
+Currently Genesis 5-50 does not work due to changes being made in the plugin. It will be fixed ASAP. These changes are being made to greatly reduce
+plugin size.
 
 Translations
 ------------

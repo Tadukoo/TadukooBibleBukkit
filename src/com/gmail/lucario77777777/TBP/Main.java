@@ -32,7 +32,7 @@ public class Main extends JavaPlugin {
 	}
 	
 	public void reloadKJVGenesisConfig() {
-	    if (KJVGenesisFile == null) {
+	    if (KJVGenesisFile == null || KJVGenesis == null) {
 	    KJVGenesisFile = new File(getDataFolder(), "bible/KJV/Genesis.yml");
 	    }
 	    KJVGenesis = YamlConfiguration.loadConfiguration(KJVGenesisFile);
@@ -46,7 +46,7 @@ public class Main extends JavaPlugin {
 	}
 	
 	public FileConfiguration getKJVGenesisConfig() {
-	    if (KJVGenesis == null) {
+	    if (KJVGenesis == null || KJVGenesisFile == null) {
 	        this.reloadKJVGenesisConfig();
 	    }
 	    return KJVGenesis;

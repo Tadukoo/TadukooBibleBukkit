@@ -21,10 +21,10 @@ public class KJV extends MainCommandExecutor {
 		super(plugin);
 	}
 	
-	public static boolean Run(CommandSender sender, String[] args, String playerType)
+	public static boolean Run(CommandSender sender, String[] args, String playerType, Main plugin)
 	{
 		if(args.length == 1){
-			KJVGenesis.Run(sender, args);
+			KJVGenesis.Run(sender, args, plugin);
 			return true;
 		}else if(args.length >=2){
 			KJVEnumBooks book = KJVEnumBooks.GENESIS;
@@ -33,7 +33,7 @@ public class KJV extends MainCommandExecutor {
 				if(command.isAvailable() == true){
 					switch(command){
 						case GENESIS:
-							KJVGenesis.Run(sender, args);
+							KJVGenesis.Run(sender, args, plugin);
 							return true;
 						case EXODUS:
 							KJVExodus.Run(sender, args);
@@ -258,7 +258,7 @@ public class KJV extends MainCommandExecutor {
 							BooksList.list5(sender);
 							return true;
 						case BOOK:
-							KJVBook.Run(sender, args, playerType);
+							KJVBook.Run(sender, args, playerType, plugin);
 							return true;
 					}
 				return true;

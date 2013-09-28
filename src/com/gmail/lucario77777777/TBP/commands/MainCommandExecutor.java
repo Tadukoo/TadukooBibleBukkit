@@ -10,10 +10,10 @@ import com.gmail.lucario77777777.TBP.commands.KJV.KJV;
 
 public class MainCommandExecutor implements CommandExecutor {
 	
-
-
+	private Main plugin;
+	
 	public MainCommandExecutor(Main plugin) {
-		
+		this.plugin = plugin;
 	}
 	
 	@Override
@@ -38,7 +38,7 @@ public class MainCommandExecutor implements CommandExecutor {
 					return true;
 				}else if(args.length >= 1){
 					if(args[0].equalsIgnoreCase("kjv")){
-						KJV.Run(sender, args, playerType);
+						KJV.Run(sender, args, playerType, plugin);
 						return true;
 					}else if(args[0].equalsIgnoreCase("?") || args[0].equalsIgnoreCase("list")){
 						Translations.List(sender);

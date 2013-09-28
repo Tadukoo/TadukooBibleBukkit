@@ -8,7 +8,7 @@ public class KJVBibleGenesisCh5 extends KJV{
 	public KJVBibleGenesisCh5(Main plugin) {
 		super(plugin);
 	}
-	public static String info = "[BOOK] Chapter 5 has 32 verses.";
+	public static String info = "Genesis Chapter 5 has 32 verses.";
 	public static String v1 = "This is the book of the generations of Adam. In the day that God created man, " +
 			"in the likeness of God made he him;";
 	public static String v2 = "Male and female created he them; and blessed them, and called their name " +

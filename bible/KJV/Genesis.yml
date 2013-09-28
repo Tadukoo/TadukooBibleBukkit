@@ -3,65 +3,162 @@ GenInfo: 'Genesis tells about Creation up through the time the Israelites go to 
 #                                        #
 #              Chapter 1                 #
 ##########################################
-ch1vinfo: 'Genesis Chapter 1 has 11 verses.'
-ch1v1: 'In the beginning God created the heavens and the earth.'
-ch1v2: 'And the earth was without form, and void and darkness was upon the face of the deep.'
+ch1vinfo: Genesis Chapter 1 has 11 verses.
+ch1v1: In the beginning God created the heavens and the earth.
+ch1v2: And the earth was without form, and void and darkness was upon the face of the deep.
 ch1v3: 'And God said, Let there be light: and there was light.'
-ch1v4: 'And God saw the light, that it was good: and God divided the light from the darkness.'
-ch1v5: 'And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.'
-ch1v6: 'And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters.'
-ch1v7: 'And God made the firmament and divided the waters which were under the firmament from the waters which were above the firmament: and it was so.'
-ch1v8: 'And God called the firmament Heaven. And the evening and the morning were the second day.'
-ch1v9: 'And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so.'
-ch1v10: 'And God called the dry land Earth and the gathering together of the waters called he Seas: and God saw that it was good.'
-ch1v11: 'And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so.'
-ch1v12: 'And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit, whose seed was in itself, after his kind: and God saw that it was good.'
-ch1v13: 'And the evening and the morning were the third day.'
-ch1v14: 'And God said, Let there be lights in the firmament of the heaven to divide the day from the night and let them be for signs, and for seasons, and for days, and years:'
-ch1v15: 'And let them be for lights in the firmament of the heaven to give light upon the earth: and it was so.'
-ch1v16: 'And God made two great lights the greater light to rule the day, and the lesser light to rule the night: he made the stars also.'
-ch1v17: 'And God set them in the firmament of the heaven to give light upon the earth,'
-ch1v18: 'And to rule over the day and over the night, and to divide the light from the darkness: and God saw that it was good.'
-ch1v19: 'And the evening and the morning were the fourth day.'
-ch1v20: 'And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.'
-ch1v21: 'And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good.'
-ch1v22: 'And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.'
-ch1v23: 'And the evening and the morning were the fifth day.'
-ch1v24: 'And God said, Let the earth bring forth the living creature after his kind, cattle, and creeping thing, and beast of the earth after his kind: and it was so.'
-ch1v25: 'And God made the beast of the earth after his kind, and cattle after their kind, and everything that creepeth upon the earth after his kind: and God saw that it was good.'
-ch1v26: 'And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.'
-ch1v27: 'So God created man in his own image, in the image of God created he him male and female created he them.'
-ch1v28: 'And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth.'
-ch1v29: 'And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed to you it shall be for meat.'
-ch1v30: 'And to every beast of the earth, and to every fowl of the air, and to every thing that creepeth upon the earth, wherein there is life, I have given every green herb for meat: and it was so.'
-ch1v31: 'And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day.'
+ch1v4: 'And God saw the light, that it was good: and God divided the light from the
+  darkness.'
+ch1v5: And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.
+ch1v6: And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters.
+ch1v7: 'And God made the firmament and divided the waters which were under the firmament
+  from the waters which were above the firmament: and it was so.'
+ch1v8: And God called the firmament Heaven. And the evening and the morning were the second day.
+ch1v9: 'And God said, Let the waters under the heaven be gathered together unto one
+  place, and let the dry land appear: and it was so.'
+ch1v10: 'And God called the dry land Earth and the gathering together of the waters
+  called he Seas: and God saw that it was good.'
+ch1v11: 'And God said, Let the earth bring forth grass, the herb yielding seed, and
+  the fruit tree yielding fruit after his kind, whose seed is in itself, upon the
+  earth: and it was so.'
+ch1v12: 'And the earth brought forth grass, and herb yielding seed after his kind,
+  and the tree yielding fruit, whose seed was in itself, after his kind: and God saw
+  that it was good.'
+ch1v13: And the evening and the morning were the third day.
+ch1v14: 'And God said, Let there be lights in the firmament of the heaven to divide
+  the day from the night and let them be for signs, and for seasons, and for days,
+  and years:'
+ch1v15: 'And let them be for lights in the firmament of the heaven to give light upon
+  the earth: and it was so.'
+ch1v16: 'And God made two great lights the greater light to rule the day, and the
+  lesser light to rule the night: he made the stars also.'
+ch1v17: And God set them in the firmament of the heaven to give light upon the earth,
+ch1v18: 'And to rule over the day and over the night, and to divide the light from
+  the darkness: and God saw that it was good.'
+ch1v19: And the evening and the morning were the fourth day.
+ch1v20: And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.
+ch1v21: 'And God created great whales, and every living creature that moveth, which
+  the waters brought forth abundantly, after their kind, and every winged fowl after
+  his kind: and God saw that it was good.'
+ch1v22: And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.
+ch1v23: And the evening and the morning were the fifth day.
+ch1v24: 'And God said, Let the earth bring forth the living creature after his kind,
+  cattle, and creeping thing, and beast of the earth after his kind: and it was so.'
+ch1v25: 'And God made the beast of the earth after his kind, and cattle after their
+  kind, and everything that creepeth upon the earth after his kind: and God saw that
+  it was good.'
+ch1v26: 'And God said, Let us make man in our image, after our likeness: and let them
+  have dominion over the fish of the sea, and over the fowl of the air, and over the
+  cattle, and over all the earth, and over every creeping thing that creepeth upon
+  the earth.'
+ch1v27: So God created man in his own image, in the image of God created he him male and female created he them.
+ch1v28: 'And God blessed them, and God said unto them, Be fruitful, and multiply,
+  and replenish the earth, and subdue it: and have dominion over the fish of the sea,
+  and over the fowl of the air, and over every living thing that moveth upon the earth.'
+ch1v29: And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed to you it shall be for meat.
+ch1v30: 'And to every beast of the earth, and to every fowl of the air, and to every
+  thing that creepeth upon the earth, wherein there is life, I have given every green
+  herb for meat: and it was so.'
+ch1v31: And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day.
 ##########################################
 #                                        #
 #              Chapter 2                 #
 ##########################################
-ch2vinfo: 'Genesis Chapter 2 has 25 verses.'
-ch2v1: 'Thus the heavens and the earth were finished, and all the host of them.'
-ch2v2: 'And on the seventh day God ended the work which he had made and he rested on the seventh day from all his work which he had made.'
-ch2v3: 'And God blessed the seventh day, and sanctified it: because that in it he had rested from all his work which God created and made.'
-ch2v4: 'These are the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens.'
-ch2v5: 'And every plant of the field before it was in the earth, and every herb of the field before it grew: for the LORD God had not caused it to rain upon the earth, and there was not a man to till the ground.'
-ch2v6: 'But there went up a mist from the earth, and watered the whole face of the ground.'
-ch2v7: 'And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life and man became a living soul.'
-ch2v8: 'And the LORD God planted a garden, eastward in Eden and there he put the man whom he had formed.'
-ch2v9: 'And out of the ground made the LORD God to grow every tree that is pleasant to the sight, and good for food the tree of life also in the midst of the garden, and the tree of knowledge of good and evil.'
-ch2v10: 'And a river went out of Eden to water the garden and from thence it was parted, and became into four heads.'
-ch2v11: 'The name of the first is Pison that is it which compasseth the whole land of Havilah, where there is gold'
+ch2vinfo: Genesis Chapter 2 has 25 verses.
+ch2v1: Thus the heavens and the earth were finished, and all the host of them.
+ch2v2: And on the seventh day God ended the work which he had made and he rested on the seventh day from all his work which he had made.
+ch2v3: 'And God blessed the seventh day, and sanctified it: because that in it he
+  had rested from all his work which God created and made.'
+ch2v4: These are the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens.
+ch2v5: 'And every plant of the field before it was in the earth, and every herb of
+  the field before it grew: for the LORD God had not caused it to rain upon the earth,
+  and there was not a man to till the ground.'
+ch2v6: But there went up a mist from the earth, and watered the whole face of the ground.
+ch2v7: And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life and man became a living soul.
+ch2v8: And the LORD God planted a garden, eastward in Eden and there he put the man whom he had formed.
+ch2v9: And out of the ground made the LORD God to grow every tree that is pleasant to the sight, and good for food the tree of life also in the midst of the garden, and the tree of knowledge of good and evil.
+ch2v10: And a river went out of Eden to water the garden and from thence it was parted, and became into four heads.
+ch2v11: The name of the first is Pison that is it which compasseth the whole land of Havilah, where there is gold
 ch2v12: 'And the gold of that land is good: there is bdellium and the onyx stone.'
-ch2v13: 'And the name of the second river is Gihon: the same is it that compasseth the whole land of Ethiopia.'
-ch2v14: 'And the name of the third river is Hiddekel: that is it which goeth toward the east of Assyria. And the fourth river is Euphrates.'
-ch2v15: 'And the LORD God took the man, and put him into the garden of Eden to dress it and to keep it.'
-ch2v16: 'And the LORD God commanded the man, saying, Of every tree of the garden thou mayest freely eat:'
-ch2v17: 'But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die.'
-ch2v18: 'And the LORD God said, It is not good that the man should be alone I will make him an help meet for him.'
-ch2v19: 'And out of the ground the LORD God formed every beast of the field, and every fowl of the air and brought them unto Adam to see what he would call them: and whatsoever Adam called every living creature, that was the name thereof.'
-ch2v20: 'And Adam gave names to all cattle, and to the fowl of the air, and to every beast of the field but for Adam there was not found an help meet for him.'
-ch2v21: 'And the LORD God caused a deep sleep to fall upon Adam, and he slept: and he took one of his ribs, and closed up the flesh instead thereof'
-ch2v22: 'And the rib, which the LORD God had taken from man, made he a woman, and brought her unto the man.'
-ch2v23: 'And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man.'
-ch2v24: 'Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.'
-ch2v25: 'And they were both naked, the man and his wife, and were not ashamed.'
+ch2v13: 'And the name of the second river is Gihon: the same is it that compasseth
+  the whole land of Ethiopia.'
+ch2v14: 'And the name of the third river is Hiddekel: that is it which goeth toward
+  the east of Assyria. And the fourth river is Euphrates.'
+ch2v15: And the LORD God took the man, and put him into the garden of Eden to dress it and to keep it.
+ch2v16: 'And the LORD God commanded the man, saying, Of every tree of the garden thou
+  mayest freely eat:'
+ch2v17: 'But of the tree of the knowledge of good and evil, thou shalt not eat of
+  it: for in the day that thou eatest thereof thou shalt surely die.'
+ch2v18: And the LORD God said, It is not good that the man should be alone I will make him an help meet for him.
+ch2v19: 'And out of the ground the LORD God formed every beast of the field, and every
+  fowl of the air and brought them unto Adam to see what he would call them: and whatsoever
+  Adam called every living creature, that was the name thereof.'
+ch2v20: And Adam gave names to all cattle, and to the fowl of the air, and to every beast of the field but for Adam there was not found an help meet for him.
+ch2v21: 'And the LORD God caused a deep sleep to fall upon Adam, and he slept: and
+  he took one of his ribs, and closed up the flesh instead thereof'
+ch2v22: And the rib, which the LORD God had taken from man, made he a woman, and brought her unto the man.
+ch2v23: 'And Adam said, This is now bone of my bones, and flesh of my flesh: she shall
+  be called Woman, because she was taken out of Man.'
+ch2v24: 'Therefore shall a man leave his father and his mother, and shall cleave unto
+  his wife: and they shall be one flesh.'
+ch2v25: And they were both naked, the man and his wife, and were not ashamed.
+##########################################
+#                                        #
+#              Chapter 3                 #
+##########################################
+ch3vinfo: Genesis Chapter 3 has 24 verses.
+ch3v1: Now the serpent was more subtil than any beast of the field which the LORD God had made. And he said unto the woman, Yea, hath God said, Ye shall not eat of any tree of the garden?
+ch3v2: 'And the woman said unto the serpent, We may eat of the fruit of the trees of the garden:'
+ch3v3: But of the fruit of the tree which is in the midst of the garden, God hath said, Ye shall not eat of it, neither shall ye touch it, lest ye die.
+ch3v4: 'And the serpent said unto the woman, Ye shall not surely die:'
+ch3v5: For God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.
+ch3v6: And when the woman saw that the tree was good for food, and that it was pleasant to the eyes, and a tree to be desired to make one wise, she took of the fruit thereof, and did eat, and gave also unto her husband with her and he did eat.
+ch3v7: And the eyes of them both were opened, and they knew that they were naked and they sewed fig leaves together, and made themselves aprons.
+ch3v8: 'And they heard the voice of the LORD God walking in the garden in the cool of the day: and Adam and his wife hid themselves from the presence of the LORD God amongst the trees of the garden.'
+ch3v9: And the LORD God called unto Adam, and said unto him, Where art thou?
+ch3v10: And he said, I heard thy voice in the garden, and I was afraid, because I was naked and I hid myself.
+ch3v11: And he said, Who told thee that thou wast naked? Hast thou eaten of the tree, whereof I commanded thee that thou shouldest not eat?
+ch3v12: And the man said, The woman whom thou gavest to be with me, she gave me of the tree, and I did eat.
+ch3v13: And the LORD God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I did eat.
+ch3v14: 'And the LORD God said unto the serpant, Because thou hast done this, thou art cursed above all cattle, and above every beast of the field upon thy belly shalt thou go, and dust shalt thou eat all the days of thy life:'
+ch3v15: And I will put enmity between thee and the woman, and between thy seed and her seed it shall bruise thy head, and thou shalt bruise his heel.
+ch3v16: Unto the woman he said, I will greatly multiply thy sorrow and thy conception in sorrow thou shalt bring forth children and thy desire shall be to thy husband, and he shall rule over thee.
+ch3v17: 'And unto Adam he said, Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake in sorrow shalt thou eat of it all the days of thy life'
+ch3v18: Thorns also and thistles shall it bring forth to thee and thou shalt eat the herb of the field
+ch3v19: 'In the sweat of thy face shalt thou eat bread, till thou return unto the ground for out of it wast thou taken: for dust thou art, and unto dust shalt thou return.'
+ch3v20: And Adam called his wife's name Eve because she was the mother of all living.
+ch3v21: Unto Adam also and to his wife did the LORD God make coats of skins, and clothed them.
+ch3v22: 'And the LORD God said, Behold, the man is become as one of us, to know good and evil: and now, lest he put forth his hand, and take also of the tree of life, and eat, and live for ever:'
+ch3v23: Therefore the LORD God sent him forth from the garden of Eden, to till the ground from whence he was taken.
+ch3v24: So he drove out the man and he placed at the east of the garden of Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life.
+##########################################
+#                                        #
+#              Chapter 4                 #
+##########################################
+ch4vinfo: Genesis Chapter 4 has 26 verses.
+ch4v1: And Adam knew Ever his wife; and she conceived, and bare Cain, and said, I have gotten a man from the LORD
+ch4v2: And she again bare his brother Abel. And Abel was a keeper of sheep, but Cain was a tiller of the ground.
+ch4v3: And in process of time it came to pass, that Cain brought of the fruit of the ground an offering unto the LORD.
+ch4v4: 'And Abel, he also brought of the firstlings of his flock and of the fat thereof. And the LORD had respect unto Abel and to his offering:'
+ch4v5: But unto Cain and to his offering he had not respect. And Cain was very wroth, and his counterance fell.
+ch4v6: And the LORD said unto Cain, Why art thou wroth? and why is thy counterance fallen?
+ch4v7: If thou doest well, shalt thou not be accepted? and if thou doest not well, sin lieth at the door. And unto thee shall be his desire, and thou shalt rule over him.
+ch4v8: 'And Cain talked with Abel his brother: and it came to pass, when they were in the field, that Cain rose up against Abel his brother, and slew him.'
+ch4v9: 'And the LORD said unto Cain, Where is Abel thy brother? And he said, I know not: Am I my brother''s keeper?'
+ch4v10: And he said, What hast thou done? the voice of thy brother's blood crieth unto me from the ground.
+ch4v11: And now art thou cursed from the earth, which hath opened her mouth to receive thy brother's blood from thy hand;
+ch4v12: When thou tillest the ground, it shall not henceforth yield unto thee her strength; a fugitive and a vagabond shalt thou be in the earth.
+ch4v13: And Cain said unto the LORD, My punishment is greater than I can bear.
+ch4v14: Behold, thou hast driven me out this day from the face of the earth; and from thy face shall I be hid; and I shall be a fugitive and a vagabond in the earth; and it shall come to pass, that every one that findeth me shall slay me.
+ch4v15: And the LORD said unto him, Therefore whosoever slayeth Cain, vengeance shall be taken on him sevenfold. And the LORD set a mark upon Cain, lest any finding him should kill him.
+ch4v16: And Cain went out from the presence of the LORD, and dwelt in the land of Nod, on the east of Eden.
+ch4v17: And Cain knew his wife; and she conceived, and bare Enoch; and he builded a city, after the name of his son, Enoch.
+ch4v18: 'And unto Enoch was born Irad: and Irad begat Mehujael: and Mehujael begat Methusael: and Methusael begat Lamech.'
+ch4v19: 'And Lamech took unto him two wives: the name of the one was Adah, and the name of the other Zillah.'
+ch4v20: 'And Adah bare Jabal: he was the father of such as dwell in tents, and of such as have cattle.'
+ch4v21: 'And his brother''s name was Jubal: he was the father of all such as handle the harp and organ.'
+ch4v22: 'And Zillah, she also bare Tubalcain, an instructer of every artificer in brass and iron: and the sister of Tubalcain was Naamah.'
+ch4v23: And Lamech said unto his wives, Adah and Zillah, Hear my voice; ye wives of Lamech, hearken unto my speech for I have slain a man to my wounding, and a young man to my hurt.
+ch4v24: If Cain shall be avenged sevenfold, truly Lamech seventy and sevenfold.
+ch4v25: 'And Adam knew his wife again; and she bare a son, and called his name Seth: For God, said she, hath appointed me another seed instead of Abel, whom Cain slew.'
+ch4v26: 'And to Seth, to him also there was born a son; and he called his name Enos: then began men to call upon the name of the LORD.'
