@@ -60,7 +60,7 @@ The book cuts off part of the verses on pages 3 and 5.
 
 The book is completely blank for now due to changes in plugin set-up.
 
-Currently Genesis 11-50 do not work due to changes being made in the plugin. They will be fixed ASAP. These changes are being made to greatly reduce
+Currently Genesis 21-50 do not work due to changes being made in the plugin. They will be fixed ASAP. These changes are being made to greatly reduce
 plugin size.
 
 Translations

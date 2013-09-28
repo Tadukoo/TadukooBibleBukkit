@@ -20,10 +20,13 @@ public class Main extends JavaPlugin {
 	
 	@Override
 	public void onDisable () {
+		saveConfig();
 		saveKJVGenesisConfig();
 	}
 	@Override
 	public void onEnable () {
+		getConfig().options().copyDefaults(true);
+		saveConfig();
 		reloadKJVGenesisConfig();
 		getKJVGenesisConfig().options().copyDefaults(true);
 		saveKJVGenesisConfig();
