@@ -17,6 +17,8 @@ public class Main extends JavaPlugin {
 	PluginDescriptionFile pdfFile = this.getDescription();
 	public FileConfiguration KJVGenesis = null;
 	public File KJVGenesisFile = null;
+	public FileConfiguration KJVNumbers = null;
+	public File KJVNumbersFile = null;
 	public FileConfiguration KJV1John = null;
 	public File KJV1JohnFile = null;
 	public FileConfiguration KJV2John = null;
@@ -39,6 +41,9 @@ public class Main extends JavaPlugin {
 		reloadKJVGenesisConfig();
 		getKJVGenesisConfig().options().copyDefaults(true);
 		saveKJVGenesisConfig();
+		reloadKJVNumbersConfig();
+		getKJVNumbersConfig().options().copyDefaults(true);
+		saveKJVNumbersConfig();
 		reloadKJV1JohnConfig();
 		getKJV1JohnConfig().options().copyDefaults(true);
 		saveKJV1JohnConfig();
@@ -80,6 +85,36 @@ public class Main extends JavaPlugin {
 	    } catch (IOException ex) {
 	        this.getLogger().log(Level.SEVERE, "Could not save config to " + KJVGenesisFile + ex);
 	    }
+	}
+	
+	public void reloadKJVNumbersConfig() {
+		if (KJVNumbersFile == null || KJVNumbers == null) {
+			KJVNumbersFile = new File(getDataFolder(), "bible/KJV/Numbers.yml");
+		}
+		KJVNumbers = YamlConfiguration.loadConfiguration(KJVNumbersFile);
+		InputStream defConfigStream = this.getResource("bible/KJV/Numbers.yml");
+		if (defConfigStream != null) {
+			YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(defConfigStream);
+			KJVNumbers.setDefaults(defConfig);
+		}
+	}
+	
+	public FileConfiguration getKJVNumbersConfig() {
+		if (KJVNumbers == null || KJVNumbersFile == null) {
+			this.reloadKJVNumbersConfig();
+		}
+		return KJVNumbers;
+	}
+	
+	public void saveKJVNumbersConfig() {
+		if (KJVNumbers == null || KJVNumbersFile == null) {
+			return;
+		}
+		try {
+			getKJVNumbersConfig().save(KJVNumbersFile);
+		} catch (IOException ex) {
+			this.getLogger().log(Level.SEVERE, "Could not save config to " + KJVNumbersFile + ex);
+		}
 	}
 	
 	public void reloadKJV1JohnConfig() {
