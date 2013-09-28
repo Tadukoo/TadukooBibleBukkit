@@ -60,9 +60,6 @@ The book cuts off part of the verses on pages 3 and 5.
 
 The book is completely blank for now due to changes in plugin set-up.
 
-Currently Genesis 21-50 do not work due to changes being made in the plugin. They will be fixed ASAP. These changes are being made to greatly reduce
-plugin size.
-
 Translations
 ------------
 Currently the only translation in the plugin is the King James Version (KJV), which is public domain. In the future, Tadukoo will be requesting permission
