@@ -17,6 +17,8 @@ public class Main extends JavaPlugin {
 	PluginDescriptionFile pdfFile = this.getDescription();
 	public FileConfiguration KJVGen = null;
 	public File KJVGenFile = null;
+	public FileConfiguration KJVExo = null;
+	public File KJVExoFile = null;
 	public FileConfiguration KJVLev = null;
 	public File KJVLevFile = null;
 	public FileConfiguration KJVNum = null;
@@ -45,6 +47,7 @@ public class Main extends JavaPlugin {
 	
 	public void reloadKJV() {
 		reloadKJVGen();
+		reloadKJVExo();
 		reloadKJVLev();
 		reloadKJVNum();
 		reloadKJV1John();
@@ -54,6 +57,7 @@ public class Main extends JavaPlugin {
 	
 	public void defaultKJV() {
 		getKJVGen().options().copyDefaults(true);
+		getKJVExo().options().copyDefaults(true);
 		getKJVLev().options().copyDefaults(true);
 		getKJVNum().options().copyDefaults(true);
 		getKJV1John().options().copyDefaults(true);
@@ -63,6 +67,7 @@ public class Main extends JavaPlugin {
 	
 	public void saveKJV() {
 		saveKJVGen();
+		saveKJVExo();
 		saveKJVLev();
 		saveKJVNum();
 		saveKJV1John();
@@ -98,6 +103,36 @@ public class Main extends JavaPlugin {
 	    } catch (IOException ex) {
 	        this.getLogger().log(Level.SEVERE, "Could not save config to " + KJVGenFile + ex);
 	    }
+	}
+	
+	public void reloadKJVExo() {
+		if (KJVExoFile == null || KJVExo == null) {
+			KJVExoFile = new File(getDataFolder(), "bible/KJV/Exodus.yml");
+		}
+		KJVExo = YamlConfiguration.loadConfiguration(KJVExoFile);
+		InputStream defConfigStream = this.getResource("bible/KJV/Exodus.yml");
+		if (defConfigStream != null) {
+			YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(defConfigStream);
+			KJVExo.setDefaults(defConfig);
+		}
+	}
+	
+	public FileConfiguration getKJVExo() {
+		if(KJVExoFile == null || KJVExo == null) {
+			this.reloadKJVExo();
+		}
+		return KJVExo;
+	}
+	
+	public void saveKJVExo() {
+		if (KJVExoFile == null || KJVExo == null){
+			return;
+		}
+		try {
+			getKJVExo().save(KJVExoFile);
+		} catch (IOException ex) {
+			this.getLogger().log(Level.SEVERE, "Could not save config to " + KJVExoFile + ex);
+		}
 	}
 	
 	public void reloadKJVLev() {
