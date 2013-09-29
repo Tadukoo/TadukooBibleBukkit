@@ -40,17 +40,22 @@ public class KJV2John extends KJV {
 		if(v == null){
 			v = "1";
 		}
-		try {
+		try{
 			if(verse == null){
 				String ref = "ch" + chp + "v" + v;
-				verse = plugin.getKJV2John().getString(ref);
+				if(plugin.getKJV2John().getString(ref) != null){
+					verse = plugin.getKJV2John().getString(ref);
+				}else{
+					verse = "An error occurred. Please check to make sure you typed in a verse/ " +
+							"chapter number that exists.";
+					sender.sendMessage(ChatColor.RED + verse);
+					return true;
+				}
 			}
 			sender.sendMessage(ChatColor.GREEN + verse);
-		}catch (Exception e){
+		}catch(Exception e){
 			plugin.getLogger().log(Level.SEVERE, "An error occurred. Error: " + e);
 			sender.sendMessage(ChatColor.RED + "An error occurred. Error: " + e);
-			sender.sendMessage(ChatColor.RED + "Please check to make sure you typed in a verse/ " +
-					"chapter number that exists.");
 		}
 		return true;
 	}

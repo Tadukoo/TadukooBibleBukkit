@@ -23,12 +23,24 @@ public class Main extends JavaPlugin {
 	public File KJVLevFile = null;
 	public FileConfiguration KJVNum = null;
 	public File KJVNumFile = null;
+	public FileConfiguration KJVDeu = null;
+	public File KJVDeuFile = null;
+	public FileConfiguration KJVMat = null;
+	public File KJVMatFile = null;
+	public FileConfiguration KJVMark = null;
+	public File KJVMarkFile =null;
+	public FileConfiguration KJVLuke = null;
+	public File KJVLukeFile = null;
+	public FileConfiguration KJVJohn = null;
+	public File KJVJohnFile = null;
 	public FileConfiguration KJV1John = null;
 	public File KJV1JohnFile = null;
 	public FileConfiguration KJV2John = null;
 	public File KJV2JohnFile = null;
 	public FileConfiguration KJV3John = null;
 	public File KJV3JohnFile = null;
+	public FileConfiguration Test = null;
+	public File TestFile = null;
 	
 	@Override
 	public void onDisable () {
@@ -50,6 +62,11 @@ public class Main extends JavaPlugin {
 		reloadKJVExo();
 		reloadKJVLev();
 		reloadKJVNum();
+		//reloadKJVDeu();
+		//reloadKJVMat();
+		//reloadKJVMark();
+		//reloadKJVLuke();
+		//reloadKJVJohn();
 		reloadKJV1John();
 		reloadKJV2John();
 		reloadKJV3John();
@@ -60,6 +77,11 @@ public class Main extends JavaPlugin {
 		getKJVExo().options().copyDefaults(true);
 		getKJVLev().options().copyDefaults(true);
 		getKJVNum().options().copyDefaults(true);
+		//getKJVDeu().options().copyDefaults(true);
+		//getKJVMat().options().copyDefaults(true);
+		//getKJVMark().options().copyDefaults(true);
+		//getKJVLuke().options().copyDefaults(true);
+		//getKJVJohn().options().copyDefaults(true);
 		getKJV1John().options().copyDefaults(true);
 		getKJV2John().options().copyDefaults(true);
 		getKJV3John().options().copyDefaults(true);
@@ -70,11 +92,19 @@ public class Main extends JavaPlugin {
 		saveKJVExo();
 		saveKJVLev();
 		saveKJVNum();
+		//saveKJVDeu();
+		//saveKJVMat();
+		//saveKJVMark();
+		//saveKJVLuke();
+		//saveKJVJohn();
 		saveKJV1John();
 		saveKJV2John();
 		saveKJV3John();
 	}
 	
+	/*
+	 * Genesis.yml
+	*/
 	public void reloadKJVGen() {
 	    if (KJVGenFile == null || KJVGen == null) {
 	    KJVGenFile = new File(getDataFolder(), "bible/KJV/Genesis.yml");
@@ -105,6 +135,9 @@ public class Main extends JavaPlugin {
 	    }
 	}
 	
+	/*
+	 * Exodus.yml
+	*/
 	public void reloadKJVExo() {
 		if (KJVExoFile == null || KJVExo == null) {
 			KJVExoFile = new File(getDataFolder(), "bible/KJV/Exodus.yml");
@@ -135,6 +168,9 @@ public class Main extends JavaPlugin {
 		}
 	}
 	
+	/*
+	 * Leviticus.yml
+	 */
 	public void reloadKJVLev() {
 		if (KJVLevFile == null || KJVLev == null) {
 			KJVLevFile = new File(getDataFolder(), "bible/KJV/Leviticus.yml");
@@ -165,6 +201,9 @@ public class Main extends JavaPlugin {
 		    }
 	}
 	
+	/*
+	 * Numbers.yml
+	 */
 	public void reloadKJVNum() {
 		if (KJVNumFile == null || KJVNum == null) {
 			KJVNumFile = new File(getDataFolder(), "bible/KJV/Numbers.yml");
@@ -195,6 +234,174 @@ public class Main extends JavaPlugin {
 		}
 	}
 	
+	/*
+	 * Deuteronomy.yml
+	 */
+	public void reloadKJVDeu() {
+		if (KJVDeuFile == null || KJVDeu == null) {
+			KJVDeuFile = new File(getDataFolder(), "bible/KJV/Deuteronomy.yml");
+		}
+		KJVDeu = YamlConfiguration.loadConfiguration(KJVDeuFile);
+		InputStream defConfigStream = this.getResource("bible/KJV/Deuteronomy.yml");
+		if (defConfigStream != null) {
+			YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(defConfigStream);
+			KJVDeu.setDefaults(defConfig);
+		}
+	}
+	
+	public FileConfiguration getKJVDeu() {
+		if (KJVDeuFile == null || KJVDeu == null){
+			this.reloadKJVDeu();
+		}
+		return KJVDeu;
+	}
+	
+	public void saveKJVDeu() {
+		if (KJVDeu == null || KJVDeuFile == null) {
+			return;
+		}
+		try {
+			getKJVDeu().save(KJVDeuFile);
+		} catch (IOException ex) {
+			this.getLogger().log(Level.SEVERE, "Could not save config to " + KJVDeuFile + ex);
+		}
+	}
+	
+	/*
+	 * Matthew.yml
+	 */
+	public void reloadKJVMat() {
+		if (KJVMatFile == null || KJVMat == null) {
+			KJVMatFile = new File(getDataFolder(), "bible/KJV/Matthew.yml");
+		}
+		KJVMat = YamlConfiguration.loadConfiguration(KJVMatFile);
+		InputStream defConfigStream = this.getResource("bible/KJV/Matthew.yml");
+		if (defConfigStream != null) {
+			YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(KJVMatFile);
+			KJVMat.setDefaults(defConfig);
+		}
+	}
+	
+	public FileConfiguration getKJVMat() {
+		if (KJVMat == null || KJVMatFile == null) {
+			this.reloadKJVMat();
+		}
+		return KJVMat;
+	}
+	
+	public void saveKJVMat() {
+		if (KJVMat == null || KJVMatFile == null) {
+			return;
+		}
+		try {
+			getKJVMat().save(KJVMatFile);
+		} catch (IOException ex) {
+			this.getLogger().log(Level.SEVERE, "Could not save config to " + KJVMatFile + ex);
+		}
+	}
+	
+	/*
+	 * Mark.yml
+	 */
+	public void reloadKJVMark() {
+		if (KJVMarkFile == null || KJVMark == null) {
+			KJVMarkFile = new File(getDataFolder(), "bible/KJV/Mark.yml");
+		}
+		KJVMark = YamlConfiguration.loadConfiguration(KJVMarkFile);
+		InputStream defConfigStream = this.getResource("bible/KJV/Mark.yml");
+		if (defConfigStream != null) {
+			YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(KJVMarkFile);
+			KJVMark.setDefaults(defConfig);
+		}
+	}
+	
+	public FileConfiguration getKJVMark() {
+		if (KJVMark == null || KJVMarkFile == null) {
+			this.reloadKJVMark();
+		}
+		return KJVMark;
+	}
+	
+	public void saveKJVMark() {
+		if (KJVMark == null || KJVMarkFile == null) {
+			return;
+		}
+		try {
+			getKJVMark().save(KJVMarkFile);
+		} catch (IOException ex) {
+			this.getLogger().log(Level.SEVERE, "Could not save config to " + KJVMarkFile + ex);
+		}
+	}
+	
+	/*
+	 * Luke.yml
+	 */
+	public void reloadKJVLuke() {
+		if (KJVLukeFile == null || KJVLuke == null) {
+			KJVLukeFile = new File(getDataFolder(), "bible/KJV/Luke.yml");
+		}
+		KJVLuke = YamlConfiguration.loadConfiguration(KJVLukeFile);
+		InputStream defConfigStream = this.getResource("bible/KJV/Luke.yml");
+		if (defConfigStream != null) {
+			YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(KJVLukeFile);
+			KJVLuke.setDefaults(defConfig);
+		}
+	}
+	
+	public FileConfiguration getKJVLuke() {
+		if (KJVLuke == null || KJVLukeFile == null) {
+			this.reloadKJVLuke();
+		}
+		return KJVLuke;
+	}
+	
+	public void saveKJVLuke() {
+		if (KJVLuke == null || KJVLukeFile == null) {
+			return;
+		}
+		try {
+			getKJVLuke().save(KJVLukeFile);
+		} catch (IOException ex) {
+			this.getLogger().log(Level.SEVERE, "Could not save config to " + KJVLukeFile + ex);
+		}
+	}
+	
+	/*
+	 * John.yml
+	 */
+	public void reloadKJVJohn() {
+		if (KJVJohnFile == null || KJVJohn == null) {
+			KJVJohnFile = new File(getDataFolder(), "bible/KJV/John.yml");
+		}
+		KJVJohn = YamlConfiguration.loadConfiguration(KJVJohnFile);
+		InputStream defConfigStream = this.getResource("bible/KJV/John.yml");
+		if (defConfigStream != null) {
+			YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(KJVJohnFile);
+			KJVJohn.setDefaults(defConfig);
+		}
+	}
+	
+	public FileConfiguration getKJVJohn() {
+		if (KJVJohn == null || KJVJohnFile == null) {
+			this.reloadKJVJohn();
+		}
+		return KJVJohn;
+	}
+	
+	public void saveKJVJohn() {
+		if (KJVJohn == null || KJVJohnFile == null) {
+			return;
+		}
+		try {
+			getKJVJohn().save(KJVJohnFile);
+		} catch (IOException ex) {
+			this.getLogger().log(Level.SEVERE, "Could not save config to " + KJVJohnFile + ex);
+		}
+	}
+	
+	/*
+	 * 1John.yml
+	 */
 	public void reloadKJV1John() {
 	    if (KJV1JohnFile == null || KJV1John == null) {
 	    KJV1JohnFile = new File(getDataFolder(), "bible/KJV/1John.yml");
@@ -225,6 +432,9 @@ public class Main extends JavaPlugin {
 	    }
 	}
 	
+	/*
+	 * 2John.yml
+	 */
 	public void reloadKJV2John() {
 		if (KJV2JohnFile == null || KJV2John == null){
 			KJV2JohnFile = new File(getDataFolder(), "bible/KJV/2John.yml");
@@ -255,6 +465,9 @@ public class Main extends JavaPlugin {
 		}
 	}
 	
+	/*
+	 * 3John.yml
+	 */
 	public void reloadKJV3John() {
 		if (KJV3JohnFile == null || KJV3John == null){
 			KJV3JohnFile = new File(getDataFolder(), "bible/KJV/3John.yml");

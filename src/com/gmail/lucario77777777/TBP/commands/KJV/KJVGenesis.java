@@ -44,14 +44,19 @@ public class KJVGenesis extends KJV {
 		try{
 			if(verse == null){
 				String ref = "ch" + chp + "v" + v;
-				verse = plugin.getKJVGen().getString(ref);
+				if(plugin.getKJVGen().getString(ref) != null){
+					verse = plugin.getKJVGen().getString(ref);
+				}else{
+					verse = "An error occurred. Please check to make sure you typed in a verse/ " +
+							"chapter number that exists.";
+					sender.sendMessage(ChatColor.RED + verse);
+					return true;
+				}
 			}
 			sender.sendMessage(ChatColor.GREEN + verse);
 		}catch(Exception e){
 			plugin.getLogger().log(Level.SEVERE, "An error occurred. Error: " + e);
 			sender.sendMessage(ChatColor.RED + "An error occurred. Error: " + e);
-			sender.sendMessage(ChatColor.RED + "Please check to make sure you typed in a verse/ " +
-					"chapter number that exists.");
 		}
 		return true;
 	}
