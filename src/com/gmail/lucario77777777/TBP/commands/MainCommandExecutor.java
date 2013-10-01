@@ -31,6 +31,7 @@ public class MainCommandExecutor implements CommandExecutor {
 				return true;
 			}else{
 				String translation = null;
+				boolean translationAvailable = false;
 				EnumBooks book = EnumBooks.GENESIS;
 				String bookName = null;
 				String chp = null;
@@ -43,14 +44,20 @@ public class MainCommandExecutor implements CommandExecutor {
 				}
 				if(args.length >= 1){
 					if(args[0].equalsIgnoreCase("?") || args[0].equalsIgnoreCase("list")){
-						String a = plugin.getConfig().getString("translations");
-						String b = plugin.getConfig().getString("translationsList");
-						sender.sendMessage(ChatColor.GREEN + a);
-						sender.sendMessage(ChatColor.GREEN + b);
+						Translations.Run(sender, plugin);
 						return true;
 					}else{
-						translation = args[0];
+						translation = args[0].toUpperCase();
+						if(plugin.getConfig().getBoolean(translation)){
+							translationAvailable = plugin.getConfig().getBoolean(translation);
+						}else{
+							translationAvailable = false;
+						}
 					}
+				}
+				if(translationAvailable == false){
+					sender.sendMessage(ChatColor.RED + "Sorry, that translation is not available.");
+					return true;
 				}
 				if(args.length >= 2){
 					if (book.fromString(args[1].toUpperCase()) != null){
@@ -65,10 +72,6 @@ public class MainCommandExecutor implements CommandExecutor {
 				}
 				if(args.length >= 4){
 					v = args[3];
-				}
-				if(plugin.getDataFolder() + "/" + translation == null){
-					sender.sendMessage(ChatColor.RED + "Sorry, that translation is not available.");
-					return true;
 				}
 				if(book.isAvailable() == true){
 					switch(book){
@@ -271,13 +274,19 @@ public class MainCommandExecutor implements CommandExecutor {
 						bookName = "Revelation";
 						break;
 					case FIRST:
-						verse = plugin.getConfig().getString("first");
+						translation = "all";
+						bookName = "BibleConfig";
+						ref = "first";
 						break;
 					case SECOND:
-						verse = plugin.getConfig().getString("second");
+						translation = "all";
+						bookName = "BibleConfig";
+						ref = "second";
 						break;
 					case THIRD:
-						verse = plugin.getConfig().getString("third");
+						translation = "all";
+						bookName = "BibleConfig";
+						ref = "third";
 						break;
 					case INFO:
 						bookName = translation;
@@ -307,7 +316,8 @@ public class MainCommandExecutor implements CommandExecutor {
 					return true;
 				}
 				if(plugin.getBook(translation, bookName) == null){
-					sender.sendMessage(ChatColor.RED + "Sorry, " + bookName + " is not available.");
+					sender.sendMessage(ChatColor.RED + "Sorry, " + translation + "/" + bookName 
+							+ ".yml does not exist.");
 					return true;
 				}
 				if(chp == null){
@@ -315,6 +325,15 @@ public class MainCommandExecutor implements CommandExecutor {
 				}
 				if(v == null){
 					v = "1";
+				}
+				if(chp.equalsIgnoreCase("info") || chp.equalsIgnoreCase("?")){
+					ref = book.getAlias() + "Info";
+				}
+				if(chp.equalsIgnoreCase("#")){
+					ref = book.getAlias() + "#";
+				}
+				if(v.equalsIgnoreCase("#") || v.equalsIgnoreCase("?") || v.equalsIgnoreCase("info")){
+					v = "info";
 				}
 				if(ref == null){
 					ref = "ch" + chp + "v" + v;

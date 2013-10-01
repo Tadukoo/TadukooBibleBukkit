@@ -1,7 +1,2 @@
-# This is for messages that apply to all translations.
-# Please edit translationsList to list all the translations you have made available.
-first: You must not put a space after the 1, and you must use 1, not first.
-second: You must not put a space after the 2, and you must use 2, not second.
-third: You must not put a space after the 3, and you must use 3, not third.
-translations: 'The available translations are:'
-translationsList: KJV
+# Enable or disable translations here. (Note: You must still have the files for that translation or it won't work.)
+KJV: true
