@@ -1,13 +1,12 @@
 package com.gmail.lucario77777777.TBP.commands.KJV.Books;
 
-import com.gmail.lucario77777777.TBP.commands.KJV.KJV;
-
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.lucario77777777.TBP.Main;
+import com.gmail.lucario77777777.TBP.commands.MainCommandExecutor;
 
-public class KJVBook extends KJV {
+public class KJVBook extends MainCommandExecutor {
 	public KJVBook(Main plugin) {
 		super(plugin);
 	}

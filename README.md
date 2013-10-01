@@ -35,7 +35,7 @@ Command Usage
 /bible list or /bible ?
    * Shows a list of available translations.
    
-/bible < translation > books
+/bible < translation > books or /bible < translation > list
    * Lists all the books in the Bible for that translation.
    * Books in red aren't available yet.
    * Books in green are completely available.
@@ -69,8 +69,10 @@ Download
 --------
 Currently you are unable to download the plugin jar file. Once this plugin is in Beta, it will be available on BukkitDev.
 
-Currently to download and install this mod, you must download the classes and plugin.yml file, then import them into eclipse, along with importing the
+Currently to download and install this plugin, you must download the classes and plugin.yml file, then import them into eclipse, along with importing the
 Bukkit API (Currently this plugin is built off of [1.6.2-R1.0 Recommended Build 2879] (http://dl.bukkit.org/downloads/craftbukkit/view/02342_1.6.2-R1.0/)
+
+Do not import the bible folder into eclipse. Simply place it in your plugins/Tadukoo Bible folder.
 
 Progress
 --------

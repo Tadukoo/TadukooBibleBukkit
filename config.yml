@@ -1,3 +1,7 @@
-# This is currently unused, but will be used to enable/disable translations in the future.
-# Because of this, none of the config options below do anything.
-KJV: true
+# This is for messages that apply to all translations.
+# Please edit translationsList to list all the translations you have made available.
+first: You must not put a space after the 1, and you must use 1, not first.
+second: You must not put a space after the 2, and you must use 2, not second.
+third: You must not put a space after the 3, and you must use 3, not third.
+translations: 'The available translations are:'
+translationsList: KJV

@@ -1,6 +1,6 @@
-package com.gmail.lucario77777777.TBP.commands.KJV;
+package com.gmail.lucario77777777.TBP.commands;
 
-public enum KJVEnumBooks {
+public enum EnumBooks {
 	GENESIS("Genesis", "Gen", true),
 	EXODUS("Exodus", "Exo", true),
 	LEVITICUS("Leviticus", "Lev", true),
@@ -71,18 +71,18 @@ public enum KJVEnumBooks {
 	SECOND("Second", "2", true),
 	THIRD("Third", "3", true),
 	INFO("info", "?", true),
-	BOOKS("books", "books1", true),
-	BOOKS2("books2", null, true),
-	BOOKS3("books3", null, true),
-	BOOKS4("books4", null, true),
-	BOOKS5("books5", null, true),
+	BOOKS("books", "list", true),
+	BOOKS2("books2", "list2", true),
+	BOOKS3("books3", "list3", true),
+	BOOKS4("books4", "list4", true),
+	BOOKS5("books5", "list5", true),
 	BOOK("book", null, true);
 	
 	private String book;
 	private String alias;
 	private boolean available;
 	
-	private KJVEnumBooks(String book, String alias, boolean available){
+	private EnumBooks(String book, String alias, boolean available){
 		this.book = book;
 		this.alias = alias;
 		this.available = available;
@@ -100,9 +100,9 @@ public enum KJVEnumBooks {
 		return alias;
 	}
 	
-	public KJVEnumBooks fromString(String command) {
+	public EnumBooks fromString(String command) {
 	    if (command != null) {
-	      for (KJVEnumBooks c : KJVEnumBooks.values()) {
+	      for (EnumBooks c : EnumBooks.values()) {
 	        if (command.equalsIgnoreCase(c.getBook()) || command.equalsIgnoreCase(c.getAlias())) {
 	          return c;
 	        }
