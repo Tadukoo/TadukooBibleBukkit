@@ -79,12 +79,12 @@ Progress
 * King James Version (KJV) (9.33%)
     * Through-chat commands
        * Completed:
-	      * Genesis through Leviticus
+	      * Genesis through Numbers
 		  * 1 John, 2 John, and 3 John
 	   * Partially Complete:
-	      * Numbers (Chapters 1-24 of 36 complete)
+	      * Deuteronomy (Chapters 1-10 of 34 complete)
 	   * Not Yet Started:
-          * Deuteronomy through 2 Peter
+          * Joshua through 2 Peter
 		  * Jude and Revelation.
     * Books
        * Genesis Part 1 Started.
