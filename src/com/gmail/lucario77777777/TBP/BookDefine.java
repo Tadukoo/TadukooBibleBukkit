@@ -3,7 +3,7 @@ package com.gmail.lucario77777777.TBP;
 import java.util.logging.Level;
 
 public class BookDefine {
-	public static void run(Main plugin, String tran, String bookName){
+	public static void run(Main plugin, String tran, String bookName, String cmd){
 		String page = "";
 		String realPage = "";
 		String nextPage = "";
@@ -23,6 +23,9 @@ public class BookDefine {
 			if(page.length() < 256){
 				if(plugin.getBook(tran, bookName).getString("ch" + c + "v" + v) == null){
 					c++;
+					if(c != 1){
+						page = page + "\n";
+					}
 					page = page + "Chapter " + c + "\n";
 					j++;
 					if(j == jL){
@@ -39,7 +42,7 @@ public class BookDefine {
 						return;
 					}
 				}
-				page = page + plugin.getBook(tran, bookName).getString("ch" + c + "v" + v);
+				page = page + " " + v + " " + plugin.getBook(tran, bookName).getString("ch" + c + "v" + v);
 				v++;
 			}
 			if(page.length() == 256){
@@ -54,8 +57,18 @@ public class BookDefine {
 				pageNum = 1;
 			}
 			if(realPage != ""){
-				plugin.getigBook(tran).set(bookName + "Book" + bookNum + "." + pageNum, realPage);
-				plugin.saveigBook(tran);
+				if(cmd.equalsIgnoreCase("write")){
+					plugin.getigBook(tran).set(bookName + "Book" + bookNum + "." + pageNum, realPage);
+					plugin.saveigBook(tran);
+				}else if(cmd.equalsIgnoreCase("fix")){
+					if(realPage != plugin.getigBook(tran).getString(bookName + "Book" + bookNum + "." + pageNum)){
+						plugin.getigBook(tran).set(bookName + "Book" + bookNum + "." + pageNum, realPage);
+						plugin.saveigBook(tran);
+					}
+				}else{
+					plugin.getLogger().log(Level.SEVERE, "An error occured in creating the book config for " +
+							tran + ".");
+				}
 				pageNum++;
 				realPage = "";
 				page = "";

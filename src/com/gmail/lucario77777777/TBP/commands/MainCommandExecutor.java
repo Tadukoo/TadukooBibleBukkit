@@ -6,7 +6,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.command.CommandExecutor;
 
 import com.gmail.lucario77777777.TBP.Main;
-import com.gmail.lucario77777777.TBP.commands.KJV.Books.KJVBook;
 
 public class MainCommandExecutor implements CommandExecutor {
 	private Main plugin;
@@ -30,14 +29,15 @@ public class MainCommandExecutor implements CommandExecutor {
 				sender.sendMessage(ChatColor.RED + "Unknown sender!");
 				return true;
 			}else{
-				String translation = null;
-				boolean translationAvailable = false;
+				String tran = null;
+				boolean tranAvl = false;
 				EnumBooks book = EnumBooks.GENESIS;
 				String bookName = null;
 				String chp = null;
 				String v = null;
 				String ref = null;
 				String verse = null;
+				String part = null;
 				if(args.length == 0){
 					sender.sendMessage(ChatColor.RED + "Not enough arguments!");
 					return true;
@@ -47,15 +47,15 @@ public class MainCommandExecutor implements CommandExecutor {
 						Translations.Run(sender, plugin);
 						return true;
 					}else{
-						translation = args[0].toUpperCase();
-						if(plugin.getConfig().getBoolean(translation)){
-							translationAvailable = plugin.getConfig().getBoolean(translation);
+						tran = args[0].toUpperCase();
+						if(plugin.getConfig().getBoolean(tran)){
+							tranAvl = plugin.getConfig().getBoolean(tran);
 						}else{
-							translationAvailable = false;
+							tranAvl = false;
 						}
 					}
 				}
-				if(translationAvailable == false){
+				if(tranAvl == false){
 					sender.sendMessage(ChatColor.RED + "Sorry, that translation is not available.");
 					return true;
 				}
@@ -274,22 +274,22 @@ public class MainCommandExecutor implements CommandExecutor {
 						bookName = "Revelation";
 						break;
 					case FIRST:
-						translation = "all";
+						tran = "all";
 						bookName = "BibleConfig";
 						ref = "first";
 						break;
 					case SECOND:
-						translation = "all";
+						tran = "all";
 						bookName = "BibleConfig";
 						ref = "second";
 						break;
 					case THIRD:
-						translation = "all";
+						tran = "all";
 						bookName = "BibleConfig";
 						ref = "third";
 						break;
 					case INFO:
-						bookName = translation;
+						bookName = tran;
 						ref = "info";
 						break;
 					case BOOKS:
@@ -308,15 +308,25 @@ public class MainCommandExecutor implements CommandExecutor {
 						BooksList.list5(sender);
 						return true;
 					case BOOK:
-						KJVBook.Run(sender, args, playerType, plugin);
+						if(chp.isEmpty() == false){
+							bookName = chp;
+						}else{
+							bookName = "Genesis";
+						}
+						if(v.isEmpty() == false){
+							part = v;
+						}else{
+							part = "1";
+						}
+						Book.Run(plugin, sender, playerType, tran, bookName, part);
 						return true;
 					}
 				}else if(book.isAvailable() == false){
 					sender.sendMessage(ChatColor.RED + "Sorry, " + book.getBook() + " is not available yet.");
 					return true;
 				}
-				if(plugin.getBook(translation, bookName) == null){
-					sender.sendMessage(ChatColor.RED + "Sorry, " + translation + "/" + bookName 
+				if(plugin.getBook(tran, bookName) == null){
+					sender.sendMessage(ChatColor.RED + "Sorry, " + tran + "/" + bookName 
 							+ ".yml does not exist.");
 					return true;
 				}
@@ -338,17 +348,17 @@ public class MainCommandExecutor implements CommandExecutor {
 				if(ref == null){
 					ref = "ch" + chp + "v" + v;
 				}
-				if(plugin.getBook(translation, bookName).getString(ref) == null){
+				if(plugin.getBook(tran, bookName).getString(ref) == null){
 					sender.sendMessage(ChatColor.RED + "An error occurred. Please make sure you typed in a " +
 							"chapter/verse that exists.");
 					return true;
 				}
-				if(plugin.getBook(translation, bookName).getString(ref) == null){
+				if(plugin.getBook(tran, bookName).getString(ref) == null){
 					sender.sendMessage(ChatColor.RED + "An error occurred.");
 					return true;
 				}
 				if(verse == null){
-					verse = plugin.getBook(translation, bookName).getString(ref);
+					verse = plugin.getBook(tran, bookName).getString(ref);
 				}
 				sender.sendMessage(ChatColor.GREEN + verse);
 				return true;

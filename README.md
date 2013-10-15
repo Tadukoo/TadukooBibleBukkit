@@ -44,7 +44,9 @@ Command Usage
 /bible < translation > book [ book ] [ part # ] [ ? ]
    * Gives you part of the Bible in book form.
    * [ book ] can be any book of the Bible.
+   * [ book ] will default to Genesis.
    * [ part # ] is the part of the book you want. It does not go by chapter.
+   * [ part # ] will default to 1.
    * [ ? ] can be typed to see what the [ part # ] you choose would give you.
       * Feature not yet implemented (the question mark)
    * NOTE: THE BOOKS ARE NOWHERE NEAR AS COMPLETE AS THE THROUGH-CHAT COMMANDS.
