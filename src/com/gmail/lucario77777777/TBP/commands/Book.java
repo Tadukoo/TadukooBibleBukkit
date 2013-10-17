@@ -24,12 +24,17 @@ public class Book extends MainCommandExecutor {
 			EnumBooks book = EnumBooks.GENESIS;
 			book = book.fromString(bookName.toUpperCase());
 			String author = book.getAuthor();
+			String igbookName = book.getBook();
+			igbookName.replace("1", "1 ");
+			igbookName.replace("2", "2 ");
+			igbookName.replace("3", "3 ");
+			igbookName.replace("SongofSongs", "Song of Songs");
 			book = null;
 			ItemStack igbook = new ItemStack(Material.WRITTEN_BOOK, 1);
 
 			BookMeta meta = (BookMeta) igbook.getItemMeta();
 			
-			meta.setTitle(bookName + " Part " + part);
+			meta.setTitle(igbookName + " Part " + part);
 			meta.setAuthor(author);
 			Boolean cont = true;
 			int i = 1;

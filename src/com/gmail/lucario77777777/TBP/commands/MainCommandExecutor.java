@@ -308,12 +308,12 @@ public class MainCommandExecutor implements CommandExecutor {
 						BooksList.list5(sender);
 						return true;
 					case BOOK:
-						if(chp.isEmpty() == false){
+						if(chp != null){
 							bookName = chp;
 						}else{
 							bookName = "Genesis";
 						}
-						if(v.isEmpty() == false){
+						if(v != null){
 							part = v;
 						}else{
 							part = "1";

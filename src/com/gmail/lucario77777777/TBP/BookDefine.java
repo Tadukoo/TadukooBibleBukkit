@@ -36,10 +36,7 @@ public class BookDefine {
 					v = 1;
 					if(plugin.getBook(tran, bookName).getString("ch" + c + "v" + v) == null){
 						cont = false;
-						plugin.getLogger().log(Level.INFO, bookName + " finished.");
-						plugin.saveigBook(tran);
-						plugin.getLogger().log(Level.INFO, "Saving " + tran + "config.yml...");
-						return;
+						realPage = page;
 					}
 				}
 				page = page + " " + v + " " + plugin.getBook(tran, bookName).getString("ch" + c + "v" + v);
@@ -72,6 +69,12 @@ public class BookDefine {
 				pageNum++;
 				realPage = "";
 				page = "";
+			}
+			if(cont == false){
+				plugin.getLogger().log(Level.INFO, bookName + " finished.");
+				plugin.saveigBook(tran);
+				plugin.getLogger().log(Level.INFO, "Saving " + tran + "config.yml...");
+				return;
 			}
 		}
 	}
