@@ -47,6 +47,7 @@ public class Book extends MainCommandExecutor {
 				i++;
 				if(i == 51){
 					cont = false;
+					break;
 				}
 			}
 			igbook.setItemMeta(meta);

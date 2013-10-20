@@ -77,7 +77,7 @@ public class MainCommandExecutor implements CommandExecutor {
 					bookName = book.getBook();
 					if(bookName.equalsIgnoreCase("first")){
 						tran = "all";
-						bookName = "Bibleconfig";
+						bookName = "BibleConfig";
 						ref = "first";
 					}else if(bookName.equalsIgnoreCase("second")){
 						tran = "all";

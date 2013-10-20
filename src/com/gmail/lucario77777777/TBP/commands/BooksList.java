@@ -7,8 +7,8 @@ public class BooksList {
 	public static void list1(CommandSender sender){
 		sender.sendMessage(ChatColor.GREEN + "Page 1 of 5");
 		sender.sendMessage(ChatColor.GREEN + "The Books of the Bible are:");
-		sender.sendMessage(ChatColor.GREEN + "Genesis, Exodus, Leviticus, Numbers, " + ChatColor.RED + 
-				"Deuteronomy, Joshua, Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, " +
+		sender.sendMessage(ChatColor.GREEN + "Genesis, Exodus, Leviticus, Numbers, Deuteronomy, " +
+				ChatColor.RED + "Joshua, Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, " +
 				"2 Kings, 1 Chronicles, 2 Chronicles");
 		sender.sendMessage(ChatColor.GREEN + "Type /bible kjv books2 for the next page.");
 	}

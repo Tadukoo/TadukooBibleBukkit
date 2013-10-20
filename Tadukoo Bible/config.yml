@@ -1,0 +1,8 @@
+# Enable or disable translations here. (Note: You must still have the files for that translation or it won't work.)
+# Anything with "BookCheck" in it allows you to set if config files to put the Bible in Minecraft books should be
+# created or checked. This can be set to create, correct, check, or ignore. Create will make it (or overwrite it
+# if it already exists). Correct will go through and overwrite any that may be wrong. Check will simply check if
+# each book of the Bible has at least one page in a book. Ignore will do make it so they are not checked at all.
+KJV: true
+KJVBookCheck: check
+BookConfigChapterNotifications: 5
