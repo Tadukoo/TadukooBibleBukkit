@@ -5,3 +5,4 @@
 # each book of the Bible has at least one page in a book. Ignore will do make it so they are not checked at all.
 KJV: true
 KJVBookCheck: check
+BookConfigChapterNotifications: 5

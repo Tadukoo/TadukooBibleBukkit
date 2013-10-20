@@ -42,7 +42,7 @@ public class Main extends JavaPlugin {
 	
 	public void reloadigBook(String tran) {
 	    if (igbookFile == null) {
-	    igbookFile = new File(getDataFolder(), "bible/" + tran + "/" + tran + "config.yml");
+	    igbookFile = new File(getDataFolder(), "bible/" + tran + "/" + tran + "bookconfig.yml");
 	    }
 	    igbook = YamlConfiguration.loadConfiguration(igbookFile);
 	}

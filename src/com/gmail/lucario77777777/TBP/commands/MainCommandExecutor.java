@@ -74,240 +74,38 @@ public class MainCommandExecutor implements CommandExecutor {
 					v = args[3];
 				}
 				if(book.isAvailable() == true){
-					switch(book){
-					case GENESIS:
-						bookName = "Genesis";
-						break;
-					case EXODUS:
-						bookName = "Exodus";
-						break;
-					case LEVITICUS:
-						bookName = "Leviticus";
-						break;
-					case NUMBERS:
-						bookName = "Numbers";
-						break;
-					case DEUTERONOMY:
-						bookName = "Deuteronomy";
-						break;
-					case JOSHUA:
-						bookName = "Joshua";
-						break;
-					case JUDGES:
-						bookName = "Judges";
-						break;
-					case RUTH:
-						bookName = "Ruth";
-						break;
-					case SAMUEL1:
-						bookName = "1Samuel";
-						break;
-					case SAMUEL2:
-						bookName = "2Samuel";
-						break;
-					case KINGS1:
-						bookName = "1Kings";
-						break;
-					case KINGS2:
-						bookName = "2Kings";
-						break;
-					case CHRONICLES1:
-						bookName = "1Chronicles";
-						break;
-					case CHRONICLES2:
-						bookName = "2Chronicles";
-						break;
-					case EZRA:
-						bookName = "Ezra";
-						break;
-					case NEHEMIAH:
-						bookName = "Nehemiah";
-						break;
-					case ESTHER:
-						bookName = "Esther";
-						break;
-					case JOB:
-						bookName = "Job";
-						break;
-					case PSALMS:
-						bookName = "Psalms";
-						break;
-					case PROVERBS:
-						bookName = "Proverbs";
-						break;
-					case ECCLESIASTES:
-						bookName = "Ecclesiastes";
-						break;
-					case SONGOFSONGS:
-						bookName = "SongofSongs";
-						break;
-					case ISAIAH:
-						bookName = "Isaiah";
-						break;
-					case JEREMIAH:
-						bookName = "Jeremiah";
-						break;
-					case LAMENTATIONS:
-						bookName = "Lamentations";
-						break;
-					case EZEKIEL:
-						bookName = "Ezekiel";
-						break;
-					case DANIEL:
-						bookName = "Daniel";
-						break;
-					case HOSEA:
-						bookName = "Hosea";
-						break;
-					case JOEL:
-						bookName = "Joel";
-						break;
-					case AMOS:
-						bookName = "Amos";
-						break;
-					case OBADIAH:
-						bookName = "Obadiah";
-						break;
-					case JONAH:
-						bookName = "Jonah";
-						break;
-					case MICAH:
-						bookName = "Micah";
-						break;
-					case NAHUM:
-						bookName = "Nahum";
-						break;
-					case HABAKKUK:
-						bookName = "Habakkuk";
-						break;
-					case ZEPHANIAH:
-						bookName = "Zephaniah";
-						break;
-					case HAGGAI:
-						bookName = "Haggai";
-						break;
-					case ZECHARIAH:
-						bookName = "Zechariah";
-						break;
-					case MALACHI:
-						bookName = "Malachi";
-						break;
-					case MATTHEW:
-						bookName = "Matthew";
-						break;
-					case MARK:
-						bookName = "Mark";
-						break;
-					case LUKE:
-						bookName = "Luke";
-						break;
-					case JOHN:
-						bookName = "John";
-						break;
-					case ACTS:
-						bookName = "Acts";
-						break;
-					case ROMANS:
-						bookName = "Romans";
-						break;
-					case CORINTHIANS1:
-						bookName = "1Corinthians";
-						break;
-					case CORINTHIANS2:
-						bookName = "2Corinthians";
-						break;
-					case GALATIANS:
-						bookName = "Galatians";
-						break;
-					case EPHESIANS:
-						bookName = "Ephesians";
-						break;
-					case PHILIPPIANS:
-						bookName = "Philippians";
-						break;
-					case COLOSSIANS:
-						bookName = "Colossians";
-						break;
-					case THESSALONIANS1:
-						bookName = "1Thessalonians";
-						break;
-					case THESSALONIANS2:
-						bookName = "2Thessalonians";
-						break;
-					case TIMOTHY1:
-						bookName = "1Timothy";
-						break;
-					case TIMOTHY2:
-						bookName = "2Timothy";
-						break;
-					case TITUS:
-						bookName = "Titus";
-						break;
-					case PHILEMON:
-						bookName = "Philemon";
-						break;
-					case HEBREWS:
-						bookName = "Hebrews";
-						break;
-					case JAMES:
-						bookName = "James";
-						break;
-					case PETER1:
-						bookName = "1Peter";
-						break;
-					case PETER2:
-						bookName = "2Peter";
-						break;
-					case JOHN1:
-						bookName = "1John";
-						break;
-					case JOHN2:
-						bookName = "2John";
-						break;
-					case JOHN3:
-						bookName = "3John";
-						break;
-					case JUDE:
-						bookName = "Jude";
-						break;
-					case REVELATION:
-						bookName = "Revelation";
-						break;
-					case FIRST:
+					bookName = book.getBook();
+					if(bookName.equalsIgnoreCase("first")){
 						tran = "all";
-						bookName = "BibleConfig";
+						bookName = "Bibleconfig";
 						ref = "first";
-						break;
-					case SECOND:
+					}else if(bookName.equalsIgnoreCase("second")){
 						tran = "all";
 						bookName = "BibleConfig";
 						ref = "second";
-						break;
-					case THIRD:
+					}else if(bookName.equalsIgnoreCase("third")){
 						tran = "all";
 						bookName = "BibleConfig";
 						ref = "third";
-						break;
-					case INFO:
+					}else if(bookName.equalsIgnoreCase("info")){
 						bookName = tran;
 						ref = "info";
-						break;
-					case BOOKS:
+					}else if(bookName.equalsIgnoreCase("books")){
 						BooksList.list1(sender);
 						return true;
-					case BOOKS2:
+					}else if(bookName.equalsIgnoreCase("books2")){
 						BooksList.list2(sender);
 						return true;
-					case BOOKS3:
+					}else if(bookName.equalsIgnoreCase("books3")){
 						BooksList.list3(sender);
 						return true;
-					case BOOKS4:
+					}else if(bookName.equalsIgnoreCase("books4")){
 						BooksList.list4(sender);
 						return true;
-					case BOOKS5:
+					}else if(bookName.equalsIgnoreCase("books5")){
 						BooksList.list5(sender);
 						return true;
-					case BOOK:
+					}else if(bookName.equalsIgnoreCase("book")){
 						if(chp != null){
 							bookName = chp;
 						}else{

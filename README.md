@@ -58,9 +58,9 @@ Upcoming Commands
 
 Known Issues
 ------------
-The book cuts off part of the verses on pages 3 and 5.
-
-The book is completely blank for now due to changes in plugin set-up.
+* Issues with books:
+   * If a new book is started, it should start with an entire verse (or chapter).
+   * Reduce the amount of messages for books.
 
 Translations
 ------------
