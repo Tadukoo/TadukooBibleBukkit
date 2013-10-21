@@ -78,13 +78,13 @@ Do not import the bible folder into eclipse. Simply place it in your plugins/Tad
 
 Progress
 --------
-* King James Version (KJV) (9.33%)
+* King James Version (KJV) (12%)
     * Through-chat commands
        * Completed:
-	      * Genesis through Numbers
+	      * Genesis through Deuteronomy
 		  * 1 John, 2 John, and 3 John
 	   * Partially Complete:
-	      * Deuteronomy (Chapters 1-10 of 34 complete)
+	      * None at the moment.
 	   * Not Yet Started:
           * Joshua through 2 Peter
 		  * Jude and Revelation.

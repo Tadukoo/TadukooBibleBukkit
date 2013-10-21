@@ -1,6 +1,6 @@
 name: Tadukoo Bible
 main: com.gmail.lucario77777777.TBP.Main
-version: Alpha 0.1
+version: Alpha 0.1.2
 description: Read the Bible using commands.
 commands:
    bible:

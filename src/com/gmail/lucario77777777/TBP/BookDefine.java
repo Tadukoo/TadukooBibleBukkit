@@ -45,8 +45,11 @@ public class BookDefine {
 							realPage = page;
 						}
 					}else{
-						page = page + " " + v + " " + plugin.getBook(tran, bookName).
-								getString("ch" + c + "v" + v);
+						page = page + " ";
+						if(v != 1){
+							page = page + v + " ";
+						}
+						page = page + plugin.getBook(tran, bookName).getString("ch" + c + "v" + v);
 						v++;
 					}
 				}else{
