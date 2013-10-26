@@ -22,15 +22,20 @@ a video game. Hopefully in the future, there will be new plugins and/or mods tha
 
 Command Usage
 -------------
-/bible < translation > [ book ] [ chapter # ] [ verse # ]
+/bible [ translation ] [ book ] [ chapter # ] [ verse # ]
    * Shows the verse through the chat to the player.
-   * If [ book ] is empty, it will go with Genesis.
-   * [ book ] can be replaced with ? or info to see info about the translation you chose.
-   * If [ chapter # ] or [ verse # ] is empty, it will go with 1.
-   * [ chapter # ] can be replaced with # to see how many chapters are in that book.
-   * [ chapter # ] can be replaced with ? or info to see info about the book you chose.
-   * [ verse # ] can be replaced with #, ?, or info to see how many verses are in that chapter.
-   * < translation > can currently only be KJV.
+   * Defaults:
+      * [ translation ] defaults to whatever is set in the config.yml
+      * [ book ] defaults to Genesis.
+      * [ chapter # ] defaults to 1.
+      * [ verse # ] defaults to 1.
+   * [ book ] can be replaced with ? or info.
+      * This will show information about the translation you chose.
+   * [ chapter # ] can be replaced with #, info, or ?.
+      * # will list how many chapters are in that book.
+      * ? or info will show information about the book you chose.
+   * [ verse # ] can be replaced with #, ?, or info.
+      * This will show how many verses are in the chapter you chose.
    
 /bible list or /bible ?
    * Shows a list of available translations.
@@ -41,18 +46,18 @@ Command Usage
    * Books in green are completely available.
    * Books in yellow are partially available, but incomplete.
    
-/bible < translation > book [ book ] [ part # ] [ ? ]
+/bible < translation > book [ book ] [ part # ]
    * Gives you part of the Bible in book form.
-   * [ book ] can be any book of the Bible.
-   * [ book ] will default to Genesis.
-   * [ part # ] is the part of the book you want. It does not go by chapter.
-   * [ part # ] will default to 1.
-   * [ ? ] can be typed to see what the [ part # ] you choose would give you.
-      * Feature not yet implemented (the question mark)
-   * NOTE: THE BOOKS ARE NOWHERE NEAR AS COMPLETE AS THE THROUGH-CHAT COMMANDS.
+   * Defaults:
+      * [ book ] defaults to Genesis.
+      * [ part # ] defaults to 1.
+   * Note: [ part # ] is not the chapter #.
 
-Upcoming Commands
------------------
+Upcoming Commands/Features
+--------------------------
+/bible < translation > book [ book ] [ part # ] ?
+   * Tells you what is included in [ part # ].
+
 /bible < translation > announce < book > < chapter # > < verse # >
    * Broadcasts the verse you choose.
 
@@ -72,9 +77,9 @@ Download
 Currently you are unable to download the plugin jar file. Once this plugin is in Beta, it will be available on BukkitDev.
 
 Currently to download and install this plugin, you must download the classes and plugin.yml file, then import them into eclipse, along with importing the
-Bukkit API (Currently this plugin is built off of [1.6.2-R1.0 Recommended Build 2879] (http://dl.bukkit.org/downloads/craftbukkit/view/02342_1.6.2-R1.0/)
+Bukkit API (Currently this plugin is built off of [1.6.4-R1.0 Recommended Build 1848] (http://dl.bukkit.org/downloads/bukkit/view/02378_1.6.4-R1.0/)
 
-Do not import the bible folder into eclipse. Simply place it in your plugins/Tadukoo Bible folder.
+Do not import the Tadukoo Bible folder into eclipse. Simply place it in your plugins folder.
 
 Progress
 --------

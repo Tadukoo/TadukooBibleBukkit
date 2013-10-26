@@ -30,7 +30,6 @@ public class MainCommandExecutor implements CommandExecutor {
 				return true;
 			}else{
 				String tran = null;
-				boolean tranAvl = false;
 				EnumBooks book = EnumBooks.GENESIS;
 				String bookName = null;
 				String chp = null;
@@ -39,8 +38,7 @@ public class MainCommandExecutor implements CommandExecutor {
 				String verse = null;
 				String part = null;
 				if(args.length == 0){
-					sender.sendMessage(ChatColor.RED + "Not enough arguments!");
-					return true;
+					tran = plugin.getConfig().getString("DefaultTranslation").toUpperCase();
 				}
 				if(args.length >= 1){
 					if(args[0].equalsIgnoreCase("?") || args[0].equalsIgnoreCase("list")){
@@ -48,14 +46,9 @@ public class MainCommandExecutor implements CommandExecutor {
 						return true;
 					}else{
 						tran = args[0].toUpperCase();
-						if(plugin.getConfig().getBoolean(tran)){
-							tranAvl = plugin.getConfig().getBoolean(tran);
-						}else{
-							tranAvl = false;
-						}
 					}
 				}
-				if(tranAvl == false){
+				if(plugin.getConfig().getBoolean(tran) == false || plugin.getConfig().getString(tran) == null){
 					sender.sendMessage(ChatColor.RED + "Sorry, that translation is not available.");
 					return true;
 				}

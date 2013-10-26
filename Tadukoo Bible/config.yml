@@ -6,3 +6,4 @@
 KJV: true
 KJVBookCheck: check
 BookConfigChapterNotifications: 5
+DefaultTranslation: KJV
