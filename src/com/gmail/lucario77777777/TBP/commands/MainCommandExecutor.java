@@ -31,76 +31,113 @@ public class MainCommandExecutor implements CommandExecutor {
 				return true;
 			}else{
 				EnumBooks book = EnumBooks.GENESIS;
-				String cmdBook = null;
+				EnumCmds cmds = EnumCmds.HELP;
 				String bookName = "Genesis";
 				String chp = "1";
 				String v = "1";
 				String tran = plugin.getConfig().getString("DefaultTranslation").toUpperCase();
 				String ref = null;
 				String verse = null;
+				String type = null;
+				String i = "1";
 				if(args.length >= 1){
 					if(book.fromString(args[0].toUpperCase()) != null){
 						book = book.fromString(args[0].toUpperCase());
+						type = "book";
+					}else if(cmds.fromString(args[0].toUpperCase()) != null){
+						cmds = cmds.fromString(args[0].toUpperCase());
+						type = "cmd";
 					}else{
 						sender.sendMessage(ChatColor.RED + "Sorry, that book/command does not exist.");
 						return true;
 					}
 				}
-				if(args.length >= 2){
-					chp = args[1];
-				}
-				if(args.length >= 3){
-					v = args[2];
-				}
-				if(args.length >= 4){
-					tran = args[3].toUpperCase();
-				}
-				if(plugin.getConfig().getString(tran) == null || plugin.getConfig().getBoolean(tran) == false){
-					sender.sendMessage(ChatColor.RED + "Sorry, that translation is not available.");
-					return true;
-				}
-				if(book.isAvailable() == true){
-					cmdBook = book.getBook();
-					if(cmdBook.equalsIgnoreCase("first") || cmdBook.equalsIgnoreCase("second") || 
-							cmdBook.equalsIgnoreCase("third")){
+				if(type == "book"){
+					if(book.isAvailable() == false){
+						sender.sendMessage(ChatColor.RED + "Sorry, " + book.getBook() + 
+								" is not available yet.");
+						return true;
+					}
+					if(args.length >= 2){
+						chp = args[1];
+						if(args.length >= 3){
+							v = args[2];
+							if(args.length >= 4){
+								tran = args[3].toUpperCase();
+							}
+						}
+					}
+					bookName = book.getBook();
+					if(tranCheck(plugin, sender, tran) == false){
+						return true;
+					}
+				}else if(type == "cmd"){
+					if(cmds.isAvailable() == false){
+						sender.sendMessage(ChatColor.RED + "Sorry, " + cmds.getCmd() + " is not available yet.");
+						return true;
+					}
+					String cmdType = cmds.getCmd();
+					if(cmdType.equalsIgnoreCase("first") || cmdType.equalsIgnoreCase("second") ||
+							cmdType.equalsIgnoreCase("third")){
 						tran = "all";
 						bookName = "BibleConfig";
-						ref = cmdBook.toLowerCase();
-					}else if(cmdBook.equalsIgnoreCase("info")){
-						if(args.length < 2){
-							sender.sendMessage(ChatColor.RED + "Not enough arguments!");
-							sender.sendMessage(ChatColor.RED + "/bible ?|info <translation>");
-							return true;
+						ref = cmdType.toLowerCase();
+					}else if(cmdType.equalsIgnoreCase("help")){
+						if(args.length >= 2){
+							i = args[1];
 						}
-						tran = chp;
-						bookName = tran;
-						ref = "info";
-					}else if(cmdBook.equalsIgnoreCase("books")){
-						String i = chp;
-						BooksList.list(i, sender);
-						return true;
-					}else if(cmdBook.equalsIgnoreCase("translations")){
-						Translations.Run(sender, plugin);
-						return true;
-					}else if(cmdBook.equalsIgnoreCase("getBook")){
 						if(permsOn == true && playerType == "player"){
-							Player player = (Player) sender;
-							if(Permissions.check(sender, player, "getbook") == false){
+							if(Permissions.check(sender, "help") == false){
 								return true;
 							}
 						}
-						if(chp != "1"){
-							bookName = chp;
+						Help.Run(i, sender, plugin);
+						return true;
+					}else if(cmdType.equalsIgnoreCase("info")){
+						if(args.length < 2){
+							sender.sendMessage(ChatColor.RED + "Not enough arguments!");
+							sender.sendMessage(ChatColor.RED + "/bible about|info|abt|information " +
+									"<translation>");
+							return true;
 						}
+						tran = args[1].toUpperCase();
+						bookName = tran;
+						ref = "info";
+						if(tranCheck(plugin, sender, tran) == false){
+							return true;
+						}
+					}else if(cmdType.equalsIgnoreCase("books")){
+						if(args.length >= 2){
+							i = args[1];
+						}
+						BooksList.list(i, sender);
+						return true;
+					}else if(cmdType.equalsIgnoreCase("translations")){
+						Translations.Run(sender, plugin);
+						return true;
+					}else if(cmdType.equalsIgnoreCase("getBook")){
+						if(permsOn == true && playerType == "player"){
+							if(Permissions.check(sender, "getbook") == false){
+								return true;
+							}
+						}
+						bookName = chp;
 						String part = v;
+						if(args.length >= 2){
+							bookName = args[1];
+							if(args.length >= 3){
+								part = args[2];
+								if(args.length >= 4){
+									tran = args[3].toUpperCase();
+									if(tranCheck(plugin, sender, tran) == false){
+										return true;
+									}
+								}
+							}
+						}
 						Book.Run(plugin, sender, playerType, tran, bookName, part);
 						return true;
-					}else{
-						bookName = cmdBook;
 					}
-				}else{
-					sender.sendMessage(ChatColor.RED + "Sorry, " + book.getBook() + " is not available yet.");
-					return true;
 				}
 				if(plugin.getBook(tran, bookName) == null){
 					sender.sendMessage(ChatColor.RED + "Sorry, " + tran + "/" + bookName 
@@ -136,5 +173,13 @@ public class MainCommandExecutor implements CommandExecutor {
 			}
 		}
 		return false;
+	}
+	private static boolean tranCheck(Main plugin, CommandSender sender, String tran) {
+		if(plugin.getConfig().getString(tran) == null || plugin.getConfig().getBoolean(tran) == false){
+			sender.sendMessage(ChatColor.RED + "Sorry, that translation is not available.");
+			return false;
+		}else{
+			return true;
+		}
 	}
 }

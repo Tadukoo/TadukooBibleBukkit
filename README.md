@@ -35,19 +35,28 @@ Command Usage
    * [ verse # ] can be replaced with #, ?, or info.
       * This will show how many verses are in the chapter you chose.
 
-/bible info|about < translation >
+/bible help [ page ]
+   * Aliases: ?, commands, commandshelp, cmds, and cmdshelp.
+   * Shows help for TadukooBible commands.
+   * Requires permission: TadukooBible.help
+
+/bible info < translation >
+   * Aliases: about, abt, and information.
    * Shows information about the translation you chose.
-   
-/bible translations|tranlist
-   * Shows a list of available translations.
-   
-/bible books|bookslist [ page ]
+
+/bible books [ page ]
+   * Aliases: bookslist, listbooks, and booklist.
    * Lists all the books in the Bible.
    * Books in red aren't available yet.
    * Books in green are completely available.
    * Books in yellow are partially available, but incomplete.
+
+/bible translations
+   * Aliases: translist, translationslist, listtrans, tran, and trans.
+   * Shows a list of available translations.
    
-/bible getbook|book [ book ] [ part # ] [ translation ]
+/bible getbook [ book ] [ part # ] [ translation ]
+   * Aliases: book and bookget.
    * Gives you part of the Bible in book form.
    * Requires TadukooBible.getbook
    * Defaults:
@@ -61,8 +70,11 @@ Permissions
 TadukooBible.use
    * Required for use of plugin.
 
+TadukooBible.help
+   * Allows use of /bible help.
+
 TadukooBible.getbook
-   * Allows use of /bible getbook|book [ book ] [ part # ] [ translation ]
+   * Allows use of /bible getbook.
 
 Config.yml
 ----------
@@ -90,35 +102,35 @@ Permissions: true
 
 Upcoming Commands/Features
 --------------------------
-/bible getbook|book [ book ] [ part # ] [ translation ] ?
+/bible getbook [ book ] [ part # ] [ translation ] ?
    * Tells you what is included in [ part # ].
    * Requires saving what's included in each part (coded in the BookDefine class)
 
-/bible announce|ann < book > < chapter # > < verse # > [ translation ]
-   * Broadcasts the verse you choose.
-   * Requires the permission: TadukooBible.announce
-
 /bible givebook < player > [ book ] [ part # ] [ translation ]
+   * Alias: bookgive
    * Gives a book to a player instead of yourself.
    * Requires the permission: TadukooBible.givebook
 
-More Permissions:
-   * TadukooBible.listtranslations (Allows use of /bible translations|tranlist)
-   * TadukooBible.listbooks (Allows use of /bible books|bookslist [ page ])
+/bible announce < book > < chapter # > < verse # > [ translation ]
+   * Aliases: ann, broadcast, and broad.
+   * Broadcasts the verse you choose.
+   * Requires the permission: TadukooBible.announce
 
-/bible next [ translation ]
-   * Shows you the Bible verse after the one you last read.
-   * Also requires saving what Bible verse was last read.
-   * Requires permission: TadukooBible.next
-
-/bible previous|pre [ translation ]
+/bible previous [ translation ]
+   * Aliases: pre, prev, and back.
    * Shows you the Bible verse before the one you last read.
    * Also requires saving what Bible verse was last read.
    * Requires permission: TadukooBible.previous
 
-/bible help|?
-   * Shows help for TadukooBible commands.
-   * Requires permission: TadukooBible.help
+/bible next [ translation ]
+   * Aliases: forward and for.
+   * Shows you the Bible verse after the one you last read.
+   * Also requires saving what Bible verse was last read.
+   * Requires permission: TadukooBible.next
+
+More Permissions:
+   * TadukooBible.translations (Allows use of /bible translations)
+   * TadukooBible.books (Allows use of /bible books)
 
 Changes in books:
    * If a new book is started, it should start with an entire verse (or chapter).

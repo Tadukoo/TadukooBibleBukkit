@@ -66,19 +66,7 @@ public enum EnumBooks {
 	JOHN2("2John", "2John", "John", true),
 	JOHN3("3John", "3John", "John", true),
 	JUDE("Jude", "Jude", "Jude", false),
-	REVELATION("Revelation", "Rev", "John", false),
-	FIRST("First", "1", null, true),
-	SECOND("Second", "2", null, true),
-	THIRD("Third", "3", null, true),
-	HELP("help", "?", null, false),
-	INFO("info", "about", null, true),
-	BOOKS("books", "bookslist", null, true),
-	TRANSLATIONS("translations", "tranlist", null, true),
-	GETBOOK("getBook", "book", null, true),
-	GIVEBOOK("giveBook", "giveBook", null, false),
-	ANNOUNCE("announce", "ann", null, false),
-	PREVIOUS("previous", "pre", null, false),
-	NEXT("next", "next", null, false);
+	REVELATION("Revelation", "Rev", "John", false);
 	
 	private String book;
 	private String alias;
