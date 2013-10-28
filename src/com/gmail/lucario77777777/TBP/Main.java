@@ -19,6 +19,7 @@ public class Main extends JavaPlugin {
 	public FileConfiguration igbook = null;
 	public File igbookFile = null;
 	public static Main instance;
+	public Boolean perms = null;
 	
 	@Override
 	public void onDisable () {
@@ -32,6 +33,7 @@ public class Main extends JavaPlugin {
 		saveConfig();
 		getCommand("bible").setExecutor(new MainCommandExecutor(this));
 		CheckTranslations.check();
+		perms = getConfig().getBoolean("Permissions");
 	}
 	
 	public FileConfiguration getBook(String tran, String bookName) {

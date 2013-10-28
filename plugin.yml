@@ -5,10 +5,13 @@ description: Read the Bible using commands.
 commands:
    bible:
       description: Read the Bible.
-      usage: /<command> <translation> <book> [chapter] [verse] or /<command> <translation> info/? or /<command> <list/?> or /<command> <translation> book [book] [part]
+      usage: /<command>
       permission: TadukooBible.use
       permission-message: You don't have <permission>.
 permissions:
    TadukooBible.use:
       description: Gives access to the plugin.
+      default: true
+   TadukooBible.getbooks:
+      description: Allows use of /bible getbook|book [book] [part #] [translation]
       default: true

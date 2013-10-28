@@ -24,95 +24,81 @@ public class MainCommandExecutor implements CommandExecutor {
 		}else{
 			playerType = "unknown";
 		}
+		Boolean permsOn = plugin.perms;
 		if(cmd.getName().equalsIgnoreCase("bible")){
 			if(playerType == "block" || playerType == "unknown"){
 				sender.sendMessage(ChatColor.RED + "Unknown sender!");
 				return true;
 			}else{
-				String tran = null;
 				EnumBooks book = EnumBooks.GENESIS;
-				String bookName = null;
-				String chp = null;
-				String v = null;
+				String cmdBook = null;
+				String bookName = "Genesis";
+				String chp = "1";
+				String v = "1";
+				String tran = plugin.getConfig().getString("DefaultTranslation").toUpperCase();
 				String ref = null;
 				String verse = null;
-				String part = null;
-				if(args.length == 0){
-					tran = plugin.getConfig().getString("DefaultTranslation").toUpperCase();
-				}
 				if(args.length >= 1){
-					if(args[0].equalsIgnoreCase("?") || args[0].equalsIgnoreCase("list")){
-						Translations.Run(sender, plugin);
-						return true;
+					if(book.fromString(args[0].toUpperCase()) != null){
+						book = book.fromString(args[0].toUpperCase());
 					}else{
-						tran = args[0].toUpperCase();
+						sender.sendMessage(ChatColor.RED + "Sorry, that book/command does not exist.");
+						return true;
 					}
 				}
-				if(plugin.getConfig().getBoolean(tran) == false || plugin.getConfig().getString(tran) == null){
+				if(args.length >= 2){
+					chp = args[1];
+				}
+				if(args.length >= 3){
+					v = args[2];
+				}
+				if(args.length >= 4){
+					tran = args[3].toUpperCase();
+				}
+				if(plugin.getConfig().getString(tran) == null || plugin.getConfig().getBoolean(tran) == false){
 					sender.sendMessage(ChatColor.RED + "Sorry, that translation is not available.");
 					return true;
 				}
-				if(args.length >= 2){
-					if (book.fromString(args[1].toUpperCase()) != null){
-						book = book.fromString(args[1].toUpperCase());
-					}else{
-						sender.sendMessage(ChatColor.RED + "That book does not exist.");
-						return true;
-					}
-				}
-				if(args.length >= 3){
-					chp = args[2];
-				}
-				if(args.length >= 4){
-					v = args[3];
-				}
 				if(book.isAvailable() == true){
-					bookName = book.getBook();
-					if(bookName.equalsIgnoreCase("first")){
+					cmdBook = book.getBook();
+					if(cmdBook.equalsIgnoreCase("first") || cmdBook.equalsIgnoreCase("second") || 
+							cmdBook.equalsIgnoreCase("third")){
 						tran = "all";
 						bookName = "BibleConfig";
-						ref = "first";
-					}else if(bookName.equalsIgnoreCase("second")){
-						tran = "all";
-						bookName = "BibleConfig";
-						ref = "second";
-					}else if(bookName.equalsIgnoreCase("third")){
-						tran = "all";
-						bookName = "BibleConfig";
-						ref = "third";
-					}else if(bookName.equalsIgnoreCase("info")){
+						ref = cmdBook.toLowerCase();
+					}else if(cmdBook.equalsIgnoreCase("info")){
+						if(args.length < 2){
+							sender.sendMessage(ChatColor.RED + "Not enough arguments!");
+							sender.sendMessage(ChatColor.RED + "/bible ?|info <translation>");
+							return true;
+						}
+						tran = chp;
 						bookName = tran;
 						ref = "info";
-					}else if(bookName.equalsIgnoreCase("books")){
-						BooksList.list1(sender);
+					}else if(cmdBook.equalsIgnoreCase("books")){
+						String i = chp;
+						BooksList.list(i, sender);
 						return true;
-					}else if(bookName.equalsIgnoreCase("books2")){
-						BooksList.list2(sender);
+					}else if(cmdBook.equalsIgnoreCase("translations")){
+						Translations.Run(sender, plugin);
 						return true;
-					}else if(bookName.equalsIgnoreCase("books3")){
-						BooksList.list3(sender);
-						return true;
-					}else if(bookName.equalsIgnoreCase("books4")){
-						BooksList.list4(sender);
-						return true;
-					}else if(bookName.equalsIgnoreCase("books5")){
-						BooksList.list5(sender);
-						return true;
-					}else if(bookName.equalsIgnoreCase("book")){
-						if(chp != null){
+					}else if(cmdBook.equalsIgnoreCase("getBook")){
+						if(permsOn == true && playerType == "player"){
+							Player player = (Player) sender;
+							if(Permissions.check(sender, player, "getbook") == false){
+								return true;
+							}
+						}
+						if(chp != "1"){
 							bookName = chp;
-						}else{
-							bookName = "Genesis";
 						}
-						if(v != null){
-							part = v;
-						}else{
-							part = "1";
-						}
+						String part = v;
 						Book.Run(plugin, sender, playerType, tran, bookName, part);
 						return true;
+					}else{
+						bookName = cmdBook;
 					}
-				}else if(book.isAvailable() == false){
+				}else{
 					sender.sendMessage(ChatColor.RED + "Sorry, " + book.getBook() + " is not available yet.");
 					return true;
 				}
@@ -120,12 +106,6 @@ public class MainCommandExecutor implements CommandExecutor {
 					sender.sendMessage(ChatColor.RED + "Sorry, " + tran + "/" + bookName 
 							+ ".yml does not exist.");
 					return true;
-				}
-				if(chp == null){
-					chp = "1";
-				}
-				if(v == null){
-					v = "1";
 				}
 				if(chp.equalsIgnoreCase("info") || chp.equalsIgnoreCase("?")){
 					ref = book.getAlias() + "Info";

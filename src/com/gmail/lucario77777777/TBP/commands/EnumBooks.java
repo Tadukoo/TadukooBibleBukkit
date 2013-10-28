@@ -70,13 +70,15 @@ public enum EnumBooks {
 	FIRST("First", "1", null, true),
 	SECOND("Second", "2", null, true),
 	THIRD("Third", "3", null, true),
-	INFO("info", "?", null, true),
-	BOOKS("books", "list", null, true),
-	BOOKS2("books2", "list2", null, true),
-	BOOKS3("books3", "list3", null, true),
-	BOOKS4("books4", "list4", null, true),
-	BOOKS5("books5", "list5", null, true),
-	BOOK("book", "book", null, true);
+	HELP("help", "?", null, false),
+	INFO("info", "about", null, true),
+	BOOKS("books", "bookslist", null, true),
+	TRANSLATIONS("translations", "tranlist", null, true),
+	GETBOOK("getBook", "book", null, true),
+	GIVEBOOK("giveBook", "giveBook", null, false),
+	ANNOUNCE("announce", "ann", null, false),
+	PREVIOUS("previous", "pre", null, false),
+	NEXT("next", "next", null, false);
 	
 	private String book;
 	private String alias;

@@ -22,50 +22,111 @@ a video game. Hopefully in the future, there will be new plugins and/or mods tha
 
 Command Usage
 -------------
-/bible [ translation ] [ book ] [ chapter # ] [ verse # ]
+/bible [ book ] [ chapter # ] [ verse # ] [ translation ]
    * Shows the verse through the chat to the player.
    * Defaults:
-      * [ translation ] defaults to whatever is set in the config.yml
       * [ book ] defaults to Genesis.
       * [ chapter # ] defaults to 1.
       * [ verse # ] defaults to 1.
-   * [ book ] can be replaced with ? or info.
-      * This will show information about the translation you chose.
+	  * [ translation ] defaults to whatever is set in the config.yml
    * [ chapter # ] can be replaced with #, info, or ?.
       * # will list how many chapters are in that book.
       * ? or info will show information about the book you chose.
    * [ verse # ] can be replaced with #, ?, or info.
       * This will show how many verses are in the chapter you chose.
+
+/bible info|about < translation >
+   * Shows information about the translation you chose.
    
-/bible list or /bible ?
+/bible translations|tranlist
    * Shows a list of available translations.
    
-/bible < translation > books or /bible < translation > list
-   * Lists all the books in the Bible for that translation.
+/bible books|bookslist [ page ]
+   * Lists all the books in the Bible.
    * Books in red aren't available yet.
    * Books in green are completely available.
    * Books in yellow are partially available, but incomplete.
    
-/bible < translation > book [ book ] [ part # ]
+/bible getbook|book [ book ] [ part # ] [ translation ]
    * Gives you part of the Bible in book form.
+   * Requires TadukooBible.getbook
    * Defaults:
       * [ book ] defaults to Genesis.
       * [ part # ] defaults to 1.
+	  * [ translation ] defaults to whatever is set in the config.yml.
    * Note: [ part # ] is not the chapter #.
+
+Permissions
+-----------
+TadukooBible.use
+   * Required for use of plugin.
+
+TadukooBible.getbook
+   * Allows use of /bible getbook|book [ book ] [ part # ] [ translation ]
+
+Config.yml
+----------
+KJV: true
+* This sets whether the KJV can be used or not.
+* It can only be set to true or false.
+
+KJVBookCheck: check
+* This sets how to check the KJVbookconfig.yml file.
+* Create will overwrite books even if they already exist.
+* Correct will overwrite incorrect parts of books and ignore others.
+* Check will simply check if each book exists and create them if they don't.
+* Ignore will do nothing.
+
+BookConfigChapterNotifications: 5
+* This is how often you get notified about a certain amount of chapters being finished per book.
+* 0 would work to never be notified.
+
+DefaultTranslation: KJV
+* This is the translation used for commands when none is specified.
+
+Permissions: true
+* This decides whether to use permissions or not.
+* Note: If you use a permissions plugin and set TadukooBible.use to false, it will still disable use of the plugin even if this is false.
 
 Upcoming Commands/Features
 --------------------------
-/bible < translation > book [ book ] [ part # ] ?
+/bible getbook|book [ book ] [ part # ] [ translation ] ?
    * Tells you what is included in [ part # ].
+   * Requires saving what's included in each part (coded in the BookDefine class)
 
-/bible < translation > announce < book > < chapter # > < verse # >
+/bible announce|ann < book > < chapter # > < verse # > [ translation ]
    * Broadcasts the verse you choose.
+   * Requires the permission: TadukooBible.announce
+
+/bible givebook < player > [ book ] [ part # ] [ translation ]
+   * Gives a book to a player instead of yourself.
+   * Requires the permission: TadukooBible.givebook
+
+More Permissions:
+   * TadukooBible.listtranslations (Allows use of /bible translations|tranlist)
+   * TadukooBible.listbooks (Allows use of /bible books|bookslist [ page ])
+
+/bible next [ translation ]
+   * Shows you the Bible verse after the one you last read.
+   * Also requires saving what Bible verse was last read.
+   * Requires permission: TadukooBible.next
+
+/bible previous|pre [ translation ]
+   * Shows you the Bible verse before the one you last read.
+   * Also requires saving what Bible verse was last read.
+   * Requires permission: TadukooBible.previous
+
+/bible help|?
+   * Shows help for TadukooBible commands.
+   * Requires permission: TadukooBible.help
+
+Changes in books:
+   * If a new book is started, it should start with an entire verse (or chapter).
+   * Reduce the amount of messages for books.
 
 Known Issues
 ------------
-* Issues with books:
-   * If a new book is started, it should start with an entire verse (or chapter).
-   * Reduce the amount of messages for books.
+None currently.
 
 Translations
 ------------
