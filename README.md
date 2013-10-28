@@ -147,7 +147,6 @@ Upcoming Commands/Features
    * Requires permission: TadukooBible.next
 
 Changes in books:
-   * If a new book is started, it should start with an entire verse (or chapter).
    * Reduce the amount of messages for books.
 
 Known Issues

@@ -45,12 +45,29 @@ public class BookDefine {
 							realPage = page;
 						}
 					}else{
-						page = page + " ";
-						if(v != 1){
-							page = page + v + " ";
+						if(pageNum == 50){
+							String temp = " " + v + " ";
+							if (page.length() + temp.length() + 
+									plugin.getBook(tran, bookName).getString("ch" + c + "v" + v).length() 
+									> 256){
+								realPage = page;
+							}else{
+								page = page + " ";
+								if(v != 1){
+									page = page + v + " ";
+								}
+								page = page + plugin.getBook(tran, bookName).getString("ch" + c + "v" + v);
+								v++;
+							}
+							temp = null;
+						}else{
+							page = page + " ";
+							if(v != 1){
+								page = page + v + " ";
+							}
+							page = page + plugin.getBook(tran, bookName).getString("ch" + c + "v" + v);
+							v++;
 						}
-						page = page + plugin.getBook(tran, bookName).getString("ch" + c + "v" + v);
-						v++;
 					}
 				}else{
 					realPage = page;
