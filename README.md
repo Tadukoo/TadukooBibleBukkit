@@ -43,10 +43,12 @@ Command Usage
 /bible info < translation >
    * Aliases: about, abt, and information.
    * Shows information about the translation you chose.
+   * Requires permission: TadukooBible.info
 
 /bible books [ page ]
    * Aliases: bookslist, listbooks, and booklist.
    * Lists all the books in the Bible.
+   * Requires permission: TadukooBible.books
    * Books in red aren't available yet.
    * Books in green are completely available.
    * Books in yellow are partially available, but incomplete.
@@ -54,11 +56,12 @@ Command Usage
 /bible translations
    * Aliases: translist, translationslist, listtrans, tran, and trans.
    * Shows a list of available translations.
+   * Requires permission: TadukooBible.translations
    
 /bible getbook [ book ] [ part # ] [ translation ]
    * Aliases: book and bookget.
    * Gives you part of the Bible in book form.
-   * Requires TadukooBible.getbook
+   * Requires permission: TadukooBible.getbook
    * Defaults:
       * [ book ] defaults to Genesis.
       * [ part # ] defaults to 1.
@@ -69,12 +72,27 @@ Permissions
 -----------
 TadukooBible.use
    * Required for use of plugin.
+   * Default: true
 
 TadukooBible.help
    * Allows use of /bible help.
+   * Default: true
+
+TadukooBible.info
+   * Allow use of /bible info.
+   * Default: true
+
+TadukooBible.books
+   * Allows use of /bible books.
+   * Default: true
+
+TadukooBible.translations
+   * Allows use of /bible translations.
+   * Default: true
 
 TadukooBible.getbook
    * Allows use of /bible getbook.
+   * Default: true
 
 Config.yml
 ----------
@@ -127,10 +145,6 @@ Upcoming Commands/Features
    * Shows you the Bible verse after the one you last read.
    * Also requires saving what Bible verse was last read.
    * Requires permission: TadukooBible.next
-
-More Permissions:
-   * TadukooBible.translations (Allows use of /bible translations)
-   * TadukooBible.books (Allows use of /bible books)
 
 Changes in books:
    * If a new book is started, it should start with an entire verse (or chapter).

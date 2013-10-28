@@ -86,10 +86,8 @@ public class MainCommandExecutor implements CommandExecutor {
 						if(args.length >= 2){
 							i = args[1];
 						}
-						if(permsOn == true && playerType == "player"){
-							if(Permissions.check(sender, "help") == false){
-								return true;
-							}
+						if(permCheck(permsOn, playerType, sender, "help") == false){
+							return true;
 						}
 						Help.Run(i, sender, plugin);
 						return true;
@@ -98,6 +96,9 @@ public class MainCommandExecutor implements CommandExecutor {
 							sender.sendMessage(ChatColor.RED + "Not enough arguments!");
 							sender.sendMessage(ChatColor.RED + "/bible about|info|abt|information " +
 									"<translation>");
+							return true;
+						}
+						if(permCheck(permsOn, playerType, sender, "info") == false){
 							return true;
 						}
 						tran = args[1].toUpperCase();
@@ -110,16 +111,20 @@ public class MainCommandExecutor implements CommandExecutor {
 						if(args.length >= 2){
 							i = args[1];
 						}
+						if(permCheck(permsOn, playerType, sender, "books") == false){
+							return true;
+						}
 						BooksList.list(i, sender);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("translations")){
+						if(permCheck(permsOn, playerType, sender, "translations") == false){
+							return true;
+						}
 						Translations.Run(sender, plugin);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("getBook")){
-						if(permsOn == true && playerType == "player"){
-							if(Permissions.check(sender, "getbook") == false){
-								return true;
-							}
+						if(permCheck(permsOn, playerType, sender, "getbook") == false){
+							return true;
 						}
 						bookName = chp;
 						String part = v;
@@ -174,10 +179,23 @@ public class MainCommandExecutor implements CommandExecutor {
 		}
 		return false;
 	}
+	
 	private static boolean tranCheck(Main plugin, CommandSender sender, String tran) {
 		if(plugin.getConfig().getString(tran) == null || plugin.getConfig().getBoolean(tran) == false){
 			sender.sendMessage(ChatColor.RED + "Sorry, that translation is not available.");
 			return false;
+		}else{
+			return true;
+		}
+	}
+	
+	private static boolean permCheck(boolean permsOn, String playerType, CommandSender sender, String perm){
+		if(permsOn == true && playerType == "player"){
+			if(Permissions.check(sender, perm) == true){
+				return true;
+			}else{
+				return false;
+			}
 		}else{
 			return true;
 		}

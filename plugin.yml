@@ -12,9 +12,18 @@ permissions:
    TadukooBible.use:
       description: Gives access to the plugin.
       default: true
-   TadukooBible.getbook:
-      description: Allows use of /bible getbook.
-      default: true
    TadukooBible.help:
       description: Allows use of /bible help.
+      default: true
+   TadukooBible.info:
+      description: Allows use of /bible info.
+      default: true
+   TadukooBible.books:
+      description: Allows use of /bible books.
+      default: true
+   TadukooBible.translations:
+      description: Allows use of /bible translations.
+      default: true
+   TadukooBible.getbook:
+      description: Allows use of /bible getbook.
       default: true
