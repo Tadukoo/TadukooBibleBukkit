@@ -8,13 +8,17 @@ public class BookDefine {
 		String realPage = null;
 		String nextPage = null;
 		int v = 1;
+		int lv = 0;
 		int c = 0;
+		int lc = 0;
 		int pageNum = 1;
 		int bookNum = 1;
 		int jL = plugin.getConfig().getInt("BookConfigChapterNotifications");
 		int j = 0;
 		boolean cont = true;
 		boolean chpD = false;
+		plugin.getigBook(tran).set(bookName + "1Start", "1:1");
+		plugin.saveigBook(tran);
 		while(cont == true){
 			if(page == "" && nextPage != null){
 				page = nextPage;
@@ -24,6 +28,7 @@ public class BookDefine {
 			if(page.length() < 256){
 				if(chpD == false){
 					if(plugin.getBook(tran, bookName).getString("ch" + c + "v" + v) == null){
+						lc = c;
 						c++;
 						if(c != 1){
 							nextPage = "\n";
@@ -39,10 +44,14 @@ public class BookDefine {
 							plugin.getLogger().log(Level.INFO, "Starting " + bookName + " Chapter " + chp + 
 									".");
 						}
+						lv = v;
 						v = 1;
 						if(plugin.getBook(tran, bookName).getString("ch" + c + "v" + v) == null){
 							cont = false;
 							realPage = page;
+							int sv = lv - 1;
+							plugin.getigBook(tran).set(bookName + bookNum + "End", lc + ":" + sv);
+							plugin.saveigBook(tran);
 						}
 					}else{
 						if(pageNum == 50){
@@ -51,12 +60,23 @@ public class BookDefine {
 									plugin.getBook(tran, bookName).getString("ch" + c + "v" + v).length() 
 									> 256){
 								realPage = page;
+								int sc = 0;
+								if(v == 1){
+									sc = lc;
+								}else{
+									sc = c;
+								}
+								int sbookNum = bookNum + 1;
+								plugin.getigBook(tran).set(bookName + bookNum + "End", sc + ":" + lv);
+								plugin.getigBook(tran).set(bookName + sbookNum + "Start", c + ":" + v);
+								plugin.saveigBook(tran);
 							}else{
 								page = page + " ";
 								if(v != 1){
 									page = page + v + " ";
 								}
 								page = page + plugin.getBook(tran, bookName).getString("ch" + c + "v" + v);
+								lv = v;
 								v++;
 							}
 							temp = null;
@@ -66,6 +86,7 @@ public class BookDefine {
 								page = page + v + " ";
 							}
 							page = page + plugin.getBook(tran, bookName).getString("ch" + c + "v" + v);
+							lv = v;
 							v++;
 						}
 					}

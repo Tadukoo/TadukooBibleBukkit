@@ -58,7 +58,7 @@ Command Usage
    * Shows a list of available translations.
    * Requires permission: TadukooBible.translations
    
-/bible getbook [ book ] [ part # ] [ translation ]
+/bible getbook [ book ] [ part # ] [ translation ] [ ? ]
    * Aliases: book and bookget.
    * Gives you part of the Bible in book form.
    * Requires permission: TadukooBible.getbook
@@ -67,6 +67,7 @@ Command Usage
       * [ part # ] defaults to 1.
 	  * [ translation ] defaults to whatever is set in the config.yml.
    * Note: [ part # ] is not the chapter #.
+   * ? will tell you what is in that book.
 
 Permissions
 -----------
@@ -120,10 +121,6 @@ Permissions: true
 
 Upcoming Commands/Features
 --------------------------
-/bible getbook [ book ] [ part # ] [ translation ] ?
-   * Tells you what is included in [ part # ].
-   * Requires saving what's included in each part (coded in the BookDefine class)
-
 /bible givebook < player > [ book ] [ part # ] [ translation ]
    * Alias: bookgive
    * Gives a book to a player instead of yourself.

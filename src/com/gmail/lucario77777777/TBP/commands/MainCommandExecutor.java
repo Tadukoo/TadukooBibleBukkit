@@ -137,6 +137,12 @@ public class MainCommandExecutor implements CommandExecutor {
 									if(tranCheck(plugin, sender, tran) == false){
 										return true;
 									}
+									if(args.length >= 5){
+										if(args[4].equalsIgnoreCase("?")){
+											Book.check(plugin, sender, tran, bookName, part);
+											return true;
+										}
+									}
 								}
 							}
 						}

@@ -21,6 +21,10 @@ public class Book extends MainCommandExecutor {
 			sender.sendMessage(ChatColor.RED + "You must be a player!");
 			return true;
 		}else{
+			if(plugin.getigBook(tran).getString(bookName + "Book" + part + "." + 1) == null){
+				sender.sendMessage(ChatColor.RED + "That book does not exist.");
+				return true;
+			}
 			EnumBooks book = EnumBooks.GENESIS;
 			book = book.fromString(bookName.toUpperCase());
 			String author = book.getAuthor();
@@ -55,4 +59,16 @@ public class Book extends MainCommandExecutor {
 			return true;
 	}
 }
+
+	public static void check(Main plugin, CommandSender sender, String tran,
+			String bookName, String part) {
+		String start = plugin.getigBook(tran).getString(bookName + part + "Start");
+		String end = plugin.getigBook(tran).getString(bookName + part + "End");
+		if(start == null || end == null){
+			sender.sendMessage(ChatColor.RED + "That part does not exist.");
+			return;
+		}
+		sender.sendMessage(ChatColor.GREEN + bookName + " part " + part + " contains " + bookName + " " + start + 
+				"-" + end + ".");
+	}
 }
