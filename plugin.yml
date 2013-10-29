@@ -27,3 +27,6 @@ permissions:
    TadukooBible.getbook:
       description: Allows use of /bible getbook.
       default: true
+   TadukooBible.givebook:
+      description: Allows use of /bible givebook.
+      default: op

@@ -122,10 +122,12 @@ public class MainCommandExecutor implements CommandExecutor {
 						}
 						Translations.Run(sender, plugin);
 						return true;
-					}else if(cmdType.equalsIgnoreCase("getBook")){
+					}else if(cmdType.equalsIgnoreCase("getbook")){
 						if(permCheck(permsOn, playerType, sender, "getbook") == false){
 							return true;
 						}
+						type = "get";
+						String p = null;
 						bookName = chp;
 						String part = v;
 						if(args.length >= 2){
@@ -146,7 +148,36 @@ public class MainCommandExecutor implements CommandExecutor {
 								}
 							}
 						}
-						Book.Run(plugin, sender, playerType, tran, bookName, part);
+						Book.Run(plugin, sender, playerType, tran, bookName, part, type, p);
+						return true;
+					}else if(cmdType.equalsIgnoreCase("givebook")){
+						if(permCheck(permsOn, playerType, sender, "givebook") == false){
+							return true;
+						}
+						type = "give";
+						String p = null;
+						bookName = chp;
+						String part = v;
+						if(args.length < 2){
+							sender.sendMessage(ChatColor.RED + "Not enough arguments!");
+							sender.sendMessage(ChatColor.RED + "/bible givebook <player>");
+							return true;
+						}else{
+							p = args[1];
+						}
+						if(args.length >= 3){
+							bookName = args[2];
+							if(args.length >= 4){
+								part = args[3];
+								if(args.length >= 5){
+									tran = args[4].toUpperCase();
+									if(tranCheck(plugin, sender, tran) == false){
+										return true;
+									}
+								}
+							}
+						}
+						Book.Run(plugin, sender, playerType, tran, bookName, part, type, p);
 						return true;
 					}
 				}

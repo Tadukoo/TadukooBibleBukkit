@@ -16,12 +16,15 @@ public enum EnumCmds {
 	TRANSLATIONS("translations", "translations", "translist", "translationslist", true),
 	TRANSLATIONS2("translations", "listtrans", "tran", "trans", true),
 	GETBOOK("getbook", "getbook", "book", "bookget", true),
-	GIVEBOOK("givebook", "givebook", "bookgive", null, false),
+	GETBOOK2("getbook", "bible", "getbible", "bibleget", true),
+	GIVEBOOK("givebook", "givebook", "bookgive", "biblegive", true),
+	GIVEBOOK2("givebook", "givebible", null, null, true),
 	ANNOUNCE("announce", "announce", "ann", "broadcast", false),
 	ANNOUNCE2("announce", "broad", null, null, false),
 	PREVIOUS("previous", "previous", "pre", "prev", false),
-	PREVIOUS2("previous", "back", null, null, false),
-	NEXT("next", "next", "forward", "for", false);
+	PREVIOUS2("previous", "back", "before", "b4", false),
+	NEXT("next", "next", "forward", "for", false),
+	NEXT2("next", "after", "aft", null, false);
 	
 	//Command Name.
 	private String cmd;

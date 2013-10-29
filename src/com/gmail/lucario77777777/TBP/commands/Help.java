@@ -18,6 +18,7 @@ public class Help {
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Table of Contents Page 2.");
 			sender.sendMessage(ChatColor.GREEN + "Page 7. /bible translations");
 			sender.sendMessage(ChatColor.GREEN + "Page 8. /bible getbook");
+			sender.sendMessage(ChatColor.GREEN + "Page 10. /bible givebook");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible help 3 for the next page.");
 			return;
 		}else if(i.equalsIgnoreCase("3")){
@@ -62,7 +63,7 @@ public class Help {
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page 8 /bible getbook");
 			sender.sendMessage(ChatColor.GREEN + "Description: Gives you a book of part of the Bible.");
 			sender.sendMessage(ChatColor.GREEN + "Usage: /bible getbook [book] [part #] [translation]");
-			sender.sendMessage(ChatColor.GREEN + "Aliases: book and bookget.");
+			sender.sendMessage(ChatColor.GREEN + "Aliases: book, bookget, bible, bibleget, and getbible.");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible help 9 for defaults, permission, and a note.");
 			return;
 		}else if(i.equalsIgnoreCase("9")){
@@ -70,6 +71,20 @@ public class Help {
 			sender.sendMessage(ChatColor.GREEN + "Defaults: /bible getbook Genesis 1 " + 
 					plugin.getConfig().getString("DefaultTranslation"));
 			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.getbook");
+			sender.sendMessage(ChatColor.GREEN + "Note: [part #] is not [chapter #]");
+			return;
+		}else if(i.equalsIgnoreCase("10")){
+			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page 10 /bible givebook");
+			sender.sendMessage(ChatColor.GREEN + "Description: Gives someone else a book of part of the Bible.");
+			sender.sendMessage(ChatColor.GREEN + "Usage: /bible givebook <player> [book] [part #] [translation]");
+			sender.sendMessage(ChatColor.GREEN + "Aliases: bookgive, biblegive, and givebible.");
+			sender.sendMessage(ChatColor.GREEN + "Type /bible help 11 for defaults, permission, and a note.");
+			return;
+		}else if(i.equalsIgnoreCase("11")){
+			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page 11 /bible givebook Cont.");
+			sender.sendMessage(ChatColor.GREEN + "Defaults: /bible givebook <player> Genesis 1 " + 
+					plugin.getConfig().getString("DefaultTranslation"));
+			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.givebook");
 			sender.sendMessage(ChatColor.GREEN + "Note: [part #] is not [chapter #]");
 			return;
 		}

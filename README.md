@@ -59,7 +59,7 @@ Command Usage
    * Requires permission: TadukooBible.translations
    
 /bible getbook [ book ] [ part # ] [ translation ] [ ? ]
-   * Aliases: book and bookget.
+   * Aliases: book, bookget, bible, bibleget, and getbible.
    * Gives you part of the Bible in book form.
    * Requires permission: TadukooBible.getbook
    * Defaults:
@@ -68,6 +68,11 @@ Command Usage
 	  * [ translation ] defaults to whatever is set in the config.yml.
    * Note: [ part # ] is not the chapter #.
    * ? will tell you what is in that book.
+
+/bible givebook < player > [ book ] [ part # ] [ translation ]
+   * Alias: bookgive, biblegive, and givebible.
+   * Gives a book to a player instead of yourself.
+   * Requires the permission: TadukooBible.givebook
 
 Permissions
 -----------
@@ -95,6 +100,10 @@ TadukooBible.getbook
    * Allows use of /bible getbook.
    * Default: true
 
+TadukooBible.givebook
+   * Allows use of /bible givebook.
+   * Default: op
+
 Config.yml
 ----------
 KJV: true
@@ -121,10 +130,14 @@ Permissions: true
 
 Upcoming Commands/Features
 --------------------------
-/bible givebook < player > [ book ] [ part # ] [ translation ]
-   * Alias: bookgive
-   * Gives a book to a player instead of yourself.
-   * Requires the permission: TadukooBible.givebook
+/bible getbook list
+   * Gives you a book that lists all the available books and what's in them.
+
+/bible getbook previous
+   * Gives you the previous book.
+
+/bible getbook next
+   * Gives you the next book.
 
 /bible announce < book > < chapter # > < verse # > [ translation ]
    * Aliases: ann, broadcast, and broad.
@@ -132,13 +145,13 @@ Upcoming Commands/Features
    * Requires the permission: TadukooBible.announce
 
 /bible previous [ translation ]
-   * Aliases: pre, prev, and back.
+   * Aliases: pre, prev, back, before, and b4.
    * Shows you the Bible verse before the one you last read.
    * Also requires saving what Bible verse was last read.
    * Requires permission: TadukooBible.previous
 
 /bible next [ translation ]
-   * Aliases: forward and for.
+   * Aliases: forward, for, after, and aft.
    * Shows you the Bible verse after the one you last read.
    * Also requires saving what Bible verse was last read.
    * Requires permission: TadukooBible.next
@@ -169,13 +182,13 @@ Progress
 * King James Version (KJV) (12%)
     * Through-chat commands
        * Completed:
-	      * Genesis through Deuteronomy
-		  * 1 John, 2 John, and 3 John
-	   * Partially Complete:
+          * Genesis through Deuteronomy
+          * 1 John, 2 John, and 3 John
+       * Partially Complete:
 	      * None at the moment.
-	   * Not Yet Started:
+       * Not Yet Started:
           * Joshua through 2 Peter
-		  * Jude and Revelation.
+          * Jude and Revelation.
     * Books
        * Genesis Part 1 Started.
 

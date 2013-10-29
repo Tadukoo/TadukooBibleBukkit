@@ -15,12 +15,18 @@ public class Book extends MainCommandExecutor {
 	}
 	
 	public static boolean Run(Main plugin, CommandSender sender, String playerType, String tran, 
-			String bookName, String part)
+			String bookName, String part, String type, String p)
 	{
-		if(playerType != "player"){
+		if(playerType != "player" && type == "get"){
 			sender.sendMessage(ChatColor.RED + "You must be a player!");
 			return true;
 		}else{
+			Player player = null;
+			if(type == "get"){
+				player = (Player) sender;
+			}else if(type == "give"){
+				player = sender.getServer().getPlayer(p);
+			}
 			if(plugin.getigBook(tran).getString(bookName + "Book" + part + "." + 1) == null){
 				sender.sendMessage(ChatColor.RED + "That book does not exist.");
 				return true;
@@ -55,7 +61,7 @@ public class Book extends MainCommandExecutor {
 				}
 			}
 			igbook.setItemMeta(meta);
-			((Player) sender).getInventory().addItem(igbook);
+			player.getInventory().addItem(igbook);
 			return true;
 	}
 }
