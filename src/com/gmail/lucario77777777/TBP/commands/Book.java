@@ -7,6 +7,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BookMeta;
 
+import com.gmail.lucario77777777.TBP.BookList;
 import com.gmail.lucario77777777.TBP.Main;
 
 public class Book extends MainCommandExecutor {
@@ -66,7 +67,7 @@ public class Book extends MainCommandExecutor {
 	}
 }
 
-	public static void check(Main plugin, CommandSender sender, String tran,
+	public static void contains(Main plugin, CommandSender sender, String tran,
 			String bookName, String part) {
 		String start = plugin.getigBook(tran).getString(bookName + part + "Start");
 		String end = plugin.getigBook(tran).getString(bookName + part + "End");
@@ -76,5 +77,34 @@ public class Book extends MainCommandExecutor {
 		}
 		sender.sendMessage(ChatColor.GREEN + bookName + " part " + part + " contains " + bookName + " " + start + 
 				"-" + end + ".");
+	}
+
+	public static void next(Main plugin, CommandSender sender, String playerType, String tran,
+			String bookName, String part, String type, String p) {
+		int bN = Integer.parseInt(part) + 1;
+		String pNum = "";
+		String newBook = bookName;
+		if(plugin.getigBook(tran).contains(bookName + "Book" + bN) == true){
+			pNum = String.valueOf(bN);
+		}else{
+			newBook = BookList.raise(bookName);
+			pNum = "1";
+		}
+		Run(plugin, sender, playerType, tran, newBook, pNum, type, p);
+	}
+
+	public static void previous(Main plugin, CommandSender sender,
+			String playerType, String tran, String bookName, String part,
+			String type, String p) {
+		int bN = Integer.parseInt(part) - 1;
+		String pNum = "";
+		String newBook = bookName;
+		if(plugin.getigBook(tran).contains(bookName + "Book" + bN) == true){
+			pNum = String.valueOf(bN);
+		}else{
+			newBook = BookList.lower(bookName);
+			pNum = "1";
+		}
+		Run(plugin, sender, playerType, tran, newBook, pNum, type, p);
 	}
 }

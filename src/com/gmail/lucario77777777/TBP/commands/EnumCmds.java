@@ -24,7 +24,14 @@ public enum EnumCmds {
 	PREVIOUS("previous", "previous", "pre", "prev", false),
 	PREVIOUS2("previous", "back", "before", "b4", false),
 	NEXT("next", "next", "forward", "for", false),
-	NEXT2("next", "after", "aft", null, false);
+	NEXT2("next", "after", "aft", "nextverse", false),
+	NEXT3("next", "versenext", "nextv", "vnext", false),
+	LAST("last", "last", "saved", "save", false),
+	LAST2("last", "load", "lastverse", "verselast", false),
+	LAST3("last", "lastv", "vlast", "savedverse", false),
+	LAST4("last", "savedverse", "vsaved", "savedv", false),
+	LAST5("last", "vsave", "versesave", "loadverse", false),
+	LAST6("last", "verseload", "vload", "loadv", false);
 	
 	//Command Name.
 	private String cmd;

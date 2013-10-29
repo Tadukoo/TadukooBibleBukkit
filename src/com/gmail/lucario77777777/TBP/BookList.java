@@ -72,4 +72,36 @@ public class BookList {
 	public static String getBook(int i){
 		return books[i];
 	}
+
+	public static String raise(String bookName) {
+		int i = 1;
+		int j = 0;
+		Boolean cont = true;
+		while(cont == true){
+			if(bookName == getBook(i)){
+				j = i + 1;
+				cont = false;
+			}else{
+				i++;
+			}
+		}
+		String newBook = getBook(j);
+		return newBook;
+	}
+
+	public static String lower(String bookName) {
+		int i = 1;
+		int j = 0;
+		Boolean cont = true;
+		while(cont == true){
+			if(bookName == getBook(i)){
+				j = i - 1;
+				cont = false;
+			}else{
+				i++;
+			}
+		}
+		String newBook = getBook(j);
+		return newBook;
+	}
 }

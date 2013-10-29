@@ -67,6 +67,9 @@ Command Usage
       * [ part # ] defaults to 1.
 	  * [ translation ] defaults to whatever is set in the config.yml.
    * Note: [ part # ] is not the chapter #.
+   * [ book ] can be changed to previous, pre, prev, back, before, or b4 to get the previous book (or the first part # of the previous book).
+   * [ book ] can be changed to next, forward, for, after, or aft to get the next book.
+   * [ book ] can be changed to last, saved, save, or load to get the book you got last time you typed the command.
    * ? will tell you what is in that book.
 
 /bible givebook < player > [ book ] [ part # ] [ translation ]
@@ -128,16 +131,13 @@ Permissions: true
 * This decides whether to use permissions or not.
 * Note: If you use a permissions plugin and set TadukooBible.use to false, it will still disable use of the plugin even if this is false.
 
+PlayerRecords: true
+* This decides whether to save last verse and last book.
+
 Upcoming Commands/Features
 --------------------------
 /bible getbook list
    * Gives you a book that lists all the available books and what's in them.
-
-/bible getbook previous
-   * Gives you the previous book.
-
-/bible getbook next
-   * Gives you the next book.
 
 /bible announce < book > < chapter # > < verse # > [ translation ]
    * Aliases: ann, broadcast, and broad.
@@ -147,17 +147,25 @@ Upcoming Commands/Features
 /bible previous [ translation ]
    * Aliases: pre, prev, back, before, and b4.
    * Shows you the Bible verse before the one you last read.
-   * Also requires saving what Bible verse was last read.
    * Requires permission: TadukooBible.previous
 
 /bible next [ translation ]
-   * Aliases: forward, for, after, and aft.
+   * Aliases: forward, for, after, aft, nextverse, versenext, nextv, and vnext.
    * Shows you the Bible verse after the one you last read.
-   * Also requires saving what Bible verse was last read.
    * Requires permission: TadukooBible.next
+
+/bible last [ translation ]
+   * Aliases: saved, save, load, lastverse, verselast, lastv, vlast, savedverse, savedverse, vsaved, savedv vsave, versesave, loadverse, verseload, vload, 
+   and loadv.
+   * Shows you the Bible verse you last read.
+   * Requires permission: TadukooBible.last
+
+Save what Bible verse was last read.
 
 Changes in books:
    * Reduce the amount of messages for books.
+   * Save when chapters and books are finished using "<book>Part<part#>Done" and "<book>Done"
+   * Make it so that a page doesn't end with a verse number.
 
 Known Issues
 ------------

@@ -25,6 +25,7 @@ public class MainCommandExecutor implements CommandExecutor {
 			playerType = "unknown";
 		}
 		Boolean permsOn = plugin.perms;
+		Boolean pR = plugin.getConfig().getBoolean("PlayerRecords");
 		if(cmd.getName().equalsIgnoreCase("bible")){
 			if(playerType == "block" || playerType == "unknown"){
 				sender.sendMessage(ChatColor.RED + "Unknown sender!");
@@ -132,6 +133,34 @@ public class MainCommandExecutor implements CommandExecutor {
 						String part = v;
 						if(args.length >= 2){
 							bookName = args[1];
+							if(bookName.equalsIgnoreCase("previous") || bookName.equalsIgnoreCase("pre")
+									|| bookName.equalsIgnoreCase("prev") || bookName.equalsIgnoreCase("back")
+									|| bookName.equalsIgnoreCase("before") || bookName.equalsIgnoreCase("b4")){
+								Player player = (Player) sender;
+								String pl = player.toString();
+								bookName = plugin.getpRec().getString(pl + ".lastbook.book");
+								part = plugin.getpRec().getString(pl + "lastbook.part");
+								tran = plugin.getpRec().getString(pl + ".lastbook.tran");
+								Book.previous(plugin, sender, playerType, tran, bookName, part, type, p);
+								return true;
+							}else if(bookName.equalsIgnoreCase("next") || bookName.equalsIgnoreCase("forward")
+									|| bookName.equalsIgnoreCase("for") || bookName.equalsIgnoreCase("after")
+									|| bookName.equalsIgnoreCase("and") || bookName.equalsIgnoreCase("aft")){
+								Player player = (Player) sender;
+								String pl = player.toString();
+								bookName = plugin.getpRec().getString(pl + ".lastbook.book");
+								part = plugin.getpRec().getString(pl + ".lastbook.part");
+								tran = plugin.getpRec().getString(pl + ".lastbook.tran");
+								Book.next(plugin, sender, playerType, tran, bookName, part, type, p);
+								return true;
+							}else if(bookName.equalsIgnoreCase("last") || bookName.equalsIgnoreCase("saved")
+									|| bookName.equalsIgnoreCase("save") || bookName.equalsIgnoreCase("load")){
+								Player player = (Player) sender;
+								String pl = player.toString();
+								bookName = plugin.getpRec().getString(pl + ".lastbook.book");
+								part = plugin.getpRec().getString(pl + ".lastbook.part");
+								tran = plugin.getpRec().getString(pl + ".lastbook.tran");
+							}
 							if(args.length >= 3){
 								part = args[2];
 								if(args.length >= 4){
@@ -141,12 +170,20 @@ public class MainCommandExecutor implements CommandExecutor {
 									}
 									if(args.length >= 5){
 										if(args[4].equalsIgnoreCase("?")){
-											Book.check(plugin, sender, tran, bookName, part);
+											Book.contains(plugin, sender, tran, bookName, part);
 											return true;
 										}
 									}
 								}
 							}
+						}
+						if(pR == true){
+							Player player = (Player) sender;
+							String pl = player.toString();
+							plugin.getpRec().set(pl + ".lastbook.book", bookName);
+							plugin.getpRec().set(pl + ".lastbook.part", part);
+							plugin.getpRec().set(pl + ".lastbook.tran", tran);
+							plugin.savepRec();
 						}
 						Book.Run(plugin, sender, playerType, tran, bookName, part, type, p);
 						return true;

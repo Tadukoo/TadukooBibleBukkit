@@ -18,17 +18,22 @@ public class Main extends JavaPlugin {
 	public File bookFile = null;
 	public FileConfiguration igbook = null;
 	public File igbookFile = null;
+	public FileConfiguration pRec = null;
+	public File pRecFile = null;
 	public static Main instance;
 	public Boolean perms = null;
 	
 	@Override
 	public void onDisable () {
+		savepRec();
 		saveConfig();
 		CheckTranslations.save();
 	}
 	@Override
 	public void onEnable () {
 		instance = this;
+		reloadpRec();
+		savepRec();
 		getConfig().options().copyDefaults(true);
 		saveConfig();
 		getCommand("bible").setExecutor(new MainCommandExecutor(this));
@@ -64,6 +69,31 @@ public class Main extends JavaPlugin {
 	        getigBook(tran).save(igbookFile);
 	    } catch (IOException ex) {
 	        this.getLogger().log(Level.SEVERE, "Could not save config to " + igbookFile + ex);
+	    }
+	}
+	
+	public void reloadpRec() {
+	    if (pRecFile == null) {
+	    pRecFile = new File(getDataFolder(), "Players.yml");
+	    }
+	    pRec = YamlConfiguration.loadConfiguration(pRecFile);
+	}
+	
+	public FileConfiguration getpRec() {
+	    if (pRec == null) {
+	        this.reloadpRec();
+	    }
+	    return pRec;
+	}
+	
+	public void savepRec() {
+	    if (pRec == null || pRecFile == null) {
+	    return;
+	    }
+	    try {
+	        getpRec().save(pRecFile);
+	    } catch (IOException ex) {
+	        this.getLogger().log(Level.SEVERE, "Could not save player records to " + pRecFile + ex);
 	    }
 	}
 }
