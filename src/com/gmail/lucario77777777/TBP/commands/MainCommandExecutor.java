@@ -1,10 +1,14 @@
 package com.gmail.lucario77777777.TBP.commands;
 
+import java.util.Random;
+
 import org.bukkit.ChatColor;
 import org.bukkit.command.*;
 import org.bukkit.entity.Player;
 import org.bukkit.command.CommandExecutor;
 
+import com.gmail.lucario77777777.TBP.Checker;
+import com.gmail.lucario77777777.TBP.Lists;
 import com.gmail.lucario77777777.TBP.Main;
 
 public class MainCommandExecutor implements CommandExecutor {
@@ -90,7 +94,7 @@ public class MainCommandExecutor implements CommandExecutor {
 						if(permCheck(permsOn, playerType, sender, "help") == false){
 							return true;
 						}
-						Help.Run(i, sender, plugin);
+						Lists.help(i, sender, plugin);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("info")){
 						if(args.length < 2){
@@ -115,13 +119,13 @@ public class MainCommandExecutor implements CommandExecutor {
 						if(permCheck(permsOn, playerType, sender, "books") == false){
 							return true;
 						}
-						BooksList.list(i, sender);
+						Lists.booksList(i, sender);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("translations")){
 						if(permCheck(permsOn, playerType, sender, "translations") == false){
 							return true;
 						}
-						Translations.Run(sender, plugin);
+						Lists.tranList(sender, plugin);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("getbook")){
 						if(permCheck(permsOn, playerType, sender, "getbook") == false){
@@ -216,6 +220,35 @@ public class MainCommandExecutor implements CommandExecutor {
 						}
 						Book.Run(plugin, sender, playerType, tran, bookName, part, type, p);
 						return true;
+					}else if(cmdType.equalsIgnoreCase("random")){
+						if(permCheck(permsOn, playerType, sender, "random") == false){
+							return true;
+						}
+						Random generator = new Random();
+						int rB;
+						int rC;
+						int rV;
+						EnumBooks ebook = EnumBooks.GENESIS;
+						if(args.length >= 2){
+							bookName = args[1];
+							if(args.length >= 3){
+								chp = args[2];
+								if(args.length >= 4){
+									tran = args[3];
+								}
+							}else{
+								ebook = ebook.fromString(bookName);
+								int lim = ebook.getChp() + 1;
+								rC = generator.nextInt(lim);
+								chp = Integer.toString(rC);
+							}
+						}else{
+							rB = generator.nextInt(67);
+							bookName = ebook.numtoBook(rB, "int", null, null);
+						}
+						int lim = plugin.getBook(tran, bookName).getInt("ch" + chp + "Lim") + 1;
+						rV = generator.nextInt(lim);
+						v = Integer.toString(rV);
 					}
 				}
 				if(plugin.getBook(tran, bookName) == null){
@@ -265,7 +298,7 @@ public class MainCommandExecutor implements CommandExecutor {
 	
 	private static boolean permCheck(boolean permsOn, String playerType, CommandSender sender, String perm){
 		if(permsOn == true && playerType == "player"){
-			if(Permissions.check(sender, perm) == true){
+			if(Checker.permCheck(sender, perm) == true){
 				return true;
 			}else{
 				return false;

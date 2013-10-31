@@ -30,3 +30,6 @@ permissions:
    TadukooBible.givebook:
       description: Allows use of /bible givebook.
       default: op
+   TadukooBible.random:
+      description: Allows use of /bible random.
+      default: true

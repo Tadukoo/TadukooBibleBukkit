@@ -151,12 +151,17 @@ public class BookDefine {
 					plugin.getLogger().log(Level.SEVERE, "An error occured in creating the book config for " +
 							tran + ".");
 				}
+				if(plugin.getigBook(tran).getString(bookName + bookNum + "End") != null){
+					plugin.getigBook(tran).set(bookName + "Part" + bookNum + "Done", true);
+					plugin.saveigBook(tran);
+				}
 				pageNum++;
 				realPage = null;
 				page = "";
 			}
 			if(cont == false){
 				plugin.getLogger().log(Level.INFO, bookName + " finished.");
+				plugin.getigBook(tran).set(bookName + "Done", true);
 				plugin.getLogger().log(Level.INFO, "Saving " + tran + "bookconfig.yml...");
 				plugin.saveigBook(tran);
 				return;

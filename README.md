@@ -35,7 +35,7 @@ Command Usage
    * [ verse # ] can be replaced with #, ?, or info.
       * This will show how many verses are in the chapter you chose.
 
-/bible help [ page ]
+/bible help [ page|command ]
    * Aliases: ?, commands, commandshelp, cmds, and cmdshelp.
    * Shows help for TadukooBible commands.
    * Requires permission: TadukooBible.help
@@ -73,9 +73,14 @@ Command Usage
    * ? will tell you what is in that book.
 
 /bible givebook < player > [ book ] [ part # ] [ translation ]
-   * Alias: bookgive, biblegive, and givebible.
+   * Aliases: bookgive, biblegive, and givebible.
    * Gives a book to a player instead of yourself.
-   * Requires the permission: TadukooBible.givebook
+   * Requires permission: TadukooBible.givebook
+
+/bible random [ book ] [ chapter # ] [ translation ]
+   * Aliases: rand, randomverse, randomv, verserandom, vrandom, randverse, randv, verserand, and vrand.
+   * Shows a random verse.
+   * Requires permission: TadukooBible.random
 
 Permissions
 -----------
@@ -106,6 +111,10 @@ TadukooBible.getbook
 TadukooBible.givebook
    * Allows use of /bible givebook.
    * Default: op
+
+TadukooBible.random
+   * Allows use of /bible random.
+   * Default: true
 
 Config.yml
 ----------
@@ -160,11 +169,16 @@ Upcoming Commands/Features
    * Shows you the Bible verse you last read.
    * Requires permission: TadukooBible.last
 
+/bible config < setting > [ value ]
+   * Aliases: configuration, settings, set, and options.
+   * Shows or changes a setting in the config.yml.
+   * Requires permission: TadukooBible.config
+
 Save what Bible verse was last read.
 
 Changes in books:
    * Reduce the amount of messages for books.
-   * Save when chapters and books are finished using "<book>Part<part#>Done" and "<book>Done"
+   * Set check to check for "<book>Part<part#>Done"
    * Make it so that a page doesn't end with a verse number.
 
 Known Issues

@@ -27,7 +27,7 @@ public class Main extends JavaPlugin {
 	public void onDisable () {
 		savepRec();
 		saveConfig();
-		CheckTranslations.save();
+		Checker.tranSave();
 	}
 	@Override
 	public void onEnable () {
@@ -37,7 +37,7 @@ public class Main extends JavaPlugin {
 		getConfig().options().copyDefaults(true);
 		saveConfig();
 		getCommand("bible").setExecutor(new MainCommandExecutor(this));
-		CheckTranslations.check();
+		Checker.tranCheck();
 		perms = getConfig().getBoolean("Permissions");
 	}
 	

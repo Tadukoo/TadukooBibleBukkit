@@ -2,17 +2,62 @@ package com.gmail.lucario77777777.TBP;
 
 import java.util.logging.Level;
 
-public class CheckBooks {
-	public static void check(Main plugin, String tran, String type) {
+import org.bukkit.ChatColor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
+import com.gmail.lucario77777777.TBP.commands.EnumBooks;
+
+public class Checker {
+	static Main plugin = Main.instance;
+	
+	/*
+	 * Translation Checking
+	 */
+	
+	public static void tranCheck() {
+		tranDoCheck("KJV");
+	}
+	
+	public static void tranSave() {
+		tranDoSave("KJV");
+	}
+	
+	public static void tranDoCheck(String tran) {
+		if(plugin.getConfig().getBoolean(tran) == true){
+			String type = "";
+			if(plugin.getConfig().getString(tran + "BookCheck") != null){
+				type = plugin.getConfig().getString(tran + "BookCheck");
+			}
+			if(type.equalsIgnoreCase("ignore")){
+				return;
+			}else{
+				booksCheck(plugin, tran, type);
+			}
+		}
+	}
+	
+	public static void tranDoSave(String tran) {
+		if(plugin.getConfig().getBoolean(tran) == true){
+			plugin.saveigBook(tran);
+		}
+	}
+	
+	/*
+	 * Book Checking
+	 */
+	
+	public static void booksCheck(Main plugin, String tran, String type) {
 		Boolean cont = true;
 		int i = 0;
 		String book = null;
+		EnumBooks ebook = EnumBooks.GENESIS;
 		if(type.equalsIgnoreCase("check")){
 			plugin.getLogger().log(Level.INFO, "Checking " + tran + " books.");
 			while(cont == true){
-				book = BookList.getBook(i);
+				book = ebook.numtoBook(i, "int", "", "");
 				i++;
-				checkBook(plugin, tran, book);
+				booksConfigCheck(plugin, tran, book);
 				if(i == 66){
 					cont = false;
 					i = 0;
@@ -21,9 +66,9 @@ public class CheckBooks {
 		}else if(type.equalsIgnoreCase("correct")){
 			plugin.getLogger().log(Level.INFO, "Correcting " + tran + " books.");
 			while(cont == true){
-				book = BookList.getBook(i);
+				book = ebook.numtoBook(i, "int", "", "");
 				i++;
-				createBook(plugin, tran, book, "fix");
+				bookCreate(plugin, tran, book, "fix");
 				if(i == 66){
 					cont = false;
 					i = 0;
@@ -32,9 +77,9 @@ public class CheckBooks {
 		}else if(type.equalsIgnoreCase("create")){
 			plugin.getLogger().log(Level.INFO, "Creating " + tran + " books.");
 			while(cont == true){
-				book = BookList.getBook(i);
+				book = ebook.numtoBook(i, "int", "", "");
 				i++;
-				createBook(plugin, tran, book, "write");
+				bookCreate(plugin, tran, book, "write");
 				if(i == 66){
 					cont = false;
 					i = 0;
@@ -46,11 +91,11 @@ public class CheckBooks {
 		}
 	}
 	
-	public static void checkBook(Main plugin, String tran, String bookName){
+	public static void booksConfigCheck(Main plugin, String tran, String bookName){
 		plugin.getLogger().log(Level.INFO, "Checking for " + bookName + "...");
 		if(plugin.getBook(tran, bookName).getString("ch1v1") != null){
 			plugin.getLogger().log(Level.INFO, bookName + ".yml found. Checking for book config...");
-			if(plugin.getigBook(tran).getString(bookName + "Book" + 1 + "." + 1) == null){
+			if(plugin.getigBook(tran).getBoolean(bookName + "Done") != true){
 				plugin.getLogger().log(Level.INFO, bookName + " book config not found. Creating config...");
 				BookDefine.run(plugin, tran, bookName, "write");
 			}else{
@@ -63,7 +108,7 @@ public class CheckBooks {
 		}
 	}
 	
-	public static void createBook(Main plugin, String tran, String bookName, String cmd){
+	public static void bookCreate(Main plugin, String tran, String bookName, String cmd){
 		plugin.getLogger().log(Level.INFO, "Checking for " + bookName + "...");
 		if(plugin.getBook(tran, bookName).getString("ch1v1") != null){
 			plugin.getLogger().log(Level.INFO, bookName + ".yml found. Creating/Overwriting book config...");
@@ -71,6 +116,21 @@ public class CheckBooks {
 		}else{
 			plugin.getLogger().log(Level.INFO, bookName + ".yml not found.");
 			return;
+		}
+	}
+	
+	/*
+	 * Permissions Checking
+	 */
+	
+	public static boolean permCheck(CommandSender sender, String perm){
+		Player player = (Player) sender;
+		if(player.hasPermission("TadukooBible." + perm)){
+			return true;
+		}else{
+			sender.sendMessage(ChatColor.RED + "You don't have permission.");
+			sender.sendMessage(ChatColor.RED + "You need TadukooBible." + perm);
+			return false;
 		}
 	}
 }

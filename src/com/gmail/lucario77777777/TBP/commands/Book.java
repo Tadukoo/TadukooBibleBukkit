@@ -7,7 +7,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BookMeta;
 
-import com.gmail.lucario77777777.TBP.BookList;
 import com.gmail.lucario77777777.TBP.Main;
 
 public class Book extends MainCommandExecutor {
@@ -83,11 +82,12 @@ public class Book extends MainCommandExecutor {
 			String bookName, String part, String type, String p) {
 		int bN = Integer.parseInt(part) + 1;
 		String pNum = "";
+		EnumBooks ebook = EnumBooks.GENESIS;
 		String newBook = bookName;
 		if(plugin.getigBook(tran).contains(bookName + "Book" + bN) == true){
 			pNum = String.valueOf(bN);
 		}else{
-			newBook = BookList.raise(bookName);
+			newBook = ebook.numtoBook(0, "string", "raise", bookName);
 			pNum = "1";
 		}
 		Run(plugin, sender, playerType, tran, newBook, pNum, type, p);
@@ -98,11 +98,12 @@ public class Book extends MainCommandExecutor {
 			String type, String p) {
 		int bN = Integer.parseInt(part) - 1;
 		String pNum = "";
+		EnumBooks ebook = EnumBooks.GENESIS;
 		String newBook = bookName;
 		if(plugin.getigBook(tran).contains(bookName + "Book" + bN) == true){
 			pNum = String.valueOf(bN);
 		}else{
-			newBook = BookList.lower(bookName);
+			newBook = ebook.numtoBook(0, "string", "lower", bookName);
 			pNum = "1";
 		}
 		Run(plugin, sender, playerType, tran, newBook, pNum, type, p);
