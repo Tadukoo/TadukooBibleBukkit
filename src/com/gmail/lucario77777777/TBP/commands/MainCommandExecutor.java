@@ -88,22 +88,55 @@ public class MainCommandExecutor implements CommandExecutor {
 						bookName = "BibleConfig";
 						ref = cmdType.toLowerCase();
 					}else if(cmdType.equalsIgnoreCase("help")){
-						if(args.length >= 2){
-							i = args[1];
-						}
 						if(permCheck(permsOn, playerType, sender, "help") == false){
 							return true;
 						}
+						if(args.length >= 2){
+							i = args[1];
+						}
 						Lists.help(i, sender, plugin);
 						return true;
+					}else if(cmdType.equalsIgnoreCase("config")){
+						if(permCheck(permsOn, playerType, sender, "config") == false){
+							return true;
+						}
+						String setting = null;
+						String value = null;
+						//String fileName = null;
+						if(args.length < 2){
+							sender.sendMessage(ChatColor.RED + "Not enough arguments!");
+							sender.sendMessage(ChatColor.RED + "/bible config <setting> [value]");
+							return true;
+						}
+						setting = args[1];
+						if(args.length >= 3){
+							value = args[2];
+							/*if(args.length >= 4){
+								fileName = args[3];
+							}*/
+						}
+						if(setting.equalsIgnoreCase("list")){
+							Lists.settings(sender);
+							return true;
+						}
+						if(value != null){
+							plugin.getConfig().set(setting, value);
+							sender.sendMessage(ChatColor.GREEN + setting + " is now set to " + value + ".");
+							plugin.saveConfig();
+							return true;
+						}else{
+							value = plugin.getConfig().getString(setting);
+							sender.sendMessage(ChatColor.GREEN + setting + " is set to " + value + ".");
+							return true;
+						}
 					}else if(cmdType.equalsIgnoreCase("info")){
+						if(permCheck(permsOn, playerType, sender, "info") == false){
+							return true;
+						}
 						if(args.length < 2){
 							sender.sendMessage(ChatColor.RED + "Not enough arguments!");
 							sender.sendMessage(ChatColor.RED + "/bible about|info|abt|information " +
 									"<translation>");
-							return true;
-						}
-						if(permCheck(permsOn, playerType, sender, "info") == false){
 							return true;
 						}
 						tran = args[1].toUpperCase();
@@ -113,11 +146,11 @@ public class MainCommandExecutor implements CommandExecutor {
 							return true;
 						}
 					}else if(cmdType.equalsIgnoreCase("books")){
-						if(args.length >= 2){
-							i = args[1];
-						}
 						if(permCheck(permsOn, playerType, sender, "books") == false){
 							return true;
+						}
+						if(args.length >= 2){
+							i = args[1];
 						}
 						Lists.booksList(i, sender);
 						return true;

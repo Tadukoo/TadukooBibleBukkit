@@ -40,6 +40,12 @@ Command Usage
    * Shows help for TadukooBible commands.
    * Requires permission: TadukooBible.help
 
+/bible config < setting > [ value ]
+   * Aliases: configuration, settings, set, and options.
+   * Shows or changes a setting in the config.yml.
+   * Requires permission: TadukooBible.config
+   * < setting > can be changed to list to list all the settings.
+
 /bible info < translation >
    * Aliases: about, abt, and information.
    * Shows information about the translation you chose.
@@ -92,6 +98,10 @@ TadukooBible.help
    * Allows use of /bible help.
    * Default: true
 
+TadukooBible.config
+   * Allows use of /bible config.
+   * Default: op
+
 TadukooBible.info
    * Allow use of /bible info.
    * Default: true
@@ -118,33 +128,50 @@ TadukooBible.random
 
 Config.yml
 ----------
-KJV: true
-* This sets whether the KJV can be used or not.
-* It can only be set to true or false.
-
-KJVBookCheck: check
-* This sets how to check the KJVbookconfig.yml file.
-* Create will overwrite books even if they already exist.
-* Correct will overwrite incorrect parts of books and ignore others.
-* Check will simply check if each book exists and create them if they don't.
-* Ignore will do nothing.
-
-BookConfigChapterNotifications: 5
-* This is how often you get notified about a certain amount of chapters being finished per book.
-* 0 would work to never be notified.
-
+##########################################
+#                                        #
+#       Tadukoo Bible Config             #
+##########################################
+# This is the translation used for commands when none is specified.
 DefaultTranslation: KJV
-* This is the translation used for commands when none is specified.
 
+# This decides whether to use permissions or not.
+# Note: If you use a permissions plugin and set TadukooBible.use to false, 
+# it will still disable use of the plugin even if this is false.
 Permissions: true
-* This decides whether to use permissions or not.
-* Note: If you use a permissions plugin and set TadukooBible.use to false, it will still disable use of the plugin even if this is false.
 
+# Whether to keep records of last verse viewed, last book gotten, etc.
+# *Required in order to use previous/next/last for anything.
 PlayerRecords: true
-* This decides whether to save last verse and last book.
+
+##########################################
+#                                        #
+#              Translations              #
+##########################################
+# Enable or disable translations here.
+#(Note: You must still have the files for that translation or it won't work.)
+KJV: true
+
+##########################################
+#                                        #
+#              BookChecks                #
+##########################################
+# How many chapters are made before notifying you.
+# Set to 0 to never be notified.
+BookConfigChapterNotifications: 5
+
+# The settings below are how to check the bookconfig.yml file for the given translation.
+# Create will overwrite books even if they already exist.
+# Correct will overwrite incorrect parts of books and ignore others.
+# Check will simply check if each book exists and create them if they don't.
+# Ignore will do nothing.
+KJVBookCheck: check
 
 Upcoming Commands/Features
 --------------------------
+/bible config < setting > [ value ] [ config file ]
+   * Allows editing the config of another file.
+
 /bible getbook list
    * Gives you a book that lists all the available books and what's in them.
 
@@ -169,11 +196,6 @@ Upcoming Commands/Features
    * Shows you the Bible verse you last read.
    * Requires permission: TadukooBible.last
 
-/bible config < setting > [ value ]
-   * Aliases: configuration, settings, set, and options.
-   * Shows or changes a setting in the config.yml.
-   * Requires permission: TadukooBible.config
-
 Save what Bible verse was last read.
 
 Changes in books:
@@ -195,7 +217,7 @@ Download
 Currently you are unable to download the plugin jar file. Once this plugin is in Beta, it will be available on BukkitDev.
 
 Currently to download and install this plugin, you must download the classes and plugin.yml file, then import them into eclipse, along with importing the
-Bukkit API (Currently this plugin is built off of [1.6.4-R1.0 Recommended Build 1848] (http://dl.bukkit.org/downloads/bukkit/view/02378_1.6.4-R1.0/)
+Bukkit API (Currently this plugin is built off of [1.6.4-R2.0 Recommended Build 1850] (http://dl.bukkit.org/downloads/bukkit/view/02388_1.6.4-R2.0/)
 
 Do not import the Tadukoo Bible folder into eclipse. Simply place it in your plugins folder.
 

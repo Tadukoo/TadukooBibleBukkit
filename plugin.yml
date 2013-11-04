@@ -15,6 +15,9 @@ permissions:
    TadukooBible.help:
       description: Allows use of /bible help.
       default: true
+   TadukooBible.config:
+      description: Allows use of /bible config.
+      default: op
    TadukooBible.info:
       description: Allows use of /bible info.
       default: true

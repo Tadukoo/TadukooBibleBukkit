@@ -8,6 +8,7 @@ public enum EnumCmds {
 	
 	//Actual Commands.
 	HELP("help", "help", "?", "commands", "commandshelp", "cmds", "cmdshelp", true),
+	CONFIG("config", "config", "configuration", "settings", "set", "options", null, true),
 	INFO("info", "info", "about", "abt", "information", null, null, true),
 	BOOKS("books", "books", "bookslist", "listbooks", "booklist", null, null, true),
 	TRANSLATIONS("translations", "translations", "translist", "translationslist", "listtrans", "tran", "trans",
@@ -22,8 +23,7 @@ public enum EnumCmds {
 	NEXT2("next", "versenext", "nextv", "vnext", null, null, null, false),
 	LAST("last", "last", "saved", "save", "load", "lastverse", "verselast", false),
 	LAST2("last", "lastv", "vlast", "savedverse", "savedverse", "vsaved", "savedv", false),
-	LAST3("last", "vsave", "versesave", "loadverse", "verseload", "vload", "loadv", false),
-	CONFIG("config", "config", "configuration", "settings", "set", "options", null, false);
+	LAST3("last", "vsave", "versesave", "loadverse", "verseload", "vload", "loadv", false);
 	
 	//Command Name.
 	private String cmd;
