@@ -88,6 +88,12 @@ Command Usage
    * Shows a random verse.
    * Requires permission: TadukooBible.random
 
+/bible announce < book > < chapter # > < verse # > [ translation ]
+   * Aliases: ann, broadcast, and broad.
+   * Broadcasts the verse you choose.
+   * Requires the permission: TadukooBible.announce
+   * Requires TadukooBible.announceget to see announcements.
+
 Permissions
 -----------
 TadukooBible.use
@@ -124,6 +130,14 @@ TadukooBible.givebook
 
 TadukooBible.random
    * Allows use of /bible random.
+   * Default: true
+
+TadukooBible.announce
+   * Allows use of /bible announce.
+   * Default: op
+
+TadukooBible.announceget
+   * Allows seeing announcements.
    * Default: true
 
 Config.yml
@@ -174,11 +188,6 @@ Upcoming Commands/Features
 
 /bible getbook list
    * Gives you a book that lists all the available books and what's in them.
-
-/bible announce < book > < chapter # > < verse # > [ translation ]
-   * Aliases: ann, broadcast, and broad.
-   * Broadcasts the verse you choose.
-   * Requires the permission: TadukooBible.announce
 
 /bible previous [ translation ]
    * Aliases: pre, prev, back, before, and b4.

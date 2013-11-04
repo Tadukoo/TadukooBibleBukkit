@@ -17,7 +17,7 @@ public enum EnumCmds {
 	GIVEBOOK("givebook", "givebook", "bookgive", "biblegive", "givebible", null, null, true),
 	RANDOM("random", "random", "rand", "randomverse", "randomv", "verserandom", "vrandom", true),
 	RANDOM2("random", "randverse", "randv", "verserand", "vrand", null, null, true),
-	ANNOUNCE("announce", "announce", "ann", "broadcast", "broad", null, null, false),
+	ANNOUNCE("announce", "announce", "ann", "broadcast", "broad", null, null, true),
 	PREVIOUS("previous", "previous", "pre", "prev", "back", "before", "b4", false),
 	NEXT("next", "next", "forward", "for", "after", "aft", "nextverse", false),
 	NEXT2("next", "versenext", "nextv", "vnext", null, null, null, false),

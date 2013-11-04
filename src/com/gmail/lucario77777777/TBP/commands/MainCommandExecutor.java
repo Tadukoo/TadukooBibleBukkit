@@ -2,6 +2,7 @@ package com.gmail.lucario77777777.TBP.commands;
 
 import java.util.Random;
 
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.*;
 import org.bukkit.entity.Player;
@@ -35,6 +36,7 @@ public class MainCommandExecutor implements CommandExecutor {
 				sender.sendMessage(ChatColor.RED + "Unknown sender!");
 				return true;
 			}else{
+				String eType = "normal";
 				EnumBooks book = EnumBooks.GENESIS;
 				EnumCmds cmds = EnumCmds.HELP;
 				String bookName = "Genesis";
@@ -282,6 +284,24 @@ public class MainCommandExecutor implements CommandExecutor {
 						int lim = plugin.getBook(tran, bookName).getInt("ch" + chp + "Lim") + 1;
 						rV = generator.nextInt(lim);
 						v = Integer.toString(rV);
+					}else if(cmdType.equalsIgnoreCase("announce")){
+						if(permCheck(permsOn, playerType, sender, "announce") == false){
+							return true;
+						}
+						if(args.length < 4){
+							sender.sendMessage(ChatColor.RED + "Not enough arguments!");
+							sender.sendMessage(ChatColor.RED + "/bible announce <book> <chapter> <verse> " +
+									"[translation]");
+							return true;
+						}
+						EnumBooks ebook = EnumBooks.GENESIS;
+						bookName = ebook.fromString(args[1]).name();
+						chp = args[2];
+						v = args[3];
+						if(args.length >= 5){
+							tran = args[4];
+						}
+						eType = "broad";
 					}
 				}
 				if(plugin.getBook(tran, bookName) == null){
@@ -306,15 +326,18 @@ public class MainCommandExecutor implements CommandExecutor {
 							"chapter/verse that exists.");
 					return true;
 				}
-				if(plugin.getBook(tran, bookName).getString(ref) == null){
-					sender.sendMessage(ChatColor.RED + "An error occurred.");
-					return true;
-				}
 				if(verse == null){
 					verse = plugin.getBook(tran, bookName).getString(ref);
 				}
-				sender.sendMessage(ChatColor.GREEN + verse);
-				return true;
+				if(eType.equalsIgnoreCase("normal")){
+					sender.sendMessage(ChatColor.GREEN + verse);
+					return true;
+				}else if(eType.equalsIgnoreCase("broad")){
+					Bukkit.broadcast(ChatColor.GREEN + verse, "TadukooBible.announceget");
+					plugin.getLogger().info(sender.getName() + " broadcasted " + bookName + chp + v + 
+							" from the " + tran);
+					return true;
+				}
 			}
 		}
 		return false;

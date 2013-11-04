@@ -36,3 +36,9 @@ permissions:
    TadukooBible.random:
       description: Allows use of /bible random.
       default: true
+   TadukooBible.announce:
+      description: Allows use of /bible announce.
+      default: op
+   TadukooBible.announceget:
+      description: Allows getting announced verses.
+      default: true
