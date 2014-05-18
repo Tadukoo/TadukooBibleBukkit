@@ -154,11 +154,11 @@ PlayerRecords: true
 * Whether to keep records of last verse viewed, last book gotten, etc.
 * Required in order to use previous/next/last for anything.
 
-* Translations
-   * Enable or disable translations here.
-   *(Note: You must still have the files for that translation or it won't work.)
-   * KJV: true
-      * Enables or disables KJV.
+Translations
+* Enable or disable translations here.
+*(Note: You must still have the files for that translation or it won't work.)
+* KJV: true
+   * Enables or disables KJV.
 
 Upcoming Commands/Features
 --------------------------
