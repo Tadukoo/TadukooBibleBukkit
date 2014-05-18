@@ -142,23 +142,23 @@ TadukooBible.announceget
 
 Config.yml
 ----------
-# This is the translation used for commands when none is specified.
 DefaultTranslation: KJV
+* This is the translation used for commands when none is specified.
 
-# This decides whether to use permissions or not.
-# Note: If you use a permissions plugin and set TadukooBible.use to false, 
-# it will still disable use of the plugin even if this is false.
 Permissions: true
+* This decides whether to use permissions or not.
+* Note: If you use a permissions plugin and set TadukooBible.use to false, 
+* it will still disable use of the plugin even if this is false.
 
-# Whether to keep records of last verse viewed, last book gotten, etc.
-# *Required in order to use previous/next/last for anything.
 PlayerRecords: true
+* Whether to keep records of last verse viewed, last book gotten, etc.
+* Required in order to use previous/next/last for anything.
 
-Translations
-------------
-# Enable or disable translations here.
-#(Note: You must still have the files for that translation or it won't work.)
-KJV: true
+* Translations
+   * Enable or disable translations here.
+   *(Note: You must still have the files for that translation or it won't work.)
+   * KJV: true
+      * Enables or disables KJV.
 
 Upcoming Commands/Features
 --------------------------
