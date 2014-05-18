@@ -8,8 +8,11 @@ import org.bukkit.command.*;
 import org.bukkit.entity.Player;
 import org.bukkit.command.CommandExecutor;
 
-import com.gmail.lucario77777777.TBP.Checker;
-import com.gmail.lucario77777777.TBP.Lists;
+import com.gmail.lucario77777777.TBP.Checkers.PermissionsChecker;
+import com.gmail.lucario77777777.TBP.Lists.BooksList;
+import com.gmail.lucario77777777.TBP.Lists.Help;
+import com.gmail.lucario77777777.TBP.Lists.SettingsList;
+import com.gmail.lucario77777777.TBP.Lists.TranslationsList;
 import com.gmail.lucario77777777.TBP.Main;
 
 public class MainCommandExecutor implements CommandExecutor {
@@ -96,7 +99,7 @@ public class MainCommandExecutor implements CommandExecutor {
 						if(args.length >= 2){
 							i = args[1];
 						}
-						Lists.help(i, sender, plugin);
+						Help.help(i, sender, plugin);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("config")){
 						if(permCheck(permsOn, playerType, sender, "config") == false){
@@ -118,7 +121,7 @@ public class MainCommandExecutor implements CommandExecutor {
 							}*/
 						}
 						if(setting.equalsIgnoreCase("list")){
-							Lists.settings(sender);
+							SettingsList.settings(sender);
 							return true;
 						}
 						if(value != null){
@@ -154,13 +157,13 @@ public class MainCommandExecutor implements CommandExecutor {
 						if(args.length >= 2){
 							i = args[1];
 						}
-						Lists.booksList(i, sender);
+						BooksList.booksList(i, sender);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("translations")){
 						if(permCheck(permsOn, playerType, sender, "translations") == false){
 							return true;
 						}
-						Lists.tranList(sender, plugin);
+						TranslationsList.tranList(sender, plugin);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("getbook")){
 						if(permCheck(permsOn, playerType, sender, "getbook") == false){
@@ -354,7 +357,7 @@ public class MainCommandExecutor implements CommandExecutor {
 	
 	private static boolean permCheck(boolean permsOn, String playerType, CommandSender sender, String perm){
 		if(permsOn == true && playerType == "player"){
-			if(Checker.permCheck(sender, perm) == true){
+			if(PermissionsChecker.permCheck(sender, perm) == true){
 				return true;
 			}else{
 				return false;

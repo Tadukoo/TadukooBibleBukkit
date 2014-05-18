@@ -14,6 +14,10 @@ Permissions: true
 # *Required in order to use previous/next/last for anything.
 PlayerRecords: true
 
+# This will disable getting the Bible as books if set to false.
+# Note: You could always just get the book config for your translation from the site.
+Books: true
+
 ##########################################
 #                                        #
 #              Translations              #
@@ -21,18 +25,3 @@ PlayerRecords: true
 # Enable or disable translations here.
 #(Note: You must still have the files for that translation or it won't work.)
 KJV: true
-
-##########################################
-#                                        #
-#              BookChecks                #
-##########################################
-# How many chapters are made before notifying you.
-# Set to 0 to never be notified.
-BookConfigChapterNotifications: 5
-
-# The settings below are how to check the bookconfig.yml file for the given translation.
-# Create will overwrite books even if they already exist.
-# Correct will overwrite incorrect parts of books and ignore others.
-# Check will simply check if each book exists and create them if they don't.
-# Ignore will do nothing.
-KJVBookCheck: check

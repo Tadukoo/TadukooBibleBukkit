@@ -1,66 +1,16 @@
-package com.gmail.lucario77777777.TBP;
+package com.gmail.lucario77777777.TBP.Lists;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
-public class Lists {
-	/*
-	 * Translations list (/bible translations)
-	 */
-	public static void tranList(CommandSender sender, Main plugin) {
-		String a = "The available translations are:";
-		String b = "";
-		if(plugin.getConfig().getBoolean("KJV") == true){
-			b = b + "KJV";
-		}
-		sender.sendMessage(ChatColor.GREEN + a);
-		sender.sendMessage(ChatColor.GREEN + b);
-	}
-	
-	/*
-	 * Books list (/bible books)
-	 */
-	public static void booksList(String i, CommandSender sender){
-		if(i.equalsIgnoreCase("1")){
-			sender.sendMessage(ChatColor.GREEN + "Page 1 of 5");
-			sender.sendMessage(ChatColor.GREEN + "The Books of the Bible are:");
-			sender.sendMessage(ChatColor.GREEN + "Genesis, Exodus, Leviticus, Numbers, Deuteronomy, " +
-					ChatColor.RED + "Joshua, Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, " +
-					"2 Kings, 1 Chronicles, 2 Chronicles");
-			sender.sendMessage(ChatColor.GREEN + "Type /bible books 2 for the next page.");
-		}else if(i.equalsIgnoreCase("2")){
-			sender.sendMessage(ChatColor.GREEN + "Page 2 of 5");
-			sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
-			sender.sendMessage(ChatColor.RED + "Ezra, Nehemiah, Esther, Job, Psalms, Proverbs," +
-					" Ecclesiastes, Song of Songs, Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel");
-			sender.sendMessage(ChatColor.GREEN + "Type /bible books 3 for the next page.");
-		}else if(i.equalsIgnoreCase("3")){
-			sender.sendMessage(ChatColor.GREEN + "Page 3 of 5");
-			sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
-			sender.sendMessage(ChatColor.RED + "Hosea, Joel, Amos, Obadiah, Jonah, Micah," +
-					" Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi, Matthew, Mark, Luke, John");
-			sender.sendMessage(ChatColor.GREEN + "Type /bible books 4 for the next page.");
-		}else if(i.equalsIgnoreCase("4")){
-			sender.sendMessage(ChatColor.GREEN + "Page 4 of 5");
-			sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
-			sender.sendMessage(ChatColor.RED + "Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians," +
-					" Ephesians, Philippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy");
-			sender.sendMessage(ChatColor.GREEN + "Type /bible books 5 for the next page.");
-		}else if(i.equalsIgnoreCase("5")){
-			sender.sendMessage(ChatColor.GREEN + "Page 5 of 5");
-			sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
-			sender.sendMessage(ChatColor.RED + "2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter," +
-					" 2 Peter, " + ChatColor.GREEN + "1 John, 2 John, 3 John, " + ChatColor.RED + "Jude, " +
-							"and Revelation.");
-		}else{
-			sender.sendMessage(ChatColor.RED + "Try typing /bible books.");
-		}
-	}
-	
-	/*
-	 * Help (/bible help)
-	 */
+import com.gmail.lucario77777777.TBP.Main;
+
+public class Help {
 	public static void help(String i, CommandSender sender, Main plugin){
+		/*******************************************************
+		 *          Page 1/17 Table of Contents (1/3)          *
+		 *                                                     *
+		 *******************************************************/
 		if(i.equalsIgnoreCase("1") || i.equalsIgnoreCase("toc") || i.equalsIgnoreCase("tableofcontents")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page 1/17 Table of Contents (1/3).");
 			sender.sendMessage(ChatColor.GREEN + "Page 4. /bible");
@@ -68,6 +18,10 @@ public class Lists {
 			sender.sendMessage(ChatColor.GREEN + "Page 7. /bible info");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible help 2 for the next page.");
 			return;
+		/*******************************************************
+		 *          Page 2/17 Table of Contents (2/3)          *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("2") || i.equalsIgnoreCase("toc2") || 
 				i.equalsIgnoreCase("tableofcontents2")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page 2/17 Table of Contents (2/3).");
@@ -76,6 +30,10 @@ public class Lists {
 			sender.sendMessage(ChatColor.GREEN + "Page 10. /bible getbook");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible help 3 for the next page.");
 			return;
+		/*******************************************************
+		 *          Page 3/17 Table of Contents (3/3)          *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("3") || i.equalsIgnoreCase("toc3") || 
 				i.equalsIgnoreCase("tableofcontents3")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page 3/17 Table of Contents (3/3)");
@@ -84,6 +42,10 @@ public class Lists {
 			sender.sendMessage(ChatColor.GREEN + "Page 17. /bible announce");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible help 4 for the next page.");
 			return;
+		/*******************************************************
+		 *              Page 4/17 /bible (1/2)                 *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("4") || i.equalsIgnoreCase("bible") || i.equalsIgnoreCase("read")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page 4/17 /bible (1/2)");
 			sender.sendMessage(ChatColor.GREEN + "Description: Shows you a Bible verse.");
@@ -92,6 +54,10 @@ public class Lists {
 					plugin.getConfig().getString("DefaultTranslation"));
 			sender.sendMessage(ChatColor.GREEN + "Type /bible help 5 for info about replacements in /bible.");
 			return;
+		/*******************************************************
+		 *              Page 5/17 /bible (2/2)                 *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("5") || i.equalsIgnoreCase("bible2") || i.equalsIgnoreCase("read2")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page 5/17 /bible Cont. (2/2)");
 			sender.sendMessage(ChatColor.GREEN + "[chapter #] can be replaced with:");
@@ -100,6 +66,10 @@ public class Lists {
 			sender.sendMessage(ChatColor.GREEN + "[verse #] can be replaced with #, info, or ? to list how " +
 					"many verses are in that chapter.");
 			return;
+		/*******************************************************
+		 *          Page 6/17 /bible config (1/1)              *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("6") || i.equalsIgnoreCase("config") || i.equalsIgnoreCase("configuration")
 				|| i.equalsIgnoreCase("settings") || i.equalsIgnoreCase("set") || i.equalsIgnoreCase("options")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page 6/17 /bible config (1/1)");
@@ -110,6 +80,10 @@ public class Lists {
 					" out will show what the current value is.");
 			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.config");
 			return;
+		/*******************************************************
+		 *            Page 7/17 /bible info (1/1)              *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("7") || i.equalsIgnoreCase("info") || i.equalsIgnoreCase("about") ||
 				i.equalsIgnoreCase("abt") || i.equalsIgnoreCase("information")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page 7/17 /bible info (1/1)");
@@ -118,6 +92,10 @@ public class Lists {
 			sender.sendMessage(ChatColor.GREEN + "Usage: /bible info <translation>");
 			sender.sendMessage(ChatColor.GREEN + "Aliases: about, abt, and information.");
 			return;
+		/*******************************************************
+		 *          Page 8/17 /bible books (1/1)               *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("8") || i.equalsIgnoreCase("books") || i.equalsIgnoreCase("bookslist") ||
 				i.equalsIgnoreCase("listbooks") || i.equalsIgnoreCase("booklist")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page 8/17 /bible books (1/1)");
@@ -127,6 +105,10 @@ public class Lists {
 			sender.sendMessage(ChatColor.GREEN + "Red = unavailable, Yellow = Partially Available, " +
 					"Green = Completely available.");
 			return;
+		/*******************************************************
+		 *       Page 9/17 /bible translations (1/1)           *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("9") || i.equalsIgnoreCase("translations") || 
 				i.equalsIgnoreCase("translist") || i.equalsIgnoreCase("translationslist") ||
 				i.equalsIgnoreCase("listtrans") || i.equalsIgnoreCase("tran") || i.equalsIgnoreCase("trans")){
@@ -136,6 +118,10 @@ public class Lists {
 			sender.sendMessage(ChatColor.GREEN + "Aliases: translist, translationslist, listtrans, " +
 					"tran, and trans.");
 			return;
+		/*******************************************************
+		 *        Page 10/17 /bible getbook (1/3)              *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("10") || i.equalsIgnoreCase("getbook") || i.equalsIgnoreCase("book") ||
 				i.equalsIgnoreCase("bookget") || i.equalsIgnoreCase("bible") || i.equalsIgnoreCase("bibleget") ||
 				i.equalsIgnoreCase("getbible")){
@@ -145,6 +131,10 @@ public class Lists {
 			sender.sendMessage(ChatColor.GREEN + "Aliases: book, bookget, bible, bibleget, and getbible.");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible help 11 for defaults, permission, and a note.");
 			return;
+		/*******************************************************
+		 *        Page 11/17 /bible getbook (2/3)              *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("11") || i.equalsIgnoreCase("getbook2") || i.equalsIgnoreCase("book2") ||
 				i.equalsIgnoreCase("bookget2") || i.equalsIgnoreCase("bible2") || 
 				i.equalsIgnoreCase("bibleget2") || i.equalsIgnoreCase("getbible2")){
@@ -155,6 +145,10 @@ public class Lists {
 			sender.sendMessage(ChatColor.GREEN + "Note: [part #] is not [chapter #]");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible help 12 for more options for this command.");
 			return;
+		/*******************************************************
+		 *        Page 12/17 /bible getbook (3/3)              *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("12") || i.equalsIgnoreCase("getbook3") || i.equalsIgnoreCase("book3") ||
 				i.equalsIgnoreCase("bookget3") || i.equalsIgnoreCase("bible3") || 
 				i.equalsIgnoreCase("bibleget3") || i.equalsIgnoreCase("getbible3")){
@@ -167,6 +161,10 @@ public class Lists {
 			sender.sendMessage(ChatColor.GREEN + "[book] can be replaced with last, saved, save, or load to " +
 					"get the book you got the last time you typed the command.");
 			return;
+		/*******************************************************
+		 *        Page 13/17 /bible givebook (1/2)             *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("13") || i.equalsIgnoreCase("givebook") || i.equalsIgnoreCase("bookgive") ||
 				i.equalsIgnoreCase("biblegive") || i.equalsIgnoreCase("givebible")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page 13/17 /bible givebook (1/2)");
@@ -176,6 +174,10 @@ public class Lists {
 			sender.sendMessage(ChatColor.GREEN + "Aliases: bookgive, biblegive, and givebible.");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible help 14 for defaults, permission, and a note.");
 			return;
+		/*******************************************************
+		 *        Page 14/17 /bible givebook (2/2)             *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("14") || i.equalsIgnoreCase("givebook2") || i.equalsIgnoreCase("bookgive2")
 				|| i.equalsIgnoreCase("biblegive2") || i.equalsIgnoreCase("givebible2")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page 14/17 /bible givebook Cont. (2/2)");
@@ -184,6 +186,10 @@ public class Lists {
 			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.givebook");
 			sender.sendMessage(ChatColor.GREEN + "Note: [part #] is not [chapter #]");
 			return;
+		/*******************************************************
+		 *         Page 15/17 /bible random (1/2)              *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("15") || i.equalsIgnoreCase("random") || i.equalsIgnoreCase("rand") ||
 				i.equalsIgnoreCase("randomverse") || i.equalsIgnoreCase("randomv") ||
 				i.equalsIgnoreCase("verserandom") || i.equalsIgnoreCase("vrandom") || 
@@ -196,6 +202,10 @@ public class Lists {
 					"randverse, randv, verserand, and vrand.");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible help 16 for more information and the permission.");
 			return;
+		/*******************************************************
+		 *         Page 16/17 /bible random (2/2)              *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("16") || i.equalsIgnoreCase("random2") || i.equalsIgnoreCase("rand2") ||
 				i.equalsIgnoreCase("randomverse2") || i.equalsIgnoreCase("randomv2") ||
 				i.equalsIgnoreCase("verserandom2") || i.equalsIgnoreCase("vrandom2") || 
@@ -206,9 +216,13 @@ public class Lists {
 					"well.");
 			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.random");
 			return;
+		/*******************************************************
+		 *           Page 17/17 /bible announce (1/1)          *
+		 *                                                     *
+		 *******************************************************/
 		}else if(i.equalsIgnoreCase("17") || i.equalsIgnoreCase("announce") || i.equalsIgnoreCase("ann") || 
 				i.equalsIgnoreCase("broadcast") || i.equalsIgnoreCase("broad")){
-			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page 17/17 /bible announce (1/#)");
+			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page 17/17 /bible announce (1/1)");
 			sender.sendMessage(ChatColor.GREEN + "Description: Broadcasts a Bible verse.");
 			sender.sendMessage(ChatColor.GREEN + "Usage: /bible announce <book> <chapter> <verse> " +
 					"[translation]");
@@ -217,13 +231,5 @@ public class Lists {
 			sender.sendMessage(ChatColor.GREEN + "You need TadukooBible.announceget to see announcements.");
 			return;
 		}
-	}
-	
-	/*
-	 * Settings list (/bible config list)
-	 */
-	public static void settings(CommandSender sender) {
-		sender.sendMessage(ChatColor.GREEN + "DefaultTranslation, Permissions, PlayerRecords, KJV, " +
-				"BookConfigChapterNotifications, and KJVBookCheck.");
 	}
 }

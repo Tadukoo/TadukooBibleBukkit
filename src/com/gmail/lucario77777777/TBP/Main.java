@@ -27,7 +27,6 @@ public class Main extends JavaPlugin {
 	public void onDisable () {
 		savepRec();
 		saveConfig();
-		Checker.tranSave();
 	}
 	@Override
 	public void onEnable () {
@@ -37,7 +36,6 @@ public class Main extends JavaPlugin {
 		getConfig().options().copyDefaults(true);
 		saveConfig();
 		getCommand("bible").setExecutor(new MainCommandExecutor(this));
-		Checker.tranCheck();
 		perms = getConfig().getBoolean("Permissions");
 	}
 	
@@ -74,7 +72,7 @@ public class Main extends JavaPlugin {
 	
 	public void reloadpRec() {
 	    if (pRecFile == null) {
-	    pRecFile = new File(getDataFolder(), "Players.yml");
+	    pRecFile = new File(getDataFolder(), "players.yml");
 	    }
 	    pRec = YamlConfiguration.loadConfiguration(pRecFile);
 	}

@@ -166,21 +166,6 @@ PlayerRecords: true
 #(Note: You must still have the files for that translation or it won't work.)
 KJV: true
 
-##########################################
-#                                        #
-#              BookChecks                #
-##########################################
-# How many chapters are made before notifying you.
-# Set to 0 to never be notified.
-BookConfigChapterNotifications: 5
-
-# The settings below are how to check the bookconfig.yml file for the given translation.
-# Create will overwrite books even if they already exist.
-# Correct will overwrite incorrect parts of books and ignore others.
-# Check will simply check if each book exists and create them if they don't.
-# Ignore will do nothing.
-KJVBookCheck: check
-
 Upcoming Commands/Features
 --------------------------
 /bible config < setting > [ value ] [ config file ]
@@ -200,7 +185,7 @@ Upcoming Commands/Features
    * Requires permission: TadukooBible.next
 
 /bible last [ translation ]
-   * Aliases: saved, save, load, lastverse, verselast, lastv, vlast, savedverse, savedverse, vsaved, savedv vsave, versesave, loadverse, verseload, vload, 
+   * Aliases: saved, save, load, lastverse, verselast, lastv, vlast, savedverse, savedverse, vsaved, savedv, vsave, versesave, loadverse, verseload, vload, 
    and loadv.
    * Shows you the Bible verse you last read.
    * Requires permission: TadukooBible.last
@@ -211,6 +196,8 @@ Changes in books:
    * Reduce the amount of messages for books.
    * Set check to check for "<book>Part<part#>Done"
    * Make it so that a page doesn't end with a verse number.
+
+Make error reports optional (stack trace or simple error)
 
 Known Issues
 ------------
@@ -233,17 +220,17 @@ Do not import the Tadukoo Bible folder into eclipse. Simply place it in your plu
 Progress
 --------
 * King James Version (KJV) (12%)
-    * Through-chat commands
-       * Completed:
-          * Genesis through Deuteronomy
-          * 1 John, 2 John, and 3 John
-       * Partially Complete:
-	      * None at the moment.
-       * Not Yet Started:
-          * Joshua through 2 Peter
-          * Jude and Revelation.
-    * Books
-       * Genesis Part 1 Started.
+   * Through-chat commands
+      * Completed:
+         * Genesis through Deuteronomy
+         * 1 John, 2 John, and 3 John
+      * Partially Complete:
+	     * None at the moment.
+      * Not Yet Started:
+         * Joshua through 2 Peter
+         * Jude and Revelation
+   * Books
+      * Genesis Part 1 Started.
 
 Version System
 --------------
@@ -276,3 +263,6 @@ Version System
             * Titus and Philemon = 2%
             * 1 John, 2 John, and 3 John = 2%
             * Jude and Revelation = 2%
+* After Official Release v.1.0
+   * After the Official Release, each version will get .01 added for small updates (i.e. v.1.0), 0.1 for big updates (i.e. v.1.1), 
+   and 1 for major updates (i.e. v.2.0)
