@@ -142,10 +142,6 @@ TadukooBible.announceget
 
 Config.yml
 ----------
-##########################################
-#                                        #
-#       Tadukoo Bible Config             #
-##########################################
 # This is the translation used for commands when none is specified.
 DefaultTranslation: KJV
 
@@ -158,10 +154,8 @@ Permissions: true
 # *Required in order to use previous/next/last for anything.
 PlayerRecords: true
 
-##########################################
-#                                        #
-#              Translations              #
-##########################################
+Translations
+------------
 # Enable or disable translations here.
 #(Note: You must still have the files for that translation or it won't work.)
 KJV: true
