@@ -207,9 +207,9 @@ Download
 Currently you are unable to download the plugin jar file. Once this plugin is in Beta, it will be available on BukkitDev.
 
 Currently to download and install this plugin, you must download the classes and plugin.yml file, then import them into eclipse, along with importing the
-Bukkit API (Currently this plugin is built off of [1.6.4-R2.0 Recommended Build 1850] (http://dl.bukkit.org/downloads/bukkit/view/02388_1.6.4-R2.0/)
+Bukkit API (Currently this plugin is built off of [1.7.9-R0.1 Beta Build 1936] (http://dl.bukkit.org/downloads/bukkit/view/02620_1.7.9-R0.1/)
 
-Do not import the Tadukoo Bible folder into eclipse. Simply place it in your plugins folder.
+Do not import the Tadukoo_Bible folder into eclipse. Simply place it in your plugins folder.
 
 Progress
 --------
@@ -238,25 +238,22 @@ Version System
 * Decimals
    * Currently the entire system is based off of just the King James Version through-chat commands.
    * Each book of the Bible is either considered 2% or part of 2% of the entirety.
-      * Each 1% is + 0.0.1 to the version number. (so Genesis being completed would be Alpha 0.0.2)
-      * Each book is then divided by chapters, so for example Genesis is 50 chapters. Each chapter is then 2% towards the book.
-         * Since Genesis counts as 2%, each chapter is then 2% of 2%, which adds 0.0.0.04 to the version number.
-         * (i.e. Genesis Chapter Six being completed brings the version up to Alpha 0.0.0.24)
-         * The books which are not two percent by themselves are:
-            * Judges and Ruth = 2%
-            * Ezra, Nehemiah, and Esther = 2%
-            * Psalms is divided into five sections:
-               * Psalms 1-30 = 2%
-               * Psalms 31-60 = 2%
-               * Psalms 61-90 = 2%
-               * Psalms 91-120 = 2%
-               * Psalms 121-150 = 2%
-            * Ecclesiastes and Song of Songs = 2%
-            * Jeremiah and Lamentations = 2%
-            * Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, and Malachi = 2%
-            * Titus and Philemon = 2%
-            * 1 John, 2 John, and 3 John = 2%
-            * Jude and Revelation = 2%
+      * Each 2% is + 0.0.2 to the version number. (so Genesis being completed would be Alpha 0.0.2)
+      * The books which are not two percent by themselves are:
+         * Judges and Ruth = 2%
+         * Ezra, Nehemiah, and Esther = 2%
+         * Psalms is divided into five sections:
+            * Psalms 1-30 = 2%
+            * Psalms 31-60 = 2%
+            * Psalms 61-90 = 2%
+            * Psalms 91-120 = 2%
+            * Psalms 121-150 = 2%
+         * Ecclesiastes and Song of Songs = 2%
+         * Jeremiah and Lamentations = 2%
+         * Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, and Malachi = 2%
+         * Titus and Philemon = 2%
+         * 1 John, 2 John, and 3 John = 2%
+         * Jude and Revelation = 2%
 * After Official Release v.1.0
    * After the Official Release, each version will get .01 added for small updates (i.e. v.1.0), 0.1 for big updates (i.e. v.1.1), 
    and 1 for major updates (i.e. v.2.0)
