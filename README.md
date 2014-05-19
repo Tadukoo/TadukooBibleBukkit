@@ -89,7 +89,7 @@ Command Usage
    * Requires permission: TadukooBible.random
 
 /bible announce < book > < chapter # > < verse # > [ translation ]
-   * Aliases: ann, broadcast, and broad.
+   * Aliases: ann, broadcast, broad, shout, and yell.
    * Broadcasts the verse you choose.
    * Requires the permission: TadukooBible.announce
    * Requires TadukooBible.announceget to see announcements.
@@ -186,11 +186,6 @@ Upcoming Commands/Features
 
 Save what Bible verse was last read.
 
-Changes in books:
-   * Reduce the amount of messages for books.
-   * Set check to check for "<book>Part<part#>Done"
-   * Make it so that a page doesn't end with a verse number.
-
 Make error reports optional (stack trace or simple error)
 
 Known Issues
@@ -207,24 +202,21 @@ Download
 Currently you are unable to download the plugin jar file. Once this plugin is in Beta, it will be available on BukkitDev.
 
 Currently to download and install this plugin, you must download the classes and plugin.yml file, then import them into eclipse, along with importing the
-Bukkit API (Currently this plugin is built off of [1.7.9-R0.1 Beta Build 1936] (http://dl.bukkit.org/downloads/bukkit/view/02620_1.7.9-R0.1/)
+Bukkit API (Currently this plugin is built off of [1.7.9-R0.1 Beta Build 1936] (http://dl.bukkit.org/downloads/bukkit/view/02620_1.7.9-R0.1/))
 
 Do not import the Tadukoo_Bible folder into eclipse. Simply place it in your plugins folder.
 
 Progress
 --------
-* King James Version (KJV) (12%)
-   * Through-chat commands
-      * Completed:
-         * Genesis through Deuteronomy
-         * 1 John, 2 John, and 3 John
-      * Partially Complete:
-	     * None at the moment.
-      * Not Yet Started:
-         * Joshua through 2 Peter
-         * Jude and Revelation
-   * Books
-      * Genesis Part 1 Started.
+* King James Version (KJV) (14%)
+   * Completed:
+      * Genesis through Deuteronomy
+      * Matthew
+      * 1 John, 2 John, and 3 John
+   * Upcoming:
+      * Joshua through Malachi
+      * Mark through 2 Peter
+      * Jude and Revelation
 
 Version System
 --------------

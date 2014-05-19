@@ -3,10 +3,10 @@ package com.gmail.lucario77777777.TBP.Lists;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
-import com.gmail.lucario77777777.TBP.Main;
+import com.gmail.lucario77777777.TBP.TB;
 
 public class Help {
-	public static void help(String i, CommandSender sender, Main plugin){
+	public static void help(String i, CommandSender sender, TB plugin){
 		/*******************************************************
 		 *          Page 1/17 Table of Contents (1/3)          *
 		 *                                                     *

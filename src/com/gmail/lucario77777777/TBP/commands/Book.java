@@ -7,14 +7,15 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BookMeta;
 
-import com.gmail.lucario77777777.TBP.Main;
+import com.gmail.lucario77777777.TBP.TB;
 
 public class Book extends MainCommandExecutor {
-	public Book(Main plugin) {
+	public Book(TB plugin) {
 		super(plugin);
 	}
 	
-	public static boolean Run(Main plugin, CommandSender sender, String playerType, String tran, 
+	@SuppressWarnings("deprecation")
+	public static boolean Run(TB plugin, CommandSender sender, String playerType, String tran, 
 			String bookName, String part, String type, String p)
 	{
 		if(playerType != "player" && type == "get"){
@@ -66,7 +67,7 @@ public class Book extends MainCommandExecutor {
 	}
 }
 
-	public static void contains(Main plugin, CommandSender sender, String tran,
+	public static void contains(TB plugin, CommandSender sender, String tran,
 			String bookName, String part) {
 		String start = plugin.getigBook(tran).getString(bookName + part + "Start");
 		String end = plugin.getigBook(tran).getString(bookName + part + "End");
@@ -78,7 +79,7 @@ public class Book extends MainCommandExecutor {
 				"-" + end + ".");
 	}
 
-	public static void next(Main plugin, CommandSender sender, String playerType, String tran,
+	public static void next(TB plugin, CommandSender sender, String playerType, String tran,
 			String bookName, String part, String type, String p) {
 		int bN = Integer.parseInt(part) + 1;
 		String pNum = "";
@@ -93,7 +94,7 @@ public class Book extends MainCommandExecutor {
 		Run(plugin, sender, playerType, tran, newBook, pNum, type, p);
 	}
 
-	public static void previous(Main plugin, CommandSender sender,
+	public static void previous(TB plugin, CommandSender sender,
 			String playerType, String tran, String bookName, String part,
 			String type, String p) {
 		int bN = Integer.parseInt(part) - 1;

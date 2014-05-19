@@ -11,8 +11,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import com.gmail.lucario77777777.TBP.commands.MainCommandExecutor;
 
-public class Main extends JavaPlugin {
-	public static Main plugin;
+public class TB extends JavaPlugin {
+	public static TB plugin;
 	PluginDescriptionFile pdfFile = this.getDescription();
 	public FileConfiguration book = null;
 	public File bookFile = null;
@@ -20,7 +20,7 @@ public class Main extends JavaPlugin {
 	public File igbookFile = null;
 	public FileConfiguration pRec = null;
 	public File pRecFile = null;
-	public static Main instance;
+	public static TB instance;
 	public Boolean perms = null;
 	
 	@Override

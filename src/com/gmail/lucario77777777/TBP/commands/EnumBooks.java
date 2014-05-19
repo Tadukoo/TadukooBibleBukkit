@@ -40,7 +40,7 @@ public enum EnumBooks {
 	HAGGAI("Haggai", "Hag", "Haggai", false, 37, 2),
 	ZECHARIAH("Zechariah", "Zec", "Zechariah", false, 38, 14),
 	MALACHI("Malachi", "Mal", "Malachi", false, 39, 4),
-	MATTHEW("Matthew", "Mat", "Matthew", false, 40, 28),
+	MATTHEW("Matthew", "Mat", "Matthew", true, 40, 28),
 	MARK("Mark", "Mark", "John Mark", false, 41, 16),
 	LUKE("Luke", "Luke", "Luke", false, 42, 24),
 	JOHN("John", "John", "John", false, 43, 21),

@@ -13,11 +13,11 @@ import com.gmail.lucario77777777.TBP.Lists.BooksList;
 import com.gmail.lucario77777777.TBP.Lists.Help;
 import com.gmail.lucario77777777.TBP.Lists.SettingsList;
 import com.gmail.lucario77777777.TBP.Lists.TranslationsList;
-import com.gmail.lucario77777777.TBP.Main;
+import com.gmail.lucario77777777.TBP.TB;
 
 public class MainCommandExecutor implements CommandExecutor {
-	private Main plugin;
-	public MainCommandExecutor(Main plugin) {
+	private TB plugin;
+	public MainCommandExecutor(TB plugin) {
 		this.plugin = plugin;
 	}
 	@Override
@@ -346,7 +346,7 @@ public class MainCommandExecutor implements CommandExecutor {
 		return false;
 	}
 	
-	private static boolean tranCheck(Main plugin, CommandSender sender, String tran) {
+	private static boolean tranCheck(TB plugin, CommandSender sender, String tran) {
 		if(plugin.getConfig().getString(tran) == null || plugin.getConfig().getBoolean(tran) == false){
 			sender.sendMessage(ChatColor.RED + "Sorry, that translation is not available.");
 			return false;

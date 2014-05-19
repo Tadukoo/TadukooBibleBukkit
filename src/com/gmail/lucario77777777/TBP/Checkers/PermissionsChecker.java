@@ -4,10 +4,10 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import com.gmail.lucario77777777.TBP.Main;
+import com.gmail.lucario77777777.TBP.TB;
 
 public class PermissionsChecker {
-static Main plugin = Main.instance;	
+static TB plugin = TB.instance;	
 	
 	/*
 	 * Permissions Checking

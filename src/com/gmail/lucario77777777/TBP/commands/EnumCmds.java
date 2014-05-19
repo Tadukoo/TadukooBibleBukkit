@@ -17,7 +17,7 @@ public enum EnumCmds {
 	GIVEBOOK("givebook", "givebook", "bookgive", "biblegive", "givebible", null, null, true),
 	RANDOM("random", "random", "rand", "randomverse", "randomv", "verserandom", "vrandom", true),
 	RANDOM2("random", "randverse", "randv", "verserand", "vrand", null, null, true),
-	ANNOUNCE("announce", "announce", "ann", "broadcast", "broad", null, null, true),
+	ANNOUNCE("announce", "announce", "ann", "broadcast", "broad", "shout", "yell", true),
 	PREVIOUS("previous", "previous", "pre", "prev", "back", "before", "b4", false),
 	NEXT("next", "next", "forward", "for", "after", "aft", "nextverse", false),
 	NEXT2("next", "versenext", "nextv", "vnext", null, null, null, false),
@@ -28,22 +28,22 @@ public enum EnumCmds {
 	//Command Name.
 	private String cmd;
 	
-	//Command Name or 7th alias.
+	//Command Name or 7th or 13th alias.
 	private String alias;
 	
-	//2nd or 8th alias.
+	//2nd, 8th, or 14th alias.
 	private String alias2;
 	
-	//3rd or 9th alias.
+	//3rd, 9th, or 15th alias.
 	private String alias3;
 	
-	//4th or 10th alias.
+	//4th, 10th, or 16th alias.
 	private String alias4;
 	
-	//5th or 11th alias.
+	//5th, 11th, or 17th alias.
 	private String alias5;
 	
-	//6th or 12th alias.
+	//6th, 12th, or 18th alias.
 	private String alias6;
 	
 	//Whether you can use that command or not.
