@@ -208,14 +208,14 @@ Do not import the Tadukoo_Bible folder into eclipse. Simply place it in your plu
 
 Progress
 --------
-* King James Version (KJV) (14%)
+* King James Version (KJV) (16%)
    * Completed:
       * Genesis through Deuteronomy
-      * Matthew
+      * Matthew and Mark
       * 1 John, 2 John, and 3 John
    * Upcoming:
       * Joshua through Malachi
-      * Mark through 2 Peter
+      * Luke through 2 Peter
       * Jude and Revelation
 
 Version System
