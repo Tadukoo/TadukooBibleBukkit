@@ -4,7 +4,7 @@ Gen#: Genesis has 50 chapters.
 #                                        #
 #              Chapter 1                 #
 ##########################################
-ch1vinfo: Genesis Chapter 1 has 11 verses.
+ch1vinfo: Genesis Chapter 1 has 31 verses.
 ch1v1: In the beginning God created the heavens and the earth.
 ch1v2: And the earth was without form, and void and darkness was upon the face of the deep.
 ch1v3: 'And God said, Let there be light: and there was light.'
@@ -61,6 +61,7 @@ ch1v30: 'And to every beast of the earth, and to every fowl of the air, and to e
   thing that creepeth upon the earth, wherein there is life, I have given every green
   herb for meat: and it was so.'
 ch1v31: And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day.
+ch1Lim: 31
 ##########################################
 #                                        #
 #              Chapter 2                 #
@@ -103,6 +104,7 @@ ch2v23: 'And Adam said, This is now bone of my bones, and flesh of my flesh: she
 ch2v24: 'Therefore shall a man leave his father and his mother, and shall cleave unto
   his wife: and they shall be one flesh.'
 ch2v25: And they were both naked, the man and his wife, and were not ashamed.
+ch2Lim: 24
 ##########################################
 #                                        #
 #              Chapter 3                 #
@@ -132,6 +134,7 @@ ch3v21: Unto Adam also and to his wife did the LORD God make coats of skins, and
 ch3v22: 'And the LORD God said, Behold, the man is become as one of us, to know good and evil: and now, lest he put forth his hand, and take also of the tree of life, and eat, and live for ever:'
 ch3v23: Therefore the LORD God sent him forth from the garden of Eden, to till the ground from whence he was taken.
 ch3v24: So he drove out the man and he placed at the east of the garden of Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life.
+ch3Lim: 24
 ##########################################
 #                                        #
 #              Chapter 4                 #
@@ -163,6 +166,7 @@ ch4v23: And Lamech said unto his wives, Adah and Zillah, Hear my voice; ye wives
 ch4v24: If Cain shall be avenged sevenfold, truly Lamech seventy and sevenfold.
 ch4v25: 'And Adam knew his wife again; and she bare a son, and called his name Seth: For God, said she, hath appointed me another seed instead of Abel, whom Cain slew.'
 ch4v26: 'And to Seth, to him also there was born a son; and he called his name Enos: then began men to call upon the name of the LORD.'
+ch4Lim: 26
 ##########################################
 #                                        #
 #              Chapter 5                 #
@@ -200,6 +204,7 @@ ch5v29: And he called his name Noah, saying, This same shall comfort us concerni
 ch5v30: 'And Lamech lived after he begat Noah five hundred ninety and five years, and begat sons and daughters:'
 ch5v31: 'And all the days of Lamech were seven hundred seventy and seven years: and he died.'
 ch5v32: 'And Noah was five hundred years old: and Noah begat Shem, Ham, and Japheth.'
+ch5Lim: 32
 ##########################################
 #                                        #
 #              Chapter 6                 #
@@ -227,6 +232,7 @@ ch6v19: And of every living thing of all flesh, two of every sort shalt thou bri
 ch6v20: Of fowls after their kind, and of cattle after their kind, of every creeping thing of the earth after his kind, two of every sort shall come unto thee, to keep them alive.
 ch6v21: And take thou unto thee of all food that is eaten, and thou shalt gather it to thee; and it shall be for food for thee, and for them.
 ch6v22: Thus did Noah; according to all that God commanded him, so did he.
+ch6Lim: 22
 ##########################################
 #                                        #
 #              Chapter 7                 #
@@ -256,6 +262,7 @@ ch7v21: 'And all flesh died that moved upon the earth, both of fowl, and of catt
 ch7v22: All in whose nostrils was the breath of life, of all that was in the dry land, died.
 ch7v23: 'And every living subtance was destroyed which was upon the face of the ground, both man, and cattle, and the creeping things, and the fowl of heaven; and they were destroyed from the earth: and Noah only remained alive, and they that were with him in the ark.'
 ch7v24: And the waters prevailed upon the earth an hundred and fifty days.
+ch7Lim: 24
 ##########################################
 #                                        #
 #              Chapter 8                 #
@@ -283,6 +290,7 @@ ch8v19: Every beast, every creeping thing, and every fowl, and whatsoever creepe
 ch8v20: And Noah builded an altar unto the Lord; and took of every clean beast, and of every clean fowl, and offered burnt offerings on the altar.
 ch8v21: And the Lord smelled a sweet savour; and the Lord said in his heart, I will not again curse the ground any more for man's sake; for the imagination of man's heart is evil from his youth; neither will I again smite any more every thing living, as I have done.
 ch8v22: While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease.
+ch8Lim: 22
 ##########################################
 #                                        #
 #              Chapter 9                 #
@@ -317,6 +325,7 @@ ch9v26: And he said, Blessed be the Lord God of Shem; and Canaan shall be his se
 ch9v27: God shall enlarge Japheth, and he shall dwell in the tents of Shem; and "Canaan shall be his servant.
 ch9v28: And Noah lived after the flood three hundred and fifty years.
 ch9v29: 'And all the days of Noah were nine hundred and fifty years: and he died.'
+ch9Lim: 29
 ##########################################
 #                                        #
 #              Chapter 10                #
@@ -354,6 +363,7 @@ ch10v29: 'And Ophir, and Havilah, and Jobab: all these were the sons of Joktan.'
 ch10v30: And their dwelling was from Mesha, as thou goest unto Sephar a mount of the east.
 ch10v31: These are the sons of Shem, after their families, after their tongues, in their lands, after their nations.
 ch10v32: 'These are the families of the sons of Noah, after their generations, in their nations: and by these were the nations divided in the earth after the flood.'
+ch10Lim: 32
 ##########################################
 #                                        #
 #              Chapter 11                #
@@ -391,6 +401,7 @@ ch11v29: 'And Abram and Nahor took them wives: the name of Abram''s wife was Sar
 ch11v30: But Sarai was barren; she had no child.
 ch11v31: And Terah took Abram his son, and Lot the son of Haran his son's son, and Sarai his daughter in law, his son Abram's wife; and they went forth with them from Ur of the Chaldees, to go into the land of Canaan; and they came unto Haran, and dwelt there.
 ch11v32: 'And the days of Terah were two hundred and five years: and Terah died in Haran.'
+ch11Lim: 32
 ##########################################
 #                                        #
 #              Chapter 12                #
@@ -416,6 +427,7 @@ ch12v17: And the Lord plagued Pharaoh and his house with great plagues because o
 ch12v18: And Pharaoh called Abram and said, What is this that thou hast done unto me? why didst thou not tell me that she was thy wife?
 ch12v19: 'Why saidst thou, She is my sister? so I might have taken her to me to wife: now therefore behold thy wife, take her, and go thy way.'
 ch12v20: 'And Pharaoh commanded his men concerning him: and they sent him away, and his wife, and all that he had.'
+ch12Lim: 20
 ##########################################
 #                                        #
 #              Chapter 13                #
@@ -439,6 +451,7 @@ ch13v15: For all the land which thou seest, to thee will I give it, and to thy s
 ch13v16: 'And I will make thy seed as the dust of the earth: so that if a man can number the dust of the earth, then shall thy seed also be numbered.'
 ch13v17: Arise, walk through the land in the length of it and in the breadth of it; for I will give it unto thee.
 ch13v18: Then Abram removed his tent, and came and dwelt in the plain of Mamre, which is in Hebron, and built there an altar unto the Lord.
+ch13Lim: 18
 ##########################################
 #                                        #
 #              Chapter 14                #
@@ -468,6 +481,7 @@ ch14v21: And the king of Sodom said unto Abram, Give me the persons, and take th
 ch14v22: And Abram said to the king of Sodom, I have lift up mine hand unto the Lord, the most high God, the possessor of heaven and earth,
 ch14v23: 'That I will not take from a thread even to a shoelatchet, and that I will not take any thing that is thine, lest thou shouldest say, I have made Abram rich:'
 ch14v24: Save only that which the young men have eaten, and the portion of the men which went with me, Aner, Eshcol, and Mamre; let them take their portion.
+ch14Lim: 24
 ##########################################
 #                                        #
 #              Chapter 15                #
@@ -494,6 +508,7 @@ ch15v18: 'In the same day the Lord made a covenant with Abram, saying, Unto thy 
 ch15v19: The Kenites, and the Kenizzites, and the Kadmonites,
 ch15v20: And the Hittites, and the Perizzites, and the Rephaims,
 ch15v21: And the Amorites, and the Canaanites, and the Girgashites, and the Jebusites.
+ch15Lim: 21
 ##########################################
 #                                        #
 #              Chapter 16                #
@@ -515,6 +530,7 @@ ch16v13: 'And she called the name of the Lord that spake unto her, Thou God sees
 ch16v14: Wherefore the well was called Beerlahairoi; behold, it is between Kadesh and Bered.
 ch16v15: 'And Hagar bare Abram a son: and Abram called his son''s name, which Hagar bare, Ishmael.'
 ch16v16: And Abram was fourscore and six years old, when Hagar bare Ishmael to Abram.
+ch16Lim: 16
 ##########################################
 #                                        #
 #              Chapter 17                #
@@ -547,6 +563,7 @@ ch17v24: And Abraham was ninety years old and nine, when he was circumcised in t
 ch17v25: And Ishmael his son was thirteen years old, when he was circumcised in the flesh of his foreskin.
 ch17v26: In the selfsame day was Abraham circumcised, and Ishmael his son.
 ch17v27: And all the men of his house, born in the house, and bought with money of the stranger, were circumcised with him.
+ch17Lim: 27
 ##########################################
 #                                        #
 #              Chapter 18                #
@@ -585,6 +602,7 @@ ch18v30: 'And he said unto him, Oh let not the Lord be angry, and I will speak: 
 ch18v31: 'And he said, Behold now, I have taken upon me to speak unto the Lord: Peradventure there shall be twenty found there. And he said, I will not destroy it for twenty''s sake.'
 ch18v32: 'And he said, Oh let not the Lord be angry, and I will speak yet but this once: Peradventure ten shall be found there. And he said, I will not destroy it for ten''s sake.'
 ch18v33: 'And the Lord went his way, as soon as he had left communing with Abraham: and Abraham returned unto his place.'
+ch18Lim: 33
 ##########################################
 #                                        #
 #              Chapter 19                #
@@ -628,6 +646,7 @@ ch19v35: 'And they made their father drink wine that night also: and the younger
 ch19v36: Thus were both the daughters of Lot with child by their father.
 ch19v37: 'And the first born bare a son, and called his name Moab: the same is the father of the Moabites unto this day.'
 ch19v38: 'And the younger, she also bare a son, and called his name Benammi: the same is the father of the children of Ammon unto this day.'
+ch19Lim: 38
 ##########################################
 #                                        #
 #              Chapter 20                #
@@ -651,6 +670,7 @@ ch20v15: 'And Abimelech said, Behold, my land is before thee: dwell where it ple
 ch20v16: 'And unto Sarah he said, Behold, I have given thy brother a thousand pieces of silver: behold, he is to thee a covering of the eyes, unto all that are with thee, and with all other: thus she was reproved.'
 ch20v17: 'So Abraham prayed unto God: and God healed Abimelech, and his wife, and his maidservants; and they bare children.'
 ch20v18: For the Lord had fast closed up all the wombs of the house of Abimelech, because of Sarah Abraham's wife.
+ch20Lim: 18
 ##########################################
 #                                        #
 #              Chapter 21                #
@@ -690,6 +710,7 @@ ch21v31: Wherefore he called that place Beersheba; because there they sware both
 ch21v32: 'Thus they made a covenant at Beersheba: then Abimelech rose up, and Phichol the chief captain of his host, and they returned into the land of the Philistines.'
 ch21v33: And Abraham planted a grove in Beersheba, and called there on the name of the Lord, the everlasting God.
 ch21v34: And Abraham sojourned in the Philistines' land many days.
+ch21Lim: 34
 ##########################################
 #                                        #
 #              Chapter 22                #
@@ -719,6 +740,7 @@ ch22v21: Huz his firstborn, and Buz his brother, and Kemuel the father of Aram,
 ch22v22: And Chesed, and Hazo, and Pildash, and Jidlaph, and Bethuel.
 ch22v23: 'And Bethuel begat Rebekah: these eight Milcah did bear to Nahor, Abraham''s brother.'
 ch22v24: And his concubine, whose name was Reumah, she bare also Tebah, and Gaham, and Thahash, and Maachah.
+ch22Lim: 24
 ##########################################
 #                                        #
 #              Chapter 23                #
@@ -744,6 +766,7 @@ ch23v17: And the field of Ephron which was in Machpelah, which was before Mamre,
 ch23v18: Unto Abraham for a possession in the presence of the children of Heth, before all that went in at the gate of his city.
 ch23v19: 'And after this, Abraham buried Sarah his wife in the cave of the field of Machpelah before Mamre: the same is Hebron in the land of Canaan.'
 ch23v20: And the field, and the cave that is therein, were made sure unto Abraham for a possession of a buryingplace by the sons of Heth.
+ch23Lim: 20
 ##########################################
 #                                        #
 #              Chapter 24                #
@@ -816,6 +839,7 @@ ch24v64: And Rebekah lifted up her eyes, and when she saw Isaac, she lighted off
 ch24v65: 'For she had said unto the servant, What man is this that walketh in the field to meet us? And the servant had said, It is my master: therefore she took a vail, and covered herself.'
 ch24v66: And the servant told Isaac all things that he had done.
 ch24v67: 'And Isaac brought her into his mother Sarah''s tent, and took Rebekah, and she became his wife; and he loved her: and Isaac was comforted after his mother''s death.'
+ch24Lim: 67
 ##########################################
 #                                        #
 #              Chapter 25                #
@@ -855,6 +879,7 @@ ch25v31: And Jacob said, Sell me this day thy birthright.
 ch25v32: 'And Esau said, Behold, I am at the point to die: and what profit shall this birthright do to me?'
 ch25v33: 'And Jacob said, Swear to me this day; and he sware unto him: and he sold his birthright unto Jacob.'
 ch25v34: 'Then Jacob gave Esau bread and pottage of lentiles; and he did eat and drink, and rose up, and went his way: thus Esau despised his birthright.'
+ch25Lim: 34
 ##########################################
 #                                        #
 #              Chapter 26                #
@@ -895,6 +920,7 @@ ch26v32: And it came to pass the same day, that Isaac's servants came, and told 
 ch26v33: 'And he called it Shebah: therefore the name of the city is Beersheba unto this day.'
 ch26v34: 'And Esau was forty years old when he took to wife Judith the daughter of Beeri the Hittite, and Bashemath the daughter of Elon the Hittite:'
 ch26v35: Which were a grief of mind unto Isaac and to Rebekah.
+ch26Lim: 35
 ##########################################
 #                                        #
 #              Chapter 27                #
@@ -946,6 +972,7 @@ ch27v43: Now therefore, my son, obey my voice; arise, flee thou to Laban my brot
 ch27v44: And tarry with him a few days, until thy brother's fury turn away;
 ch27v45: 'Until thy brother''s anger turn away from thee, and he forget that which thou hast done to him: then I will send, and fetch thee from thence: why should I be deprived also of you both in one day?'
 ch27v46: 'And Rebekah said to Isaac, I am weary of my life because of the daughters of Heth: if Jacob take a wife of the daughters of Heth, such as these which are of the daughters of the land, what good shall my life do me?'
+ch27Lim: 46
 ##########################################
 #                                        #
 #              Chapter 28                #
@@ -973,6 +1000,7 @@ ch28v19: 'And he called the name of that place Bethel: but the name of that city
 ch28v20: And Jacob vowed a vow, saying, If God will be with me, and will keep me in this way that I go, and will give me bread to eat, and raiment to put on,
 ch28v21: 'So that I come again to my father''s house in peace; then shall the Lord be my God:'
 ch28v22: 'And this stone, which I have set for a pillar, shall be God''s house: and of all that thou shalt give me I will surely give the tenth unto thee.'
+ch28Lim: 22
 ##########################################
 #                                        #
 #              Chapter 29                #
@@ -1013,6 +1041,7 @@ ch29v32: 'And Leah conceived, and bare a son, and she called his name Reuben: fo
 ch29v33: 'And she conceived again, and bare a son; and said, Because the Lord hath heard I was hated, he hath therefore given me this son also: and she called his name Simeon.'
 ch29v34: 'And she conceived again, and bare a son; and said, Now this time will my husband be joined unto me, because I have born him three sons: therefore was his name called Levi.'
 ch29v35: 'And she conceived again, and bare a son: and she said, Now will I praise the Lord: therefore she called his name Judah; and left bearing.'
+ch29Lim: 35
 ##########################################
 #                                        #
 #              Chapter 30                #
@@ -1061,11 +1090,12 @@ ch30v40: And Jacob did separate the lambs, and set the faces of the flocks towar
 ch30v41: And it came to pass, whensoever the stronger cattle did conceive, that Jacob laid the rods before the eyes of the cattle in the gutters, that they might conceive among the rods.
 ch30v42: 'But when the cattle were feeble, he put them not in: so the feebler were Laban''s, and the stronger Jacob''s.'
 ch30v43: And the man increased exceedingly, and had much cattle, and maidservants, and menservants, and camels, and asses.
+ch30Lim: 43
 ##########################################
 #                                        #
 #              Chapter 31                #
 ##########################################
-ch31vinfo: Genesis Chapter # has ## verses.
+ch31vinfo: Genesis Chapter 31 has 55 verses.
 ch31v1: And he heard the words of Laban's sons, saying, Jacob hath taken away all that was our father's; and of that which was our father's hath he gotten all this glory.
 ch31v2: And Jacob beheld the countenance of Laban, and, behold, it was not toward him as before.
 ch31v3: And the Lord said unto Jacob, Return unto the land of thy fathers, and to thy kindred; and I will be with thee.
@@ -1121,6 +1151,7 @@ ch31v52: This heap be witness, and this pillar be witness, that I will not pass 
 ch31v53: The God of Abraham, and the God of Nahor, the God of their father, judge betwixt us. And Jacob sware by the fear of his father Isaac.
 ch31v54: 'Then Jacob offered sacrifice upon the mount, and called his brethren to eat bread: and they did eat bread, and tarried all night in the mount.'
 ch31v55: 'And early in the morning Laban rose up, and kissed his sons and his daughters, and blessed them: and Laban departed, and returned unto his place.'
+ch31Lim: 55
 ##########################################
 #                                        #
 #              Chapter 32                #
@@ -1158,6 +1189,7 @@ ch32v29: And Jacob asked him, and said, Tell me, I pray thee, thy name. And he s
 ch32v30: 'And Jacob called the name of the place Peniel: for I have seen God face to face, and my life is preserved.'
 ch32v31: And as he passed over Penuel the sun rose upon him, and he halted upon his thigh.
 ch32v32: 'Therefore the children of Israel eat not of the sinew which shrank, which is upon the hollow of the thigh, unto this day: because he touched the hollow of Jacob''s thigh in the sinew that shrank.'
+ch32Lim: 32
 ##########################################
 #                                        #
 #              Chapter 33                #
@@ -1183,6 +1215,7 @@ ch33v17: 'And Jacob journeyed to Succoth, and built him an house, and made booth
 ch33v18: And Jacob came to Shalem, a city of Shechem, which is in the land of Canaan, when he came from Padanaram; and pitched his tent before the city.
 ch33v19: And he bought a parcel of a field, where he had spread his tent, at the hand of the children of Hamor, Shechem's father, for an hundred pieces of money.
 ch33v20: And he erected there an altar, and called it EleloheIsrael.
+ch33Lim: 20
 ##########################################
 #                                        #
 #              Chapter 34                #
@@ -1219,6 +1252,7 @@ ch34v28: They took their sheep, and their oxen, and their asses, and that which 
 ch34v29: And all their wealth, and all their little ones, and their wives took they captive, and spoiled even all that was in the house.
 ch34v30: 'And Jacob said to Simeon and Levi, Ye have troubled me to make me to stink among the inhabitants of the land, among the Canaanites and the Perizzites: and I being few in number, they shall gather themselves together against me, and slay me; and I shall be destroyed, I and my house.'
 ch34v31: And they said, Should he deal with our sister as with an harlot?
+ch34Lim: 31
 ##########################################
 #                                        #
 #              Chapter 35                #
@@ -1253,6 +1287,7 @@ ch35v26: 'And the sons of Zilpah, Leah''s handmaid: Gad, and Asher: these are th
 ch35v27: And Jacob came unto Isaac his father unto Mamre, unto the city of Arbah, which is Hebron, where Abraham and Isaac sojourned.
 ch35v28: And the days of Isaac were an hundred and fourscore years.
 ch35v29: 'And Isaac gave up the ghost, and died, and was gathered unto his people, being old and full of days: and his sons Esau and Jacob buried him.'
+ch35Lim: 29
 ##########################################
 #                                        #
 #              Chapter 36                #
@@ -1301,6 +1336,7 @@ ch36v40: And these are the names of the dukes that came of Esau, according to th
 ch36v41: Duke Aholibamah, duke Elah, duke Pinon,
 ch36v42: Duke Kenaz, duke Teman, duke Mibzar,
 ch36v43: 'Duke Magdiel, duke Iram: these be the dukes of Edom, according to their habitations in the land of their possession: he is Esau the father of the Edomites.'
+ch36Lim: 43
 ##########################################
 #                                        #
 #              Chapter 37                #
@@ -1342,6 +1378,7 @@ ch37v33: And he knew it, and said, It is my son's coat; an evil beast hath devou
 ch37v34: And Jacob rent his clothes, and put sackcloth upon his loins, and mourned for his son many days.
 ch37v35: And all his sons and all his daughters rose up to comfort him; but he refused to be comforted; and he said, For I will go down into the grave unto my son mourning. Thus his father wept for him.
 ch37v36: And the Midianites sold him into Egypt unto Potiphar, an officer of Pharaoh's, and captain of the guard.
+ch37Lim: 36
 ##########################################
 #                                        #
 #              Chapter 38                #
@@ -1377,6 +1414,7 @@ ch38v27: And it came to pass in the time of her travail, that, behold, twins wer
 ch38v28: 'And it came to pass, when she travailed, that the one put out his hand: and the midwife took and bound upon his hand a scarlet thread, saying, This came out first.'
 ch38v29: 'And it came to pass, as he drew back his hand, that, behold, his brother came out: and she said, How hast thou broken forth? this breach be upon thee: therefore his name was called Pharez.'
 ch38v30: 'And afterward came out his brother, that had the scarlet thread upon his hand: and his name was called Zarah.'
+ch38Lim: 30
 ##########################################
 #                                        #
 #              Chapter 39                #
@@ -1405,6 +1443,7 @@ ch39v20: 'And Joseph''s master took him, and put him into the prison, a place wh
 ch39v21: But the Lord was with Joseph, and shewed him mercy, and gave him favour in the sight of the keeper of the prison.
 ch39v22: And the keeper of the prison committed to Joseph's hand all the prisoners that were in the prison; and whatsoever they did there, he was the doer of it.
 ch39v23: The keeper of the prison looked not to any thing that was under his hand; because the Lord was with him, and that which he did, the Lord made it to prosper.
+ch39Lim: 23
 ##########################################
 #                                        #
 #              Chapter 40                #
@@ -1433,6 +1472,7 @@ ch40v20: 'And it came to pass the third day, which was Pharaoh''s birthday, that
 ch40v21: 'And he restored the chief butler unto his butlership again; and he gave the cup into Pharaoh''s hand:'
 ch40v22: 'But he hanged the chief baker: as Joseph had interpreted to them.'
 ch40v23: Yet did not the chief butler remember Joseph, but forgat him.
+ch40Lim: 23
 ##########################################
 #                                        #
 #              Chapter 41                #
@@ -1495,6 +1535,7 @@ ch41v54: 'And the seven years of dearth began to come, according as Joseph had s
 ch41v55: 'And when all the land of Egypt was famished, the people cried to Pharaoh for bread: and Pharaoh said unto all the Egyptians, Go unto Joseph; what he saith to you, do.'
 ch41v56: 'And the famine was over all the face of the earth: and Joseph opened all the storehouses, and sold unto the Egyptians; and the famine waxed sore in the land of Egypt.'
 ch41v57: And all countries came into Egypt to Joseph for to buy corn; because that the famine was so sore in all lands.
+ch41Lim: 57
 ##########################################
 #                                        #
 #              Chapter 42                #
@@ -1538,6 +1579,7 @@ ch42v35: 'And it came to pass as they emptied their sacks, that, behold, every m
 ch42v36: 'And Jacob their father said unto them, Me have ye bereaved of my children: Joseph is not, and Simeon is not, and ye will take Benjamin away: all these things are against me.'
 ch42v37: 'And Reuben spake unto his father, saying, Slay my two sons, if I bring him not to thee: deliver him into my hand, and I will bring him to thee again.'
 ch42v38: 'And he said, My son shall not go down with you; for his brother is dead, and he is left alone: if mischief befall him by the way in the which ye go, then shall ye bring down my gray hairs with sorrow to the grave.'
+ch42Lim: 38
 ##########################################
 #                                        #
 #              Chapter 43                #
@@ -1577,6 +1619,7 @@ ch43v31: And he washed his face, and went out, and refrained himself, and said, 
 ch43v32: 'And they set on for him by himself, and for them by themselves, and for the Egyptians, which did eat with him, by themselves: because the Egyptians might not eat bread with the Hebrews; for that is an abomination unto the Egyptians.'
 ch43v33: 'And they sat before him, the firstborn according to his birthright, and the youngest according to his youth: and the men marvelled one at another.'
 ch43v34: 'And he took and sent messes unto them from before him: but Benjamin''s mess was five times so much as any of their''s. And they drank, and were merry with him.'
+ch43Lim: 34
 ##########################################
 #                                        #
 #              Chapter 44                #
@@ -1616,6 +1659,7 @@ ch44v31: 'It shall come to pass, when he seeth that the lad is not with us, that
 ch44v32: For thy servant became surety for the lad unto my father, saying, If I bring him not unto thee, then I shall bear the blame to my father for ever.
 ch44v33: Now therefore, I pray thee, let thy servant abide instead of the lad a bondman to my lord; and let the lad go up with his brethren.
 ch44v34: For how shall I go up to my father, and the lad be not with me? lest peradventure I see the evil that shall come on my father.
+ch44Lim: 34
 ##########################################
 #                                        #
 #              Chapter 45                #
@@ -1649,6 +1693,7 @@ ch45v25: And they went up out of Egypt, and came into the land of Canaan unto Ja
 ch45v26: And told him, saying, Joseph is yet alive, and he is governor over all the land of Egypt. And Jacob's heart fainted, for he believed them not.
 ch45v27: 'And they told him all the words of Joseph, which he had said unto them: and when he saw the wagons which Joseph had sent to carry him, the spirit of Jacob their father revived:'
 ch45v28: 'And Israel said, It is enough; Joseph my son is yet alive: I will go and see him before I die.'
+ch45Lim: 28
 ##########################################
 #                                        #
 #              Chapter 46                #
@@ -1688,6 +1733,7 @@ ch46v31: And Joseph said unto his brethren, and unto his father's house, I will 
 ch46v32: And the men are shepherds, for their trade hath been to feed cattle; and they have brought their flocks, and their herds, and all that they have.
 ch46v33: And it shall come to pass, when Pharaoh shall call you, and shall say, What is your occupation?
 ch46v34: 'That ye shall say, Thy servants'' trade hath been about cattle from our youth even until now, both we, and also our fathers: that ye may dwell in the land of Goshen; for every shepherd is an abomination unto the Egyptians.'
+ch46Lim: 34
 ##########################################
 #                                        #
 #              Chapter 47                #
@@ -1724,6 +1770,7 @@ ch47v28: 'And Jacob lived in the land of Egypt seventeen years: so the whole age
 ch47v29: 'And the time drew nigh that Israel must die: and he called his son Joseph, and said unto him, If now I have found grace in thy sight, put, I pray thee, thy hand under my thigh, and deal kindly and truly with me; bury me not, I pray thee, in Egypt:'
 ch47v30: But I will lie with my fathers, and thou shalt carry me out of Egypt, and bury me in their buryingplace. And he said, I will do as thou hast said.
 ch47v31: And he said, Swear unto me. And he sware unto him. And Israel bowed himself upon the bed's head.
+ch47Lim: 31
 ##########################################
 #                                        #
 #              Chapter 48                #
@@ -1751,6 +1798,7 @@ ch48v19: 'And his father refused, and said, I know it, my son, I know it: he als
 ch48v20: 'And he blessed them that day, saying, In thee shall Israel bless, saying, God make thee as Ephraim and as Manasseh: and he set Ephraim before Manasseh.'
 ch48v21: 'And Israel said unto Joseph, Behold, I die: but God shall be with you, and bring you again unto the land of your fathers.'
 ch48v22: Moreover I have given to thee one portion above thy brethren, which I took out of the hand of the Amorite with my sword and with my bow.
+ch48Lim: 22
 ##########################################
 #                                        #
 #              Chapter 49                #
@@ -1789,6 +1837,7 @@ ch49v30: In the cave that is in the field of Machpelah, which is before Mamre, i
 ch49v31: There they buried Abraham and Sarah his wife; there they buried Isaac and Rebekah his wife; and there I buried Leah.
 ch49v32: The purchase of the field and of the cave that is therein was from the children of Heth.
 ch49v33: And when Jacob had made an end of commanding his sons, he gathered up his feet into the bed, and yielded up the ghost, and was gathered unto his people.
+ch49Lim: 33
 ##########################################
 #                                        #
 #              Chapter 50                #
@@ -1820,3 +1869,4 @@ ch50v23: 'And Joseph saw Ephraim''s children of the third generation: the childr
 ch50v24: 'And Joseph said unto his brethren, I die: and God will surely visit you, and bring you out of this land unto the land which he sware to Abraham, to Isaac, and to Jacob.'
 ch50v25: And Joseph took an oath of the children of Israel, saying, God will surely visit you, and ye shall carry up my bones from hence.
 ch50v26: 'So Joseph died, being an hundred and ten years old: and they embalmed him, and he was put in a coffin in Egypt.'
+ch50Lim: 26

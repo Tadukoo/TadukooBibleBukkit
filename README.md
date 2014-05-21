@@ -188,6 +188,9 @@ Save what Bible verse was last read.
 
 Make error reports optional (stack trace or simple error)
 
+Move < book >Info, < book >#, and < chapter >info to code instead of config files.
+   * Add < book >Lim to config files.
+
 Known Issues
 ------------
 None currently.
@@ -221,14 +224,14 @@ Progress
 Version System
 --------------
 * Alpha
-   * Alpha will be the current version until the Pentateuch (Genesis, Exodus, Leviticus, Numbers, and Deuteronomy), the Gospels (Matthew, Mark, Luke, and John),
-   and the 3 Johns (1, 2, and 3 John) are completed.
+   * Alpha is the original version through the time the Pentateuch (Genesis, Exodus, Leviticus, Numbers, and Deuteronomy), 
+   the Gospels (Matthew, Mark, Luke, and John), and the 3 Johns (1, 2, and 3 John) are completed.
 * Beta
    * Beta will be from the time Alpha is completed (which will be Beta 0.2), until the time that the official release comes.
 * Official Release
    * The "official release" will be once the entire Bible is complete in the KJV translation. This will be v.1.0.
 * Decimals
-   * Currently the entire system is based off of just the King James Version through-chat commands.
+   * Currently the entire system is based off of just the King James Version progress.
    * Each book of the Bible is either considered 2% or part of 2% of the entirety.
       * Each 2% is + 0.0.2 to the version number. (so Genesis being completed would be Alpha 0.0.2)
       * The books which are not two percent by themselves are:
@@ -249,3 +252,4 @@ Version System
 * After Official Release v.1.0
    * After the Official Release, each version will get .01 added for small updates (i.e. v.1.0), 0.1 for big updates (i.e. v.1.1), 
    and 1 for major updates (i.e. v.2.0)
+   * Any new translations will probably only be added once they're completed or added in halves, fourths, or fifths.
