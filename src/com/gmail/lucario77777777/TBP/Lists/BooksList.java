@@ -23,7 +23,7 @@ public class BooksList {
 			sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
 			sender.sendMessage(ChatColor.RED + "Hosea, Joel, Amos, Obadiah, Jonah, Micah," +
 					" Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi, " + ChatColor.GREEN + "Matthew, " 
-							+ "Mark, " + ChatColor.RED + "Luke, John");
+							+ "Mark, Luke, " + ChatColor.RED + "John");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible books 4 for the next page.");
 		}else if(i.equalsIgnoreCase("4")){
 			sender.sendMessage(ChatColor.GREEN + "Page 4 of 5");

@@ -1,91 +1,94 @@
 package com.gmail.lucario77777777.TBP.commands;
 
 public enum EnumBooks {
-	GENESIS("Genesis", "Gen", "Moses", true, 1, 50),
-	EXODUS("Exodus", "Exo", "Moses", true, 2, 40),
-	LEVITICUS("Leviticus", "Lev", "Moses", true, 3, 27),
-	NUMBERS("Numbers", "Num", "Moses", true, 4, 36),
-	DEUTERONOMY("Deuteronomy", "Deu", "Moses", true, 5, 34),
-	JOSHUA("Joshua", "Jos", "Joshua", false, 6, 24),
-	JUDGES("Judges", "Jud", "Samuel", false, 7, 21),
-	RUTH("Ruth", "Ruth", "Samuel", false, 8, 4),
-	SAMUEL1("1Samuel", "1Sam", "Unknown", false, 9, 31),
-	SAMUEL2("2Samuel", "2Sam", "Unknown", false, 10, 24),
-	KINGS1("1Kings", "1Kings", "Unknown", false, 11, 22),
-	KINGS2("2Kings", "2Kings", "Unknown", false, 12, 25),
-	CHRONICLES1("1Chronicles", "1Chron", "Ezra", false, 13, 29),
-	CHRONICLES2("2Chronicles", "2Chron", "Ezra", false, 14, 36),
-	EZRA("Ezra", "Ezra","Ezra", false, 15, 10),
-	NEHEMIAH("Nehemiah", "Neh", "Ezra", false, 16, 13),
-	ESTHER("Esther", "Est", "Unknown", false, 17, 10),
-	JOB("Job", "Job", "Unknown", false, 18, 42),
-	PSALMS("Psalms", "Psalm", "Many people", false, 19, 150),
-	PROVERBS("Proverbs", "Pro", "Solomon", false, 20, 31),
-	ECCLESIASTES("Ecclesiastes", "Ecc", "Solomon", false, 21, 12),
-	SONGOFSONGS("SongofSongs", "Song", "Solomon", false, 22, 8),
-	ISAIAH("Isaiah", "Isa", "Isaiah", false, 23, 66),
-	JEREMIAH("Jeremiah", "Jer", "Jeremiah", false, 24, 52),
-	LAMENTATIONS("Lamentations", "Lam", "Jeremiah", false, 25, 5),
-	EZEKIEL("Ezekiel", "Eze", "Ezekiel", false, 26, 48),
-	DANIEL("Daniel", "Dan", "Daniel", false, 27, 12),
-	HOSEA("Hosea", "Hosea", "Hosea", false, 28, 14),
-	JOEL("Joel", "Joel", "Joel", false, 29, 3),
-	AMOS("Amos", "Amos", "Amos", false, 30, 9),
-	OBADIAH("Obadiah", "Oba", "Obadiah", false, 31, 1),
-	JONAH("Jonah", "Jonah", "Jonah", false, 32, 4),
-	MICAH("Micah", "Micah", "Micah", false, 33, 7),
-	NAHUM("Nahum", "Nahum", "Nahum", false, 34, 3),
-	HABAKKUK("Habakkuk", "Hab", "Habakkuk", false, 35, 3),
-	ZEPHANIAH("Zephaniah", "Zep", "Zephaniah", false, 36, 3),
-	HAGGAI("Haggai", "Hag", "Haggai", false, 37, 2),
-	ZECHARIAH("Zechariah", "Zec", "Zechariah", false, 38, 14),
-	MALACHI("Malachi", "Mal", "Malachi", false, 39, 4),
-	MATTHEW("Matthew", "Mat", "Matthew", true, 40, 28),
-	MARK("Mark", "Mark", "John Mark", true, 41, 16),
-	LUKE("Luke", "Luke", "Luke", false, 42, 24),
-	JOHN("John", "John", "John", false, 43, 21),
-	ACTS("Acts", "Acts", "Luke", false, 44, 28),
-	ROMANS("Romans", "Rom", "Paul", false, 45, 16),
-	CORINTHIANS1("1Corinthians", "1Cor", "Paul", false, 46, 16),
-	CORINTHIANS2("2Corinthians", "2Cor", "Paul", false, 47, 13),
-	GALATIANS("Galatians", "Gal", "Paul", false, 48, 6),
-	EPHESIANS("Ephesians", "Eph", "Paul", false, 49, 6),
-	PHILIPPIANS("Philippians", "Phili", "Paul", false, 50, 4),
-	COLOSSIANS("Colossians", "Col", "Paul", false, 51, 4),
-	THESSALONIANS1("1Thessalonians", "1Thes", "Paul", false, 52, 5),
-	THESSALONIANS2("2Thessalonians", "2Thes", "Paul", false, 53, 3),
-	TIMOTHY1("1Timothy", "1Tim", "Paul", false, 54, 6),
-	TIMOTHY2("2Timothy", "2Tim", "Paul", false, 55, 4),
-	TITUS("Titus", "Tit", "Paul", false, 56, 3),
-	PHILEMON("Philemon", "Phile", "Paul", false, 57, 1),
-	HEBREWS("Hebrews", "Heb", "Unknown", false, 58, 13),
-	JAMES("James", "James", "James", false, 59, 5),
-	PETER1("1Peter", "1Peter", "Peter", false, 60, 5),
-	PETER2("2Peter", "2Peter", "Peter", false, 61, 3),
-	JOHN1("1John", "1John", "John", true, 62, 5),
-	JOHN2("2John", "2John", "John", true, 63, 1),
-	JOHN3("3John", "3John", "John", true, 64, 1),
-	JUDE("Jude", "Jude", "Jude", false, 65, 1),
-	REVELATION("Revelation", "Rev", "John", false, 66, 22);
+	GENESIS("Genesis", "Gen", "Moses", 1, 50, true),
+	EXODUS("Exodus", "Exo", "Moses", 2, 40, true),
+	LEVITICUS("Leviticus", "Lev", "Moses", 3, 27, true),
+	NUMBERS("Numbers", "Num", "Moses", 4, 36, true),
+	DEUTERONOMY("Deuteronomy", "Deu", "Moses", 5, 34, true),
+	JOSHUA("Joshua", "Jos", "Joshua", 6, 24, false),
+	JUDGES("Judges", "Jud", "Samuel", 7, 21, false),
+	RUTH("Ruth", "Ruth", "Samuel", 8, 4, false),
+	SAMUEL1("1Samuel", "1Sam", "Unknown", 9, 31, false),
+	SAMUEL2("2Samuel", "2Sam", "Unknown", 10, 24, false),
+	KINGS1("1Kings", "1Kings", "Unknown", 11, 22, false),
+	KINGS2("2Kings", "2Kings", "Unknown", 12, 25, false),
+	CHRONICLES1("1Chronicles", "1Chron", "Ezra", 13, 29, false),
+	CHRONICLES2("2Chronicles", "2Chron", "Ezra", 14, 36, false),
+	EZRA("Ezra", "Ezra","Ezra", 15, 10, false),
+	NEHEMIAH("Nehemiah", "Neh", "Ezra", 16, 13, false),
+	ESTHER("Esther", "Est", "Unknown", 17, 10, false),
+	JOB("Job", "Job", "Unknown", 18, 42, false),
+	PSALMS("Psalms", "Psalm", "Many people", 19, 150, false),
+	PROVERBS("Proverbs", "Pro", "Solomon", 20, 31, false),
+	ECCLESIASTES("Ecclesiastes", "Ecc", "Solomon", 21, 12, false),
+	SONGOFSONGS("SongofSongs", "Song", "Solomon", 22, 8, false),
+	ISAIAH("Isaiah", "Isa", "Isaiah", 23, 66, false),
+	JEREMIAH("Jeremiah", "Jer", "Jeremiah", 24, 52, false),
+	LAMENTATIONS("Lamentations", "Lam", "Jeremiah", 25, 5, false),
+	EZEKIEL("Ezekiel", "Eze", "Ezekiel", 26, 48, false),
+	DANIEL("Daniel", "Dan", "Daniel", 27, 12, false),
+	HOSEA("Hosea", "Hosea", "Hosea", 28, 14, false),
+	JOEL("Joel", "Joel", "Joel", 29, 3, false),
+	AMOS("Amos", "Amos", "Amos", 30, 9, false),
+	OBADIAH("Obadiah", "Oba", "Obadiah", 31, 1, false),
+	JONAH("Jonah", "Jonah", "Jonah", 32, 4, false),
+	MICAH("Micah", "Micah", "Micah", 33, 7, false),
+	NAHUM("Nahum", "Nahum", "Nahum", 34, 3, false),
+	HABAKKUK("Habakkuk", "Hab", "Habakkuk", 35, 3, false),
+	ZEPHANIAH("Zephaniah", "Zep", "Zephaniah", 36, 3, false),
+	HAGGAI("Haggai", "Hag", "Haggai", 37, 2, false),
+	ZECHARIAH("Zechariah", "Zec", "Zechariah", 38, 14, false),
+	MALACHI("Malachi", "Mal", "Malachi", 39, 4, false),
+	MATTHEW("Matthew", "Mat", "Matthew", 40, 28, true),
+	MARK("Mark", "Mark", "John Mark", 41, 16, true),
+	LUKE("Luke", "Luke", "Luke", 42, 24, true),
+	JOHN("John", "John", "John", 43, 21, false),
+	ACTS("Acts", "Acts", "Luke", 44, 28, false),
+	ROMANS("Romans", "Rom", "Paul", 45, 16, false),
+	CORINTHIANS1("1Corinthians", "1Cor", "Paul", 46, 16, false),
+	CORINTHIANS2("2Corinthians", "2Cor", "Paul", 47, 13, false),
+	GALATIANS("Galatians", "Gal", "Paul", 48, 6, false),
+	EPHESIANS("Ephesians", "Eph", "Paul", 49, 6, false),
+	PHILIPPIANS("Philippians", "Phili", "Paul", 50, 4, false),
+	COLOSSIANS("Colossians", "Col", "Paul", 51, 4, false),
+	THESSALONIANS1("1Thessalonians", "1Thes", "Paul", 52, 5, false),
+	THESSALONIANS2("2Thessalonians", "2Thes", "Paul", 53, 3, false),
+	TIMOTHY1("1Timothy", "1Tim", "Paul", 54, 6, false),
+	TIMOTHY2("2Timothy", "2Tim", "Paul", 55, 4, false),
+	TITUS("Titus", "Tit", "Paul", 56, 3, false),
+	PHILEMON("Philemon", "Phile", "Paul", 57, 1, false),
+	HEBREWS("Hebrews", "Heb", "Unknown", 58, 13, false),
+	JAMES("James", "James", "James", 59, 5, false),
+	PETER1("1Peter", "1Peter", "Peter", 60, 5, false),
+	PETER2("2Peter", "2Peter", "Peter", 61, 3, false),
+	JOHN1("1John", "1John", "John", 62, 5, true),
+	JOHN2("2John", "2John", "John", 63, 1, true),
+	JOHN3("3John", "3John", "John", 64, 1, true),
+	JUDE("Jude", "Jude", "Jude", 65, 1, false),
+	REVELATION("Revelation", "Rev", "John", 66, 22, false);
 	
 	private String book;
 	private String alias;
 	private String author;
-	private boolean available;
 	private int num;
 	private int chp;
+	private boolean KJV;
 	
-	private EnumBooks(String book, String alias, String author, boolean available, int num, int chp){
+	private EnumBooks(String book, String alias, String author, int num, int chp, boolean KJV){
 		this.book = book;
 		this.alias = alias;
 		this.author = author;
-		this.available = available;
 		this.num = num;
 		this.chp = chp;
+		this.KJV = KJV;
 	}
 	
-	public boolean isAvailable(){
-		return available;
+	public boolean isAvailable(String tran){
+		if(tran.equalsIgnoreCase("KJV")){
+			return KJV;
+		}
+		return false;
 	}
 	
 	public String getBook(){

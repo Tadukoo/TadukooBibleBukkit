@@ -20,6 +20,17 @@ public class MainCommandExecutor implements CommandExecutor {
 	public MainCommandExecutor(TB plugin) {
 		this.plugin = plugin;
 	}
+	
+	String eType = "normal";
+	EnumBooks book = EnumBooks.GENESIS;
+	EnumCmds cmds = EnumCmds.HELP;
+	String bookName = "Genesis", chp = "1", v = "1";
+	String tran = plugin.getConfig().getString("DefaultTranslation").toUpperCase();
+	String ref = null, verse = null, type = null;
+	String i = "1";
+	Boolean permsOn = plugin.perms;
+	Boolean pR = plugin.getConfig().getBoolean("PlayerRecords");
+	
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
 		final String playerType;
@@ -32,24 +43,12 @@ public class MainCommandExecutor implements CommandExecutor {
 		}else{
 			playerType = "unknown";
 		}
-		Boolean permsOn = plugin.perms;
-		Boolean pR = plugin.getConfig().getBoolean("PlayerRecords");
+		
 		if(cmd.getName().equalsIgnoreCase("bible")){
 			if(playerType == "block" || playerType == "unknown"){
 				sender.sendMessage(ChatColor.RED + "Unknown sender!");
 				return true;
 			}else{
-				String eType = "normal";
-				EnumBooks book = EnumBooks.GENESIS;
-				EnumCmds cmds = EnumCmds.HELP;
-				String bookName = "Genesis";
-				String chp = "1";
-				String v = "1";
-				String tran = plugin.getConfig().getString("DefaultTranslation").toUpperCase();
-				String ref = null;
-				String verse = null;
-				String type = null;
-				String i = "1";
 				if(args.length >= 1){
 					if(book.fromString(args[0].toUpperCase()) != null){
 						book = book.fromString(args[0].toUpperCase());
@@ -63,9 +62,9 @@ public class MainCommandExecutor implements CommandExecutor {
 					}
 				}
 				if(type == "book"){
-					if(book.isAvailable() == false){
+					if(book.isAvailable(tran) == false){
 						sender.sendMessage(ChatColor.RED + "Sorry, " + book.getBook() + 
-								" is not available yet.");
+								" is not available yet in the " + tran.toUpperCase() + " translation.");
 						return true;
 					}
 					if(args.length >= 2){
