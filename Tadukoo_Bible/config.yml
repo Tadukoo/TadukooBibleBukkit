@@ -5,4 +5,4 @@ DefaultTranslation: KJV
 Permissions: true
 PlayerRecords: true
 Books: true
-KJV: true
+KJV: 'true'

@@ -1,4 +1,4 @@
-package com.gmail.lucario77777777.TBP.commands;
+package com.gmail.lucario77777777.TBP.Enums;
 
 public enum EnumCmds {
 	// Special cases.

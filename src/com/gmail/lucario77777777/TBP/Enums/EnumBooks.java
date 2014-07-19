@@ -1,4 +1,4 @@
-package com.gmail.lucario77777777.TBP.commands;
+package com.gmail.lucario77777777.TBP.Enums;
 
 public enum EnumBooks {
 	GENESIS("Genesis", "Gen", "Moses", 1, 50, true),
@@ -43,7 +43,7 @@ public enum EnumBooks {
 	MATTHEW("Matthew", "Mat", "Matthew", 40, 28, true),
 	MARK("Mark", "Mark", "John Mark", 41, 16, true),
 	LUKE("Luke", "Luke", "Luke", 42, 24, true),
-	JOHN("John", "John", "John", 43, 21, false),
+	JOHN("John", "John", "John", 43, 21, true),
 	ACTS("Acts", "Acts", "Luke", 44, 28, false),
 	ROMANS("Romans", "Rom", "Paul", 45, 16, false),
 	CORINTHIANS1("1Corinthians", "1Cor", "Paul", 46, 16, false),

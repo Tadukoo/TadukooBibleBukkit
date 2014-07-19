@@ -28,7 +28,7 @@ Command Usage
       * [ book ] defaults to Genesis.
       * [ chapter # ] defaults to 1.
       * [ verse # ] defaults to 1.
-	  * [ translation ] defaults to whatever is set in the config.yml
+	  * [ translation ] defaults to whatever is set in the config.yml, which is currently KJV.
    * [ chapter # ] can be replaced with #, info, or ?.
       * # will list how many chapters are in that book.
       * ? or info will show information about the book you chose.
@@ -82,6 +82,10 @@ Command Usage
    * Aliases: bookgive, biblegive, and givebible.
    * Gives a book to a player instead of yourself.
    * Requires permission: TadukooBible.givebook
+   * Defaults:
+      * [ book ] defaults to Genesis.
+	  * [ part # ] defaults to 1.
+	  * [ translation ] defaults to whatever is set in the config.yml.
 
 /bible random [ book ] [ chapter # ] [ translation ]
    * Aliases: rand, randomverse, randomv, verserandom, vrandom, randverse, randv, verserand, and vrand.
@@ -158,13 +162,9 @@ Translations
 * Enable or disable translations here.
 *(Note: You must still have the files for that translation or it won't work.)
 * KJV: true
-   * Enables or disables KJV.
 
 Upcoming Commands/Features
 --------------------------
-Get to Beta 0.2
-   * Deadline: July 19, 2014
-
 Finish the books of the Bible
 
 /bible config < setting > [ value ] [ config file ]
@@ -198,9 +198,15 @@ Move < book >Info, < book >#, and < chapter >info to code instead of config file
 
 More translations.
 
+Add a command to send verses to other players.
+
+Add books that contain verses about specific topics (or perhaps commentaries?)
+
+Add random option to various commands, rather than just as its own command.
+
 Known Issues
 ------------
-None currently.
+None at the moment.
 
 Translations
 ------------
@@ -209,24 +215,24 @@ for other translations.
 
 Download
 --------
-Currently you are unable to download the plugin jar file. Once this plugin is in Beta, it will be available on BukkitDev.
+This plugin is now in Beta, so it will soon be available on BukkitDev.
 
 Currently to download and install this plugin, you must download the classes and plugin.yml file, then import them into eclipse (or your choice of IDE),
-along with importing the Bukkit API (Currently this plugin is built off of [1.7.9-R0.1 Beta Build 1936] 
-(http://dl.bukkit.org/downloads/bukkit/view/02620_1.7.9-R0.1/)).
+along with importing the Bukkit API (Currently this plugin is built off of [1.7.9-R0.2 Beta Build 1938] 
+(http://dl.bukkit.org/downloads/bukkit/view/02630_1.7.9-R0.2/)).
 
 Do not import the Tadukoo_Bible folder into eclipse. Simply place it in your plugins folder.
 
 Progress
 --------
-* King James Version (KJV) (16%)
+* King James Version (KJV) (20%)
    * Completed:
       * Genesis through Deuteronomy
-      * Matthew and Mark
+      * Matthew through John
       * 1 John, 2 John, and 3 John
    * Upcoming:
       * Joshua through Malachi
-      * Luke through 2 Peter
+      * Acts through 2 Peter
       * Jude and Revelation
 
 Version System
@@ -239,6 +245,8 @@ Version System
 * Beta
    * Beta will be from the time Alpha is completed (which will be Beta 0.2), until the time that the official release comes.
    * During this time, the plugin's jar will be available on BukkitDev for anyone to download if they want it.
+   * Also during this time, I will only update the plugin (on the BukkitDev page at least) when either 10% more is completed or a new feature
+   is added or a bug is fixed.
 * Official Release
    * The "official release" will be once the entire Bible is complete in the KJV translation. This will be v.1.0.
 * Decimals

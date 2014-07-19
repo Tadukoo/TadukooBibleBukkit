@@ -1,14 +1,14 @@
 package com.gmail.lucario77777777.TBP.commands;
 
-import java.util.Random;
-
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.*;
 import org.bukkit.entity.Player;
 import org.bukkit.command.CommandExecutor;
 
-import com.gmail.lucario77777777.TBP.Checkers.PermissionsChecker;
+import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
+import com.gmail.lucario77777777.TBP.Enums.EnumChps;
+import com.gmail.lucario77777777.TBP.Enums.EnumCmds;
 import com.gmail.lucario77777777.TBP.Lists.BooksList;
 import com.gmail.lucario77777777.TBP.Lists.Help;
 import com.gmail.lucario77777777.TBP.Lists.SettingsList;
@@ -21,18 +21,19 @@ public class MainCommandExecutor implements CommandExecutor {
 		this.plugin = plugin;
 	}
 	
-	String eType = "normal";
-	EnumBooks book = EnumBooks.GENESIS;
-	EnumCmds cmds = EnumCmds.HELP;
-	String bookName = "Genesis", chp = "1", v = "1";
-	String tran = plugin.getConfig().getString("DefaultTranslation").toUpperCase();
-	String ref = null, verse = null, type = null;
-	String i = "1";
-	Boolean permsOn = plugin.perms;
-	Boolean pR = plugin.getConfig().getBoolean("PlayerRecords");
-	
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
+		String eType = "normal";
+		EnumBooks book = EnumBooks.GENESIS;
+		EnumChps echp = EnumChps.GENESIS;
+		EnumCmds cmds = EnumCmds.HELP;
+		String bookName = "Genesis", chp = "1", v = "1";
+		String tran = plugin.getConfig().getString("DefaultTranslation").toUpperCase();
+		String ref = null, verse = null, type = null;
+		String i = "1";
+		Boolean permsOn = plugin.perms;
+		Boolean pR = plugin.getConfig().getBoolean("PlayerRecords");
+		
 		final String playerType;
 		if (sender instanceof Player){
 			playerType = "player";
@@ -62,27 +63,12 @@ public class MainCommandExecutor implements CommandExecutor {
 					}
 				}
 				if(type == "book"){
-					if(book.isAvailable(tran) == false){
-						sender.sendMessage(ChatColor.RED + "Sorry, " + book.getBook() + 
-								" is not available yet in the " + tran.toUpperCase() + " translation.");
-						return true;
-					}
-					if(args.length >= 2){
-						chp = args[1];
-						if(args.length >= 3){
-							v = args[2];
-							if(args.length >= 4){
-								tran = args[3].toUpperCase();
-							}
-						}
-					}
-					bookName = book.getBook();
-					if(tranCheck(plugin, sender, tran) == false){
-						return true;
-					}
+					Read.read(plugin, sender, args, book, echp, bookName, chp, v, tran);
+					return true;
 				}else if(type == "cmd"){
 					if(cmds.isAvailable() == false){
-						sender.sendMessage(ChatColor.RED + "Sorry, " + cmds.getCmd() + " is not available yet.");
+						sender.sendMessage(ChatColor.RED + "Sorry, " + cmds.getCmd() + " is not available" +
+								" yet.");
 						return true;
 					}
 					String cmdType = cmds.getCmd();
@@ -165,6 +151,10 @@ public class MainCommandExecutor implements CommandExecutor {
 						TranslationsList.tranList(sender, plugin);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("getbook")){
+						if(playerType == "console"){
+							sender.sendMessage(ChatColor.RED + "You must be a player!");
+							return true;
+						}
 						if(permCheck(permsOn, playerType, sender, "getbook") == false){
 							return true;
 						}
@@ -234,8 +224,7 @@ public class MainCommandExecutor implements CommandExecutor {
 						}
 						type = "give";
 						String p = null;
-						bookName = chp;
-						String part = v;
+						String part = "1";
 						if(args.length < 2){
 							sender.sendMessage(ChatColor.RED + "Not enough arguments!");
 							sender.sendMessage(ChatColor.RED + "/bible givebook <player>");
@@ -257,35 +246,10 @@ public class MainCommandExecutor implements CommandExecutor {
 						}
 						Book.Run(plugin, sender, playerType, tran, bookName, part, type, p);
 						return true;
-					}else if(cmdType.equalsIgnoreCase("random")){
-						if(permCheck(permsOn, playerType, sender, "random") == false){
-							return true;
-						}
-						Random generator = new Random();
-						int rB;
-						int rC;
-						int rV;
-						EnumBooks ebook = EnumBooks.GENESIS;
-						if(args.length >= 2){
-							bookName = args[1];
-							if(args.length >= 3){
-								chp = args[2];
-								if(args.length >= 4){
-									tran = args[3];
-								}
-							}else{
-								ebook = ebook.fromString(bookName);
-								int lim = ebook.getChp() + 1;
-								rC = generator.nextInt(lim);
-								chp = Integer.toString(rC);
-							}
-						}else{
-							rB = generator.nextInt(67);
-							bookName = ebook.numtoBook(rB, "int", null, null);
-						}
-						int lim = plugin.getBook(tran, bookName).getInt("ch" + chp + "Lim") + 1;
-						rV = generator.nextInt(lim);
-						v = Integer.toString(rV);
+					}else if(cmdType.equalsIgnoreCase("random") && 
+							permCheck(permsOn, playerType, sender, "random") == true){
+						CMDRandom.random(plugin, sender, args, bookName, chp, v, tran);
+						return true;
 					}else if(cmdType.equalsIgnoreCase("announce")){
 						if(permCheck(permsOn, playerType, sender, "announce") == false){
 							return true;
@@ -306,26 +270,13 @@ public class MainCommandExecutor implements CommandExecutor {
 						eType = "broad";
 					}
 				}
-				if(plugin.getBook(tran, bookName) == null){
-					sender.sendMessage(ChatColor.RED + "Sorry, " + tran + "/" + bookName 
-							+ ".yml does not exist.");
+				if(checkForYML(plugin, sender, tran, bookName) == false){
 					return true;
 				}
-				if(chp.equalsIgnoreCase("info") || chp.equalsIgnoreCase("?")){
-					ref = book.getAlias() + "Info";
-				}
-				if(chp.equalsIgnoreCase("#")){
-					ref = book.getAlias() + "#";
-				}
-				if(v.equalsIgnoreCase("#") || v.equalsIgnoreCase("?") || v.equalsIgnoreCase("info")){
-					v = "info";
-				}
 				if(ref == null){
-					ref = "ch" + chp + "v" + v;
+					ref = Reference.make(book, chp, v);
 				}
-				if(plugin.getBook(tran, bookName).getString(ref) == null){
-					sender.sendMessage(ChatColor.RED + "An error occurred. Please make sure you typed in a " +
-							"chapter/verse that exists.");
+				if(Reference.check(plugin, sender, bookName, tran, ref) == false){
 					return true;
 				}
 				if(verse == null){
@@ -336,8 +287,8 @@ public class MainCommandExecutor implements CommandExecutor {
 					return true;
 				}else if(eType.equalsIgnoreCase("broad")){
 					Bukkit.broadcast(ChatColor.GREEN + verse, "TadukooBible.announceget");
-					plugin.getLogger().info(sender.getName() + " broadcasted " + bookName + chp + v + 
-							" from the " + tran);
+					plugin.getLogger().info(sender.getName() + " broadcasted " + bookName + " " + chp + ":" 
+							+ v + " from the " + tran + " translation.");
 					return true;
 				}
 			}
@@ -345,9 +296,19 @@ public class MainCommandExecutor implements CommandExecutor {
 		return false;
 	}
 	
-	private static boolean tranCheck(TB plugin, CommandSender sender, String tran) {
+	public static boolean checkForYML(TB plugin, CommandSender sender, String tran, String bookName) {
+		if(plugin.getBook(tran, bookName) == null){
+			sender.sendMessage(ChatColor.RED + "Sorry, " + tran + "/" + bookName 
+					+ ".yml does not exist.");
+			return false;
+		}else{
+			return true;
+		}
+	}
+
+	public static boolean tranCheck(TB plugin, CommandSender sender, String tran) {
 		if(plugin.getConfig().getString(tran) == null || plugin.getConfig().getBoolean(tran) == false){
-			sender.sendMessage(ChatColor.RED + "Sorry, that translation is not available.");
+			sender.sendMessage(ChatColor.RED + "Sorry, the " + tran + " translation is not available.");
 			return false;
 		}else{
 			return true;

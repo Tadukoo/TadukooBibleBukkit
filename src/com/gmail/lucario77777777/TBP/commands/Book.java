@@ -8,6 +8,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BookMeta;
 
 import com.gmail.lucario77777777.TBP.TB;
+import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 
 public class Book extends MainCommandExecutor {
 	public Book(TB plugin) {
@@ -62,7 +63,11 @@ public class Book extends MainCommandExecutor {
 				}
 			}
 			igbook.setItemMeta(meta);
-			player.getInventory().addItem(igbook);
+			if(player != null){
+				player.getInventory().addItem(igbook);
+			}else{
+				sender.sendMessage(ChatColor.RED + p + " is not online!");
+			}
 			return true;
 	}
 }
