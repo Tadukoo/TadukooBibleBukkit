@@ -61,7 +61,6 @@ public class Read {
 		if(Reference.check(plugin, sender, bookName, tran, ref) == false){
 			return;
 		}
-		String verse = plugin.getBook(tran, bookName).getString(ref);
-		sender.sendMessage(ChatColor.GREEN + verse);
+		Send.player(plugin, sender, bookName, tran, ref);
 	}
 }

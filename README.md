@@ -165,6 +165,14 @@ Translations
 
 Upcoming Commands/Features
 --------------------------
+Beta 0.3
+   * Add Psalms
+   * Save what Bible verse was last read by each player.
+   * Add /bible previous [ translation ]
+   * Add /bible next [ translation ]
+   * Add /bible last [ translation ]
+   * Put in more details about the translations and books of the Bible.
+
 Finish the books of the Bible
 
 /bible config < setting > [ value ] [ config file ]
@@ -189,12 +197,7 @@ Finish the books of the Bible
    * Shows you the Bible verse you last read.
    * Requires permission: TadukooBible.last
 
-Save what Bible verse was last read by each player.
-
-Make error reports optional (stack trace or simple error)
-
-Move < book >Info, < book >#, and < chapter >info to code instead of config files.
-   * Add < book >Lim to config files.
+Move < book >Info, < book >Lime, < book >#, and < chapter >info to code instead of config files.
 
 More translations.
 
@@ -203,8 +206,6 @@ Add a command to send verses to other players.
 Add books that contain verses about specific topics (or perhaps commentaries?)
 
 Add random option to various commands, rather than just as its own command.
-
-Put in more details about the translations and books of the Bible.
 
 Known Issues
 ------------

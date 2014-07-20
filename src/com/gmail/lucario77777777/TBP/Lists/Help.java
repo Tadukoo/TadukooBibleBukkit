@@ -6,7 +6,13 @@ import org.bukkit.command.CommandSender;
 import com.gmail.lucario77777777.TBP.TB;
 
 public class Help {
-	public static void help(String i, CommandSender sender, TB plugin){
+	public static void help(TB plugin, CommandSender sender, String[] args){
+		String i;
+		if(args.length >= 2){
+			i = args[1];
+		}else{
+			i = "1";
+		}
 		/*******************************************************
 		 *          Page 1/17 Table of Contents (1/3)          *
 		 *                                                     *

@@ -4,7 +4,11 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 public class BooksList {
-	public static void booksList(String i, CommandSender sender){
+	public static void booksList(CommandSender sender, String[] args){
+		String i = null;
+		if(args.length >= 2){
+			i = args[1];
+		}
 		if(i.equalsIgnoreCase("1")){
 			sender.sendMessage(ChatColor.GREEN + "Page 1 of 5");
 			sender.sendMessage(ChatColor.GREEN + "The Books of the Bible are:");
