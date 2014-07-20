@@ -17,8 +17,8 @@ Bible Gateway. It only allowed for one translation (I think it was NIV).
 
 Goal
 ----
-The goal of the Tadukoo Bible Project is to spread the Gospel through a Minecraft plugin, in the hopes that more people will read God's word through
-a video game. Hopefully in the future, there will be new plugins and/or mods that will help as well, but this is only the beginning.
+The goal of the Tadukoo Bible Project is to spread the Gospel through Minecraft, in the hopes that more people will read God's word and come to Him 
+through a video game. Hopefully in the future, there will be new plugins and/or mods that will help as well, but this is only the beginning.
 
 Command Usage
 -------------
@@ -204,6 +204,8 @@ Add books that contain verses about specific topics (or perhaps commentaries?)
 
 Add random option to various commands, rather than just as its own command.
 
+Put in more details about the translations and books of the Bible.
+
 Known Issues
 ------------
 None at the moment.
@@ -215,13 +217,12 @@ for other translations.
 
 Download
 --------
-This plugin is now in Beta, so it will soon be available on BukkitDev.
+This plugin is now in Beta, so it is [on BukkitDev] (http://dev.bukkit.org/bukkit-plugins/tadukoo-bible/).
 
-Currently to download and install this plugin, you must download the classes and plugin.yml file, then import them into eclipse (or your choice of IDE),
+Alternately, you could download the classes, config.yml, and plugin.yml file, then import them into eclipse (or your choice of IDE),
 along with importing the Bukkit API (Currently this plugin is built off of [1.7.9-R0.2 Beta Build 1938] 
-(http://dl.bukkit.org/downloads/bukkit/view/02630_1.7.9-R0.2/)).
-
-Do not import the Tadukoo_Bible folder into eclipse. Simply place it in your plugins folder.
+(http://dl.bukkit.org/downloads/bukkit/view/02630_1.7.9-R0.2/)). Do not import the Tadukoo_Bible folder into eclipse. Simply place it in your plugins 
+folder.
 
 Progress
 --------
