@@ -22,7 +22,7 @@ public class Announce {
 			tran = args[4];
 		}
 		MainCommandExecutor.checkForYML(plugin, sender, tran, bookName);
-		String ref = Reference.make(book, chp, v);
-		Send.broadcast(plugin, sender, bookName, chp, v, tran, ref);
+		String ref = MainCommandExecutor.makeRef(book, chp, v);
+		MainCommandExecutor.broadcast(plugin, sender, bookName, chp, v, tran, ref);
 	}
 }

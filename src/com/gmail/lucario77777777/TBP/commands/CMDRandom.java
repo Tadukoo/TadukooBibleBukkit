@@ -21,6 +21,7 @@ public class CMDRandom {
 		boolean vSet = false;
 		EnumBooks book = EnumBooks.GENESIS;
 		EnumChps echp = EnumChps.GENESIS;
+		String pName = sender.getName();
 		if(args.length >= 2){
 			bookName = book.fromString(args[1]).getBook();
 			bookSet = true;
@@ -55,17 +56,20 @@ public class CMDRandom {
 			rV = generator.nextInt(lim) + 1;
 			v = Integer.toString(rV);
 		}
-		if(MainCommandExecutor.tranCheck(plugin, sender, tran) == false){
+		if(MainCommandExecutor.tranCheck(plugin, sender, tran) == null){
 			return;
+		}else{
+			tran = MainCommandExecutor.tranCheck(plugin, sender, tran);
 		}
 		if(MainCommandExecutor.checkForYML(plugin, sender, tran, bookName) == false){
 			return;
 		}
-		String ref = Reference.make(book, chp, v);
-		if(Reference.check(plugin, sender, bookName, tran, ref) == false){
+		String ref = MainCommandExecutor.makeRef(book, chp, v);
+		if(MainCommandExecutor.checkRef(plugin, sender, bookName, tran, ref) == false){
 			return;
 		}
 		String verse = plugin.getBook(tran, bookName).getString(ref);
 		sender.sendMessage(ChatColor.GREEN + verse + " (" + bookName + " " + chp + ":" + v + " " + tran + ")");
+		MainCommandExecutor.savepRecs("verse", pName, tran, bookName, chp, v, null);
 	}
 }

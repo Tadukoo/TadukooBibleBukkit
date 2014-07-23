@@ -8,17 +8,17 @@ public enum EnumBooks {
 	DEUTERONOMY("Deuteronomy", "Deu", "Moses", 5, 34, true),
 	JOSHUA("Joshua", "Jos", "Joshua", 6, 24, false),
 	JUDGES("Judges", "Jud", "Samuel", 7, 21, false),
-	RUTH("Ruth", "Ruth", "Samuel", 8, 4, false),
+	RUTH("Ruth", "Samuel", 8, 4, false),
 	SAMUEL1("1Samuel", "1Sam", "Unknown", 9, 31, false),
 	SAMUEL2("2Samuel", "2Sam", "Unknown", 10, 24, false),
-	KINGS1("1Kings", "1Kings", "Unknown", 11, 22, false),
-	KINGS2("2Kings", "2Kings", "Unknown", 12, 25, false),
+	KINGS1("1Kings", "Unknown", 11, 22, false),
+	KINGS2("2Kings", "Unknown", 12, 25, false),
 	CHRONICLES1("1Chronicles", "1Chron", "Ezra", 13, 29, false),
 	CHRONICLES2("2Chronicles", "2Chron", "Ezra", 14, 36, false),
-	EZRA("Ezra", "Ezra","Ezra", 15, 10, false),
+	EZRA("Ezra", "Ezra", 15, 10, false),
 	NEHEMIAH("Nehemiah", "Neh", "Ezra", 16, 13, false),
 	ESTHER("Esther", "Est", "Unknown", 17, 10, false),
-	JOB("Job", "Job", "Unknown", 18, 42, false),
+	JOB("Job", "Unknown", 18, 42, false),
 	PSALMS("Psalms", "Psalm", "Many people", 19, 150, false),
 	PROVERBS("Proverbs", "Pro", "Solomon", 20, 31, false),
 	ECCLESIASTES("Ecclesiastes", "Ecc", "Solomon", 21, 12, false),
@@ -28,9 +28,9 @@ public enum EnumBooks {
 	LAMENTATIONS("Lamentations", "Lam", "Jeremiah", 25, 5, false),
 	EZEKIEL("Ezekiel", "Eze", "Ezekiel", 26, 48, false),
 	DANIEL("Daniel", "Dan", "Daniel", 27, 12, false),
-	HOSEA("Hosea", "Hosea", "Hosea", 28, 14, false),
-	JOEL("Joel", "Joel", "Joel", 29, 3, false),
-	AMOS("Amos", "Amos", "Amos", 30, 9, false),
+	HOSEA("Hosea", "Hos", "Hosea", 28, 14, false),
+	JOEL("Joel", "Joel", 29, 3, false),
+	AMOS("Amos", "Amos", 30, 9, false),
 	OBADIAH("Obadiah", "Oba", "Obadiah", 31, 1, false),
 	JONAH("Jonah", "Jonah", "Jonah", 32, 4, false),
 	MICAH("Micah", "Micah", "Micah", 33, 7, false),
@@ -41,10 +41,10 @@ public enum EnumBooks {
 	ZECHARIAH("Zechariah", "Zec", "Zechariah", 38, 14, false),
 	MALACHI("Malachi", "Mal", "Malachi", 39, 4, false),
 	MATTHEW("Matthew", "Mat", "Matthew", 40, 28, true),
-	MARK("Mark", "Mark", "John Mark", 41, 16, true),
-	LUKE("Luke", "Luke", "Luke", 42, 24, true),
-	JOHN("John", "John", "John", 43, 21, true),
-	ACTS("Acts", "Acts", "Luke", 44, 28, false),
+	MARK("Mark", "John Mark", 41, 16, true),
+	LUKE("Luke", "Luke", 42, 24, true),
+	JOHN("John", "John", 43, 21, true),
+	ACTS("Acts", "Luke", 44, 28, false),
 	ROMANS("Romans", "Rom", "Paul", 45, 16, false),
 	CORINTHIANS1("1Corinthians", "1Cor", "Paul", 46, 16, false),
 	CORINTHIANS2("2Corinthians", "2Cor", "Paul", 47, 13, false),
@@ -59,13 +59,13 @@ public enum EnumBooks {
 	TITUS("Titus", "Tit", "Paul", 56, 3, false),
 	PHILEMON("Philemon", "Phile", "Paul", 57, 1, false),
 	HEBREWS("Hebrews", "Heb", "Unknown", 58, 13, false),
-	JAMES("James", "James", "James", 59, 5, false),
-	PETER1("1Peter", "1Peter", "Peter", 60, 5, false),
-	PETER2("2Peter", "2Peter", "Peter", 61, 3, false),
-	JOHN1("1John", "1John", "John", 62, 5, true),
-	JOHN2("2John", "2John", "John", 63, 1, true),
-	JOHN3("3John", "3John", "John", 64, 1, true),
-	JUDE("Jude", "Jude", "Jude", 65, 1, false),
+	JAMES("James", "James", 59, 5, false),
+	PETER1("1Peter", "Peter", 60, 5, false),
+	PETER2("2Peter", "Peter", 61, 3, false),
+	JOHN1("1John", "John", 62, 5, true),
+	JOHN2("2John", "John", 63, 1, true),
+	JOHN3("3John", "John", 64, 1, true),
+	JUDE("Jude", "Jude", 65, 1, false),
 	REVELATION("Revelation", "Rev", "John", 66, 22, false);
 	
 	private String book;
@@ -78,6 +78,14 @@ public enum EnumBooks {
 	private EnumBooks(String book, String alias, String author, int num, int chp, boolean KJV){
 		this.book = book;
 		this.alias = alias;
+		this.author = author;
+		this.num = num;
+		this.chp = chp;
+		this.KJV = KJV;
+	}
+	
+	private EnumBooks(String book, String author, int num, int chp, boolean KJV){
+		this.book = book;
 		this.author = author;
 		this.num = num;
 		this.chp = chp;

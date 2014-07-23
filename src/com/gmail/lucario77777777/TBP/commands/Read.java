@@ -8,8 +8,9 @@ import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumChps;
 
 public class Read {
-	public static void read(TB plugin, CommandSender sender,  String[] args, EnumBooks book, 
-			EnumChps echp, String bookName, String chp, String v, String tran){
+	public static void read(TB plugin, CommandSender sender,  String[] args, EnumBooks book, EnumChps echp,
+			String bookName, String chp, String v, String tran){
+		String pName = sender.getName();
 		if(book.isAvailable(tran) == false){
 			sender.sendMessage(ChatColor.RED + "Sorry, " + book.getBook() + 
 					" is not available yet in the " + tran.toUpperCase() + " translation.");
@@ -51,16 +52,19 @@ public class Read {
 			}
 		}
 		bookName = book.getBook();
-		if(MainCommandExecutor.tranCheck(plugin, sender, tran) == false){
+		if(MainCommandExecutor.tranCheck(plugin, sender, tran) == null){
 			return;
+		}else{
+			tran = MainCommandExecutor.tranCheck(plugin, sender, tran);
 		}
 		if(MainCommandExecutor.checkForYML(plugin, sender, tran, bookName) == false){
 			return;
 		}
-		String ref = Reference.make(book, chp, v);
-		if(Reference.check(plugin, sender, bookName, tran, ref) == false){
+		String ref = MainCommandExecutor.makeRef(book, chp, v);
+		if(MainCommandExecutor.checkRef(plugin, sender, bookName, tran, ref) == false){
 			return;
 		}
-		Send.player(plugin, sender, bookName, tran, ref);
+		MainCommandExecutor.sendToPlayer(plugin, sender, bookName, tran, ref);
+		MainCommandExecutor.savepRecs("verse", pName, tran, bookName, chp, v, null);
 	}
 }

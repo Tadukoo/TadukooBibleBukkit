@@ -16,64 +16,58 @@ public class Book extends MainCommandExecutor {
 	}
 	
 	@SuppressWarnings("deprecation")
-	public static boolean Run(TB plugin, CommandSender sender, String playerType, String tran, 
-			String bookName, String part, String type, String p)
+	public static boolean Run(TB plugin, CommandSender sender, String tran, String bookName, String part,
+			String type, String p)
 	{
-		if(playerType != "player" && type == "get"){
-			sender.sendMessage(ChatColor.RED + "You must be a player!");
+		Player player = null;
+		if(type == "get"){
+			player = (Player) sender;
+		}else if(type == "give"){
+			player = sender.getServer().getPlayer(p);
+		}
+		if(plugin.getigBook(tran).getString(bookName + "Book" + part + "." + 1) == null){
+			sender.sendMessage(ChatColor.RED + "That book does not exist.");
 			return true;
+		}
+		EnumBooks book = EnumBooks.GENESIS;
+		book = book.fromString(bookName.toUpperCase());
+		String author = book.getAuthor();
+		String igbookName = book.getBook();
+		igbookName.replace("1", "1 ");
+		igbookName.replace("2", "2 ");
+		igbookName.replace("3", "3 ");
+		igbookName.replace("SongofSongs", "Song of Songs");
+		book = null;
+		ItemStack igbook = new ItemStack(Material.WRITTEN_BOOK, 1);
+		
+		BookMeta meta = (BookMeta) igbook.getItemMeta();
+		
+		meta.setTitle(igbookName + " Part " + part);
+		meta.setAuthor(author);
+		Boolean cont = true;
+		int i = 1;
+		while(cont == true){
+			if(plugin.getigBook(tran).getString(bookName + "Book" + part + "." + i) == null){
+				cont = false;
+				break;
+			}
+			meta.addPage(plugin.getigBook(tran).getString(bookName + "Book" + part + "." + i));
+			i++;
+			if(i == 51){
+				cont = false;
+				break;
+			}
+		}
+		igbook.setItemMeta(meta);
+		if(player != null){
+			player.getInventory().addItem(igbook);
 		}else{
-			Player player = null;
-			if(type == "get"){
-				player = (Player) sender;
-			}else if(type == "give"){
-				player = sender.getServer().getPlayer(p);
-			}
-			if(plugin.getigBook(tran).getString(bookName + "Book" + part + "." + 1) == null){
-				sender.sendMessage(ChatColor.RED + "That book does not exist.");
-				return true;
-			}
-			EnumBooks book = EnumBooks.GENESIS;
-			book = book.fromString(bookName.toUpperCase());
-			String author = book.getAuthor();
-			String igbookName = book.getBook();
-			igbookName.replace("1", "1 ");
-			igbookName.replace("2", "2 ");
-			igbookName.replace("3", "3 ");
-			igbookName.replace("SongofSongs", "Song of Songs");
-			book = null;
-			ItemStack igbook = new ItemStack(Material.WRITTEN_BOOK, 1);
-
-			BookMeta meta = (BookMeta) igbook.getItemMeta();
-			
-			meta.setTitle(igbookName + " Part " + part);
-			meta.setAuthor(author);
-			Boolean cont = true;
-			int i = 1;
-			while(cont == true){
-				if(plugin.getigBook(tran).getString(bookName + "Book" + part + "." + i) == null){
-					cont = false;
-					break;
-				}
-				meta.addPage(plugin.getigBook(tran).getString(bookName + "Book" + part + "." + i));
-				i++;
-				if(i == 51){
-					cont = false;
-					break;
-				}
-			}
-			igbook.setItemMeta(meta);
-			if(player != null){
-				player.getInventory().addItem(igbook);
-			}else{
-				sender.sendMessage(ChatColor.RED + p + " is not online!");
-			}
-			return true;
-	}
+			sender.sendMessage(ChatColor.RED + p + " is not online!");
+		}
+		return true;
 }
 
-	public static void contains(TB plugin, CommandSender sender, String tran,
-			String bookName, String part) {
+	public static void contains(TB plugin, CommandSender sender, String tran, String bookName, String part){
 		String start = plugin.getigBook(tran).getString(bookName + part + "Start");
 		String end = plugin.getigBook(tran).getString(bookName + part + "End");
 		if(start == null || end == null){
@@ -84,8 +78,8 @@ public class Book extends MainCommandExecutor {
 				"-" + end + ".");
 	}
 
-	public static void next(TB plugin, CommandSender sender, String playerType, String tran,
-			String bookName, String part, String type, String p) {
+	public static void next(TB plugin, CommandSender sender, String tran, String bookName, String part,
+			String type, String p) {
 		int bN = Integer.parseInt(part) + 1;
 		String pNum = "";
 		EnumBooks ebook = EnumBooks.GENESIS;
@@ -96,11 +90,10 @@ public class Book extends MainCommandExecutor {
 			newBook = ebook.numtoBook(0, "string", "raise", bookName);
 			pNum = "1";
 		}
-		Run(plugin, sender, playerType, tran, newBook, pNum, type, p);
+		Run(plugin, sender, tran, newBook, pNum, type, p);
 	}
 
-	public static void previous(TB plugin, CommandSender sender,
-			String playerType, String tran, String bookName, String part,
+	public static void previous(TB plugin, CommandSender sender, String tran, String bookName, String part,
 			String type, String p) {
 		int bN = Integer.parseInt(part) - 1;
 		String pNum = "";
@@ -112,6 +105,6 @@ public class Book extends MainCommandExecutor {
 			newBook = ebook.numtoBook(0, "string", "lower", bookName);
 			pNum = "1";
 		}
-		Run(plugin, sender, playerType, tran, newBook, pNum, type, p);
+		Run(plugin, sender, tran, newBook, pNum, type, p);
 	}
 }

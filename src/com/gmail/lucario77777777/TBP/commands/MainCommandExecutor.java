@@ -1,5 +1,6 @@
 package com.gmail.lucario77777777.TBP.commands;
 
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.*;
 import org.bukkit.entity.Player;
@@ -8,6 +9,7 @@ import org.bukkit.command.CommandExecutor;
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumChps;
 import com.gmail.lucario77777777.TBP.Enums.EnumCmds;
+import com.gmail.lucario77777777.TBP.Enums.EnumTrans;
 import com.gmail.lucario77777777.TBP.Lists.BooksList;
 import com.gmail.lucario77777777.TBP.Lists.Help;
 import com.gmail.lucario77777777.TBP.Lists.TranslationsList;
@@ -28,7 +30,6 @@ public class MainCommandExecutor implements CommandExecutor {
 		String tran = plugin.getConfig().getString("DefaultTranslation").toUpperCase();
 		String ref = null;
 		Boolean permsOn = plugin.perms;
-		Boolean pR = plugin.getConfig().getBoolean("PlayerRecords");
 		
 		final String playerType;
 		if (sender instanceof Player){
@@ -72,7 +73,7 @@ public class MainCommandExecutor implements CommandExecutor {
 					tran = "all";
 					bookName = "BibleConfig";
 					ref = cmdType.toLowerCase();
-					Send.player(plugin, sender, tran, bookName, ref);
+					sendToPlayer(plugin, sender, tran, bookName, ref);
 					return true;
 				}else if(cmdType.equalsIgnoreCase("help") &&
 						permCheck(permsOn, playerType, sender, "help")){
@@ -96,11 +97,11 @@ public class MainCommandExecutor implements CommandExecutor {
 					return true;
 				}else if(cmdType.equalsIgnoreCase("getbook") && consoleCheck(sender, playerType) 
 						&& permCheck(permsOn, playerType, sender, "getbook")){
-					GetBook.getbook(plugin, sender, args, playerType, bookName, chp, v, tran, pR);
+					GetBook.getbook(plugin, sender, args, bookName, chp, tran);
 					return true;
 				}else if(cmdType.equalsIgnoreCase("givebook") && 
 						permCheck(permsOn, playerType, sender, "givebook")){
-					GiveBook.givebook(plugin, sender, args, playerType, bookName, tran);
+					GiveBook.givebook(plugin, sender, args, bookName, tran);
 					return true;
 				}else if(cmdType.equalsIgnoreCase("random") && 
 						permCheck(permsOn, playerType, sender, "random")){
@@ -116,6 +117,10 @@ public class MainCommandExecutor implements CommandExecutor {
 		}
 		return false;
 	}
+	
+	/*
+	 * Checks
+	 */
 	
 	private boolean consoleCheck(CommandSender sender, String playerType) {
 		if(playerType == "console"){
@@ -136,24 +141,96 @@ public class MainCommandExecutor implements CommandExecutor {
 		}
 	}
 
-	public static boolean tranCheck(TB plugin, CommandSender sender, String tran) {
-		if(plugin.getConfig().getString(tran) == null || plugin.getConfig().getBoolean(tran) == false){
-			sender.sendMessage(ChatColor.RED + "Sorry, the " + tran + " translation is not available.");
+	public static String tranCheck(TB plugin, CommandSender sender, String tran) {
+		EnumTrans etran = EnumTrans.KJV;
+		if(etran.fromString(tran) != null){
+			etran = etran.fromString(tran);
+			if(etran.isAvailable()){
+				return etran.getTran();
+			}
+		}
+		sender.sendMessage(ChatColor.RED + "Sorry, the " + tran + " translation is not available.");
+		return null;
+	}
+	
+	private static boolean permCheck(boolean permsOn, String playerType, CommandSender sender, String perm){
+		if(permsOn == true && playerType == "player"){
+			Player player = (Player) sender;
+			if(player.hasPermission("TadukooBible." + perm)){
+				return true;
+			}else{
+				sender.sendMessage(ChatColor.RED + "You don't have permission.");
+				sender.sendMessage(ChatColor.RED + "You need TadukooBible." + perm);
+				return false;
+			}
+		}else{
+			return true;
+		}
+	}
+	
+	/*
+	 * Sending
+	 */
+	
+	public static void sendToPlayer(TB plugin, CommandSender sender, String bookName, String tran, String ref){
+		String verse = plugin.getBook(tran, bookName).getString(ref);
+		sender.sendMessage(ChatColor.GREEN + verse);
+	}
+	
+	public static void broadcast(TB plugin, CommandSender sender, String bookName, String chp, String v,
+			String tran, String ref){
+		String verse = plugin.getBook(tran, bookName).getString(ref);
+		Bukkit.broadcast(ChatColor.GREEN + verse, "TadukooBible.announceget");
+		plugin.getLogger().info(sender.getName() + " broadcasted " + bookName + " " + chp + ":" 
+				+ v + " from the " + tran + " translation.");
+	}
+	
+	/*
+	 * References
+	 */
+	
+	public static String makeRef(EnumBooks book, String chp, String v){
+		String ref = null;
+		if(chp.equalsIgnoreCase("info") || chp.equalsIgnoreCase("?")){
+			ref = book.getAlias() + "Info";
+		}else if(chp.equalsIgnoreCase("#")){
+			ref = book.getAlias() + "#";
+		}else if(v.equalsIgnoreCase("#") || v.equalsIgnoreCase("?") || v.equalsIgnoreCase("info")){
+			v = "info";
+		}
+		if(ref == null){
+			ref = "ch" + chp + "v" + v;
+		}
+		return ref;
+	}
+	
+	public static boolean checkRef(TB plugin, CommandSender sender, String bookName, String tran, String ref){
+		if(plugin.getBook(tran, bookName).getString(ref) == null){
+			sender.sendMessage(ChatColor.RED + "An error occurred. Please make sure you typed in a " +
+					"chapter/verse that exists.");
 			return false;
 		}else{
 			return true;
 		}
 	}
 	
-	private static boolean permCheck(boolean permsOn, String playerType, CommandSender sender, String perm){
-		if(permsOn == true && playerType == "player"){
-			if(PermissionsChecker.permCheck(sender, perm) == true){
-				return true;
-			}else{
-				return false;
+	/*
+	 * Player records
+	 */
+	public static void savepRecs(String type, String pName, String tran, String bookName, String chp,
+			String v, String part){
+		if(TB.pR){
+			if(type == "verse"){
+				TB.getpRec().set(pName + ".lastRead.tran", tran);
+				TB.getpRec().set(pName + ".lastRead.bookName", bookName);
+				TB.getpRec().set(pName + ".lastRead.chp", chp);
+				TB.getpRec().set(pName + ".lastRead.v", v);
+			}else if(type == "book"){
+				TB.getpRec().set(pName + ".lastbook.book", bookName);
+				TB.getpRec().set(pName + ".lastbook.part", part);
+				TB.getpRec().set(pName + ".lastbook.tran", tran);
 			}
-		}else{
-			return true;
+			TB.savepRec();
 		}
 	}
 }

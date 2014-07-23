@@ -96,10 +96,6 @@ public enum EnumCmds {
 		return alias6;
 	}
 	
-	/*
-	 * Checks a string against all the aliases of a command and returns the command that contains that
-	 * alias, or null if no command contains that alias.
-	 */
 	public EnumCmds fromString(String command) {
 	    if (command != null) {
 	      for (EnumCmds c : EnumCmds.values()) {

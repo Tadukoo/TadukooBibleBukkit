@@ -22,6 +22,7 @@ Books: true
 #                                        #
 #              Translations              #
 ##########################################
-# Enable or disable translations here.
+# Enable or disable translations here and set the default translation.
 #(Note: You must still have the files for that translation or it won't work.)
+defaultTranslation: KJV
 KJV: true

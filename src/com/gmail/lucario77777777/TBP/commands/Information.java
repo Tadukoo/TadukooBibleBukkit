@@ -16,9 +16,11 @@ public class Information {
 		String tran = args[1].toUpperCase();
 		String bookName = tran;
 		String ref = "info";
-		if(MainCommandExecutor.tranCheck(plugin, sender, tran) == false){
+		if(MainCommandExecutor.tranCheck(plugin, sender, tran) == null){
 			return;
+		}else{
+			tran = MainCommandExecutor.tranCheck(plugin, sender, tran);
 		}
-		Send.player(plugin, sender, bookName, tran, ref);
+		MainCommandExecutor.sendToPlayer(plugin, sender, bookName, tran, ref);
 	}
 }

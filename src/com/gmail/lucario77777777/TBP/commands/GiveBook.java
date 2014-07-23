@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 import com.gmail.lucario77777777.TBP.TB;
 
 public class GiveBook {
-	public static void givebook(TB plugin, CommandSender sender, String[] args, String playerType,
+	public static void givebook(TB plugin, CommandSender sender, String[] args,
 			String bookName, String tran){
 		String bookType = "give";
 		String p = null;
@@ -24,12 +24,14 @@ public class GiveBook {
 				part = args[3];
 				if(args.length >= 5){
 					tran = args[4].toUpperCase();
-					if(MainCommandExecutor.tranCheck(plugin, sender, tran) == false){
+					if(MainCommandExecutor.tranCheck(plugin, sender, tran) == null){
 						return;
+					}else{
+						tran = MainCommandExecutor.tranCheck(plugin, sender, tran);
 					}
 				}
 			}
 		}
-		Book.Run(plugin, sender, playerType, tran, bookName, part, bookType, p);
+		Book.Run(plugin, sender, tran, bookName, part, bookType, p);
 	}
 }
