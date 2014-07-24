@@ -47,6 +47,8 @@ public class GetBook {
 				}
 			}else{
 				sender.sendMessage(ChatColor.RED + "Sorry, that book does not exist.");
+				sender.sendMessage(ChatColor.RED + "You must type either previous, next, last, or " +
+						"a book of the Bible.");
 				return;
 			}
 			if(args.length >= 3){

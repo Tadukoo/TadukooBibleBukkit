@@ -103,8 +103,72 @@ public enum EnumChps {
 	private int chp9;
 	private int chp10;
 	
+	private EnumChps(String book, int part, int chp1){
+		this.book = book;
+		this.part = part;
+		this.chp1 = chp1;
+	}
+	
+	private EnumChps(String book, int part, int chp1, int chp2){
+		this.book = book;
+		this.part = part;
+		this.chp1 = chp1;
+		this.chp2 = chp2;
+	}
+	
+	private EnumChps(String book, int part, int chp1, int chp2, int chp3){
+		this.book = book;
+		this.part = part;
+		this.chp1 = chp1;
+		this.chp2 = chp2;
+		this.chp3 = chp3;
+	}
+	
+	private EnumChps(String book, int part, int chp1, int chp2, int chp3, int chp4){
+		this.book = book;
+		this.part = part;
+		this.chp1 = chp1;
+		this.chp2 = chp2;
+		this.chp3 = chp3;
+		this.chp4 = chp4;
+	}
+	
+	private EnumChps(String book, int part, int chp1, int chp2, int chp3, int chp4, int chp5){
+		this.book = book;
+		this.part = part;
+		this.chp1 = chp1;
+		this.chp2 = chp2;
+		this.chp3 = chp3;
+		this.chp4 = chp4;
+		this.chp5 = chp5;
+	}
+	
+	private EnumChps(String book, int part, int chp1, int chp2, int chp3, int chp4, int chp5, int chp6){
+		this.book = book;
+		this.part = part;
+		this.chp1 = chp1;
+		this.chp2 = chp2;
+		this.chp3 = chp3;
+		this.chp4 = chp4;
+		this.chp5 = chp5;
+		this.chp6 = chp6;
+	}
+	
 	private EnumChps(String book, int part, int chp1, int chp2, int chp3, int chp4, int chp5, int chp6, 
-			int chp7, int chp8, int chp9, int chp10){
+			int chp7){
+		this.book = book;
+		this.part = part;
+		this.chp1 = chp1;
+		this.chp2 = chp2;
+		this.chp3 = chp3;
+		this.chp4 = chp4;
+		this.chp5 = chp5;
+		this.chp6 = chp6;
+		this.chp7 = chp7;
+	}
+	
+	private EnumChps(String book, int part, int chp1, int chp2, int chp3, int chp4, int chp5, int chp6, 
+			int chp7, int chp8){
 		this.book = book;
 		this.part = part;
 		this.chp1 = chp1;
@@ -115,8 +179,6 @@ public enum EnumChps {
 		this.chp6 = chp6;
 		this.chp7 = chp7;
 		this.chp8 = chp8;
-		this.chp9 = chp9;
-		this.chp10 = chp10;
 	}
 	
 	private EnumChps(String book, int part, int chp1, int chp2, int chp3, int chp4, int chp5, int chp6, 
@@ -135,7 +197,7 @@ public enum EnumChps {
 	}
 	
 	private EnumChps(String book, int part, int chp1, int chp2, int chp3, int chp4, int chp5, int chp6, 
-			int chp7, int chp8){
+			int chp7, int chp8, int chp9, int chp10){
 		this.book = book;
 		this.part = part;
 		this.chp1 = chp1;
@@ -146,70 +208,8 @@ public enum EnumChps {
 		this.chp6 = chp6;
 		this.chp7 = chp7;
 		this.chp8 = chp8;
-	}
-	
-	private EnumChps(String book, int part, int chp1, int chp2, int chp3, int chp4, int chp5, int chp6, 
-			int chp7){
-		this.book = book;
-		this.part = part;
-		this.chp1 = chp1;
-		this.chp2 = chp2;
-		this.chp3 = chp3;
-		this.chp4 = chp4;
-		this.chp5 = chp5;
-		this.chp6 = chp6;
-		this.chp7 = chp7;
-	}
-	
-	private EnumChps(String book, int part, int chp1, int chp2, int chp3, int chp4, int chp5, int chp6){
-		this.book = book;
-		this.part = part;
-		this.chp1 = chp1;
-		this.chp2 = chp2;
-		this.chp3 = chp3;
-		this.chp4 = chp4;
-		this.chp5 = chp5;
-		this.chp6 = chp6;
-	}
-	
-	private EnumChps(String book, int part, int chp1, int chp2, int chp3, int chp4, int chp5){
-		this.book = book;
-		this.part = part;
-		this.chp1 = chp1;
-		this.chp2 = chp2;
-		this.chp3 = chp3;
-		this.chp4 = chp4;
-		this.chp5 = chp5;
-	}
-	
-	private EnumChps(String book, int part, int chp1, int chp2, int chp3, int chp4){
-		this.book = book;
-		this.part = part;
-		this.chp1 = chp1;
-		this.chp2 = chp2;
-		this.chp3 = chp3;
-		this.chp4 = chp4;
-	}
-	
-	private EnumChps(String book, int part, int chp1, int chp2, int chp3){
-		this.book = book;
-		this.part = part;
-		this.chp1 = chp1;
-		this.chp2 = chp2;
-		this.chp3 = chp3;
-	}
-	
-	private EnumChps(String book, int part, int chp1, int chp2){
-		this.book = book;
-		this.part = part;
-		this.chp1 = chp1;
-		this.chp2 = chp2;
-	}
-	
-	private EnumChps(String book, int part, int chp1){
-		this.book = book;
-		this.part = part;
-		this.chp1 = chp1;
+		this.chp9 = chp9;
+		this.chp10 = chp10;
 	}
 	
 	public String getBook(){

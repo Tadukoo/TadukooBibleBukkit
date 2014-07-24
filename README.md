@@ -78,10 +78,10 @@ Command Usage
    * [ book ] can be changed to last, saved, save, or load to get the book you got last time you typed the command.
    * ? will tell you what is in that book.
 
-/bible givebook < player > [ book ] [ part # ] [ translation ]
-   * Aliases: bookgive, biblegive, and givebible.
+/bible sendbook < player > [ book ] [ part # ] [ translation ]
+   * Aliases: booksend, sendbible, biblesend, givebook, bookgive, biblegive, and givebible.
    * Gives a book to a player instead of yourself.
-   * Requires permission: TadukooBible.givebook
+   * Requires permission: TadukooBible.book.send
    * Defaults:
       * [ book ] defaults to Genesis.
 	  * [ part # ] defaults to 1.
@@ -98,8 +98,29 @@ Command Usage
    * Requires the permission: TadukooBible.announce
    * Requires TadukooBible.announceget to see announcements.
 
+/bible previous [ translation ]
+   * Aliases: pre, prev, back, before, and b4.
+   * Shows you the Bible verse before the one you last read.
+   * Gives a message if trying to go before Genesis 1:1.
+   * Requires permission: TadukooBible.verse.previous
+
+/bible next [ translation ]
+   * Aliases: forward, for, after, aft, nextverse, versenext, nextv, and vnext.
+   * Shows you the Bible verse after the one you last read.
+   * Gives a message if trying to go after 3 John 1:14.
+   * Requires permission: TadukooBible.verse.next
+
+/bible last [ translation ]
+   * Aliases: saved, save, load, lastverse, verselast, lastv, vlast, savedverse, savedverse, vsaved, savedv, vsave, versesave, loadverse, verseload, vload, 
+   and loadv.
+   * Shows you the Bible verse you last read.
+   * Requires permission: TadukooBible.verse.last
+
 Permissions
 -----------
+TadukooBible.*
+   * Gives all permissions.
+
 TadukooBible.use
    * Required for use of plugin.
    * Default: true
@@ -128,8 +149,8 @@ TadukooBible.getbook
    * Allows use of /bible getbook.
    * Default: true
 
-TadukooBible.givebook
-   * Allows use of /bible givebook.
+TadukooBible.book.send
+   * Allows use of /bible sendbook.
    * Default: op
 
 TadukooBible.random
@@ -142,6 +163,18 @@ TadukooBible.announce
 
 TadukooBible.announceget
    * Allows seeing announcements.
+   * Default: true
+
+TadukooBible.verse.previous
+   * Allows use of /bible previous.
+   * Default: true
+
+TadukooBible.verse.next
+   * Allows use of /bible next.
+   * Default: true
+
+TadukooBible.verse.last
+   * Allows use of /bible last.
    * Default: true
 
 Config.yml
@@ -165,47 +198,8 @@ Translations
 
 Upcoming Commands/Features
 --------------------------
-Beta 0.3
-   * Add Psalms
-   * Save what Bible verse was last read by each player.
-   * Add /bible previous [ translation ]
-   * Add /bible next [ translation ]
-   * Add /bible last [ translation ]
-   * Put in more details about the translations and books of the Bible.
-
-Finish the books of the Bible
-
-/bible config < setting > [ value ] [ config file ]
-   * Allows editing the config of another file.
-
-/bible getbook list
-   * Gives you a book that lists all the available books and what's in them.
-
-/bible previous [ translation ]
-   * Aliases: pre, prev, back, before, and b4.
-   * Shows you the Bible verse before the one you last read.
-   * Requires permission: TadukooBible.previous
-
-/bible next [ translation ]
-   * Aliases: forward, for, after, aft, nextverse, versenext, nextv, and vnext.
-   * Shows you the Bible verse after the one you last read.
-   * Requires permission: TadukooBible.next
-
-/bible last [ translation ]
-   * Aliases: saved, save, load, lastverse, verselast, lastv, vlast, savedverse, savedverse, vsaved, savedv, vsave, versesave, loadverse, verseload, vload, 
-   and loadv.
-   * Shows you the Bible verse you last read.
-   * Requires permission: TadukooBible.last
-
-Move < book >Info, < book >Lime, < book >#, and < chapter >info to code instead of config files.
-
-More translations.
-
-Add a command to send verses to other players.
-
-Add books that contain verses about specific topics (or perhaps commentaries?)
-
-Add random option to various commands, rather than just as its own command.
+Go to the [upcoming features page on BukkitDev] (http://dev.bukkit.org/bukkit-plugins/tadukoo-bible/pages/upcoming-features/) to see the upcoming 
+commands and features.
 
 Known Issues
 ------------

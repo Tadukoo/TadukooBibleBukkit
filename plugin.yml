@@ -11,6 +11,23 @@ commands:
       permission: TadukooBible.use
       permission-message: You don't have <permission>.
 permissions:
+   TadukooBible.*:
+      description: Gives all permissions.
+      children:
+         TadukooBible.use: true
+         TadukooBible.help: true
+         TadukooBible.config: true
+         TadukooBible.info: true
+         TadukooBible.books: true
+         TadukooBible.translations: true
+         TadukooBible.getbook: true
+         TadukooBible.book.send: true
+         TadukooBible.random: true
+         TadukooBible.announce: true
+         TadukooBible.announceget: true
+         TadukooBible.verse.previous: true
+         TadukooBible.verse.next: true
+         TadukooBible.verse.last: true
    TadukooBible.use:
       description: Gives access to the plugin.
       default: true
@@ -32,8 +49,8 @@ permissions:
    TadukooBible.getbook:
       description: Allows use of /bible getbook.
       default: true
-   TadukooBible.givebook:
-      description: Allows use of /bible givebook.
+   TadukooBible.book.send:
+      description: Allows use of /bible sendbook.
       default: op
    TadukooBible.random:
       description: Allows use of /bible random.
@@ -43,4 +60,13 @@ permissions:
       default: op
    TadukooBible.announceget:
       description: Allows getting announced verses.
+      default: true
+   TadukooBible.verse.previous:
+      description: Allows use of /bible previous.
+      default: true
+   TadukooBible.verse.next:
+      description: Allows use of /bible next.
+      default: true
+   TadukooBible.verse.last:
+      description: Allows use of /bible last.
       default: true

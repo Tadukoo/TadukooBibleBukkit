@@ -10,10 +10,7 @@ import org.bukkit.inventory.meta.BookMeta;
 import com.gmail.lucario77777777.TBP.TB;
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 
-public class Book extends MainCommandExecutor {
-	public Book(TB plugin) {
-		super(plugin);
-	}
+public class Book{
 	
 	@SuppressWarnings("deprecation")
 	public static boolean Run(TB plugin, CommandSender sender, String tran, String bookName, String part,
@@ -22,7 +19,7 @@ public class Book extends MainCommandExecutor {
 		Player player = null;
 		if(type == "get"){
 			player = (Player) sender;
-		}else if(type == "give"){
+		}else if(type == "send"){
 			player = sender.getServer().getPlayer(p);
 		}
 		if(plugin.getigBook(tran).getString(bookName + "Book" + part + "." + 1) == null){

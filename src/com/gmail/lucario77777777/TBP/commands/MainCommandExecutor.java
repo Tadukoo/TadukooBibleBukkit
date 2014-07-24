@@ -17,8 +17,10 @@ import com.gmail.lucario77777777.TBP.TB;
 
 public class MainCommandExecutor implements CommandExecutor {
 	private TB plugin;
-	public MainCommandExecutor(TB plugin) {
+	private boolean permsOn;
+	public MainCommandExecutor(TB plugin, boolean permsOn) {
 		this.plugin = plugin;
+		this.permsOn = permsOn;
 	}
 	
 	@Override
@@ -29,7 +31,6 @@ public class MainCommandExecutor implements CommandExecutor {
 		String bookName = "Genesis", chp = "1", v = "1";
 		String tran = plugin.getConfig().getString("DefaultTranslation").toUpperCase();
 		String ref = null;
-		Boolean permsOn = plugin.perms;
 		
 		final String playerType;
 		if (sender instanceof Player){
@@ -64,53 +65,64 @@ public class MainCommandExecutor implements CommandExecutor {
 						return true;
 					}
 				}
-				if(cmdType == "read" && permCheck(permsOn, playerType, sender, "use")){
+				if(cmdType.equalsIgnoreCase("read") && permCheck(playerType, sender, "use")){
 					Read.read(plugin, sender, args, book, echp, bookName, chp, v, tran);
 					return true;
 				}else if((cmdType.equalsIgnoreCase("first") || cmdType.equalsIgnoreCase("second") ||
-							cmdType.equalsIgnoreCase("third")) && 
-							permCheck(permsOn, playerType, sender, "use")){
+							cmdType.equalsIgnoreCase("third")) && permCheck(playerType, sender, "use")){
 					tran = "all";
 					bookName = "BibleConfig";
 					ref = cmdType.toLowerCase();
 					sendToPlayer(plugin, sender, tran, bookName, ref);
 					return true;
 				}else if(cmdType.equalsIgnoreCase("help") &&
-						permCheck(permsOn, playerType, sender, "help")){
+						permCheck(playerType, sender, "help")){
 					Help.help(plugin, sender, args);
 					return true;
 				}else if(cmdType.equalsIgnoreCase("config") &&
-						permCheck(permsOn, playerType, sender, "config")){
+						permCheck(playerType, sender, "config")){
 					Config.config(plugin, sender, args);
 					return true;
 				}else if(cmdType.equalsIgnoreCase("info") &&
-						permCheck(permsOn, playerType, sender, "info")){
+						permCheck(playerType, sender, "info")){
 					Information.info(plugin, sender, args);
 					return true;
 				}else if(cmdType.equalsIgnoreCase("books") && 
-						permCheck(permsOn, playerType, sender, "books")){
+						permCheck(playerType, sender, "books")){
 					BooksList.booksList(sender, args);
 					return true;
 				}else if(cmdType.equalsIgnoreCase("translations") && 
-						permCheck(permsOn, playerType, sender, "translations")){
+						permCheck(playerType, sender, "translations")){
 					TranslationsList.tranList(sender, plugin);
 					return true;
 				}else if(cmdType.equalsIgnoreCase("getbook") && consoleCheck(sender, playerType) 
-						&& permCheck(permsOn, playerType, sender, "getbook")){
+						&& permCheck(playerType, sender, "getbook")){
 					GetBook.getbook(plugin, sender, args, bookName, chp, tran);
 					return true;
-				}else if(cmdType.equalsIgnoreCase("givebook") && 
-						permCheck(permsOn, playerType, sender, "givebook")){
-					GiveBook.givebook(plugin, sender, args, bookName, tran);
+				}else if(cmdType.equalsIgnoreCase("sendbook") && 
+						permCheck(playerType, sender, "book.send")){
+					SendBook.sendbook(plugin, sender, args, bookName, tran);
 					return true;
 				}else if(cmdType.equalsIgnoreCase("random") && 
-						permCheck(permsOn, playerType, sender, "random")){
+						permCheck(playerType, sender, "random")){
 					CMDRandom.random(plugin, sender, args, bookName, chp, v, tran);
 					return true;
 				}else if(cmdType.equalsIgnoreCase("announce") &&
-						permCheck(permsOn, playerType, sender, "announce")){
+						permCheck(playerType, sender, "announce")){
 					
 					Announce.announce(plugin, sender, args, tran);
+					return true;
+				}else if(cmdType.equalsIgnoreCase("previous") && TB.pR &&
+						permCheck(playerType, sender, "verse.previous")){
+					Read.previous(plugin, sender, args, book, echp);
+					return true;
+				}else if(cmdType.equalsIgnoreCase("next") && TB.pR &&
+						permCheck(playerType, sender, "verse.next")){
+					Read.next(plugin, sender, args, book, echp);
+					return true;
+				}else if(cmdType.equalsIgnoreCase("last") && TB.pR &&
+						permCheck(playerType, sender, "verse.last")){
+					Read.last(plugin, sender, args, book);
 					return true;
 				}
 			}
@@ -153,7 +165,7 @@ public class MainCommandExecutor implements CommandExecutor {
 		return null;
 	}
 	
-	private static boolean permCheck(boolean permsOn, String playerType, CommandSender sender, String perm){
+	private boolean permCheck(String playerType, CommandSender sender, String perm){
 		if(permsOn == true && playerType == "player"){
 			Player player = (Player) sender;
 			if(player.hasPermission("TadukooBible." + perm)){
@@ -217,6 +229,21 @@ public class MainCommandExecutor implements CommandExecutor {
 	/*
 	 * Player records
 	 */
+	public static String[] getpRecs(String type, String pName){
+		String[] rec = new String[4];
+		if(type == "verse"){
+			rec[0] = TB.getpRec().getString(pName + ".lastRead.bookName");
+			rec[1] = TB.getpRec().getString(pName + ".lastRead.chp");
+			rec[2] = TB.getpRec().getString(pName + ".lastRead.v");
+			rec[3] = TB.getpRec().getString(pName + ".lastRead.tran");
+		}else if(type == "book"){
+			rec[0] = TB.getpRec().getString(pName + ".lastbook.book");
+			rec[1] = TB.getpRec().getString(pName + ".lastbook.part");
+			rec[2] = TB.getpRec().getString(pName + ".lastbook.tran");
+		}
+		return rec;
+	}
+	
 	public static void savepRecs(String type, String pName, String tran, String bookName, String chp,
 			String v, String part){
 		if(TB.pR){
