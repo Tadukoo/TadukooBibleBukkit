@@ -9,30 +9,28 @@ import org.bukkit.command.CommandExecutor;
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumChps;
 import com.gmail.lucario77777777.TBP.Enums.EnumCmds;
+import com.gmail.lucario77777777.TBP.Enums.EnumTrans;
 import com.gmail.lucario77777777.TBP.Lists.BooksList;
 import com.gmail.lucario77777777.TBP.Lists.Help;
-import com.gmail.lucario77777777.TBP.Lists.SettingsList;
 import com.gmail.lucario77777777.TBP.Lists.TranslationsList;
 import com.gmail.lucario77777777.TBP.TB;
 
 public class MainCommandExecutor implements CommandExecutor {
 	private TB plugin;
-	public MainCommandExecutor(TB plugin) {
+	private boolean permsOn;
+	public MainCommandExecutor(TB plugin, boolean permsOn) {
 		this.plugin = plugin;
+		this.permsOn = permsOn;
 	}
 	
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
-		String eType = "normal";
 		EnumBooks book = EnumBooks.GENESIS;
 		EnumChps echp = EnumChps.GENESIS;
 		EnumCmds cmds = EnumCmds.HELP;
 		String bookName = "Genesis", chp = "1", v = "1";
 		String tran = plugin.getConfig().getString("DefaultTranslation").toUpperCase();
-		String ref = null, verse = null, type = null;
-		String i = "1";
-		Boolean permsOn = plugin.perms;
-		Boolean pR = plugin.getConfig().getBoolean("PlayerRecords");
+		String ref = null;
 		
 		final String playerType;
 		if (sender instanceof Player){
@@ -45,257 +43,97 @@ public class MainCommandExecutor implements CommandExecutor {
 			playerType = "unknown";
 		}
 		
-		if(cmd.getName().equalsIgnoreCase("bible")){
+		if(cmd.getName().equalsIgnoreCase("bible") && permCheck(playerType, sender, "use")){
 			if(playerType == "block" || playerType == "unknown"){
 				sender.sendMessage(ChatColor.RED + "Unknown sender!");
 				return true;
 			}else{
+				String cmdType = "read";
+				String cmdPerm = "verse.read";
 				if(args.length >= 1){
 					if(book.fromString(args[0].toUpperCase()) != null){
 						book = book.fromString(args[0].toUpperCase());
-						type = "book";
 					}else if(cmds.fromString(args[0].toUpperCase()) != null){
 						cmds = cmds.fromString(args[0].toUpperCase());
-						type = "cmd";
+						if(cmds.isAvailable() == false){
+							sender.sendMessage(ChatColor.RED + "Sorry, " + cmds.getCmd() + " is not " +
+									"available yet.");
+							return true;
+						}
+						cmdType = cmds.getCmd();
+						cmdPerm = cmds.getPerm();
 					}else{
 						sender.sendMessage(ChatColor.RED + "Sorry, that book/command does not exist.");
 						return true;
 					}
 				}
-				if(type == "book"){
-					Read.read(plugin, sender, args, book, echp, bookName, chp, v, tran);
-					return true;
-				}else if(type == "cmd"){
-					if(cmds.isAvailable() == false){
-						sender.sendMessage(ChatColor.RED + "Sorry, " + cmds.getCmd() + " is not available" +
-								" yet.");
+				if(permCheck(playerType, sender, cmdPerm)){
+					if(cmdType.equalsIgnoreCase("read")){
+						Read.read(plugin, sender, args, book, echp, bookName, chp, v, tran);
 						return true;
-					}
-					String cmdType = cmds.getCmd();
-					if(cmdType.equalsIgnoreCase("first") || cmdType.equalsIgnoreCase("second") ||
-							cmdType.equalsIgnoreCase("third")){
+					}else if((cmdType.equalsIgnoreCase("first") || cmdType.equalsIgnoreCase("second") ||
+							cmdType.equalsIgnoreCase("third"))){
 						tran = "all";
 						bookName = "BibleConfig";
 						ref = cmdType.toLowerCase();
-					}else if(cmdType.equalsIgnoreCase("help")){
-						if(permCheck(permsOn, playerType, sender, "help") == false){
-							return true;
-						}
-						if(args.length >= 2){
-							i = args[1];
-						}
-						Help.help(i, sender, plugin);
+						sendToPlayer(plugin, sender, tran, bookName, ref);
 						return true;
-					}else if(cmdType.equalsIgnoreCase("config")){
-						if(permCheck(permsOn, playerType, sender, "config") == false){
-							return true;
-						}
-						String setting = null;
-						String value = null;
-						//String fileName = null;
-						if(args.length < 2){
-							sender.sendMessage(ChatColor.RED + "Not enough arguments!");
-							sender.sendMessage(ChatColor.RED + "/bible config <setting> [value]");
-							return true;
-						}
-						setting = args[1];
-						if(args.length >= 3){
-							value = args[2];
-							/*if(args.length >= 4){
-								fileName = args[3];
-							}*/
-						}
-						if(setting.equalsIgnoreCase("list")){
-							SettingsList.settings(sender);
-							return true;
-						}
-						if(value != null){
-							plugin.getConfig().set(setting, value);
-							sender.sendMessage(ChatColor.GREEN + setting + " is now set to " + value + ".");
-							plugin.saveConfig();
-							return true;
-						}else{
-							value = plugin.getConfig().getString(setting);
-							sender.sendMessage(ChatColor.GREEN + setting + " is set to " + value + ".");
-							return true;
-						}
-					}else if(cmdType.equalsIgnoreCase("info")){
-						if(permCheck(permsOn, playerType, sender, "info") == false){
-							return true;
-						}
-						if(args.length < 2){
-							sender.sendMessage(ChatColor.RED + "Not enough arguments!");
-							sender.sendMessage(ChatColor.RED + "/bible about|info|abt|information " +
-									"<translation>");
-							return true;
-						}
-						tran = args[1].toUpperCase();
-						bookName = tran;
-						ref = "info";
-						if(tranCheck(plugin, sender, tran) == false){
-							return true;
-						}
-					}else if(cmdType.equalsIgnoreCase("books")){
-						if(permCheck(permsOn, playerType, sender, "books") == false){
-							return true;
-						}
-						if(args.length >= 2){
-							i = args[1];
-						}
-						BooksList.booksList(i, sender);
+					}else if(cmdType.equalsIgnoreCase("previous") && TB.pR){
+						Read.previous(plugin, sender, args, book, echp);
 						return true;
-					}else if(cmdType.equalsIgnoreCase("translations")){
-						if(permCheck(permsOn, playerType, sender, "translations") == false){
-							return true;
-						}
-						TranslationsList.tranList(sender, plugin);
+					}else if(cmdType.equalsIgnoreCase("next") && TB.pR){
+						Read.next(plugin, sender, args, book, echp);
 						return true;
-					}else if(cmdType.equalsIgnoreCase("getbook")){
-						if(playerType == "console"){
-							sender.sendMessage(ChatColor.RED + "You must be a player!");
-							return true;
-						}
-						if(permCheck(permsOn, playerType, sender, "getbook") == false){
-							return true;
-						}
-						type = "get";
-						String p = null;
-						bookName = chp;
-						String part = v;
-						if(args.length >= 2){
-							bookName = args[1];
-							if(bookName.equalsIgnoreCase("previous") || bookName.equalsIgnoreCase("pre")
-									|| bookName.equalsIgnoreCase("prev") || bookName.equalsIgnoreCase("back")
-									|| bookName.equalsIgnoreCase("before") || bookName.equalsIgnoreCase("b4")){
-								Player player = (Player) sender;
-								String pl = player.toString();
-								bookName = plugin.getpRec().getString(pl + ".lastbook.book");
-								part = plugin.getpRec().getString(pl + "lastbook.part");
-								tran = plugin.getpRec().getString(pl + ".lastbook.tran");
-								Book.previous(plugin, sender, playerType, tran, bookName, part, type, p);
-								return true;
-							}else if(bookName.equalsIgnoreCase("next") || bookName.equalsIgnoreCase("forward")
-									|| bookName.equalsIgnoreCase("for") || bookName.equalsIgnoreCase("after")
-									|| bookName.equalsIgnoreCase("and") || bookName.equalsIgnoreCase("aft")){
-								Player player = (Player) sender;
-								String pl = player.toString();
-								bookName = plugin.getpRec().getString(pl + ".lastbook.book");
-								part = plugin.getpRec().getString(pl + ".lastbook.part");
-								tran = plugin.getpRec().getString(pl + ".lastbook.tran");
-								Book.next(plugin, sender, playerType, tran, bookName, part, type, p);
-								return true;
-							}else if(bookName.equalsIgnoreCase("last") || bookName.equalsIgnoreCase("saved")
-									|| bookName.equalsIgnoreCase("save") || bookName.equalsIgnoreCase("load")){
-								Player player = (Player) sender;
-								String pl = player.toString();
-								bookName = plugin.getpRec().getString(pl + ".lastbook.book");
-								part = plugin.getpRec().getString(pl + ".lastbook.part");
-								tran = plugin.getpRec().getString(pl + ".lastbook.tran");
-							}
-							if(args.length >= 3){
-								part = args[2];
-								if(args.length >= 4){
-									tran = args[3].toUpperCase();
-									if(tranCheck(plugin, sender, tran) == false){
-										return true;
-									}
-									if(args.length >= 5){
-										if(args[4].equalsIgnoreCase("?")){
-											Book.contains(plugin, sender, tran, bookName, part);
-											return true;
-										}
-									}
-								}
-							}
-						}
-						if(pR == true){
-							Player player = (Player) sender;
-							String pl = player.toString();
-							plugin.getpRec().set(pl + ".lastbook.book", bookName);
-							plugin.getpRec().set(pl + ".lastbook.part", part);
-							plugin.getpRec().set(pl + ".lastbook.tran", tran);
-							plugin.savepRec();
-						}
-						Book.Run(plugin, sender, playerType, tran, bookName, part, type, p);
+					}else if(cmdType.equalsIgnoreCase("last") && TB.pR){
+						Read.last(plugin, sender, args, book);
 						return true;
-					}else if(cmdType.equalsIgnoreCase("givebook")){
-						if(permCheck(permsOn, playerType, sender, "givebook") == false){
-							return true;
-						}
-						type = "give";
-						String p = null;
-						String part = "1";
-						if(args.length < 2){
-							sender.sendMessage(ChatColor.RED + "Not enough arguments!");
-							sender.sendMessage(ChatColor.RED + "/bible givebook <player>");
-							return true;
-						}else{
-							p = args[1];
-						}
-						if(args.length >= 3){
-							bookName = args[2];
-							if(args.length >= 4){
-								part = args[3];
-								if(args.length >= 5){
-									tran = args[4].toUpperCase();
-									if(tranCheck(plugin, sender, tran) == false){
-										return true;
-									}
-								}
-							}
-						}
-						Book.Run(plugin, sender, playerType, tran, bookName, part, type, p);
-						return true;
-					}else if(cmdType.equalsIgnoreCase("random") && 
-							permCheck(permsOn, playerType, sender, "random") == true){
+					}else if(cmdType.equalsIgnoreCase("random")){
 						CMDRandom.random(plugin, sender, args, bookName, chp, v, tran);
 						return true;
+					}else if(cmdType.equalsIgnoreCase("getbook") && consoleCheck(sender, playerType)){
+						GetBook.getbook(plugin, sender, args, bookName, chp, tran);
+						return true;
+					}else if(cmdType.equalsIgnoreCase("sendbook")){
+						SendBook.sendbook(plugin, sender, args, bookName, tran);
+						return true;
+					}else if(cmdType.equalsIgnoreCase("info")){
+						Information.info(plugin, sender, args);
+						return true;
+					}else if(cmdType.equalsIgnoreCase("help")){
+						Help.help(plugin, sender, args);
+						return true;
+					}else if(cmdType.equalsIgnoreCase("books")){
+						BooksList.booksList(sender, args);
+						return true;
+					}else if(cmdType.equalsIgnoreCase("translations")){
+						TranslationsList.tranList(sender, plugin);
+						return true;
+					}else if(cmdType.equalsIgnoreCase("config")){
+						Config.config(plugin, sender, args);
+						return true;
 					}else if(cmdType.equalsIgnoreCase("announce")){
-						if(permCheck(permsOn, playerType, sender, "announce") == false){
-							return true;
-						}
-						if(args.length < 4){
-							sender.sendMessage(ChatColor.RED + "Not enough arguments!");
-							sender.sendMessage(ChatColor.RED + "/bible announce <book> <chapter> <verse> " +
-									"[translation]");
-							return true;
-						}
-						EnumBooks ebook = EnumBooks.GENESIS;
-						bookName = ebook.fromString(args[1]).name();
-						chp = args[2];
-						v = args[3];
-						if(args.length >= 5){
-							tran = args[4];
-						}
-						eType = "broad";
+						Announce.announce(plugin, sender, args, tran);
+						return true;
 					}
-				}
-				if(checkForYML(plugin, sender, tran, bookName) == false){
-					return true;
-				}
-				if(ref == null){
-					ref = Reference.make(book, chp, v);
-				}
-				if(Reference.check(plugin, sender, bookName, tran, ref) == false){
-					return true;
-				}
-				if(verse == null){
-					verse = plugin.getBook(tran, bookName).getString(ref);
-				}
-				if(eType.equalsIgnoreCase("normal")){
-					sender.sendMessage(ChatColor.GREEN + verse);
-					return true;
-				}else if(eType.equalsIgnoreCase("broad")){
-					Bukkit.broadcast(ChatColor.GREEN + verse, "TadukooBible.announceget");
-					plugin.getLogger().info(sender.getName() + " broadcasted " + bookName + " " + chp + ":" 
-							+ v + " from the " + tran + " translation.");
-					return true;
 				}
 			}
 		}
 		return false;
 	}
 	
+	/*
+	 * Checks
+	 */
+	
+	private boolean consoleCheck(CommandSender sender, String playerType) {
+		if(playerType == "console"){
+			sender.sendMessage(ChatColor.RED + "You must be a player!");
+			return false;
+		}else{
+			return true;
+		}
+	}
+
 	public static boolean checkForYML(TB plugin, CommandSender sender, String tran, String bookName) {
 		if(plugin.getBook(tran, bookName) == null){
 			sender.sendMessage(ChatColor.RED + "Sorry, " + tran + "/" + bookName 
@@ -306,24 +144,111 @@ public class MainCommandExecutor implements CommandExecutor {
 		}
 	}
 
-	public static boolean tranCheck(TB plugin, CommandSender sender, String tran) {
-		if(plugin.getConfig().getString(tran) == null || plugin.getConfig().getBoolean(tran) == false){
-			sender.sendMessage(ChatColor.RED + "Sorry, the " + tran + " translation is not available.");
+	public static String tranCheck(TB plugin, CommandSender sender, String tran) {
+		EnumTrans etran = EnumTrans.KJV;
+		if(etran.fromString(tran) != null){
+			etran = etran.fromString(tran);
+			if(etran.isAvailable()){
+				return etran.getTran();
+			}
+		}
+		sender.sendMessage(ChatColor.RED + "Sorry, the " + tran + " translation is not available.");
+		return null;
+	}
+	
+	private boolean permCheck(String playerType, CommandSender sender, String perm){
+		if(permsOn == true && playerType == "player"){
+			Player player = (Player) sender;
+			if(player.hasPermission("TadukooBible." + perm)){
+				return true;
+			}else{
+				sender.sendMessage(ChatColor.RED + "You don't have permission.");
+				sender.sendMessage(ChatColor.RED + "You need TadukooBible." + perm);
+				return false;
+			}
+		}else{
+			return true;
+		}
+	}
+	
+	/*
+	 * Sending
+	 */
+	
+	public static void sendToPlayer(TB plugin, CommandSender sender, String bookName, String tran, String ref){
+		String verse = plugin.getBook(tran, bookName).getString(ref);
+		sender.sendMessage(ChatColor.GREEN + verse);
+	}
+	
+	public static void broadcast(TB plugin, CommandSender sender, String bookName, String chp, String v,
+			String tran, String ref){
+		String verse = plugin.getBook(tran, bookName).getString(ref);
+		Bukkit.broadcast(ChatColor.GREEN + verse, "TadukooBible.verse.announceget");
+		plugin.getLogger().info(sender.getName() + " broadcasted " + bookName + " " + chp + ":" 
+				+ v + " from the " + tran + " translation.");
+	}
+	
+	/*
+	 * References
+	 */
+	
+	public static String makeRef(EnumBooks book, String chp, String v){
+		String ref = null;
+		if(chp.equalsIgnoreCase("info") || chp.equalsIgnoreCase("?")){
+			ref = book.getAlias() + "Info";
+		}else if(chp.equalsIgnoreCase("#")){
+			ref = book.getAlias() + "#";
+		}else if(v.equalsIgnoreCase("#") || v.equalsIgnoreCase("?") || v.equalsIgnoreCase("info")){
+			v = "info";
+		}
+		if(ref == null){
+			ref = "ch" + chp + "v" + v;
+		}
+		return ref;
+	}
+	
+	public static boolean checkRef(TB plugin, CommandSender sender, String bookName, String tran, String ref){
+		if(plugin.getBook(tran, bookName).getString(ref) == null){
+			sender.sendMessage(ChatColor.RED + "An error occurred. Please make sure you typed in a " +
+					"chapter/verse that exists.");
 			return false;
 		}else{
 			return true;
 		}
 	}
 	
-	private static boolean permCheck(boolean permsOn, String playerType, CommandSender sender, String perm){
-		if(permsOn == true && playerType == "player"){
-			if(PermissionsChecker.permCheck(sender, perm) == true){
-				return true;
-			}else{
-				return false;
+	/*
+	 * Player records
+	 */
+	public static String[] getpRecs(String type, String pName){
+		String[] rec = new String[4];
+		if(type == "verse"){
+			rec[0] = TB.getpRec().getString(pName + ".lastRead.bookName");
+			rec[1] = TB.getpRec().getString(pName + ".lastRead.chp");
+			rec[2] = TB.getpRec().getString(pName + ".lastRead.v");
+			rec[3] = TB.getpRec().getString(pName + ".lastRead.tran");
+		}else if(type == "book"){
+			rec[0] = TB.getpRec().getString(pName + ".lastbook.book");
+			rec[1] = TB.getpRec().getString(pName + ".lastbook.part");
+			rec[2] = TB.getpRec().getString(pName + ".lastbook.tran");
+		}
+		return rec;
+	}
+	
+	public static void savepRecs(String type, String pName, String tran, String bookName, String chp,
+			String v, String part){
+		if(TB.pR){
+			if(type == "verse"){
+				TB.getpRec().set(pName + ".lastRead.tran", tran);
+				TB.getpRec().set(pName + ".lastRead.bookName", bookName);
+				TB.getpRec().set(pName + ".lastRead.chp", chp);
+				TB.getpRec().set(pName + ".lastRead.v", v);
+			}else if(type == "book"){
+				TB.getpRec().set(pName + ".lastbook.book", bookName);
+				TB.getpRec().set(pName + ".lastbook.part", part);
+				TB.getpRec().set(pName + ".lastbook.tran", tran);
 			}
-		}else{
-			return true;
+			TB.savepRec();
 		}
 	}
 }

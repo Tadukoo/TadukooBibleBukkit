@@ -14,14 +14,15 @@ import com.gmail.lucario77777777.TBP.commands.MainCommandExecutor;
 public class TB extends JavaPlugin {
 	public static TB plugin;
 	PluginDescriptionFile pdfFile = this.getDescription();
+	public static FileConfiguration config;
 	public FileConfiguration book = null;
 	public File bookFile = null;
 	public FileConfiguration igbook = null;
 	public File igbookFile = null;
-	public FileConfiguration pRec = null;
-	public File pRecFile = null;
-	public static TB instance;
+	public static FileConfiguration pRec = null;
+	public static File pRecFile = null;
 	public Boolean perms = null;
+	public static boolean pR;
 	
 	@Override
 	public void onDisable () {
@@ -30,13 +31,13 @@ public class TB extends JavaPlugin {
 	}
 	@Override
 	public void onEnable () {
-		instance = this;
 		reloadpRec();
 		savepRec();
-		getConfig().options().copyDefaults(true);
-		saveConfig();
-		getCommand("bible").setExecutor(new MainCommandExecutor(this));
+		config = getConfig();
+		saveDefaultConfig();
+		pR = this.getConfig().getBoolean("PlayerRecords");
 		perms = getConfig().getBoolean("Permissions");
+		getCommand("bible").setExecutor(new MainCommandExecutor(this, perms));
 	}
 	
 	public FileConfiguration getBook(String tran, String bookName) {
@@ -77,21 +78,21 @@ public class TB extends JavaPlugin {
 	    pRec = YamlConfiguration.loadConfiguration(pRecFile);
 	}
 	
-	public FileConfiguration getpRec() {
+	public static FileConfiguration getpRec() {
 	    if (pRec == null) {
-	        this.reloadpRec();
+	        plugin.reloadpRec();
 	    }
 	    return pRec;
 	}
 	
-	public void savepRec() {
+	public static void savepRec() {
 	    if (pRec == null || pRecFile == null) {
 	    return;
 	    }
 	    try {
 	        getpRec().save(pRecFile);
 	    } catch (IOException ex) {
-	        this.getLogger().log(Level.SEVERE, "Could not save player records to " + pRecFile + ex);
+	        plugin.getLogger().log(Level.SEVERE, "Could not save player records to " + pRecFile + ex);
 	    }
 	}
 }

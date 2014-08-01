@@ -22,127 +22,199 @@ through a video game. Hopefully in the future, there will be new plugins and/or 
 
 Command Usage
 -------------
-/bible [ book ] [ chapter # ] [ verse # ] [ translation ]
-   * Shows the verse through the chat to the player.
+Key
+   * <Required Parameter>
+   * [Optional Parameter]
+   * [This Parameter|Or This Parameter]
+
+/bible [book] [chapter #] [verse #] [translation]
+   * Shows you a Bible verse.
+   * Requires Permission: TadukooBible.verse.read
    * Defaults:
-      * [ book ] defaults to Genesis.
-      * [ chapter # ] defaults to 1.
-      * [ verse # ] defaults to 1.
-	  * [ translation ] defaults to whatever is set in the config.yml, which is currently KJV.
-   * [ chapter # ] can be replaced with #, info, or ?.
+      * [book] defaults to Genesis.
+      * [chapter #] defaults to 1.
+      * [verse #] defaults to 1.
+      * [translation] defaults to whatever is set in the config.yml, which is KJV by default.
+   * [chapter #] can be replaced with #, info, or ?.
       * # will list how many chapters are in that book.
       * ? or info will show information about the book you chose.
-   * [ verse # ] can be replaced with #, ?, or info.
+   * [verse #] can be replaced with #, ?, or info.
       * This will show how many verses are in the chapter you chose.
 
-/bible help [ page|command ]
+/bible previous [translation]
+   *Aliases: pre, prev, back, before, and b4.
+   *Shows you the Bible verse before the one you last read.
+   *Gives a message if trying to go before Genesis 1:1.
+   *Requires permission: TadukooBible.verse.previous
+
+/bible next [translation]
+   *Aliases: forward, for, after, aft, nextverse, versenext, nextv, and vnext.
+   *Shows you the Bible verse after the one you last read.
+   *Gives a message if trying to go after 3 John 1:14.
+   *Requires permission: TadukooBible.verse.next
+
+/bible last [translation]
+   *Aliases: saved, save, load, lastverse, verselast, lastv, vlast, versesaved, savedverse, vsaved, savedv, vsave, versesave, loadverse, verseload, vload, 
+and loadv.
+   *Shows you the Bible verse you last read.
+   *Requires permission: TadukooBible.verse.last
+
+/bible random [book] [chapter #] [translation]
+   * Aliases: rand, randomverse, randomv, verserandom, vrandom, randverse, randv, verserand, and vrand.
+   * Shows a random verse.
+   * Requires permission: TadukooBible.verse.random
+
+/bible getbook [book] [part #] [translation] [?]
+   * Aliases: book, bookget, bibleget, and getbible.
+   * Gives you part of the Bible in book form.
+   * Requires permission: TadukooBible.book.get
+   * Defaults:
+      * [book] defaults to Genesis.
+      * [part #] defaults to 1.
+      * [translation] defaults to whatever is set in the config.yml.
+   * Note: [part #] is not the chapter #.
+   * [book] can be changed to previous or its aliases to get the previous book (or the first part # of the previous book).
+   * [book] can be changed to next or its aliases to get the next book.
+   * [book] can be changed to last or its aliases to get the book you got last time you typed the command.
+   * ? will tell you what is in that book.
+
+/bible sendbook <player> [book] [part #] [translation]
+   * Aliases: booksend, sendbible, biblesend, givebook, bookgive, biblegive, and givebible.
+   * Sends part of a book of the Bible to a player.
+   * Requires permission: TadukooBible.book.send
+   * Defaults:
+      * [book] defaults to Genesis.
+      * [part #] defaults to 1.
+      * [translation] defaults to whatever is set in the config.yml.
+
+/bible info <translation>
+   * Aliases: about, abt, and information.
+   * Shows information about a specific translation.
+   * Requires permission: TadukooBible.info.help
+
+/bible help [page #|command]
    * Aliases: ?, commands, commandshelp, cmds, and cmdshelp.
    * Shows help for TadukooBible commands.
-   * Requires permission: TadukooBible.help
+   * Requires permission: TadukooBible.info.help
 
-/bible config < setting > [ value ]
-   * Aliases: configuration, settings, set, and options.
-   * Shows or changes a setting in the config.yml.
-   * Requires permission: TadukooBible.config
-   * < setting > can be changed to list to list all the settings.
-
-/bible info < translation >
-   * Aliases: about, abt, and information.
-   * Shows information about the translation you chose.
-   * Requires permission: TadukooBible.info
-
-/bible books [ page ]
+/bible books [page #]
    * Aliases: bookslist, listbooks, and booklist.
    * Lists all the books in the Bible.
-   * Requires permission: TadukooBible.books
+   * Requires permission: TadukooBible.info.book
    * Books in red aren't available yet.
-   * Books in green are completely available.
-   * Books in yellow are partially available, but incomplete.
+   * Books in green are available.
 
 /bible translations
    * Aliases: translist, translationslist, listtrans, tran, and trans.
-   * Shows a list of available translations.
-   * Requires permission: TadukooBible.translations
-   
-/bible getbook [ book ] [ part # ] [ translation ] [ ? ]
-   * Aliases: book, bookget, bible, bibleget, and getbible.
-   * Gives you part of the Bible in book form.
-   * Requires permission: TadukooBible.getbook
-   * Defaults:
-      * [ book ] defaults to Genesis.
-      * [ part # ] defaults to 1.
-	  * [ translation ] defaults to whatever is set in the config.yml.
-   * Note: [ part # ] is not the chapter #.
-   * [ book ] can be changed to previous, pre, prev, back, before, or b4 to get the previous book (or the first part # of the previous book).
-   * [ book ] can be changed to next, forward, for, after, or aft to get the next book.
-   * [ book ] can be changed to last, saved, save, or load to get the book you got last time you typed the command.
-   * ? will tell you what is in that book.
+   * Lists available translations.
+   * Requires permission: TadukooBible.info.translation
 
-/bible givebook < player > [ book ] [ part # ] [ translation ]
-   * Aliases: bookgive, biblegive, and givebible.
-   * Gives a book to a player instead of yourself.
-   * Requires permission: TadukooBible.givebook
-   * Defaults:
-      * [ book ] defaults to Genesis.
-	  * [ part # ] defaults to 1.
-	  * [ translation ] defaults to whatever is set in the config.yml.
+/bible config <setting> [value]
+   * Aliases: configuration, settings, set, and options.
+   * Shows or changes a setting in the config.yml.
+   * Requires permission: TadukooBible.op.config
+   * <setting> can be changed to list to list all the settings.
 
-/bible random [ book ] [ chapter # ] [ translation ]
-   * Aliases: rand, randomverse, randomv, verserandom, vrandom, randverse, randv, verserand, and vrand.
-   * Shows a random verse.
-   * Requires permission: TadukooBible.random
-
-/bible announce < book > < chapter # > < verse # > [ translation ]
+/bible announce <book> <chapter #> <verse #> [translation]
    * Aliases: ann, broadcast, broad, shout, and yell.
-   * Broadcasts the verse you choose.
-   * Requires the permission: TadukooBible.announce
-   * Requires TadukooBible.announceget to see announcements.
+   * Announce a Bible verse to the server.
+   * Requires the permission: TadukooBible.op.announce
+   * Requires TadukooBible.verse.announceget to see announcements.
 
 Permissions
 -----------
+TadukooBible.*
+   * Gives all permissions.
+   * Children:
+      * TadukooBible.use
+      * TadukooBible.verse.*
+      * TadukooBible.book.*
+      * TadukooBible.info.*
+      * TadukooBible.op.*
+
+TadukooBible.verse.*
+   * Gives all verse permissions.
+   * Children:
+      * TadukooBible.verse.read
+      * TadukooBible.verse.previous
+      * TadukooBible.verse.last
+      * TadukooBible.verse.random
+      * TadukooBible.verse.announceget
+
+TadukooBible.book.*
+   * Gives all book permissions.
+   * Children:
+      * TadukooBible.book.get
+      * TadukooBible.book.send
+
+TadukooBible.info.*
+   * Gives all info permissions.
+   * Children:
+      * TadukooBible.info.help
+      * TadukooBible.info.book
+      * TadukooBible.info.translation
+
+TadukooBible.op.*
+   * Gives all op permissions.
+   * Children:
+      * TadukooBible.op.config
+      * TadukooBible.op.announce
+
 TadukooBible.use
    * Required for use of plugin.
    * Default: true
 
-TadukooBible.help
-   * Allows use of /bible help.
+TadukooBible.verse.read
+   * Allows use of /bible [book] [chapter #] [verse #] [translation].
    * Default: true
 
-TadukooBible.config
-   * Allows use of /bible config.
-   * Default: op
-
-TadukooBible.info
-   * Allow use of /bible info.
+TadukooBible.verse.previous
+   * Allows use of /bible previous.
    * Default: true
 
-TadukooBible.books
-   * Allows use of /bible books.
+TadukooBible.verse.next
+   * Allows use of /bible next.
    * Default: true
 
-TadukooBible.translations
-   * Allows use of /bible translations.
+TadukooBible.verse.last
+   * Allows use of /bible last.
    * Default: true
 
-TadukooBible.getbook
-   * Allows use of /bible getbook.
-   * Default: true
-
-TadukooBible.givebook
-   * Allows use of /bible givebook.
-   * Default: op
-
-TadukooBible.random
+TadukooBible.verse.random
    * Allows use of /bible random.
    * Default: true
-
-TadukooBible.announce
-   * Allows use of /bible announce.
-   * Default: op
 
 TadukooBible.announceget
    * Allows seeing announcements.
    * Default: true
+
+TadukooBible.book.get
+   * Allows use of /bible getbook.
+   * Default: true
+
+TadukooBible.book.send
+   * Allows use of /bible givebook.
+   * Default: op
+
+TadukooBible.info.help
+   * Allows use of /bible info and /bible help.
+   * Default: true
+
+TadukooBible.info.book
+   * Allows use of /bible books.
+   * Default: true
+
+TadukooBible.info.translation
+   * Allows use of /bible translations.
+   * Default: true
+
+TadukooBible.op.config
+   * Allows use of /bible config.
+   * Default: op
+
+TadukooBible.op.announce
+   * Allows use of /bible announce.
+   * Default: op
 
 Config.yml
 ----------
@@ -165,46 +237,8 @@ Translations
 
 Upcoming Commands/Features
 --------------------------
-Finish the books of the Bible
-
-/bible config < setting > [ value ] [ config file ]
-   * Allows editing the config of another file.
-
-/bible getbook list
-   * Gives you a book that lists all the available books and what's in them.
-
-/bible previous [ translation ]
-   * Aliases: pre, prev, back, before, and b4.
-   * Shows you the Bible verse before the one you last read.
-   * Requires permission: TadukooBible.previous
-
-/bible next [ translation ]
-   * Aliases: forward, for, after, aft, nextverse, versenext, nextv, and vnext.
-   * Shows you the Bible verse after the one you last read.
-   * Requires permission: TadukooBible.next
-
-/bible last [ translation ]
-   * Aliases: saved, save, load, lastverse, verselast, lastv, vlast, savedverse, savedverse, vsaved, savedv, vsave, versesave, loadverse, verseload, vload, 
-   and loadv.
-   * Shows you the Bible verse you last read.
-   * Requires permission: TadukooBible.last
-
-Save what Bible verse was last read by each player.
-
-Make error reports optional (stack trace or simple error)
-
-Move < book >Info, < book >#, and < chapter >info to code instead of config files.
-   * Add < book >Lim to config files.
-
-More translations.
-
-Add a command to send verses to other players.
-
-Add books that contain verses about specific topics (or perhaps commentaries?)
-
-Add random option to various commands, rather than just as its own command.
-
-Put in more details about the translations and books of the Bible.
+Go to the [upcoming features page on BukkitDev] (http://dev.bukkit.org/bukkit-plugins/tadukoo-bible/pages/upcoming-features/) to see the upcoming 
+commands and features.
 
 Known Issues
 ------------
@@ -226,13 +260,15 @@ folder.
 
 Progress
 --------
-* King James Version (KJV) (20%)
+* King James Version (KJV) (30%)
    * Completed:
       * Genesis through Deuteronomy
+	  * Psalms
       * Matthew through John
       * 1 John, 2 John, and 3 John
    * Upcoming:
-      * Joshua through Malachi
+      * Joshua through Job
+	  * Proverbs through Malachi
       * Acts through 2 Peter
       * Jude and Revelation
 

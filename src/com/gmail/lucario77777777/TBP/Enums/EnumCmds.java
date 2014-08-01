@@ -2,74 +2,113 @@ package com.gmail.lucario77777777.TBP.Enums;
 
 public enum EnumCmds {
 	// Special cases.
-	FIRST("first", "first", "1", "1st", null, null, null, true),
-	SECOND("second", "second", "2", "2nd", null, null, null, true),
-	THIRD("third", "third", "3", "3rd", null, null, null, true),
+	FIRST("first", "1", "1st", true),
+	SECOND("second", "2", "2nd", true),
+	THIRD("third", "3", "3rd", true),
 	
 	//Actual Commands.
-	HELP("help", "help", "?", "commands", "commandshelp", "cmds", "cmdshelp", true),
-	CONFIG("config", "config", "configuration", "settings", "set", "options", null, true),
-	INFO("info", "info", "about", "abt", "information", null, null, true),
-	BOOKS("books", "books", "bookslist", "listbooks", "booklist", null, null, true),
-	TRANSLATIONS("translations", "translations", "translist", "translationslist", "listtrans", "tran", "trans",
-			true),
-	GETBOOK("getbook", "getbook", "book", "bookget", "bible", "getbible", "bibleget", true),
-	GIVEBOOK("givebook", "givebook", "bookgive", "biblegive", "givebible", null, null, true),
-	RANDOM("random", "random", "rand", "randomverse", "randomv", "verserandom", "vrandom", true),
-	RANDOM2("random", "randverse", "randv", "verserand", "vrand", null, null, true),
-	ANNOUNCE("announce", "announce", "ann", "broadcast", "broad", "shout", "yell", true),
-	PREVIOUS("previous", "previous", "pre", "prev", "back", "before", "b4", false),
-	NEXT("next", "next", "forward", "for", "after", "aft", "nextverse", false),
-	NEXT2("next", "versenext", "nextv", "vnext", null, null, null, false),
-	LAST("last", "last", "saved", "save", "load", "lastverse", "verselast", false),
-	LAST2("last", "lastv", "vlast", "savedverse", "savedverse", "vsaved", "savedv", false),
-	LAST3("last", "vsave", "versesave", "loadverse", "verseload", "vload", "loadv", false);
+	READ("read", "verse.read", "readverse", "verseread", "readv", "vread", false),
+	SEND("send", "verse.send", "sendverse", "versesend", "giveverse", "versegive", "sendv", false),
+	SEND2("send", "verse.send", "vsend", "givev", "vgive", false),
+	PREVIOUS("previous", "verse.previous", "pre", "prev", "back", "before", "b4", true),
+	NEXT("next", "verse.next", "forward", "for", "after", "aft", "nextverse", true),
+	NEXT2("next", "verse.next", "versenext", "nextv", "vnext", true),
+	LAST("last", "verse.last", "saved", "save", "load", "lastverse", "verselast", true),
+	LAST2("last", "verse.last", "lastv", "vlast", "savedverse", "savedverse", "vsaved", true),
+	LAST3("last", "verse.last", "savedv", "vsave", "versesave", "loadverse", "verseload", true),
+	LAST4("last", "verse.last", "vload", "loadv", true),
+	RANDOM("random", "verse.random", "rand", "randomverse", "randomv", "verserandom", "vrandom", true),
+	RANDOM2("random", "verse.random", "randverse", "randv", "verserand", "vrand", true),
+	GETBOOK("getbook", "book.get", "book", "bookget", "getbible", "bibleget", true),
+	SENDBOOK("sendbook", "book.send", "booksend", "biblesend", "sendbible", "givebook", "bookgive", true),
+	SENDBOOK2("sendbook", "book.send", "biblegive", "givebible", true),
+	INFO("info", "info.help", "about", "abt", "information", true),
+	HELP("help", "info.help", "?", "commands", "commandshelp", "cmds", "cmdshelp", true),
+	BOOKS("books", "info.book", "bookslist", "listbooks", "booklist", true),
+	TRANSLATIONS("translations", "info.translation", "translist", "translationslist", "listtrans", "tran", 
+			"trans", true),
+	CONFIG("config", "op.config", "configuration", "settings", "set", "options", true),
+	ANNOUNCE("announce", "op.announce", "ann", "broadcast", "broad", "shout", "yell", true);
 	
-	//Command Name.
 	private String cmd;
 	
-	//Command Name or 7th or 13th alias.
+	private String perm;
+	
 	private String alias;
 	
-	//2nd, 8th, or 14th alias.
 	private String alias2;
 	
-	//3rd, 9th, or 15th alias.
 	private String alias3;
 	
-	//4th, 10th, or 16th alias.
 	private String alias4;
 	
-	//5th, 11th, or 17th alias.
 	private String alias5;
 	
-	//6th, 12th, or 18th alias.
-	private String alias6;
-	
-	//Whether you can use that command or not.
 	private boolean available;
 	
-	private EnumCmds(String cmd, String alias, String alias2, String alias3, String alias4, String alias5,
-			String alias6, boolean available){
+	private EnumCmds(String cmd, String perm, boolean available){
 		this.cmd = cmd;
+		this.perm = perm;
+		this.available = available;
+	}
+	
+	private EnumCmds(String cmd, String perm, String alias, boolean available){
+		this.cmd = cmd;
+		this.perm = perm;
+		this.alias = alias;
+		this.available = available;
+	}
+	
+	private EnumCmds(String cmd, String perm, String alias, String alias2, boolean available){
+		this.cmd = cmd;
+		this.perm = perm;
+		this.alias = alias;
+		this.alias2 = alias2;
+		this.available = available;
+	}
+	
+	private EnumCmds(String cmd, String perm, String alias, String alias2, String alias3, boolean available){
+		this.cmd = cmd;
+		this.perm = perm;
+		this.alias = alias;
+		this.alias2 = alias2;
+		this.alias3 = alias3;
+		this.available = available;
+	}
+	
+	private EnumCmds(String cmd, String perm, String alias, String alias2, String alias3, String alias4, 
+			boolean available){
+		this.cmd = cmd;
+		this.perm = perm;
+		this.alias = alias;
+		this.alias2 = alias2;
+		this.alias3 = alias3;
+		this.alias4 = alias4;
+		this.available = available;
+	}
+	
+	private EnumCmds(String cmd, String perm, String alias, String alias2, String alias3, String alias4, 
+			String alias5, boolean available){
+		this.cmd = cmd;
+		this.perm = perm;
 		this.alias = alias;
 		this.alias2 = alias2;
 		this.alias3 = alias3;
 		this.alias4 = alias4;
 		this.alias5 = alias5;
-		this.alias6 = alias6;
 		this.available = available;
 	}
 	
-	/*
-	 * Checks if a command is available.
-	 */
 	public boolean isAvailable(){
 		return available;
 	}
 	
 	public String getCmd(){
 		return cmd;
+	}
+	
+	public String getPerm(){
+		return perm;
 	}
 	
 	public String getAlias(){
@@ -92,20 +131,12 @@ public enum EnumCmds {
 		return alias5;
 	}
 	
-	public String getAlias6(){
-		return alias6;
-	}
-	
-	/*
-	 * Checks a string against all the aliases of a command and returns the command that contains that
-	 * alias, or null if no command contains that alias.
-	 */
 	public EnumCmds fromString(String command) {
 	    if (command != null) {
 	      for (EnumCmds c : EnumCmds.values()) {
-	        if (command.equalsIgnoreCase(c.getAlias()) || command.equalsIgnoreCase(c.getAlias2()) || 
-	        		command.equalsIgnoreCase(c.getAlias3()) || command.equalsIgnoreCase(c.getAlias4()) ||
-	        		command.equalsIgnoreCase(c.getAlias5()) || command.equalsIgnoreCase(c.getAlias6())) {
+	        if (command.equalsIgnoreCase(c.getCmd()) || command.equalsIgnoreCase(c.getAlias()) ||
+	        		command.equalsIgnoreCase(c.getAlias2()) || command.equalsIgnoreCase(c.getAlias3()) || 
+	        		command.equalsIgnoreCase(c.getAlias4()) || command.equalsIgnoreCase(c.getAlias5())) {
 	          return c;
 	        }
 	      }
