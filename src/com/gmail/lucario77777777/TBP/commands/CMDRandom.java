@@ -69,6 +69,13 @@ public class CMDRandom {
 			return;
 		}
 		String verse = plugin.getBook(tran, bookName).getString(ref);
+		if(bookName.contains("1") || bookName.contains("2") || bookName.contains("3") || 
+				bookName.contains("SongofSongs")){
+			bookName = bookName.replace("1", "1 ");
+			bookName = bookName.replace("2", "2 ");
+			bookName = bookName.replace("3", "3 ");
+			bookName = bookName.replace("SongofSongs", "Song of Songs");
+		}
 		sender.sendMessage(ChatColor.GREEN + verse + " (" + bookName + " " + chp + ":" + v + " " + tran + ")");
 		MainCommandExecutor.savepRecs("verse", pName, tran, bookName, chp, v, null);
 	}

@@ -36,8 +36,8 @@ public class TB extends JavaPlugin {
 		config = getConfig();
 		saveDefaultConfig();
 		pR = this.getConfig().getBoolean("PlayerRecords");
-		getCommand("bible").setExecutor(new MainCommandExecutor(this, perms));
 		perms = getConfig().getBoolean("Permissions");
+		getCommand("bible").setExecutor(new MainCommandExecutor(this, perms));
 	}
 	
 	public FileConfiguration getBook(String tran, String bookName) {

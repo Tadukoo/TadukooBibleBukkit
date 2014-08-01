@@ -7,29 +7,32 @@ public enum EnumCmds {
 	THIRD("third", "3", "3rd", true),
 	
 	//Actual Commands.
-	READ("read", "readv", "vread", false),
-	SEND("send", "sendverse", "versesend", "giveverse", "versegive", "sendv", false),
-	SEND2("send", "vsend", "givev", "vgive", false),
-	HELP("help", "?", "commands", "commandshelp", "cmds", "cmdshelp", true),
-	CONFIG("config", "configuration", "settings", "set", "options", true),
-	INFO("info", "about", "abt", "information", true),
-	BOOKS("books", "bookslist", "listbooks", "booklist", true),
-	TRANSLATIONS("translations", "translist", "translationslist", "listtrans", "tran", "trans", true),
-	GETBOOK("getbook", "book", "bookget", "bible", "getbible", "bibleget", true),
-	SENDBOOK("sendbook", "booksend", "biblesend", "sendbible", "givebook", "bookgive", true),
-	SENDBOOK2("sendbook", "biblegive", "givebible", true),
-	RANDOM("random", "rand", "randomverse", "randomv", "verserandom", "vrandom", true),
-	RANDOM2("random", "randverse", "randv", "verserand", "vrand", true),
-	ANNOUNCE("announce", "ann", "broadcast", "broad", "shout", "yell", true),
-	PREVIOUS("previous", "pre", "prev", "back", "before", "b4", true),
-	NEXT("next", "forward", "for", "after", "aft", "nextverse", true),
-	NEXT2("next", "versenext", "nextv", "vnext", true),
-	LAST("last", "saved", "save", "load", "lastverse", "verselast", true),
-	LAST2("last", "lastv", "vlast", "savedverse", "savedverse", "vsaved", true),
-	LAST3("last", "savedv", "vsave", "versesave", "loadverse", "verseload", true),
-	LAST4("last", "vload", "loadv", true);
+	READ("read", "verse.read", "readverse", "verseread", "readv", "vread", false),
+	SEND("send", "verse.send", "sendverse", "versesend", "giveverse", "versegive", "sendv", false),
+	SEND2("send", "verse.send", "vsend", "givev", "vgive", false),
+	PREVIOUS("previous", "verse.previous", "pre", "prev", "back", "before", "b4", true),
+	NEXT("next", "verse.next", "forward", "for", "after", "aft", "nextverse", true),
+	NEXT2("next", "verse.next", "versenext", "nextv", "vnext", true),
+	LAST("last", "verse.last", "saved", "save", "load", "lastverse", "verselast", true),
+	LAST2("last", "verse.last", "lastv", "vlast", "savedverse", "savedverse", "vsaved", true),
+	LAST3("last", "verse.last", "savedv", "vsave", "versesave", "loadverse", "verseload", true),
+	LAST4("last", "verse.last", "vload", "loadv", true),
+	RANDOM("random", "verse.random", "rand", "randomverse", "randomv", "verserandom", "vrandom", true),
+	RANDOM2("random", "verse.random", "randverse", "randv", "verserand", "vrand", true),
+	GETBOOK("getbook", "book.get", "book", "bookget", "getbible", "bibleget", true),
+	SENDBOOK("sendbook", "book.send", "booksend", "biblesend", "sendbible", "givebook", "bookgive", true),
+	SENDBOOK2("sendbook", "book.send", "biblegive", "givebible", true),
+	INFO("info", "info.help", "about", "abt", "information", true),
+	HELP("help", "info.help", "?", "commands", "commandshelp", "cmds", "cmdshelp", true),
+	BOOKS("books", "info.book", "bookslist", "listbooks", "booklist", true),
+	TRANSLATIONS("translations", "info.translation", "translist", "translationslist", "listtrans", "tran", 
+			"trans", true),
+	CONFIG("config", "op.config", "configuration", "settings", "set", "options", true),
+	ANNOUNCE("announce", "op.announce", "ann", "broadcast", "broad", "shout", "yell", true);
 	
 	private String cmd;
+	
+	private String perm;
 	
 	private String alias;
 	
@@ -43,34 +46,40 @@ public enum EnumCmds {
 	
 	private boolean available;
 	
-	private EnumCmds(String cmd, boolean available){
+	private EnumCmds(String cmd, String perm, boolean available){
 		this.cmd = cmd;
+		this.perm = perm;
 		this.available = available;
 	}
 	
-	private EnumCmds(String cmd, String alias, boolean available){
+	private EnumCmds(String cmd, String perm, String alias, boolean available){
 		this.cmd = cmd;
+		this.perm = perm;
 		this.alias = alias;
 		this.available = available;
 	}
 	
-	private EnumCmds(String cmd, String alias, String alias2, boolean available){
+	private EnumCmds(String cmd, String perm, String alias, String alias2, boolean available){
 		this.cmd = cmd;
+		this.perm = perm;
 		this.alias = alias;
 		this.alias2 = alias2;
 		this.available = available;
 	}
 	
-	private EnumCmds(String cmd, String alias, String alias2, String alias3, boolean available){
+	private EnumCmds(String cmd, String perm, String alias, String alias2, String alias3, boolean available){
 		this.cmd = cmd;
+		this.perm = perm;
 		this.alias = alias;
 		this.alias2 = alias2;
 		this.alias3 = alias3;
 		this.available = available;
 	}
 	
-	private EnumCmds(String cmd, String alias, String alias2, String alias3, String alias4, boolean available){
+	private EnumCmds(String cmd, String perm, String alias, String alias2, String alias3, String alias4, 
+			boolean available){
 		this.cmd = cmd;
+		this.perm = perm;
 		this.alias = alias;
 		this.alias2 = alias2;
 		this.alias3 = alias3;
@@ -78,9 +87,10 @@ public enum EnumCmds {
 		this.available = available;
 	}
 	
-	private EnumCmds(String cmd, String alias, String alias2, String alias3, String alias4, String alias5,
-			boolean available){
+	private EnumCmds(String cmd, String perm, String alias, String alias2, String alias3, String alias4, 
+			String alias5, boolean available){
 		this.cmd = cmd;
+		this.perm = perm;
 		this.alias = alias;
 		this.alias2 = alias2;
 		this.alias3 = alias3;
@@ -95,6 +105,10 @@ public enum EnumCmds {
 	
 	public String getCmd(){
 		return cmd;
+	}
+	
+	public String getPerm(){
+		return perm;
 	}
 	
 	public String getAlias(){

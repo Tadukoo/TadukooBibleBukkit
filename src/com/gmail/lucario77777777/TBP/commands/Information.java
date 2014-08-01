@@ -14,12 +14,13 @@ public class Information {
 			return;
 		}
 		String tran = args[1].toUpperCase();
-		String bookName = tran;
+		String bookName;
 		String ref = "info";
 		if(MainCommandExecutor.tranCheck(plugin, sender, tran) == null){
 			return;
 		}else{
 			tran = MainCommandExecutor.tranCheck(plugin, sender, tran);
+			bookName = tran;
 		}
 		MainCommandExecutor.sendToPlayer(plugin, sender, bookName, tran, ref);
 	}

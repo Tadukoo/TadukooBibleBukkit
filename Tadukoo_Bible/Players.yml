@@ -1,5 +1,16 @@
-CraftPlayer{name=tadukoo}:
+CONSOLE:
+  lastRead:
+    tran: KJV
+    bookName: John
+    chp: '7'
+    v: '17'
+tadukoo:
+  lastRead:
+    tran: KJV
+    bookName: Genesis
+    chp: '2'
+    v: '1'
   lastbook:
-    book: Genesis
-    part: '2'
+    book: Deuteronomy
+    part: '13'
     tran: KJV

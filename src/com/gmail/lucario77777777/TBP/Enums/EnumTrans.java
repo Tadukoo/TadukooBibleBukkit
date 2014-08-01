@@ -3,7 +3,7 @@ package com.gmail.lucario77777777.TBP.Enums;
 import com.gmail.lucario77777777.TBP.TB;
 
 public enum EnumTrans {
-	KJV("KJV", "KJB", "AV", "KJ", TB.plugin.getConfig().getBoolean("KJV"), false, 1);
+	KJV("KJV", "KJB", "AV", "KJ", TB.config.getBoolean("KJV"), false, 1);
 	
 	private String tran;
 	private String alias;

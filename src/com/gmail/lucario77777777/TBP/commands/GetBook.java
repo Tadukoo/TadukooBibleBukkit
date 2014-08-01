@@ -26,14 +26,24 @@ public class GetBook {
 				String spec = ecmd.fromString(args[1]).getCmd();
 				if(spec.equalsIgnoreCase("previous")){
 					bookName = TB.getpRec().getString(pName + ".lastbook.book");
-					part = TB.getpRec().getString(pName + "lastbook.part");
+					part = TB.getpRec().getString(pName + ".lastbook.part");
 					tran = TB.getpRec().getString(pName + ".lastbook.tran");
+					if(bookName.equalsIgnoreCase("Genesis") && part.equalsIgnoreCase("1")){
+						sender.sendMessage(ChatColor.RED + "Sorry, Genesis Part 1 is the first book. You " +
+								"can't go before it!");
+						return;
+					}
 					Book.previous(plugin, sender, tran, bookName, part, bookType, p);
 					return;
 				}else if(spec.equalsIgnoreCase("next")){
 					bookName = TB.getpRec().getString(pName + ".lastbook.book");
 					part = TB.getpRec().getString(pName + ".lastbook.part");
 					tran = TB.getpRec().getString(pName + ".lastbook.tran");
+					if(bookName.equalsIgnoreCase("3John") && part.equalsIgnoreCase("1")){
+						sender.sendMessage(ChatColor.RED + "Sorry, 3 John Part 1 is the last book currently " +
+								"available in this plugin. You can't go after it!");
+						return;
+					}
 					Book.next(plugin, sender, tran, bookName, part, bookType, p);
 					return;
 				}else if(spec.equalsIgnoreCase("last")){
@@ -74,7 +84,6 @@ public class GetBook {
 					"translation.");
 			return;
 		}
-		MainCommandExecutor.savepRecs("book", pName, tran, bookName, chp, null, part);
 		Book.Run(plugin, sender, tran, bookName, part, bookType, p);
 		return;
 	}

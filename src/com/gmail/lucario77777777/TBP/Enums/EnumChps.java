@@ -34,7 +34,21 @@ public enum EnumChps {
 	NEHEMIAH("Nehemiah", 1, 0),
 	ESTHER("Esther", 1, 0),
 	JOB("Job", 1, 0),
-	PSALMS("Psalms", 1, 0),
+	PSALMS("Psalms", 1, 6, 12, 8, 8, 12, 10, 17, 9, 20, 18),
+	PSALMS2("Psalms", 2, 7, 8, 6, 7, 5, 11, 15, 50, 14, 9),
+	PSALMS3("Psalms", 3, 13, 31, 6, 10, 22, 12, 14, 9, 11, 12),
+	PSALMS4("Psalms", 4, 24, 11, 22, 22, 28, 12, 40, 22, 13, 17),
+	PSALMS5("Psalms", 5, 13, 11, 5, 26, 17, 11, 9, 14, 20, 23),
+	PSALMS6("Psalms", 6, 19, 9, 6, 7, 23, 13, 11, 11, 17, 12),
+	PSALMS7("Psalms", 7, 8, 12, 11, 10, 13, 20, 7, 35, 36, 5),
+	PSALMS8("Psalms", 8, 24, 20, 28, 23, 10, 12, 20, 72, 13, 19),
+	PSALMS9("Psalms", 9, 16, 8, 18, 12, 13, 17, 7, 18, 52, 17),
+	PSALMS10("Psalms", 10, 16, 15, 5, 23, 11, 13, 12, 9, 9, 5),
+	PSALMS11("Psalms", 11, 8, 28, 22, 35, 45, 48, 43, 13, 31, 7),
+	PSALMS12("Psalms", 12, 10, 10, 9, 8, 18, 19, 2, 29, 176, 7),
+	PSALMS13("Psalms", 13, 8, 9, 4, 8, 5, 6, 5, 6, 8, 8),
+	PSALMS14("Psalms", 14, 3, 18, 3, 3, 21, 26, 9, 8, 24, 13),
+	PSALMS15("Psalms", 15, 10, 7, 12, 15, 21, 10, 20, 14, 9, 6),
 	PROVERBS("Proverbs", 1, 0),
 	ECCLESIASTES("Ecclesiastes", 1, 0),
 	SONGOFSONGS("SongofSongs", 1, 0),
@@ -224,32 +238,46 @@ public enum EnumChps {
 		EnumChps echp = this;
 		if(i > 10 && i <= 20){
 			echp = switchChp(this.book, 2);
+			i = i - 10;
 		}else if(i > 20 && i <= 30){
 			echp = switchChp(this.book, 3);
+			i = i - 20;
 		}else if(i > 30 && i <= 40){
 			echp = switchChp(this.book, 4);
+			i = i - 30;
 		}else if(i > 40 && i <= 50){
 			echp = switchChp(this.book, 5);
+			i = i - 40;
 		}else if(i > 50 && i <= 60){
 			echp = switchChp(this.book, 6);
+			i = i - 50;
 		}else if(i > 60 && i <= 70){
 			echp = switchChp(this.book, 7);
+			i = i - 60;
 		}else if(i > 70 && i <= 80){
 			echp = switchChp(this.book, 8);
+			i = i - 70;
 		}else if(i > 80 && i <= 90){
 			echp = switchChp(this.book, 9);
+			i = i - 80;
 		}else if(i > 90 && i <= 100){
 			echp = switchChp(this.book, 10);
+			i = i - 90;
 		}else if(i > 100 && i <= 110){
 			echp = switchChp(this.book, 11);
+			i = i - 100;
 		}else if(i > 110 && i <= 120){
 			echp = switchChp(this.book, 12);
+			i = i - 110;
 		}else if(i > 120 && i <= 130){
 			echp = switchChp(this.book, 13);
+			i = i - 120;
 		}else if(i > 130 && i <= 140){
 			echp = switchChp(this.book, 14);
+			i = i - 130;
 		}else if(i > 140 && i <= 150){
 			echp = switchChp(this.book, 15);
+			i = i - 140;
 		}
 		if(i == 1){
 			return echp.chp1;
@@ -290,7 +318,7 @@ public enum EnumChps {
 	public EnumChps fromString(String command) {
 	    if (command != null) {
 	      for (EnumChps c : EnumChps.values()) {
-	        if (command.equalsIgnoreCase(c.getBook())) {
+	        if (command.equalsIgnoreCase(c.getBook()) && c.getPart() == 1) {
 	          return c;
 	        }
 	      }

@@ -16,11 +16,14 @@ public class Book{
 	public static boolean Run(TB plugin, CommandSender sender, String tran, String bookName, String part,
 			String type, String p)
 	{
+		String pName = null;
 		Player player = null;
 		if(type == "get"){
 			player = (Player) sender;
+			pName = player.getName();
 		}else if(type == "send"){
 			player = sender.getServer().getPlayer(p);
+			pName = player.getName();
 		}
 		if(plugin.getigBook(tran).getString(bookName + "Book" + part + "." + 1) == null){
 			sender.sendMessage(ChatColor.RED + "That book does not exist.");
@@ -30,10 +33,10 @@ public class Book{
 		book = book.fromString(bookName.toUpperCase());
 		String author = book.getAuthor();
 		String igbookName = book.getBook();
-		igbookName.replace("1", "1 ");
-		igbookName.replace("2", "2 ");
-		igbookName.replace("3", "3 ");
-		igbookName.replace("SongofSongs", "Song of Songs");
+		igbookName = igbookName.replace("1", "1 ");
+		igbookName = igbookName.replace("2", "2 ");
+		igbookName = igbookName.replace("3", "3 ");
+		igbookName = igbookName.replace("SongofSongs", "Song of Songs");
 		book = null;
 		ItemStack igbook = new ItemStack(Material.WRITTEN_BOOK, 1);
 		
@@ -58,6 +61,7 @@ public class Book{
 		igbook.setItemMeta(meta);
 		if(player != null){
 			player.getInventory().addItem(igbook);
+			MainCommandExecutor.savepRecs("book", pName, tran, bookName, part, null, part);
 		}else{
 			sender.sendMessage(ChatColor.RED + p + " is not online!");
 		}
@@ -74,22 +78,7 @@ public class Book{
 		sender.sendMessage(ChatColor.GREEN + bookName + " part " + part + " contains " + bookName + " " + start + 
 				"-" + end + ".");
 	}
-
-	public static void next(TB plugin, CommandSender sender, String tran, String bookName, String part,
-			String type, String p) {
-		int bN = Integer.parseInt(part) + 1;
-		String pNum = "";
-		EnumBooks ebook = EnumBooks.GENESIS;
-		String newBook = bookName;
-		if(plugin.getigBook(tran).contains(bookName + "Book" + bN) == true){
-			pNum = String.valueOf(bN);
-		}else{
-			newBook = ebook.numtoBook(0, "string", "raise", bookName);
-			pNum = "1";
-		}
-		Run(plugin, sender, tran, newBook, pNum, type, p);
-	}
-
+	
 	public static void previous(TB plugin, CommandSender sender, String tran, String bookName, String part,
 			String type, String p) {
 		int bN = Integer.parseInt(part) - 1;
@@ -100,6 +89,21 @@ public class Book{
 			pNum = String.valueOf(bN);
 		}else{
 			newBook = ebook.numtoBook(0, "string", "lower", bookName);
+			pNum = "1";
+		}
+		Run(plugin, sender, tran, newBook, pNum, type, p);
+	}
+	
+	public static void next(TB plugin, CommandSender sender, String tran, String bookName, String part,
+			String type, String p) {
+		int bN = Integer.parseInt(part) + 1;
+		String pNum = "";
+		EnumBooks ebook = EnumBooks.GENESIS;
+		String newBook = bookName;
+		if(plugin.getigBook(tran).contains(bookName + "Book" + bN) == true){
+			pNum = String.valueOf(bN);
+		}else{
+			newBook = ebook.numtoBook(0, "string", "raise", bookName);
 			pNum = "1";
 		}
 		Run(plugin, sender, tran, newBook, pNum, type, p);

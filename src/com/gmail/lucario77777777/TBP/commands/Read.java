@@ -13,8 +13,15 @@ public class Read{
 		String pName = sender.getName();
 		if(args.length >= 2){
 			try{
-				if(args[1].equalsIgnoreCase("#") || args[1].equalsIgnoreCase("?")
-						|| args[1].equalsIgnoreCase("info") || Integer.parseInt(args[1]) <= book.getChp()){
+				if(args[1].equalsIgnoreCase("#")){
+					sender.sendMessage(ChatColor.GREEN + book.getBook() + " has " + book.getChp() + 
+							" chapters.");
+					return;
+				}else if(args[1].equalsIgnoreCase("?") || args[1].equalsIgnoreCase("info")){
+					sender.sendMessage(ChatColor.GREEN + book.getBook() + " is " + book.getDesc() + ". It " +
+							"was written by " + book.getAuthor() + ". It has " + book.getChp() + " chapters.");
+					return;
+				}else if(Integer.parseInt(args[1]) <= book.getChp()){
 					echp = echp.fromString(book.getBook());
 					chp = args[1];
 				}else{
@@ -29,8 +36,11 @@ public class Read{
 			if(args.length >= 3){
 				try{
 					if(args[2].equalsIgnoreCase("#") || args[2].equalsIgnoreCase("?") ||
-						args[2].equalsIgnoreCase("info") || 
-						Integer.parseInt(args[2]) <= echp.getNum(Integer.parseInt(args[1]))){
+						args[2].equalsIgnoreCase("info")){
+						sender.sendMessage(ChatColor.GREEN + book.getBook() + " Chapter " + chp + " has " +
+						echp.getNum(Integer.parseInt(chp)) + " verses.");
+						return;
+					}else if(Integer.parseInt(args[2]) <= echp.getNum(Integer.parseInt(args[1]))){
 						v = args[2];
 					}else{
 						sender.sendMessage(ChatColor.RED + "Sorry, that verse does not exist " +
