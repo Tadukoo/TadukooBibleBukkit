@@ -79,7 +79,7 @@ public class GetBook {
 				}
 			}
 		}
-		if(ebook.isAvailable(tran) == false){
+		if(!ebook.isAvailable(tran)){
 			sender.sendMessage(ChatColor.RED + bookName + " is not available yet in the " + tran + 
 					"translation.");
 			return;

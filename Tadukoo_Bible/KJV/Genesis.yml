@@ -1,10 +1,7 @@
-GenInfo: 'Genesis tells about Creation up through the time the Israelites go to Egypt. It was written by Moses. It has 50 chapters.'
-Gen#: Genesis has 50 chapters.
 ##########################################
 #                                        #
 #              Chapter 1                 #
 ##########################################
-ch1vinfo: Genesis Chapter 1 has 31 verses.
 ch1v1: In the beginning God created the heavens and the earth.
 ch1v2: And the earth was without form, and void and darkness was upon the face of the deep.
 ch1v3: 'And God said, Let there be light: and there was light.'
@@ -61,12 +58,10 @@ ch1v30: 'And to every beast of the earth, and to every fowl of the air, and to e
   thing that creepeth upon the earth, wherein there is life, I have given every green
   herb for meat: and it was so.'
 ch1v31: And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day.
-ch1Lim: 31
 ##########################################
 #                                        #
 #              Chapter 2                 #
 ##########################################
-ch2vinfo: Genesis Chapter 2 has 25 verses.
 ch2v1: Thus the heavens and the earth were finished, and all the host of them.
 ch2v2: And on the seventh day God ended the work which he had made and he rested on the seventh day from all his work which he had made.
 ch2v3: 'And God blessed the seventh day, and sanctified it: because that in it he
@@ -104,12 +99,10 @@ ch2v23: 'And Adam said, This is now bone of my bones, and flesh of my flesh: she
 ch2v24: 'Therefore shall a man leave his father and his mother, and shall cleave unto
   his wife: and they shall be one flesh.'
 ch2v25: And they were both naked, the man and his wife, and were not ashamed.
-ch2Lim: 24
 ##########################################
 #                                        #
 #              Chapter 3                 #
 ##########################################
-ch3vinfo: Genesis Chapter 3 has 24 verses.
 ch3v1: Now the serpent was more subtil than any beast of the field which the LORD God had made. And he said unto the woman, Yea, hath God said, Ye shall not eat of any tree of the garden?
 ch3v2: 'And the woman said unto the serpent, We may eat of the fruit of the trees of the garden:'
 ch3v3: But of the fruit of the tree which is in the midst of the garden, God hath said, Ye shall not eat of it, neither shall ye touch it, lest ye die.
@@ -134,12 +127,10 @@ ch3v21: Unto Adam also and to his wife did the LORD God make coats of skins, and
 ch3v22: 'And the LORD God said, Behold, the man is become as one of us, to know good and evil: and now, lest he put forth his hand, and take also of the tree of life, and eat, and live for ever:'
 ch3v23: Therefore the LORD God sent him forth from the garden of Eden, to till the ground from whence he was taken.
 ch3v24: So he drove out the man and he placed at the east of the garden of Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life.
-ch3Lim: 24
 ##########################################
 #                                        #
 #              Chapter 4                 #
 ##########################################
-ch4vinfo: Genesis Chapter 4 has 26 verses.
 ch4v1: And Adam knew Eve his wife; and she conceived, and bare Cain, and said, I have gotten a man from the LORD
 ch4v2: And she again bare his brother Abel. And Abel was a keeper of sheep, but Cain was a tiller of the ground.
 ch4v3: And in process of time it came to pass, that Cain brought of the fruit of the ground an offering unto the LORD.
@@ -166,12 +157,10 @@ ch4v23: And Lamech said unto his wives, Adah and Zillah, Hear my voice; ye wives
 ch4v24: If Cain shall be avenged sevenfold, truly Lamech seventy and sevenfold.
 ch4v25: 'And Adam knew his wife again; and she bare a son, and called his name Seth: For God, said she, hath appointed me another seed instead of Abel, whom Cain slew.'
 ch4v26: 'And to Seth, to him also there was born a son; and he called his name Enos: then began men to call upon the name of the LORD.'
-ch4Lim: 26
 ##########################################
 #                                        #
 #              Chapter 5                 #
 ##########################################
-ch5vinfo: Genesis Chapter 5 has 32 verses.
 ch5v1: This is the book of the generations of Adam. In the day that God created man, in the likeness of God made he him;
 ch5v2: Male and female created he them; and blessed them, and called their name Adam, in the day when they were created.
 ch5v3: 'And Adam lived an hundred and thirty years, and begat a son in his own likeness, after his image; and called his name Seth:'
@@ -204,12 +193,10 @@ ch5v29: And he called his name Noah, saying, This same shall comfort us concerni
 ch5v30: 'And Lamech lived after he begat Noah five hundred ninety and five years, and begat sons and daughters:'
 ch5v31: 'And all the days of Lamech were seven hundred seventy and seven years: and he died.'
 ch5v32: 'And Noah was five hundred years old: and Noah begat Shem, Ham, and Japheth.'
-ch5Lim: 32
 ##########################################
 #                                        #
 #              Chapter 6                 #
 ##########################################
-ch6vinfo: Genesis Chapter 6 has 22 verses.
 ch6v1: And it came to pass, when men began to multiply on the face of the earth, and daughters were born unto them,
 ch6v2: That the sons of God saw tha daughters of men that they were fair; and they took them wives of all which they chose.
 ch6v3: 'And the LORD said, My spirit shall not always strive with man, for that he also is flesh: yet his days shall be an hundred and twenty years.'
@@ -232,12 +219,10 @@ ch6v19: And of every living thing of all flesh, two of every sort shalt thou bri
 ch6v20: Of fowls after their kind, and of cattle after their kind, of every creeping thing of the earth after his kind, two of every sort shall come unto thee, to keep them alive.
 ch6v21: And take thou unto thee of all food that is eaten, and thou shalt gather it to thee; and it shall be for food for thee, and for them.
 ch6v22: Thus did Noah; according to all that God commanded him, so did he.
-ch6Lim: 22
 ##########################################
 #                                        #
 #              Chapter 7                 #
 ##########################################
-ch7vinfo: Genesis Chapter 7 has 24 verses.
 ch7v1: And the LORD said unto Noah, Come thou and all thy house into the ark; for thee have I seen righteous before me in this generation.
 ch7v2: 'Of every clean beast thou shalt take to thee by sevens, the male and his female: and of beasts that are not clean by two, the male and his female.'
 ch7v3: Of fowls also of the air by sevens, the male and the female; to keep seed alive upon the face of all the earth.
@@ -262,12 +247,10 @@ ch7v21: 'And all flesh died that moved upon the earth, both of fowl, and of catt
 ch7v22: All in whose nostrils was the breath of life, of all that was in the dry land, died.
 ch7v23: 'And every living subtance was destroyed which was upon the face of the ground, both man, and cattle, and the creeping things, and the fowl of heaven; and they were destroyed from the earth: and Noah only remained alive, and they that were with him in the ark.'
 ch7v24: And the waters prevailed upon the earth an hundred and fifty days.
-ch7Lim: 24
 ##########################################
 #                                        #
 #              Chapter 8                 #
 ##########################################
-ch8vinfo: Genesis Chapter 8 has 22 verses.
 ch8v1: 'And God remembered Noah, and every living thing, and all the cattle that was with him in the ark: and God made a wind to pass over the earth, and the waters asswaged;'
 ch8v2: The fountains also of the deep and the windows of heaven were stopped, and the rain from heaven was restrained;
 ch8v3: 'And the waters returned from off the earth continually: and after the end of the hundred and fifty days the waters were abated.'
@@ -290,12 +273,10 @@ ch8v19: Every beast, every creeping thing, and every fowl, and whatsoever creepe
 ch8v20: And Noah builded an altar unto the Lord; and took of every clean beast, and of every clean fowl, and offered burnt offerings on the altar.
 ch8v21: And the Lord smelled a sweet savour; and the Lord said in his heart, I will not again curse the ground any more for man's sake; for the imagination of man's heart is evil from his youth; neither will I again smite any more every thing living, as I have done.
 ch8v22: While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease.
-ch8Lim: 22
 ##########################################
 #                                        #
 #              Chapter 9                 #
 ##########################################
-ch9vinfo: Genesis Chapter 9 has 29 verses.
 ch9v1: And God blessed Noah and his sons, and said unto them, Be fruitful, and multiply, and replenish the earth.
 ch9v2: And the fear of you and the dread of you shall be upon every beast of the earth, and upon every fowl of the air, upon all that moveth upon the earth, and upon all the fishes of the sea; into your hand are they delivered.
 ch9v3: Every moving thing that liveth shall be meat for you; even as the green herb have I given you all things.
@@ -325,12 +306,10 @@ ch9v26: And he said, Blessed be the Lord God of Shem; and Canaan shall be his se
 ch9v27: God shall enlarge Japheth, and he shall dwell in the tents of Shem; and "Canaan shall be his servant.
 ch9v28: And Noah lived after the flood three hundred and fifty years.
 ch9v29: 'And all the days of Noah were nine hundred and fifty years: and he died.'
-ch9Lim: 29
 ##########################################
 #                                        #
 #              Chapter 10                #
 ##########################################
-ch10vinfo: Genesis Chapter 10 has 32 verses.
 ch10v1: 'Now these are the generations of the sons of Noah, Shem, Ham, and Japheth: and unto them were sons born after the flood.'
 ch10v2: The sons of Japheth; Gomer, and Magog, and Madai, and Javan, and Tubal, and Meshech, and Tiras.
 ch10v3: And the sons of Gomer; Ashkenaz, and Riphath, and Togarmah.
@@ -363,12 +342,10 @@ ch10v29: 'And Ophir, and Havilah, and Jobab: all these were the sons of Joktan.'
 ch10v30: And their dwelling was from Mesha, as thou goest unto Sephar a mount of the east.
 ch10v31: These are the sons of Shem, after their families, after their tongues, in their lands, after their nations.
 ch10v32: 'These are the families of the sons of Noah, after their generations, in their nations: and by these were the nations divided in the earth after the flood.'
-ch10Lim: 32
 ##########################################
 #                                        #
 #              Chapter 11                #
 ##########################################
-ch11vinfo: Genesis Chapter 11 has 32 verses.
 ch11v1: And the whole earth was of one language, and of one speech.
 ch11v2: And it came to pass, as they journeyed from the east, that they found a plain in the land of Shinar; and they dwelt there.
 ch11v3: And they said one to another, Go to, let us make brick, and burn them thoroughly. And they had brick for stone, and slime had they for morter.
@@ -401,12 +378,10 @@ ch11v29: 'And Abram and Nahor took them wives: the name of Abram''s wife was Sar
 ch11v30: But Sarai was barren; she had no child.
 ch11v31: And Terah took Abram his son, and Lot the son of Haran his son's son, and Sarai his daughter in law, his son Abram's wife; and they went forth with them from Ur of the Chaldees, to go into the land of Canaan; and they came unto Haran, and dwelt there.
 ch11v32: 'And the days of Terah were two hundred and five years: and Terah died in Haran.'
-ch11Lim: 32
 ##########################################
 #                                        #
 #              Chapter 12                #
 ##########################################
-ch12vinfo: Genesis Chapter 12 has 20 verses.
 ch12v1: 'Now the Lord had said unto Abram, Get thee out of thy country, and from thy kindred, and from thy father''s house, unto a land that I will shew thee:'
 ch12v2: 'And I will make of thee a great nation, and I will bless thee, and make thy name great; and thou shalt be a blessing:'
 ch12v3: 'And I will bless them that bless thee, and curse him that curseth thee: and "in thee shall all families of the earth be blessed.'
@@ -427,12 +402,10 @@ ch12v17: And the Lord plagued Pharaoh and his house with great plagues because o
 ch12v18: And Pharaoh called Abram and said, What is this that thou hast done unto me? why didst thou not tell me that she was thy wife?
 ch12v19: 'Why saidst thou, She is my sister? so I might have taken her to me to wife: now therefore behold thy wife, take her, and go thy way.'
 ch12v20: 'And Pharaoh commanded his men concerning him: and they sent him away, and his wife, and all that he had.'
-ch12Lim: 20
 ##########################################
 #                                        #
 #              Chapter 13                #
 ##########################################
-ch13vinfo: Genesis Chapter 13 has 18 verses.
 ch13v1: And Abram went up out of Egypt, he, and his wife, and all that he had, and Lot with him, into the south.
 ch13v2: And Abram was very rich in cattle, in silver, and in gold.
 ch13v3: And he went on his journeys from the south even to Bethel, unto the place where his tent had been at the beginning, between Bethel and Hai;
@@ -451,12 +424,10 @@ ch13v15: For all the land which thou seest, to thee will I give it, and to thy s
 ch13v16: 'And I will make thy seed as the dust of the earth: so that if a man can number the dust of the earth, then shall thy seed also be numbered.'
 ch13v17: Arise, walk through the land in the length of it and in the breadth of it; for I will give it unto thee.
 ch13v18: Then Abram removed his tent, and came and dwelt in the plain of Mamre, which is in Hebron, and built there an altar unto the Lord.
-ch13Lim: 18
 ##########################################
 #                                        #
 #              Chapter 14                #
 ##########################################
-ch14vinfo: Genesis Chapter 14 has 24 verses.
 ch14v1: And it came to pass in the days of Amraphel king of Shinar, Arioch king of Ellasar, Chedorlaomer king of Elam, and Tidal king of nations;
 ch14v2: That these made war with Bera king of Sodom, and with Birsha king of Gomorrah, Shinab king of Admah, and Shemeber king of Zeboiim, and the king of Bela, which is Zoar.
 ch14v3: All these were joined together in the vale of Siddim, which is the salt sea.
@@ -481,12 +452,10 @@ ch14v21: And the king of Sodom said unto Abram, Give me the persons, and take th
 ch14v22: And Abram said to the king of Sodom, I have lift up mine hand unto the Lord, the most high God, the possessor of heaven and earth,
 ch14v23: 'That I will not take from a thread even to a shoelatchet, and that I will not take any thing that is thine, lest thou shouldest say, I have made Abram rich:'
 ch14v24: Save only that which the young men have eaten, and the portion of the men which went with me, Aner, Eshcol, and Mamre; let them take their portion.
-ch14Lim: 24
 ##########################################
 #                                        #
 #              Chapter 15                #
 ##########################################
-ch15vinfo: Genesis Chapter 15 has 21 verses.
 ch15v1: 'After these things the word of the Lord came unto Abram in a vision, saying, Fear not, Abram: I am thy shield, and thy exceeding great reward.'
 ch15v2: And Abram said, Lord God, what wilt thou give me, seeing I go childless, and the steward of my house is this Eliezer of Damascus?
 ch15v3: 'And Abram said, Behold, to me thou hast given no seed: and, lo, one born in my house is mine heir.'
@@ -508,12 +477,10 @@ ch15v18: 'In the same day the Lord made a covenant with Abram, saying, Unto thy 
 ch15v19: The Kenites, and the Kenizzites, and the Kadmonites,
 ch15v20: And the Hittites, and the Perizzites, and the Rephaims,
 ch15v21: And the Amorites, and the Canaanites, and the Girgashites, and the Jebusites.
-ch15Lim: 21
 ##########################################
 #                                        #
 #              Chapter 16                #
 ##########################################
-ch16vinfo: Genesis Chapter 16 has 16 verses.
 ch16v1: 'Now Sarai Abram''s wife bare him no children: and she had an handmaid, an Egyptian, whose name was Hagar.'
 ch16v2: 'And Sarai said unto Abram, Behold now, the Lord hath restrained me from bearing: I pray thee, go in unto my maid; it may be that I may obtain children by her. And Abram hearkened to the voice of Sarai.'
 ch16v3: And Sarai Abram's wife took Hagar her maid the Egyptian, after Abram had dwelt ten years in the land of Canaan, and gave her to her husband Abram to be his wife.
@@ -530,12 +497,10 @@ ch16v13: 'And she called the name of the Lord that spake unto her, Thou God sees
 ch16v14: Wherefore the well was called Beerlahairoi; behold, it is between Kadesh and Bered.
 ch16v15: 'And Hagar bare Abram a son: and Abram called his son''s name, which Hagar bare, Ishmael.'
 ch16v16: And Abram was fourscore and six years old, when Hagar bare Ishmael to Abram.
-ch16Lim: 16
 ##########################################
 #                                        #
 #              Chapter 17                #
 ##########################################
-ch17vinfo: Genesis Chapter 17 has 27 verses.
 ch17v1: And when Abram was ninety years old and nine, the Lord appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect.
 ch17v2: And I will make my covenant between me and thee, and will multiply thee exceedingly.
 ch17v3: 'And Abram fell on his face: and God talked with him, saying,'
@@ -563,12 +528,10 @@ ch17v24: And Abraham was ninety years old and nine, when he was circumcised in t
 ch17v25: And Ishmael his son was thirteen years old, when he was circumcised in the flesh of his foreskin.
 ch17v26: In the selfsame day was Abraham circumcised, and Ishmael his son.
 ch17v27: And all the men of his house, born in the house, and bought with money of the stranger, were circumcised with him.
-ch17Lim: 27
 ##########################################
 #                                        #
 #              Chapter 18                #
 ##########################################
-ch18vinfo: Genesis Chapter 18 has 33 verses.
 ch18v1: 'And the Lord appeared unto him in the plains of Mamre: and he sat in the tent door in the heat of the day;'
 ch18v2: 'And he lift up his eyes and looked, and, lo, three men stood by him: and when he saw them, he ran to meet them from the tent door, and bowed himself toward the ground,'
 ch18v3: 'And said, My Lord, if now I have found favour in thy sight, pass not away, I pray thee, from thy servant:'
@@ -602,12 +565,10 @@ ch18v30: 'And he said unto him, Oh let not the Lord be angry, and I will speak: 
 ch18v31: 'And he said, Behold now, I have taken upon me to speak unto the Lord: Peradventure there shall be twenty found there. And he said, I will not destroy it for twenty''s sake.'
 ch18v32: 'And he said, Oh let not the Lord be angry, and I will speak yet but this once: Peradventure ten shall be found there. And he said, I will not destroy it for ten''s sake.'
 ch18v33: 'And the Lord went his way, as soon as he had left communing with Abraham: and Abraham returned unto his place.'
-ch18Lim: 33
 ##########################################
 #                                        #
 #              Chapter 19                #
 ##########################################
-ch19vinfo: Genesis Chapter 19 has 38 verses.
 ch19v1: 'And there came two angels to Sodom at even; and Lot sat in the gate of Sodom: and Lot seeing them rose up to meet them; and he bowed himself with his face toward the ground;'
 ch19v2: And he said, Behold now, my lords, turn in, I pray you, into your servant's house, and tarry all night, and wash your feet, and ye shall rise up early, and go on your ways. And they said, Nay; but we will abide in the street all night.
 ch19v3: And he pressed upon them greatly; and they turned in unto him, and entered into his house; and he made them a feast, and did bake unleavened bread, and they did eat.
@@ -646,12 +607,10 @@ ch19v35: 'And they made their father drink wine that night also: and the younger
 ch19v36: Thus were both the daughters of Lot with child by their father.
 ch19v37: 'And the first born bare a son, and called his name Moab: the same is the father of the Moabites unto this day.'
 ch19v38: 'And the younger, she also bare a son, and called his name Benammi: the same is the father of the children of Ammon unto this day.'
-ch19Lim: 38
 ##########################################
 #                                        #
 #              Chapter 20                #
 ##########################################
-ch20vinfo: Genesis Chapter 20 has 18 verses.
 ch20v1: And Abraham journeyed from thence toward the south country, and dwelled between Kadesh and Shur, and sojourned in Gerar.
 ch20v2: 'And Abraham said of Sarah his wife, She is my sister: and Abimelech king of Gerar sent, and took Sarah.'
 ch20v3: But God came to Abimelech in a dream by night, and said to him, Behold, thou art but a dead man, for the woman which thou hast taken; for she is a man's wife.
@@ -670,12 +629,10 @@ ch20v15: 'And Abimelech said, Behold, my land is before thee: dwell where it ple
 ch20v16: 'And unto Sarah he said, Behold, I have given thy brother a thousand pieces of silver: behold, he is to thee a covering of the eyes, unto all that are with thee, and with all other: thus she was reproved.'
 ch20v17: 'So Abraham prayed unto God: and God healed Abimelech, and his wife, and his maidservants; and they bare children.'
 ch20v18: For the Lord had fast closed up all the wombs of the house of Abimelech, because of Sarah Abraham's wife.
-ch20Lim: 18
 ##########################################
 #                                        #
 #              Chapter 21                #
 ##########################################
-ch21vinfo: Genesis Chapter 21 has 34 verses.
 ch21v1: And the Lord visited Sarah as he had said, and the Lord did unto Sarah as he had spoken.
 ch21v2: For Sarah conceived, and bare Abraham a son in his old age, at the set time of which God had spoken to him.
 ch21v3: And Abraham called the name of his son that was born unto him, whom Sarah bare to him, Isaac.
@@ -710,12 +667,10 @@ ch21v31: Wherefore he called that place Beersheba; because there they sware both
 ch21v32: 'Thus they made a covenant at Beersheba: then Abimelech rose up, and Phichol the chief captain of his host, and they returned into the land of the Philistines.'
 ch21v33: And Abraham planted a grove in Beersheba, and called there on the name of the Lord, the everlasting God.
 ch21v34: And Abraham sojourned in the Philistines' land many days.
-ch21Lim: 34
 ##########################################
 #                                        #
 #              Chapter 22                #
 ##########################################
-ch22vinfo: Genesis Chapter 22 has 24 verses.
 ch22v1: 'And it came to pass after these things, that God did tempt Abraham, and said unto him, Abraham: and he said, Behold, here I am.'
 ch22v2: And he said, Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of.
 ch22v3: And Abraham rose up early in the morning, and saddled his ass, and took two of his young men with him, and Isaac his son, and clave the wood for the burnt offering, and rose up, and went unto the place of which God had told him.
@@ -740,12 +695,10 @@ ch22v21: Huz his firstborn, and Buz his brother, and Kemuel the father of Aram,
 ch22v22: And Chesed, and Hazo, and Pildash, and Jidlaph, and Bethuel.
 ch22v23: 'And Bethuel begat Rebekah: these eight Milcah did bear to Nahor, Abraham''s brother.'
 ch22v24: And his concubine, whose name was Reumah, she bare also Tebah, and Gaham, and Thahash, and Maachah.
-ch22Lim: 24
 ##########################################
 #                                        #
 #              Chapter 23                #
 ##########################################
-ch23vinfo: Genesis Chapter 23 has 20 verses.
 ch23v1: 'And Sarah was an hundred and seven and twenty years old: these were the years of the life of Sarah.'
 ch23v2: 'And Sarah died in Kirjatharba; the same is Hebron in the land of Canaan: and Abraham came to mourn for Sarah, and to weep for her.'
 ch23v3: And Abraham stood up from before his dead, and spake unto the sons of Heth, saying,
@@ -766,12 +719,10 @@ ch23v17: And the field of Ephron which was in Machpelah, which was before Mamre,
 ch23v18: Unto Abraham for a possession in the presence of the children of Heth, before all that went in at the gate of his city.
 ch23v19: 'And after this, Abraham buried Sarah his wife in the cave of the field of Machpelah before Mamre: the same is Hebron in the land of Canaan.'
 ch23v20: And the field, and the cave that is therein, were made sure unto Abraham for a possession of a buryingplace by the sons of Heth.
-ch23Lim: 20
 ##########################################
 #                                        #
 #              Chapter 24                #
 ##########################################
-ch24vinfo: Genesis Chapter 24 has 67 verses.
 ch24v1: 'And Abraham was old, and well stricken in age: and the Lord had blessed Abraham in all things.'
 ch24v2: 'And Abraham said unto his eldest servant of his house, that ruled over all that he had, Put, I pray thee, thy hand under my thigh:'
 ch24v3: 'And I will make thee swear by the Lord, the God of heaven, and the God of the earth, that thou shalt not take a wife unto my son of the daughters of the Canaanites, among whom I dwell:'
@@ -839,12 +790,10 @@ ch24v64: And Rebekah lifted up her eyes, and when she saw Isaac, she lighted off
 ch24v65: 'For she had said unto the servant, What man is this that walketh in the field to meet us? And the servant had said, It is my master: therefore she took a vail, and covered herself.'
 ch24v66: And the servant told Isaac all things that he had done.
 ch24v67: 'And Isaac brought her into his mother Sarah''s tent, and took Rebekah, and she became his wife; and he loved her: and Isaac was comforted after his mother''s death.'
-ch24Lim: 67
 ##########################################
 #                                        #
 #              Chapter 25                #
 ##########################################
-ch25vinfo: Genesis Chapter 25 has 34 verses.
 ch25v1: Then again Abraham took a wife, and her name was Keturah.
 ch25v2: And she bare him Zimran, and Jokshan, and Medan, and Midian, and Ishbak, and Shuah.
 ch25v3: And Jokshan begat Sheba, and Dedan. And the sons of Dedan were Asshurim, and Letushim, and Leummim.
@@ -879,12 +828,10 @@ ch25v31: And Jacob said, Sell me this day thy birthright.
 ch25v32: 'And Esau said, Behold, I am at the point to die: and what profit shall this birthright do to me?'
 ch25v33: 'And Jacob said, Swear to me this day; and he sware unto him: and he sold his birthright unto Jacob.'
 ch25v34: 'Then Jacob gave Esau bread and pottage of lentiles; and he did eat and drink, and rose up, and went his way: thus Esau despised his birthright.'
-ch25Lim: 34
 ##########################################
 #                                        #
 #              Chapter 26                #
 ##########################################
-ch26vinfo: Genesis Chapter 26 has 35 verses.
 ch26v1: And there was a famine in the land, beside the first famine that was in the days of Abraham. And Isaac went unto Abimelech king of the Philistines unto Gerar.
 ch26v2: 'And the Lord appeared unto him, and said, Go not down into Egypt; dwell in the land which I shall tell thee of:'
 ch26v3: Sojourn in this land, and I will be with thee, and will bless thee; for unto thee, and unto thy seed, I will give all these countries, and I will perform the oath which I sware unto Abraham thy father;
@@ -920,12 +867,10 @@ ch26v32: And it came to pass the same day, that Isaac's servants came, and told 
 ch26v33: 'And he called it Shebah: therefore the name of the city is Beersheba unto this day.'
 ch26v34: 'And Esau was forty years old when he took to wife Judith the daughter of Beeri the Hittite, and Bashemath the daughter of Elon the Hittite:'
 ch26v35: Which were a grief of mind unto Isaac and to Rebekah.
-ch26Lim: 35
 ##########################################
 #                                        #
 #              Chapter 27                #
 ##########################################
-ch27vinfo: Genesis Chapter 27 has 46 verses.
 ch27v1: 'And it came to pass, that when Isaac was old, and his eyes were dim, so that he could not see, he called Esau his eldest son, and said unto him, My son: and he said unto him, Behold, here am I.'
 ch27v2: 'And he said, Behold now, I am old, I know not the day of my death:'
 ch27v3: Now therefore take, I pray thee, thy weapons, thy quiver and thy bow, and go out to the field, and take me some venison;
@@ -972,12 +917,10 @@ ch27v43: Now therefore, my son, obey my voice; arise, flee thou to Laban my brot
 ch27v44: And tarry with him a few days, until thy brother's fury turn away;
 ch27v45: 'Until thy brother''s anger turn away from thee, and he forget that which thou hast done to him: then I will send, and fetch thee from thence: why should I be deprived also of you both in one day?'
 ch27v46: 'And Rebekah said to Isaac, I am weary of my life because of the daughters of Heth: if Jacob take a wife of the daughters of Heth, such as these which are of the daughters of the land, what good shall my life do me?'
-ch27Lim: 46
 ##########################################
 #                                        #
 #              Chapter 28                #
 ##########################################
-ch28vinfo: Genesis Chapter 28 has 22 verses.
 ch28v1: And Isaac called Jacob, and blessed him, and charged him, and said unto him, Thou shalt not take a wife of the daughters of Canaan.
 ch28v2: Arise, go to Padanaram, to the house of Bethuel thy mother's father; and take thee a wife from thence of the daughers of Laban thy mother's brother.
 ch28v3: And God Almighty bless thee, and make thee fruitful, and multiply thee, that thou mayest be a multitude of people;
@@ -1000,12 +943,10 @@ ch28v19: 'And he called the name of that place Bethel: but the name of that city
 ch28v20: And Jacob vowed a vow, saying, If God will be with me, and will keep me in this way that I go, and will give me bread to eat, and raiment to put on,
 ch28v21: 'So that I come again to my father''s house in peace; then shall the Lord be my God:'
 ch28v22: 'And this stone, which I have set for a pillar, shall be God''s house: and of all that thou shalt give me I will surely give the tenth unto thee.'
-ch28Lim: 22
 ##########################################
 #                                        #
 #              Chapter 29                #
 ##########################################
-ch29vinfo: Genesis Chapter 29 has 35 verses.
 ch29v1: Then Jacob went on his journey, and came into the land of the people of the east.
 ch29v2: 'And he looked, and behold a well in the field, and, lo, there were three flocks of sheep lying by it; for out of that well they watered the flocks: and a great stone was upon the well''s mouth.'
 ch29v3: 'And thither were all the flocks gathered: and they rolled the stone from the well''s mouth, and watered the sheep, and put the stone again upon the well''s mouth in his place.'
@@ -1041,12 +982,10 @@ ch29v32: 'And Leah conceived, and bare a son, and she called his name Reuben: fo
 ch29v33: 'And she conceived again, and bare a son; and said, Because the Lord hath heard I was hated, he hath therefore given me this son also: and she called his name Simeon.'
 ch29v34: 'And she conceived again, and bare a son; and said, Now this time will my husband be joined unto me, because I have born him three sons: therefore was his name called Levi.'
 ch29v35: 'And she conceived again, and bare a son: and she said, Now will I praise the Lord: therefore she called his name Judah; and left bearing.'
-ch29Lim: 35
 ##########################################
 #                                        #
 #              Chapter 30                #
 ##########################################
-ch30vinfo: Genesis Chapter 30 has 43 verses.
 ch30v1: And when Rachel saw that she bare Jacob no children, Rachel envied her sister; and said unto Jacob, Give me children, or else I die.
 ch30v2: 'And Jacob''s anger was kindled against Rachel: and he said, Am I in God''s stead, who hath withheld from thee the fruit of the womb?'
 ch30v3: And she said, Behold my maid Bilhah, go in unto her; and she shall bear upon my knees, that I may also have children by her.
@@ -1090,12 +1029,10 @@ ch30v40: And Jacob did separate the lambs, and set the faces of the flocks towar
 ch30v41: And it came to pass, whensoever the stronger cattle did conceive, that Jacob laid the rods before the eyes of the cattle in the gutters, that they might conceive among the rods.
 ch30v42: 'But when the cattle were feeble, he put them not in: so the feebler were Laban''s, and the stronger Jacob''s.'
 ch30v43: And the man increased exceedingly, and had much cattle, and maidservants, and menservants, and camels, and asses.
-ch30Lim: 43
 ##########################################
 #                                        #
 #              Chapter 31                #
 ##########################################
-ch31vinfo: Genesis Chapter 31 has 55 verses.
 ch31v1: And he heard the words of Laban's sons, saying, Jacob hath taken away all that was our father's; and of that which was our father's hath he gotten all this glory.
 ch31v2: And Jacob beheld the countenance of Laban, and, behold, it was not toward him as before.
 ch31v3: And the Lord said unto Jacob, Return unto the land of thy fathers, and to thy kindred; and I will be with thee.
@@ -1151,12 +1088,10 @@ ch31v52: This heap be witness, and this pillar be witness, that I will not pass 
 ch31v53: The God of Abraham, and the God of Nahor, the God of their father, judge betwixt us. And Jacob sware by the fear of his father Isaac.
 ch31v54: 'Then Jacob offered sacrifice upon the mount, and called his brethren to eat bread: and they did eat bread, and tarried all night in the mount.'
 ch31v55: 'And early in the morning Laban rose up, and kissed his sons and his daughters, and blessed them: and Laban departed, and returned unto his place.'
-ch31Lim: 55
 ##########################################
 #                                        #
 #              Chapter 32                #
 ##########################################
-ch32vinfo: Genesis Chapter 32 has 32 verses.
 ch32v1: And Jacob went on his way, and the angels of God met him.
 ch32v2: 'And when Jacob saw them, he said, This is God''s host: and he called the name of that place Mahanaim.'
 ch32v3: And Jacob sent messengers before him to Esau his brother unto the land of Seir, the country of Edom.
@@ -1189,12 +1124,10 @@ ch32v29: And Jacob asked him, and said, Tell me, I pray thee, thy name. And he s
 ch32v30: 'And Jacob called the name of the place Peniel: for I have seen God face to face, and my life is preserved.'
 ch32v31: And as he passed over Penuel the sun rose upon him, and he halted upon his thigh.
 ch32v32: 'Therefore the children of Israel eat not of the sinew which shrank, which is upon the hollow of the thigh, unto this day: because he touched the hollow of Jacob''s thigh in the sinew that shrank.'
-ch32Lim: 32
 ##########################################
 #                                        #
 #              Chapter 33                #
 ##########################################
-ch33vinfo: Genesis Chapter 33 has 20 verses.
 ch33v1: And Jacob lifted up his eyes, and looked, and, behold, Esau came, and with him four hundred men. And he divided the children unto Leah, and unto Rachel, and unto the two handmaids.
 ch33v2: And he put the handmaids and their children foremost, and Leah and her children after, and Rachel and Joseph hindermost.
 ch33v3: And he passed over before them, and bowed himself to the ground seven times, until he came near to his brother.
@@ -1215,12 +1148,10 @@ ch33v17: 'And Jacob journeyed to Succoth, and built him an house, and made booth
 ch33v18: And Jacob came to Shalem, a city of Shechem, which is in the land of Canaan, when he came from Padanaram; and pitched his tent before the city.
 ch33v19: And he bought a parcel of a field, where he had spread his tent, at the hand of the children of Hamor, Shechem's father, for an hundred pieces of money.
 ch33v20: And he erected there an altar, and called it EleloheIsrael.
-ch33Lim: 20
 ##########################################
 #                                        #
 #              Chapter 34                #
 ##########################################
-ch34vinfo: Genesis Chapter 34 has 31 verses.
 ch34v1: And Dinah the daughter of Leah, which she bare unto Jacob, went out to see the daughters of the land.
 ch34v2: And when Shechem the son of Hamor the Hivite, prince of the country, saw her, he took her, and lay with her, and defiled her.
 ch34v3: And his soul clave unto Dinah the daughter of Jacob, and he loved the damsel, and spake kindly unto the damsel.
@@ -1252,12 +1183,10 @@ ch34v28: They took their sheep, and their oxen, and their asses, and that which 
 ch34v29: And all their wealth, and all their little ones, and their wives took they captive, and spoiled even all that was in the house.
 ch34v30: 'And Jacob said to Simeon and Levi, Ye have troubled me to make me to stink among the inhabitants of the land, among the Canaanites and the Perizzites: and I being few in number, they shall gather themselves together against me, and slay me; and I shall be destroyed, I and my house.'
 ch34v31: And they said, Should he deal with our sister as with an harlot?
-ch34Lim: 31
 ##########################################
 #                                        #
 #              Chapter 35                #
 ##########################################
-ch35vinfo: Genesis Chapter 35 has 29 verses.
 ch35v1: 'And God said unto Jacob, Arise, go up to Bethel, and dwell there: and make there an altar unto God, that appeared unto thee when thou fleddest from the face of Esau thy brother.'
 ch35v2: 'Then Jacob said unto his household, and to all that were with him, Put away the strange gods that are among you, and be clean, and change your garments:'
 ch35v3: And let us arise, and go up to Bethel; and I will make there an altar unto God, who answered me in the day of my distress, and was with me in the way which I went.
@@ -1287,12 +1216,10 @@ ch35v26: 'And the sons of Zilpah, Leah''s handmaid: Gad, and Asher: these are th
 ch35v27: And Jacob came unto Isaac his father unto Mamre, unto the city of Arbah, which is Hebron, where Abraham and Isaac sojourned.
 ch35v28: And the days of Isaac were an hundred and fourscore years.
 ch35v29: 'And Isaac gave up the ghost, and died, and was gathered unto his people, being old and full of days: and his sons Esau and Jacob buried him.'
-ch35Lim: 29
 ##########################################
 #                                        #
 #              Chapter 36                #
 ##########################################
-ch36vinfo: Genesis Chapter 36 has 43 verses.
 ch36v1: Now these are the generations of Esau, who is Edom.
 ch36v2: Esau took his wives of the daughters of Canaan; Adah the daughter of Elon the Hittite, and Aholibamah the daughter of Anah the daughter of Zibeon the Hivite;
 ch36v3: And Bashemath Ishmael's daughter, sister of Nebajoth.
@@ -1336,12 +1263,10 @@ ch36v40: And these are the names of the dukes that came of Esau, according to th
 ch36v41: Duke Aholibamah, duke Elah, duke Pinon,
 ch36v42: Duke Kenaz, duke Teman, duke Mibzar,
 ch36v43: 'Duke Magdiel, duke Iram: these be the dukes of Edom, according to their habitations in the land of their possession: he is Esau the father of the Edomites.'
-ch36Lim: 43
 ##########################################
 #                                        #
 #              Chapter 37                #
 ##########################################
-ch37vinfo: Genesis Chapter 37 has 36 verses.
 ch37v1: And Jacob dwelt in the land wherein his father was a stranger, in the land of Canaan.
 ch37v2: 'These are the generations of Jacob. Joseph, being seventeen years old, was feeding the flock with his brethren; and the lad was with the sons of Bilhah, and with the sons of Zilpah, his father''s wives: and Joseph brought unto his father their evil report.'
 ch37v3: 'Now Israel loved Joseph more than all his children, because he was the son of his old age: and he made him a coat of many colours.'
@@ -1378,12 +1303,10 @@ ch37v33: And he knew it, and said, It is my son's coat; an evil beast hath devou
 ch37v34: And Jacob rent his clothes, and put sackcloth upon his loins, and mourned for his son many days.
 ch37v35: And all his sons and all his daughters rose up to comfort him; but he refused to be comforted; and he said, For I will go down into the grave unto my son mourning. Thus his father wept for him.
 ch37v36: And the Midianites sold him into Egypt unto Potiphar, an officer of Pharaoh's, and captain of the guard.
-ch37Lim: 36
 ##########################################
 #                                        #
 #              Chapter 38                #
 ##########################################
-ch38vinfo: Genesis Chapter 38 has 30 verses.
 ch38v1: And it came to pass at that time, that Judah went down from his brethren, and turned in to a certain Adullamite, whose name was Hirah.
 ch38v2: And Judah saw there a daughter of a certain Canaanite, whose name was Shuah; and he took her, and went in unto her.
 ch38v3: And she conceived, and bare a son; and he called his name Er.
@@ -1414,12 +1337,10 @@ ch38v27: And it came to pass in the time of her travail, that, behold, twins wer
 ch38v28: 'And it came to pass, when she travailed, that the one put out his hand: and the midwife took and bound upon his hand a scarlet thread, saying, This came out first.'
 ch38v29: 'And it came to pass, as he drew back his hand, that, behold, his brother came out: and she said, How hast thou broken forth? this breach be upon thee: therefore his name was called Pharez.'
 ch38v30: 'And afterward came out his brother, that had the scarlet thread upon his hand: and his name was called Zarah.'
-ch38Lim: 30
 ##########################################
 #                                        #
 #              Chapter 39                #
 ##########################################
-ch39vinfo: Genesis Chapter 39 has 23 verses.
 ch39v1: And Joseph was brought down to Egypt; and Potiphar, an officer of Pharaoh, captain of the guard, an Egyptian, bought him of the hands of the Ishmeelites, which had brought him down thither.
 ch39v2: And the Lord was with Joseph, and he was a prosperous man; and he was in the house of his master the Egyptian.
 ch39v3: And his master saw that the Lord was with him, and that the Lord made all that he did to prosper in his hand.
@@ -1443,12 +1364,10 @@ ch39v20: 'And Joseph''s master took him, and put him into the prison, a place wh
 ch39v21: But the Lord was with Joseph, and shewed him mercy, and gave him favour in the sight of the keeper of the prison.
 ch39v22: And the keeper of the prison committed to Joseph's hand all the prisoners that were in the prison; and whatsoever they did there, he was the doer of it.
 ch39v23: The keeper of the prison looked not to any thing that was under his hand; because the Lord was with him, and that which he did, the Lord made it to prosper.
-ch39Lim: 23
 ##########################################
 #                                        #
 #              Chapter 40                #
 ##########################################
-ch40vinfo: Genesis Chapter 40 has 23 verses.
 ch40v1: And it came to pass after these things, that the butler of the king of Egypt and his baker had offended their lord the king of Egypt.
 ch40v2: And Pharaoh was wroth against two of his officers, against the chief of the butlers, and against the chief of the bakers.
 ch40v3: And he put them in ward in the house of the captain of the guard, into the prison, the place where Joseph was bound.
@@ -1472,12 +1391,10 @@ ch40v20: 'And it came to pass the third day, which was Pharaoh''s birthday, that
 ch40v21: 'And he restored the chief butler unto his butlership again; and he gave the cup into Pharaoh''s hand:'
 ch40v22: 'But he hanged the chief baker: as Joseph had interpreted to them.'
 ch40v23: Yet did not the chief butler remember Joseph, but forgat him.
-ch40Lim: 23
 ##########################################
 #                                        #
 #              Chapter 41                #
 ##########################################
-ch41vinfo: Genesis Chapter 41 has 57 verses.
 ch41v1: 'And it came to pass at the end of two full years, that Pharaoh dreamed: and, behold, he stood by the river.'
 ch41v2: And, behold, there came up out of the river seven well favoured kine and fatfleshed; and they fed in a meadow.
 ch41v3: And, behold, seven other kine came up after them out of the river, ill favoured and leanfleshed; and stood by the other kine upon the brink of the river.
@@ -1535,12 +1452,10 @@ ch41v54: 'And the seven years of dearth began to come, according as Joseph had s
 ch41v55: 'And when all the land of Egypt was famished, the people cried to Pharaoh for bread: and Pharaoh said unto all the Egyptians, Go unto Joseph; what he saith to you, do.'
 ch41v56: 'And the famine was over all the face of the earth: and Joseph opened all the storehouses, and sold unto the Egyptians; and the famine waxed sore in the land of Egypt.'
 ch41v57: And all countries came into Egypt to Joseph for to buy corn; because that the famine was so sore in all lands.
-ch41Lim: 57
 ##########################################
 #                                        #
 #              Chapter 42                #
 ##########################################
-ch42vinfo: Genesis Chapter 42 has 38 verses.
 ch42v1: Now when Jacob saw that there was corn in Egypt, Jacob said unto his sons, Why do ye look one upon another?
 ch42v2: 'And he said, Behold, I have heard that there is corn in Egypt: get you down thither, and buy for us from thence; that we may live, and not die.'
 ch42v3: And Joseph's ten brethren went down to buy corn in Egypt.
@@ -1579,12 +1494,10 @@ ch42v35: 'And it came to pass as they emptied their sacks, that, behold, every m
 ch42v36: 'And Jacob their father said unto them, Me have ye bereaved of my children: Joseph is not, and Simeon is not, and ye will take Benjamin away: all these things are against me.'
 ch42v37: 'And Reuben spake unto his father, saying, Slay my two sons, if I bring him not to thee: deliver him into my hand, and I will bring him to thee again.'
 ch42v38: 'And he said, My son shall not go down with you; for his brother is dead, and he is left alone: if mischief befall him by the way in the which ye go, then shall ye bring down my gray hairs with sorrow to the grave.'
-ch42Lim: 38
 ##########################################
 #                                        #
 #              Chapter 43                #
 ##########################################
-ch43vinfo: Genesis Chapter 43 has 34 verses.
 ch43v1: And the famine was sore in the land.
 ch43v2: And it came to pass, when they had eaten up the corn which they had brought out of Egypt, their father said unto them, Go again, buy us a little food.
 ch43v3: And Judah spake unto him, saying, The man did solemnly protest unto us, saying, Ye shall not see my face, except your brother be with you.
@@ -1619,12 +1532,10 @@ ch43v31: And he washed his face, and went out, and refrained himself, and said, 
 ch43v32: 'And they set on for him by himself, and for them by themselves, and for the Egyptians, which did eat with him, by themselves: because the Egyptians might not eat bread with the Hebrews; for that is an abomination unto the Egyptians.'
 ch43v33: 'And they sat before him, the firstborn according to his birthright, and the youngest according to his youth: and the men marvelled one at another.'
 ch43v34: 'And he took and sent messes unto them from before him: but Benjamin''s mess was five times so much as any of their''s. And they drank, and were merry with him.'
-ch43Lim: 34
 ##########################################
 #                                        #
 #              Chapter 44                #
 ##########################################
-ch44vinfo: Genesis Chapter 44 has 34 verses.
 ch44v1: And he commanded the steward of his house, saying, Fill the men's sacks with food, as much as they can carry, and put every man's money in his sack's mouth.
 ch44v2: And put my cup, the silver cup, in the sack's mouth of the youngest, and his corn money. And he did according to the word that Joseph had spoken.
 ch44v3: As soon as the morning was light, the men were sent away, they and their asses.
@@ -1659,12 +1570,10 @@ ch44v31: 'It shall come to pass, when he seeth that the lad is not with us, that
 ch44v32: For thy servant became surety for the lad unto my father, saying, If I bring him not unto thee, then I shall bear the blame to my father for ever.
 ch44v33: Now therefore, I pray thee, let thy servant abide instead of the lad a bondman to my lord; and let the lad go up with his brethren.
 ch44v34: For how shall I go up to my father, and the lad be not with me? lest peradventure I see the evil that shall come on my father.
-ch44Lim: 34
 ##########################################
 #                                        #
 #              Chapter 45                #
 ##########################################
-ch45vinfo: Genesis Chapter 45 has 28 verses.
 ch45v1: Then Joseph could not refrain himself before all them that stood by him; and he cried, Cause every man to go out from me. And there stood no man with him, while Joseph made himself known unto his brethren.
 ch45v2: 'And he wept aloud: and the Egyptians and the house of Pharaoh heard.'
 ch45v3: And Joseph said unto his brethren, I am Joseph; doth my father yet live? And his brethren could not answer him; for they were troubled at his presence.
@@ -1693,12 +1602,10 @@ ch45v25: And they went up out of Egypt, and came into the land of Canaan unto Ja
 ch45v26: And told him, saying, Joseph is yet alive, and he is governor over all the land of Egypt. And Jacob's heart fainted, for he believed them not.
 ch45v27: 'And they told him all the words of Joseph, which he had said unto them: and when he saw the wagons which Joseph had sent to carry him, the spirit of Jacob their father revived:'
 ch45v28: 'And Israel said, It is enough; Joseph my son is yet alive: I will go and see him before I die.'
-ch45Lim: 28
 ##########################################
 #                                        #
 #              Chapter 46                #
 ##########################################
-ch46vinfo: Genesis Chapter 46 has 34 verses.
 ch46v1: And Israel took his journey with all that he had, and came to Beersheba, and offered sacrifices unto the God of his father Isaac.
 ch46v2: And God spake unto Israel in the visions of the night, and said, Jacob, Jacob. And he said, Here am I.
 ch46v3: 'And he said, I am God, the God of thy father: fear not to go down into Egypt; for I will there make of thee a great nation:'
@@ -1733,12 +1640,10 @@ ch46v31: And Joseph said unto his brethren, and unto his father's house, I will 
 ch46v32: And the men are shepherds, for their trade hath been to feed cattle; and they have brought their flocks, and their herds, and all that they have.
 ch46v33: And it shall come to pass, when Pharaoh shall call you, and shall say, What is your occupation?
 ch46v34: 'That ye shall say, Thy servants'' trade hath been about cattle from our youth even until now, both we, and also our fathers: that ye may dwell in the land of Goshen; for every shepherd is an abomination unto the Egyptians.'
-ch46Lim: 34
 ##########################################
 #                                        #
 #              Chapter 47                #
 ##########################################
-ch47vinfo: Genesis Chapter 47 has 31 verses.
 ch47v1: Then Joseph came and told Pharaoh, and said, My father and my brethren, and their flocks, and their herds, and all that they have, are come out of the land of Canaan; and, behold, they are in the land of Goshen.
 ch47v2: And he took some of his brethren, even five men, and presented them unto Pharaoh.
 ch47v3: And Pharaoh said unto his brethren, What is your occupation? And they said unto Pharaoh, Thy servants are shepherds, both we, and also our fathers.
@@ -1770,12 +1675,10 @@ ch47v28: 'And Jacob lived in the land of Egypt seventeen years: so the whole age
 ch47v29: 'And the time drew nigh that Israel must die: and he called his son Joseph, and said unto him, If now I have found grace in thy sight, put, I pray thee, thy hand under my thigh, and deal kindly and truly with me; bury me not, I pray thee, in Egypt:'
 ch47v30: But I will lie with my fathers, and thou shalt carry me out of Egypt, and bury me in their buryingplace. And he said, I will do as thou hast said.
 ch47v31: And he said, Swear unto me. And he sware unto him. And Israel bowed himself upon the bed's head.
-ch47Lim: 31
 ##########################################
 #                                        #
 #              Chapter 48                #
 ##########################################
-ch48vinfo: Genesis Chapter 48 has 22 verses.
 ch48v1: 'And it came to pass after these things, that one told Joseph, Behold, thy father is sick: and he took with him his two sons, Manasseh and Ephraim.'
 ch48v2: 'And one told Jacob, and said, Behold, thy son Joseph cometh unto thee: and Israel strengthened himself, and sat upon the bed.'
 ch48v3: And Jacob said unto Joseph, God Almighty appeared unto me at Luz in the land of Canaan, and blessed me,
@@ -1798,12 +1701,10 @@ ch48v19: 'And his father refused, and said, I know it, my son, I know it: he als
 ch48v20: 'And he blessed them that day, saying, In thee shall Israel bless, saying, God make thee as Ephraim and as Manasseh: and he set Ephraim before Manasseh.'
 ch48v21: 'And Israel said unto Joseph, Behold, I die: but God shall be with you, and bring you again unto the land of your fathers.'
 ch48v22: Moreover I have given to thee one portion above thy brethren, which I took out of the hand of the Amorite with my sword and with my bow.
-ch48Lim: 22
 ##########################################
 #                                        #
 #              Chapter 49                #
 ##########################################
-ch49vinfo: Genesis Chapter 49 has 33 verses.
 ch49v1: And Jacob called unto his sons, and said, Gather yourselves together, that I may tell you that which shall befall you in the last days.
 ch49v2: Gather yourselves together, and hear, ye sons of Jacob; and hearken unto Israel your father.
 ch49v3: 'Reuben, thou art my firstborn, my might, and the beginning of my strength, the excellency of dignity, and the excellency of power:'
@@ -1837,12 +1738,10 @@ ch49v30: In the cave that is in the field of Machpelah, which is before Mamre, i
 ch49v31: There they buried Abraham and Sarah his wife; there they buried Isaac and Rebekah his wife; and there I buried Leah.
 ch49v32: The purchase of the field and of the cave that is therein was from the children of Heth.
 ch49v33: And when Jacob had made an end of commanding his sons, he gathered up his feet into the bed, and yielded up the ghost, and was gathered unto his people.
-ch49Lim: 33
 ##########################################
 #                                        #
 #              Chapter 50                #
 ##########################################
-ch50vinfo: Genesis Chapter 50 has 26 verses.
 ch50v1: And Joseph fell upon his father's face, and wept upon him, and kissed him.
 ch50v2: 'And Joseph commanded his servants the physicians to embalm his father: and the physicians embalmed Israel.'
 ch50v3: 'And forty days were fulfilled for him; for so are fulfilled the days of those which are embalmed: and the Egyptians mourned for him threescore and ten days.'
@@ -1869,4 +1768,3 @@ ch50v23: 'And Joseph saw Ephraim''s children of the third generation: the childr
 ch50v24: 'And Joseph said unto his brethren, I die: and God will surely visit you, and bring you out of this land unto the land which he sware to Abraham, to Isaac, and to Jacob.'
 ch50v25: And Joseph took an oath of the children of Israel, saying, God will surely visit you, and ye shall carry up my bones from hence.
 ch50v26: 'So Joseph died, being an hundred and ten years old: and they embalmed him, and he was put in a coffin in Egypt.'
-ch50Lim: 26

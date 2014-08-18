@@ -1,10 +1,7 @@
-LevInfo: Leviticus tells about the various laws that were given to the Israelites by God. It was written by Moses. It has 27 chapters.
-Lev#: Leviticus has 27 chapters.
 ##########################################
 #                                        #
 #              Chapter 1                 #
 ##########################################
-ch1vinfo: Leviticus Chapter 1 has 17 verses.
 ch1v1: And the Lord called unto Moses, and spake unto him out of the tabernacle of the congregation, saying,
 ch1v2: Speak unto the children of Israel, and say unto them, If any man of you bring an offering unto the Lord, ye shall bring your offering of the cattle, even of the herd, and of the flock.
 ch1v3: 'If his offering be a burnt sacrifice of the herd, let him offer a male without blemish: he shall offer it of his own voluntary will at the door of the tabernacle of the congregation before the Lord.'
@@ -22,12 +19,10 @@ ch1v14: And if the burnt sacrifice for his offering to the Lord be of fowls, the
 ch1v15: 'And the priest shall bring it unto the altar, and wring off his head, and burn it on the altar; and the blood thereof shall be wrung out at the side of the altar:'
 ch1v16: 'And he shall pluck away his crop with his feathers, and cast it beside the altar on the east part, by the place of the ashes:'
 ch1v17: 'And he shall cleave it with the wings thereof, but shall not divide it asunder: and the priest shall burn it upon the altar, upon the wood that is upon the fire: it is a burnt sacrifice, an offering made by fire, of a sweet savour unto the Lord.'
-ch1Lim: 17
 ##########################################
 #                                        #
 #              Chapter 2                 #
 ##########################################
-ch2vinfo: Leviticus Chapter 2 has 16 verses.
 ch2v1: 'And when any will offer a meat offering unto the Lord, his offering shall be of fine flour; and he shall pour oil upon it, and put frankincense thereon:'
 ch2v2: 'And he shall bring it to Aaron''s sons the priests: and he shall take thereout his handful of the flour thereof, and of the oil thereof, with all the frankincense thereof; and the priest shall burn the memorial of it upon the altar, to be an offering made by fire, of a sweet savour unto the Lord:'
 ch2v3: 'And the remnant of the meat offering shall be Aaron''s and his sons'': it is a thing most holy of the offerings of the Lord made by fire.'
@@ -44,12 +39,10 @@ ch2v13: 'And every oblation of thy meat offering shalt thou season with salt; ne
 ch2v14: And if thou offer a meat offering of thy firstfruits unto the Lord, thou shalt offer for the meat offering of thy firstfruits green ears of corn dried by the fire, even corn beaten out of full ears.
 ch2v15: 'And thou shalt put oil upon it, and lay frankincense thereon: it is a meat offering.'
 ch2v16: 'And the priest shall burn the memorial of it, part of the beaten corn thereof, and part of the oil thereof, with all the frankincense thereof: it is an offering made by fire unto the Lord.'
-ch2Lim: 16
 ##########################################
 #                                        #
 #              Chapter 3                 #
 ##########################################
-ch3vinfo: Leviticus Chapter 3 has 17 verses.
 ch3v1: And if his oblation be a sacrifice of peace offering, if he offer it of the herd; whether it be a male or female, he shall offer it without blemish before the Lord.
 ch3v2: 'And he shall lay his hand upon the head of his offering, and kill it at the door of the tabernacle of the congregation: and Aaron''s sons the priests shall sprinkle the blood upon the altar round about.'
 ch3v3: And he shall offer of the sacrifice of the peace offering an offering made by fire unto the Lord; the fat that covereth the inwards, and all the fat that is upon the inwards,
@@ -67,12 +60,10 @@ ch3v14: And he shall offer thereof his offering, even an offering made by fire u
 ch3v15: And the two kidneys, and the fat that is upon them, which is by the flanks, and the caul above the liver, with the kidneys, it shall he take away.
 ch3v16: 'And the priest shall burn them upon the altar: it is the food of the offering made by fire for a sweet savour: all the fat is the Lord''s.'
 ch3v17: It shall be a perpetual statute for your generations throughout all your dwellings, that ye eat neither fat nor blood.
-ch3Lim: 17
 ##########################################
 #                                        #
 #              Chapter 4                 #
 ##########################################
-ch4vinfo: Leviticus Chapter 4 has 35 verses.
 ch4v1: And the Lord spake unto Moses, saying,
 ch4v2: 'Speak unto the children of Israel, saying, If a soul shall sin through ignorance against any of the commandments of the Lord concerning things which ought not to be done, and shall do against any of them:'
 ch4v3: If the priest that is anointed do sin according to the sin of the people; then let him bring for his sin, which he hath sinned, a young bullock without blemish unto the Lord for a sin offering.
@@ -108,12 +99,10 @@ ch4v32: And if he bring a lamb for a sin offering, he shall bring it a female wi
 ch4v33: And he shall lay his hand upon the head of the sin offering, and slay it for a sin offering in the place where they kill the burnt offering.
 ch4v34: 'And the priest shall take of the blood of the sin offering with his finger, and put it upon the horns of the altar of burnt offering, and shall pour out all the blood thereof at the bottom of the altar:'
 ch4v35: 'And he shall take away all the fat thereof, as the fat of the lamb is taken away from the sacrifice of the peace offerings; and the priest shall burn them upon the altar, according to the offerings made by fire unto the Lord: and the priest shall make an atonement for his sin that he hath committed, and it shall be forgiven him.'
-ch4Lim: 35
 ##########################################
 #                                        #
 #              Chapter 5                 #
 ##########################################
-ch5vinfo: Leviticus Chapter 5 has 19 verses.
 ch5v1: And if a soul sin, and hear the voice of swearing, and is a witness, whether he hath seen or known of it; if he do not utter it, then he shall bear his iniquity.
 ch5v2: Or if a soul touch any unclean thing, whether it be a carcase of an unclean beast, or a carcase of unclean cattle, or the carcase of unclean creeping things, and if it be hidden from him; he also shall be unclean, and guilty.
 ch5v3: Or if he touch the uncleanness of man, whatsoever uncleanness it be that a man shall be defiled withal, and it be hid from him; when he knoweth of it, then he shall be guilty.
@@ -133,12 +122,10 @@ ch5v16: 'And he shall make amends for the harm that he hath done in the holy thi
 ch5v17: And if a soul sin, and commit any of these things which are forbidden to be done by the commandments of the Lord; though he wist it not, yet is he guilty, and shall bear his iniquity.
 ch5v18: 'And he shall bring a ram without blemish out of the flock, with thy estimation, for a trespass offering, unto the priest: and the priest shall make an atonement for him concerning his ignorance wherein he erred and wist it not, and it shall be forgiven him.'
 ch5v19: 'It is a trespass offering: he hath certainly trespassed against the Lord.'
-ch5Lim: 19
 ##########################################
 #                                        #
 #              Chapter 6                 #
 ##########################################
-ch6vinfo: Leviticus Chapter 6 has 30 verses.
 ch6v1: And the Lord spake unto Moses, saying,
 ch6v2: If a soul sin, and commit a trespass against the Lord, and lie unto his neighbour in that which was delivered him to keep, or in fellowship, or in a thing taken away by violence, or hath deceived his neighbour;
 ch6v3: 'Or have found that which was lost, and lieth concerning it, and sweareth falsely; in any of all these that a man doeth, sinning therein:'
@@ -169,12 +156,10 @@ ch6v27: 'Whatsoever shall touch the flesh thereof shall be holy: and when there 
 ch6v28: 'But the earthen vessel wherein it is sodden shall be broken: and if it be sodden in a brasen pot, it shall be both scoured, and rinsed in water.'
 ch6v29: 'All the males among the priests shall eat thereof: it is most holy.'
 ch6v30: 'And no sin offering, whereof any of the blood is brought into the tabernacle of the congregation to reconcile withal in the holy place, shall be eaten: it shall be burnt in the fire.'
-ch6Lim: 30
 ##########################################
 #                                        #
 #              Chapter 7                 #
 ##########################################
-ch7vinfo: Leviticus Chapter 7 has 38 verses.
 ch7v1: 'Likewise this is the law of the trespass offering: it is most holy.'
 ch7v2: 'In the place where they kill the burnt offering shall they kill the trespass offering: and the blood thereof shall he sprinkle round about upon the altar.'
 ch7v3: And he shall offer of it all the fat thereof; the rump, and the fat that covereth the inwards,
@@ -213,12 +198,10 @@ ch7v35: This is the portion of the anointing of Aaron, and of the anointing of h
 ch7v36: Which the Lord commanded to be given them of the children of Israel, in the day that he anointed them, by a statute for ever throughout their generations.
 ch7v37: This is the law of the burnt offering, of the meat offering, and of the sin offering, and of the trespass offering, and of the consecrations, and of the sacrifice of the peace offerings;
 ch7v38: Which the Lord commanded Moses in mount Sinai, in the day that he commanded the children of Israel to offer their oblations unto the Lord, in the wilderness of Sinai.
-ch7Lim: 38
 ##########################################
 #                                        #
 #              Chapter 8                 #
 ##########################################
-ch8vinfo: Leviticus Chapter 8 has 36 verses.
 ch8v1: And the Lord spake unto Moses, saying,
 ch8v2: Take Aaron and his sons with him, and the garments, and the anointing oil, and a bullock for the sin offering, and two rams, and a basket of unleavened bread;
 ch8v3: And gather thou all the congregation together unto the door of the tabernacle of the congregation.
@@ -255,12 +238,10 @@ ch8v33: 'And ye shall not go out of the door of the tabernacle of the congregati
 ch8v34: As he hath done this day, so the Lord hath commanded to do, to make an atonement for you.
 ch8v35: 'Therefore shall ye abide at the door of the tabernacle of the congregation day and night seven days, and keep the charge of the Lord, that ye die not: for so I am commanded.'
 ch8v36: So Aaron and his sons did all things which the Lord commanded by the hand of Moses.
-ch8Lim: 36
 ##########################################
 #                                        #
 #              Chapter 9                 #
 ##########################################
-ch9vinfo: Leviticus Chapter 9 has 24 verses.
 ch9v1: And it came to pass on the eighth day, that Moses called Aaron and his sons, and the elders of Israel;
 ch9v2: And he said unto Aaron, Take thee a young calf for a sin offering, and a ram for a burnt offering, without blemish, and offer them before the Lord.
 ch9v3: And unto the children of Israel thou shalt speak, saying, Take ye a kid of the goats for a sin offering; and a calf and a lamb, both of the first year, without blemish, for a burnt offering;
@@ -285,12 +266,10 @@ ch9v21: And the breasts and the right shoulder Aaron waved for a wave offering b
 ch9v22: And Aaron lifted up his hand toward the people, and blessed them, and came down from offering of the sin offering, and the burnt offering, and peace offerings.
 ch9v23: 'And Moses and Aaron went into the tabernacle of the congregation, and came out, and blessed the people: and the glory of the Lord appeared unto all the people.'
 ch9v24: 'And there came a fire out from before the Lord, and consumed upon the altar the burnt offering and the fat: which when all the people saw, they shouted, and fell on their faces.'
-ch9Lim: 24
 ##########################################
 #                                        #
 #              Chapter 10                #
 ##########################################
-ch10vinfo: Leviticus Chapter 10 has 20 verses.
 ch10v1: And Nadab and Abihu, the sons of Aaron, took either of them his censer, and put fire therein, and put incense thereon, and offered strange fire before the Lord, which he commanded them not.
 ch10v2: And there went out fire from the Lord, and devoured them, and they died before the Lord.
 ch10v3: Then Moses said unto Aaron, This is it that the Lord spake, saying, I will be sanctified in them that come nigh me, and before all the people I will be glorified. And Aaron held his peace.
@@ -311,12 +290,10 @@ ch10v17: Wherefore have ye not eaten the sin offering in the holy place, seeing 
 ch10v18: 'Behold, the blood of it was not brought in within the holy place: ye should indeed have eaten it in the holy place, as I commanded.'
 ch10v19: 'And Aaron said unto Moses, Behold, this day have they offered their sin offering and their burnt offering before the Lord; and such things have befallen me: and if I had eaten the sin offering to day, should it have been accepted in the sight of the Lord?'
 ch10v20: And when Moses heard that, he was content.
-ch10Lim: 20
 ##########################################
 #                                        #
 #              Chapter 11                #
 ##########################################
-ch11vinfo: Leviticus Chapter 11 has 47 verses.
 ch11v1: And the Lord spake unto Moses and to Aaron, saying unto them,
 ch11v2: Speak unto the children of Israel, saying, These are the beasts which ye shall eat among all the beasts that are on the earth.
 ch11v3: Whatsoever parteth the hoof, and is clovenfooted, and cheweth the cud, among the beasts, that shall ye eat.
@@ -364,12 +341,10 @@ ch11v44: 'For I am the Lord your God: ye shall therefore sanctify yourselves, an
 ch11v45: 'For I am the Lord that bringeth you up out of the land of Egypt, to be your God: ye shall therefore be holy, for I am holy.'
 ch11v46: 'This is the law of the beasts, and of the fowl, and of every living creature that moveth in the waters, and of every creature that creepeth upon the earth:'
 ch11v47: To make a difference between the unclean and the clean, and between the beast that may be eaten and the beast that may not be eaten.
-ch11Lim: 47
 ##########################################
 #                                        #
 #              Chapter 12                #
 ##########################################
-ch12vinfo: Leviticus Chapter 12 has 8 verses.
 ch12v1: And the Lord spake unto Moses, saying,
 ch12v2: 'Speak unto the children of Israel, saying, If a woman have conceived seed, and born a man child: then she shall be unclean seven days; according to the days of the separation for her infirmity shall she be unclean.'
 ch12v3: And in the eighth day the flesh of his foreskin shall be circumcised.
@@ -378,12 +353,10 @@ ch12v5: 'But if she bear a maid child, then she shall be unclean two weeks, as i
 ch12v6: 'And when the days of her purifying are fulfilled, for a son, or for a daughter, she shall bring a lamb of the first year for a burnt offering, and a young pigeon, or a turtledove, for a sin offering, unto the door of the tabernacle of the congregation, unto the priest:'
 ch12v7: Who shall offer it before the Lord, and make an atonement for her; and she shall be cleansed from the issue of her blood. This is the law for her that hath born a male or a female.
 ch12v8: 'And if she be not able to bring a lamb, then she shall bring two turtles, or two young pigeons; the one for the burnt offering, and the other for a sin offering: and the priest shall make an atonement for her, and she shall be clean.'
-ch12Lim: 8
 ##########################################
 #                                        #
 #              Chapter 13                #
 ##########################################
-ch13vinfo: Leviticus Chapter 13 has 59 verses.
 ch13v1: And the Lord spake unto Moses and Aaron, saying,
 ch13v2: 'When a man shall have in the skin of his flesh a rising, a scab, or bright spot, and it be in the skin of his flesh like the plague of leprosy; then he shall be brought unto Aaron the priest, or unto one of his sons the priests:'
 ch13v3: 'And the priest shall look on the plague in the skin of the flesh: and when the hair in the plague is turned white, and the plague in sight be deeper than the skin of his flesh, it is a plague of leprosy: and the priest shall look on him, and pronounce him unclean.'
@@ -443,12 +416,10 @@ ch13v56: 'And if the priest look, and, behold, the plague be somewhat dark after
 ch13v57: 'And if it appear still in the garment, either in the warp, or in the woof, or in any thing of skin; it is a spreading plague: thou shalt burn that wherein the plague is with fire.'
 ch13v58: And the garment, either warp, or woof, or whatsoever thing of skin it be, which thou shalt wash, if the plague be departed from them, then it shall be washed the second time, and shall be clean.
 ch13v59: This is the law of the plague of leprosy in a garment of woollen or linen, either in the warp, or woof, or any thing of skins, to pronounce it clean, or to pronounce it unclean.
-ch13Lim: 59
 ##########################################
 #                                        #
 #              Chapter 14                #
 ##########################################
-ch14vinfo: Leviticus Chapter 14 has 57 verses.
 ch14v1: And the Lord spake unto Moses, saying,
 ch14v2: 'This shall be the law of the leper in the day of his cleansing: He shall be brought unto the priest:'
 ch14v3: And the priest shall go forth out of the camp; and the priest shall look, and, behold, if the plague of leprosy be healed in the leper;
@@ -506,12 +477,10 @@ ch14v54: This is the law for all manner of plague of leprosy, and scall,
 ch14v55: And for the leprosy of a garment, and of a house,
 ch14v56: 'And for a rising, and for a scab, and for a bright spot:'
 ch14v57: 'To teach when it is unclean, and when it is clean: this is the law of leprosy.'
-ch14Lim: 57
 ##########################################
 #                                        #
 #              Chapter 15                #
 ##########################################
-ch15vinfo: Leviticus Chapter 15 has 33 verses.
 ch15v1: And the Lord spake unto Moses and to Aaron, saying,
 ch15v2: Speak unto the children of Israel, and say unto them, When any man hath a running issue out of his flesh, because of his issue he is unclean.
 ch15v3: 'And this shall be his uncleanness in his issue: whether his flesh run with his issue, or his flesh be stopped from his issue, it is his uncleanness.'
@@ -545,12 +514,10 @@ ch15v30: And the priest shall offer the one for a sin offering, and the other fo
 ch15v31: Thus shall ye separate the children of Israel from their uncleanness; that they die not in their uncleanness, when they defile my tabernacle that is among them.
 ch15v32: This is the law of him that hath an issue, and of him whose seed goeth from him, and is defiled therewith;
 ch15v33: And of her that is sick of her flowers, and of him that hath an issue, of the man, and of the woman, and of him that lieth with her that is unclean.
-ch15Lim: 33
 ##########################################
 #                                        #
 #              Chapter 16                #
 ##########################################
-ch16vinfo: Leviticus Chapter 16 has 34 verses.
 ch16v1: And the Lord spake unto Moses after the death of the two sons of Aaron, when they offered before the Lord, and died;
 ch16v2: 'And the Lord said unto Moses, Speak unto Aaron thy brother, that he come not at all times into the holy place within the vail before the mercy seat, which is upon the ark; that he die not: for I will appear in the cloud upon the mercy seat.'
 ch16v3: 'Thus shall Aaron come into the holy place: with a young bullock for a sin offering, and a ram for a burnt offering.'
@@ -585,12 +552,10 @@ ch16v31: It shall be a sabbath of rest unto you, and ye shall afflict your souls
 ch16v32: 'And the priest, whom he shall anoint, and whom he shall consecrate to minister in the priest''s office in his father''s stead, shall make the atonement, and shall put on the linen clothes, even the holy garments:'
 ch16v33: And he shall make an atonement for the holy sanctuary, and he shall make an atonement for the tabernacle of the congregation, and for the altar, and he shall make an atonement for the priests, and for all the people of the congregation.
 ch16v34: And this shall be an everlasting statute unto you, to make an atonement for the children of Israel for all their sins once a year. And he did as the Lord commanded Moses.
-ch16Lim: 34
 ##########################################
 #                                        #
 #              Chapter 17                #
 ##########################################
-ch17vinfo: Leviticus Chapter 17 has 16 verses.
 ch17v1: And the Lord spake unto Moses, saying,
 ch17v2: Speak unto Aaron, and unto his sons, and unto all the children of Israel, and say unto them; This is the thing which the Lord hath commanded, saying,
 ch17v3: What man soever there be of the house of Israel, that killeth an ox, or lamb, or goat, in the camp, or that killeth it out of the camp,
@@ -607,12 +572,10 @@ ch17v13: And whatsoever man there be of the children of Israel, or of the strang
 ch17v14: 'For it is the life of all flesh; the blood of it is for the life thereof: therefore I said unto the children of Israel, Ye shall eat the blood of no manner of flesh: for the life of all flesh is the blood thereof: whosoever eateth it shall be cut off.'
 ch17v15: 'And every soul that eateth that which died of itself, or that which was torn with beasts, whether it be one of your own country, or a stranger, he shall both wash his clothes, and bathe himself in water, and be unclean until the even: then shall he be clean.'
 ch17v16: But if he wash them not, nor bathe his flesh; then he shall bear his iniquity.
-ch17Lim: 16
 ##########################################
 #                                        #
 #              Chapter 18                #
 ##########################################
-ch18vinfo: Leviticus Chapter 18 has 30 verses.
 ch18v1: And the Lord spake unto Moses, saying,
 ch18v2: Speak unto the children of Israel, and say unto them, I am the Lord your God.
 ch18v3: 'After the doings of the land of Egypt, wherein ye dwelt, shall ye not do: and after the doings of the land of Canaan, whither I bring you, shall ye not do: neither shall ye walk in their ordinances.'
@@ -643,12 +606,10 @@ ch18v27: (For all these abominations have the men of the land done, which were b
 ch18v28: That the land spue not you out also, when ye defile it, as it spued out the nations that were before you.
 ch18v29: For whosoever shall commit any of these abominations, even the souls that commit them shall be cut off from among their people.
 ch18v30: 'Therefore shall ye keep mine ordinance, that ye commit not any one of these abominable customs, which were committed before you, and that ye defile not yourselves therein: I am the Lord your God.'
-ch18Lim: 30
 ##########################################
 #                                        #
 #              Chapter 19                #
 ##########################################
-ch19vinfo: Leviticus Chapter 19 has 37 verses.
 ch19v1: And the Lord spake unto Moses, saying,
 ch19v2: 'Speak unto all the congregation of the children of Israel, and say unto them, Ye shall be holy: for I the Lord your God am holy.'
 ch19v3: 'Ye shall fear every man his mother, and his father, and keep my sabbaths: I am the Lord your God.'
@@ -686,12 +647,10 @@ ch19v34: 'But the stranger that dwelleth with you shall be unto you as one born 
 ch19v35: Ye shall do no unrighteousness in judgment, in meteyard, in weight, or in measure.
 ch19v36: 'Just balances, just weights, a just ephah, and a just hin, shall ye have: I am the Lord your God, which brought you out of the land of Egypt.'
 ch19v37: 'Therefore shall ye observe all my statutes, and all my judgments, and do them: I am the Lord.'
-ch19Lim: 37
 ##########################################
 #                                        #
 #              Chapter 20                #
 ##########################################
-ch20vinfo: Leviticus Chapter 20 has 27 verses.
 ch20v1: And the Lord spake unto Moses, saying,
 ch20v2: 'Again, thou shalt say to the children of Israel, Whosoever he be of the children of Israel, or of the strangers that sojourn in Israel, that giveth any of his seed unto Molech; he shall surely be put to death: the people of the land shall stone him with stones.'
 ch20v3: And I will set my face against that man, and will cut him off from among his people; because he hath given of his seed unto Molech, to defile my sanctuary, and to profane my holy name.
@@ -719,12 +678,10 @@ ch20v24: 'But I have said unto you, Ye shall inherit their land, and I will give
 ch20v25: 'Ye shall therefore put difference between clean beasts and unclean, and between unclean fowls and clean: and ye shall not make your souls abominable by beast, or by fowl, or by any manner of living thing that creepeth on the ground, which I have separated from you as unclean.'
 ch20v26: 'And ye shall be holy unto me: for I the Lord am holy, and have severed you from other people, that ye should be mine.'
 ch20v27: 'A man also or woman that hath a familiar spirit, or that is a wizard, shall surely be put to death: they shall stone them with stones: their blood shall be upon them.'
-ch20Lim: 27
 ##########################################
 #                                        #
 #              Chapter 21                #
 ##########################################
-ch21vinfo: Leviticus Chapter 21 has 24 verses.
 ch21v1: 'And the Lord said unto Moses, Speak unto the priests the sons of Aaron, and say unto them, There shall none be defiled for the dead among his people:'
 ch21v2: But for his kin, that is near unto him, that is, for his mother, and for his father, and for his son, and for his daughter, and for his brother.
 ch21v3: And for his sister a virgin, that is nigh unto him, which hath had no husband; for her may he be defiled.
@@ -749,12 +706,10 @@ ch21v21: 'No man that hath a blemish of the seed of Aaron the priest shall come 
 ch21v22: He shall eat the bread of his God, both of the most holy, and of the holy.
 ch21v23: 'Only he shall not go in unto the vail, nor come nigh unto the altar, because he hath a blemish; that he profane not my sanctuaries: for I the Lord do sanctify them.'
 ch21v24: And Moses told it unto Aaron, and to his sons, and unto all the children of Israel.
-ch21Lim: 24
 ##########################################
 #                                        #
 #              Chapter 22                #
 ##########################################
-ch22vinfo: Leviticus Chapter 22 has 33 verses.
 ch22v1: And the Lord spake unto Moses, saying,
 ch22v2: 'Speak unto Aaron and to his sons, that they separate themselves from the holy things of the children of Israel, and that they profane not my holy name in those things which they hallow unto me: I am the Lord.'
 ch22v3: 'Say unto them, Whosoever he be of all your seed among your generations, that goeth unto the holy things, which the children of Israel hallow unto the Lord, having his uncleanness upon him, that soul shall be cut off from my presence: I am the Lord.'
@@ -788,12 +743,10 @@ ch22v30: 'On the same day it shall be eaten up; ye shall leave none of it until 
 ch22v31: 'Therefore shall ye keep my commandments, and do them: I am the Lord.'
 ch22v32: 'Neither shall ye profane my holy name; but I will be hallowed among the children of Israel: I am the Lord which hallow you,'
 ch22v33: 'That brought you out of the land of Egypt, to be your God: I am the Lord.'
-ch22Lim: 33
 ##########################################
 #                                        #
 #              Chapter 23                #
 ##########################################
-ch23vinfo: Leviticus Chapter 23 has 44 verses.
 ch23v1: And the Lord spake unto Moses, saying,
 ch23v2: Speak unto the children of Israel, and say unto them, Concerning the feasts of the Lord, which ye shall proclaim to be holy convocations, even these are my feasts.
 ch23v3: 'Six days shall work be done: but the seventh day is the sabbath of rest, an holy convocation; ye shall do no work therein: it is the sabbath of the Lord in all your dwellings.'
@@ -838,12 +791,10 @@ ch23v41: 'And ye shall keep it a feast unto the Lord seven days in the year. It 
 ch23v42: 'Ye shall dwell in booths seven days; all that are Israelites born shall dwell in booths:'
 ch23v43: 'That your generations may know that I made the children of Israel to dwell in booths, when I brought them out of the land of Egypt: I am the Lord your God.'
 ch23v44: And Moses declared unto the children of Israel the feasts of the Lord.
-ch23Lim: 44
 ##########################################
 #                                        #
 #              Chapter 24                #
 ##########################################
-ch24vinfo: Leviticus Chapter 24 has 23 verses.
 ch24v1: And the Lord spake unto Moses, saying,
 ch24v2: Command the children of Israel, that they bring unto thee pure oil olive beaten for the light, to cause the lamps to burn continually.
 ch24v3: 'Without the vail of the testimony, in the tabernacle of the congregation, shall Aaron order it from the evening unto the morning before the Lord continually: it shall be a statute for ever in your generations.'
@@ -867,12 +818,10 @@ ch24v20: 'Breach for breach, eye for eye, tooth for tooth: as he hath caused a b
 ch24v21: 'And he that killeth a beast, he shall restore it: and he that killeth a man, he shall be put to death.'
 ch24v22: 'Ye shall have one manner of law, as well for the stranger, as for one of your own country: for I am the Lord your God.'
 ch24v23: And Moses spake to the children of Israel, that they should bring forth him that had cursed out of the camp, and stone him with stones. And the children of Israel did as the Lord commanded Moses.
-ch24Lim: 23
 ##########################################
 #                                        #
 #              Chapter 25                #
 ##########################################
-ch25vinfo: Leviticus Chapter 25 has 55 verses.
 ch25v1: And the Lord spake unto Moses in mount Sinai, saying,
 ch25v2: Speak unto the children of Israel, and say unto them, When ye come into the land which I give you, then shall the land keep a sabbath unto the Lord.
 ch25v3: Six years thou shalt sow thy field, and six years thou shalt prune thy vineyard, and gather in the fruit thereof;
@@ -928,12 +877,10 @@ ch25v52: And if there remain but few years unto the year of jubile, then he shal
 ch25v53: 'And as a yearly hired servant shall he be with him: and the other shall not rule with rigour over him in thy sight.'
 ch25v54: And if he be not redeemed in these years, then he shall go out in the year of jubile, both he, and his children with him.
 ch25v55: 'For unto me the children of Israel are servants; they are my servants whom I brought forth out of the land of Egypt: I am the Lord your God.'
-ch25Lim: 55
 ##########################################
 #                                        #
 #              Chapter 26                #
 ##########################################
-ch26vinfo: Leviticus Chapter 26 has 46 verses.
 ch26v1: 'Ye shall make you no idols nor graven image, neither rear you up a standing image, neither shall ye set up any image of stone in your land, to bow down unto it: for I am the Lord your God.'
 ch26v2: 'Ye shall keep my sabbaths, and reverence my sanctuary: I am the Lord.'
 ch26v3: If ye walk in my statutes, and keep my commandments, and do them;
@@ -980,12 +927,10 @@ ch26v43: 'The land also shall be left of them, and shall enjoy her sabbaths, whi
 ch26v44: 'And yet for all that, when they be in the land of their enemies, I will not cast them away, neither will I abhor them, to destroy them utterly, and to break my covenant with them: for I am the Lord their God.'
 ch26v45: 'But I will for their sakes remember the covenant of their ancestors, whom I brought forth out of the land of Egypt in the sight of the heathen, that I might be their God: I am the Lord.'
 ch26v46: These are the statutes and judgments and laws, which the Lord made between him and the children of Israel in mount Sinai by the hand of Moses.
-ch26Lim: 46
 ##########################################
 #                                        #
 #              Chapter 27                #
 ##########################################
-ch27vinfo: Leviticus Chapter 27 has 34 verses.
 ch27v1: And the Lord spake unto Moses, saying,
 ch27v2: Speak unto the children of Israel, and say unto them, When a man shall make a singular vow, the persons shall be for the Lord by thy estimation.
 ch27v3: And thy estimation shall be of the male from twenty years old even unto sixty years old, even thy estimation shall be fifty shekels of silver, after the shekel of the sanctuary.
@@ -1020,4 +965,3 @@ ch27v31: And if a man will at all redeem ought of his tithes, he shall add there
 ch27v32: And concerning the tithe of the herd, or of the flock, even of whatsoever passeth under the rod, the tenth shall be holy unto the Lord.
 ch27v33: 'He shall not search whether it be good or bad, neither shall he change it: and if he change it at all, then both it and the change thereof shall be holy; it shall not be redeemed.'
 ch27v34: These are the commandments, which the Lord commanded Moses for the children of Israel in mount Sinai.
-ch27Lim: 34

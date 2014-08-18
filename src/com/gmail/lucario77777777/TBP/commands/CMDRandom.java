@@ -2,7 +2,6 @@ package com.gmail.lucario77777777.TBP.commands;
 
 import java.util.Random;
 
-import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.lucario77777777.TBP.TB;
@@ -10,29 +9,14 @@ import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumChps;
 
 public class CMDRandom {
-	public static void random(TB plugin, CommandSender sender, String[] args, String bookName, String chp,
-			String v, String tran){
+	public static void random(TB plugin, CommandSender sender, EnumBooks book, EnumChps echp, String bookName,
+			String chp, String v, String tran, boolean bookSet, boolean chpSet){
 		Random generator = new Random();
 		int rB;
 		int rC;
 		int rV;
-		boolean bookSet = false;
-		boolean chpSet = false;
 		boolean vSet = false;
-		EnumBooks book = EnumBooks.GENESIS;
-		EnumChps echp = EnumChps.GENESIS;
 		String pName = sender.getName();
-		if(args.length >= 2){
-			bookName = book.fromString(args[1]).getBook();
-			bookSet = true;
-			if(args.length >= 3){
-				chp = args[2];
-				chpSet = true;
-				if(args.length >= 4){
-					tran = args[3].toUpperCase();
-				}
-			}
-		}
 		if(bookSet == false){
 			boolean cont = true;
 			while(cont){
@@ -68,15 +52,6 @@ public class CMDRandom {
 		if(MainCommandExecutor.checkRef(plugin, sender, bookName, tran, ref) == false){
 			return;
 		}
-		String verse = plugin.getBook(tran, bookName).getString(ref);
-		if(bookName.contains("1") || bookName.contains("2") || bookName.contains("3") || 
-				bookName.contains("SongofSongs")){
-			bookName = bookName.replace("1", "1 ");
-			bookName = bookName.replace("2", "2 ");
-			bookName = bookName.replace("3", "3 ");
-			bookName = bookName.replace("SongofSongs", "Song of Songs");
-		}
-		sender.sendMessage(ChatColor.GREEN + verse + " (" + bookName + " " + chp + ":" + v + " " + tran + ")");
-		MainCommandExecutor.savepRecs("verse", pName, tran, bookName, chp, v, null);
+		MainCommandExecutor.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
 	}
 }

@@ -61,7 +61,7 @@ public class Book{
 		igbook.setItemMeta(meta);
 		if(player != null){
 			player.getInventory().addItem(igbook);
-			MainCommandExecutor.savepRecs("book", pName, tran, bookName, part, null, part);
+			MainCommandExecutor.savepRecs("book", pName, bookName, null, null, tran, part);
 		}else{
 			sender.sendMessage(ChatColor.RED + p + " is not online!");
 		}
@@ -69,8 +69,10 @@ public class Book{
 }
 
 	public static void contains(TB plugin, CommandSender sender, String tran, String bookName, String part){
-		String start = plugin.getigBook(tran).getString(bookName + part + "Start");
-		String end = plugin.getigBook(tran).getString(bookName + part + "End");
+		String start = plugin.getigBook(tran).getString(bookName + part + "Start.c") + ":" +
+				plugin.getigBook(tran).getString(bookName + part + "Start.v");
+		String end = plugin.getigBook(tran).getString(bookName + part + "End.c") + ":" +
+				plugin.getigBook(tran).getString(bookName + part + "End.v");
 		if(start == null || end == null){
 			sender.sendMessage(ChatColor.RED + "That part does not exist.");
 			return;
@@ -85,10 +87,16 @@ public class Book{
 		String pNum = "";
 		EnumBooks ebook = EnumBooks.GENESIS;
 		String newBook = bookName;
-		if(plugin.getigBook(tran).contains(bookName + "Book" + bN) == true){
+		if(plugin.getigBook(tran).contains(newBook + "Book" + bN)){
 			pNum = String.valueOf(bN);
 		}else{
-			newBook = ebook.numtoBook(0, "string", "lower", bookName);
+			boolean cont = true;
+			while(cont){
+				newBook = ebook.numtoBook(0, "string", "lower", newBook);
+				if(ebook.fromString(newBook).isAvailable(tran)){
+					cont = false;
+				}
+			}
 			pNum = "1";
 		}
 		Run(plugin, sender, tran, newBook, pNum, type, p);
@@ -100,10 +108,16 @@ public class Book{
 		String pNum = "";
 		EnumBooks ebook = EnumBooks.GENESIS;
 		String newBook = bookName;
-		if(plugin.getigBook(tran).contains(bookName + "Book" + bN) == true){
+		if(plugin.getigBook(tran).contains(newBook + "Book" + bN)){
 			pNum = String.valueOf(bN);
 		}else{
-			newBook = ebook.numtoBook(0, "string", "raise", bookName);
+			boolean cont = true;
+			while(cont){
+				newBook = ebook.numtoBook(0, "string", "raise", newBook);
+				if(ebook.fromString(newBook).isAvailable(tran)){
+					cont = false;
+				}
+			}
 			pNum = "1";
 		}
 		Run(plugin, sender, tran, newBook, pNum, type, p);

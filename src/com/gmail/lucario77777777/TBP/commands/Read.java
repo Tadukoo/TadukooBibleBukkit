@@ -8,61 +8,20 @@ import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumChps;
 
 public class Read{
-	public static void read(TB plugin, CommandSender sender,  String[] args, EnumBooks book, EnumChps echp,
-			String bookName, String chp, String v, String tran){
+	public static void read(TB plugin, CommandSender sender, EnumBooks book, EnumChps echp, String bookName,
+			String chp, String v, String tran){
 		String pName = sender.getName();
-		if(args.length >= 2){
-			try{
-				if(args[1].equalsIgnoreCase("#")){
-					sender.sendMessage(ChatColor.GREEN + book.getBook() + " has " + book.getChp() + 
-							" chapters.");
-					return;
-				}else if(args[1].equalsIgnoreCase("?") || args[1].equalsIgnoreCase("info")){
-					sender.sendMessage(ChatColor.GREEN + book.getBook() + " is " + book.getDesc() + ". It " +
-							"was written by " + book.getAuthor() + ". It has " + book.getChp() + " chapters.");
-					return;
-				}else if(Integer.parseInt(args[1]) <= book.getChp()){
-					echp = echp.fromString(book.getBook());
-					chp = args[1];
-				}else{
-					sender.sendMessage(ChatColor.RED + "Sorry, that chapter does not exist in " + 
-							book.getBook() + ".");
-					return;
-				}
-			}catch(NumberFormatException e){
-				sender.sendMessage(ChatColor.RED + "Sorry, you must either type #, ?, info, or a number.");
-				return;
-			}
-			if(args.length >= 3){
-				try{
-					if(args[2].equalsIgnoreCase("#") || args[2].equalsIgnoreCase("?") ||
-						args[2].equalsIgnoreCase("info")){
-						sender.sendMessage(ChatColor.GREEN + book.getBook() + " Chapter " + chp + " has " +
-						echp.getNum(Integer.parseInt(chp)) + " verses.");
-						return;
-					}else if(Integer.parseInt(args[2]) <= echp.getNum(Integer.parseInt(args[1]))){
-						v = args[2];
-					}else{
-						sender.sendMessage(ChatColor.RED + "Sorry, that verse does not exist " +
-							"in " + book.getBook() + " Chapter " + chp + ".");
-						return;
-					}
-				}catch(NumberFormatException e){
-					sender.sendMessage(ChatColor.RED + "Sorry, you must either type #, ?, info, or a number.");
-					return;
-				}
-				if(args.length >= 4){
-					tran = args[3].toUpperCase();
-				}
-			}
-		}
-		bookName = book.getBook();
 		if(MainCommandExecutor.tranCheck(plugin, sender, tran) == null){
 			return;
 		}else{
 			tran = MainCommandExecutor.tranCheck(plugin, sender, tran);
 		}
 		if(book.isAvailable(tran) == false){
+			String bookMsg = book.getBook();
+			bookMsg = bookMsg.replace("1", "1 ");
+			bookMsg = bookMsg.replace("2", "2 ");
+			bookMsg = bookMsg.replace("3", "3 ");
+			bookMsg = bookMsg.replace("SongofSongs", "Song of Songs");
 			sender.sendMessage(ChatColor.RED + "Sorry, " + book.getBook() + 
 					" is not available yet in the " + tran.toUpperCase() + " translation.");
 			return;
@@ -74,8 +33,7 @@ public class Read{
 		if(MainCommandExecutor.checkRef(plugin, sender, bookName, tran, ref) == false){
 			return;
 		}
-		MainCommandExecutor.sendToPlayer(plugin, sender, bookName, tran, ref);
-		MainCommandExecutor.savepRecs("verse", pName, tran, bookName, chp, v, null);
+		MainCommandExecutor.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
 	}
 	
 	public static void previous(TB plugin, CommandSender sender,  String[] args, EnumBooks book, 
@@ -124,8 +82,8 @@ public class Read{
 		if(MainCommandExecutor.checkRef(plugin, sender, bookName, tran, ref) == false){
 			return;
 		}
-		MainCommandExecutor.sendToPlayer(plugin, sender, bookName, tran, ref);
-		MainCommandExecutor.savepRecs("verse", sender.getName(), tran, bookName, chp, v, null);
+		String pName = sender.getName();
+		MainCommandExecutor.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
 	}
 	
 	public static void next(TB plugin, CommandSender sender,  String[] args, EnumBooks book, EnumChps echp){
@@ -173,8 +131,8 @@ public class Read{
 		if(MainCommandExecutor.checkRef(plugin, sender, bookName, tran, ref) == false){
 			return;
 		}
-		MainCommandExecutor.sendToPlayer(plugin, sender, bookName, tran, ref);
-		MainCommandExecutor.savepRecs("verse", sender.getName(), tran, bookName, chp, v, null);
+		String pName = sender.getName();
+		MainCommandExecutor.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
 	}
 	
 	public static void last(TB plugin, CommandSender sender,  String[] args, EnumBooks book){
@@ -198,6 +156,7 @@ public class Read{
 		if(MainCommandExecutor.checkRef(plugin, sender, bookName, tran, ref) == false){
 			return;
 		}
-		MainCommandExecutor.sendToPlayer(plugin, sender, bookName, tran, ref);
+		String pName = sender.getName();
+		MainCommandExecutor.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
 	}
 }

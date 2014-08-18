@@ -19,6 +19,7 @@ public class TB extends JavaPlugin {
 	public File bookFile = null;
 	public FileConfiguration igbook = null;
 	public File igbookFile = null;
+	public String igbookTran = null;
 	public static FileConfiguration pRec = null;
 	public static File pRecFile = null;
 	public Boolean perms = null;
@@ -27,6 +28,14 @@ public class TB extends JavaPlugin {
 	@Override
 	public void onDisable () {
 		savepRec();
+		plugin = null;
+		pdfFile = null;
+		config = null;
+		pRec = null;
+		pRecFile = null;
+		igbook = null;
+		igbookFile = null;
+		igbookTran = null;
 		saveConfig();
 	}
 	@Override
@@ -34,27 +43,24 @@ public class TB extends JavaPlugin {
 		reloadpRec();
 		savepRec();
 		config = getConfig();
-		saveDefaultConfig();
 		pR = this.getConfig().getBoolean("PlayerRecords");
 		perms = getConfig().getBoolean("Permissions");
 		getCommand("bible").setExecutor(new MainCommandExecutor(this, perms));
 	}
 	
 	public FileConfiguration getBook(String tran, String bookName) {
-		bookFile = new File(getDataFolder(), "bible/" + tran + "/" + bookName + ".yml");
+		bookFile = new File(getDataFolder(), tran + "/" + bookName + ".yml");
 		book = YamlConfiguration.loadConfiguration(bookFile);
 		return book;
 	}
 	
 	public void reloadigBook(String tran) {
-	    if (igbookFile == null) {
-	    igbookFile = new File(getDataFolder(), "bible/" + tran + "/" + tran + "bookconfig.yml");
-	    }
+	    igbookFile = new File(getDataFolder(), tran + "/" + tran + "bookconfig.yml");
 	    igbook = YamlConfiguration.loadConfiguration(igbookFile);
 	}
 	
 	public FileConfiguration getigBook(String tran) {
-	    if (igbook == null) {
+	    if (igbook == null || (igbookTran != null && tran != igbookTran)) {
 	        this.reloadigBook(tran);
 	    }
 	    return igbook;
@@ -69,6 +75,8 @@ public class TB extends JavaPlugin {
 	    } catch (IOException ex) {
 	        this.getLogger().log(Level.SEVERE, "Could not save config to " + igbookFile + ex);
 	    }
+	    igbook = null;
+	    igbookFile = null;
 	}
 	
 	public void reloadpRec() {

@@ -1,12 +1,12 @@
 name: Tadukoo_Bible
 main: com.gmail.lucario77777777.TBP.TB
-version: Beta 0.3
+version: Beta 0.4
 description: Read the Bible using commands.
 author: Tadukoo
 prefix: TB
 commands:
    bible:
-      description: Read the Bible.
+      description: The base command for Tadukoo Bible. Type /bible help for help.
       usage: /<command>
       permission: TadukooBible.use
       permission-message: You don't have <permission>.
@@ -20,9 +20,10 @@ permissions:
          TadukooBible.info.*: true
          TadukooBible.op.*: true
    TadukooBible.verse.*:
-      description: Gives all verse permissions (read, previous, next, last, and random).
+      description: Gives all verse permissions (read, send, previous, next, last, and random).
       children:
          TadukooBible.verse.read: true
+         TadukooBible.verse.send: true
          TadukooBible.verse.previous: true
          TadukooBible.verse.next: true
          TadukooBible.verse.last: true
@@ -34,9 +35,10 @@ permissions:
          TadukooBible.book.get: true
          TadukooBible.book.send: true
    TadukooBible.info.*:
-      description: Gives all info permissions (help, books, and translations).
+      description: Gives all info permissions (help, plugin, book, and translation).
       children:
          TadukooBible.info.help: true
+         TadukooBible.info.plugin: true
          TadukooBible.info.book: true
          TadukooBible.info.translation: true
    TadukooBible.op.*:
@@ -49,6 +51,9 @@ permissions:
       default: true
    TadukooBible.verse.read:
       description: Allows use of /bible read (/bible [book] [chapter #] [verse #] [translation])
+      default: true
+   TadukooBible.verse.send:
+      description: Allows use of /bible send.
       default: true
    TadukooBible.verse.previous:
       description: Allows use of /bible previous.
@@ -72,13 +77,16 @@ permissions:
       description: Allows use of /bible sendbook.
       default: op
    TadukooBible.info.help:
-      description: Allows use of /bible info and /bible help.
+      description: Allows use of /bible help.
+      default: true
+   TadukooBible.info.plugin:
+      description: Allows use of /bible plugin and using /bible info for plugin information.
       default: true
    TadukooBible.info.book:
-      description: Allows use of /bible books.
+      description: Allows use of /bible books and using /bible info for book information.
       default: true
    TadukooBible.info.translation:
-      description: Allows use of /bible translations.
+      description: Allows use of /bible translation and using /bible info for translation information.
       default: true
    TadukooBible.op.config:
       description: Allows use of /bible config.

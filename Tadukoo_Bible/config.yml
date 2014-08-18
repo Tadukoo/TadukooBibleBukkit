@@ -2,8 +2,13 @@
 #                                        #
 #       Tadukoo Bible Config             #
 ##########################################
-# This is the translation used for commands when none is specified.
+# This is the book, chapter, verse, and translation used for commands when none is specified.
+# DefaultChapter, DefaultVerse, and DefaultPart must be a number in parentheses.
 DefaultTranslation: KJV
+DefaultBook: Genesis
+DefaultChapter: '1'
+DefaultVerse: '1'
+DefaultPart: '1'
 
 # This decides whether to use permissions or not.
 # Note: If you use a permissions plugin and set TadukooBible.use to false, 

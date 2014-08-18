@@ -4,7 +4,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.lucario77777777.TBP.TB;
-import com.gmail.lucario77777777.TBP.Lists.SettingsList;
+import com.gmail.lucario77777777.TBP.Info.Settings;
 
 public class Config {
 	public static void config(TB plugin, CommandSender sender, String[] args){
@@ -24,7 +24,7 @@ public class Config {
 			}*/
 		}
 		if(setting.equalsIgnoreCase("list")){
-			SettingsList.settings(sender);
+			Settings.settings(sender);
 			return;
 		}
 		if(value != null){

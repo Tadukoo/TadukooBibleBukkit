@@ -1,10 +1,7 @@
-JohnInfo: John teaches about Jesus's life. It was written by John. It has 21 chapters.
-John#: John has 21 chapters.
 ##########################################
 #                                        #
 #              Chapter 1                 #
 ##########################################
-ch1vinfo: John Chapter 1 has 51 verses.
 ch1v1: In the beginning was the Word, and the Word was with God, and the Word was God.
 ch1v2: The same was in the beginning with God.
 ch1v3: All things were made by him; and without him was not any thing made that was made.
@@ -56,12 +53,10 @@ ch1v48: Nathanael saith unto him, Whence knowest thou me? Jesus answered and sai
 ch1v49: Nathanael answered and saith unto him, Rabbi, thou art the Son of God; thou art the King of Israel.
 ch1v50: Jesus answered and said unto him, Because I said unto thee, I saw thee under the fig tree, believest thou? thou shalt see greater things than these.
 ch1v51: And he saith unto him, Verily, verily, I say unto you, Hereafter ye shall see heaven open, and the angels of God ascending and descending upon the Son of man.
-ch1Lim: 51
 ##########################################
 #                                        #
 #              Chapter 2                 #
 ##########################################
-ch2vinfo: John Chapter 2 has 25 verses.
 ch2v1: 'And the third day there was a marriage in Cana of Galilee; and the mother of Jesus was there:'
 ch2v2: And both Jesus was called, and his disciples, to the marriage.
 ch2v3: And when they wanted wine, the mother of Jesus saith unto him, They have no wine.
@@ -87,12 +82,10 @@ ch2v22: When therefore he was risen from the dead, his disciples remembered that
 ch2v23: Now when he was in Jerusalem at the passover, in the feast day, many believed in his name, when they saw the miracles which he did.
 ch2v24: But Jesus did not commit himself unto them, because he knew all men,
 ch2v25: 'And needed not that any should testify of man: for he knew what was in man.'
-ch2Lim: 25
 ##########################################
 #                                        #
 #              Chapter 3                 #
 ##########################################
-ch3vinfo: John Chapter 3 has 36 verses.
 ch3v1: 'There was a man of the Pharisees, named Nicodemus, a ruler of the Jews:'
 ch3v2: 'The same came to Jesus by night, and said unto him, Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him.'
 ch3v3: Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.
@@ -129,12 +122,10 @@ ch3v33: He that hath received his testimony hath set to his seal that God is tru
 ch3v34: 'For he whom God hath sent speaketh the words of God: for God giveth not the Spirit by measure unto him.'
 ch3v35: The Father loveth the Son, and hath given all things into his hand.
 ch3v36: 'He that believeth on the Son hath everlasting life: and he that believeth not the Son shall not see life; but the wrath of God abideth on him.'
-ch3Lim: 36
 ##########################################
 #                                        #
 #              Chapter 4                 #
 ##########################################
-ch4vinfo: John Chapter 4 has 54 verses.
 ch4v1: When therefore the Lord knew how the Pharisees had heard that Jesus made and baptized more disciples than John,
 ch4v2: (Though Jesus himself baptized not, but his disciples,)
 ch4v3: He left Judaea, and departed again into Galilee.
@@ -189,12 +180,10 @@ ch4v51: And as he was now going down, his servants met him, and told him, saying
 ch4v52: Then enquired he of them the hour when he began to amend. And they said unto him, Yesterday at the seventh hour the fever left him.
 ch4v53: 'So the father knew that it was at the same hour, in the which Jesus said unto him, Thy son liveth: and himself believed, and his whole house.'
 ch4v54: This is again the second miracle that Jesus did, when he was come out of Judaea into Galilee.
-ch4Lim: 54
 ##########################################
 #                                        #
 #              Chapter 5                 #
 ##########################################
-ch5vinfo: John Chapter 5 has 47 verses.
 ch5v1: After this there was a feast of the Jews; and Jesus went up to Jerusalem.
 ch5v2: Now there is at Jerusalem by the sheep market a pool, which is called in the Hebrew tongue Bethesda, having five porches.
 ch5v3: In these lay a great multitude of impotent folk, of blind, halt, withered, waiting for the moving of the water.
@@ -242,12 +231,10 @@ ch5v44: How can ye believe, which receive honour one of another, and seek not th
 ch5v45: 'Do not think that I will accuse you to the Father: there is one that accuseth you, even Moses, in whom ye trust.'
 ch5v46: For had ye believed Moses, ye would have believed me; for he wrote of me.
 ch5v47: But if ye believe not his writings, how shall ye believe my words?
-ch5Lim: 47
 ##########################################
 #                                        #
 #              Chapter 6                 #
 ##########################################
-ch6vinfo: John Chapter 6 has 71 verses.
 ch6v1: After these things Jesus went over the sea of Galilee, which is the sea of Tiberias.
 ch6v2: And a great multitude followed him, because they saw his miracles which he did on them that were diseased.
 ch6v3: And Jesus went up into a mountain, and there he sat with his disciples.
@@ -319,12 +306,10 @@ ch6v68: Then Simon Peter answered him, Lord, to whom shall we go? thou hast the 
 ch6v69: And we believe and are sure that thou art that Christ, the Son of the living God.
 ch6v70: Jesus answered them, Have not I chosen you twelve, and one of you is a devil?
 ch6v71: 'He spake of Judas Iscariot the son of Simon: for he it was that should betray him, being one of the twelve.'
-ch6Lim: 71
 ##########################################
 #                                        #
 #              Chapter 7                 #
 ##########################################
-ch7vinfo: John Chapter 7 has 53 verses.
 ch7v1: 'After these things Jesus walked in Galilee: for he would not walk in Jewry, because the Jews sought to kill him.'
 ch7v2: Now the Jew's feast of tabernacles was at hand.
 ch7v3: His brethren therefore said unto him, Depart hence, and go into Judaea, that thy disciples also may see the works that thou doest.
@@ -378,12 +363,10 @@ ch7v50: Nicodemus saith unto them, (he that came to Jesus by night, being one of
 ch7v51: Doth our law judge any man, before it hear him, and know what he doeth?
 ch7v52: 'They answered and said unto him, Art thou also of Galilee? Search, and look: for out of Galilee ariseth no prophet.'
 ch7v53: And every man went unto his own house.
-ch7Lim: 53
 ##########################################
 #                                        #
 #              Chapter 8                 #
 ##########################################
-ch8vinfo: John Chapter 8 has 59 verses.
 ch8v1: Jesus went unto the mount of Olives.
 ch8v2: And early in the morning he came again into the temple, and all the people came unto him; and he sat down, and taught them.
 ch8v3: And the scribes and Pharisees brought unto him a woman taken in adultery; and when they had set her in the midst,
@@ -443,12 +426,10 @@ ch8v56: 'Your father Abraham rejoiced to see my day: and he saw it, and was glad
 ch8v57: Then said the Jews unto him, Thou art not yet fifty years old, and hast thou seen Abraham?
 ch8v58: Jesus said unto them, Verily, verily, I say unto you, Before Abraham was, I am.
 ch8v59: 'Then took they up stones to cast at him: but Jesus hid himself, and went out of the temple, going through the midst of them, and so passed by.'
-ch8Lim: 59
 ##########################################
 #                                        #
 #              Chapter 9                 #
 ##########################################
-ch9vinfo: John Chapter 9 has 41 verses.
 ch9v1: And as Jesus passed by, he saw a man which was blind from his birth.
 ch9v2: And his disciples asked him, saying, Master, who did sin, this man, or his parents, that he was born blind?
 ch9v3: 'Jesus answered, Neither hath this man sinned, nor his parents: but that the works of God should be made manifest in him.'
@@ -490,12 +471,10 @@ ch9v38: And he said, Lord, I believe. And he worshipped him.
 ch9v39: And Jesus said, For judgment I am come into this world, that they which see not might see; and that they which see might be made blind.
 ch9v40: And some of the Pharisees which were with him heard these words, and said unto him, Are we blind also?
 ch9v41: 'Jesus said unto them, If ye were blind, ye should have no sin: but now ye say, We see; therefore your sin remaineth.'
-ch9Lim: 41
 ##########################################
 #                                        #
 #              Chapter 10                #
 ##########################################
-ch10vinfo: John Chapter 10 has 42 verses.
 ch10v1: Verily, verily, I say unto you, He that entereth not by the door into the sheepfold, but climbeth up some other way, the same is a thief and a robber.
 ch10v2: But he that entereth in by the door is the shepherd of the sheep.
 ch10v3: 'To him the porter openeth; and the sheep hear his voice: and he calleth his own sheep by name, and leadeth them out.'
@@ -538,12 +517,10 @@ ch10v39: 'Therefore they sought again to take him: but he escaped out of their h
 ch10v40: And went away again beyond Jordan into the place where John at first baptized; and there he abode.
 ch10v41: 'And many resorted unto him, and said, John did no miracle: but all things that John spake of this man were true.'
 ch10v42: And many believed on him there.
-ch10Lim: 42
 ##########################################
 #                                        #
 #              Chapter 11                #
 ##########################################
-ch11vinfo: John Chapter 11 has 57 verses.
 ch11v1: Now a certain man was sick, named Lazarus, of Bethany, the town of Mary and her sister Martha.
 ch11v2: (It was that Mary which anointed the Lord with ointment, and wiped his feet with her hair, whose brother Lazarus was sick.)
 ch11v3: Therefore his sisters sent unto him, saying, Lord, behold, he whom thou lovest is sick.
@@ -601,12 +578,10 @@ ch11v54: Jesus therefore walked no more openly among the Jews; but went thence u
 ch11v55: 'And the Jews'' passover was nigh at hand: and many went out of the country up to Jerusalem before the passover, to purify themselves.'
 ch11v56: Then sought they for Jesus, and spake among themselves, as they stood in the temple, What think ye, that he will not come to the feast?
 ch11v57: Now both the chief priests and the Pharisees had given a commandment, that, if any man knew where he were, he should shew it, that they might take him.
-ch11Lim: 57
 ##########################################
 #                                        #
 #              Chapter 12                #
 ##########################################
-ch12vinfo: John Chapter 12 has 50 verses.
 ch12v1: Then Jesus six days before the passover came to Bethany, where Lazarus was, which had been dead, whom he raised from the dead.
 ch12v2: 'There they made him a supper; and Martha served: but Lazarus was one of them that sat at the table with him.'
 ch12v3: 'Then took Mary a pound of ointment of spikenard, very costly, and anointed the feet of Jesus, and wiped his feet with her hair: and the house was filled with the odour of the ointment.'
@@ -657,12 +632,10 @@ ch12v47: 'And if any man hear my words, and believe not, I judge him not: for I 
 ch12v48: 'He that rejecteth me, and receiveth not my words, hath one that judgeth him: the word that I have spoken, the same shall judge him in the last day.'
 ch12v49: For I have not spoken of myself; but the Father which sent me, he gave me a commandment, what I should say, and what I should speak.
 ch12v50: 'And I know that his commandment is life everlasting: whatsoever I speak therefore, even as the Father said unto me, so I speak.'
-ch12Lim: 50
 ##########################################
 #                                        #
 #              Chapter 13                #
 ##########################################
-ch13vinfo: John Chapter 13 has 38 verses.
 ch13v1: Now before the feast of the passover, when Jesus knew that his hour was come that he should depart out of this world unto the Father, having loved his own which were in the world, he loved them unto the end.
 ch13v2: And supper being ended, the devil having now put into the heart of Judas Iscariot, Simon's son, to betray him;
 ch13v3: Jesus knowing that the Father had given all things into his hands, and that he was come from God, and went to God;
@@ -701,12 +674,10 @@ ch13v35: By this shall all men know that ye are my disciples, if ye have love on
 ch13v36: Simon Peter said unto him, Lord, whither goest thou? Jesus answered him, Whither I go, thou canst not follow me now; but thou shalt follow me afterwards.
 ch13v37: Peter said unto him, Lord, why cannot I follow thee now? I will lay down my life for thy sake.
 ch13v38: Jesus answered him, Wilt thou lay down thy life for my sake? Verily, verily, I say unto thee, The cock shall not crow, till thou hast denied me thrice.
-ch13Lim: 38
 ##########################################
 #                                        #
 #              Chapter 14                #
 ##########################################
-ch14vinfo: John Chapter 14 has 31 verses.
 ch14v1: 'Let not your heart be troubled: ye believe in God, believe also in me.'
 ch14v2: 'In my Father''s house are many mansions: if it were not so, I would have told you. I go to prepare a place for you.'
 ch14v3: And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also.
@@ -738,12 +709,10 @@ ch14v28: 'Ye have heard how I said unto you, I go away, and come again unto you.
 ch14v29: And now I have told you before it come to pass, that, when it is come to pass, ye might believe.
 ch14v30: 'Hereafter I will not talk much with you: for the prince of this world cometh, and hath nothing in me.'
 ch14v31: But that the world may know that I love the Father; and as the Father gave me commandment, even so I do. Arise, let us go hence.
-ch14Lim: 31
 ##########################################
 #                                        #
 #              Chapter 15                #
 ##########################################
-ch15vinfo: John Chapter 15 has 27 verses.
 ch15v1: I am the true vine, and my Father is the husbandman.
 ch15v2: 'Every branch in me that beareth not fruit he taketh away: and every branch that beareth fruit, he purgeth it, that it may bring forth more fruit.'
 ch15v3: Now ye are clean through the word which I have spoken unto you.
@@ -771,12 +740,10 @@ ch15v24: 'If I had not done among them the works which none other man did, they 
 ch15v25: But this cometh to pass, that the word might be fulfilled that is written in their law, They hated me without a cause.
 ch15v26: 'But when the Comforter is come, whom I will send unto you from the Father, even the Spirit of truth, which proceedeth from the Father, he shall testify of me:'
 ch15v27: And ye also shall bear witness, because ye have been with me from the beginning.
-ch15Lim: 27
 ##########################################
 #                                        #
 #              Chapter 16                #
 ##########################################
-ch16vinfo: John Chapter 16 has 33 verses.
 ch16v1: These things have I spoken unto you, that ye should not be offended.
 ch16v2: 'They shall put you out of the synagogues: yea, the time cometh, that whosoever killeth you will think that he doeth God service.'
 ch16v3: And these things will they do unto you, because they have not known the Father, nor me.
@@ -810,12 +777,10 @@ ch16v30: 'Now are we sure that thou knowest all things, and needest not that any
 ch16v31: Jesus answered them, Do ye now believe?
 ch16v32: 'Behold, the hour cometh, yea, is now come, that ye shall be scattered, every man to his own, and shall leave me alone: and yet I am not alone, because the Father is with me.'
 ch16v33: 'These things I have spoken unto you, that in me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world.'
-ch16Lim: 33
 ##########################################
 #                                        #
 #              Chapter 17                #
 ##########################################
-ch17vinfo: John Chapter 17 has 26 verses.
 ch17v1: 'These words spake Jesus, and lifted up his eyes to heaven, and said, Father, the hour is come; glorify thy Son, that thy Son also may glorify thee:'
 ch17v2: As thou hast given him power over all flesh, that he should give eternal life to as many as thou hast given him.
 ch17v3: And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.
@@ -842,12 +807,10 @@ ch17v23: I in them, and thou in me, that they may be made perfect in one; and th
 ch17v24: 'Father, I will that they also, whom thou hast given me, be with me where I am; that they may behold my glory, which thou hast given me: for thou lovedst me before the foundation of the world.'
 ch17v25: 'O righteous Father, the world hath not known thee: but I have known thee, and these have known that thou hast sent me.'
 ch17v26: 'And I have declared unto them thy name, and will declare it: that the love wherewith thou hast loved me may be in them, and I in them.'
-ch17Lim: 26
 ##########################################
 #                                        #
 #              Chapter 18                #
 ##########################################
-ch18vinfo: John Chapter 18 has 40 verses.
 ch18v1: When Jesus had spoken these words, he went forth with his disciples over the brook Cedron, where was a garden, into the which he entered, and his disciples.
 ch18v2: 'And Judas also, which betrayed him, knew the place: for Jesus ofttimes resorted thither with his disciples.'
 ch18v3: Judas then, having received a band of men and officers from the chief priests and Pharisees, cometh thither with lanterns and torches and weapons.
@@ -888,12 +851,10 @@ ch18v37: Pilate therefore said unto him, Art thou a king then? Jesus answered, T
 ch18v38: Pilate saith unto him, What is truth? And when he had said this, he went out again unto the Jews, and saith unto them, I find in him no fault at all.
 ch18v39: 'But ye have a custom, that I should release unto you one at the passover: will ye therefore that I release unto you the King of the Jews?'
 ch18v40: Then cried they all again, saying, Not this man, but Barabbas. Now Barabbas was a robber.
-ch18Lim: 40
 ##########################################
 #                                        #
 #              Chapter 19                #
 ##########################################
-ch19vinfo: John Chapter 19 has 42 verses.
 ch19v1: Then Pilate therefore took Jesus, and scourged him.
 ch19v2: And the soldiers platted a crown of thorns, and put it on his head, and they put on him a purple robe,
 ch19v3: And said, Hail, King of the Jews! and they smote him with their hands.
@@ -936,12 +897,10 @@ ch19v39: And there came also Nicodemus, which at the first came to Jesus by nigh
 ch19v40: Then took they the body of Jesus, and wound it in linen clothes with the spices, as the manner of the Jews is to bury.
 ch19v41: Now in the place where he was crucified there was a garden; and in the garden a new sepulchre, wherein was never man yet laid.
 ch19v42: There laid they Jesus therefore because of the Jews' preparation day; for the sepulchre was nigh at hand.
-ch19Lim: 42
 ##########################################
 #                                        #
 #              Chapter 20                #
 ##########################################
-ch20vinfo: John Chapter 20 has 31 verses.
 ch20v1: The first day of the week cometh Mary Magdalene early, when it was yet dark, unto the sepulchre, and seeth the stone taken away from the sepulchre.
 ch20v2: Then she runneth, and cometh to Simon Peter, and to the other disciple, whom Jesus loved, and saith unto them, They have taken away the Lord out of the sepulchre, and we know not where they have laid him.
 ch20v3: Peter therefore went forth, and that other disciple, and came to the sepulchre.
@@ -973,12 +932,10 @@ ch20v28: And Thomas answered and said unto him, My Lord and my God.
 ch20v29: 'Jesus saith unto him, Thomas, because thou hast seen me, thou hast believed: blessed are they that have not seen, and yet have believed.'
 ch20v30: 'And many other signs truly did Jesus in the presence of his disciples, which are not written in this book:'
 ch20v31: But these are written, that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name.
-ch20Lim: 31
 ##########################################
 #                                        #
 #              Chapter 21                #
 ##########################################
-ch21vinfo: John Chapter 21 has 25 verses.
 ch21v1: After these things Jesus shewed himself again to the disciples at the sea of Tiberias; and on this wise shewed he himself.
 ch21v2: There were together Simon Peter, and Thomas called Didymus, and Nathanael of Cana in Galilee, and the sons of Zebedee, and two other of his disciples.
 ch21v3: Simon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They went forth, and entered into a ship immediately; and that night they caught nothing.
@@ -1004,4 +961,3 @@ ch21v22: Jesus saith unto him, If I will that he tarry till I come, what is that
 ch21v23: 'Then went this saying abroad among the brethren, that that disciple should not die: yet Jesus said not unto him, He shall not die; but, If I will that he tarry till I come, what is that to thee?'
 ch21v24: 'This is the disciple which testifieth of these things, and wrote these things: and we know that his testimony is true.'
 ch21v25: And there are also many other things which Jesus did, the which, if they should be written every one, I suppose that even the world itself could not contain the books that should be written. Amen.
-ch21Lim: 25

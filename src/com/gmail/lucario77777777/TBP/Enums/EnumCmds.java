@@ -2,14 +2,15 @@ package com.gmail.lucario77777777.TBP.Enums;
 
 public enum EnumCmds {
 	// Special cases.
-	FIRST("first", "1", "1st", true),
-	SECOND("second", "2", "2nd", true),
-	THIRD("third", "3", "3rd", true),
+	FIRST("1", "verse.read", "one", "first", "1st", true),
+	SECOND("2", "verse.read", "one", "second", "2nd", true),
+	THIRD("3", "verse.read", "one", "third", "3rd", true),
+	SONG("Song", "verse.read", true),
 	
 	//Actual Commands.
-	READ("read", "verse.read", "readverse", "verseread", "readv", "vread", false),
-	SEND("send", "verse.send", "sendverse", "versesend", "giveverse", "versegive", "sendv", false),
-	SEND2("send", "verse.send", "vsend", "givev", "vgive", false),
+	READ("read", "verse.read", "readverse", "verseread", "readv", "vread", true),
+	SEND("send", "verse.send", "sendverse", "versesend", "giveverse", "versegive", "sendv", true),
+	SEND2("send", "verse.send", "vsend", "givev", "vgive", true),
 	PREVIOUS("previous", "verse.previous", "pre", "prev", "back", "before", "b4", true),
 	NEXT("next", "verse.next", "forward", "for", "after", "aft", "nextverse", true),
 	NEXT2("next", "verse.next", "versenext", "nextv", "vnext", true),
@@ -22,11 +23,13 @@ public enum EnumCmds {
 	GETBOOK("getbook", "book.get", "book", "bookget", "getbible", "bibleget", true),
 	SENDBOOK("sendbook", "book.send", "booksend", "biblesend", "sendbible", "givebook", "bookgive", true),
 	SENDBOOK2("sendbook", "book.send", "biblegive", "givebible", true),
-	INFO("info", "info.help", "about", "abt", "information", true),
+	INFO("info", "use", "about", "abt", "information", true),
 	HELP("help", "info.help", "?", "commands", "commandshelp", "cmds", "cmdshelp", true),
+	PLUGIN("plugin", "info.plugin", "TB", "TadukooBible", "TadukooBibleinfo", "plugininfo", true),
 	BOOKS("books", "info.book", "bookslist", "listbooks", "booklist", true),
-	TRANSLATIONS("translations", "info.translation", "translist", "translationslist", "listtrans", "tran", 
-			"trans", true),
+	TRANSLATIONS("translation", "info.translation", "translations", "translist", "translationslist", 
+			"listtrans", "tran", true),
+	TRANSLATIONS2("translation", "info.translation", "trans", true),
 	CONFIG("config", "op.config", "configuration", "settings", "set", "options", true),
 	ANNOUNCE("announce", "op.announce", "ann", "broadcast", "broad", "shout", "yell", true);
 	

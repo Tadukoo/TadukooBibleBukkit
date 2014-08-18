@@ -1,10 +1,7 @@
-MarkInfo: Mark tells about Jesus' life. It was written by John Mark. It has 16 chapters.
-Mark#: Mark has 16 chapters.
 ##########################################
 #                                        #
 #              Chapter 1                 #
 ##########################################
-ch1vinfo: Mark Chapter 1 has 45 verses.
 ch1v1: The beginning of the gospel of Jesus Christ, the Son of God;
 ch1v2: As it is written in the prophets, Behold, I send my messenger before thy face, which shall prepare thy way before thee.
 ch1v3: The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.
@@ -50,12 +47,10 @@ ch1v42: And as soon as he had spoken, immediately the leprosy departed from him,
 ch1v43: And he straitly charged him, and forthwith sent him away;
 ch1v44: 'And saith unto him, See thou say nothing to any man: but go thy way, shew thyself to the priest, and offer for thy cleansing those things which Moses commanded, for a testimony unto them.'
 ch1v45: 'But he went out, and began to publish it much, and to blaze abroad the matter, insomuch that Jesus could no more openly enter into the city, but was without in desert places: and they came to him from every quarter.'
-ch1Lim: 45
 ##########################################
 #                                        #
 #              Chapter 2                 #
 ##########################################
-ch2vinfo: Mark Chapter 2 has 28 verses.
 ch2v1: And again he entered into Capernaum after some days; and it was noised that he was in the house.
 ch2v2: 'And straightway many were gathered together, insomuch that there was no room to receive them, no, not so much as about the door: and he preached the word unto them.'
 ch2v3: And they come unto him, bringing one sick of the palsy, which was borne of four.
@@ -84,12 +79,10 @@ ch2v25: And he said unto them, Have ye never read what David did, when he had ne
 ch2v26: How he went into the house of God in the days of Abiathar the high priest, and did eat the shewbread, which is not lawful to eat but for the priests, and gave also to them which were with him?
 ch2v27: 'And he said unto them, The sabbath was made for man, and not man for the sabbath:'
 ch2v28: Therefore the Son of man is Lord also of the sabbath.
-ch2Lim: 28
 ##########################################
 #                                        #
 #              Chapter 3                 #
 ##########################################
-ch3vinfo: Mark Chapter 3 has 35 verses.
 ch3v1: And he entered again into the synagogue; and there was a man there which had a withered hand.
 ch3v2: And they watched him, whether he would heal him on the sabbath day; that they might accuse him.
 ch3v3: And he saith unto the man which had the withered hand, Stand forth.
@@ -125,12 +118,10 @@ ch3v32: And the multitude sat about him, and they said unto him, Behold, thy mot
 ch3v33: And he answered them, saying, Who is my mother, or my brethren?
 ch3v34: And he looked round about on them which sat about him, and said, Behold my mother and my brethren!
 ch3v35: For whosoever shall do the will of God, the same is my brother, and my sister, and mother.
-ch3Lim: 35
 ##########################################
 #                                        #
 #              Chapter 4                 #
 ##########################################
-ch4vinfo: Mark Chapter 4 has 41 verses.
 ch4v1: 'And he began again to teach by the sea side: and there was gathered unto him a great multitude, so that he entered into a ship, and sat in the sea; and the whole multitude was by the sea on the land.'
 ch4v2: And he taught them many things by parables, and said unto them in his doctrine,
 ch4v3: 'Hearken; Behold, there went out a sower to sow:'
@@ -172,12 +163,10 @@ ch4v38: 'And he was in the hinder part of the ship, asleep on a pillow: and they
 ch4v39: And he arose, and rebuked the wind, and said unto the sea, Peace, be still. And the wind ceased, and there was a great calm.
 ch4v40: And he said unto them, Why are ye so fearful? how is it that ye have no faith?
 ch4v41: And they feared exceedingly, and said one to another, What manner of man is this, that even the wind and the sea obey him?
-ch4Lim: 41
 ##########################################
 #                                        #
 #              Chapter 5                 #
 ##########################################
-ch5vinfo: Mark Chapter 5 has 43 verses.
 ch5v1: And they came over unto the other side of the sea, into the country of the Gadarenes.
 ch5v2: And when he was come out of the ship, immediately there met him out of the tombs a man with an unclean spirit,
 ch5v3: 'Who had his dwelling among the tombs; and no man could bind him, no, not with chains:'
@@ -221,12 +210,10 @@ ch5v40: And they laughed him to scorn. But when he had put them all out, he take
 ch5v41: And he took the damsel by the hand, and said unto her, Talitha cumi; which is, being interpreted, Damsel, I say unto thee, arise.
 ch5v42: And straightway the damsel arose, and walked; for she was of the age of twelve years. And they were astonished with a great astonishment.
 ch5v43: And he charged them straitly that no man should know it; and commanded that something should be given her to eat.
-ch5Lim: 43
 ##########################################
 #                                        #
 #              Chapter 6                 #
 ##########################################
-ch6vinfo: Mark Chapter 6 has 56 verses.
 ch6v1: And he went out from thence, and came into his own country; and his disciples follow him.
 ch6v2: 'And when the sabbath day was come, he began to teach in the synagogue: and many hearing him were astonished, saying, From whence hath this man these things? and what wisdom is this which is given unto him, that even such mighty works are wrought by his hands?'
 ch6v3: Is not this the carpenter, the son of Mary, the brother of James, and Joses, and of Juda, and Simon? and are not his sisters here with us? And they were offended at him.
@@ -283,12 +270,10 @@ ch6v53: And when they had passed over, they came into the land of Gennesaret, an
 ch6v54: And when they were come out of the ship, straightway they knew him,
 ch6v55: And ran through that whole region round about, and began to carry about in beds those that were sick, where they heard he was.
 ch6v56: 'And whithersoever he entered, into villages, or cities, or country, they laid the sick in the streets, and besought him that they might touch if it were but the border of his garment: and as many as touched him were made whole.'
-ch6Lim: 56
 ##########################################
 #                                        #
 #              Chapter 7                 #
 ##########################################
-ch7vinfo: Mark Chapter 7 has 37 verses.
 ch7v1: Then came together unto him the Pharisees, and certain of the scribes, which came from Jerusalem.
 ch7v2: And when they saw some of his disciples eat bread with defiled, that is to say, with unwashen, hands, they found fault.
 ch7v3: For the Pharisees, and all the Jews, except they wash their hands oft, eat not, holding the tradition of the elders.
@@ -326,12 +311,10 @@ ch7v34: And looking up to heaven, he sighed, and saith unto him, Ephphatha, that
 ch7v35: And straightway his ears were opened, and the string of his tongue was loosed, and he spake plain.
 ch7v36: 'And he charged them that they should tell no man: but the more he charged them, so much the more a great deal they published it;'
 ch7v37: 'And were beyond measure astonished, saying, He hath done all things well: he maketh both the deaf to hear, and the dumb to speak.'
-ch7Lim: 37
 ##########################################
 #                                        #
 #              Chapter 8                 #
 ##########################################
-ch8vinfo: Mark Chapter 8 has 38 verses.
 ch8v1: In those days the multitude being very great, and having nothing to eat, Jesus called his disciples unto him, and saith unto them,
 ch8v2: 'I have compassion on the multitude, because they have now been with me three days, and have nothing to eat:'
 ch8v3: 'And if I send them away fasting to their own houses, they will faint by the way: for divers of them came from far.'
@@ -370,12 +353,10 @@ ch8v35: For whosoever will save his life shall lose it; but whosoever shall lose
 ch8v36: For what shall it profit a man, if he shall gain the whole world, and lose his own soul?
 ch8v37: Or what shall a man give in exchange for his soul?
 ch8v38: Whosoever therefore shall be ashamed of me and of my words in this adulterous and sinful generation; of him also shall the Son of man be ashamed, when he cometh in the glory of his Father with the holy angels.
-ch8Lim: 38
 ##########################################
 #                                        #
 #              Chapter 9                 #
 ##########################################
-ch9vinfo: Mark Chapter 9 has 50 verses.
 ch9v1: And he said unto them, Verily I say unto you, That there be some of them that stand here, which shall not taste of death, till they have seen the kingdom of God come with power.
 ch9v2: 'And after six days Jesus taketh with him Peter, and James, and John, and leadeth them up into an high mountain apart by themselves: and he was transfigured before them.'
 ch9v3: And his raiment became shining, exceeding white as snow; so as no fuller on earth can white them.
@@ -426,12 +407,10 @@ ch9v47: 'And if thine eye offend thee, pluck it out: it is better for thee to en
 ch9v48: Where their worm dieth not, and the fire is not quenched.
 ch9v49: For every one shall be salted with fire, and every sacrifice shall be salted with salt.
 ch9v50: 'Salt is good: but if the salt have lost his saltness, wherewith will ye season it? Have salt in yourselves, and have peace one with another.'
-ch9Lim: 50
 ##########################################
 #                                        #
 #              Chapter 10                #
 ##########################################
-ch10vinfo: Mark Chapter 10 has 52 verses.
 ch10v1: 'And he arose from thence, and cometh into the coasts of Judaea by the farther side of Jordan: and the people resort unto him again; and, as he was wont, he taught them again.'
 ch10v2: And the Pharisees came to him, and asked him, Is it lawful for a man to put away his wife? tempting him.
 ch10v3: And he answered and said unto them, What did Moses command you?
@@ -484,12 +463,10 @@ ch10v49: And Jesus stood still, and commanded him to be called. And they call th
 ch10v50: And he, casting away his garment, rose, and came to Jesus.
 ch10v51: And Jesus answered and said unto him, What wilt thou that I should do unto thee? The blind man said unto him, Lord, that I might receive my sight.
 ch10v52: And Jesus said unto him, Go thy way; thy faith hath made thee whole. And immediately he received his sight, and followed Jesus in the way.
-ch10Lim: 52
 ##########################################
 #                                        #
 #              Chapter 11                #
 ##########################################
-ch11vinfo: Mark Chapter 11 has 33 verses.
 ch11v1: And when they came nigh to Jerusalem, unto Bethphage and Bethany, at the mount of Olives, he sendeth forth two of his disciples,
 ch11v2: 'And saith unto them, Go your way into the village over against you: and as soon as ye be entered into it, ye shall find a colt tied, whereon never man sat; loose him, and bring him.'
 ch11v3: And if any man say unto you, Why do ye this? say ye that the Lord hath need of him; and straightway he will send him hither.
@@ -523,12 +500,10 @@ ch11v30: The baptism of John, was it from heaven, or of men? answer me.
 ch11v31: And they reasoned with themselves, saying, If we shall say, From heaven; he will say, Why then did ye not believe him?
 ch11v32: 'But if we shall say, Of men; they feared the people: for all men counted John, that he was a prophet indeed.'
 ch11v33: And they answered and said unto Jesus, We cannot tell. And Jesus answering saith unto them, Neither do I tell you by what authority I do these things.
-ch11Lim: 33
 ##########################################
 #                                        #
 #              Chapter 12                #
 ##########################################
-ch12vinfo: Mark Chapter 12 has 44 verses.
 ch12v1: And he began to speak unto them by parables. A certain man planted a vineyard, and set an hedge about it, and digged a place for the winefat, and built a tower, and let it out to husbandmen, and went into a far country.
 ch12v2: And at the season he sent to the husbandmen a servant, that he might receive from the husbandmen of the fruit of the vineyard.
 ch12v3: And they caught him, and beat him, and sent him away empty.
@@ -573,12 +548,10 @@ ch12v41: 'And Jesus sat over against the treasury, and beheld how the people cas
 ch12v42: And there came a certain poor widow, and she threw in two mites, which make a farthing.
 ch12v43: 'And he called unto him his disciples, and saith unto them, Verily I say unto you, That this poor widow hath cast more in, than all they which have cast into the treasury:'
 ch12v44: For all they did cast in of their abundance; but she of her want did cast in all that she had, even all her living.
-ch12Lim: 44
 ##########################################
 #                                        #
 #              Chapter 13                #
 ##########################################
-ch13vinfo: Mark Chapter 13 has 37 verses.
 ch13v1: And as he went out of the temple, one of his disciples saith unto him, Master, see what manner of stones and what buildings are here!
 ch13v2: And Jesus answering said unto him, Seest thou these great buildings? there shall not be left one stone upon another, that shall not be thrown down.
 ch13v3: And as he sat upon the mount of Olives over against the temple, Peter and James and John and Andrew asked him privately,
@@ -616,12 +589,10 @@ ch13v34: For the Son of Man is as a man taking a far journey, who left his house
 ch13v35: 'Watch ye therefore: for ye know not when the master of the house cometh, at even, or at midnight, or at the cockcrowing, or in the morning:'
 ch13v36: Lest coming suddenly he find you sleeping.
 ch13v37: And what I say unto you I say unto all, Watch.
-ch13Lim: 37
 ##########################################
 #                                        #
 #              Chapter 14                #
 ##########################################
-ch14vinfo: Mark Chapter 14 has 72 verses.
 ch14v1: 'After two days was the feast of the passover, and of unleavened bread: and the chief priests and the scribes sought how they might take him by craft, and put him to death.'
 ch14v2: But they said, Not on the feast day, lest there be an uproar of the people.
 ch14v3: And being in Bethany in the house of Simon the leper, as he sat at meat, there came a woman having an alabaster box of ointment of spikenard very precious; and she brake the box, and poured it on his head.
@@ -694,12 +665,10 @@ ch14v69: And a maid saw him again, and began to say to them that stood by, This 
 ch14v70: 'And he denied it again. And a little after, they that stood by said again to Peter, Surely thou art one of them: for thou art a Galilaean, and thy speech agreeth thereto.'
 ch14v71: But he began to curse and to swear, saying, I know not this man of whom ye speak.
 ch14v72: And the second time the cock crew. And Peter called to mind the word that Jesus said unto him, Before the cock crow twice, thou shalt deny me thrice. And when he thought thereon, he wept.
-ch14Lim: 72
 ##########################################
 #                                        #
 #              Chapter 15                #
 ##########################################
-ch15vinfo: Mark Chapter 15 has 47 verses.
 ch15v1: And straightway in the morning the chief priests held a consultation with the elders and scribes and the whole council, and bound Jesus, and carried him away, and delivered him to Pilate.
 ch15v2: And Pilate asked him, Art thou the King of the Jews? And he answering said unto them, Thou sayest it.
 ch15v3: 'And the chief priests accused him of many things: but he answered nothing.'
@@ -747,12 +716,10 @@ ch15v44: 'And Pilate marvelled if he were already dead: and calling unto him the
 ch15v45: And when he knew it of the centurion, he gave the body to Joseph.
 ch15v46: And he bought fine linen, and took him down, and wrapped him in the linen, and laid him in a sepulchre which was hewn out of a rock, and rolled a stone unto the door of the sepulchre.
 ch15v47: And Mary Magdalene and Mary the mother of Joses beheld where he was laid.
-ch15Lim: 47
 ##########################################
 #                                        #
 #              Chapter 16                #
 ##########################################
-ch16vinfo: Mark Chapter 16 has 20 verses.
 ch16v1: And when the sabbath was past, Mary Magdalene, and Mary the mother of James, and Salome, had bought sweet spices, that they might come and anoint him.
 ch16v2: And very early in the morning the first day of the week, they came unto the sepulchre at the rising of the sun.
 ch16v3: And they said among themselves, Who shall roll us away the stone from the door of the sepulchre?
@@ -773,4 +740,3 @@ ch16v17: And these signs shall follow them that believe; In my name shall they c
 ch16v18: They shall take up serpents; and if they drink any deadly thing, it shall not hurt them; they shall lay hands on the sick, and they shall recover.
 ch16v19: So then after the Lord had spoken unto them, he was received up into heaven, and sat on the right hand of God.
 ch16v20: And they went forth, and preached every where, the Lord working with them, and confirming the word with signs following. Amen.
-ch16Lim: 20
