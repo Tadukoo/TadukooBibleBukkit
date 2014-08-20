@@ -27,9 +27,10 @@ public enum EnumCmds {
 	HELP("help", "info.help", "?", "commands", "commandshelp", "cmds", "cmdshelp", true),
 	PLUGIN("plugin", "info.plugin", "TB", "TadukooBible", "TadukooBibleinfo", "plugininfo", true),
 	BOOKS("books", "info.book", "bookslist", "listbooks", "booklist", true),
-	TRANSLATIONS("translation", "info.translation", "translations", "translist", "translationslist", 
+	TRANSLATION("translation", "info.translation", "translations", "translist", "translationslist", 
 			"listtrans", "tran", true),
-	TRANSLATIONS2("translation", "info.translation", "trans", true),
+	TRANSLATION2("translation", "info.translation", "trans", "translationinfo", "translationsinfo",
+			"transinfo", "traninfo", true),
 	CONFIG("config", "op.config", "configuration", "settings", "set", "options", true),
 	ANNOUNCE("announce", "op.announce", "ann", "broadcast", "broad", "shout", "yell", true);
 	

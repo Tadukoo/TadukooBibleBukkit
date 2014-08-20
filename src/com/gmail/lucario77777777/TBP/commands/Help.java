@@ -1,4 +1,4 @@
-package com.gmail.lucario77777777.TBP.Info;
+package com.gmail.lucario77777777.TBP.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -250,7 +250,7 @@ public class Help {
 					"about a translation.");
 			sender.sendMessage(ChatColor.GREEN + "Usage: /bible translation [translation]");
 			sender.sendMessage(ChatColor.GREEN + "Aliases: translations, translist, translationslist, " +
-					"listtrans, tran, and trans.");
+					"listtrans, tran, trans, translationinfo, translationsinfo, transinfo, and traninfo.");
 			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.info.translation");
 			return;
 		}else if(page.equalsIgnoreCase("config1")){

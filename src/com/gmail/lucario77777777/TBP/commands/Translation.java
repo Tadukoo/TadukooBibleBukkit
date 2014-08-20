@@ -1,4 +1,4 @@
-package com.gmail.lucario77777777.TBP.Info;
+package com.gmail.lucario77777777.TBP.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 import com.gmail.lucario77777777.TBP.TB;
 import com.gmail.lucario77777777.TBP.Enums.EnumTrans;
 
-public class Translations {
+public class Translation {
 	public static void list(CommandSender sender, TB plugin) {
 		String a = "The available translations are:";
 		String b = "";

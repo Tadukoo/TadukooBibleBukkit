@@ -3,21 +3,26 @@ package com.gmail.lucario77777777.TBP.Enums;
 import com.gmail.lucario77777777.TBP.TB;
 
 public enum EnumBooks {
-	GENESIS("Genesis", "Gen", "Ge", "Genesis is about Creation up through the time the Israelites go to " +
-			"Egypt. It was written by Moses and has 50 chapters.", "Its aliases are Gen and Ge.", "Moses", 1, 
-			50, true),
-	EXODUS("Exodus", "Exo", "Ex", "Exodus is about the time from the Exodus of the Israelites from Egypt up " +
-			"to the laws given to the Israelites by God. It was written by Moses and has 40 chapters.", 
-			"Its aliases are Exo and Ex.", "Moses", 2, 40, true),
-	LEVITICUS("Leviticus", "Lev", "Le", "Leviticus is about the various laws that were given to the " +
-			"Israelites by God. It was written by Moses and has 27 chapters.", "Its aliases are Lev and Le.",
-			"Moses", 3, 27, true),
-	NUMBERS("Numbers", "Num", "Nu", "Numbers is about the various laws that were given to the Israelites " +
-			"by God. It was written by Moses and has 36 chapters.", "Its aliases are Num and Nu.", "Moses", 4,
-			36, true),
-	DEUTERONOMY("Deuteronomy", "Deu", "De", "Deuteronomy is about the laws given to the Israelites by God " +
-			"through Moses. It was written by Moses and has 34 chapters.", "Its aliases are Deu and De.",
-			"Moses", 5, 34, true),
+	GENESIS("Genesis", "Gen", "Ge", "Genesis is about creation, the fall of man, the great flood, God's " +
+			"covenant with Abraham, Isaac, and Jacob, and how the Israelites end up in Egypt. It was " +
+			"written by Moses and has 50 chapters.", "Its aliases are Gen and Ge.", "Moses", 1, 50, true),
+	EXODUS("Exodus", "Exo", "Ex", "Exodus is about God freeing the Israelites from their bondage in Egypt " +
+			"through Moses and 10 plagues, the reason for Passover, the Exodus of the Israelites from " +
+			"Egypt,  the 10 Commandments, and priest and worship instructions. It was written by Moses and " +
+			"has 40 chapters.", "Its aliases are Exo and Ex.", "Moses", 2, 40, true),
+	LEVITICUS("Leviticus", "Lev", "Le", "Leviticus is about God's instructions for sacrifices, offerings, " +
+			"the priesthood, unclean things, the Day of Atonement, and general laws for holy living. It was " +
+			"written by Moses and has 27 chapters.", "Its aliases are Lev and Le.", "Moses", 3, 27, true),
+	NUMBERS("Numbers", "Num", "Nu", "Numbers is about the preparation of the Israelite's journey into the " +
+			"promised land and the start of this journey, including the sending of spies into the promised " +
+			"land, the Israelites wandering in the desert for 40 years as punishment, and the appointment " +
+			"of Joshua as leader after Moses is banished from entering the land. It was written by Moses " +
+			"and has 36 chapters.", "Its aliases are Num and Nu.", "Moses", 4, 36, true),
+	DEUTERONOMY("Deuteronomy", "Deu", "De", "Deuteronomy is about Moses reviewing the Israelite's history, " +
+			"the Ten Commandments, the instructions on holy living, and committing the Israelites to " +
+			"setting themselves apart unto God. Then Moses blesses each of the tribes, hands over his " +
+			"authority to Joshua, and God allows him to see the promised land before he dies. It was " +
+			"written by Moses and has 34 chapters.", "Its aliases are Deu and De.", "Moses", 5, 34, true),
 	JOSHUA("Joshua", "Jos", "", "Its alias is Jos.", "Joshua", 6, 24, false),
 	JUDGES("Judges", "Jud", "", "Its alias is Jud.", "Samuel", 7, 21, false),
 	RUTH("Ruth", "Ru", "", "Its alias is Ru.", "Samuel", 8, 4, false),
@@ -36,7 +41,7 @@ public enum EnumBooks {
 	PSALMS("Psalms", "Psalm", "Ps", "Psalms is a book containing poetry. It was written by many people and " +
 			"has 150 chapters.", "Its aliases are Psalm and Ps.", "Many people", 19, 150, true),
 	PROVERBS("Proverbs", "Pro", "Pr", "Proverbs is a book of wise sayings by Solomon and a few other " +
-			"people. It was written by Solomon and a few other people. It has 31 chapters.",
+			"people. It was written by Solomon and a few other people and has 31 chapters.",
 			"Its aliases are Pro and Pr.", "Solomon", 20, 31, true),
 	ECCLESIASTES("Ecclesiastes", "Ecc", "Ec", "", "Its aliases are Ecc and Ec.", "Solomon", 21, 12, false),
 	SONGOFSONGS("SongofSongs", "SongofSolomon", "So", "", "Its alias is Song of Solomon.", "Solomon", 22, 8,
@@ -67,16 +72,16 @@ public enum EnumBooks {
 	JOHN("John", "Joh", "John tells about Jesus' life. It was written by John and has 21 chapters.", 
 			"Its alias is Joh.", "John", 43, 21, true),
 	ACTS("Acts", "Ac", "Acts tells about what the apostles did after Jesus' ascension into Heaven. It was " +
-			"written by Luke. It has 28 chapters.", "Its alias is Ac.", "Luke", 44, 28, true),
+			"written by Luke and has 28 chapters.", "Its alias is Ac.", "Luke", 44, 28, true),
 	ROMANS("Romans", "Rom", "Ro", "Romans is a letter written to the believers in Rome about the " +
-			"fundamentals of faith, God's sovereignty, and holy living. It was written by Paul. It has " +
+			"fundamentals of faith, God's sovereignty, and holy living. It was written by Paul and has " +
 			"16 chapters.", "Its aliases are Rom and Ro.", "Paul", 45, 16, true),
 	CORINTHIANS1("1Corinthians", "1Cor", "1Co", "1 Corinthians is a letter written to the church in Corinth " +
 			"about difficulties and confusion in the church along with the resurrection. It was written by " +
-			"Paul. It has 16 chapters.", "Its aliases are 1 Cor and 1 Co.", "Paul", 46, 16, true),
+			"Paul and has 16 chapters.", "Its aliases are 1 Cor and 1 Co.", "Paul", 46, 16, true),
 	CORINTHIANS2("2Corinthians", "2Cor", "2Co", "2 Corinthians is a letter written to the church in Corinth " +
-			"about being an apostle, preaching the Gospel, and testing your faith. It was written by Paul. " +
-			"It has 13 chapters.", "Its aliases are 2 Cor and 2 Co.", "Paul", 47, 13, true),
+			"about being an apostle, preaching the Gospel, and testing your faith. It was written by Paul " +
+			"and has 13 chapters.", "Its aliases are 2 Cor and 2 Co.", "Paul", 47, 13, true),
 	GALATIANS("Galatians", "Gal", "Ga", "", "Its aliases are Gal and Ga.", "Paul", 48, 6, false),
 	EPHESIANS("Ephesians", "Eph", "", "Its alias is Eph.", "Paul", 49, 6, false),
 	PHILIPPIANS("Philippians", "Phili", "Php", "", "Its aliases are Phili and Php.", "Paul", 50, 4, false),

@@ -6,20 +6,21 @@ import org.bukkit.command.*;
 import org.bukkit.entity.Player;
 import org.bukkit.command.CommandExecutor;
 
+import com.gmail.lucario77777777.TBP.Args.BooksArgs;
+import com.gmail.lucario77777777.TBP.Args.HelpArgs;
+import com.gmail.lucario77777777.TBP.Args.LastArgs;
+import com.gmail.lucario77777777.TBP.Args.PluginArgs;
+import com.gmail.lucario77777777.TBP.Args.TranslationArgs;
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumChps;
 import com.gmail.lucario77777777.TBP.Enums.EnumCmds;
-import com.gmail.lucario77777777.TBP.Enums.EnumHelp;
 import com.gmail.lucario77777777.TBP.Enums.EnumTrans;
-import com.gmail.lucario77777777.TBP.Info.Books;
-import com.gmail.lucario77777777.TBP.Info.Help;
-import com.gmail.lucario77777777.TBP.Info.Translations;
 import com.gmail.lucario77777777.TBP.TB;
 
-public class MainCommandExecutor implements CommandExecutor {
+public class CommandExec implements CommandExecutor {
 	private TB plugin;
 	private boolean permsOn;
-	public MainCommandExecutor(TB plugin, boolean permsOn) {
+	public CommandExec(TB plugin, boolean permsOn) {
 		this.plugin = plugin;
 		this.permsOn = permsOn;
 	}
@@ -64,19 +65,6 @@ public class MainCommandExecutor implements CommandExecutor {
 		 */
 		boolean bookSet = false;
 		boolean chpSet = false;
-		
-		/*
-		 * Used for the Help command.
-		 */
-		EnumHelp ehelp = EnumHelp.TABLEOFCONTENTS;
-		String helpPage = "toc1";
-		int helpPageNum = 1;
-		int helpPageNumU = 2;
-		
-		/*
-		 * Used for the Books command.
-		 */
-		String bookListPage = "1";
 		
 		/*
 		 * Determine Player Type
@@ -185,7 +173,7 @@ public class MainCommandExecutor implements CommandExecutor {
 										return true;
 									}
 								}
-								if(args.length >= i + 1 && tranCheck(plugin, sender, args[i]) != null){
+								if(args.length >= i + 1 && tranCheck(sender, args[i]) != null){
 										tran = args[i];
 								}
 							}else{
@@ -210,10 +198,10 @@ public class MainCommandExecutor implements CommandExecutor {
 						Read.next(plugin, sender, args, book, echp);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("last") && TB.pR){
-						Read.last(plugin, sender, args, book);
+						LastArgs.run(plugin, sender, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("random")){
-						if(argsLengthCheck(sender, args, 1, 4, 
+						if(argsLengthCheck(sender, args, 1, 6, 
 								"/bible random [book] [chapter] [translation]")){
 							return true;
 						}
@@ -228,10 +216,19 @@ public class MainCommandExecutor implements CommandExecutor {
 								}
 							}
 						}
-						CMDRandom.random(plugin, sender, book, echp, bookName, chp, v, tran, 
+						Randomcmd.random(plugin, sender, book, echp, bookName, chp, v, tran, 
 								bookSet, chpSet);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("getbook") && consoleCheck(sender, playerType)){
+						if(argsLengthCheck(sender, args, 1, 5, "/bible getbook [book] [part] [translation] " +
+								"[?] or /bible getbook list")){
+							return true;
+						}
+						if(args.length >= 2){
+							if(args[1].equalsIgnoreCase("list")){
+								
+							}
+						}
 						GetBook.getbook(plugin, sender, args, bookName, part, tran);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("sendbook")){
@@ -246,7 +243,7 @@ public class MainCommandExecutor implements CommandExecutor {
 							if(etran.fromString(args[1]) != null && permCheck(playerType, sender, 
 									"info.translation")){
 								etran = etran.fromString(args[1]);
-								Translations.info(sender, plugin, etran);
+								Translation.info(sender, plugin, etran);
 								return true;
 							}else if(isBook(book, cmds, args, 1) != null && permCheck(playerType, sender, 
 									"info.book")){
@@ -255,7 +252,7 @@ public class MainCommandExecutor implements CommandExecutor {
 								return true;
 							}else if(args[1].equalsIgnoreCase("translations") && permCheck(playerType, sender,
 									"info.translation")){
-								Translations.list(sender, plugin);
+								Translation.list(sender, plugin);
 								return true;
 							}else if(args[1].equalsIgnoreCase("books") && permCheck(playerType, sender, 
 									"info.book")){
@@ -273,51 +270,16 @@ public class MainCommandExecutor implements CommandExecutor {
 							return true;
 						}
 					}else if(cmdType.equalsIgnoreCase("help")){
-						if(argsLengthCheck(sender, args, 1, 2, "/bible help [page|command]")){
-							return true;
-						}
-						if(args.length == 2){
-							if(ehelp.fromString(args[1]) != null){
-								ehelp = ehelp.fromString(args[1]);
-								helpPage = ehelp.getPage();
-								helpPageNum = ehelp.getNum();
-								helpPageNumU = helpPageNum + 1;
-							}
-						}
-						Help.help(plugin, sender, helpPage, helpPageNum, helpPageNumU);
+						HelpArgs.run(plugin, sender, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("plugin")){
-						if(argsLengthCheck(sender, args, 1, 1, "/bible plugin")){
-							return true;
-						}
-						Info.pluginInfo(plugin, sender);
+						PluginArgs.run(plugin, sender, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("books")){
-						if(argsLengthCheck(sender, args, 1, 4, "/bible books [page|book]")){
-							return true;
-						}
-						if(args.length >= 2){
-							if(isBook(book, cmds, args, 1) != null){
-								book = isBook(book, cmds, args, 1);
-								Info.bookInfo(sender, book);
-								return true;
-							}else{
-								bookListPage = args[1];
-							}
-						}
-						Books.list(sender, bookListPage);
+						BooksArgs.run(sender, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("translation")){
-						if(argsLengthCheck(sender, args, 1, 2, "/bible translation [translation]")){
-							return true;
-						}
-						if(args.length == 2 && tranCheck(plugin, sender, args[1]) != null){
-							tran = tranCheck(plugin, sender, args[1]);
-							etran = etran.fromString(tran);
-							Translations.info(sender, plugin, etran);
-							return true;
-						}
-						Translations.list(sender, plugin);
+						TranslationArgs.run(plugin, sender, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("config")){
 						Config.config(plugin, sender, args);
@@ -358,7 +320,7 @@ public class MainCommandExecutor implements CommandExecutor {
 	}
 
 	public static boolean checkForYML(TB plugin, CommandSender sender, String tran, String bookName) {
-		if(plugin.getBook(tran, bookName) == null){
+		if(plugin.getBook(bookName, tran) == null){
 			sender.sendMessage(ChatColor.RED + "Sorry, " + tran + "/" + bookName 
 					+ ".yml does not exist.");
 			return false;
@@ -367,7 +329,7 @@ public class MainCommandExecutor implements CommandExecutor {
 		}
 	}
 
-	public static String tranCheck(TB plugin, CommandSender sender, String tran) {
+	public static String tranCheck(CommandSender sender, String tran) {
 		EnumTrans etran = EnumTrans.KJV;
 		if(etran.fromString(tran) != null){
 			etran = etran.fromString(tran);
@@ -493,7 +455,7 @@ public class MainCommandExecutor implements CommandExecutor {
 	
 	public static void sendVerseToPlayer(TB plugin, CommandSender sender, String pName, String bookName,
 			String chp, String v, String tran, String ref){
-		String verse = plugin.getBook(tran, bookName).getString(ref);
+		String verse = plugin.getBook(bookName, tran).getString(ref);
 		if(bookName.contains("1") || bookName.contains("2") || bookName.contains("3") || 
 				bookName.contains("SongofSongs")){
 			bookName = bookName.replace("1", "1 ");
@@ -508,7 +470,7 @@ public class MainCommandExecutor implements CommandExecutor {
 	
 	public static void sendVerseToOtherPlayer(TB plugin, Player player, String bookName, String chp, String v,
 			String tran, String ref){
-		String verse = plugin.getBook(tran, bookName).getString(ref);
+		String verse = plugin.getBook(bookName, tran).getString(ref);
 		if(bookName.contains("1") || bookName.contains("2") || bookName.contains("3") || 
 				bookName.contains("SongofSongs")){
 			bookName = bookName.replace("1", "1 ");
@@ -526,7 +488,7 @@ public class MainCommandExecutor implements CommandExecutor {
 	
 	public static void broadcast(TB plugin, CommandSender sender, String bookName, String chp, String v,
 			String tran, String ref){
-		String verse = plugin.getBook(tran, bookName).getString(ref);
+		String verse = plugin.getBook(bookName, tran).getString(ref);
 		Bukkit.broadcast(ChatColor.GREEN + verse, "TadukooBible.verse.announceget");
 		plugin.getLogger().info(sender.getName() + " broadcasted " + bookName + " " + chp + ":" 
 				+ v + " from the " + tran + " translation.");
@@ -552,7 +514,7 @@ public class MainCommandExecutor implements CommandExecutor {
 	}
 	
 	public static boolean checkRef(TB plugin, CommandSender sender, String bookName, String tran, String ref){
-		if(plugin.getBook(tran, bookName).getString(ref) == null){
+		if(plugin.getBook(bookName, tran).getString(ref) == null){
 			sender.sendMessage(ChatColor.RED + "An error occurred. Please make sure you typed in a " +
 					"chapter/verse that exists.");
 			return false;

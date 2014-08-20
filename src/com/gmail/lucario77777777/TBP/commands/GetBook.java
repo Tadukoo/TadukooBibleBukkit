@@ -65,10 +65,10 @@ public class GetBook {
 				part = args[2];
 				if(args.length >= 4){
 					tran = args[3].toUpperCase();
-					if(MainCommandExecutor.tranCheck(plugin, sender, tran) == null){
+					if(CommandExec.tranCheck(sender, tran) == null){
 						return;
 					}else{
-						tran = MainCommandExecutor.tranCheck(plugin, sender, tran);
+						tran = CommandExec.tranCheck(sender, tran);
 					}
 					if(args.length >= 5){
 						if(args[4].equalsIgnoreCase("?")){

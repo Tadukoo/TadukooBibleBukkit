@@ -17,14 +17,14 @@ public class Info {
 			sender.sendMessage(ChatColor.RED + "Not enough arguments!");
 		}else{
 			String tran = args[1].toUpperCase();
-			if(MainCommandExecutor.tranCheck(plugin, sender, tran) == null){
+			if(CommandExec.tranCheck(sender, tran) == null){
 				return;
 			}else{
-				tran = MainCommandExecutor.tranCheck(plugin, sender, tran);
+				tran = CommandExec.tranCheck(sender, tran);
 			}
 			info = etran.fromString(tran).getDesc();
 		}
-		MainCommandExecutor.sendInfoToPlayer(plugin, sender, info);
+		CommandExec.sendInfoToPlayer(plugin, sender, info);
 	}
 	
 	public static void pluginInfo(TB plugin, CommandSender sender){

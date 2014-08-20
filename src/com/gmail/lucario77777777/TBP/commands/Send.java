@@ -13,11 +13,11 @@ public class Send {
 			String chp, String v, String tran){
 		Player player = plugin.getServer().getPlayer(pName);
 		if(player.isOnline()){
-			String ref = MainCommandExecutor.makeRef(book, chp, v);
-			if(!MainCommandExecutor.checkRef(plugin, sender, bookName, tran, ref)){
+			String ref = CommandExec.makeRef(book, chp, v);
+			if(!CommandExec.checkRef(plugin, sender, bookName, tran, ref)){
 				return;
 			}
-			MainCommandExecutor.sendVerseToOtherPlayer(plugin, player, bookName, chp, v, tran, ref);
+			CommandExec.sendVerseToOtherPlayer(plugin, player, bookName, chp, v, tran, ref);
 		}else{
 			sender.sendMessage(ChatColor.RED + pName + " is not online!");
 		}

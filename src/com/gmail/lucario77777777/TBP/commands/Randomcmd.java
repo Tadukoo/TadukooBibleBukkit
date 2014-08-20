@@ -8,7 +8,7 @@ import com.gmail.lucario77777777.TBP.TB;
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumChps;
 
-public class CMDRandom {
+public class Randomcmd {
 	public static void random(TB plugin, CommandSender sender, EnumBooks book, EnumChps echp, String bookName,
 			String chp, String v, String tran, boolean bookSet, boolean chpSet){
 		Random generator = new Random();
@@ -40,18 +40,18 @@ public class CMDRandom {
 			rV = generator.nextInt(lim) + 1;
 			v = Integer.toString(rV);
 		}
-		if(MainCommandExecutor.tranCheck(plugin, sender, tran) == null){
+		if(CommandExec.tranCheck(sender, tran) == null){
 			return;
 		}else{
-			tran = MainCommandExecutor.tranCheck(plugin, sender, tran);
+			tran = CommandExec.tranCheck(sender, tran);
 		}
-		if(MainCommandExecutor.checkForYML(plugin, sender, tran, bookName) == false){
+		if(CommandExec.checkForYML(plugin, sender, tran, bookName) == false){
 			return;
 		}
-		String ref = MainCommandExecutor.makeRef(book, chp, v);
-		if(MainCommandExecutor.checkRef(plugin, sender, bookName, tran, ref) == false){
+		String ref = CommandExec.makeRef(book, chp, v);
+		if(CommandExec.checkRef(plugin, sender, bookName, tran, ref) == false){
 			return;
 		}
-		MainCommandExecutor.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
+		CommandExec.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
 	}
 }

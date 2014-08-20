@@ -4,7 +4,6 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.lucario77777777.TBP.TB;
-import com.gmail.lucario77777777.TBP.Info.Settings;
 
 public class Config {
 	public static void config(TB plugin, CommandSender sender, String[] args){

@@ -11,10 +11,10 @@ public class Read{
 	public static void read(TB plugin, CommandSender sender, EnumBooks book, EnumChps echp, String bookName,
 			String chp, String v, String tran){
 		String pName = sender.getName();
-		if(MainCommandExecutor.tranCheck(plugin, sender, tran) == null){
+		if(CommandExec.tranCheck(sender, tran) == null){
 			return;
 		}else{
-			tran = MainCommandExecutor.tranCheck(plugin, sender, tran);
+			tran = CommandExec.tranCheck(sender, tran);
 		}
 		if(book.isAvailable(tran) == false){
 			String bookMsg = book.getBook();
@@ -26,19 +26,19 @@ public class Read{
 					" is not available yet in the " + tran.toUpperCase() + " translation.");
 			return;
 		}
-		if(MainCommandExecutor.checkForYML(plugin, sender, tran, bookName) == false){
+		if(CommandExec.checkForYML(plugin, sender, tran, bookName) == false){
 			return;
 		}
-		String ref = MainCommandExecutor.makeRef(book, chp, v);
-		if(MainCommandExecutor.checkRef(plugin, sender, bookName, tran, ref) == false){
+		String ref = CommandExec.makeRef(book, chp, v);
+		if(CommandExec.checkRef(plugin, sender, bookName, tran, ref) == false){
 			return;
 		}
-		MainCommandExecutor.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
+		CommandExec.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
 	}
 	
 	public static void previous(TB plugin, CommandSender sender,  String[] args, EnumBooks book, 
 			EnumChps echp){
-		String rec[] = MainCommandExecutor.getpRecs("verse", sender.getName());
+		String rec[] = CommandExec.getpRecs("verse", sender.getName());
 		if(rec[0].equalsIgnoreCase("Genesis") && rec[1].equalsIgnoreCase("1") && rec[2].equalsIgnoreCase("1")){
 			sender.sendMessage(ChatColor.RED + "Genesis 1:1 is the first verse of the Bible. You can't " +
 					"go back any farther!");
@@ -52,10 +52,10 @@ public class Read{
 		int verse = Integer.parseInt(rec[2]) - 1;
 		String tran = rec[3];
 		if(args.length >= 2){
-			if(MainCommandExecutor.tranCheck(plugin, sender, args[1]) == null){
+			if(CommandExec.tranCheck(sender, args[1]) == null){
 				return;
 			}else{
-				tran = MainCommandExecutor.tranCheck(plugin, sender, args[1]);
+				tran = CommandExec.tranCheck(sender, args[1]);
 			}
 		}
 		if(verse > echp.getNum(chapter) || verse == 0){
@@ -75,19 +75,19 @@ public class Read{
 			chp = String.valueOf(chapter);
 		}
 		String v = String.valueOf(verse);
-		if(MainCommandExecutor.checkForYML(plugin, sender, tran, bookName) == false){
+		if(CommandExec.checkForYML(plugin, sender, tran, bookName) == false){
 			return;
 		}
-		String ref = MainCommandExecutor.makeRef(book, chp, v);
-		if(MainCommandExecutor.checkRef(plugin, sender, bookName, tran, ref) == false){
+		String ref = CommandExec.makeRef(book, chp, v);
+		if(CommandExec.checkRef(plugin, sender, bookName, tran, ref) == false){
 			return;
 		}
 		String pName = sender.getName();
-		MainCommandExecutor.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
+		CommandExec.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
 	}
 	
 	public static void next(TB plugin, CommandSender sender,  String[] args, EnumBooks book, EnumChps echp){
-		String rec[] = MainCommandExecutor.getpRecs("verse", sender.getName());
+		String rec[] = CommandExec.getpRecs("verse", sender.getName());
 		if(rec[0].equalsIgnoreCase("3John") && rec[1].equalsIgnoreCase("1") && rec[2].equalsIgnoreCase("14")){
 			sender.sendMessage(ChatColor.RED + "3 John 1:14 is the last verse of the Bible that is " +
 					"currently available in this plugin. You can't go forward any farther yet!");
@@ -101,10 +101,10 @@ public class Read{
 		int verse = Integer.parseInt(rec[2]) + 1;
 		String tran = rec[3];
 		if(args.length >= 2){
-			if(MainCommandExecutor.tranCheck(plugin, sender, args[1]) == null){
+			if(CommandExec.tranCheck(sender, args[1]) == null){
 				return;
 			}else{
-				tran = MainCommandExecutor.tranCheck(plugin, sender, args[1]);
+				tran = CommandExec.tranCheck(sender, args[1]);
 			}
 		}
 		if(verse > echp.getNum(chapter)){
@@ -124,39 +124,35 @@ public class Read{
 			chp = String.valueOf(chapter);
 		}
 		String v = String.valueOf(verse);
-		if(MainCommandExecutor.checkForYML(plugin, sender, tran, bookName) == false){
+		if(CommandExec.checkForYML(plugin, sender, tran, bookName) == false){
 			return;
 		}
-		String ref = MainCommandExecutor.makeRef(book, chp, v);
-		if(MainCommandExecutor.checkRef(plugin, sender, bookName, tran, ref) == false){
+		String ref = CommandExec.makeRef(book, chp, v);
+		if(CommandExec.checkRef(plugin, sender, bookName, tran, ref) == false){
 			return;
 		}
 		String pName = sender.getName();
-		MainCommandExecutor.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
+		CommandExec.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
 	}
 	
-	public static void last(TB plugin, CommandSender sender,  String[] args, EnumBooks book){
-		String rec[] = MainCommandExecutor.getpRecs("verse", sender.getName());
+	public static void last(TB plugin, CommandSender sender,  String tran){
+		String rec[] = CommandExec.getpRecs("verse", sender.getName());
 		String bookName = rec[0];
+		EnumBooks book = EnumBooks.GENESIS;
 		book = book.fromString(bookName);
 		String chp = rec[1];
 		String v = rec[2];
-		String tran = rec[3];
-		if(args.length >= 2){
-			if(MainCommandExecutor.tranCheck(plugin, sender, args[1]) == null){
-				return;
-			}else{
-				tran = MainCommandExecutor.tranCheck(plugin, sender, args[1]);
-			}
-		}
-		if(MainCommandExecutor.checkForYML(plugin, sender, tran, bookName) == false){
+		if(tran == null){
+			tran = rec[3];
+		}		
+		if(CommandExec.checkForYML(plugin, sender, tran, bookName) == false){
 			return;
 		}
-		String ref = MainCommandExecutor.makeRef(book, chp, v);
-		if(MainCommandExecutor.checkRef(plugin, sender, bookName, tran, ref) == false){
+		String ref = CommandExec.makeRef(book, chp, v);
+		if(CommandExec.checkRef(plugin, sender, bookName, tran, ref) == false){
 			return;
 		}
 		String pName = sender.getName();
-		MainCommandExecutor.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
+		CommandExec.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
 	}
 }

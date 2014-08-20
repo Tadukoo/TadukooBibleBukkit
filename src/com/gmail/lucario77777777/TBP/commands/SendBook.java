@@ -32,10 +32,10 @@ public class SendBook {
 				part = args[3];
 				if(args.length >= 5){
 					tran = args[4].toUpperCase();
-					if(MainCommandExecutor.tranCheck(plugin, sender, tran) == null){
+					if(CommandExec.tranCheck(sender, tran) == null){
 						return;
 					}else{
-						tran = MainCommandExecutor.tranCheck(plugin, sender, tran);
+						tran = CommandExec.tranCheck(sender, tran);
 					}
 				}
 			}

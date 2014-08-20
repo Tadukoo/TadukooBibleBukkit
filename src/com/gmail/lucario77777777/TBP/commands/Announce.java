@@ -21,8 +21,8 @@ public class Announce {
 		if(args.length >= 5){
 			tran = args[4];
 		}
-		MainCommandExecutor.checkForYML(plugin, sender, tran, bookName);
-		String ref = MainCommandExecutor.makeRef(book, chp, v);
-		MainCommandExecutor.broadcast(plugin, sender, bookName, chp, v, tran, ref);
+		CommandExec.checkForYML(plugin, sender, tran, bookName);
+		String ref = CommandExec.makeRef(book, chp, v);
+		CommandExec.broadcast(plugin, sender, bookName, chp, v, tran, ref);
 	}
 }
