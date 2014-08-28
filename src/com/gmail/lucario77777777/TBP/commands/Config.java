@@ -4,37 +4,36 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.lucario77777777.TBP.TB;
+import com.gmail.lucario77777777.TBP.cmdhandling.Args;
+import com.gmail.lucario77777777.TBP.cmdhandling.Information;
+import com.gmail.lucario77777777.TBP.cmdhandling.Sending;
 
 public class Config {
-	public static void config(TB plugin, CommandSender sender, String[] args){
-		String setting = null;
-		String value = null;
-		//String fileName = null;
-		if(args.length < 2){
-			sender.sendMessage(ChatColor.RED + "Not enough arguments!");
-			sender.sendMessage(ChatColor.RED + "/bible config <setting> [value]");
+	public static void run(TB plugin, CommandSender sender, String[] args){
+		if(Args.argsLengthCheck(sender, args, 2, 3, "/bible config <setting> [value]")){
 			return;
 		}
-		setting = args[1];
-		if(args.length >= 3){
+		String setting = args[1];
+		String value = null;
+		if(args.length == 3){
 			value = args[2];
-			/*if(args.length >= 4){
-				fileName = args[3];
-			}*/
 		}
 		if(setting.equalsIgnoreCase("list")){
-			Settings.settings(sender);
+			Information.settings(sender);
+			return;
+		}else if(plugin.getConfig().getString(setting) == null){
+			sender.sendMessage(ChatColor.RED + "Sorry, that setting doesn't exist.");
 			return;
 		}
+		String message = null;
 		if(value != null){
 			plugin.getConfig().set(setting, value);
-			sender.sendMessage(ChatColor.GREEN + setting + " is now set to " + value + ".");
 			plugin.saveConfig();
-			return;
+			message = setting + " is now set to " + value + ".";
 		}else{
 			value = plugin.getConfig().getString(setting);
-			sender.sendMessage(ChatColor.GREEN + setting + " is set to " + value + ".");
-			return;
+			message = setting + " is set to " + value + ".";
 		}
+		Sending.sendInfoToPlayer(plugin, sender, message);
 	}
 }

@@ -38,11 +38,13 @@ public enum EnumBooks {
 	NEHEMIAH("Nehemiah", "Neh", "Ne", "", "Its aliases are Neh and Ne.", "Ezra", 16, 13, false),
 	ESTHER("Esther", "Est", "Es", "", "Its aliases are Est and Es.", "Unknown", 17, 10, false),
 	JOB("Job", "", "It has no aliases.", "Unknown", 18, 42, false),
-	PSALMS("Psalms", "Psalm", "Ps", "Psalms is a book containing poetry. It was written by many people and " +
-			"has 150 chapters.", "Its aliases are Psalm and Ps.", "Many people", 19, 150, true),
-	PROVERBS("Proverbs", "Pro", "Pr", "Proverbs is a book of wise sayings by Solomon and a few other " +
-			"people. It was written by Solomon and a few other people and has 31 chapters.",
-			"Its aliases are Pro and Pr.", "Solomon", 20, 31, true),
+	PSALMS("Psalms", "Psalm", "Ps", "Psalms is a book containing songs and poetry. 73 Psalms were written " +
+			"by David, 12 by Asaph, 9 by the sons of Korah, 3 by Solomon, 1 by Ethan, 1 by Moses, and 51 " +
+			"without a known author. Psalms is mainly about praising God, totaling 150 Psalms.", "Its " +
+			"aliases are Psalm and Ps.", "Many people", 19, 150, true),
+	PROVERBS("Proverbs", "Pro", "Pr", "Proverbs is a book of wise sayings by Solomon, Lemuel, and Agur. " +
+			"It talks about seeking wisdom in your youth, holy living, wisdom for leaders, and heeding your " +
+			"parents' advice. It has 31 chapters.", "Its aliases are Pro and Pr.", "Solomon", 20, 31, true),
 	ECCLESIASTES("Ecclesiastes", "Ecc", "Ec", "", "Its aliases are Ecc and Ec.", "Solomon", 21, 12, false),
 	SONGOFSONGS("SongofSongs", "SongofSolomon", "So", "", "Its alias is Song of Solomon.", "Solomon", 22, 8,
 			false),
