@@ -47,20 +47,6 @@ along with importing the Bukkit API (Currently this plugin is built off of [1.7.
 (http://dl.bukkit.org/downloads/bukkit/view/02630_1.7.9-R0.2/)). Do not import the Tadukoo_Bible folder into eclipse. Simply place it in your plugins 
 folder.
 
-Progress
---------
-* King James Version (KJV) (40%)
-   * Completed:
-      * Genesis through Deuteronomy
-	  * Psalms and Proverbs
-      * Matthew through 2 Corinthians
-      * 1 John, 2 John, and 3 John
-   * Upcoming:
-      * Joshua through Job
-	  * Ecclesiastes through Malachi
-      * Galatians through 2 Peter
-      * Jude and Revelation
-
 Version System
 --------------
 * Alpha
