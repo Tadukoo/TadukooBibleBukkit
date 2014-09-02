@@ -2,7 +2,12 @@ Book1:
   start:
     c: 1
     v: 1
-  '1': Chapter 1/nIn the beginning was the Word, and the Word was with God, and the Word was God. &l2&rThe same was in the beginning with God. &l3&rAll things were made by him; and without him was not any thing made that was made. &l4&rIn him was life; and the
+  '1': 'Chapter 1
+
+    In the beginning was the Word, and the Word was with God, and the Word was God.
+    &l2&rThe same was in the beginning with God. &l3&rAll things were made by him;
+    and without him was not any thing made that was made. &l4&rIn him was life; and
+    the'
   '2': life was the light of men. &l5&rAnd the light shineth in darkness; and the darkness comprehended it not. &l6&rThere was a man sent from God, whose name was John. &l7&rThe same came for a witness, to bear witness of the Light, that all men through him might
   '3': believe. &l8&rHe was not that Light, but was sent to bear witness of that Light. &l9&rThat was the true Light, which lighteth every man that cometh into the world. &l10&rHe was in the world, and the world was made by him, and the world knew him not.
   '4': '&l11&rHe came unto his own, and his own received him not. &l12&rBut as many
@@ -51,10 +56,12 @@ Book1:
     said unto thee, I saw thee under the fig tree, believest thou? thou shalt see
     greater things than'
   '22': these. &l51&rAnd he saith unto him, Verily, verily, I say unto you, Hereafter ye shall see heaven open, and the angels of God ascending and descending upon the Son of man.
-  '23': 'Chapter 2/nAnd the third day there was a marriage in Cana of Galilee; and
-    the mother of Jesus was there: &l2&rAnd both Jesus was called, and his disciples,
-    to the marriage. &l3&rAnd when they wanted wine, the mother of Jesus saith unto
-    him, They have no'
+  '23': 'Chapter 2
+
+    And the third day there was a marriage in Cana of Galilee; and the mother of Jesus
+    was there: &l2&rAnd both Jesus was called, and his disciples, to the marriage.
+    &l3&rAnd when they wanted wine, the mother of Jesus saith unto him, They have
+    no'
   '24': wine. &l4&rJesus saith unto her, Woman, what have I to do with thee? mine hour is not yet come. &l5&rHis mother saith unto the servants, Whatsoever he saith unto you, do it. &l6&rAnd there were set there six waterpots of stone, after the manner of the
   '25': purifying of the Jews, containing two or three firkins apiece. &l7&rJesus saith unto them, Fill the waterpots with water. And they filled them up to the brim. &l8&rAnd he saith unto them, Draw out now, and bear unto the governor of the feast. And they bare
   '26': 'it. &l9&rWhen the ruler of the feast had tasted the water that was made wine,
@@ -81,11 +88,13 @@ Book1:
     did not commit himself unto them, because he knew all men, &l25&rAnd needed not
     that any should'
   '34': 'testify of man: for he knew what was in man.'
-  '35': 'Chapter 3/nThere was a man of the Pharisees, named Nicodemus, a ruler of
-    the Jews: &l2&rThe same came to Jesus by night, and said unto him, Rabbi, we know
-    that thou art a teacher come from God: for no man can do these miracles that thou
-    doest, except God'
-  '36': be with him. &l3&rJesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God. &l4&rNicodemus saith unto him, How can a man be born when he is old? can he enter the second time into his
+  '35': 'Chapter 3
+
+    There was a man of the Pharisees, named Nicodemus, a ruler of the Jews: &l2&rThe
+    same came to Jesus by night, and said unto him, Rabbi, we know that thou art a
+    teacher come from God: for no man can do these miracles that thou doest, except
+    God be'
+  '36': with him. &l3&rJesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God. &l4&rNicodemus saith unto him, How can a man be born when he is old? can he enter the second time into his
   '37': mother's womb, and be born? &l5&rJesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God. &l6&rThat which is born of the flesh is flesh; and that which is born of the Spirit
   '38': 'is spirit. &l7&rMarvel not that I said unto thee, Ye must be born again.
     &l8&rThe wind bloweth where it listeth, and thou hearest the sound thereof, but
@@ -130,11 +139,16 @@ Book2:
   start:
     c: 3
     v: 35
-  '1': 'Chapter 3 Cont./n&l35&rThe Father loveth the Son, and hath given all things
-    into his hand. &l36&rHe that believeth on the Son hath everlasting life: and he
-    that believeth not the Son shall not see life; but the wrath of God abideth on
-    him.'
-  '2': Chapter 4/nWhen therefore the Lord knew how the Pharisees had heard that Jesus made and baptized more disciples than John, &l2&r(Though Jesus himself baptized not, but his disciples,) &l3&rHe left Judaea, and departed again into Galilee. &l4&rAnd he must
+  '1': 'Chapter 3 Cont.
+
+    &l35&rThe Father loveth the Son, and hath given all things into his hand. &l36&rHe
+    that believeth on the Son hath everlasting life: and he that believeth not the
+    Son shall not see life; but the wrath of God abideth on him.'
+  '2': 'Chapter 4
+
+    When therefore the Lord knew how the Pharisees had heard that Jesus made and baptized
+    more disciples than John, &l2&r(Though Jesus himself baptized not, but his disciples,)
+    &l3&rHe left Judaea, and departed again into Galilee. &l4&rAnd he must'
   '3': needs go through Samaria. &l5&rThen cometh he to a city of Samaria, which is called Sychar, near to the parcel of ground that Jacob gave to his son Joseph. &l6&rNow Jacob's well was there. Jesus therefore, being wearied with his journey, sat thus on the
   '4': 'well: and it was about the sixth hour. &l7&rThere cometh a woman of Samaria
     to draw water: Jesus saith unto her, Give me to drink. &l8&r(For his disciples
@@ -199,7 +213,11 @@ Book2:
   '25': 'same hour, in the which Jesus said unto him, Thy son liveth: and himself
     believed, and his whole house. &l54&rThis is again the second miracle that Jesus
     did, when he was come out of Judaea into Galilee.'
-  '26': Chapter 5/nAfter this there was a feast of the Jews; and Jesus went up to Jerusalem. &l2&rNow there is at Jerusalem by the sheep market a pool, which is called in the Hebrew tongue Bethesda, having five porches. &l3&rIn these lay a great multitude of
+  '26': 'Chapter 5
+
+    After this there was a feast of the Jews; and Jesus went up to Jerusalem. &l2&rNow
+    there is at Jerusalem by the sheep market a pool, which is called in the Hebrew
+    tongue Bethesda, having five porches. &l3&rIn these lay a great multitude of'
   '27': 'impotent folk, of blind, halt, withered, waiting for the moving of the water.
     &l4&rFor an angel went down at a certain season into the pool, and troubled the
     water: whosoever then first after the troubling of the water stepped in was made
@@ -266,89 +284,95 @@ Book2:
     whom ye trust. &l46&rFor had ye believed Moses, ye would have believed me; for
     he wrote of me.'
   '47': '&l47&rBut if ye believe not his writings, how shall ye believe my words?'
-  '48': Chapter 6/nAfter these things Jesus went over the sea of Galilee, which is the sea of Tiberias. &l2&rAnd a great multitude followed him, because they saw his miracles which he did on them that were diseased. &l3&rAnd Jesus went up into a mountain, and
-  '49': there he sat with his disciples. &l4&rAnd the passover, a feast of the Jews, was nigh. &l5&rWhen Jesus then lifted up his eyes, and saw a great company come unto him, he saith unto Philip, Whence shall we buy bread, that these may eat? &l6&rAnd this he
-  '50': 'said to prove him: for he himself knew what he would do. &l7&rPhilip answered
-    him, Two hundred pennyworth of bread is not sufficient for them, that every one
-    of them may take a little.'
+  '48': 'Chapter 6
+
+    After these things Jesus went over the sea of Galilee, which is the sea of Tiberias.
+    &l2&rAnd a great multitude followed him, because they saw his miracles which he
+    did on them that were diseased. &l3&rAnd Jesus went up into a mountain, and there'
+  '49': he sat with his disciples. &l4&rAnd the passover, a feast of the Jews, was nigh. &l5&rWhen Jesus then lifted up his eyes, and saw a great company come unto him, he saith unto Philip, Whence shall we buy bread, that these may eat? &l6&rAnd this he said to
+  '50': 'prove him: for he himself knew what he would do. &l7&rPhilip answered him,
+    Two hundred pennyworth of bread is not sufficient for them, that every one of
+    them may take a little. &l8&rOne of his disciples, Andrew, Simon Peter''s brother,
+    saith unto him,'
   end:
     c: 6
-    v: 7
+    v: 8
 Book3:
   start:
     c: 6
-    v: 8
-  '1': 'Chapter 6 Cont./n&l8&rOne of his disciples, Andrew, Simon Peter''s brother,
-    saith unto him, &l9&rThere is a lad here, which hath five barley loaves, and two
-    small fishes: but what are they among so many? &l10&rAnd Jesus said, Make the
-    men sit down. Now'
-  '2': there was much grass in the place. So the men sat down, in number about five thousand. &l11&rAnd Jesus took the loaves; and when he had given thanks, he distributed to the disciples, and the disciples to them that were set down; and likewise of the fishes
-  '3': as much as they would. &l12&rWhen they were filled, he said unto his disciples, Gather up the fragments that remain, that nothing be lost. &l13&rTherefore they gathered them together, and filled twelve baskets with the fragments of the five barley loaves,
-  '4': which remained over and above unto them that had eaten. &l14&rThen those men, when they had seen the miracle that Jesus did, said, This is of a truth that prophet that should come into the world. &l15&rWhen Jesus therefore perceived that they would come
-  '5': and take him by force, to make him a king, he departed again into a mountain himself alone. &l16&rAnd when even was now come, his disciples went down unto the sea, &l17&rAnd entered into a ship, and went over the sea toward Capernaum. And it was now dark,
-  '6': 'and Jesus was not come to them. &l18&rAnd the sea arose by reason of a great
-    wind that blew. &l19&rSo when they had rowed about five and twenty or thirty furlongs,
-    they see Jesus walking on the sea, and drawing nigh unto the ship: and they were
-    afraid.'
-  '7': '&l20&rBut he saith unto them, It is I; be not afraid. &l21&rThen they willingly
-    received him into the ship: and immediately the ship was at the land whither they
-    went. &l22&rThe day following, when the people which stood on the other side of
-    the sea saw'
-  '8': that there was none other boat there, save that one whereinto his disciples were entered, and that Jesus went not with his disciples into the boat, but that his disciples were gone away alone; &l23&r(Howbeit there came other boats from Tiberias nigh unto
-  '9': the place where they did eat bread, after that the Lord had given thanks:) &l24&rWhen the people therefore saw that Jesus was not there, neither his disciples, they also took shipping, and came to Capernaum, seeking for Jesus. &l25&rAnd when they had found
-  '10': him on the other side of the sea, they said unto him, Rabbi, when camest thou hither? &l26&rJesus answered them and said, Verily, verily, I say unto you, Ye seek me, not because ye saw the miracles, but because ye did eat of the loaves, and were filled.
-  '11': '&l27&rLabour not for the meat which perisheth, but for that meat which endureth
-    unto everlasting life, which the Son of man shall give unto you: for him hath
-    God the Father sealed. &l28&rThen said they unto him, What shall we do, that we
-    might work the'
-  '12': works of God? &l29&rJesus answered and said unto them, This is the work of God, that ye believe on him whom he hath sent. &l30&rThey said therefore unto him, What sign shewest thou then, that we may see, and believe thee? what dost thou work? &l31&rOur
-  '13': fathers did eat manna in the desert; as it is written, He gave them bread from heaven to eat. &l32&rThen Jesus said unto them, Verily, verily, I say unto you, Moses gave you not that bread from heaven; but my Father giveth you the true bread from heaven.
-  '14': '&l33&rFor the bread of God is he which cometh down from heaven, and giveth
-    life unto the world. &l34&rThen said they unto him, Lord, evermore give us this
-    bread. &l35&rAnd Jesus said unto them, I am the bread of life: he that cometh
-    to me shall never'
-  '15': hunger; and he that believeth on me shall never thirst. &l36&rBut I said unto you, That ye also have seen me, and believe not. &l37&rAll that the Father giveth me shall come to me; and him that cometh to me I will in no wise cast out. &l38&rFor I came down
-  '16': from heaven, not to do mine own will, but the will of him that sent me. &l39&rAnd this is the Father's will which hath sent me, that of all which he hath given me I should lose nothing, but should raise it up again at the last day. &l40&rAnd this is the
-  '17': 'will of him that sent me, that every one which seeth the Son, and believeth
-    on him, may have everlasting life: and I will raise him up at the last day. &l41&rThe
-    Jews then murmured at him, because he said, I am the bread which came down from
-    heaven.'
-  '18': '&l42&rAnd they said, Is not this Jesus, the son of Joseph, whose father and
-    mother we know? how is it then that he saith, I came down from heaven? &l43&rJesus
-    therefore answered and said unto them, Murmur not among yourselves. &l44&rNo man
-    can come to me,'
-  '19': 'except the Father which hath sent me draw him: and I will raise him up at
-    the last day. &l45&rIt is written in the prophets, And they shall be all taught
-    of God. Every man therefore that hath heard, and hath learned of the Father, cometh
-    unto me. &l46&rNot'
-  '20': that any man hath seen the Father, save he which is of God, he hath seen the Father. &l47&rVerily, verily, I say unto you, He that believeth on me hath everlasting life. &l48&rI am that bread of life. &l49&rYour fathers did eat manna in the wilderness, and
-  '21': 'are dead. &l50&rThis is the bread which cometh down from heaven, that a man
-    may eat thereof, and not die. &l51&rI am the living bread which came down from
-    heaven: if any man eat of this bread, he shall live for ever: and the bread that
-    I will give is my'
-  '22': flesh, which I will give for the life of the world. &l52&rThe Jews therefore strove among themselves, saying, How can this man give us his flesh to eat? &l53&rThen Jesus said unto them, Verily, verily, I say unto you, Except ye eat the flesh of the Son of
-  '23': man, and drink his blood, ye have no life in you. &l54&rWhoso eateth my flesh, and drinketh my blood, hath eternal life; and I will raise him up at the last day. &l55&rFor my flesh is meat indeed, and my blood is drink indeed. &l56&rHe that eateth my
-  '24': 'flesh, and drinketh my blood, dwelleth in me, and I in him. &l57&rAs the
-    living Father hath sent me, and I live by the Father: so he that eateth me, even
-    he shall live by me. &l58&rThis is that bread which came down from heaven: not
-    as your fathers did eat'
-  '25': 'manna, and are dead: he that eateth of this bread shall live for ever. &l59&rThese
-    things said he in the synagogue, as he taught in Capernaum. &l60&rMany therefore
-    of his disciples, when they had heard this, said, This is an hard saying; who
-    can hear it?'
-  '26': '&l61&rWhen Jesus knew in himself that his disciples murmured at it, he said
-    unto them, Doth this offend you? &l62&rWhat and if ye shall see the Son of man
-    ascend up where he was before? &l63&rIt is the spirit that quickeneth; the flesh
-    profiteth nothing:'
-  '27': the words that I speak unto you, they are spirit, and they are life. &l64&rBut there are some of you that believe not. For Jesus knew from the beginning who they were that believed not, and who should betray him. &l65&rAnd he said, Therefore said I unto
-  '28': you, that no man can come unto me, except it were given unto him of my Father. &l66&rFrom that time many of his disciples went back, and walked no more with him. &l67&rThen said Jesus unto the twelve, Will ye also go away? &l68&rThen Simon Peter answered
-  '29': him, Lord, to whom shall we go? thou hast the words of eternal life. &l69&rAnd we believe and are sure that thou art that Christ, the Son of the living God. &l70&rJesus answered them, Have not I chosen you twelve, and one of you is a devil? &l71&rHe spake
-  '30': 'of Judas Iscariot the son of Simon: for he it was that should betray him,
-    being one of the twelve.'
-  '31': 'Chapter 7/nAfter these things Jesus walked in Galilee: for he would not walk
-    in Jewry, because the Jews sought to kill him. &l2&rNow the Jew''s feast of tabernacles
-    was at hand. &l3&rHis brethren therefore said unto him, Depart hence, and go into
-    Judaea,'
+    v: 9
+  '1': 'Chapter 6 Cont.
+
+    &l9&rThere is a lad here, which hath five barley loaves, and two small fishes:
+    but what are they among so many? &l10&rAnd Jesus said, Make the men sit down.
+    Now there was much grass in the place. So the men sat down, in number about five'
+  '2': thousand. &l11&rAnd Jesus took the loaves; and when he had given thanks, he distributed to the disciples, and the disciples to them that were set down; and likewise of the fishes as much as they would. &l12&rWhen they were filled, he said unto his
+  '3': disciples, Gather up the fragments that remain, that nothing be lost. &l13&rTherefore they gathered them together, and filled twelve baskets with the fragments of the five barley loaves, which remained over and above unto them that had eaten. &l14&rThen
+  '4': those men, when they had seen the miracle that Jesus did, said, This is of a truth that prophet that should come into the world. &l15&rWhen Jesus therefore perceived that they would come and take him by force, to make him a king, he departed again into a
+  '5': mountain himself alone. &l16&rAnd when even was now come, his disciples went down unto the sea, &l17&rAnd entered into a ship, and went over the sea toward Capernaum. And it was now dark, and Jesus was not come to them. &l18&rAnd the sea arose by reason of
+  '6': 'a great wind that blew. &l19&rSo when they had rowed about five and twenty
+    or thirty furlongs, they see Jesus walking on the sea, and drawing nigh unto the
+    ship: and they were afraid. &l20&rBut he saith unto them, It is I; be not afraid.
+    &l21&rThen they'
+  '7': 'willingly received him into the ship: and immediately the ship was at the
+    land whither they went. &l22&rThe day following, when the people which stood on
+    the other side of the sea saw that there was none other boat there, save that
+    one whereinto his'
+  '8': disciples were entered, and that Jesus went not with his disciples into the boat, but that his disciples were gone away alone; &l23&r(Howbeit there came other boats from Tiberias nigh unto the place where they did eat bread, after that the Lord had given
+  '9': thanks:) &l24&rWhen the people therefore saw that Jesus was not there, neither his disciples, they also took shipping, and came to Capernaum, seeking for Jesus. &l25&rAnd when they had found him on the other side of the sea, they said unto him, Rabbi, when
+  '10': camest thou hither? &l26&rJesus answered them and said, Verily, verily, I say unto you, Ye seek me, not because ye saw the miracles, but because ye did eat of the loaves, and were filled. &l27&rLabour not for the meat which perisheth, but for that meat
+  '11': 'which endureth unto everlasting life, which the Son of man shall give unto
+    you: for him hath God the Father sealed. &l28&rThen said they unto him, What shall
+    we do, that we might work the works of God? &l29&rJesus answered and said unto
+    them, This is the'
+  '12': work of God, that ye believe on him whom he hath sent. &l30&rThey said therefore unto him, What sign shewest thou then, that we may see, and believe thee? what dost thou work? &l31&rOur fathers did eat manna in the desert; as it is written, He gave them
+  '13': bread from heaven to eat. &l32&rThen Jesus said unto them, Verily, verily, I say unto you, Moses gave you not that bread from heaven; but my Father giveth you the true bread from heaven. &l33&rFor the bread of God is he which cometh down from heaven, and
+  '14': 'giveth life unto the world. &l34&rThen said they unto him, Lord, evermore
+    give us this bread. &l35&rAnd Jesus said unto them, I am the bread of life: he
+    that cometh to me shall never hunger; and he that believeth on me shall never
+    thirst. &l36&rBut I said'
+  '15': unto you, That ye also have seen me, and believe not. &l37&rAll that the Father giveth me shall come to me; and him that cometh to me I will in no wise cast out. &l38&rFor I came down from heaven, not to do mine own will, but the will of him that sent me.
+  '16': '&l39&rAnd this is the Father''s will which hath sent me, that of all which
+    he hath given me I should lose nothing, but should raise it up again at the last
+    day. &l40&rAnd this is the will of him that sent me, that every one which seeth
+    the Son, and'
+  '17': 'believeth on him, may have everlasting life: and I will raise him up at the
+    last day. &l41&rThe Jews then murmured at him, because he said, I am the bread
+    which came down from heaven. &l42&rAnd they said, Is not this Jesus, the son of
+    Joseph, whose father'
+  '18': 'and mother we know? how is it then that he saith, I came down from heaven?
+    &l43&rJesus therefore answered and said unto them, Murmur not among yourselves.
+    &l44&rNo man can come to me, except the Father which hath sent me draw him: and
+    I will raise him up'
+  '19': at the last day. &l45&rIt is written in the prophets, And they shall be all taught of God. Every man therefore that hath heard, and hath learned of the Father, cometh unto me. &l46&rNot that any man hath seen the Father, save he which is of God, he hath
+  '20': seen the Father. &l47&rVerily, verily, I say unto you, He that believeth on me hath everlasting life. &l48&rI am that bread of life. &l49&rYour fathers did eat manna in the wilderness, and are dead. &l50&rThis is the bread which cometh down from heaven,
+  '21': 'that a man may eat thereof, and not die. &l51&rI am the living bread which
+    came down from heaven: if any man eat of this bread, he shall live for ever: and
+    the bread that I will give is my flesh, which I will give for the life of the
+    world. &l52&rThe Jews'
+  '22': therefore strove among themselves, saying, How can this man give us his flesh to eat? &l53&rThen Jesus said unto them, Verily, verily, I say unto you, Except ye eat the flesh of the Son of man, and drink his blood, ye have no life in you. &l54&rWhoso
+  '23': eateth my flesh, and drinketh my blood, hath eternal life; and I will raise him up at the last day. &l55&rFor my flesh is meat indeed, and my blood is drink indeed. &l56&rHe that eateth my flesh, and drinketh my blood, dwelleth in me, and I in him.
+  '24': '&l57&rAs the living Father hath sent me, and I live by the Father: so he
+    that eateth me, even he shall live by me. &l58&rThis is that bread which came
+    down from heaven: not as your fathers did eat manna, and are dead: he that eateth
+    of this bread shall'
+  '25': live for ever. &l59&rThese things said he in the synagogue, as he taught in Capernaum. &l60&rMany therefore of his disciples, when they had heard this, said, This is an hard saying; who can hear it? &l61&rWhen Jesus knew in himself that his disciples
+  '26': 'murmured at it, he said unto them, Doth this offend you? &l62&rWhat and if
+    ye shall see the Son of man ascend up where he was before? &l63&rIt is the spirit
+    that quickeneth; the flesh profiteth nothing: the words that I speak unto you,
+    they are spirit, and'
+  '27': they are life. &l64&rBut there are some of you that believe not. For Jesus knew from the beginning who they were that believed not, and who should betray him. &l65&rAnd he said, Therefore said I unto you, that no man can come unto me, except it were given
+  '28': unto him of my Father. &l66&rFrom that time many of his disciples went back, and walked no more with him. &l67&rThen said Jesus unto the twelve, Will ye also go away? &l68&rThen Simon Peter answered him, Lord, to whom shall we go? thou hast the words of
+  '29': 'eternal life. &l69&rAnd we believe and are sure that thou art that Christ,
+    the Son of the living God. &l70&rJesus answered them, Have not I chosen you twelve,
+    and one of you is a devil? &l71&rHe spake of Judas Iscariot the son of Simon:
+    for he it was that'
+  '30': should betray him, being one of the twelve.
+  '31': 'Chapter 7
+
+    After these things Jesus walked in Galilee: for he would not walk in Jewry, because
+    the Jews sought to kill him. &l2&rNow the Jew''s feast of tabernacles was at hand.
+    &l3&rHis brethren therefore said unto him, Depart hence, and go into Judaea,'
   '32': that thy disciples also may see the works that thou doest. &l4&rFor there is no man that doeth any thing in secret, and he himself seeketh to be known openly. If thou do these things, shew thyself to the world. &l5&rFor neither did his brethren believe in
   '33': 'him. &l6&rThen Jesus said unto them, My time is not yet come: but your time
     is alway ready. &l7&rThe world cannot hate you; but me it hateth, because I testify
@@ -408,10 +432,18 @@ Book4:
   start:
     c: 7
     v: 49
-  '1': Chapter 7 Cont./n&l49&rBut this people who knoweth not the law are cursed. &l50&rNicodemus saith unto them, (he that came to Jesus by night, being one of them,) &l51&rDoth our law judge any man, before it hear him, and know what he doeth? &l52&rThey
+  '1': 'Chapter 7 Cont.
+
+    &l49&rBut this people who knoweth not the law are cursed. &l50&rNicodemus saith
+    unto them, (he that came to Jesus by night, being one of them,) &l51&rDoth our
+    law judge any man, before it hear him, and know what he doeth? &l52&rThey'
   '2': 'answered and said unto him, Art thou also of Galilee? Search, and look: for
     out of Galilee ariseth no prophet. &l53&rAnd every man went unto his own house.'
-  '3': Chapter 8/nJesus went unto the mount of Olives. &l2&rAnd early in the morning he came again into the temple, and all the people came unto him; and he sat down, and taught them. &l3&rAnd the scribes and Pharisees brought unto him a woman taken in adultery;
+  '3': 'Chapter 8
+
+    Jesus went unto the mount of Olives. &l2&rAnd early in the morning he came again
+    into the temple, and all the people came unto him; and he sat down, and taught
+    them. &l3&rAnd the scribes and Pharisees brought unto him a woman taken in adultery;'
   '4': 'and when they had set her in the midst, &l4&rThey say unto him, Master, this
     woman was taken in adultery, in the very act. &l5&rNow Moses in the law commanded
     us, that such should be stoned: but what sayest thou? &l6&rThis they said, tempting
@@ -503,7 +535,12 @@ Book4:
   '29': 'Verily, verily, I say unto you, Before Abraham was, I am. &l59&rThen took
     they up stones to cast at him: but Jesus hid himself, and went out of the temple,
     going through the midst of them, and so passed by.'
-  '30': Chapter 9/nAnd as Jesus passed by, he saw a man which was blind from his birth. &l2&rAnd his disciples asked him, saying, Master, who did sin, this man, or his parents, that he was born blind? &l3&rJesus answered, Neither hath this man sinned, nor his
+  '30': 'Chapter 9
+
+    And as Jesus passed by, he saw a man which was blind from his birth. &l2&rAnd
+    his disciples asked him, saying, Master, who did sin, this man, or his parents,
+    that he was born blind? &l3&rJesus answered, Neither hath this man sinned, nor
+    his'
   '31': 'parents: but that the works of God should be made manifest in him. &l4&rI
     must work the works of him that sent me, while it is day: the night cometh, when
     no man can work. &l5&rAs long as I am in the world, I am the light of the world.
@@ -549,7 +586,11 @@ Book4:
     we blind also? &l41&rJesus said unto them, If ye were blind, ye should have no
     sin: but now ye say, We'
   '48': see; therefore your sin remaineth.
-  '49': Chapter 10/nVerily, verily, I say unto you, He that entereth not by the door into the sheepfold, but climbeth up some other way, the same is a thief and a robber. &l2&rBut he that entereth in by the door is the shepherd of the sheep. &l3&rTo him the porter
+  '49': 'Chapter 10
+
+    Verily, verily, I say unto you, He that entereth not by the door into the sheepfold,
+    but climbeth up some other way, the same is a thief and a robber. &l2&rBut he
+    that entereth in by the door is the shepherd of the sheep. &l3&rTo him the porter'
   '50': 'openeth; and the sheep hear his voice: and he calleth his own sheep by name,
     and leadeth them out. &l4&rAnd when he putteth forth his own sheep, he goeth before
     them, and the sheep follow him: for they know his voice.'
@@ -560,10 +601,11 @@ Book5:
   start:
     c: 10
     v: 5
-  '1': 'Chapter 10 Cont./n&l5&rAnd a stranger will they not follow, but will flee
-    from him: for they know not the voice of strangers. &l6&rThis parable spake Jesus
-    unto them: but they understood not what things they were which he spake unto them.
-    &l7&rThen said'
+  '1': 'Chapter 10 Cont.
+
+    &l5&rAnd a stranger will they not follow, but will flee from him: for they know
+    not the voice of strangers. &l6&rThis parable spake Jesus unto them: but they
+    understood not what things they were which he spake unto them. &l7&rThen said'
   '2': 'Jesus unto them again, Verily, verily, I say unto you, I am the door of the
     sheep. &l8&rAll that ever came before me are thieves and robbers: but the sheep
     did not hear them. &l9&rI am the door: by me if any man enter in, he shall be
@@ -609,7 +651,12 @@ Book5:
     baptized; and there he abode. &l41&rAnd many resorted unto him, and said, John
     did no miracle: but'
   '16': all things that John spake of this man were true. &l42&rAnd many believed on him there.
-  '17': Chapter 11/nNow a certain man was sick, named Lazarus, of Bethany, the town of Mary and her sister Martha. &l2&r(It was that Mary which anointed the Lord with ointment, and wiped his feet with her hair, whose brother Lazarus was sick.) &l3&rTherefore his
+  '17': 'Chapter 11
+
+    Now a certain man was sick, named Lazarus, of Bethany, the town of Mary and her
+    sister Martha. &l2&r(It was that Mary which anointed the Lord with ointment, and
+    wiped his feet with her hair, whose brother Lazarus was sick.) &l3&rTherefore
+    his'
   '18': sisters sent unto him, saying, Lord, behold, he whom thou lovest is sick. &l4&rWhen Jesus heard that, he said, This sickness is not unto death, but for the glory of God, that the Son of God might be glorified thereby. &l5&rNow Jesus loved Martha, and her
   '19': sister, and Lazarus. &l6&rWhen he had heard therefore that he was sick, he abode two days still in the same place where he was. &l7&rThen after that saith he to his disciples, Let us go into Judaea again. &l8&rHis disciples say unto him, Master, the Jews
   '20': of late sought to stone thee; and goest thou thither again? &l9&rJesus answered, Are there not twelve hours in the day? If any man walk in the day, he stumbleth not, because he seeth the light of this world. &l10&rBut if a man walk in the night, he
@@ -668,10 +715,11 @@ Book5:
     passover, to purify'
   '41': themselves. &l56&rThen sought they for Jesus, and spake among themselves, as they stood in the temple, What think ye, that he will not come to the feast? &l57&rNow both the chief priests and the Pharisees had given a commandment, that, if any man knew
   '42': where he were, he should shew it, that they might take him.
-  '43': 'Chapter 12/nThen Jesus six days before the passover came to Bethany, where
-    Lazarus was, which had been dead, whom he raised from the dead. &l2&rThere they
-    made him a supper; and Martha served: but Lazarus was one of them that sat at
-    the table with him.'
+  '43': 'Chapter 12
+
+    Then Jesus six days before the passover came to Bethany, where Lazarus was, which
+    had been dead, whom he raised from the dead. &l2&rThere they made him a supper;
+    and Martha served: but Lazarus was one of them that sat at the table with him.'
   '44': '&l3&rThen took Mary a pound of ointment of spikenard, very costly, and anointed
     the feet of Jesus, and wiped his feet with her hair: and the house was filled
     with the odour of the ointment. &l4&rThen saith one of his disciples, Judas Iscariot,
@@ -698,7 +746,11 @@ Book6:
   start:
     c: 12
     v: 18
-  '1': Chapter 12 Cont./n&l18&rFor this cause the people also met him, for that they heard that he had done this miracle. &l19&rThe Pharisees therefore said among themselves, Perceive ye how ye prevail nothing? behold, the world is gone after him. &l20&rAnd there
+  '1': 'Chapter 12 Cont.
+
+    &l18&rFor this cause the people also met him, for that they heard that he had
+    done this miracle. &l19&rThe Pharisees therefore said among themselves, Perceive
+    ye how ye prevail nothing? behold, the world is gone after him. &l20&rAnd there'
   '2': 'were certain Greeks among them that came up to worship at the feast: &l21&rThe
     same came therefore to Philip, which was of Bethsaida of Galilee, and desired
     him, saying, Sir, we would see Jesus. &l22&rPhilip cometh and telleth Andrew:
@@ -747,7 +799,11 @@ Book6:
     what I should speak. &l50&rAnd I know that his commandment is life everlasting:
     whatsoever I speak'
   '16': therefore, even as the Father said unto me, so I speak.
-  '17': Chapter 13/nNow before the feast of the passover, when Jesus knew that his hour was come that he should depart out of this world unto the Father, having loved his own which were in the world, he loved them unto the end. &l2&rAnd supper being ended, the
+  '17': 'Chapter 13
+
+    Now before the feast of the passover, when Jesus knew that his hour was come that
+    he should depart out of this world unto the Father, having loved his own which
+    were in the world, he loved them unto the end. &l2&rAnd supper being ended, the'
   '18': devil having now put into the heart of Judas Iscariot, Simon's son, to betray him; &l3&rJesus knowing that the Father had given all things into his hands, and that he was come from God, and went to God; &l4&rHe riseth from supper, and laid aside his
   '19': 'garments; and took a towel, and girded himself. &l5&rAfter that he poureth
     water into a bason, and began to wash the disciples'' feet, and to wipe them with
@@ -786,10 +842,12 @@ Book6:
   '32': That ye love one another; as I have loved you, that ye also love one another. &l35&rBy this shall all men know that ye are my disciples, if ye have love one to another. &l36&rSimon Peter said unto him, Lord, whither goest thou? Jesus answered him, Whither
   '33': I go, thou canst not follow me now; but thou shalt follow me afterwards. &l37&rPeter said unto him, Lord, why cannot I follow thee now? I will lay down my life for thy sake. &l38&rJesus answered him, Wilt thou lay down thy life for my sake? Verily, verily,
   '34': I say unto thee, The cock shall not crow, till thou hast denied me thrice.
-  '35': 'Chapter 14/nLet not your heart be troubled: ye believe in God, believe also
-    in me. &l2&rIn my Father''s house are many mansions: if it were not so, I would
-    have told you. I go to prepare a place for you. &l3&rAnd if I go and prepare a
-    place for you, I will'
+  '35': 'Chapter 14
+
+    Let not your heart be troubled: ye believe in God, believe also in me. &l2&rIn
+    my Father''s house are many mansions: if it were not so, I would have told you.
+    I go to prepare a place for you. &l3&rAnd if I go and prepare a place for you,
+    I will'
   '36': come again, and receive you unto myself; that where I am, there ye may be also. &l4&rAnd whither I go ye know, and the way ye know. &l5&rThomas saith unto him, Lord, we know not whither thou goest; and how can we know the way? &l6&rJesus saith unto him, I
   '37': 'am the way, the truth, and the life: no man cometh unto the Father, but by
     me. &l7&rIf ye had known me, ye should have known my Father also: and from henceforth
@@ -825,9 +883,11 @@ Book6:
     believe. &l30&rHereafter I will not talk much with you: for the prince of this
     world cometh, and hath'
   '49': nothing in me. &l31&rBut that the world may know that I love the Father; and as the Father gave me commandment, even so I do. Arise, let us go hence.
-  '50': 'Chapter 15/nI am the true vine, and my Father is the husbandman. &l2&rEvery
-    branch in me that beareth not fruit he taketh away: and every branch that beareth
-    fruit, he purgeth it, that it may bring forth more fruit.'
+  '50': 'Chapter 15
+
+    I am the true vine, and my Father is the husbandman. &l2&rEvery branch in me that
+    beareth not fruit he taketh away: and every branch that beareth fruit, he purgeth
+    it, that it may bring forth more fruit.'
   end:
     c: 15
     v: 2
@@ -835,7 +895,11 @@ Book7:
   start:
     c: 15
     v: 3
-  '1': Chapter 15 Cont./n&l3&rNow ye are clean through the word which I have spoken unto you. &l4&rAbide in me, and I in you. As the branch cannot bear fruit of itself, except it abide in the vine; no more can ye, except ye abide in me. &l5&rI am the vine, ye are
+  '1': 'Chapter 15 Cont.
+
+    &l3&rNow ye are clean through the word which I have spoken unto you. &l4&rAbide
+    in me, and I in you. As the branch cannot bear fruit of itself, except it abide
+    in the vine; no more can ye, except ye abide in me. &l5&rI am the vine, ye are'
   '2': 'the branches: He that abideth in me, and I in him, the same bringeth forth
     much fruit: for without me ye can do nothing. &l6&rIf a man abide not in me, he
     is cast forth as a branch, and is withered; and men gather them, and cast them
@@ -870,10 +934,11 @@ Book7:
   '12': 'you from the Father, even the Spirit of truth, which proceedeth from the
     Father, he shall testify of me: &l27&rAnd ye also shall bear witness, because
     ye have been with me from the beginning.'
-  '13': 'Chapter 16/nThese things have I spoken unto you, that ye should not be offended.
-    &l2&rThey shall put you out of the synagogues: yea, the time cometh, that whosoever
-    killeth you will think that he doeth God service. &l3&rAnd these things will they
-    do unto'
+  '13': 'Chapter 16
+
+    These things have I spoken unto you, that ye should not be offended. &l2&rThey
+    shall put you out of the synagogues: yea, the time cometh, that whosoever killeth
+    you will think that he doeth God service. &l3&rAnd these things will they do unto'
   '14': you, because they have not known the Father, nor me. &l4&rBut these things have I told you, that when the time shall come, ye may remember that I told you of them. And these things I said not unto you at the beginning, because I was with you. &l5&rBut now
   '15': 'I go my way to him that sent me; and none of you asketh me, Whither goest
     thou? &l6&rBut because I have said these things unto you, sorrow hath filled your
@@ -930,10 +995,12 @@ Book7:
     in me ye might have'
   '29': 'peace. In the world ye shall have tribulation: but be of good cheer; I have
     overcome the world.'
-  '30': 'Chapter 17/nThese words spake Jesus, and lifted up his eyes to heaven, and
-    said, Father, the hour is come; glorify thy Son, that thy Son also may glorify
-    thee: &l2&rAs thou hast given him power over all flesh, that he should give eternal
-    life to as many as'
+  '30': 'Chapter 17
+
+    These words spake Jesus, and lifted up his eyes to heaven, and said, Father, the
+    hour is come; glorify thy Son, that thy Son also may glorify thee: &l2&rAs thou
+    hast given him power over all flesh, that he should give eternal life to as many
+    as'
   '31': 'thou hast given him. &l3&rAnd this is life eternal, that they might know
     thee the only true God, and Jesus Christ, whom thou hast sent. &l4&rI have glorified
     thee on the earth: I have finished the work which thou gavest me to do. &l5&rAnd
@@ -975,10 +1042,11 @@ Book7:
   '42': 'hath not known thee: but I have known thee, and these have known that thou
     hast sent me. &l26&rAnd I have declared unto them thy name, and will declare it:
     that the love wherewith thou hast loved me may be in them, and I in them.'
-  '43': 'Chapter 18/nWhen Jesus had spoken these words, he went forth with his disciples
-    over the brook Cedron, where was a garden, into the which he entered, and his
-    disciples. &l2&rAnd Judas also, which betrayed him, knew the place: for Jesus
-    ofttimes resorted'
+  '43': 'Chapter 18
+
+    When Jesus had spoken these words, he went forth with his disciples over the brook
+    Cedron, where was a garden, into the which he entered, and his disciples. &l2&rAnd
+    Judas also, which betrayed him, knew the place: for Jesus ofttimes resorted'
   '44': thither with his disciples. &l3&rJudas then, having received a band of men and officers from the chief priests and Pharisees, cometh thither with lanterns and torches and weapons. &l4&rJesus therefore, knowing all things that should come upon him, went
   '45': forth, and said unto them, Whom seek ye? &l5&rThey answered him, Jesus of Nazareth. Jesus saith unto them, I am he. And Judas also, which betrayed him, stood with them. &l6&rAs soon then as he had said unto them, I am he, they went backward, and fell to
   '46': 'the ground. &l7&rThen asked he them again, Whom seek ye? And they said, Jesus
@@ -1002,10 +1070,11 @@ Book8:
   start:
     c: 18
     v: 17
-  '1': 'Chapter 18 Cont./n&l17&rThen saith the damsel that kept the door unto Peter,
-    Art not thou also one of this man''s disciples? He saith, I am not. &l18&rAnd
-    the servants and officers stood there, who had made a fire of coals; for it was
-    cold: and they warmed'
+  '1': 'Chapter 18 Cont.
+
+    &l17&rThen saith the damsel that kept the door unto Peter, Art not thou also one
+    of this man''s disciples? He saith, I am not. &l18&rAnd the servants and officers
+    stood there, who had made a fire of coals; for it was cold: and they warmed'
   '2': 'themselves: and Peter stood with them, and warmed himself. &l19&rThe high
     priest then asked Jesus of his disciples, and of his doctrine. &l20&rJesus answered
     him, I spake openly to the world; I ever taught in the synagogue, and in the temple,
@@ -1041,7 +1110,11 @@ Book8:
   '13': 'you one at the passover: will ye therefore that I release unto you the King
     of the Jews? &l40&rThen cried they all again, saying, Not this man, but Barabbas.
     Now Barabbas was a robber.'
-  '14': Chapter 19/nThen Pilate therefore took Jesus, and scourged him. &l2&rAnd the soldiers platted a crown of thorns, and put it on his head, and they put on him a purple robe, &l3&rAnd said, Hail, King of the Jews! and they smote him with their hands.
+  '14': 'Chapter 19
+
+    Then Pilate therefore took Jesus, and scourged him. &l2&rAnd the soldiers platted
+    a crown of thorns, and put it on his head, and they put on him a purple robe,
+    &l3&rAnd said, Hail, King of the Jews! and they smote him with their hands.'
   '15': '&l4&rPilate therefore went forth again, and saith unto them, Behold, I bring
     him forth to you, that ye may know that I find no fault in him. &l5&rThen came
     Jesus forth, wearing the crown of thorns, and the purple robe. And Pilate saith
@@ -1106,7 +1179,11 @@ Book8:
   '34': Pilate gave him leave. He came therefore, and took the body of Jesus. &l39&rAnd there came also Nicodemus, which at the first came to Jesus by night, and brought a mixture of myrrh and aloes, about an hundred pound weight. &l40&rThen took they the body of
   '35': Jesus, and wound it in linen clothes with the spices, as the manner of the Jews is to bury. &l41&rNow in the place where he was crucified there was a garden; and in the garden a new sepulchre, wherein was never man yet laid. &l42&rThere laid they Jesus
   '36': therefore because of the Jews' preparation day; for the sepulchre was nigh at hand.
-  '37': Chapter 20/nThe first day of the week cometh Mary Magdalene early, when it was yet dark, unto the sepulchre, and seeth the stone taken away from the sepulchre. &l2&rThen she runneth, and cometh to Simon Peter, and to the other disciple, whom Jesus loved,
+  '37': 'Chapter 20
+
+    The first day of the week cometh Mary Magdalene early, when it was yet dark, unto
+    the sepulchre, and seeth the stone taken away from the sepulchre. &l2&rThen she
+    runneth, and cometh to Simon Peter, and to the other disciple, whom Jesus loved,'
   '38': 'and saith unto them, They have taken away the Lord out of the sepulchre,
     and we know not where they have laid him. &l3&rPeter therefore went forth, and
     that other disciple, and came to the sepulchre. &l4&rSo they ran both together:
@@ -1150,17 +1227,22 @@ Book9:
   start:
     c: 20
     v: 27
-  '1': 'Chapter 20 Cont./n&l27&rThen saith he to Thomas, Reach hither thy finger,
-    and behold my hands; and reach hither thy hand, and thrust it into my side: and
-    be not faithless, but believing. &l28&rAnd Thomas answered and said unto him,
-    My Lord and my God.'
+  '1': 'Chapter 20 Cont.
+
+    &l27&rThen saith he to Thomas, Reach hither thy finger, and behold my hands; and
+    reach hither thy hand, and thrust it into my side: and be not faithless, but believing.
+    &l28&rAnd Thomas answered and said unto him, My Lord and my God.'
   '2': '&l29&rJesus saith unto him, Thomas, because thou hast seen me, thou hast believed:
     blessed are they that have not seen, and yet have believed. &l30&rAnd many other
     signs truly did Jesus in the presence of his disciples, which are not written
     in this book:'
   '3': '&l31&rBut these are written, that ye might believe that Jesus is the Christ,
     the Son of God; and that believing ye might have life through his name.'
-  '4': Chapter 21/nAfter these things Jesus shewed himself again to the disciples at the sea of Tiberias; and on this wise shewed he himself. &l2&rThere were together Simon Peter, and Thomas called Didymus, and Nathanael of Cana in Galilee, and the sons of
+  '4': 'Chapter 21
+
+    After these things Jesus shewed himself again to the disciples at the sea of Tiberias;
+    and on this wise shewed he himself. &l2&rThere were together Simon Peter, and
+    Thomas called Didymus, and Nathanael of Cana in Galilee, and the sons of'
   '5': Zebedee, and two other of his disciples. &l3&rSimon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They went forth, and entered into a ship immediately; and that night they caught nothing. &l4&rBut when the morning was now
   '6': 'come, Jesus stood on the shore: but the disciples knew not that it was Jesus.
     &l5&rThen Jesus saith unto them, Children, have ye any meat? They answered him,

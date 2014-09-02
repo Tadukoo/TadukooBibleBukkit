@@ -136,10 +136,10 @@ public enum EnumChps {
 	CORINTHIANS1ST2("1Corinthians", 2, 34, 31, 13, 40, 58, 24),
 	CORINTHIANS2ND("2Corinthians", 1, 24, 17, 18, 18, 21, 18, 16, 24, 15, 18),
 	CORINTHIANS2ND2("2Corinthians", 2, 33, 21, 14),
-	GALATIANS("Galatians", 1, 0),
-	EPHESIANS("Ephesians", 1, 0),
-	PHILIPPIANS("Philippians", 1, 0),
-	COLOSSIANS("Colossians", 1, 0),
+	GALATIANS("Galatians", 1, 24, 21, 29, 31, 26, 18),
+	EPHESIANS("Ephesians", 1, 23, 22, 21, 32, 33, 24),
+	PHILIPPIANS("Philippians", 1, 30, 30, 21, 23),
+	COLOSSIANS("Colossians", 1, 29, 23, 25, 18),
 	THESSALONIANS1ST("1Thessalonians", 1, 0),
 	THESSALONIANS2ND("2Thessalonians", 1, 0),
 	TIMOTHY1ST("1Timothy", 1, 0),
@@ -154,10 +154,10 @@ public enum EnumChps {
 	JOHN1ST("1John", 1, 10, 29, 24, 21, 21),
 	JOHN2ND("2John", 1, 13),
 	JOHN3RD("3John", 1, 14),
-	JUDE("Jude", 1, 0),
-	REVELATION("Revelation", 1, 0),
-	REVELATION2("Revelation", 2, 0),
-	REVELATION3("Revelation", 3, 0);
+	JUDE("Jude", 1, 25),
+	REVELATION("Revelation", 1, 20, 29, 22, 11, 14, 17, 17, 13, 21, 11),
+	REVELATION2("Revelation", 2, 19, 17, 18, 20, 8, 21, 18, 24, 21, 15),
+	REVELATION3("Revelation", 3, 27, 21);
 	
 	private String book;
 	private int part;

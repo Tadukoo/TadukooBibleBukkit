@@ -1,75 +1,443 @@
 Book1:
-  '1': 'Genesis Book 1: 1:1 - 4:12/nGenesis Book 2: 4:13 - 8:8/nGenesis Book 3: 8:9
-    - 12:1/nGenesis Book 4: 12:2 - 16:8/nGenesis Book 5: 16:9 - 19:18/nGenesis Book
-    6: 19:19 - 22:16/nGenesis Book 7: 22:17 - 24:59/nGenesis Book 8: 24:60 - 27:20/nGenesis
-    Book 9: 27:21 - 30:4/nGenesis Book 10: 30:5 - 31:52/nGenesis Book 11: 31:53 -
-    35:4/nGenesis Book 12: 35:5 - 37:34/nGenesis Book 13: 37:35 - 41:7/n'
-  '2': 'Genesis Book 14: 41:8 - 43:4/nGenesis Book 15: 43:5 - 45:25/nGenesis Book
-    16: 45:26 - 48:16/nGenesis Book 17: 48:17 - 50:26/n'
-  '3': 'Exodus Book 1: 1:1 - 4:14/nExodus Book 2: 4:15 - 7:18/nExodus Book 3: 7:19
-    - 10:5/nExodus Book 4: 10:6 - 12:43/nExodus Book 5: 12:44 - 15:20/nExodus Book
-    6: 15:21 - 18:20/nExodus Book 7: 18:21 - 21:36/nExodus Book 8: 22:1 - 25:10/nExodus
-    Book 9: 25:11 - 27:21/nExodus Book 10: 28:1 - 29:36/nExodus Book 11: 29:37 - 32:17/nExodus
-    Book 12: 32:18 - 35:1/nExodus Book 13: 35:2 - 37:22/n'
-  '4': 'Exodus Book 14: 37:23 - 40:8/nExodus Book 15: 40:9 - 40:38/n'
-  '5': 'Leviticus Book 1: 1:1 - 4:25/nLeviticus Book 2: 4:26 - 7:14/nLeviticus Book
-    3: 7:15 - 9:21/nLeviticus Book 4: 9:22 - 13:2/nLeviticus Book 5: 13:3 - 14:19/nLeviticus
-    Book 6: 14:20 - 16:12/nLeviticus Book 7: 16:13 - 19:10/nLeviticus Book 8: 19:11
-    - 22:5/nLeviticus Book 9: 22:6 - 24:13/nLeviticus Book 10: 24:14 - 26:21/nLeviticus
-    Book 11: 26:22 - 27:34/n'
-  '6': 'Numbers Book 1: 1:1 - 2:34/nNumbers Book 2: 3:1 - 4:31/nNumbers Book 3: 4:32
-    - 7:1/nNumbers Book 4: 7:2 - 8:13/nNumbers Book 5: 8:14 - 11:9/nNumbers Book 6:
-    11:10 - 14:12/nNumbers Book 7: 14:13 - 16:13/nNumbers Book 8: 16:14 - 18:26/nNumbers
-    Book 9: 18:27 - 21:21/nNumbers Book 10: 21:22 - 23:30/nNumbers Book 11: 24:1 -
-    26:49/nNumbers Book 12: 26:50 - 29:16/nNumbers Book 13: 29:17 - 31:51/n'
-  '7': 'Numbers Book 14: 31:52 - 34:3/nNumbers Book 15: 34:4 - 36:13/n'
-  '8': 'Deuteronomy Book 1: 1:1 - 3:1/nDeuteronomy Book 2: 3:2 - 5:2/nDeuteronomy
-    Book 3: 5:3 - 7:24/nDeuteronomy Book 4: 7:25 - 11:1/nDeuteronomy Book 5: 11:2
-    - 13:9/nDeuteronomy Book 6: 13:10 - 16:17/nDeuteronomy Book 7: 16:18 - 20:7/nDeuteronomy
-    Book 8: 20:8 - 23:10/nDeuteronomy Book 9: 23:11 - 26:17/nDeuteronomy Book 10:
-    26:18 - 28:54/nDeuteronomy Book 11: 28:55 - 31:11/nDeuteronomy Book 12: 31:12
-    - 33:12/nDeuteronomy Book 13: 33:13 - 34:12/n'
-  '9': ''
-  '10': 'Psalms Book 1: 1:1 - 10:8/nPsalms Book 2: 10:9 - 18:42/nPsalms Book 3: 18:43
-    - 26:2/nPsalms Book 4: 26:3 - 33:22/nPsalms Book 5: 34:1 - 38:22/nPsalms Book
-    6: 39:1 - 46:4/nPsalms Book 7: 46:5 - 55:5/nPsalms Book 8: 55:6 - 64:2/nPsalms
-    Book 9: 64:3 - 69:29/nPsalms Book 10: 69:30 - 75:10/nPsalms Book 11: 76:1 - 80:5/nPsalms
-    Book 12: 80:6 - 88:18/nPsalms Book 13: 89:1 - 94:17/n'
-  '11': 'Psalms Book 14: 94:18 - 103:22/nPsalms Book 15: 104:1 - 107:8/nPsalms Book
-    16: 107:9 - 115:2/nPsalms Book 17: 115:3 - 119:83/nPsalms Book 18: 119:84 - 127:1/nPsalms
-    Book 19: 127:2 - 139:9/nPsalms Book 20: 139:10 - 147:11/nPsalms Book 21: 147:12
-    - 150:6/n'
-  '12': 'Proverbs Book 1: 1:1 - 5:20/nProverbs Book 2: 5:21 - 10:16/nProverbs Book
-    3: 10:17 - 14:27/nProverbs Book 4: 14:28 - 19:2/nProverbs Book 5: 19:3 - 23:14/nProverbs
-    Book 6: 23:15 - 27:18/nProverbs Book 7: 27:19 - 31:29/nProverbs Book 8: 31:30
-    - 31:31/n'
-  '13': 'Matthew Book 1: 1:1 - 5:9/nMatthew Book 2: 5:10 - 7:24/nMatthew Book 3: 7:25
-    - 10:23/nMatthew Book 4: 10:24 - 12:50/nMatthew Book 5: 13:1 - 15:9/nMatthew Book
-    6: 15:10 - 18:12/nMatthew Book 7: 18:13 - 21:10/nMatthew Book 8: 21:11 - 23:23/nMatthew
-    Book 9: 23:24 - 25:39/nMatthew Book 10: 25:40 - 27:23/nMatthew Book 11: 27:24
-    - 28:20/n'
-  '14': 'Mark Book 1: 1:1 - 3:30/nMark Book 2: 3:31 - 6:10/nMark Book 3: 6:11 - 8:17/nMark
-    Book 4: 8:18 - 10:29/nMark Book 5: 10:30 - 12:37/nMark Book 6: 12:38 - 14:60/nMark
-    Book 7: 14:61 - 16:20/n'
-  '15': 'Luke Book 1: 1:1 - 2:33/nLuke Book 2: 2:34 - 4:37/nLuke Book 3: 4:38 - 6:48/nLuke
-    Book 4: 6:49 - 8:40/nLuke Book 5: 8:41 - 10:21/nLuke Book 6: 10:22 - 12:19/nLuke
-    Book 7: 12:20 - 14:20/nLuke Book 8: 14:21 - 17:19/nLuke Book 9: 17:20 - 19:47/nLuke
-    Book 10: 19:48 - 22:22/nLuke Book 11: 22:23 - 24:6/nLuke Book 12: 24:7 - 24:53/n'
-  '16': 'John Book 1: 1:1 - 3:34/nJohn Book 2: 3:35 - 6:7/nJohn Book 3: 6:8 - 7:48/nJohn
-    Book 4: 7:49 - 10:4/nJohn Book 5: 10:5 - 12:17/nJohn Book 6: 12:18 - 15:2/nJohn
-    Book 7: 15:3 - 18:16/nJohn Book 8: 18:17 - 20:26/nJohn Book 9: 20:27 - 21:25/n'
-  '17': 'Acts Book 1: 1:1 - 3:23/nActs Book 2: 3:24 - 6:10/nActs Book 3: 6:11 - 8:32/nActs
-    Book 4: 8:33 - 10:44/nActs Book 5: 10:45 - 13:32/nActs Book 6: 13:33 - 16:3/nActs
-    Book 7: 16:4 - 18:19/nActs Book 8: 18:20 - 21:1/nActs Book 9: 21:2 - 23:16/nActs
-    Book 10: 23:17 - 26:14/nActs Book 11: 26:15 - 28:28/nActs Book 12: 28:29 - 28:31/n'
-  '18': 'Romans Book 1: 1:1 - 4:12/nRomans Book 2: 4:13 - 8:16/nRomans Book 3: 8:17
-    - 11:21/nRomans Book 4: 11:22 - 15:24/nRomans Book 5: 15:25 - 16:27/n'
-  '19': '1Corinthians Book 1: 1:1 - 5:13/n1Corinthians Book 2: 6:1 - 9:21/n1Corinthians
-    Book 3: 9:22 - 13:6/n1Corinthians Book 4: 13:7 - 16:1/n1Corinthians Book 5: 16:2
-    - 16:24/n'
-  '20': '2Corinthians Book 1: 1:1 - 5:19/n2Corinthians Book 2: 5:20 - 10:12/n2Corinthians
-    Book 3: 10:13 - 13:14/n'
-  '21': '1John Book 1: 1:1 - 5:12/n1John Book 2: 5:13 - 5:21/n'
-  '22': '2John Book 1: 1:1 - 1:13/n'
-  '23': '3John Book 1: 1:1 - 1:14/n'
+  '1': 'Genesis
+
+    Ge 1: 1:1 - 4:12
+
+    Ge 2: 4:13 - 8:8
+
+    Ge 3: 8:9 - 12:1
+
+    Ge 4: 12:2 - 16:8
+
+    Ge 5: 16:9 - 19:18
+
+    Ge 6: 19:19 - 22:16
+
+    Ge 7: 22:17 - 24:59
+
+    Ge 8: 24:60 - 27:20
+
+    Ge 9: 27:21 - 30:4
+
+    Ge 10: 30:5 - 31:52
+
+    Ge 11: 31:53 - 35:4
+
+    Ge 12: 35:5 - 37:34
+
+    '
+  '2': 'Ge 13: 37:35 - 41:7
+
+    Ge 14: 41:8 - 43:4
+
+    Ge 15: 43:5 - 45:25
+
+    Ge 16: 45:26 - 48:16
+
+    Ge 17: 48:17 - 50:26
+
+    '
+  '3': 'Exodus
+
+    Ex 1: 1:1 - 4:14
+
+    Ex 2: 4:15 - 7:18
+
+    Ex 3: 7:19 - 10:5
+
+    Ex 4: 10:6 - 12:43
+
+    Ex 5: 12:44 - 15:20
+
+    Ex 6: 15:21 - 18:20
+
+    Ex 7: 18:21 - 21:36
+
+    Ex 8: 22:1 - 25:10
+
+    Ex 9: 25:11 - 27:21
+
+    Ex 10: 28:1 - 29:36
+
+    Ex 11: 29:37 - 32:17
+
+    Ex 12: 32:18 - 35:1
+
+    '
+  '4': 'Ex 13: 35:2 - 37:22
+
+    Ex 14: 37:23 - 40:8
+
+    Ex 15: 40:9 - 40:38
+
+    '
+  '5': 'Leviticus
+
+    Le 1: 1:1 - 4:25
+
+    Le 2: 4:26 - 7:14
+
+    Le 3: 7:15 - 9:21
+
+    Le 4: 9:22 - 13:2
+
+    Le 5: 13:3 - 14:19
+
+    Le 6: 14:20 - 16:12
+
+    Le 7: 16:13 - 19:10
+
+    Le 8: 19:11 - 22:5
+
+    Le 9: 22:6 - 24:13
+
+    Le 10: 24:14 - 26:21
+
+    Le 11: 26:22 - 27:34
+
+    '
+  '6': 'Numbers
+
+    Nu 1: 1:1 - 2:34
+
+    Nu 2: 3:1 - 4:31
+
+    Nu 3: 4:32 - 7:1
+
+    Nu 4: 7:2 - 8:13
+
+    Nu 5: 8:14 - 11:9
+
+    Nu 6: 11:10 - 14:12
+
+    Nu 7: 14:13 - 16:13
+
+    Nu 8: 16:14 - 18:26
+
+    Nu 9: 18:27 - 21:21
+
+    Nu 10: 21:22 - 23:30
+
+    Nu 11: 24:1 - 26:49
+
+    Nu 12: 26:50 - 29:16
+
+    '
+  '7': 'Nu 13: 29:17 - 31:51
+
+    Nu 14: 31:52 - 34:3
+
+    Nu 15: 34:4 - 36:13
+
+    '
+  '8': 'Deuteronomy
+
+    De 1: 1:1 - 3:1
+
+    De 2: 3:2 - 5:2
+
+    De 3: 5:3 - 7:24
+
+    De 4: 7:25 - 11:1
+
+    De 5: 11:2 - 13:9
+
+    De 6: 13:10 - 16:17
+
+    De 7: 16:18 - 20:7
+
+    De 8: 20:8 - 23:10
+
+    De 9: 23:11 - 26:17
+
+    De 10: 26:18 - 28:54
+
+    De 11: 28:55 - 31:11
+
+    De 12: 31:12 - 33:12
+
+    '
+  '9': 'De 13: 33:13 - 34:12
+
+    '
+  '10': 'Psalms
+
+    Ps 1: 1:1 - 10:8
+
+    Ps 2: 10:9 - 18:42
+
+    Ps 3: 18:43 - 26:2
+
+    Ps 4: 26:3 - 33:22
+
+    Ps 5: 34:1 - 38:22
+
+    Ps 6: 39:1 - 46:4
+
+    Ps 7: 46:5 - 55:5
+
+    Ps 8: 55:6 - 64:2
+
+    Ps 9: 64:3 - 69:29
+
+    Ps 10: 69:30 - 75:10
+
+    Ps 11: 76:1 - 80:5
+
+    Ps 12: 80:6 - 88:18
+
+    '
+  '11': 'Ps 13: 89:1 - 94:17
+
+    Ps 14: 94:18 - 103:22
+
+    Ps 15: 104:1 - 107:8
+
+    Ps 16: 107:9 - 115:2
+
+    Ps 17: 115:3 - 119:83
+
+    Ps 18: 119:84 - 127:1
+
+    Ps 19: 127:2 - 139:9
+
+    Ps 20: 139:10 - 147:11
+
+    Ps 21: 147:12 - 150:6
+
+    '
+  '12': 'Proverbs
+
+    Pr 1: 1:1 - 5:20
+
+    Pr 2: 5:21 - 10:16
+
+    Pr 3: 10:17 - 14:27
+
+    Pr 4: 14:28 - 19:2
+
+    Pr 5: 19:3 - 23:14
+
+    Pr 6: 23:15 - 27:18
+
+    Pr 7: 27:19 - 31:29
+
+    Pr 8: 31:30 - 31:31
+
+    '
+  '13': 'Matthew
+
+    Mt 1: 1:1 - 5:9
+
+    Mt 2: 5:10 - 7:24
+
+    Mt 3: 7:25 - 10:23
+
+    Mt 4: 10:24 - 12:50
+
+    Mt 5: 13:1 - 15:9
+
+    Mt 6: 15:10 - 18:12
+
+    Mt 7: 18:13 - 21:10
+
+    Mt 8: 21:11 - 23:24
+
+    Mt 9: 23:25 - 25:39
+
+    Mt 10: 25:40 - 27:23
+
+    Mt 11: 27:24 - 28:20
+
+    '
+  '14': 'Mark
+
+    Mr 1: 1:1 - 3:30
+
+    Mr 2: 3:31 - 6:10
+
+    Mr 3: 6:11 - 8:17
+
+    Mr 4: 8:18 - 10:29
+
+    Mr 5: 10:30 - 12:37
+
+    Mr 6: 12:38 - 14:60
+
+    Mr 7: 14:61 - 16:20
+
+    '
+  '15': 'Luke
+
+    Lu 1: 1:1 - 2:33
+
+    Lu 2: 2:34 - 4:37
+
+    Lu 3: 4:38 - 6:48
+
+    Lu 4: 6:49 - 8:40
+
+    Lu 5: 8:41 - 10:21
+
+    Lu 6: 10:22 - 12:19
+
+    Lu 7: 12:20 - 14:20
+
+    Lu 8: 14:21 - 17:19
+
+    Lu 9: 17:20 - 19:47
+
+    Lu 10: 19:48 - 22:22
+
+    Lu 11: 22:23 - 24:6
+
+    Lu 12: 24:7 - 24:53
+
+    '
+  '16': ''
+  '17': 'John
+
+    Joh 1: 1:1 - 3:34
+
+    Joh 2: 3:35 - 6:8
+
+    Joh 3: 6:9 - 7:48
+
+    Joh 4: 7:49 - 10:4
+
+    Joh 5: 10:5 - 12:17
+
+    Joh 6: 12:18 - 15:2
+
+    Joh 7: 15:3 - 18:16
+
+    Joh 8: 18:17 - 20:26
+
+    Joh 9: 20:27 - 21:25
+
+    '
+  '18': 'Acts
+
+    Ac 1: 1:1 - 3:23
+
+    Ac 2: 3:24 - 6:10
+
+    Ac 3: 6:11 - 8:32
+
+    Ac 4: 8:33 - 10:44
+
+    Ac 5: 10:45 - 13:32
+
+    Ac 6: 13:33 - 16:3
+
+    Ac 7: 16:4 - 18:19
+
+    Ac 8: 18:20 - 21:1
+
+    Ac 9: 21:2 - 23:16
+
+    Ac 10: 23:17 - 26:14
+
+    Ac 11: 26:15 - 28:28
+
+    Ac 12: 28:29 - 28:31
+
+    '
+  '19': ''
+  '20': 'Romans
+
+    Ro 1: 1:1 - 4:12
+
+    Ro 2: 4:13 - 8:16
+
+    Ro 3: 8:17 - 11:21
+
+    Ro 4: 11:22 - 15:24
+
+    Ro 5: 15:25 - 16:27
+
+    '
+  '21': '1Corinthians
+
+    1Co 1: 1:1 - 5:13
+
+    1Co 2: 6:1 - 9:23
+
+    1Co 3: 9:24 - 13:6
+
+    1Co 4: 13:7 - 16:1
+
+    1Co 5: 16:2 - 16:24
+
+    '
+  '22': '2Corinthians
+
+    2Co 1: 1:1 - 5:19
+
+    2Co 2: 5:20 - 10:12
+
+    2Co 3: 10:13 - 13:14
+
+    '
+  '23': 'Galatians
+
+    Ga 1: 1:1 - 4:29
+
+    Ga 2: 4:30 - 6:18
+
+    '
+  '24': 'Ephesians
+
+    Eph 1: 1:1 - 5:10
+
+    Eph 2: 5:11 - 6:24
+
+    '
+  '25': 'Philippians
+
+    Php 1: 1:1 - 4:23
+
+    '
+  '26': 'Colossians
+
+    Col 1: 1:1 - 4:18
+
+    '
+  '27': '1John
+
+    1Jo 1: 1:1 - 5:12
+
+    1Jo 2: 5:13 - 5:21
+
+    '
+  '28': '2John
+
+    2Jo 1: 1:1 - 1:13
+
+    '
+  '29': '3John
+
+    3Jo 1: 1:1 - 1:14
+
+    '
+  '30': 'Jude
+
+    Jude 1: 1:1 - 1:25
+
+    '
+  '31': 'Revelation
+
+    Re 1: 1:1 - 4:7
+
+    Re 2: 4:8 - 9:12
+
+    Re 3: 9:13 - 14:1
+
+    Re 4: 14:2 - 18:7
+
+    Re 5: 18:8 - 21:22
+
+    Re 6: 21:23 - 22:21
+
+    '
 Done: true

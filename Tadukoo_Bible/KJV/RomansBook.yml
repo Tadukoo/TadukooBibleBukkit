@@ -2,7 +2,11 @@ Book1:
   start:
     c: 1
     v: 1
-  '1': Chapter 1/nPaul, a servant of Jesus Christ, called to be an apostle, separated unto the gospel of God, &l2&r(Which he had promised afore by his prophets in the holy scriptures,) &l3&rConcerning his Son Jesus Christ our Lord, which was made of the seed of
+  '1': 'Chapter 1
+
+    Paul, a servant of Jesus Christ, called to be an apostle, separated unto the gospel
+    of God, &l2&r(Which he had promised afore by his prophets in the holy scriptures,)
+    &l3&rConcerning his Son Jesus Christ our Lord, which was made of the seed of'
   '2': 'David according to the flesh; &l4&rAnd declared to be the Son of God with
     power, according to the spirit of holiness, by the resurrection from the dead:
     &l5&rBy whom we have received grace and apostleship, for obedience to the faith
@@ -43,10 +47,11 @@ Book1:
     implacable, unmerciful: &l32&rWho knowing the judgment of God, that they which
     commit such things'
   '17': are worthy of death, not only do the same, but have pleasure in them that do them.
-  '18': 'Chapter 2/nTherefore thou art inexcusable, O man, whosoever thou art that
-    judgest: for wherein thou judgest another, thou condemnest thyself; for thou that
-    judgest doest the same things. &l2&rBut we are sure that the judgment of God is
-    according to truth'
+  '18': 'Chapter 2
+
+    Therefore thou art inexcusable, O man, whosoever thou art that judgest: for wherein
+    thou judgest another, thou condemnest thyself; for thou that judgest doest the
+    same things. &l2&rBut we are sure that the judgment of God is according to truth'
   '19': against them which commit such things. &l3&rAnd thinkest thou this, O man, that judgest them which do such things, and doest the same, that thou shalt escape the judgment of God? &l4&rOr despisest thou the riches of his goodness and forbearance and
   '20': longsuffering; not knowing that the goodness of God leadeth thee to repentance? &l5&rBut after thy hardness and impenitent heart treasurest up unto thyself wrath against the day of wrath and revelation of the righteous judgment of God; &l6&rWho will render
   '21': 'to every man according to his deeds: &l7&rTo them who by patient continuance
@@ -78,10 +83,12 @@ Book1:
     in the flesh: &l29&rBut he is a Jew, which is one inwardly; and circumcision is
     that of the heart, in the spirit, and not in the letter; whose praise is not of
     men, but of God.'
-  '32': 'Chapter 3/nWhat advantage then hath the Jew? or what profit is there of circumcision?
-    &l2&rMuch every way: chiefly, because that unto them were committed the oracles
-    of God. &l3&rFor what if some did not believe? shall their unbelief make the faith
-    of God'
+  '32': 'Chapter 3
+
+    What advantage then hath the Jew? or what profit is there of circumcision? &l2&rMuch
+    every way: chiefly, because that unto them were committed the oracles of God.
+    &l3&rFor what if some did not believe? shall their unbelief make the faith of
+    God'
   '33': 'without effect? &l4&rGod forbid: yea, let God be true, but every man a liar;
     as it is written, That thou mightest be justified in thy sayings, and mightest
     overcome when thou art judged. &l5&rBut if our unrighteousness commend the righteousness
@@ -128,8 +135,13 @@ Book1:
     the circumcision by'
   '44': 'faith, and uncircumcision through faith. &l31&rDo we then make void the law
     through faith? God forbid: yea, we establish the law.'
-  '45': Chapter 4/nWhat shall we say then that Abraham our father, as pertaining to the flesh, hath found? &l2&rFor if Abraham were justified by works, he hath whereof to glory; but not before God. &l3&rFor what saith the scripture? Abraham believed God, and it
-  '46': was counted unto him for righteousness. &l4&rNow to him that worketh is the reward not reckoned of grace, but of debt. &l5&rBut to him that worketh not, but believeth on him that justifieth the ungodly, his faith is counted for righteousness. &l6&rEven as
+  '45': 'Chapter 4
+
+    What shall we say then that Abraham our father, as pertaining to the flesh, hath
+    found? &l2&rFor if Abraham were justified by works, he hath whereof to glory;
+    but not before God. &l3&rFor what saith the scripture? Abraham believed God, and
+    it was'
+  '46': counted unto him for righteousness. &l4&rNow to him that worketh is the reward not reckoned of grace, but of debt. &l5&rBut to him that worketh not, but believeth on him that justifieth the ungodly, his faith is counted for righteousness. &l6&rEven as
   '47': David also describeth the blessedness of the man, unto whom God imputeth righteousness without works, &l7&rSaying, Blessed are they whose iniquities are forgiven, and whose sins are covered. &l8&rBlessed is the man to whom the Lord will not impute sin.
   '48': '&l9&rCometh this blessedness then upon the circumcision only, or upon the
     uncircumcision also? for we say that faith was reckoned to Abraham for righteousness.
@@ -149,7 +161,11 @@ Book2:
   start:
     c: 4
     v: 13
-  '1': Chapter 4 Cont./n&l13&rFor the promise, that he should be the heir of the world, was not to Abraham, or to his seed, through the law, but through the righteousness of faith. &l14&rFor if they which are of the law be heirs, faith is made void, and the
+  '1': 'Chapter 4 Cont.
+
+    &l13&rFor the promise, that he should be the heir of the world, was not to Abraham,
+    or to his seed, through the law, but through the righteousness of faith. &l14&rFor
+    if they which are of the law be heirs, faith is made void, and the'
   '2': 'promise made of none effect: &l15&rBecause the law worketh wrath: for where
     no law is, there is no transgression. &l16&rTherefore it is of faith, that it
     might be by grace; to the end the promise might be sure to all the seed; not to
@@ -162,10 +178,11 @@ Book2:
     promised, he was able'
   '6': also to perform. &l22&rAnd therefore it was imputed to him for righteousness. &l23&rNow it was not written for his sake alone, that it was imputed to him; &l24&rBut for us also, to whom it shall be imputed, if we believe on him that raised up Jesus our
   '7': Lord from the dead; &l25&rWho was delivered for our offences, and was raised again for our justification.
-  '8': 'Chapter 5/nTherefore being justified by faith, we have peace with God through
-    our Lord Jesus Christ: &l2&rBy whom also we have access by faith into this grace
-    wherein we stand, and rejoice in hope of the glory of God. &l3&rAnd not only so,
-    but we glory in'
+  '8': 'Chapter 5
+
+    Therefore being justified by faith, we have peace with God through our Lord Jesus
+    Christ: &l2&rBy whom also we have access by faith into this grace wherein we stand,
+    and rejoice in hope of the glory of God. &l3&rAnd not only so, but we glory in'
   '9': 'tribulations also: knowing that tribulation worketh patience; &l4&rAnd patience,
     experience; and experience, hope: &l5&rAnd hope maketh not ashamed; because the
     love of God is shed abroad in our hearts by the Holy Ghost which is given unto
@@ -189,7 +206,12 @@ Book2:
   '17': justification of life. &l19&rFor as by one man's disobedience many were made sinners, so by the obedience of one shall many be made righteous. &l20&rMoreover the law entered, that the offence might abound. But where sin abounded, grace did much more
   '18': 'abound: &l21&rThat as sin hath reigned unto death, even so might grace reign
     through righteousness unto eternal life by Jesus Christ our Lord.'
-  '19': Chapter 6/nWhat shall we say then? Shall we continue in sin, that grace may abound? &l2&rGod forbid. How shall we, that are dead to sin, live any longer therein? &l3&rKnow ye not, that so many of us as were baptized into Jesus Christ were baptized into his
+  '19': 'Chapter 6
+
+    What shall we say then? Shall we continue in sin, that grace may abound? &l2&rGod
+    forbid. How shall we, that are dead to sin, live any longer therein? &l3&rKnow
+    ye not, that so many of us as were baptized into Jesus Christ were baptized into
+    his'
   '20': 'death? &l4&rTherefore we are buried with him by baptism into death: that
     like as Christ was raised up from the dead by the glory of the Father, even so
     we also should walk in newness of life. &l5&rFor if we have been planted together
@@ -218,7 +240,11 @@ Book2:
     end of those things is death. &l22&rBut now being made free from sin, and become
     servants to God,'
   '29': ye have your fruit unto holiness, and the end everlasting life. &l23&rFor the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.
-  '30': Chapter 7/nKnow ye not, brethren, (for I speak to them that know the law,) how that the law hath dominion over a man as long as he liveth? &l2&rFor the woman which hath an husband is bound by the law to her husband so long as he liveth; but if the husband
+  '30': 'Chapter 7
+
+    Know ye not, brethren, (for I speak to them that know the law,) how that the law
+    hath dominion over a man as long as he liveth? &l2&rFor the woman which hath an
+    husband is bound by the law to her husband so long as he liveth; but if the husband'
   '31': 'be dead, she is loosed from the law of her husband. &l3&rSo then if, while
     her husband liveth, she be married to another man, she shall be called an adulteress:
     but if her husband be dead, she is free from that law; so that she is no adulteress,
@@ -252,7 +278,12 @@ Book2:
     and bringing me into'
   '41': captivity to the law of sin which is in my members. &l24&rO wretched man that I am! who shall deliver me from the body of this death? &l25&rI thank God through Jesus Christ our Lord. So then with the mind I myself serve the law of God; but with the flesh
   '42': the law of sin.
-  '43': Chapter 8/nThere is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit. &l2&rFor the law of the Spirit of life in Christ Jesus hath made me free from the law of sin and death. &l3&rFor what
+  '43': 'Chapter 8
+
+    There is therefore now no condemnation to them which are in Christ Jesus, who
+    walk not after the flesh, but after the Spirit. &l2&rFor the law of the Spirit
+    of life in Christ Jesus hath made me free from the law of sin and death. &l3&rFor
+    what'
   '44': 'the law could not do, in that it was weak through the flesh, God sending
     his own Son in the likeness of sinful flesh, and for sin, condemned sin in the
     flesh: &l4&rThat the righteousness of the law might be fulfilled in us, who walk
@@ -277,7 +308,11 @@ Book3:
   start:
     c: 8
     v: 17
-  '1': Chapter 8 Cont./n&l17&rAnd if children, then heirs; heirs of God, and joint-heirs with Christ; if so be that we suffer with him, that we may be also glorified together. &l18&rFor I reckon that the sufferings of this present time are not worthy to be
+  '1': 'Chapter 8 Cont.
+
+    &l17&rAnd if children, then heirs; heirs of God, and joint-heirs with Christ;
+    if so be that we suffer with him, that we may be also glorified together. &l18&rFor
+    I reckon that the sufferings of this present time are not worthy to be'
   '2': compared with the glory which shall be revealed in us. &l19&rFor the earnest expectation of the creature waiteth for the manifestation of the sons of God. &l20&rFor the creature was made subject to vanity, not willingly, but by reason of him who hath
   '3': subjected the same in hope, &l21&rBecause the creature itself also shall be delivered from the bondage of corruption into the glorious liberty of the children of God. &l22&rFor we know that the whole creation groaneth and travaileth in pain together until
   '4': 'now. &l23&rAnd not only they, but ourselves also, which have the firstfruits
@@ -301,7 +336,11 @@ Book3:
   '10': Christ that died, yea rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us. &l35&rWho shall separate us from the love of Christ? shall tribulation, or distress, or persecution, or famine, or nakedness, or
   '11': peril, or sword? &l36&rAs it is written, For thy sake we are killed all the day long; we are accounted as sheep for the slaughter. &l37&rNay, in all these things we are more than conquerors through him that loved us. &l38&rFor I am persuaded, that neither
   '12': death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, &l39&rNor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.
-  '13': Chapter 9/nI say the truth in Christ, I lie not, my conscience also bearing me witness in the Holy Ghost, &l2&rThat I have great heaviness and continual sorrow in my heart. &l3&rFor I could wish that myself were accursed from Christ for my brethren, my
+  '13': 'Chapter 9
+
+    I say the truth in Christ, I lie not, my conscience also bearing me witness in
+    the Holy Ghost, &l2&rThat I have great heaviness and continual sorrow in my heart.
+    &l3&rFor I could wish that myself were accursed from Christ for my brethren, my'
   '14': 'kinsmen according to the flesh: &l4&rWho are Israelites; to whom pertaineth
     the adoption, and the glory, and the covenants, and the giving of the law, and
     the service of God, and the promises; &l5&rWhose are the fathers, and of whom
@@ -337,13 +376,18 @@ Book3:
   '28': 'the law. For they stumbled at that stumblingstone; &l33&rAs it is written,
     Behold, I lay in Sion a stumblingstone and rock of offence: and whosoever believeth
     on him shall not be ashamed.'
-  '29': Chapter 10/nBrethren, my heart's desire and prayer to God for Israel is, that they might be saved. &l2&rFor I bear them record that they have a zeal of God, but not according to knowledge. &l3&rFor they being ignorant of God's righteousness, and going
-  '30': about to establish their own righteousness, have not submitted themselves unto the righteousness of God. &l4&rFor Christ is the end of the law for righteousness to every one that believeth. &l5&rFor Moses describeth the righteousness which is of the law,
-  '31': That the man which doeth those things shall live by them. &l6&rBut the righteousness which is of faith speaketh on this wise, Say not in thine heart, Who shall ascend into heaven? (that is, to bring Christ down from above:) &l7&rOr, Who shall descend into
-  '32': 'the deep? (that is, to bring up Christ again from the dead.) &l8&rBut what
-    saith it? The word is nigh thee, even in thy mouth, and in thy heart: that is,
-    the word of faith, which we preach; &l9&rThat if thou shalt confess with thy mouth
-    the Lord Jesus, and'
+  '29': 'Chapter 10
+
+    Brethren, my heart''s desire and prayer to God for Israel is, that they might
+    be saved. &l2&rFor I bear them record that they have a zeal of God, but not according
+    to knowledge. &l3&rFor they being ignorant of God''s righteousness, and going
+    about'
+  '30': to establish their own righteousness, have not submitted themselves unto the righteousness of God. &l4&rFor Christ is the end of the law for righteousness to every one that believeth. &l5&rFor Moses describeth the righteousness which is of the law, That
+  '31': the man which doeth those things shall live by them. &l6&rBut the righteousness which is of faith speaketh on this wise, Say not in thine heart, Who shall ascend into heaven? (that is, to bring Christ down from above:) &l7&rOr, Who shall descend into the
+  '32': 'deep? (that is, to bring up Christ again from the dead.) &l8&rBut what saith
+    it? The word is nigh thee, even in thy mouth, and in thy heart: that is, the word
+    of faith, which we preach; &l9&rThat if thou shalt confess with thy mouth the
+    Lord Jesus, and'
   '33': shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved. &l10&rFor with the heart man believeth unto righteousness; and with the mouth confession is made unto salvation. &l11&rFor the scripture saith, Whosoever believeth on
   '34': 'him shall not be ashamed. &l12&rFor there is no difference between the Jew
     and the Greek: for the same Lord over all is rich unto all that call upon him.
@@ -357,7 +401,12 @@ Book3:
     no people, and by a'
   '38': foolish nation I will anger you. &l20&rBut Esaias is very bold, and saith, I was found of them that sought me not; I was made manifest unto them that asked not after me. &l21&rBut to Israel he saith, All day long I have stretched forth my hands unto a
   '39': disobedient and gainsaying people.
-  '40': Chapter 11/nI say then, Hath God cast away his people? God forbid. For I also am an Israelite, of the seed of Abraham, of the tribe of Benjamin. &l2&rGod hath not cast away his people which he foreknew. Wot ye not what the scripture saith of Elias? how he
+  '40': 'Chapter 11
+
+    I say then, Hath God cast away his people? God forbid. For I also am an Israelite,
+    of the seed of Abraham, of the tribe of Benjamin. &l2&rGod hath not cast away
+    his people which he foreknew. Wot ye not what the scripture saith of Elias? how
+    he'
   '41': maketh intercession to God against Israel saying, &l3&rLord, they have killed thy prophets, and digged down thine altars; and I am left alone, and they seek my life. &l4&rBut what saith the answer of God unto him? I have reserved to myself seven thousand
   '42': 'men, who have not bowed the knee to the image of Baal. &l5&rEven so then
     at this present time also there is a remnant according to the election of grace.
@@ -394,10 +443,11 @@ Book4:
   start:
     c: 11
     v: 22
-  '1': 'Chapter 11 Cont./n&l22&rBehold therefore the goodness and severity of God:
-    on them which fell, severity; but toward thee, goodness, if thou continue in his
-    goodness: otherwise thou also shalt be cut off. &l23&rAnd they also, if they abide
-    not still in'
+  '1': 'Chapter 11 Cont.
+
+    &l22&rBehold therefore the goodness and severity of God: on them which fell, severity;
+    but toward thee, goodness, if thou continue in his goodness: otherwise thou also
+    shalt be cut off. &l23&rAnd they also, if they abide not still in'
   '2': 'unbelief, shall be grafted in: for God is able to graft them in again. &l24&rFor
     if thou wert cut out of the olive tree which is wild by nature, and wert grafted
     contrary to nature into a good olive tree: how much more shall these, which be
@@ -418,37 +468,42 @@ Book4:
   '7': wisdom and knowledge of God! how unsearchable are his judgments, and his ways past finding out! &l34&rFor who hath known the mind of the Lord? or who hath been his counsellor? &l35&rOr who hath first given to him, and it shall be recompensed unto him
   '8': 'again? &l36&rFor of him, and through him, and to him, are all things: to whom
     be glory for ever. Amen.'
-  '9': 'Chapter 12/nI beseech you therefore, brethren, by the mercies of God, that
-    ye present your bodies a living sacrifice, holy, acceptable unto God, which is
-    your reasonable service. &l2&rAnd be not conformed to this world: but be ye transformed
-    by the'
-  '10': renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God. &l3&rFor I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think
-  '11': 'soberly, according as God hath dealt to every man the measure of faith. &l4&rFor
-    as we have many members in one body, and all members have not the same office:
-    &l5&rSo we, being many, are one body in Christ, and every one members one of another.'
-  '12': '&l6&rHaving then gifts differing according to the grace that is given to
-    us, whether prophecy, let us prophesy according to the proportion of faith; &l7&rOr
-    ministry, let us wait on our ministering: or he that teacheth, on teaching; &l8&rOr
-    he that'
-  '13': 'exhorteth, on exhortation: he that giveth, let him do it with simplicity;
-    he that ruleth, with diligence; he that sheweth mercy, with cheerfulness. &l9&rLet
-    love be without dissimulation. Abhor that which is evil; cleave to that which
-    is good. &l10&rBe'
-  '14': kindly affectioned one to another with brotherly love; in honour preferring one another; &l11&rNot slothful in business; fervent in spirit; serving the Lord; &l12&rRejoicing in hope; patient in tribulation; continuing instant in prayer; &l13&rDistributing
-  '15': 'to the necessity of saints; given to hospitality. &l14&rBless them which
-    persecute you: bless, and curse not. &l15&rRejoice with them that do rejoice,
-    and weep with them that weep. &l16&rBe of the same mind one toward another. Mind
-    not high things, but'
-  '16': condescend to men of low estate. Be not wise in your own conceits. &l17&rRecompense to no man evil for evil. Provide things honest in the sight of all men. &l18&rIf it be possible, as much as lieth in you, live peaceably with all men. &l19&rDearly beloved,
-  '17': 'avenge not yourselves, but rather give place unto wrath: for it is written,
-    Vengeance is mine; I will repay, saith the Lord. &l20&rTherefore if thine enemy
-    hunger, feed him; if he thirst, give him drink: for in so doing thou shalt heap
-    coals of fire on his'
-  '18': head. &l21&rBe not overcome of evil, but overcome evil with good.
-  '19': 'Chapter 13/nLet every soul be subject unto the higher powers. For there is
-    no power but of God: the powers that be are ordained of God. &l2&rWhosoever therefore
-    resisteth the power, resisteth the ordinance of God: and they that resist shall
-    receive to'
+  '9': 'Chapter 12
+
+    I beseech you therefore, brethren, by the mercies of God, that ye present your
+    bodies a living sacrifice, holy, acceptable unto God, which is your reasonable
+    service. &l2&rAnd be not conformed to this world: but be ye transformed by the
+    renewing'
+  '10': of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God. &l3&rFor I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly,
+  '11': 'according as God hath dealt to every man the measure of faith. &l4&rFor as
+    we have many members in one body, and all members have not the same office: &l5&rSo
+    we, being many, are one body in Christ, and every one members one of another.
+    &l6&rHaving then'
+  '12': 'gifts differing according to the grace that is given to us, whether prophecy,
+    let us prophesy according to the proportion of faith; &l7&rOr ministry, let us
+    wait on our ministering: or he that teacheth, on teaching; &l8&rOr he that exhorteth,
+    on'
+  '13': 'exhortation: he that giveth, let him do it with simplicity; he that ruleth,
+    with diligence; he that sheweth mercy, with cheerfulness. &l9&rLet love be without
+    dissimulation. Abhor that which is evil; cleave to that which is good. &l10&rBe
+    kindly'
+  '14': affectioned one to another with brotherly love; in honour preferring one another; &l11&rNot slothful in business; fervent in spirit; serving the Lord; &l12&rRejoicing in hope; patient in tribulation; continuing instant in prayer; &l13&rDistributing to the
+  '15': 'necessity of saints; given to hospitality. &l14&rBless them which persecute
+    you: bless, and curse not. &l15&rRejoice with them that do rejoice, and weep with
+    them that weep. &l16&rBe of the same mind one toward another. Mind not high things,
+    but condescend'
+  '16': to men of low estate. Be not wise in your own conceits. &l17&rRecompense to no man evil for evil. Provide things honest in the sight of all men. &l18&rIf it be possible, as much as lieth in you, live peaceably with all men. &l19&rDearly beloved, avenge not
+  '17': 'yourselves, but rather give place unto wrath: for it is written, Vengeance
+    is mine; I will repay, saith the Lord. &l20&rTherefore if thine enemy hunger,
+    feed him; if he thirst, give him drink: for in so doing thou shalt heap coals
+    of fire on his head.'
+  '18': '&l21&rBe not overcome of evil, but overcome evil with good.'
+  '19': 'Chapter 13
+
+    Let every soul be subject unto the higher powers. For there is no power but of
+    God: the powers that be are ordained of God. &l2&rWhosoever therefore resisteth
+    the power, resisteth the ordinance of God: and they that resist shall receive
+    to'
   '20': 'themselves damnation. &l3&rFor rulers are not a terror to good works, but
     to the evil. Wilt thou then not be afraid of the power? do that which is good,
     and thou shalt have praise of the same: &l4&rFor he is the minister of God to
@@ -474,10 +529,11 @@ Book4:
     therefore cast off the works of darkness, and let us put on the armour of light.
     &l13&rLet us walk'
   '26': honestly, as in the day; not in rioting and drunkenness, not in chambering and wantonness, not in strife and envying. &l14&rBut put ye on the Lord Jesus Christ, and make not provision for the flesh, to fulfil the lusts thereof.
-  '27': 'Chapter 14/nHim that is weak in the faith receive ye, but not to doubtful
-    disputations. &l2&rFor one believeth that he may eat all things: another, who
-    is weak, eateth herbs. &l3&rLet not him that eateth despise him that eateth not;
-    and let not him which'
+  '27': 'Chapter 14
+
+    Him that is weak in the faith receive ye, but not to doubtful disputations. &l2&rFor
+    one believeth that he may eat all things: another, who is weak, eateth herbs.
+    &l3&rLet not him that eateth despise him that eateth not; and let not him which'
   '28': 'eateth not judge him that eateth: for God hath received him. &l4&rWho art
     thou that judgest another man''s servant? to his own master he standeth or falleth.
     Yea, he shall be holden up: for God is able to make him stand. &l5&rOne man esteemeth
@@ -507,7 +563,12 @@ Book4:
   '36': make for peace, and things wherewith one may edify another. &l20&rFor meat destroy not the work of God. All things indeed are pure; but it is evil for that man who eateth with offence. &l21&rIt is good neither to eat flesh, nor to drink wine, nor any thing
   '37': whereby thy brother stumbleth, or is offended, or is made weak. &l22&rHast thou faith? have it to thyself before God. Happy is he that condemneth not himself in that thing which he alloweth. &l23&rAnd he that doubteth is damned if he eat, because he eateth
   '38': 'not of faith: for whatsoever is not of faith is sin.'
-  '39': Chapter 15/nWe then that are strong ought to bear the infirmities of the weak, and not to please ourselves. &l2&rLet every one of us please his neighbour for his good to edification. &l3&rFor even Christ pleased not himself; but, as it is written, The
+  '39': 'Chapter 15
+
+    We then that are strong ought to bear the infirmities of the weak, and not to
+    please ourselves. &l2&rLet every one of us please his neighbour for his good to
+    edification. &l3&rFor even Christ pleased not himself; but, as it is written,
+    The'
   '40': reproaches of them that reproached thee fell on me. &l4&rFor whatsoever things were written aforetime were written for our learning, that we through patience and comfort of the scriptures might have hope. &l5&rNow the God of patience and consolation grant
   '41': 'you to be likeminded one toward another according to Christ Jesus: &l6&rThat
     ye may with one mind and one mouth glorify God, even the Father of our Lord Jesus
@@ -541,15 +602,20 @@ Book5:
   start:
     c: 15
     v: 25
-  '1': Chapter 15 Cont./n&l25&rBut now I go unto Jerusalem to minister unto the saints. &l26&rFor it hath pleased them of Macedonia and Achaia to make a certain contribution for the poor saints which are at Jerusalem. &l27&rIt hath pleased them verily; and their
+  '1': 'Chapter 15 Cont.
+
+    &l25&rBut now I go unto Jerusalem to minister unto the saints. &l26&rFor it hath
+    pleased them of Macedonia and Achaia to make a certain contribution for the poor
+    saints which are at Jerusalem. &l27&rIt hath pleased them verily; and their'
   '2': debtors they are. For if the Gentiles have been made partakers of their spiritual things, their duty is also to minister unto them in carnal things. &l28&rWhen therefore I have performed this, and have sealed to them this fruit, I will come by you into
   '3': Spain. &l29&rAnd I am sure that, when I come unto you, I shall come in the fulness of the blessing of the gospel of Christ. &l30&rNow I beseech you, brethren, for the Lord Jesus Christ's sake, and for the love of the Spirit, that ye strive together with me
   '4': in your prayers to God for me; &l31&rThat I may be delivered from them that do not believe in Judaea; and that my service which I have for Jerusalem may be accepted of the saints; &l32&rThat I may come unto you with joy by the will of God, and may with you
   '5': be refreshed. &l33&rNow the God of peace be with you all. Amen.
-  '6': 'Chapter 16/nI commend unto you Phebe our sister, which is a servant of the
-    church which is at Cenchrea: &l2&rThat ye receive her in the Lord, as becometh
-    saints, and that ye assist her in whatsoever business she hath need of you: for
-    she hath been a'
+  '6': 'Chapter 16
+
+    I commend unto you Phebe our sister, which is a servant of the church which is
+    at Cenchrea: &l2&rThat ye receive her in the Lord, as becometh saints, and that
+    ye assist her in whatsoever business she hath need of you: for she hath been a'
   '7': 'succourer of many, and of myself also. &l3&rGreet Priscilla and Aquila my
     helpers in Christ Jesus: &l4&rWho have for my life laid down their own necks:
     unto whom not only I give thanks, but also all the churches of the Gentiles. &l5&rLikewise

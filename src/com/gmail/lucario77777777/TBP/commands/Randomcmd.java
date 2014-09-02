@@ -47,6 +47,8 @@ public class RandomCmd {
 		String pName = sender.getName();
 		if(bookSet == false){
 			bookName = Randomize.book(book, tran);
+			book = book.fromString(bookName);
+			echp = echp.fromString(bookName);
 		}
 		if(chpSet == false){
 			chp = Randomize.chapter(book, bookName);
@@ -54,7 +56,7 @@ public class RandomCmd {
 		if(vSet == false){
 			v = Randomize.verse(book, echp, chp);
 		}
-		if(!Checks.checkForYML(plugin, sender, tran, bookName)){
+		if(!Checks.checkForYML(plugin, sender, bookName, tran)){
 			return;
 		}
 		String ref = References.makeRef(book, chp, v);

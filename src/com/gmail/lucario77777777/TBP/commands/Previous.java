@@ -58,7 +58,7 @@ public class Previous {
 			chp = String.valueOf(chapter);
 		}
 		String v = String.valueOf(verse);
-		if(!Checks.checkForYML(plugin, sender, tran, bookName)){
+		if(!Checks.checkForYML(plugin, sender, bookName, tran)){
 			return;
 		}
 		String ref = References.makeRef(book, chp, v);

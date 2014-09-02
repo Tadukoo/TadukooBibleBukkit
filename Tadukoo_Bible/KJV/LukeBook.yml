@@ -2,7 +2,11 @@ Book1:
   start:
     c: 1
     v: 1
-  '1': Chapter 1/nForasmuch as many have taken in hand to set forth in order a declaration of those things which are most surely believed among us, &l2&rEven as they delivered them unto us, which from the beginning were eyewitnesses, and ministers of the word;
+  '1': 'Chapter 1
+
+    Forasmuch as many have taken in hand to set forth in order a declaration of those
+    things which are most surely believed among us, &l2&rEven as they delivered them
+    unto us, which from the beginning were eyewitnesses, and ministers of the word;'
   '2': '&l3&rIt seemed good to me also, having had perfect understanding of all things
     from the very first, to write unto thee in order, most excellent Theophilus, &l4&rThat
     thou mightest know the certainty of those things, wherein thou hast been instructed.'
@@ -84,7 +88,12 @@ Book1:
     his ways; &l77&rTo'
   '34': give knowledge of salvation unto his people by the remission of their sins, &l78&rThrough the tender mercy of our God; whereby the dayspring from on high hath visited us, &l79&rTo give light to them that sit in darkness and in the shadow of death, to guide
   '35': our feet into the way of peace. &l80&rAnd the child grew, and waxed strong in spirit, and was in the deserts till the day of his shewing unto Israel.
-  '36': Chapter 2/nAnd it came to pass in those days, that there went out a decree from Caesar Augustus that all the world should be taxed. &l2&r(And this taxing was first made when Cyrenius was governor of Syria.) &l3&rAnd all went to be taxed, every one into his
+  '36': 'Chapter 2
+
+    And it came to pass in those days, that there went out a decree from Caesar Augustus
+    that all the world should be taxed. &l2&r(And this taxing was first made when
+    Cyrenius was governor of Syria.) &l3&rAnd all went to be taxed, every one into
+    his'
   '37': own city. &l4&rAnd Joseph also went up from Galilee, out of the city of Nazareth, into Judaea, unto the city of David, which is called Bethlehem; (because he was of the house and lineage of David:) &l5&rTo be taxed with Mary his espoused wife, being great
   '38': with child. &l6&rAnd so it was, that, while they were there, the days were accomplished that she should be delivered. &l7&rAnd she brought forth her firstborn son, and wrapped him in swaddling clothes, and laid him in a manger; because there was no room
   '39': 'for them in the inn. &l8&rAnd there were in the same country shepherds abiding
@@ -121,7 +130,11 @@ Book2:
   start:
     c: 2
     v: 34
-  '1': Chapter 2 Cont./n&l34&rAnd Simeon blessed them, and said unto Mary his mother, Behold, this child is set for the fall and rising again of many in Israel; and for a sign which shall be spoken against; &l35&r(Yea, a sword shall pierce through thy own soul
+  '1': 'Chapter 2 Cont.
+
+    &l34&rAnd Simeon blessed them, and said unto Mary his mother, Behold, this child
+    is set for the fall and rising again of many in Israel; and for a sign which shall
+    be spoken against; &l35&r(Yea, a sword shall pierce through thy own soul'
   '2': 'also,) that the thoughts of many hearts may be revealed. &l36&rAnd there was
     one Anna, a prophetess, the daughter of Phanuel, of the tribe of Aser: she was
     of a great age, and had lived with an husband seven years from her virginity;
@@ -143,7 +156,12 @@ Book2:
     went down with them, and came to Nazareth, and was subject unto them: but his
     mother kept all these'
   '10': sayings in her heart. &l52&rAnd Jesus increased in wisdom and stature, and in favour with God and man.
-  '11': Chapter 3/nNow in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judaea, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of Ituraea and of the region of Trachonitis, and Lysanias the tetrarch of
+  '11': 'Chapter 3
+
+    Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being
+    governor of Judaea, and Herod being tetrarch of Galilee, and his brother Philip
+    tetrarch of Ituraea and of the region of Trachonitis, and Lysanias the tetrarch
+    of'
   '12': Abilene, &l2&rAnnas and Caiaphas being the high priests, the word of God came unto John the son of Zacharias in the wilderness. &l3&rAnd he came into all the country about Jordan, preaching the baptism of repentance for the remission of sins; &l4&rAs it is
   '13': written in the book of the words of Esaias the prophet, saying, The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight. &l5&rEvery valley shall be filled, and every mountain and hill shall be brought low; and the
   '14': crooked shall be made straight, and the rough ways shall be made smooth; &l6&rAnd all flesh shall see the salvation of God. &l7&rThen said he to the multitude that came forth to be baptized of him, O generation of vipers, who hath warned you to flee from
@@ -180,10 +198,11 @@ Book2:
   '30': the son of Saruch, which was the son of Ragau, which was the son of Phalec, which was the son of Heber, which was the son of Sala, &l36&rWhich was the son of Cainan, which was the son of Arphaxad, which was the son of Sem, which was the son of Noe, which
   '31': was the son of Lamech, &l37&rWhich was the son of Mathusala, which was the son of Enoch, which was the son of Jared, which was the son of Maleleel, which was the son of Cainan, &l38&rWhich was the son of Enos, which was the son of Seth, which was the son
   '32': of Adam, which was the son of God.
-  '33': 'Chapter 4/nAnd Jesus being full of the Holy Ghost returned from Jordan, and
-    was led by the Spirit into the wilderness, &l2&rBeing forty days tempted of the
-    devil. And in those days he did eat nothing: and when they were ended, he afterward
-    hungered.'
+  '33': 'Chapter 4
+
+    And Jesus being full of the Holy Ghost returned from Jordan, and was led by the
+    Spirit into the wilderness, &l2&rBeing forty days tempted of the devil. And in
+    those days he did eat nothing: and when they were ended, he afterward hungered.'
   '34': '&l3&rAnd the devil said unto him, If thou be the Son of God, command this
     stone that it be made bread. &l4&rAnd Jesus answered him, saying, It is written,
     That man shall not live by bread alone, but by every word of God. &l5&rAnd the
@@ -229,10 +248,11 @@ Book3:
   start:
     c: 4
     v: 38
-  '1': 'Chapter 4 Cont./n&l38&rAnd he arose out of the synagogue, and entered into
-    Simon''s house. And Simon''s wife''s mother was taken with a great fever; and
-    they besought him for her. &l39&rAnd he stood over her, and rebuked the fever;
-    and it left her: and'
+  '1': 'Chapter 4 Cont.
+
+    &l38&rAnd he arose out of the synagogue, and entered into Simon''s house. And
+    Simon''s wife''s mother was taken with a great fever; and they besought him for
+    her. &l39&rAnd he stood over her, and rebuked the fever; and it left her: and'
   '2': immediately she arose and ministered unto them. &l40&rNow when the sun was setting, all they that had any sick with divers diseases brought them unto him; and he laid his hands on every one of them, and healed them. &l41&rAnd devils also came out of many,
   '3': 'crying out, and saying, Thou art Christ the Son of God. And he rebuking them
     suffered them not to speak: for they knew that he was Christ. &l42&rAnd when it
@@ -241,10 +261,12 @@ Book3:
   '4': 'and stayed him, that he should not depart from them. &l43&rAnd he said unto
     them, I must preach the kingdom of God to other cities also: for therefore am
     I sent. &l44&rAnd he preached in the synagogues of Galilee.'
-  '5': 'Chapter 5/nAnd it came to pass, that, as the people pressed upon him to hear
-    the word of God, he stood by the lake of Gennesaret, &l2&rAnd saw two ships standing
-    by the lake: but the fishermen were gone out of them, and were washing their nets.
-    &l3&rAnd he'
+  '5': 'Chapter 5
+
+    And it came to pass, that, as the people pressed upon him to hear the word of
+    God, he stood by the lake of Gennesaret, &l2&rAnd saw two ships standing by the
+    lake: but the fishermen were gone out of them, and were washing their nets. &l3&rAnd
+    he'
   '6': entered into one of the ships, which was Simon's, and prayed him that he would thrust out a little from the land. And he sat down, and taught the people out of the ship. &l4&rNow when he had left speaking, he said unto Simon, Launch out into the deep, and
   '7': 'let down your nets for a draught. &l5&rAnd Simon answering said unto him,
     Master, we have toiled all the night, and have taken nothing: nevertheless at
@@ -293,7 +315,12 @@ Book3:
   '24': out of the new agreeth not with the old. &l37&rAnd no man putteth new wine into old bottles; else the new wine will burst the bottles, and be spilled, and the bottles shall perish. &l38&rBut new wine must be put into new bottles; and both are preserved.
   '25': '&l39&rNo man also having drunk old wine straightway desireth new: for he
     saith, The old is better.'
-  '26': Chapter 6/nAnd it came to pass on the second sabbath after the first, that he went through the corn fields; and his disciples plucked the ears of corn, and did eat, rubbing them in their hands. &l2&rAnd certain of the Pharisees said unto them, Why do ye
+  '26': 'Chapter 6
+
+    And it came to pass on the second sabbath after the first, that he went through
+    the corn fields; and his disciples plucked the ears of corn, and did eat, rubbing
+    them in their hands. &l2&rAnd certain of the Pharisees said unto them, Why do
+    ye'
   '27': that which is not lawful to do on the sabbath days? &l3&rAnd Jesus answering them said, Have ye not read so much as this, what David did, when himself was an hungred, and they which were with him; &l4&rHow he went into the house of God, and did take and
   '28': eat the shewbread, and gave also to them that were with him; which it is not lawful to eat but for the priests alone? &l5&rAnd he said unto them, That the Son of man is Lord also of the sabbath. &l6&rAnd it came to pass also on another sabbath, that he
   '29': 'entered into the synagogue and taught: and there was a man whose right hand
@@ -357,11 +384,20 @@ Book3:
     c: 6
     v: 48
 Book4:
-  '1': Chapter 6 Cont./n&l49&rBut he that heareth, and doeth not, is like a man that without a foundation built an house upon the earth; against which the stream did beat vehemently, and immediately it fell; and the ruin of that house was great.
+  '1': 'Chapter 6 Cont.
+
+    &l49&rBut he that heareth, and doeth not, is like a man that without a foundation
+    built an house upon the earth; against which the stream did beat vehemently, and
+    immediately it fell; and the ruin of that house was great.'
   start:
     c: 6
     v: 49
-  '2': Chapter 7/nNow when he had ended all his sayings in the audience of the people, he entered into Capernaum. &l2&rAnd a certain centurion's servant, who was dear unto him, was sick, and ready to die. &l3&rAnd when he heard of Jesus, he sent unto him the
+  '2': 'Chapter 7
+
+    Now when he had ended all his sayings in the audience of the people, he entered
+    into Capernaum. &l2&rAnd a certain centurion''s servant, who was dear unto him,
+    was sick, and ready to die. &l3&rAnd when he heard of Jesus, he sent unto him
+    the'
   '3': 'elders of the Jews, beseeching him that he would come and heal his servant.
     &l4&rAnd when they came to Jesus, they besought him instantly, saying, That he
     was worthy for whom he should do this: &l5&rFor he loveth our nation, and he hath
@@ -420,10 +456,11 @@ Book4:
     for she loved much: but to whom little is forgiven, the same loveth little. &l48&rAnd
     he said unto'
   '27': her, Thy sins are forgiven. &l49&rAnd they that sat at meat with him began to say within themselves, Who is this that forgiveth sins also? &l50&rAnd he said to the woman, Thy faith hath saved thee; go in peace.
-  '28': 'Chapter 8/nAnd it came to pass afterward, that he went throughout every city
-    and village, preaching and shewing the glad tidings of the kingdom of God: and
-    the twelve were with him, &l2&rAnd certain women, which had been healed of evil
-    spirits and'
+  '28': 'Chapter 8
+
+    And it came to pass afterward, that he went throughout every city and village,
+    preaching and shewing the glad tidings of the kingdom of God: and the twelve were
+    with him, &l2&rAnd certain women, which had been healed of evil spirits and'
   '29': infirmities, Mary called Magdalene, out of whom went seven devils, &l3&rAnd Joanna the wife of Chuza Herod's steward, and Susanna, and many others, which ministered unto him of their substance. &l4&rAnd when much people were gathered together, and were
   '30': 'come to him out of every city, he spake by a parable: &l5&rA sower went out
     to sow his seed: and as he sowed, some fell by the way side; and it was trodden
@@ -494,10 +531,11 @@ Book5:
   start:
     c: 8
     v: 41
-  '1': 'Chapter 8 Cont./n&l41&rAnd, behold, there came a man named Jairus, and he
-    was a ruler of the synagogue: and he fell down at Jesus'' feet, and besought him
-    that he would come into his house: &l42&rFor he had one only daughter, about twelve
-    years of age, and'
+  '1': 'Chapter 8 Cont.
+
+    &l41&rAnd, behold, there came a man named Jairus, and he was a ruler of the synagogue:
+    and he fell down at Jesus'' feet, and besought him that he would come into his
+    house: &l42&rFor he had one only daughter, about twelve years of age, and'
   '2': 'she lay a dying. But as he went the people thronged him. &l43&rAnd a woman
     having an issue of blood twelve years, which had spent all her living upon physicians,
     neither could be healed of any, &l44&rCame behind him, and touched the border
@@ -522,7 +560,11 @@ Book5:
   '8': 'arise. &l55&rAnd her spirit came again, and she arose straightway: and he
     commanded to give her meat. &l56&rAnd her parents were astonished: but he charged
     them that they should tell no man what was done.'
-  '9': Chapter 9/nThen he called his twelve disciples together, and gave them power and authority over all devils, and to cure diseases. &l2&rAnd he sent them to preach the kingdom of God, and to heal the sick. &l3&rAnd he said unto them, Take nothing for your
+  '9': 'Chapter 9
+
+    Then he called his twelve disciples together, and gave them power and authority
+    over all devils, and to cure diseases. &l2&rAnd he sent them to preach the kingdom
+    of God, and to heal the sick. &l3&rAnd he said unto them, Take nothing for your'
   '10': journey, neither staves, nor scrip, neither bread, neither money; neither have two coats apiece. &l4&rAnd whatsoever house ye enter into, there abide, and thence depart. &l5&rAnd whosoever will not receive you, when ye go out of that city, shake off the
   '11': 'very dust from your feet for a testimony against them. &l6&rAnd they departed,
     and went through the towns, preaching the gospel, and healing every where. &l7&rNow
@@ -607,7 +649,12 @@ Book5:
     bid them farewell, which are at home at my house. &l62&rAnd Jesus said unto him,
     No man, having put his hand to the plough, and looking back, is fit for the kingdom
     of God.'
-  '40': Chapter 10/nAfter these things the Lord appointed other seventy also, and sent them two and two before his face into every city and place, whither he himself would come. &l2&rTherefore said he unto them, The harvest truly is great, but the labourers are
+  '40': 'Chapter 10
+
+    After these things the Lord appointed other seventy also, and sent them two and
+    two before his face into every city and place, whither he himself would come.
+    &l2&rTherefore said he unto them, The harvest truly is great, but the labourers
+    are'
   '41': 'few: pray ye therefore the Lord of the harvest, that he would send forth
     labourers into his harvest. &l3&rGo your ways: behold, I send you forth as lambs
     among wolves. &l4&rCarry neither purse, nor scrip, nor shoes: and salute no man
@@ -644,10 +691,11 @@ Book6:
   start:
     c: 10
     v: 22
-  '1': 'Chapter 10 Cont./n&l22&rAll things are delivered to me of my Father: and no
-    man knoweth who the Son is, but the Father; and who the Father is, but the Son,
-    and he to whom the Son will reveal him. &l23&rAnd he turned him unto his disciples,
-    and said'
+  '1': 'Chapter 10 Cont.
+
+    &l22&rAll things are delivered to me of my Father: and no man knoweth who the
+    Son is, but the Father; and who the Father is, but the Son, and he to whom the
+    Son will reveal him. &l23&rAnd he turned him unto his disciples, and said'
   '2': 'privately, Blessed are the eyes which see the things that ye see: &l24&rFor
     I tell you, that many prophets and kings have desired to see those things which
     ye see, and have not seen them; and to hear those things which ye hear, and have
@@ -681,7 +729,12 @@ Book6:
   '11': 'that she help me. &l41&rAnd Jesus answered and said unto her, Martha, Martha,
     thou art careful and troubled about many things: &l42&rBut one thing is needful:
     and Mary hath chosen that good part, which shall not be taken away from her.'
-  '12': Chapter 11/nAnd it came to pass, that, as he was praying in a certain place, when he ceased, one of his disciples said unto him, Lord, teach us to pray, as John also taught his disciples. &l2&rAnd he said unto them, When ye pray, say, Our Father which art
+  '12': 'Chapter 11
+
+    And it came to pass, that, as he was praying in a certain place, when he ceased,
+    one of his disciples said unto him, Lord, teach us to pray, as John also taught
+    his disciples. &l2&rAnd he said unto them, When ye pray, say, Our Father which
+    art'
   '13': in heaven, Hallowed be thy name. Thy kingdom come. Thy will be done, as in heaven, so in earth. &l3&rGive us day by day our daily bread. &l4&rAnd forgive us our sins; for we also forgive every one that is indebted to us. And lead us not into temptation;
   '14': but deliver us from evil. &l5&rAnd he said unto them, Which of you shall have a friend, and shall go unto him at midnight, and say unto him, Friend, lend me three loaves; &l6&rFor a friend of mine in his journey is come to me, and I have nothing to set
   '15': 'before him? &l7&rAnd he from within shall answer and say, Trouble me not:
@@ -757,7 +810,11 @@ Book6:
     and to provoke him to speak of many things: &l54&rLaying wait for him, and seeking
     to catch'
   '40': something out of his mouth, that they might accuse him.
-  '41': Chapter 12/nIn the mean time, when there were gathered together an innumerable multitude of people, insomuch that they trode one upon another, he began to say unto his disciples first of all, Beware ye of the leaven of the Pharisees, which is hypocrisy.
+  '41': 'Chapter 12
+
+    In the mean time, when there were gathered together an innumerable multitude of
+    people, insomuch that they trode one upon another, he began to say unto his disciples
+    first of all, Beware ye of the leaven of the Pharisees, which is hypocrisy.'
   '42': '&l2&rFor there is nothing covered, that shall not be revealed; neither hid,
     that shall not be known. &l3&rTherefore whatsoever ye have spoken in darkness
     shall be heard in the light; and that which ye have spoken in the ear in closets
@@ -798,12 +855,14 @@ Book7:
   start:
     c: 12
     v: 20
-  '1': 'Chapter 12 Cont./n&l20&rBut God said unto him, Thou fool, this night thy soul
-    shall be required of thee: then whose shall those things be, which thou hast provided?
-    &l21&rSo is he that layeth up treasure for himself, and is not rich toward God.
-    &l22&rAnd'
-  '2': 'he said unto his disciples, Therefore I say unto you, Take no thought for
-    your life, what ye shall eat; neither for the body, what ye shall put on. &l23&rThe
+  '1': 'Chapter 12 Cont.
+
+    &l20&rBut God said unto him, Thou fool, this night thy soul shall be required
+    of thee: then whose shall those things be, which thou hast provided? &l21&rSo
+    is he that layeth up treasure for himself, and is not rich toward God. &l22&rAnd
+    he'
+  '2': 'said unto his disciples, Therefore I say unto you, Take no thought for your
+    life, what ye shall eat; neither for the body, what ye shall put on. &l23&rThe
     life is more than meat, and the body is more than raiment. &l24&rConsider the
     ravens: for they'
   '3': 'neither sow nor reap; which neither have storehouse nor barn; and God feedeth
@@ -853,7 +912,11 @@ Book7:
     cast thee into prison.'
   '21': '&l59&rI tell thee, thou shalt not depart thence, till thou hast paid the
     very last mite.'
-  '22': Chapter 13/nThere were present at that season some that told him of the Galilaeans, whose blood Pilate had mingled with their sacrifices. &l2&rAnd Jesus answering said unto them, Suppose ye that these Galilaeans were sinners above all the Galilaeans,
+  '22': 'Chapter 13
+
+    There were present at that season some that told him of the Galilaeans, whose
+    blood Pilate had mingled with their sacrifices. &l2&rAnd Jesus answering said
+    unto them, Suppose ye that these Galilaeans were sinners above all the Galilaeans,'
   '23': 'because they suffered such things? &l3&rI tell you, Nay: but, except ye repent,
     ye shall all likewise perish. &l4&rOr those eighteen, upon whom the tower in Siloam
     fell, and slew them, think ye that they were sinners above all men that dwelt
@@ -908,7 +971,12 @@ Book7:
     her brood under her wings, and ye would not! &l35&rBehold, your house is left
     unto you desolate:'
   '40': and verily I say unto you, Ye shall not see me, until the time come when ye shall say, Blessed is he that cometh in the name of the Lord.
-  '41': Chapter 14/nAnd it came to pass, as he went into the house of one of the chief Pharisees to eat bread on the sabbath day, that they watched him. &l2&rAnd, behold, there was a certain man before him which had the dropsy. &l3&rAnd Jesus answering spake unto
+  '41': 'Chapter 14
+
+    And it came to pass, as he went into the house of one of the chief Pharisees to
+    eat bread on the sabbath day, that they watched him. &l2&rAnd, behold, there was
+    a certain man before him which had the dropsy. &l3&rAnd Jesus answering spake
+    unto'
   '42': the lawyers and Pharisees, saying, Is it lawful to heal on the sabbath day? &l4&rAnd they held their peace. And he took him, and healed him, and let him go; &l5&rAnd answered them, saying, Which of you shall have an ass or an ox fallen into a pit, and will
   '43': not straightway pull him out on the sabbath day? &l6&rAnd they could not answer him again to these things. &l7&rAnd he put forth a parable to those which were bidden, when he marked how they chose out the chief rooms; saying unto them. &l8&rWhen thou art
   '44': bidden of any man to a wedding, sit not down in the highest room; lest a more honourable man than thou be bidden of him; &l9&rAnd he that bade thee and him come and say to thee, Give this man place; and thou begin with shame to take the lowest room.
@@ -939,7 +1007,11 @@ Book8:
   start:
     c: 14
     v: 21
-  '1': Chapter 14 Cont./n&l21&rSo that servant came, and shewed his lord these things. Then the master of the house being angry said to his servant, Go out quickly into the streets and lanes of the city, and bring in hither the poor, and the maimed, and the halt,
+  '1': 'Chapter 14 Cont.
+
+    &l21&rSo that servant came, and shewed his lord these things. Then the master
+    of the house being angry said to his servant, Go out quickly into the streets
+    and lanes of the city, and bring in hither the poor, and the maimed, and the halt,'
   '2': and the blind. &l22&rAnd the servant said, Lord, it is done as thou hast commanded, and yet there is room. &l23&rAnd the lord said unto the servant, Go out into the highways and hedges, and compel them to come in, that my house may be filled. &l24&rFor I
   '3': 'say unto you, That none of those men which were bidden shall taste of my supper.
     &l25&rAnd there went great multitudes with him: and he turned, and said unto them,
@@ -953,8 +1025,13 @@ Book8:
     is good: but if the salt have lost his savour, wherewith shall it be seasoned?
     &l35&rIt is'
   '8': neither fit for the land, nor yet for the dunghill; but men cast it out. He that hath ears to hear, let him hear.
-  '9': Chapter 15/nThen drew near unto him all the publicans and sinners for to hear him. &l2&rAnd the Pharisees and scribes murmured, saying, This man receiveth sinners, and eateth with them. &l3&rAnd he spake this parable unto them, saying, &l4&rWhat man of
-  '10': you, having an hundred sheep, if he lose one of them, doth not leave the ninety and nine in the wilderness, and go after that which is lost, until he find it? &l5&rAnd when he hath found it, he layeth it on his shoulders, rejoicing. &l6&rAnd when he cometh
+  '9': 'Chapter 15
+
+    Then drew near unto him all the publicans and sinners for to hear him. &l2&rAnd
+    the Pharisees and scribes murmured, saying, This man receiveth sinners, and eateth
+    with them. &l3&rAnd he spake this parable unto them, saying, &l4&rWhat man of
+    you,'
+  '10': having an hundred sheep, if he lose one of them, doth not leave the ninety and nine in the wilderness, and go after that which is lost, until he find it? &l5&rAnd when he hath found it, he layeth it on his shoulders, rejoicing. &l6&rAnd when he cometh
   '11': home, he calleth together his friends and neighbours, saying unto them, Rejoice with me; for I have found my sheep which was lost. &l7&rI say unto you, that likewise joy shall be in heaven over one sinner that repenteth, more than over ninety and nine just
   '12': persons, which need no repentance. &l8&rEither what woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the house, and seek diligently till she find it? &l9&rAnd when she hath found it, she calleth her friends and
   '13': 'her neighbours together, saying, Rejoice with me; for I have found the piece
@@ -996,7 +1073,11 @@ Book8:
     I have is thine. &l32&rIt was meet that we should make merry, and be glad: for
     this thy brother was'
   '24': dead, and is alive again; and was lost, and is found.
-  '25': Chapter 16/nAnd he said also unto his disciples, There was a certain rich man, which had a steward; and the same was accused unto him that he had wasted his goods. &l2&rAnd he called him, and said unto him, How is it that I hear this of thee? give an
+  '25': 'Chapter 16
+
+    And he said also unto his disciples, There was a certain rich man, which had a
+    steward; and the same was accused unto him that he had wasted his goods. &l2&rAnd
+    he called him, and said unto him, How is it that I hear this of thee? give an'
   '26': 'account of thy stewardship; for thou mayest be no longer steward. &l3&rThen
     the steward said within himself, What shall I do? for my lord taketh away from
     me the stewardship: I cannot dig; to beg I am ashamed. &l4&rI am resolved what
@@ -1049,10 +1130,11 @@ Book8:
     Abraham: but if one went unto them from the dead, they will repent. &l31&rAnd
     he said unto him, If they'
   '41': hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead.
-  '42': 'Chapter 17/nThen said he unto the disciples, It is impossible but that offences
-    will come: but woe unto him, through whom they come! &l2&rIt were better for him
-    that a millstone were hanged about his neck, and he cast into the sea, than that
-    he should'
+  '42': 'Chapter 17
+
+    Then said he unto the disciples, It is impossible but that offences will come:
+    but woe unto him, through whom they come! &l2&rIt were better for him that a millstone
+    were hanged about his neck, and he cast into the sea, than that he should'
   '43': 'offend one of these little ones. &l3&rTake heed to yourselves: If thy brother
     trespass against thee, rebuke him; and if he repent, forgive him. &l4&rAnd if
     he trespass against thee seven times in a day, and seven times in a day turn again
@@ -1082,10 +1164,11 @@ Book9:
   start:
     c: 17
     v: 20
-  '1': 'Chapter 17 Cont./n&l20&rAnd when he was demanded of the Pharisees, when the
-    kingdom of God should come, he answered them and said, The kingdom of God cometh
-    not with observation: &l21&rNeither shall they say, Lo here! or, lo there! for,
-    behold, the kingdom'
+  '1': 'Chapter 17 Cont.
+
+    &l20&rAnd when he was demanded of the Pharisees, when the kingdom of God should
+    come, he answered them and said, The kingdom of God cometh not with observation:
+    &l21&rNeither shall they say, Lo here! or, lo there! for, behold, the kingdom'
   '2': 'of God is within you. &l22&rAnd he said unto the disciples, The days will
     come, when ye shall desire to see one of the days of the Son of man, and ye shall
     not see it. &l23&rAnd they shall say to you, See here; or, see there: go not after
@@ -1103,10 +1186,12 @@ Book9:
   '7': back. &l32&rRemember Lot's wife. &l33&rWhosoever shall seek to save his life shall lose it; and whosoever shall lose his life shall preserve it. &l34&rI tell you, in that night there shall be two men in one bed; the one shall be taken, and the other shall
   '8': be left. &l35&rTwo women shall be grinding together; the one shall be taken, and the other left. &l36&rTwo men shall be in the field; the one shall be taken, and the other left. &l37&rAnd they answered and said unto him, Where, Lord? And he said unto them,
   '9': Wheresoever the body is, thither will the eagles be gathered together.
-  '10': 'Chapter 18/nAnd he spake a parable unto them to this end, that men ought
-    always to pray, and not to faint; &l2&rSaying, There was in a city a judge, which
-    feared not God, neither regarded man: &l3&rAnd there was a widow in that city;
-    and she came unto him,'
+  '10': 'Chapter 18
+
+    And he spake a parable unto them to this end, that men ought always to pray, and
+    not to faint; &l2&rSaying, There was in a city a judge, which feared not God,
+    neither regarded man: &l3&rAnd there was a widow in that city; and she came unto
+    him,'
   '11': 'saying, Avenge me of mine adversary. &l4&rAnd he would not for a while: but
     afterward he said within himself, Though I fear not God, nor regard man; &l5&rYet
     because this widow troubleth me, I will avenge her, lest by her continual coming
@@ -1169,7 +1254,11 @@ Book9:
   '28': 'may receive my sight. &l42&rAnd Jesus said unto him, Receive thy sight: thy
     faith hath saved thee. &l43&rAnd immediately he received his sight, and followed
     him, glorifying God: and all the people, when they saw it, gave praise unto God.'
-  '29': Chapter 19/nAnd Jesus entered and passed through Jericho. &l2&rAnd, behold, there was a man named Zacchaeus, which was the chief among the publicans, and he was rich. &l3&rAnd he sought to see Jesus who he was; and could not for the press, because he was
+  '29': 'Chapter 19
+
+    And Jesus entered and passed through Jericho. &l2&rAnd, behold, there was a man
+    named Zacchaeus, which was the chief among the publicans, and he was rich. &l3&rAnd
+    he sought to see Jesus who he was; and could not for the press, because he was'
   '30': 'little of stature. &l4&rAnd he ran before, and climbed up into a sycomore
     tree to see him: for he was to pass that way. &l5&rAnd when Jesus came to the
     place, he looked up, and saw him, and said unto him, Zacchaeus, make haste, and
@@ -1227,12 +1316,18 @@ Book9:
     c: 19
     v: 47
 Book10:
-  '1': 'Chapter 19 Cont./n&l48&rAnd could not find what they might do: for all the
-    people were very attentive to hear him.'
+  '1': 'Chapter 19 Cont.
+
+    &l48&rAnd could not find what they might do: for all the people were very attentive
+    to hear him.'
   start:
     c: 19
     v: 48
-  '2': Chapter 20/nAnd it came to pass, that on one of those days, as he taught the people in the temple, and preached the gospel, the chief priests and the scribes came upon him with the elders, &l2&rAnd spake unto him, saying, Tell us, by what authority doest
+  '2': 'Chapter 20
+
+    And it came to pass, that on one of those days, as he taught the people in the
+    temple, and preached the gospel, the chief priests and the scribes came upon him
+    with the elders, &l2&rAnd spake unto him, saying, Tell us, by what authority doest'
   '3': 'thou these things? or who is he that gave thee this authority? &l3&rAnd he
     answered and said unto them, I will also ask you one thing; and answer me: &l4&rThe
     baptism of John, was it from heaven, or of men? &l5&rAnd they reasoned with themselves,
@@ -1296,7 +1391,12 @@ Book10:
     rooms at feasts; &l47&rWhich devour widows'' houses, and for a shew make long
     prayers: the same shall'
   '23': receive greater damnation.
-  '24': Chapter 21/nAnd he looked up, and saw the rich men casting their gifts into the treasury. &l2&rAnd he saw also a certain poor widow casting in thither two mites. &l3&rAnd he said, Of a truth I say unto you, that this poor widow hath cast in more than they
+  '24': 'Chapter 21
+
+    And he looked up, and saw the rich men casting their gifts into the treasury.
+    &l2&rAnd he saw also a certain poor widow casting in thither two mites. &l3&rAnd
+    he said, Of a truth I say unto you, that this poor widow hath cast in more than
+    they'
   '25': 'all: &l4&rFor all these have of their abundance cast in unto the offerings
     of God: but she of her penury hath cast in all the living that she had. &l5&rAnd
     as some spake of the temple, how it was adorned with goodly stones and gifts,
@@ -1338,7 +1438,11 @@ Book10:
     of man. &l37&rAnd in the day time he was teaching in the temple; and at night
     he went out, and abode'
   '41': in the mount that is called the mount of Olives. &l38&rAnd all the people came early in the morning to him in the temple, for to hear him.
-  '42': Chapter 22/nNow the feast of unleavened bread drew nigh, which is called the Passover. &l2&rAnd the chief priests and scribes sought how they might kill him; for they feared the people. &l3&rThen entered Satan into Judas surnamed Iscariot, being of the
+  '42': 'Chapter 22
+
+    Now the feast of unleavened bread drew nigh, which is called the Passover. &l2&rAnd
+    the chief priests and scribes sought how they might kill him; for they feared
+    the people. &l3&rThen entered Satan into Judas surnamed Iscariot, being of the'
   '43': number of the twelve. &l4&rAnd he went his way, and communed with the chief priests and captains, how he might betray him unto them. &l5&rAnd they were glad, and covenanted to give him money. &l6&rAnd he promised, and sought opportunity to betray him unto
   '44': them in the absence of the multitude. &l7&rThen came the day of unleavened bread, when the passover must be killed. &l8&rAnd he sent Peter and John, saying, Go and prepare us the passover, that we may eat. &l9&rAnd they said unto him, Where wilt thou that
   '45': we prepare? &l10&rAnd he said unto them, Behold, when ye are entered into the city, there shall a man meet you, bearing a pitcher of water; follow him into the house where he entereth in. &l11&rAnd ye shall say unto the goodman of the house, The Master
@@ -1368,7 +1472,11 @@ Book11:
   start:
     c: 22
     v: 23
-  '1': Chapter 22 Cont./n&l23&rAnd they began to enquire among themselves, which of them it was that should do this thing. &l24&rAnd there was also a strife among them, which of them should be accounted the greatest. &l25&rAnd he said unto them, The kings of the
+  '1': 'Chapter 22 Cont.
+
+    &l23&rAnd they began to enquire among themselves, which of them it was that should
+    do this thing. &l24&rAnd there was also a strife among them, which of them should
+    be accounted the greatest. &l25&rAnd he said unto them, The kings of the'
   '2': 'Gentiles exercise lordship over them; and they that exercise authority upon
     them are called benefactors. &l26&rBut ye shall not be so: but he that is greatest
     among you, let him be as the younger; and he that is chief, as he that doth serve.
@@ -1420,7 +1528,11 @@ Book11:
     if I also ask you,'
   '21': ye will not answer me, nor let me go. &l69&rHereafter shall the Son of man sit on the right hand of the power of God. &l70&rThen said they all, Art thou then the Son of God? And he said unto them, Ye say that I am. &l71&rAnd they said, What need we any
   '22': further witness? for we ourselves have heard of his own mouth.
-  '23': Chapter 23/nAnd the whole multitude of them arose, and led him unto Pilate. &l2&rAnd they began to accuse him, saying, We found this fellow perverting the nation, and forbidding to give tribute to Caesar, saying that he himself is Christ a King. &l3&rAnd
+  '23': 'Chapter 23
+
+    And the whole multitude of them arose, and led him unto Pilate. &l2&rAnd they
+    began to accuse him, saying, We found this fellow perverting the nation, and forbidding
+    to give tribute to Caesar, saying that he himself is Christ a King. &l3&rAnd'
   '24': Pilate asked him, saying, Art thou the King of the Jews? And he answered him and said, Thou sayest it. &l4&rThen said Pilate to the chief priests and to the people, I find no fault in this man. &l5&rAnd they were the more fierce, saying, He stirreth up the
   '25': people, teaching throughout all Jewry, beginning from Galilee to this place. &l6&rWhen Pilate heard of Galilee, he asked whether the man were a Galilaean. &l7&rAnd as soon as he knew that he belonged unto Herod's jurisdiction, he sent him to Herod, who
   '26': 'himself also was at Jerusalem at that time. &l8&rAnd when Herod saw Jesus,
@@ -1475,7 +1587,12 @@ Book11:
     begged the'
   '46': body of Jesus. &l53&rAnd he took it down, and wrapped it in linen, and laid it in a sepulchre that was hewn in stone, wherein never man before was laid. &l54&rAnd that day was the preparation, and the sabbath drew on. &l55&rAnd the women also, which came
   '47': with him from Galilee, followed after, and beheld the sepulchre, and how his body was laid. &l56&rAnd they returned, and prepared spices and ointments; and rested the sabbath day according to the commandment.
-  '48': Chapter 24/nNow upon the first day of the week, very early in the morning, they came unto the sepulchre, bringing the spices which they had prepared, and certain others with them. &l2&rAnd they found the stone rolled away from the sepulchre. &l3&rAnd they
+  '48': 'Chapter 24
+
+    Now upon the first day of the week, very early in the morning, they came unto
+    the sepulchre, bringing the spices which they had prepared, and certain others
+    with them. &l2&rAnd they found the stone rolled away from the sepulchre. &l3&rAnd
+    they'
   '49': 'entered in, and found not the body of the Lord Jesus. &l4&rAnd it came to
     pass, as they were much perplexed thereabout, behold, two men stood by them in
     shining garments: &l5&rAnd as they were afraid, and bowed down their faces to
@@ -1489,7 +1606,11 @@ Book12:
   start:
     c: 24
     v: 7
-  '1': Chapter 24 Cont./n&l7&rSaying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again. &l8&rAnd they remembered his words, &l9&rAnd returned from the sepulchre, and told all these things unto the
+  '1': 'Chapter 24 Cont.
+
+    &l7&rSaying, The Son of man must be delivered into the hands of sinful men, and
+    be crucified, and the third day rise again. &l8&rAnd they remembered his words,
+    &l9&rAnd returned from the sepulchre, and told all these things unto the'
   '2': eleven, and to all the rest. &l10&rIt was Mary Magdalene and Joanna, and Mary the mother of James, and other women that were with them, which told these things unto the apostles. &l11&rAnd their words seemed to them as idle tales, and they believed them
   '3': not. &l12&rThen arose Peter, and ran unto the sepulchre; and stooping down, he beheld the linen clothes laid by themselves, and departed, wondering in himself at that which was come to pass. &l13&rAnd, behold, two of them went that same day to a village
   '4': called Emmaus, which was from Jerusalem about threescore furlongs. &l14&rAnd they talked together of all these things which had happened. &l15&rAnd it came to pass, that, while they communed together and reasoned, Jesus himself drew near, and went with

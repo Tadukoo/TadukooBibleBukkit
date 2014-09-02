@@ -2,7 +2,11 @@ Book1:
   start:
     c: 1
     v: 1
-  '1': Chapter 1/nBlessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful. &l2&rBut his delight is in the law of the Lord; and in his law doth he meditate day and night.
+  '1': 'Chapter 1
+
+    Blessed is the man that walketh not in the counsel of the ungodly, nor standeth
+    in the way of sinners, nor sitteth in the seat of the scornful. &l2&rBut his delight
+    is in the law of the Lord; and in his law doth he meditate day and night.'
   '2': '&l3&rAnd he shall be like a tree planted by the rivers of water, that bringeth
     forth his fruit in his season; his leaf also shall not wither; and whatsoever
     he doeth shall prosper. &l4&rThe ungodly are not so: but are like the chaff which
@@ -10,7 +14,11 @@ Book1:
   '3': 'away. &l5&rTherefore the ungodly shall not stand in the judgment, nor sinners
     in the congregation of the righteous. &l6&rFor the Lord knoweth the way of the
     righteous: but the way of the ungodly shall perish.'
-  '4': Chapter 2/nWhy do the heathen rage, and the people imagine a vain thing? &l2&rThe kings of the earth set themselves, and the rulers take counsel together, against the Lord, and against his anointed, saying, &l3&rLet us break their bands asunder, and cast
+  '4': 'Chapter 2
+
+    Why do the heathen rage, and the people imagine a vain thing? &l2&rThe kings of
+    the earth set themselves, and the rulers take counsel together, against the Lord,
+    and against his anointed, saying, &l3&rLet us break their bands asunder, and cast'
   '5': 'away their cords from us. &l4&rHe that sitteth in the heavens shall laugh:
     the Lord shall have them in derision. &l5&rThen shall he speak unto them in his
     wrath, and vex them in his sore displeasure. &l6&rYet have I set my king upon
@@ -24,15 +32,22 @@ Book1:
     earth. &l11&rServe the Lord with fear, and rejoice with trembling. &l12&rKiss
     the Son, lest he be'
   '8': angry, and ye perish from the way, when his wrath is kindled but a little. Blessed are all they that put their trust in him.
-  '9': Chapter 3/nLord, how are they increased that trouble me! many are they that rise up against me. &l2&rMany there be which say of my soul, There is no help for him in God. Selah. &l3&rBut thou, O Lord, art a shield for me; my glory, and the lifter up of mine
+  '9': 'Chapter 3
+
+    Lord, how are they increased that trouble me! many are they that rise up against
+    me. &l2&rMany there be which say of my soul, There is no help for him in God.
+    Selah. &l3&rBut thou, O Lord, art a shield for me; my glory, and the lifter up
+    of mine'
   '10': head. &l4&rI cried unto the Lord with my voice, and he heard me out of his holy hill. Selah. &l5&rI laid me down and slept; I awaked; for the Lord sustained me. &l6&rI will not be afraid of ten thousands of people, that have set themselves against me round
   '11': 'about. &l7&rArise, O Lord; save me, O my God: for thou hast smitten all mine
     enemies upon the cheek bone; thou hast broken the teeth of the ungodly. &l8&rSalvation
     belongeth unto the Lord: thy blessing is upon thy people. Selah.'
-  '12': 'Chapter 4/nHear me when I call, O God of my righteousness: thou hast enlarged
-    me when I was in distress; have mercy upon me, and hear my prayer. &l2&rO ye sons
-    of men, how long will ye turn my glory into shame? how long will ye love vanity,
-    and seek after'
+  '12': 'Chapter 4
+
+    Hear me when I call, O God of my righteousness: thou hast enlarged me when I was
+    in distress; have mercy upon me, and hear my prayer. &l2&rO ye sons of men, how
+    long will ye turn my glory into shame? how long will ye love vanity, and seek
+    after'
   '13': 'leasing? Selah. &l3&rBut know that the Lord hath set apart him that is godly
     for himself: the Lord will hear when I call unto him. &l4&rStand in awe, and sin
     not: commune with your own heart upon your bed, and be still. Selah. &l5&rOffer
@@ -40,10 +55,12 @@ Book1:
   '14': righteousness, and put your trust in the Lord. &l6&rThere be many that say, Who will shew us any good? Lord, lift thou up the light of thy countenance upon us. &l7&rThou hast put gladness in my heart, more than in the time that their corn and their wine
   '15': 'increased. &l8&rI will both lay me down in peace, and sleep: for thou, Lord,
     only makest me dwell in safety.'
-  '16': 'Chapter 5/nGive ear to my words, O Lord, consider my meditation. &l2&rHearken
-    unto the voice of my cry, my King, and my God: for unto thee will I pray. &l3&rMy
-    voice shalt thou hear in the morning, O Lord; in the morning will I direct my
-    prayer unto thee,'
+  '16': 'Chapter 5
+
+    Give ear to my words, O Lord, consider my meditation. &l2&rHearken unto the voice
+    of my cry, my King, and my God: for unto thee will I pray. &l3&rMy voice shalt
+    thou hear in the morning, O Lord; in the morning will I direct my prayer unto
+    thee,'
   '17': 'and will look up. &l4&rFor thou art not a God that hath pleasure in wickedness:
     neither shall evil dwell with thee. &l5&rThe foolish shall not stand in thy sight:
     thou hatest all workers of iniquity. &l6&rThou shalt destroy them that speak leasing:
@@ -58,10 +75,12 @@ Book1:
     them ever shout for joy, because thou defendest them: let them also that love
     thy name be joyful'
   '21': in thee. &l12&rFor thou, Lord, wilt bless the righteous; with favour wilt thou compass him as with a shield.
-  '22': 'Chapter 6/nO Lord, rebuke me not in thine anger, neither chasten me in thy
-    hot displeasure. &l2&rHave mercy upon me, O Lord; for I am weak: O Lord, heal
-    me; for my bones are vexed. &l3&rMy soul is also sore vexed: but thou, O Lord,
-    how long? &l4&rReturn, O'
+  '22': 'Chapter 6
+
+    O Lord, rebuke me not in thine anger, neither chasten me in thy hot displeasure.
+    &l2&rHave mercy upon me, O Lord; for I am weak: O Lord, heal me; for my bones
+    are vexed. &l3&rMy soul is also sore vexed: but thou, O Lord, how long? &l4&rReturn,
+    O'
   '23': 'Lord, deliver my soul: oh save me for thy mercies'' sake. &l5&rFor in death
     there is no remembrance of thee: in the grave who shall give thee thanks? &l6&rI
     am weary with my groaning; all the night make I my bed to swim; I water my couch
@@ -72,10 +91,12 @@ Book1:
     will receive my'
   '25': 'prayer. &l10&rLet all mine enemies be ashamed and sore vexed: let them return
     and be ashamed suddenly.'
-  '26': 'Chapter 7/nO Lord my God, in thee do I put my trust: save me from all them
-    that persecute me, and deliver me: &l2&rLest he tear my soul like a lion, rending
-    it in pieces, while there is none to deliver. &l3&rO Lord my God, If I have done
-    this; if there be'
+  '26': 'Chapter 7
+
+    O Lord my God, in thee do I put my trust: save me from all them that persecute
+    me, and deliver me: &l2&rLest he tear my soul like a lion, rending it in pieces,
+    while there is none to deliver. &l3&rO Lord my God, If I have done this; if there
+    be'
   '27': iniquity in my hands; &l4&rIf I have rewarded evil unto him that was at peace with me; (yea, I have delivered him that without cause is mine enemy:) &l5&rLet the enemy persecute my soul, and take it; yea, let him tread down my life upon the earth, and lay
   '28': 'mine honour in the dust. Selah. &l6&rArise, O Lord, in thine anger, lift
     up thyself because of the rage of mine enemies: and awake for me to the judgment
@@ -92,17 +113,23 @@ Book1:
     own pate. &l17&rI will praise the Lord according to his righteousness: and will
     sing praise to the'
   '33': name of the Lord most high.
-  '34': Chapter 8/nO Lord, our Lord, how excellent is thy name in all the earth! who hast set thy glory above the heavens. &l2&rOut of the mouth of babes and sucklings hast thou ordained strength because of thine enemies, that thou mightest still the enemy and the
+  '34': 'Chapter 8
+
+    O Lord, our Lord, how excellent is thy name in all the earth! who hast set thy
+    glory above the heavens. &l2&rOut of the mouth of babes and sucklings hast thou
+    ordained strength because of thine enemies, that thou mightest still the enemy
+    and the'
   '35': avenger. &l3&rWhen I consider thy heavens, the work of thy fingers, the moon and the stars, which thou hast ordained; &l4&rWhat is man, that thou art mindful of him? and the son of man, that thou visitest him? &l5&rFor thou hast made him a little lower
   '36': 'than the angels, and hast crowned him with glory and honour. &l6&rThou madest
     him to have dominion over the works of thy hands; thou hast put all things under
     his feet: &l7&rAll sheep and oxen, yea, and the beasts of the field; &l8&rThe
     fowl of the air,'
   '37': and the fish of the sea, and whatsoever passeth through the paths of the seas. &l9&rO Lord our Lord, how excellent is thy name in all the earth!
-  '38': 'Chapter 9/nI will praise thee, O Lord, with my whole heart; I will shew forth
-    all thy marvellous works. &l2&rI will be glad and rejoice in thee: I will sing
-    praise to thy name, O thou most High. &l3&rWhen mine enemies are turned back,
-    they shall fall and'
+  '38': 'Chapter 9
+
+    I will praise thee, O Lord, with my whole heart; I will shew forth all thy marvellous
+    works. &l2&rI will be glad and rejoice in thee: I will sing praise to thy name,
+    O thou most High. &l3&rWhen mine enemies are turned back, they shall fall and'
   '39': perish at thy presence. &l4&rFor thou hast maintained my right and my cause; thou satest in the throne judging right. &l5&rThou hast rebuked the heathen, thou hast destroyed the wicked, thou hast put out their name for ever and ever. &l6&rO thou enemy,
   '40': 'destructions are come to a perpetual end: and thou hast destroyed cities;
     their memorial is perished with them. &l7&rBut the Lord shall endure for ever:
@@ -129,10 +156,12 @@ Book1:
     let the heathen be judged in thy sight. &l20&rPut them in fear, O Lord: that the
     nations may'
   '46': know themselves to be but men. Selah.
-  '47': 'Chapter 10/nWhy standest thou afar off, O Lord? why hidest thou thyself in
-    times of trouble? &l2&rThe wicked in his pride doth persecute the poor: let them
-    be taken in the devices that they have imagined. &l3&rFor the wicked boasteth
-    of his heart''s desire,'
+  '47': 'Chapter 10
+
+    Why standest thou afar off, O Lord? why hidest thou thyself in times of trouble?
+    &l2&rThe wicked in his pride doth persecute the poor: let them be taken in the
+    devices that they have imagined. &l3&rFor the wicked boasteth of his heart''s
+    desire,'
   '48': 'and blesseth the covetous, whom the Lord abhorreth. &l4&rThe wicked, through
     the pride of his countenance, will not seek after God: God is not in all his thoughts.
     &l5&rHis ways are always grievous; thy judgments are far above out of his sight:
@@ -152,25 +181,26 @@ Book2:
   start:
     c: 10
     v: 9
-  '1': 'Chapter 10 Cont./n &l10&rHe croucheth, and humbleth himself, that the poor
-    may fall by his strong ones. &l11&rHe hath said in his heart, God hath forgotten:
-    he hideth his face; he will never see it. &l12&rArise, O Lord; O God, lift up
-    thine hand: forget'
-  '2': 'not the humble. &l13&rWherefore doth the wicked contemn God? he hath said
-    in his heart, Thou wilt not require it. &l14&rThou hast seen it; for thou beholdest
-    mischief and spite, to requite it with thy hand: the poor committeth himself unto
-    thee; thou art'
-  '3': 'the helper of the fatherless. &l15&rBreak thou the arm of the wicked and the
-    evil man: seek out his wickedness till thou find none. &l16&rThe Lord is King
-    for ever and ever: the heathen are perished out of his land. &l17&rLord, thou
-    hast heard the desire'
-  '4': 'of the humble: thou wilt prepare their heart, thou wilt cause thine ear to
-    hear: &l18&rTo judge the fatherless and the oppressed, that the man of the earth
-    may no more oppress.'
-  '5': 'Chapter 11/nIn the Lord put I my trust: how say ye to my soul, Flee as a bird
-    to your mountain? &l2&rFor, lo, the wicked bend their bow, they make ready their
-    arrow upon the string, that they may privily shoot at the upright in heart. &l3&rIf
-    the'
+  '1': "Chapter 10 Cont.\n &l10&rHe croucheth, and humbleth himself, that the poor\
+    \ may fall by his strong ones. &l11&rHe hath said in his heart, God hath forgotten:\
+    \ he hideth his face; he will never see it. &l12&rArise, O Lord; O God, lift up\
+    \ thine hand: forget not"
+  '2': 'the humble. &l13&rWherefore doth the wicked contemn God? he hath said in his
+    heart, Thou wilt not require it. &l14&rThou hast seen it; for thou beholdest mischief
+    and spite, to requite it with thy hand: the poor committeth himself unto thee;
+    thou art the'
+  '3': 'helper of the fatherless. &l15&rBreak thou the arm of the wicked and the evil
+    man: seek out his wickedness till thou find none. &l16&rThe Lord is King for ever
+    and ever: the heathen are perished out of his land. &l17&rLord, thou hast heard
+    the desire of'
+  '4': 'the humble: thou wilt prepare their heart, thou wilt cause thine ear to hear:
+    &l18&rTo judge the fatherless and the oppressed, that the man of the earth may
+    no more oppress.'
+  '5': 'Chapter 11
+
+    In the Lord put I my trust: how say ye to my soul, Flee as a bird to your mountain?
+    &l2&rFor, lo, the wicked bend their bow, they make ready their arrow upon the
+    string, that they may privily shoot at the upright in heart. &l3&rIf the'
   '6': 'foundations be destroyed, what can the righteous do? &l4&rThe Lord is in his
     holy temple, the Lord''s throne is in heaven: his eyes behold, his eyelids try,
     the children of men. &l5&rThe Lord trieth the righteous: but the wicked and him
@@ -178,10 +208,11 @@ Book2:
   '7': 'his soul hateth. &l6&rUpon the wicked he shall rain snares, fire and brimstone,
     and an horrible tempest: this shall be the portion of their cup. &l7&rFor the
     righteous Lord loveth righteousness; his countenance doth behold the upright.'
-  '8': 'Chapter 12/nHelp, Lord; for the godly man ceaseth; for the faithful fail from
-    among the children of men. &l2&rThey speak vanity every one with his neighbour:
-    with flattering lips and with a double heart do they speak. &l3&rThe Lord shall
-    cut off all'
+  '8': 'Chapter 12
+
+    Help, Lord; for the godly man ceaseth; for the faithful fail from among the children
+    of men. &l2&rThey speak vanity every one with his neighbour: with flattering lips
+    and with a double heart do they speak. &l3&rThe Lord shall cut off all'
   '9': 'flattering lips, and the tongue that speaketh proud things: &l4&rWho have
     said, With our tongue will we prevail; our lips are our own: who is lord over
     us? &l5&rFor the oppression of the poor, for the sighing of the needy, now will
@@ -191,30 +222,45 @@ Book2:
     times. &l7&rThou shalt keep them, O Lord, thou shalt preserve them from this generation
     for ever.'
   '11': '&l8&rThe wicked walk on every side, when the vilest men are exalted.'
-  '12': Chapter 13/nHow long wilt thou forget me, O Lord? for ever? how long wilt thou hide thy face from me? &l2&rHow long shall I take counsel in my soul, having sorrow in my heart daily? how long shall mine enemy be exalted over me? &l3&rConsider and hear me, O
+  '12': 'Chapter 13
+
+    How long wilt thou forget me, O Lord? for ever? how long wilt thou hide thy face
+    from me? &l2&rHow long shall I take counsel in my soul, having sorrow in my heart
+    daily? how long shall mine enemy be exalted over me? &l3&rConsider and hear me,
+    O'
   '13': 'Lord my God: lighten mine eyes, lest I sleep the sleep of death; &l4&rLest
     mine enemy say, I have prevailed against him; and those that trouble me rejoice
     when I am moved. &l5&rBut I have trusted in thy mercy; my heart shall rejoice
     in thy salvation.'
   '14': '&l6&rI will sing unto the Lord, because he hath dealt bountifully with me.'
-  '15': Chapter 14/nThe fool hath said in his heart, There is no God. They are corrupt, they have done abominable works, there is none that doeth good. &l2&rThe Lord looked down from heaven upon the children of men, to see if there were any that did understand,
-  '16': 'and seek God. &l3&rThey are all gone aside, they are all together become
-    filthy: there is none that doeth good, no, not one. &l4&rHave all the workers
-    of iniquity no knowledge? who eat up my people as they eat bread, and call not
-    upon the Lord. &l5&rThere'
-  '17': 'were they in great fear: for God is in the generation of the righteous. &l6&rYe
+  '15': 'Chapter 14
+
+    The fool hath said in his heart, There is no God. They are corrupt, they have
+    done abominable works, there is none that doeth good. &l2&rThe Lord looked down
+    from heaven upon the children of men, to see if there were any that did understand,
+    and'
+  '16': 'seek God. &l3&rThey are all gone aside, they are all together become filthy:
+    there is none that doeth good, no, not one. &l4&rHave all the workers of iniquity
+    no knowledge? who eat up my people as they eat bread, and call not upon the Lord.
+    &l5&rThere were'
+  '17': 'they in great fear: for God is in the generation of the righteous. &l6&rYe
     have shamed the counsel of the poor, because the Lord is his refuge. &l7&rOh that
     the salvation of Israel were come out of Zion! when the Lord bringeth back the
-    captivity of'
-  '18': his people, Jacob shall rejoice, and Israel shall be glad.
-  '19': Chapter 15/nLord, who shall abide in thy tabernacle? who shall dwell in thy holy hill? &l2&rHe that walketh uprightly, and worketh righteousness, and speaketh the truth in his heart. &l3&rHe that backbiteth not with his tongue, nor doeth evil to his
+    captivity of his'
+  '18': people, Jacob shall rejoice, and Israel shall be glad.
+  '19': 'Chapter 15
+
+    Lord, who shall abide in thy tabernacle? who shall dwell in thy holy hill? &l2&rHe
+    that walketh uprightly, and worketh righteousness, and speaketh the truth in his
+    heart. &l3&rHe that backbiteth not with his tongue, nor doeth evil to his'
   '20': neighbour, nor taketh up a reproach against his neighbour. &l4&rIn whose eyes a vile person is contemned; but he honoureth them that fear the Lord. He that sweareth to his own hurt, and changeth not. &l5&rHe that putteth not out his money to usury, nor
   '21': taketh reward against the innocent. He that doeth these things shall never be moved.
-  '22': 'Chapter 16/nPreserve me, O God: for in thee do I put my trust. &l2&rO my
-    soul, thou hast said unto the Lord, Thou art my Lord: my goodness extendeth not
-    to thee; &l3&rBut to the saints that are in the earth, and to the excellent, in
-    whom is all my delight.'
-  '23': ' &l4&rTheir sorrows shall be multiplied that hasten after another god: their
+  '22': 'Chapter 16
+
+    Preserve me, O God: for in thee do I put my trust. &l2&rO my soul, thou hast said
+    unto the Lord, Thou art my Lord: my goodness extendeth not to thee; &l3&rBut to
+    the saints that are in the earth, and to the excellent, in whom is all my delight.'
+  '23': '&l4&rTheir sorrows shall be multiplied that hasten after another god: their
     drink offerings of blood will I not offer, nor take up their names into my lips.
     &l5&rThe Lord is the portion of mine inheritance and of my cup: thou maintainest
     my lot. &l6&rThe'
@@ -228,7 +274,12 @@ Book2:
     me the path of'
   '26': 'life: in thy presence is fulness of joy; at thy right hand there are pleasures
     for evermore.'
-  '27': Chapter 17/nHear the right, O Lord, attend unto my cry, give ear unto my prayer, that goeth not out of feigned lips. &l2&rLet my sentence come forth from thy presence; let thine eyes behold the things that are equal. &l3&rThou hast proved mine heart; thou
+  '27': 'Chapter 17
+
+    Hear the right, O Lord, attend unto my cry, give ear unto my prayer, that goeth
+    not out of feigned lips. &l2&rLet my sentence come forth from thy presence; let
+    thine eyes behold the things that are equal. &l3&rThou hast proved mine heart;
+    thou'
   '28': hast visited me in the night; thou hast tried me, and shalt find nothing; I am purposed that my mouth shall not transgress. &l4&rConcerning the works of men, by the word of thy lips I have kept me from the paths of the destroyer. &l5&rHold up my goings in
   '29': 'thy paths, that my footsteps slip not. &l6&rI have called upon thee, for
     thou wilt hear me, O God: incline thine ear unto me, and hear my speech. &l7&rShew
@@ -249,7 +300,11 @@ Book2:
   '33': 'of children, and leave the rest of their substance to their babes. &l15&rAs
     for me, I will behold thy face in righteousness: I shall be satisfied, when I
     awake, with thy likeness.'
-  '34': Chapter 18/nI will love thee, O Lord, my strength. &l2&rThe Lord is my rock, and my fortress, and my deliverer; my God, my strength, in whom I will trust; my buckler, and the horn of my salvation, and my high tower. &l3&rI will call upon the Lord, who is
+  '34': 'Chapter 18
+
+    I will love thee, O Lord, my strength. &l2&rThe Lord is my rock, and my fortress,
+    and my deliverer; my God, my strength, in whom I will trust; my buckler, and the
+    horn of my salvation, and my high tower. &l3&rI will call upon the Lord, who is'
   '35': 'worthy to be praised: so shall I be saved from mine enemies. &l4&rThe sorrows
     of death compassed me, and the floods of ungodly men made me afraid. &l5&rThe
     sorrows of hell compassed me about: the snares of death prevented me. &l6&rIn
@@ -304,10 +359,11 @@ Book3:
   start:
     c: 18
     v: 43
-  '1': 'Chapter 18 Cont./n&l43&rThou hast delivered me from the strivings of the people;
-    and thou hast made me the head of the heathen: a people whom I have not known
-    shall serve me. &l44&rAs soon as they hear of me, they shall obey me: the strangers
-    shall submit'
+  '1': 'Chapter 18 Cont.
+
+    &l43&rThou hast delivered me from the strivings of the people; and thou hast made
+    me the head of the heathen: a people whom I have not known shall serve me. &l44&rAs
+    soon as they hear of me, they shall obey me: the strangers shall submit'
   '2': themselves unto me. &l45&rThe strangers shall fade away, and be afraid out of their close places. &l46&rThe Lord liveth; and blessed be my rock; and let the God of my salvation be exalted. &l47&rIt is God that avengeth me, and subdueth the people under me.
   '3': ' &l48&rHe delivereth me from mine enemies: yea, thou liftest me up above those
     that rise up against me: thou hast delivered me from the violent man. &l49&rTherefore
@@ -315,7 +371,11 @@ Book3:
     thy name.'
   '4': '&l50&rGreat deliverance giveth he to his king; and sheweth mercy to his anointed,
     to David, and to his seed for evermore.'
-  '5': Chapter 19/nThe heavens declare the glory of God; and the firmament sheweth his handywork. &l2&rDay unto day uttereth speech, and night unto night sheweth knowledge. &l3&rThere is no speech nor language, where their voice is not heard. &l4&rTheir line is
+  '5': 'Chapter 19
+
+    The heavens declare the glory of God; and the firmament sheweth his handywork.
+    &l2&rDay unto day uttereth speech, and night unto night sheweth knowledge. &l3&rThere
+    is no speech nor language, where their voice is not heard. &l4&rTheir line is'
   '6': gone out through all the earth, and their words to the end of the world. In them hath he set a tabernacle for the sun, &l5&rWhich is as a bridegroom coming out of his chamber, and rejoiceth as a strong man to run a race. &l6&rHis going forth is from the
   '7': 'end of the heaven, and his circuit unto the ends of it: and there is nothing
     hid from the heat thereof. &l7&rThe law of the Lord is perfect, converting the
@@ -334,7 +394,12 @@ Book3:
     the words of my mouth, and the meditation of my heart, be acceptable in thy sight,
     O Lord, my'
   '11': strength, and my redeemer.
-  '12': Chapter 20/nThe Lord hear thee in the day of trouble; the name of the God of Jacob defend thee; &l2&rSend thee help from the sanctuary, and strengthen thee out of Zion; &l3&rRemember all thy offerings, and accept thy burnt sacrifice; Selah. &l4&rGrant thee
+  '12': 'Chapter 20
+
+    The Lord hear thee in the day of trouble; the name of the God of Jacob defend
+    thee; &l2&rSend thee help from the sanctuary, and strengthen thee out of Zion;
+    &l3&rRemember all thy offerings, and accept thy burnt sacrifice; Selah. &l4&rGrant
+    thee'
   '13': 'according to thine own heart, and fulfil all thy counsel. &l5&rWe will rejoice
     in thy salvation, and in the name of our God we will set up our banners: the Lord
     fulfil all thy petitions. &l6&rNow know I that the Lord saveth his anointed; he
@@ -344,7 +409,11 @@ Book3:
     our God. &l8&rThey are brought down and fallen: but we are risen, and stand upright.
     &l9&rSave,'
   '15': 'Lord: let the king hear us when we call.'
-  '16': Chapter 21/nThe king shall joy in thy strength, O Lord; and in thy salvation how greatly shall he rejoice! &l2&rThou hast given him his heart's desire, and hast not withholden the request of his lips. Selah. &l3&rFor thou preventest him with the blessings
+  '16': 'Chapter 21
+
+    The king shall joy in thy strength, O Lord; and in thy salvation how greatly shall
+    he rejoice! &l2&rThou hast given him his heart''s desire, and hast not withholden
+    the request of his lips. Selah. &l3&rFor thou preventest him with the blessings'
   '17': 'of goodness: thou settest a crown of pure gold on his head. &l4&rHe asked
     life of thee, and thou gavest it him, even length of days for ever and ever. &l5&rHis
     glory is great in thy salvation: honour and majesty hast thou laid upon him. &l6&rFor
@@ -363,7 +432,12 @@ Book3:
     upon thy strings'
   '21': 'against the face of them. &l13&rBe thou exalted, Lord, in thine own strength:
     so will we sing and praise thy power.'
-  '22': Chapter 22/nMy God, my God, why hast thou forsaken me? why art thou so far from helping me, and from the words of my roaring? &l2&rO my God, I cry in the day time, but thou hearest not; and in the night season, and am not silent. &l3&rBut thou art holy, O
+  '22': 'Chapter 22
+
+    My God, my God, why hast thou forsaken me? why art thou so far from helping me,
+    and from the words of my roaring? &l2&rO my God, I cry in the day time, but thou
+    hearest not; and in the night season, and am not silent. &l3&rBut thou art holy,
+    O'
   '23': 'thou that inhabitest the praises of Israel. &l4&rOur fathers trusted in thee:
     they trusted, and thou didst deliver them. &l5&rThey cried unto thee, and were
     delivered: they trusted in thee, and were not confounded. &l6&rBut I am a worm,
@@ -409,24 +483,32 @@ Book3:
     to the Lord for a generation. &l31&rThey shall come, and shall declare his righteousness
     unto a'
   '34': people that shall be born, that he hath done this.
-  '35': 'Chapter 23/nThe Lord is my shepherd; I shall not want. &l2&rHe maketh me
-    to lie down in green pastures: he leadeth me beside the still waters. &l3&rHe
-    restoreth my soul: he leadeth me in the paths of righteousness for his name''s
-    sake. &l4&rYea, though I'
+  '35': 'Chapter 23
+
+    The Lord is my shepherd; I shall not want. &l2&rHe maketh me to lie down in green
+    pastures: he leadeth me beside the still waters. &l3&rHe restoreth my soul: he
+    leadeth me in the paths of righteousness for his name''s sake. &l4&rYea, though
+    I'
   '36': 'walk through the valley of the shadow of death, I will fear no evil: for
     thou art with me; thy rod and thy staff they comfort me. &l5&rThou preparest a
     table before me in the presence of mine enemies: thou anointest my head with oil;
     my cup runneth over.'
   '37': '&l6&rSurely goodness and mercy shall follow me all the days of my life: and
     I will dwell in the house of the Lord for ever.'
-  '38': Chapter 24/nThe earth is the Lord's, and the fulness thereof; the world, and they that dwell therein. &l2&rFor he hath founded it upon the seas, and established it upon the floods. &l3&rWho shall ascend into the hill of the Lord? or who shall stand in his
+  '38': 'Chapter 24
+
+    The earth is the Lord''s, and the fulness thereof; the world, and they that dwell
+    therein. &l2&rFor he hath founded it upon the seas, and established it upon the
+    floods. &l3&rWho shall ascend into the hill of the Lord? or who shall stand in
+    his'
   '39': holy place? &l4&rHe that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully. &l5&rHe shall receive the blessing from the Lord, and righteousness from the God of his salvation. &l6&rThis is the generation
   '40': of them that seek him, that seek thy face, O Jacob. Selah. &l7&rLift up your heads, O ye gates; and be ye lift up, ye everlasting doors; and the King of glory shall come in. &l8&rWho is this King of glory? The Lord strong and mighty, the Lord mighty in
   '41': battle. &l9&rLift up your heads, O ye gates; even lift them up, ye everlasting doors; and the King of glory shall come in. &l10&rWho is this King of glory? The Lord of hosts, he is the King of glory. Selah.
-  '42': 'Chapter 25/nUnto thee, O Lord, do I lift up my soul. &l2&rO my God, I trust
-    in thee: let me not be ashamed, let not mine enemies triumph over me. &l3&rYea,
-    let none that wait on thee be ashamed: let them be ashamed which transgress without
-    cause. &l4&rShew'
+  '42': 'Chapter 25
+
+    Unto thee, O Lord, do I lift up my soul. &l2&rO my God, I trust in thee: let me
+    not be ashamed, let not mine enemies triumph over me. &l3&rYea, let none that
+    wait on thee be ashamed: let them be ashamed which transgress without cause. &l4&rShew'
   '43': 'me thy ways, O Lord; teach me thy paths. &l5&rLead me in thy truth, and teach
     me: for thou art the God of my salvation; on thee do I wait all the day. &l6&rRemember,
     O Lord, thy tender mercies and thy lovingkindnesses; for they have been ever of
@@ -446,9 +528,11 @@ Book3:
     let me not be ashamed; for I put my trust in thee. &l21&rLet integrity and uprightness
     preserve me; for'
   '49': I wait on thee. &l22&rRedeem Israel, O God, out of all his troubles.
-  '50': 'Chapter 26/nJudge me, O Lord; for I have walked in mine integrity: I have
-    trusted also in the Lord; therefore I shall not slide. &l2&rExamine me, O Lord,
-    and prove me; try my reins and my heart.'
+  '50': 'Chapter 26
+
+    Judge me, O Lord; for I have walked in mine integrity: I have trusted also in
+    the Lord; therefore I shall not slide. &l2&rExamine me, O Lord, and prove me;
+    try my reins and my heart.'
   end:
     c: 26
     v: 2
@@ -456,10 +540,11 @@ Book4:
   start:
     c: 26
     v: 3
-  '1': 'Chapter 26 Cont./n&l3&rFor thy lovingkindness is before mine eyes: and I have
-    walked in thy truth. &l4&rI have not sat with vain persons, neither will I go
-    in with dissemblers. &l5&rI have hated the congregation of evil doers; and will
-    not sit with the'
+  '1': 'Chapter 26 Cont.
+
+    &l3&rFor thy lovingkindness is before mine eyes: and I have walked in thy truth.
+    &l4&rI have not sat with vain persons, neither will I go in with dissemblers.
+    &l5&rI have hated the congregation of evil doers; and will not sit with the'
   '2': 'wicked. &l6&rI will wash mine hands in innocency: so will I compass thine
     altar, O Lord: &l7&rThat I may publish with the voice of thanksgiving, and tell
     of all thy wondrous works. &l8&rLord, I have loved the habitation of thy house,
@@ -470,7 +555,11 @@ Book4:
     merciful unto me.'
   '4': '&l12&rMy foot standeth in an even place: in the congregations will I bless
     the Lord.'
-  '5': Chapter 27/nThe Lord is my light and my salvation; whom shall I fear? the Lord is the strength of my life; of whom shall I be afraid? &l2&rWhen the wicked, even mine enemies and my foes, came upon me to eat up my flesh, they stumbled and fell. &l3&rThough
+  '5': 'Chapter 27
+
+    The Lord is my light and my salvation; whom shall I fear? the Lord is the strength
+    of my life; of whom shall I be afraid? &l2&rWhen the wicked, even mine enemies
+    and my foes, came upon me to eat up my flesh, they stumbled and fell. &l3&rThough'
   '6': 'an host should encamp against me, my heart shall not fear: though war should
     rise against me, in this will I be confident. &l4&rOne thing have I desired of
     the Lord, that will I seek after; that I may dwell in the house of the Lord all
@@ -494,10 +583,11 @@ Book4:
   '11': 'breathe out cruelty. &l13&rI had fainted, unless I had believed to see the
     goodness of the Lord in the land of the living. &l14&rWait on the Lord: be of
     good courage, and he shall strengthen thine heart: wait, I say, on the Lord.'
-  '12': 'Chapter 28/nUnto thee will I cry, O Lord my rock; be not silent to me: lest,
-    if thou be silent to me, I become like them that go down into the pit. &l2&rHear
-    the voice of my supplications, when I cry unto thee, when I lift up my hands toward
-    thy holy'
+  '12': 'Chapter 28
+
+    Unto thee will I cry, O Lord my rock; be not silent to me: lest, if thou be silent
+    to me, I become like them that go down into the pit. &l2&rHear the voice of my
+    supplications, when I cry unto thee, when I lift up my hands toward thy holy'
   '13': 'oracle. &l3&rDraw me not away with the wicked, and with the workers of iniquity,
     which speak peace to their neighbours, but mischief is in their hearts. &l4&rGive
     them according to their deeds, and according to the wickedness of their endeavours:
@@ -509,19 +599,21 @@ Book4:
     of his anointed.'
   '16': '&l9&rSave thy people, and bless thine inheritance: feed them also, and lift
     them up for ever.'
-  '17': 'Chapter 29/nGive unto the Lord, O ye mighty, give unto the Lord glory and
-    strength. &l2&rGive unto the Lord the glory due unto his name; worship the Lord
-    in the beauty of holiness. &l3&rThe voice of the Lord is upon the waters: the
-    God of glory thundereth:'
+  '17': 'Chapter 29
+
+    Give unto the Lord, O ye mighty, give unto the Lord glory and strength. &l2&rGive
+    unto the Lord the glory due unto his name; worship the Lord in the beauty of holiness.
+    &l3&rThe voice of the Lord is upon the waters: the God of glory thundereth:'
   '18': the Lord is upon many waters. &l4&rThe voice of the Lord is powerful; the voice of the Lord is full of majesty. &l5&rThe voice of the Lord breaketh the cedars; yea, the Lord breaketh the cedars of Lebanon. &l6&rHe maketh them also to skip like a calf;
   '19': Lebanon and Sirion like a young unicorn. &l7&rThe voice of the Lord divideth the flames of fire. &l8&rThe voice of the Lord shaketh the wilderness; the Lord shaketh the wilderness of Kadesh. &l9&rThe voice of the Lord maketh the hinds to calve, and
   '20': 'discovereth the forests: and in his temple doth every one speak of his glory.
     &l10&rThe Lord sitteth upon the flood; yea, the Lord sitteth King for ever. &l11&rThe
     Lord will give strength unto his people; the Lord will bless his people with peace.'
-  '21': 'Chapter 30/nI will extol thee, O Lord; for thou hast lifted me up, and hast
-    not made my foes to rejoice over me. &l2&rO Lord my God, I cried unto thee, and
-    thou hast healed me. &l3&rO Lord, thou hast brought up my soul from the grave:
-    thou hast kept me'
+  '21': 'Chapter 30
+
+    I will extol thee, O Lord; for thou hast lifted me up, and hast not made my foes
+    to rejoice over me. &l2&rO Lord my God, I cried unto thee, and thou hast healed
+    me. &l3&rO Lord, thou hast brought up my soul from the grave: thou hast kept me'
   '22': 'alive, that I should not go down to the pit. &l4&rSing unto the Lord, O ye
     saints of his, and give thanks at the remembrance of his holiness. &l5&rFor his
     anger endureth but a moment; in his favour is life: weeping may endure for a night,
@@ -535,10 +627,12 @@ Book4:
     upon me: Lord, be thou my helper. &l11&rThou hast turned for me my mourning into
     dancing: thou hast'
   '25': put off my sackcloth, and girded me with gladness; &l12&rTo the end that my glory may sing praise to thee, and not be silent. O Lord my God, I will give thanks unto thee for ever.
-  '26': 'Chapter 31/nIn thee, O Lord, do I put my trust; let me never be ashamed:
-    deliver me in thy righteousness. &l2&rBow down thine ear to me; deliver me speedily:
-    be thou my strong rock, for an house of defence to save me. &l3&rFor thou art
-    my rock and my'
+  '26': 'Chapter 31
+
+    In thee, O Lord, do I put my trust; let me never be ashamed: deliver me in thy
+    righteousness. &l2&rBow down thine ear to me; deliver me speedily: be thou my
+    strong rock, for an house of defence to save me. &l3&rFor thou art my rock and
+    my'
   '27': 'fortress; therefore for thy name''s sake lead me, and guide me. &l4&rPull
     me out of the net that they have laid privily for me: for thou art my strength.
     &l5&rInto thine hand I commit my spirit: thou hast redeemed me, O Lord God of
@@ -573,15 +667,20 @@ Book4:
     when I cried unto thee. &l23&rO love the Lord, all ye his saints: for the Lord
     preserveth the'
   '36': faithful, and plentifully rewardeth the proud doer. &l24&rBe of good courage, and he shall strengthen your heart, all ye that hope in the Lord.
-  '37': Chapter 32/nBlessed is he whose transgression is forgiven, whose sin is covered. &l2&rBlessed is the man unto whom the Lord imputeth not iniquity, and in whose spirit there is no guile. &l3&rWhen I kept silence, my bones waxed old through my roaring all
-  '38': 'the day long. &l4&rFor day and night thy hand was heavy upon me: my moisture
+  '37': 'Chapter 32
+
+    Blessed is he whose transgression is forgiven, whose sin is covered. &l2&rBlessed
+    is the man unto whom the Lord imputeth not iniquity, and in whose spirit there
+    is no guile. &l3&rWhen I kept silence, my bones waxed old through my roaring all
+    the'
+  '38': 'day long. &l4&rFor day and night thy hand was heavy upon me: my moisture
     is turned into the drought of summer. Selah. &l5&rI acknowledge my sin unto thee,
     and mine iniquity have I not hid. I said, I will confess my transgressions unto
-    the Lord; and'
-  '39': 'thou forgavest the iniquity of my sin. Selah. &l6&rFor this shall every one
-    that is godly pray unto thee in a time when thou mayest be found: surely in the
-    floods of great waters they shall not come nigh unto him. &l7&rThou art my hiding
-    place; thou shalt'
+    the Lord; and thou'
+  '39': 'forgavest the iniquity of my sin. Selah. &l6&rFor this shall every one that
+    is godly pray unto thee in a time when thou mayest be found: surely in the floods
+    of great waters they shall not come nigh unto him. &l7&rThou art my hiding place;
+    thou shalt'
   '40': 'preserve me from trouble; thou shalt compass me about with songs of deliverance.
     Selah. &l8&rI will instruct thee and teach thee in the way which thou shalt go:
     I will guide thee with mine eye. &l9&rBe ye not as the horse, or as the mule,
@@ -591,10 +690,11 @@ Book4:
     in the Lord, mercy shall compass him about. &l11&rBe glad in the Lord, and rejoice,
     ye righteous:'
   '42': and shout for joy, all ye that are upright in heart.
-  '43': 'Chapter 33/nRejoice in the Lord, O ye righteous: for praise is comely for
-    the upright. &l2&rPraise the Lord with harp: sing unto him with the psaltery and
-    an instrument of ten strings. &l3&rSing unto him a new song; play skilfully with
-    a loud noise.'
+  '43': 'Chapter 33
+
+    Rejoice in the Lord, O ye righteous: for praise is comely for the upright. &l2&rPraise
+    the Lord with harp: sing unto him with the psaltery and an instrument of ten strings.
+    &l3&rSing unto him a new song; play skilfully with a loud noise.'
   '44': '&l4&rFor the word of the Lord is right; and all his works are done in truth.
     &l5&rHe loveth righteousness and judgment: the earth is full of the goodness of
     the Lord. &l6&rBy the word of the Lord were the heavens made; and all the host
@@ -625,10 +725,13 @@ Book5:
   start:
     c: 34
     v: 1
-  '1': 'Chapter 34 Cont./nChapter 34/nI will bless the Lord at all times: his praise
-    shall continually be in my mouth. &l2&rMy soul shall make her boast in the Lord:
-    the humble shall hear thereof, and be glad. &l3&rO magnify the Lord with me, and
-    let us exalt his'
+  '1': 'Chapter 34 Cont.
+
+    Chapter 34
+
+    I will bless the Lord at all times: his praise shall continually be in my mouth.
+    &l2&rMy soul shall make her boast in the Lord: the humble shall hear thereof,
+    and be glad. &l3&rO magnify the Lord with me, and let us exalt his'
   '2': 'name together. &l4&rI sought the Lord, and he heard me, and delivered me from
     all my fears. &l5&rThey looked unto him, and were lightened: and their faces were
     not ashamed. &l6&rThis poor man cried, and the Lord heard him, and saved him out
@@ -652,12 +755,14 @@ Book5:
     they that hate'
   '8': 'the righteous shall be desolate. &l22&rThe Lord redeemeth the soul of his
     servants: and none of them that trust in him shall be desolate.'
-  '9': 'Chapter 35/nPlead my cause, O Lord, with them that strive with me: fight against
-    them that fight against me. &l2&rTake hold of shield and buckler, and stand up
-    for mine help. &l3&rDraw out also the spear, and stop the way against them that
-    persecute me:'
-  '10': 'say unto my soul, I am thy salvation. &l4&rLet them be confounded and put
-    to shame that seek after my soul: let them be turned back and brought to confusion
+  '9': 'Chapter 35
+
+    Plead my cause, O Lord, with them that strive with me: fight against them that
+    fight against me. &l2&rTake hold of shield and buckler, and stand up for mine
+    help. &l3&rDraw out also the spear, and stop the way against them that persecute
+    me: say'
+  '10': 'unto my soul, I am thy salvation. &l4&rLet them be confounded and put to
+    shame that seek after my soul: let them be turned back and brought to confusion
     that devise my hurt. &l5&rLet them be as chaff before the wind: and let the angel
     of the Lord chase'
   '11': 'them. &l6&rLet their way be dark and slippery: and let the angel of the Lord
@@ -699,10 +804,12 @@ Book5:
     of his servant.'
   '21': '&l28&rAnd my tongue shall speak of thy righteousness and of thy praise all
     the day long.'
-  '22': 'Chapter 36/nThe transgression of the wicked saith within my heart, that there
-    is no fear of God before his eyes. &l2&rFor he flattereth himself in his own eyes,
-    until his iniquity be found to be hateful. &l3&rThe words of his mouth are iniquity
-    and deceit:'
+  '22': 'Chapter 36
+
+    The transgression of the wicked saith within my heart, that there is no fear of
+    God before his eyes. &l2&rFor he flattereth himself in his own eyes, until his
+    iniquity be found to be hateful. &l3&rThe words of his mouth are iniquity and
+    deceit:'
   '23': he hath left off to be wise, and to do good. &l4&rHe deviseth mischief upon his bed; he setteth himself in a way that is not good; he abhorreth not evil. &l5&rThy mercy, O Lord, is in the heavens; and thy faithfulness reacheth unto the clouds. &l6&rThy
   '24': 'righteousness is like the great mountains; thy judgments are a great deep:
     O Lord, thou preservest man and beast. &l7&rHow excellent is thy lovingkindness,
@@ -716,7 +823,11 @@ Book5:
     pride come against me, and let not the hand of the wicked remove me. &l12&rThere
     are the workers of iniquity fallen: they are cast down, and shall not be able
     to rise.'
-  '27': Chapter 37/nFret not thyself because of evildoers, neither be thou envious against the workers of iniquity. &l2&rFor they shall soon be cut down like the grass, and wither as the green herb. &l3&rTrust in the Lord, and do good; so shalt thou dwell in the
+  '27': 'Chapter 37
+
+    Fret not thyself because of evildoers, neither be thou envious against the workers
+    of iniquity. &l2&rFor they shall soon be cut down like the grass, and wither as
+    the green herb. &l3&rTrust in the Lord, and do good; so shalt thou dwell in the'
   '28': 'land, and verily thou shalt be fed. &l4&rDelight thyself also in the Lord:
     and he shall give thee the desires of thine heart. &l5&rCommit thy way unto the
     Lord; trust also in him; and he shall bring it to pass. &l6&rAnd he shall bring
@@ -769,10 +880,12 @@ Book5:
     the Lord shall help'
   '42': 'them, and deliver them: he shall deliver them from the wicked, and save them,
     because they trust in him.'
-  '43': 'Chapter 38/nO Lord, rebuke me not in thy wrath: neither chasten me in thy
-    hot displeasure. &l2&rFor thine arrows stick fast in me, and thy hand presseth
-    me sore. &l3&rThere is no soundness in my flesh because of thine anger; neither
-    is there any rest in my'
+  '43': 'Chapter 38
+
+    O Lord, rebuke me not in thy wrath: neither chasten me in thy hot displeasure.
+    &l2&rFor thine arrows stick fast in me, and thy hand presseth me sore. &l3&rThere
+    is no soundness in my flesh because of thine anger; neither is there any rest
+    in my'
   '44': 'bones because of my sin. &l4&rFor mine iniquities are gone over mine head:
     as an heavy burden they are too heavy for me. &l5&rMy wounds stink and are corrupt
     because of my foolishness. &l6&rI am troubled; I am bowed down greatly; I go mourning
@@ -807,10 +920,13 @@ Book6:
   start:
     c: 39
     v: 1
-  '1': 'Chapter 39 Cont./nChapter 39/nI said, I will take heed to my ways, that I
-    sin not with my tongue: I will keep my mouth with a bridle, while the wicked is
-    before me. &l2&rI was dumb with silence, I held my peace, even from good; and
-    my sorrow was stirred.'
+  '1': 'Chapter 39 Cont.
+
+    Chapter 39
+
+    I said, I will take heed to my ways, that I sin not with my tongue: I will keep
+    my mouth with a bridle, while the wicked is before me. &l2&rI was dumb with silence,
+    I held my peace, even from good; and my sorrow was stirred.'
   '2': '&l3&rMy heart was hot within me, while I was musing the fire burned: then
     spake I with my tongue, &l4&rLord, make me to know mine end, and the measure of
     my days, what it is: that I may know how frail I am. &l5&rBehold, thou hast made
@@ -830,7 +946,11 @@ Book6:
   '6': 'peace at my tears: for I am a stranger with thee, and a sojourner, as all
     my fathers were. &l13&rO spare me, that I may recover strength, before I go hence,
     and be no more.'
-  '7': Chapter 40/nI waited patiently for the Lord; and he inclined unto me, and heard my cry. &l2&rHe brought me up also out of an horrible pit, out of the miry clay, and set my feet upon a rock, and established my goings. &l3&rAnd he hath put a new song in my
+  '7': 'Chapter 40
+
+    I waited patiently for the Lord; and he inclined unto me, and heard my cry. &l2&rHe
+    brought me up also out of an horrible pit, out of the miry clay, and set my feet
+    upon a rock, and established my goings. &l3&rAnd he hath put a new song in my'
   '8': 'mouth, even praise unto our God: many shall see it, and fear, and shall trust
     in the Lord. &l4&rBlessed is that man that maketh the Lord his trust, and respecteth
     not the proud, nor such as turn aside to lies. &l5&rMany, O Lord my God, are thy
@@ -861,10 +981,11 @@ Book6:
     say continually,'
   '15': 'The Lord be magnified. &l17&rBut I am poor and needy; yet the Lord thinketh
     upon me: thou art my help and my deliverer; make no tarrying, O my God.'
-  '16': 'Chapter 41/nBlessed is he that considereth the poor: the Lord will deliver
-    him in time of trouble. &l2&rThe Lord will preserve him, and keep him alive; and
-    he shall be blessed upon the earth: and thou wilt not deliver him unto the will
-    of his enemies.'
+  '16': 'Chapter 41
+
+    Blessed is he that considereth the poor: the Lord will deliver him in time of
+    trouble. &l2&rThe Lord will preserve him, and keep him alive; and he shall be
+    blessed upon the earth: and thou wilt not deliver him unto the will of his enemies.'
   '17': '&l3&rThe Lord will strengthen him upon the bed of languishing: thou wilt
     make all his bed in his sickness. &l4&rI said, Lord, be merciful unto me: heal
     my soul; for I have sinned against thee. &l5&rMine enemies speak evil of me, When
@@ -879,10 +1000,11 @@ Book6:
     and raise me'
   '20': up, that I may requite them. &l11&rBy this I know that thou favourest me, because mine enemy doth not triumph over me. &l12&rAnd as for me, thou upholdest me in mine integrity, and settest me before thy face for ever. &l13&rBlessed be the Lord God of
   '21': Israel from everlasting, and to everlasting. Amen, and Amen.
-  '22': 'Chapter 42/nAs the hart panteth after the water brooks, so panteth my soul
-    after thee, O God. &l2&rMy soul thirsteth for God, for the living God: when shall
-    I come and appear before God? &l3&rMy tears have been my meat day and night, while
-    they continually'
+  '22': 'Chapter 42
+
+    As the hart panteth after the water brooks, so panteth my soul after thee, O God.
+    &l2&rMy soul thirsteth for God, for the living God: when shall I come and appear
+    before God? &l3&rMy tears have been my meat day and night, while they continually'
   '23': 'say unto me, Where is thy God? &l4&rWhen I remember these things, I pour
     out my soul in me: for I had gone with the multitude, I went with them to the
     house of God, with the voice of joy and praise, with a multitude that kept holyday.
@@ -899,17 +1021,23 @@ Book6:
   '27': 'thy God? &l11&rWhy art thou cast down, O my soul? and why art thou disquieted
     within me? hope thou in God: for I shall yet praise him, who is the health of
     my countenance, and my God.'
-  '28': 'Chapter 43/nJudge me, O God, and plead my cause against an ungodly nation:
-    O deliver me from the deceitful and unjust man. &l2&rFor thou art the God of my
-    strength: why dost thou cast me off? why go I mourning because of the oppression
-    of the enemy? &l3&rO'
+  '28': 'Chapter 43
+
+    Judge me, O God, and plead my cause against an ungodly nation: O deliver me from
+    the deceitful and unjust man. &l2&rFor thou art the God of my strength: why dost
+    thou cast me off? why go I mourning because of the oppression of the enemy? &l3&rO'
   '29': 'send out thy light and thy truth: let them lead me; let them bring me unto
     thy holy hill, and to thy tabernacles. &l4&rThen will I go unto the altar of God,
     unto God my exceeding joy: yea, upon the harp will I praise thee, O God my God.
     &l5&rWhy art thou'
   '30': 'cast down, O my soul? and why art thou disquieted within me? hope in God:
     for I shall yet praise him, who is the health of my countenance, and my God.'
-  '31': Chapter 44/nWe have heard with our ears, O God, our fathers have told us, what work thou didst in their days, in the times of old. &l2&rHow thou didst drive out the heathen with thy hand, and plantedst them; how thou didst afflict the people, and cast them
+  '31': 'Chapter 44
+
+    We have heard with our ears, O God, our fathers have told us, what work thou didst
+    in their days, in the times of old. &l2&rHow thou didst drive out the heathen
+    with thy hand, and plantedst them; how thou didst afflict the people, and cast
+    them'
   '32': 'out. &l3&rFor they got not the land in possession by their own sword, neither
     did their own arm save them: but thy right hand, and thine arm, and the light
     of thy countenance, because thou hadst a favour unto them. &l4&rThou art my King,
@@ -930,10 +1058,11 @@ Book6:
   '40': 'thou thy face, and forgettest our affliction and our oppression? &l25&rFor
     our soul is bowed down to the dust: our belly cleaveth unto the earth. &l26&rArise
     for our help, and redeem us for thy mercies'' sake.'
-  '41': 'Chapter 45/nMy heart is inditing a good matter: I speak of the things which
-    I have made touching the king: my tongue is the pen of a ready writer. &l2&rThou
-    art fairer than the children of men: grace is poured into thy lips: therefore
-    God hath blessed thee'
+  '41': 'Chapter 45
+
+    My heart is inditing a good matter: I speak of the things which I have made touching
+    the king: my tongue is the pen of a ready writer. &l2&rThou art fairer than the
+    children of men: grace is poured into thy lips: therefore God hath blessed thee'
   '42': for ever. &l3&rGird thy sword upon thy thigh, O most mighty, with thy glory and thy majesty. &l4&rAnd in thy majesty ride prosperously because of truth and meekness and righteousness; and thy right hand shall teach thee terrible things. &l5&rThine arrows
   '43': 'are sharp in the heart of the king''s enemies; whereby the people fall under
     thee. &l6&rThy throne, O God, is for ever and ever: the sceptre of thy kingdom
@@ -957,7 +1086,11 @@ Book6:
     thou mayest make'
   '48': 'princes in all the earth. &l17&rI will make thy name to be remembered in
     all generations: therefore shall the people praise thee for ever and ever.'
-  '49': Chapter 46/nGod is our refuge and strength, a very present help in trouble. &l2&rTherefore will not we fear, though the earth be removed, and though the mountains be carried into the midst of the sea; &l3&rThough the waters thereof roar and be troubled,
+  '49': 'Chapter 46
+
+    God is our refuge and strength, a very present help in trouble. &l2&rTherefore
+    will not we fear, though the earth be removed, and though the mountains be carried
+    into the midst of the sea; &l3&rThough the waters thereof roar and be troubled,'
   '50': though the mountains shake with the swelling thereof. Selah. &l4&rThere is a river, the streams whereof shall make glad the city of God, the holy place of the tabernacles of the most High.
   end:
     c: 46
@@ -966,15 +1099,20 @@ Book7:
   start:
     c: 46
     v: 5
-  '1': 'Chapter 46 Cont./n&l5&rGod is in the midst of her; she shall not be moved:
-    God shall help her, and that right early. &l6&rThe heathen raged, the kingdoms
-    were moved: he uttered his voice, the earth melted. &l7&rThe Lord of hosts is
-    with us; the God of'
-  '2': Jacob is our refuge. Selah. &l8&rCome, behold the works of the Lord, what desolations he hath made in the earth. &l9&rHe maketh wars to cease unto the end of the earth; he breaketh the bow, and cutteth the spear in sunder; he burneth the chariot in the
-  '3': 'fire. &l10&rBe still, and know that I am God: I will be exalted among the
-    heathen, I will be exalted in the earth. &l11&rThe Lord of hosts is with us; the
-    God of Jacob is our refuge. Selah.'
-  '4': Chapter 47/nO clap your hands, all ye people; shout unto God with the voice of triumph. &l2&rFor the Lord most high is terrible; he is a great King over all the earth. &l3&rHe shall subdue the people under us, and the nations under our feet. &l4&rHe shall
+  '1': 'Chapter 46 Cont.
+
+    &l5&rGod is in the midst of her; she shall not be moved: God shall help her, and
+    that right early. &l6&rThe heathen raged, the kingdoms were moved: he uttered
+    his voice, the earth melted. &l7&rThe Lord of hosts is with us; the God of Jacob'
+  '2': is our refuge. Selah. &l8&rCome, behold the works of the Lord, what desolations he hath made in the earth. &l9&rHe maketh wars to cease unto the end of the earth; he breaketh the bow, and cutteth the spear in sunder; he burneth the chariot in the fire.
+  '3': '&l10&rBe still, and know that I am God: I will be exalted among the heathen,
+    I will be exalted in the earth. &l11&rThe Lord of hosts is with us; the God of
+    Jacob is our refuge. Selah.'
+  '4': 'Chapter 47
+
+    O clap your hands, all ye people; shout unto God with the voice of triumph. &l2&rFor
+    the Lord most high is terrible; he is a great King over all the earth. &l3&rHe
+    shall subdue the people under us, and the nations under our feet. &l4&rHe shall'
   '5': 'choose our inheritance for us, the excellency of Jacob whom he loved. Selah.
     &l5&rGod is gone up with a shout, the Lord with the sound of a trumpet. &l6&rSing
     praises to God, sing praises: sing praises unto our King, sing praises. &l7&rFor
@@ -984,7 +1122,11 @@ Book7:
     the people are gathered together, even the people of the God of Abraham: for the
     shields of the earth'
   '7': 'belong unto God: he is greatly exalted.'
-  '8': Chapter 48/nGreat is the Lord, and greatly to be praised in the city of our God, in the mountain of his holiness. &l2&rBeautiful for situation, the joy of the whole earth, is mount Zion, on the sides of the north, the city of the great King. &l3&rGod is
+  '8': 'Chapter 48
+
+    Great is the Lord, and greatly to be praised in the city of our God, in the mountain
+    of his holiness. &l2&rBeautiful for situation, the joy of the whole earth, is
+    mount Zion, on the sides of the north, the city of the great King. &l3&rGod is'
   '9': known in her palaces for a refuge. &l4&rFor, lo, the kings were assembled, they passed by together. &l5&rThey saw it, and so they marvelled; they were troubled, and hasted away. &l6&rFear took hold upon them there, and pain, as of a woman in travail.
   '10': '&l7&rThou breakest the ships of Tarshish with an east wind. &l8&rAs we have
     heard, so have we seen in the city of the Lord of hosts, in the city of our God:
@@ -998,10 +1140,12 @@ Book7:
     her bulwarks, consider her palaces; that ye may tell it to the generation following.
     &l14&rFor this God is our God for ever and ever: he will be our guide even unto
     death.'
-  '13': 'Chapter 49/nHear this, all ye people; give ear, all ye inhabitants of the
-    world: &l2&rBoth low and high, rich and poor, together. &l3&rMy mouth shall speak
-    of wisdom; and the meditation of my heart shall be of understanding. &l4&rI will
-    incline mine ear to'
+  '13': 'Chapter 49
+
+    Hear this, all ye people; give ear, all ye inhabitants of the world: &l2&rBoth
+    low and high, rich and poor, together. &l3&rMy mouth shall speak of wisdom; and
+    the meditation of my heart shall be of understanding. &l4&rI will incline mine
+    ear to'
   '14': 'a parable: I will open my dark saying upon the harp. &l5&rWherefore should
     I fear in the days of evil, when the iniquity of my heels shall compass me about?
     &l6&rThey that trust in their wealth, and boast themselves in the multitude of
@@ -1026,10 +1170,11 @@ Book7:
   '20': '&l19&rHe shall go to the generation of his fathers; they shall never see
     light. &l20&rMan that is in honour, and understandeth not, is like the beasts
     that perish.'
-  '21': 'Chapter 50/nThe mighty God, even the Lord, hath spoken, and called the earth
-    from the rising of the sun unto the going down thereof. &l2&rOut of Zion, the
-    perfection of beauty, God hath shined. &l3&rOur God shall come, and shall not
-    keep silence: a fire'
+  '21': 'Chapter 50
+
+    The mighty God, even the Lord, hath spoken, and called the earth from the rising
+    of the sun unto the going down thereof. &l2&rOut of Zion, the perfection of beauty,
+    God hath shined. &l3&rOur God shall come, and shall not keep silence: a fire'
   '22': shall devour before him, and it shall be very tempestuous round about him. &l4&rHe shall call to the heavens from above, and to the earth, that he may judge his people. &l5&rGather my saints together unto me; those that have made a covenant with me by
   '23': 'sacrifice. &l6&rAnd the heavens shall declare his righteousness: for God
     is judge himself. Selah. &l7&rHear, O my people, and I will speak; O Israel, and
@@ -1053,10 +1198,11 @@ Book7:
     you in pieces, and there be none to deliver. &l23&rWhoso offereth praise glorifieth
     me: and to him that ordereth his conversation aright will I shew the salvation
     of God.'
-  '30': 'Chapter 51/nHave mercy upon me, O God, according to thy lovingkindness: according
-    unto the multitude of thy tender mercies blot out my transgressions. &l2&rWash
-    me throughly from mine iniquity, and cleanse me from my sin. &l3&rFor I acknowledge
-    my'
+  '30': 'Chapter 51
+
+    Have mercy upon me, O God, according to thy lovingkindness: according unto the
+    multitude of thy tender mercies blot out my transgressions. &l2&rWash me throughly
+    from mine iniquity, and cleanse me from my sin. &l3&rFor I acknowledge my'
   '31': 'transgressions: and my sin is ever before me. &l4&rAgainst thee, thee only,
     have I sinned, and done this evil in thy sight: that thou mightest be justified
     when thou speakest, and be clear when thou judgest. &l5&rBehold, I was shapen
@@ -1076,7 +1222,11 @@ Book7:
     with the sacrifices of'
   '37': 'righteousness, with burnt offering and whole burnt offering: then shall they
     offer bullocks upon thine altar.'
-  '38': Chapter 52/nWhy boastest thou thyself in mischief, O mighty man? the goodness of God endureth continually. &l2&rThe tongue deviseth mischiefs; like a sharp razor, working deceitfully. &l3&rThou lovest evil more than good; and lying rather than to speak
+  '38': 'Chapter 52
+
+    Why boastest thou thyself in mischief, O mighty man? the goodness of God endureth
+    continually. &l2&rThe tongue deviseth mischiefs; like a sharp razor, working deceitfully.
+    &l3&rThou lovest evil more than good; and lying rather than to speak'
   '39': righteousness. Selah. &l4&rThou lovest all devouring words, O thou deceitful tongue. &l5&rGod shall likewise destroy thee for ever, he shall take thee away, and pluck thee out of thy dwelling place, and root thee out of the land of the living. Selah.
   '40': '&l6&rThe righteous also shall see, and fear, and shall laugh at him: &l7&rLo,
     this is the man that made not God his strength; but trusted in the abundance of
@@ -1085,10 +1235,12 @@ Book7:
   '41': 'the house of God: I trust in the mercy of God for ever and ever. &l9&rI will
     praise thee for ever, because thou hast done it: and I will wait on thy name;
     for it is good before thy saints.'
-  '42': 'Chapter 53/nThe fool hath said in his heart, There is no God. Corrupt are
-    they, and have done abominable iniquity: there is none that doeth good. &l2&rGod
-    looked down from heaven upon the children of men, to see if there were any that
-    did understand, that'
+  '42': 'Chapter 53
+
+    The fool hath said in his heart, There is no God. Corrupt are they, and have done
+    abominable iniquity: there is none that doeth good. &l2&rGod looked down from
+    heaven upon the children of men, to see if there were any that did understand,
+    that'
   '43': 'did seek God. &l3&rEvery one of them is gone back: they are altogether become
     filthy; there is none that doeth good, no, not one. &l4&rHave the workers of iniquity
     no knowledge? who eat up my people as they eat bread: they have not called upon
@@ -1098,18 +1250,21 @@ Book7:
     God hath despised them. &l6&rOh that the salvation of Israel were come out of
     Zion! When God'
   '45': bringeth back the captivity of his people, Jacob shall rejoice, and Israel shall be glad.
-  '46': 'Chapter 54/nSave me, O God, by thy name, and judge me by thy strength. &l2&rHear
-    my prayer, O God; give ear to the words of my mouth. &l3&rFor strangers are risen
-    up against me, and oppressors seek after my soul: they have not set God before
-    them. Selah.'
+  '46': 'Chapter 54
+
+    Save me, O God, by thy name, and judge me by thy strength. &l2&rHear my prayer,
+    O God; give ear to the words of my mouth. &l3&rFor strangers are risen up against
+    me, and oppressors seek after my soul: they have not set God before them. Selah.'
   '47': '&l4&rBehold, God is mine helper: the Lord is with them that uphold my soul.
     &l5&rHe shall reward evil unto mine enemies: cut them off in thy truth. &l6&rI
     will freely sacrifice unto thee: I will praise thy name, O Lord; for it is good.
     &l7&rFor he hath'
   '48': 'delivered me out of all trouble: and mine eye hath seen his desire upon mine
     enemies.'
-  '49': 'Chapter 55/nGive ear to my prayer, O God; and hide not thyself from my supplication.
-    &l2&rAttend unto me, and hear me: I mourn in my complaint, and make a noise; &l3&rBecause
+  '49': 'Chapter 55
+
+    Give ear to my prayer, O God; and hide not thyself from my supplication. &l2&rAttend
+    unto me, and hear me: I mourn in my complaint, and make a noise; &l3&rBecause
     of the voice of the enemy, because of the oppression of the wicked: for they cast'
   '50': 'iniquity upon me, and in wrath they hate me. &l4&rMy heart is sore pained
     within me: and the terrors of death are fallen upon me. &l5&rFearfulness and trembling
@@ -1121,7 +1276,11 @@ Book8:
   start:
     c: 55
     v: 6
-  '1': Chapter 55 Cont./n&l6&rAnd I said, Oh that I had wings like a dove! for then would I fly away, and be at rest. &l7&rLo, then would I wander far off, and remain in the wilderness. Selah. &l8&rI would hasten my escape from the windy storm and tempest.
+  '1': 'Chapter 55 Cont.
+
+    &l6&rAnd I said, Oh that I had wings like a dove! for then would I fly away, and
+    be at rest. &l7&rLo, then would I wander far off, and remain in the wilderness.
+    Selah. &l8&rI would hasten my escape from the windy storm and tempest.'
   '2': '&l9&rDestroy, O Lord, and divide their tongues: for I have seen violence and
     strife in the city. &l10&rDay and night they go about it upon the walls thereof:
     mischief also and sorrow are in the midst of it. &l11&rWickedness is in the midst
@@ -1149,10 +1308,11 @@ Book8:
   '8': '&l23&rBut thou, O God, shalt bring them down into the pit of destruction:
     bloody and deceitful men shall not live out half their days; but I will trust
     in thee.'
-  '9': 'Chapter 56/nBe merciful unto me, O God: for man would swallow me up; he fighting
-    daily oppresseth me. &l2&rMine enemies would daily swallow me up: for they be
-    many that fight against me, O thou most High. &l3&rWhat time I am afraid, I will
-    trust in thee.'
+  '9': 'Chapter 56
+
+    Be merciful unto me, O God: for man would swallow me up; he fighting daily oppresseth
+    me. &l2&rMine enemies would daily swallow me up: for they be many that fight against
+    me, O thou most High. &l3&rWhat time I am afraid, I will trust in thee.'
   '10': '&l4&rIn God I will praise his word, in God I have put my trust; I will not
     fear what flesh can do unto me. &l5&rEvery day they wrest my words: all their
     thoughts are against me for evil. &l6&rThey gather themselves together, they hide
@@ -1168,29 +1328,33 @@ Book8:
   '13': 'praises unto thee. &l13&rFor thou hast delivered my soul from death: wilt
     not thou deliver my feet from falling, that I may walk before God in the light
     of the living?'
-  '14': 'Chapter 57/nBe merciful unto me, O God, be merciful unto me: for my soul
-    trusteth in thee: yea, in the shadow of thy wings will I make my refuge, until
-    these calamities be overpast. &l2&rI will cry unto God most high; unto God that
-    performeth all things'
-  '15': 'for me. &l3&rHe shall send from heaven, and save me from the reproach of
-    him that would swallow me up. Selah. God shall send forth his mercy and his truth.
+  '14': 'Chapter 57
+
+    Be merciful unto me, O God, be merciful unto me: for my soul trusteth in thee:
+    yea, in the shadow of thy wings will I make my refuge, until these calamities
+    be overpast. &l2&rI will cry unto God most high; unto God that performeth all
+    things for'
+  '15': 'me. &l3&rHe shall send from heaven, and save me from the reproach of him
+    that would swallow me up. Selah. God shall send forth his mercy and his truth.
     &l4&rMy soul is among lions: and I lie even among them that are set on fire, even
-    the sons of men,'
-  '16': 'whose teeth are spears and arrows, and their tongue a sharp sword. &l5&rBe
-    thou exalted, O God, above the heavens; let thy glory be above all the earth.
-    &l6&rThey have prepared a net for my steps; my soul is bowed down: they have digged
-    a pit before me,'
-  '17': 'into the midst whereof they are fallen themselves. Selah. &l7&rMy heart is
-    fixed, O God, my heart is fixed: I will sing and give praise. &l8&rAwake up, my
-    glory; awake, psaltery and harp: I myself will awake early. &l9&rI will praise
-    thee, O Lord, among'
-  '18': 'the people: I will sing unto thee among the nations. &l10&rFor thy mercy
-    is great unto the heavens, and thy truth unto the clouds. &l11&rBe thou exalted,
-    O God, above the heavens: let thy glory be above all the earth.'
-  '19': 'Chapter 58/nDo ye indeed speak righteousness, O congregation? do ye judge
-    uprightly, O ye sons of men? &l2&rYea, in heart ye work wickedness; ye weigh the
-    violence of your hands in the earth. &l3&rThe wicked are estranged from the womb:
-    they go astray as'
+    the sons of men, whose'
+  '16': 'teeth are spears and arrows, and their tongue a sharp sword. &l5&rBe thou
+    exalted, O God, above the heavens; let thy glory be above all the earth. &l6&rThey
+    have prepared a net for my steps; my soul is bowed down: they have digged a pit
+    before me, into the'
+  '17': 'midst whereof they are fallen themselves. Selah. &l7&rMy heart is fixed,
+    O God, my heart is fixed: I will sing and give praise. &l8&rAwake up, my glory;
+    awake, psaltery and harp: I myself will awake early. &l9&rI will praise thee,
+    O Lord, among the people:'
+  '18': 'I will sing unto thee among the nations. &l10&rFor thy mercy is great unto
+    the heavens, and thy truth unto the clouds. &l11&rBe thou exalted, O God, above
+    the heavens: let thy glory be above all the earth.'
+  '19': 'Chapter 58
+
+    Do ye indeed speak righteousness, O congregation? do ye judge uprightly, O ye
+    sons of men? &l2&rYea, in heart ye work wickedness; ye weigh the violence of your
+    hands in the earth. &l3&rThe wicked are estranged from the womb: they go astray
+    as'
   '20': 'soon as they be born, speaking lies. &l4&rTheir poison is like the poison
     of a serpent: they are like the deaf adder that stoppeth her ear; &l5&rWhich will
     not hearken to the voice of charmers, charming never so wisely. &l6&rBreak their
@@ -1206,10 +1370,12 @@ Book8:
   '23': 'he shall wash his feet in the blood of the wicked. &l11&rSo that a man shall
     say, Verily there is a reward for the righteous: verily he is a God that judgeth
     in the earth.'
-  '24': 'Chapter 59/nDeliver me from mine enemies, O my God: defend me from them that
-    rise up against me. &l2&rDeliver me from the workers of iniquity, and save me
-    from bloody men. &l3&rFor, lo, they lie in wait for my soul: the mighty are gathered
-    against me; not'
+  '24': 'Chapter 59
+
+    Deliver me from mine enemies, O my God: defend me from them that rise up against
+    me. &l2&rDeliver me from the workers of iniquity, and save me from bloody men.
+    &l3&rFor, lo, they lie in wait for my soul: the mighty are gathered against me;
+    not'
   '25': 'for my transgression, nor for my sin, O Lord. &l4&rThey run and prepare themselves
     without my fault: awake to help me, and behold. &l5&rThou therefore, O Lord God
     of hosts, the God of Israel, awake to visit all the heathen: be not merciful to
@@ -1235,10 +1401,11 @@ Book8:
     and refuge in the day of my trouble. &l17&rUnto thee, O my strength, will I sing:
     for God is my'
   '31': defence, and the God of my mercy.
-  '32': 'Chapter 60/nO God, thou hast cast us off, thou hast scattered us, thou hast
-    been displeased; O turn thyself to us again. &l2&rThou hast made the earth to
-    tremble; thou hast broken it: heal the breaches thereof; for it shaketh. &l3&rThou
-    hast shewed thy'
+  '32': 'Chapter 60
+
+    O God, thou hast cast us off, thou hast scattered us, thou hast been displeased;
+    O turn thyself to us again. &l2&rThou hast made the earth to tremble; thou hast
+    broken it: heal the breaches thereof; for it shaketh. &l3&rThou hast shewed thy'
   '33': 'people hard things: thou hast made us to drink the wine of astonishment.
     &l4&rThou hast given a banner to them that fear thee, that it may be displayed
     because of the truth. Selah. &l5&rThat thy beloved may be delivered; save with
@@ -1250,21 +1417,25 @@ Book8:
     with our armies?'
   '36': '&l11&rGive us help from trouble: for vain is the help of man. &l12&rThrough
     God we shall do valiantly: for he it is that shall tread down our enemies.'
-  '37': 'Chapter 61/nHear my cry, O God; attend unto my prayer. &l2&rFrom the end
-    of the earth will I cry unto thee, when my heart is overwhelmed: lead me to the
-    rock that is higher than I. &l3&rFor thou hast been a shelter for me, and a strong
-    tower from the'
-  '38': 'enemy. &l4&rI will abide in thy tabernacle for ever: I will trust in the
-    covert of thy wings. Selah. &l5&rFor thou, O God, hast heard my vows: thou hast
-    given me the heritage of those that fear thy name. &l6&rThou wilt prolong the
-    king''s life: and his'
-  '39': 'years as many generations. &l7&rHe shall abide before God for ever: O prepare
-    mercy and truth, which may preserve him. &l8&rSo will I sing praise unto thy name
-    for ever, that I may daily perform my vows.'
-  '40': 'Chapter 62/nTruly my soul waiteth upon God: from him cometh my salvation.
-    &l2&rHe only is my rock and my salvation; he is my defence; I shall not be greatly
-    moved. &l3&rHow long will ye imagine mischief against a man? ye shall be slain
-    all of you: as a'
+  '37': 'Chapter 61
+
+    Hear my cry, O God; attend unto my prayer. &l2&rFrom the end of the earth will
+    I cry unto thee, when my heart is overwhelmed: lead me to the rock that is higher
+    than I. &l3&rFor thou hast been a shelter for me, and a strong tower from the
+    enemy.'
+  '38': ' &l4&rI will abide in thy tabernacle for ever: I will trust in the covert
+    of thy wings. Selah. &l5&rFor thou, O God, hast heard my vows: thou hast given
+    me the heritage of those that fear thy name. &l6&rThou wilt prolong the king''s
+    life: and his years as'
+  '39': 'many generations. &l7&rHe shall abide before God for ever: O prepare mercy
+    and truth, which may preserve him. &l8&rSo will I sing praise unto thy name for
+    ever, that I may daily perform my vows.'
+  '40': 'Chapter 62
+
+    Truly my soul waiteth upon God: from him cometh my salvation. &l2&rHe only is
+    my rock and my salvation; he is my defence; I shall not be greatly moved. &l3&rHow
+    long will ye imagine mischief against a man? ye shall be slain all of you: as
+    a'
   '41': 'bowing wall shall ye be, and as a tottering fence. &l4&rThey only consult
     to cast him down from his excellency: they delight in lies: they bless with their
     mouth, but they curse inwardly. Selah. &l5&rMy soul, wait thou only upon God;
@@ -1280,10 +1451,12 @@ Book8:
   '44': 'increase, set not your heart upon them. &l11&rGod hath spoken once; twice
     have I heard this; that power belongeth unto God. &l12&rAlso unto thee, O Lord,
     belongeth mercy: for thou renderest to every man according to his work.'
-  '45': 'Chapter 63/nO God, thou art my God; early will I seek thee: my soul thirsteth
-    for thee, my flesh longeth for thee in a dry and thirsty land, where no water
-    is; &l2&rTo see thy power and thy glory, so as I have seen thee in the sanctuary.
-    &l3&rBecause thy'
+  '45': 'Chapter 63
+
+    O God, thou art my God; early will I seek thee: my soul thirsteth for thee, my
+    flesh longeth for thee in a dry and thirsty land, where no water is; &l2&rTo see
+    thy power and thy glory, so as I have seen thee in the sanctuary. &l3&rBecause
+    thy'
   '46': 'lovingkindness is better than life, my lips shall praise thee. &l4&rThus
     will I bless thee while I live: I will lift up my hands in thy name. &l5&rMy soul
     shall be satisfied as with marrow and fatness; and my mouth shall praise thee
@@ -1297,9 +1470,11 @@ Book8:
     the king shall rejoice in God; every one that sweareth by him shall glory: but
     the mouth of them'
   '49': that speak lies shall be stopped.
-  '50': 'Chapter 64/nHear my voice, O God, in my prayer: preserve my life from fear
-    of the enemy. &l2&rHide me from the secret counsel of the wicked; from the insurrection
-    of the workers of iniquity:'
+  '50': 'Chapter 64
+
+    Hear my voice, O God, in my prayer: preserve my life from fear of the enemy. &l2&rHide
+    me from the secret counsel of the wicked; from the insurrection of the workers
+    of iniquity:'
   end:
     c: 64
     v: 2
@@ -1307,10 +1482,11 @@ Book9:
   start:
     c: 64
     v: 3
-  '1': 'Chapter 64 Cont./n&l3&rWho whet their tongue like a sword, and bend their
-    bows to shoot their arrows, even bitter words: &l4&rThat they may shoot in secret
-    at the perfect: suddenly do they shoot at him, and fear not. &l5&rThey encourage
-    themselves in an'
+  '1': 'Chapter 64 Cont.
+
+    &l3&rWho whet their tongue like a sword, and bend their bows to shoot their arrows,
+    even bitter words: &l4&rThat they may shoot in secret at the perfect: suddenly
+    do they shoot at him, and fear not. &l5&rThey encourage themselves in an'
   '2': 'evil matter: they commune of laying snares privily; they say, Who shall see
     them? &l6&rThey search out iniquities; they accomplish a diligent search: both
     the inward thought of every one of them, and the heart, is deep. &l7&rBut God
@@ -1321,10 +1497,11 @@ Book9:
     of his doing.'
   '4': ' &l10&rThe righteous shall be glad in the Lord, and shall trust in him; and
     all the upright in heart shall glory.'
-  '5': 'Chapter 65/nPraise waiteth for thee, O God, in Sion: and unto thee shall the
-    vow be performed. &l2&rO thou that hearest prayer, unto thee shall all flesh come.
-    &l3&rIniquities prevail against me: as for our transgressions, thou shalt purge
-    them away.'
+  '5': 'Chapter 65
+
+    Praise waiteth for thee, O God, in Sion: and unto thee shall the vow be performed.
+    &l2&rO thou that hearest prayer, unto thee shall all flesh come. &l3&rIniquities
+    prevail against me: as for our transgressions, thou shalt purge them away.'
   '6': '&l4&rBlessed is the man whom thou choosest, and causest to approach unto thee,
     that he may dwell in thy courts: we shall be satisfied with the goodness of thy
     house, even of thy holy temple. &l5&rBy terrible things in righteousness wilt
@@ -1346,10 +1523,12 @@ Book9:
     rejoice on every side. &l13&rThe pastures are clothed with flocks; the valleys
     also are covered'
   '11': over with corn; they shout for joy, they also sing.
-  '12': 'Chapter 66/nMake a joyful noise unto God, all ye lands: &l2&rSing forth the
-    honour of his name: make his praise glorious. &l3&rSay unto God, How terrible
-    art thou in thy works! through the greatness of thy power shall thine enemies
-    submit themselves unto'
+  '12': 'Chapter 66
+
+    Make a joyful noise unto God, all ye lands: &l2&rSing forth the honour of his
+    name: make his praise glorious. &l3&rSay unto God, How terrible art thou in thy
+    works! through the greatness of thy power shall thine enemies submit themselves
+    unto'
   '13': 'thee. &l4&rAll the earth shall worship thee, and shall sing unto thee; they
     shall sing to thy name. Selah. &l5&rCome and see the works of God: he is terrible
     in his doing toward the children of men. &l6&rHe turned the sea into dry land:
@@ -1372,16 +1551,22 @@ Book9:
     me; he hath attended to the voice of my prayer. &l20&rBlessed be God, which hath
     not turned away my'
   '19': prayer, nor his mercy from me.
-  '20': Chapter 67/nGod be merciful unto us, and bless us; and cause his face to shine upon us; Selah. &l2&rThat thy way may be known upon earth, thy saving health among all nations. &l3&rLet the people praise thee, O God; let all the people praise thee. &l4&rO
-  '21': 'let the nations be glad and sing for joy: for thou shalt judge the people
-    righteously, and govern the nations upon earth. Selah. &l5&rLet the people praise
-    thee, O God; let all the people praise thee. &l6&rThen shall the earth yield her
-    increase; and God,'
-  '22': even our own God, shall bless us. &l7&rGod shall bless us; and all the ends of the earth shall fear him.
-  '23': 'Chapter 68/nLet God arise, let his enemies be scattered: let them also that
-    hate him flee before him. &l2&rAs smoke is driven away, so drive them away: as
-    wax melteth before the fire, so let the wicked perish at the presence of God.
-    &l3&rBut let the'
+  '20': 'Chapter 67
+
+    God be merciful unto us, and bless us; and cause his face to shine upon us; Selah.
+    &l2&rThat thy way may be known upon earth, thy saving health among all nations.
+    &l3&rLet the people praise thee, O God; let all the people praise thee. &l4&rO
+    let'
+  '21': 'the nations be glad and sing for joy: for thou shalt judge the people righteously,
+    and govern the nations upon earth. Selah. &l5&rLet the people praise thee, O God;
+    let all the people praise thee. &l6&rThen shall the earth yield her increase;
+    and God, even'
+  '22': our own God, shall bless us. &l7&rGod shall bless us; and all the ends of the earth shall fear him.
+  '23': 'Chapter 68
+
+    Let God arise, let his enemies be scattered: let them also that hate him flee
+    before him. &l2&rAs smoke is driven away, so drive them away: as wax melteth before
+    the fire, so let the wicked perish at the presence of God. &l3&rBut let the'
   '24': 'righteous be glad; let them rejoice before God: yea, let them exceedingly
     rejoice. &l4&rSing unto God, sing praises to his name: extol him that rideth upon
     the heavens by his name Jah, and rejoice before him. &l5&rA father of the fatherless,
@@ -1425,10 +1610,11 @@ Book9:
     clouds. &l35&rO'
   '38': 'God, thou art terrible out of thy holy places: the God of Israel is he that
     giveth strength and power unto his people. Blessed be God.'
-  '39': 'Chapter 69/nSave me, O God; for the waters are come in unto my soul. &l2&rI
-    sink in deep mire, where there is no standing: I am come into deep waters, where
-    the floods overflow me. &l3&rI am weary of my crying: my throat is dried: mine
-    eyes fail while I'
+  '39': 'Chapter 69
+
+    Save me, O God; for the waters are come in unto my soul. &l2&rI sink in deep mire,
+    where there is no standing: I am come into deep waters, where the floods overflow
+    me. &l3&rI am weary of my crying: my throat is dried: mine eyes fail while I'
   '40': 'wait for my God. &l4&rThey that hate me without a cause are more than the
     hairs of mine head: they that would destroy me, being mine enemies wrongfully,
     are mighty: then I restored that which I took not away. &l5&rO God, thou knowest
@@ -1473,27 +1659,31 @@ Book10:
   start:
     c: 69
     v: 30
-  '1': 'Chapter 69 Cont./n&l30&rI will praise the name of God with a song, and will
-    magnify him with thanksgiving. &l31&rThis also shall please the Lord better than
-    an ox or bullock that hath horns and hoofs. &l32&rThe humble shall see this, and
-    be glad: and your'
+  '1': 'Chapter 69 Cont.
+
+    &l30&rI will praise the name of God with a song, and will magnify him with thanksgiving.
+    &l31&rThis also shall please the Lord better than an ox or bullock that hath horns
+    and hoofs. &l32&rThe humble shall see this, and be glad: and your'
   '2': heart shall live that seek God. &l33&rFor the Lord heareth the poor, and despiseth not his prisoners. &l34&rLet the heaven and earth praise him, the seas, and every thing that moveth therein. &l35&rFor God will save Zion, and will build the cities of
   '3': 'Judah: that they may dwell there, and have it in possession. &l36&rThe seed
     also of his servants shall inherit it: and they that love his name shall dwell
     therein.'
-  '4': 'Chapter 70/nMake haste, o God, to deliver me; make haste to help me, O Lord.
-    &l2&rLet them be ashamed and confounded that seek after my soul: let them be turned
-    backward, and put to confusion, that desire my hurt. &l3&rLet them be turned back
-    for a reward'
+  '4': 'Chapter 70
+
+    Make haste, o God, to deliver me; make haste to help me, O Lord. &l2&rLet them
+    be ashamed and confounded that seek after my soul: let them be turned backward,
+    and put to confusion, that desire my hurt. &l3&rLet them be turned back for a
+    reward'
   '5': 'of their shame that say, Aha, aha. &l4&rLet all those that seek thee rejoice
     and be glad in thee: and let such as love thy salvation say continually, Let God
     be magnified. &l5&rBut I am poor and needy: make haste unto me, O God: thou art
     my help and my'
   '6': deliverer; O Lord, make no tarrying.
-  '7': 'Chapter 71/nIn thee, O Lord, do I put my trust: let me never be put to confusion.
-    &l2&rDeliver me in thy righteousness, and cause me to escape: incline thine ear
-    unto me, and save me. &l3&rBe thou my strong habitation, whereunto I may continually
-    resort:'
+  '7': 'Chapter 71
+
+    In thee, O Lord, do I put my trust: let me never be put to confusion. &l2&rDeliver
+    me in thy righteousness, and cause me to escape: incline thine ear unto me, and
+    save me. &l3&rBe thou my strong habitation, whereunto I may continually resort:'
   '8': 'thou hast given commandment to save me; for thou art my rock and my fortress.
     &l4&rDeliver me, O my God, out of the hand of the wicked, out of the hand of the
     unrighteous and cruel man. &l5&rFor thou art my hope, O Lord God: thou art my
@@ -1531,7 +1721,11 @@ Book10:
     thy righteousness all the day long: for they are confounded, for they are brought
     unto shame, that seek'
   '17': my hurt.
-  '18': Chapter 72/nGive the king thy judgments, O God, and thy righteousness unto the king's son. &l2&rHe shall judge thy people with righteousness, and thy poor with judgment. &l3&rThe mountains shall bring peace to the people, and the little hills, by
+  '18': 'Chapter 72
+
+    Give the king thy judgments, O God, and thy righteousness unto the king''s son.
+    &l2&rHe shall judge thy people with righteousness, and thy poor with judgment.
+    &l3&rThe mountains shall bring peace to the people, and the little hills, by'
   '19': righteousness. &l4&rHe shall judge the poor of the people, he shall save the children of the needy, and shall break in pieces the oppressor. &l5&rThey shall fear thee as long as the sun and moon endure, throughout all generations. &l6&rHe shall come down
   '20': 'like rain upon the mown grass: as showers that water the earth. &l7&rIn his
     days shall the righteous flourish; and abundance of peace so long as the moon
@@ -1558,7 +1752,12 @@ Book10:
     be his glorious name for ever: and let the whole earth be filled with his glory;
     Amen, and Amen.'
   '26': '&l20&rThe prayers of David the son of Jesse are ended.'
-  '27': Chapter 73/nTruly God is good to Israel, even to such as are of a clean heart. &l2&rBut as for me, my feet were almost gone; my steps had well nigh slipped. &l3&rFor I was envious at the foolish, when I saw the prosperity of the wicked. &l4&rFor there are
+  '27': 'Chapter 73
+
+    Truly God is good to Israel, even to such as are of a clean heart. &l2&rBut as
+    for me, my feet were almost gone; my steps had well nigh slipped. &l3&rFor I was
+    envious at the foolish, when I saw the prosperity of the wicked. &l4&rFor there
+    are'
   '28': 'no bands in their death: but their strength is firm. &l5&rThey are not in
     trouble as other men; neither are they plagued like other men. &l6&rTherefore
     pride compasseth them about as a chain; violence covereth them as a garment. &l7&rTheir
@@ -1587,7 +1786,11 @@ Book10:
     go a whoring from'
   '36': 'thee. &l28&rBut it is good for me to draw near to God: I have put my trust
     in the Lord God, that I may declare all thy works.'
-  '37': Chapter 74/nO God, why hast thou cast us off for ever? why doth thine anger smoke against the sheep of thy pasture? &l2&rRemember thy congregation, which thou hast purchased of old; the rod of thine inheritance, which thou hast redeemed; this mount Zion,
+  '37': 'Chapter 74
+
+    O God, why hast thou cast us off for ever? why doth thine anger smoke against
+    the sheep of thy pasture? &l2&rRemember thy congregation, which thou hast purchased
+    of old; the rod of thine inheritance, which thou hast redeemed; this mount Zion,'
   '38': wherein thou hast dwelt. &l3&rLift up thy feet unto the perpetual desolations; even all that the enemy hath done wickedly in the sanctuary. &l4&rThine enemies roar in the midst of thy congregations; they set up their ensigns for signs. &l5&rA man was
   '39': famous according as he had lifted up axes upon the thick trees. &l6&rBut now they break down the carved work thereof at once with axes and hammers. &l7&rThey have cast fire into thy sanctuary, they have defiled by casting down the dwelling place of thy
   '40': 'name to the ground. &l8&rThey said in their hearts, Let us destroy them together:
@@ -1616,10 +1819,11 @@ Book10:
     man reproacheth'
   '46': 'thee daily. &l23&rForget not the voice of thine enemies: the tumult of those
     that rise up against thee increaseth continually.'
-  '47': 'Chapter 75/nUnto thee, O God, do we give thanks, unto thee do we give thanks:
-    for that thy name is near thy wondrous works declare. &l2&rWhen I shall receive
-    the congregation I will judge uprightly. &l3&rThe earth and all the inhabitants
-    thereof are'
+  '47': 'Chapter 75
+
+    Unto thee, O God, do we give thanks, unto thee do we give thanks: for that thy
+    name is near thy wondrous works declare. &l2&rWhen I shall receive the congregation
+    I will judge uprightly. &l3&rThe earth and all the inhabitants thereof are'
   '48': 'dissolved: I bear up the pillars of it. Selah. &l4&rI said unto the fools,
     Deal not foolishly: and to the wicked, Lift not up the horn: &l5&rLift not up
     your horn on high: speak not with a stiff neck. &l6&rFor promotion cometh neither
@@ -1636,27 +1840,31 @@ Book11:
   start:
     c: 76
     v: 1
-  '1': 'Chapter 76 Cont./nChapter 76/nIn Judah is God known: his name is great in
-    Israel. &l2&rIn Salem also is his tabernacle, and his dwelling place in Zion.
-    &l3&rThere brake he the arrows of the bow, the shield, and the sword, and the
-    battle. Selah. &l4&rThou'
-  '2': 'art more glorious and excellent than the mountains of prey. &l5&rThe stouthearted
+  '1': 'Chapter 76 Cont.
+
+    Chapter 76
+
+    In Judah is God known: his name is great in Israel. &l2&rIn Salem also is his
+    tabernacle, and his dwelling place in Zion. &l3&rThere brake he the arrows of
+    the bow, the shield, and the sword, and the battle. Selah. &l4&rThou art'
+  '2': 'more glorious and excellent than the mountains of prey. &l5&rThe stouthearted
     are spoiled, they have slept their sleep: and none of the men of might have found
     their hands. &l6&rAt thy rebuke, O God of Jacob, both the chariot and horse are
-    cast into a'
-  '3': 'dead sleep. &l7&rThou, even thou, art to be feared: and who may stand in thy
-    sight when once thou art angry? &l8&rThou didst cause judgment to be heard from
-    heaven; the earth feared, and was still, &l9&rWhen God arose to judgment, to save
-    all the meek of'
-  '4': 'the earth. Selah. &l10&rSurely the wrath of man shall praise thee: the remainder
+    cast into a dead'
+  '3': 'sleep. &l7&rThou, even thou, art to be feared: and who may stand in thy sight
+    when once thou art angry? &l8&rThou didst cause judgment to be heard from heaven;
+    the earth feared, and was still, &l9&rWhen God arose to judgment, to save all
+    the meek of the'
+  '4': 'earth. Selah. &l10&rSurely the wrath of man shall praise thee: the remainder
     of wrath shalt thou restrain. &l11&rVow, and pay unto the Lord your God: let all
     that be round about him bring presents unto him that ought to be feared. &l12&rHe
-    shall cut'
-  '5': 'off the spirit of princes: he is terrible to the kings of the earth.'
-  '6': 'Chapter 77/nI cried unto God with my voice, even unto God with my voice; and
-    he gave ear unto me. &l2&rIn the day of my trouble I sought the Lord: my sore
-    ran in the night, and ceased not: my soul refused to be comforted. &l3&rI remembered
-    God, and was'
+    shall cut off'
+  '5': 'the spirit of princes: he is terrible to the kings of the earth.'
+  '6': 'Chapter 77
+
+    I cried unto God with my voice, even unto God with my voice; and he gave ear unto
+    me. &l2&rIn the day of my trouble I sought the Lord: my sore ran in the night,
+    and ceased not: my soul refused to be comforted. &l3&rI remembered God, and was'
   '7': 'troubled: I complained, and my spirit was overwhelmed. Selah. &l4&rThou holdest
     mine eyes waking: I am so troubled that I cannot speak. &l5&rI have considered
     the days of old, the years of ancient times. &l6&rI call to remembrance my song
@@ -1682,10 +1890,11 @@ Book11:
     and thy path in the great waters, and thy footsteps are not known. &l20&rThou
     leddest thy people like a'
   '13': flock by the hand of Moses and Aaron.
-  '14': 'Chapter 78/nGive ear, O my people, to my law: incline your ears to the words
-    of my mouth. &l2&rI will open my mouth in a parable: I will utter dark sayings
-    of old: &l3&rWhich we have heard and known, and our fathers have told us. &l4&rWe
-    will not hide them'
+  '14': 'Chapter 78
+
+    Give ear, O my people, to my law: incline your ears to the words of my mouth.
+    &l2&rI will open my mouth in a parable: I will utter dark sayings of old: &l3&rWhich
+    we have heard and known, and our fathers have told us. &l4&rWe will not hide them'
   '15': from their children, shewing to the generation to come the praises of the Lord, and his strength, and his wonderful works that he hath done. &l5&rFor he established a testimony in Jacob, and appointed a law in Israel, which he commanded our fathers, that
   '16': 'they should make them known to their children: &l6&rThat the generation to
     come might know them, even the children which should be born; who should arise
@@ -1764,7 +1973,12 @@ Book11:
     also his servant, and took him from the sheepfolds: &l71&rFrom following the ewes
     great with young he'
   '41': brought him to feed Jacob his people, and Israel his inheritance. &l72&rSo he fed them according to the integrity of his heart; and guided them by the skilfulness of his hands.
-  '42': Chapter 79/nO god, the heathen are come into thine inheritance; thy holy temple have they defiled; they have laid Jerusalem on heaps. &l2&rThe dead bodies of thy servants have they given to be meat unto the fowls of the heaven, the flesh of thy saints unto
+  '42': 'Chapter 79
+
+    O god, the heathen are come into thine inheritance; thy holy temple have they
+    defiled; they have laid Jerusalem on heaps. &l2&rThe dead bodies of thy servants
+    have they given to be meat unto the fowls of the heaven, the flesh of thy saints
+    unto'
   '43': the beasts of the earth. &l3&rTheir blood have they shed like water round about Jerusalem; and there was none to bury them. &l4&rWe are become a reproach to our neighbours, a scorn and derision to them that are round about us. &l5&rHow long, Lord? wilt
   '44': thou be angry for ever? shall thy jealousy burn like fire? &l6&rPour out thy wrath upon the heathen that have not known thee, and upon the kingdoms that have not called upon thy name. &l7&rFor they have devoured Jacob, and laid waste his dwelling place.
   '45': '&l8&rO remember not against us former iniquities: let thy tender mercies
@@ -1777,7 +1991,12 @@ Book11:
     the greatness of'
   '47': thy power preserve thou those that are appointed to die; &l12&rAnd render unto our neighbours sevenfold into their bosom their reproach, wherewith they have reproached thee, O Lord. &l13&rSo we thy people and sheep of thy pasture will give thee thanks for
   '48': 'ever: we will shew forth thy praise to all generations.'
-  '49': Chapter 80/nGive ear, O Shepherd of Israel, thou that leadest Joseph like a flock; thou that dwellest between the cherubims, shine forth. &l2&rBefore Ephraim and Benjamin and Manasseh stir up thy strength, and come and save us. &l3&rTurn us again, O God,
+  '49': 'Chapter 80
+
+    Give ear, O Shepherd of Israel, thou that leadest Joseph like a flock; thou that
+    dwellest between the cherubims, shine forth. &l2&rBefore Ephraim and Benjamin
+    and Manasseh stir up thy strength, and come and save us. &l3&rTurn us again, O
+    God,'
   '50': and cause thy face to shine; and we shall be saved. &l4&rO Lord God of hosts, how long wilt thou be angry against the prayer of thy people? &l5&rThou feedest them with the bread of tears; and givest them tears to drink in great measure.
   end:
     c: 80
@@ -1786,10 +2005,11 @@ Book12:
   start:
     c: 80
     v: 6
-  '1': 'Chapter 80 Cont./n&l6&rThou makest us a strife unto our neighbours: and our
-    enemies laugh among themselves. &l7&rTurn us again, O God of hosts, and cause
-    thy face to shine; and we shall be saved. &l8&rThou hast brought a vine out of
-    Egypt: thou hast cast'
+  '1': 'Chapter 80 Cont.
+
+    &l6&rThou makest us a strife unto our neighbours: and our enemies laugh among
+    themselves. &l7&rTurn us again, O God of hosts, and cause thy face to shine; and
+    we shall be saved. &l8&rThou hast brought a vine out of Egypt: thou hast cast'
   '2': out the heathen, and planted it. &l9&rThou preparedst room before it, and didst cause it to take deep root, and it filled the land. &l10&rThe hills were covered with the shadow of it, and the boughs thereof were like the goodly cedars. &l11&rShe sent out
   '3': her boughs unto the sea, and her branches unto the river. &l12&rWhy hast thou then broken down her hedges, so that all they which pass by the way do pluck her? &l13&rThe boar out of the wood doth waste it, and the wild beast of the field doth devour it.
   '4': '&l14&rReturn, we beseech thee, O God of hosts: look down from heaven, and
@@ -1802,10 +2022,11 @@ Book12:
     upon thy name.'
   '6': '&l19&rTurn us again, O Lord God of hosts, cause thy face to shine; and we
     shall be saved.'
-  '7': 'Chapter 81/nSing aloud unto God our strength: make a joyful noise unto the
-    God of Jacob. &l2&rTake a psalm, and bring hither the timbrel, the pleasant harp
-    with the psaltery. &l3&rBlow up the trumpet in the new moon, in the time appointed,
-    on our solemn'
+  '7': 'Chapter 81
+
+    Sing aloud unto God our strength: make a joyful noise unto the God of Jacob. &l2&rTake
+    a psalm, and bring hither the timbrel, the pleasant harp with the psaltery. &l3&rBlow
+    up the trumpet in the new moon, in the time appointed, on our solemn'
   '8': 'feast day. &l4&rFor this was a statute for Israel, and a law of the God of
     Jacob. &l5&rThis he ordained in Joseph for a testimony, when he went out through
     the land of Egypt: where I heard a language that I understood not. &l6&rI removed
@@ -1827,10 +2048,11 @@ Book12:
     time should have endured for ever. &l16&rHe should have fed them also with the
     finest of the'
   '13': 'wheat: and with honey out of the rock should I have satisfied thee.'
-  '14': 'Chapter 82/nGod standeth in the congregation of the mighty; he judgeth among
-    the gods. &l2&rHow long will ye judge unjustly, and accept the persons of the
-    wicked? Selah. &l3&rDefend the poor and fatherless: do justice to the afflicted
-    and needy.'
+  '14': 'Chapter 82
+
+    God standeth in the congregation of the mighty; he judgeth among the gods. &l2&rHow
+    long will ye judge unjustly, and accept the persons of the wicked? Selah. &l3&rDefend
+    the poor and fatherless: do justice to the afflicted and needy.'
   '15': '&l4&rDeliver the poor and needy: rid them out of the hand of the wicked.
     &l5&rThey know not, neither will they understand; they walk on in darkness: all
     the foundations of the earth are out of course. &l6&rI have said, Ye are gods;
@@ -1838,10 +2060,11 @@ Book12:
   '16': 'children of the most High. &l7&rBut ye shall die like men, and fall like
     one of the princes. &l8&rArise, O God, judge the earth: for thou shalt inherit
     all nations.'
-  '17': 'Chapter 83/nKeep not thou silence, O God: hold not thy peace, and be not
-    still, O God. &l2&rFor, lo, thine enemies make a tumult: and they that hate thee
-    have lifted up the head. &l3&rThey have taken crafty counsel against thy people,
-    and consulted against'
+  '17': 'Chapter 83
+
+    Keep not thou silence, O God: hold not thy peace, and be not still, O God. &l2&rFor,
+    lo, thine enemies make a tumult: and they that hate thee have lifted up the head.
+    &l3&rThey have taken crafty counsel against thy people, and consulted against'
   '18': 'thy hidden ones. &l4&rThey have said, Come, and let us cut them off from
     being a nation; that the name of Israel may be no more in remembrance. &l5&rFor
     they have consulted together with one consent: they are confederate against thee:
@@ -1860,10 +2083,12 @@ Book12:
     them be put to shame, and perish: &l18&rThat men may know that thou, whose name
     alone is Jehovah,'
   '23': art the most high over all the earth.
-  '24': 'Chapter 84/nHow amiable are thy tabernacles, O Lord of hosts! &l2&rMy soul
-    longeth, yea, even fainteth for the courts of the Lord: my heart and my flesh
-    crieth out for the living God. &l3&rYea, the sparrow hath found an house, and
-    the swallow a nest for'
+  '24': 'Chapter 84
+
+    How amiable are thy tabernacles, O Lord of hosts! &l2&rMy soul longeth, yea, even
+    fainteth for the courts of the Lord: my heart and my flesh crieth out for the
+    living God. &l3&rYea, the sparrow hath found an house, and the swallow a nest
+    for'
   '25': 'herself, where she may lay her young, even thine altars, O Lord of hosts,
     my King, and my God. &l4&rBlessed are they that dwell in thy house: they will
     be still praising thee. Selah. &l5&rBlessed is the man whose strength is in thee;
@@ -1876,10 +2101,11 @@ Book12:
   '28': 'Lord God is a sun and shield: the Lord will give grace and glory: no good
     thing will he withhold from them that walk uprightly. &l12&rO Lord of hosts, blessed
     is the man that trusteth in thee.'
-  '29': 'Chapter 85/nLord, thou hast been favourable unto thy land: thou hast brought
-    back the captivity of Jacob. &l2&rThou hast forgiven the iniquity of thy people,
-    thou hast covered all their sin. Selah. &l3&rThou hast taken away all thy wrath:
-    thou hast turned'
+  '29': 'Chapter 85
+
+    Lord, thou hast been favourable unto thy land: thou hast brought back the captivity
+    of Jacob. &l2&rThou hast forgiven the iniquity of thy people, thou hast covered
+    all their sin. Selah. &l3&rThou hast taken away all thy wrath: thou hast turned'
   '30': 'thyself from the fierceness of thine anger. &l4&rTurn us, O God of our salvation,
     and cause thine anger toward us to cease. &l5&rWilt thou be angry with us for
     ever? wilt thou draw out thine anger to all generations? &l6&rWilt thou not revive
@@ -1892,10 +2118,12 @@ Book12:
   '33': '&l12&rYea, the Lord shall give that which is good; and our land shall yield
     her increase. &l13&rRighteousness shall go before him; and shall set us in the
     way of his steps.'
-  '34': 'Chapter 86/nBow down thine ear, O Lord, hear me: for I am poor and needy.
-    &l2&rPreserve my soul; for I am holy: O thou my God, save thy servant that trusteth
-    in thee. &l3&rBe merciful unto me, O Lord: for I cry unto thee daily. &l4&rRejoice
-    the soul of thy'
+  '34': 'Chapter 86
+
+    Bow down thine ear, O Lord, hear me: for I am poor and needy. &l2&rPreserve my
+    soul; for I am holy: O thou my God, save thy servant that trusteth in thee. &l3&rBe
+    merciful unto me, O Lord: for I cry unto thee daily. &l4&rRejoice the soul of
+    thy'
   '35': 'servant: for unto thee, O Lord, do I lift up my soul. &l5&rFor thou, Lord,
     art good, and ready to forgive; and plenteous in mercy unto all them that call
     upon thee. &l6&rGive ear, O Lord, unto my prayer; and attend to the voice of my
@@ -1915,17 +2143,23 @@ Book12:
   '39': have not set thee before them. &l15&rBut thou, O Lord, art a God full of compassion, and gracious, long suffering, and plenteous in mercy and truth. &l16&rO turn unto me, and have mercy upon me; give thy strength unto thy servant, and save the son of thine
   '40': 'handmaid. &l17&rShew me a token for good; that they which hate me may see
     it, and be ashamed: because thou, Lord, hast holpen me, and comforted me.'
-  '41': Chapter 87/nHis foundation is in the holy mountains. &l2&rThe Lord loveth the gates of Zion more than all the dwellings of Jacob. &l3&rGlorious things are spoken of thee, O city of God. Selah. &l4&rI will make mention of Rahab and Babylon to them that know
+  '41': 'Chapter 87
+
+    His foundation is in the holy mountains. &l2&rThe Lord loveth the gates of Zion
+    more than all the dwellings of Jacob. &l3&rGlorious things are spoken of thee,
+    O city of God. Selah. &l4&rI will make mention of Rahab and Babylon to them that
+    know'
   '42': 'me: behold Philistia, and Tyre, with Ethiopia; this man was born there. &l5&rAnd
     of Zion it shall be said, This and that man was born in her: and the highest himself
     shall establish her. &l6&rThe Lord shall count, when he writeth up the people,
     that this'
   '43': 'man was born there. Selah. &l7&rAs well the singers as the players on instruments
     shall be there: all my springs are in thee.'
-  '44': 'Chapter 88/nO lord God of my salvation, I have cried day and night before
-    thee: &l2&rLet my prayer come before thee: incline thine ear unto my cry; &l3&rFor
-    my soul is full of troubles: and my life draweth nigh unto the grave. &l4&rI am
-    counted with them'
+  '44': 'Chapter 88
+
+    O lord God of my salvation, I have cried day and night before thee: &l2&rLet my
+    prayer come before thee: incline thine ear unto my cry; &l3&rFor my soul is full
+    of troubles: and my life draweth nigh unto the grave. &l4&rI am counted with them'
   '45': 'that go down into the pit: I am as a man that hath no strength: &l5&rFree
     among the dead, like the slain that lie in the grave, whom thou rememberest no
     more: and they are cut off from thy hand. &l6&rThou hast laid me in the lowest
@@ -1951,10 +2185,13 @@ Book13:
   start:
     c: 89
     v: 1
-  '1': 'Chapter 89 Cont./nChapter 89/nI will sing of the mercies of the Lord for ever:
-    with my mouth will I make known thy faithfulness to all generations. &l2&rFor
-    I have said, Mercy shall be built up for ever: thy faithfulness shalt thou establish
-    in the very'
+  '1': 'Chapter 89 Cont.
+
+    Chapter 89
+
+    I will sing of the mercies of the Lord for ever: with my mouth will I make known
+    thy faithfulness to all generations. &l2&rFor I have said, Mercy shall be built
+    up for ever: thy faithfulness shalt thou establish in the very'
   '2': 'heavens. &l3&rI have made a covenant with my chosen, I have sworn unto David
     my servant, &l4&rThy seed will I establish for ever, and build up thy throne to
     all generations. Selah. &l5&rAnd the heavens shall praise thy wonders, O Lord:
@@ -2007,7 +2244,11 @@ Book13:
     where are thy former'
   '19': lovingkindnesses, which thou swarest unto David in thy truth? &l50&rRemember, Lord, the reproach of thy servants; how I do bear in my bosom the reproach of all the mighty people; &l51&rWherewith thine enemies have reproached, O Lord; wherewith they have
   '20': reproached the footsteps of thine anointed. &l52&rBlessed be the Lord for evermore. Amen, and Amen.
-  '21': Chapter 90/nLord, thou hast been our dwelling place in all generations. &l2&rBefore the mountains were brought forth, or ever thou hadst formed the earth and the world, even from everlasting to everlasting, thou art God. &l3&rThou turnest man to
+  '21': 'Chapter 90
+
+    Lord, thou hast been our dwelling place in all generations. &l2&rBefore the mountains
+    were brought forth, or ever thou hadst formed the earth and the world, even from
+    everlasting to everlasting, thou art God. &l3&rThou turnest man to'
   '22': 'destruction; and sayest, Return, ye children of men. &l4&rFor a thousand
     years in thy sight are but as yesterday when it is past, and as a watch in the
     night. &l5&rThou carriest them away as with a flood; they are as a sleep: in the
@@ -2027,10 +2268,12 @@ Book13:
     upon us: and establish thou the work of our hands upon us; yea, the work of our
     hands establish thou'
   '28': it.
-  '29': 'Chapter 91/nHe that dwelleth in the secret place of the most High shall abide
-    under the shadow of the Almighty. &l2&rI will say of the Lord, He is my refuge
-    and my fortress: my God; in him will I trust. &l3&rSurely he shall deliver thee
-    from the snare of'
+  '29': 'Chapter 91
+
+    He that dwelleth in the secret place of the most High shall abide under the shadow
+    of the Almighty. &l2&rI will say of the Lord, He is my refuge and my fortress:
+    my God; in him will I trust. &l3&rSurely he shall deliver thee from the snare
+    of'
   '30': 'the fowler, and from the noisome pestilence. &l4&rHe shall cover thee with
     his feathers, and under his wings shalt thou trust: his truth shall be thy shield
     and buckler. &l5&rThou shalt not be afraid for the terror by night; nor for the
@@ -2046,10 +2289,11 @@ Book13:
     me, and I will answer him: I will be with him in trouble; I will deliver him,
     and honour him.'
   '35': '&l16&rWith long life will I satisfy him, and shew him my salvation.'
-  '36': 'Chapter 92/nIt is a good thing to give thanks unto the Lord, and to sing
-    praises unto thy name, O Most High: &l2&rTo shew forth thy lovingkindness in the
-    morning, and thy faithfulness every night, &l3&rUpon an instrument of ten strings,
-    and upon the'
+  '36': 'Chapter 92
+
+    It is a good thing to give thanks unto the Lord, and to sing praises unto thy
+    name, O Most High: &l2&rTo shew forth thy lovingkindness in the morning, and thy
+    faithfulness every night, &l3&rUpon an instrument of ten strings, and upon the'
   '37': 'psaltery; upon the harp with a solemn sound. &l4&rFor thou, Lord, hast made
     me glad through thy work: I will triumph in the works of thy hands. &l5&rO Lord,
     how great are thy works! and thy thoughts are very deep. &l6&rA brutish man knoweth
@@ -2069,19 +2313,21 @@ Book13:
   '41': 'shall still bring forth fruit in old age; they shall be fat and flourishing;
     &l15&rTo shew that the Lord is upright: he is my rock, and there is no unrighteousness
     in him.'
-  '42': 'Chapter 93/nThe Lord reigneth, he is clothed with majesty; the Lord is clothed
-    with strength, wherewith he hath girded himself: the world also is stablished,
-    that it cannot be moved. &l2&rThy throne is established of old: thou art from
-    everlasting.'
-  '43': '&l3&rThe floods have lifted up, O Lord, the floods have lifted up their voice;
-    the floods lift up their waves. &l4&rThe Lord on high is mightier than the noise
-    of many waters, yea, than the mighty waves of the sea. &l5&rThy testimonies are
-    very sure:'
-  '44': holiness becometh thine house, O Lord, for ever.
-  '45': 'Chapter 94/nO Lord God, to whom vengeance belongeth; O God, to whom vengeance
-    belongeth, shew thyself. &l2&rLift up thyself, thou judge of the earth: render
-    a reward to the proud. &l3&rLord, how long shall the wicked, how long shall the
-    wicked triumph?'
+  '42': 'Chapter 93
+
+    The Lord reigneth, he is clothed with majesty; the Lord is clothed with strength,
+    wherewith he hath girded himself: the world also is stablished, that it cannot
+    be moved. &l2&rThy throne is established of old: thou art from everlasting. &l3&rThe'
+  '43': 'floods have lifted up, O Lord, the floods have lifted up their voice; the
+    floods lift up their waves. &l4&rThe Lord on high is mightier than the noise of
+    many waters, yea, than the mighty waves of the sea. &l5&rThy testimonies are very
+    sure: holiness'
+  '44': becometh thine house, O Lord, for ever.
+  '45': 'Chapter 94
+
+    O Lord God, to whom vengeance belongeth; O God, to whom vengeance belongeth, shew
+    thyself. &l2&rLift up thyself, thou judge of the earth: render a reward to the
+    proud. &l3&rLord, how long shall the wicked, how long shall the wicked triumph?'
   '46': '&l4&rHow long shall they utter and speak hard things? and all the workers
     of iniquity boast themselves? &l5&rThey break in pieces thy people, O Lord, and
     afflict thine heritage. &l6&rThey slay the widow and the stranger, and murder
@@ -2106,13 +2352,19 @@ Book14:
   start:
     c: 94
     v: 18
-  '1': Chapter 94 Cont./n&l18&rWhen I said, My foot slippeth; thy mercy, O Lord, held me up. &l19&rIn the multitude of my thoughts within me thy comforts delight my soul. &l20&rShall the throne of iniquity have fellowship with thee, which frameth mischief by a
+  '1': 'Chapter 94 Cont.
+
+    &l18&rWhen I said, My foot slippeth; thy mercy, O Lord, held me up. &l19&rIn the
+    multitude of my thoughts within me thy comforts delight my soul. &l20&rShall the
+    throne of iniquity have fellowship with thee, which frameth mischief by a'
   '2': law? &l21&rThey gather themselves together against the soul of the righteous, and condemn the innocent blood. &l22&rBut the Lord is my defence; and my God is the rock of my refuge. &l23&rAnd he shall bring upon them their own iniquity, and shall cut them
   '3': off in their own wickedness; yea, the Lord our God shall cut them off.
-  '4': 'Chapter 95/nO come, let us sing unto the Lord: let us make a joyful noise
-    to the rock of our salvation. &l2&rLet us come before his presence with thanksgiving,
-    and make a joyful noise unto him with psalms. &l3&rFor the Lord is a great God,
-    and a great King'
+  '4': 'Chapter 95
+
+    O come, let us sing unto the Lord: let us make a joyful noise to the rock of our
+    salvation. &l2&rLet us come before his presence with thanksgiving, and make a
+    joyful noise unto him with psalms. &l3&rFor the Lord is a great God, and a great
+    King'
   '5': 'above all gods. &l4&rIn his hand are the deep places of the earth: the strength
     of the hills is his also. &l5&rThe sea is his, and he made it: and his hands formed
     the dry land. &l6&rO come, let us worship and bow down: let us kneel before the
@@ -2126,10 +2378,11 @@ Book14:
     they have not known my ways: &l11&rUnto whom I sware in my wrath that they should
     not enter into my'
   '8': rest.
-  '9': 'Chapter 96/nO sing unto the Lord a new song: sing unto the Lord, all the earth.
-    &l2&rSing unto the Lord, bless his name; shew forth his salvation from day to
-    day. &l3&rDeclare his glory among the heathen, his wonders among all people. &l4&rFor
-    the Lord is'
+  '9': 'Chapter 96
+
+    O sing unto the Lord a new song: sing unto the Lord, all the earth. &l2&rSing
+    unto the Lord, bless his name; shew forth his salvation from day to day. &l3&rDeclare
+    his glory among the heathen, his wonders among all people. &l4&rFor the Lord is'
   '10': 'great, and greatly to be praised: he is to be feared above all gods. &l5&rFor
     all the gods of the nations are idols: but the Lord made the heavens. &l6&rHonour
     and majesty are before him: strength and beauty are in his sanctuary. &l7&rGive
@@ -2146,10 +2399,11 @@ Book14:
     the wood rejoice &l13&rBefore the Lord: for he cometh, for he cometh to judge
     the earth: he shall judge the world with righteousness, and the people with his
     truth.'
-  '14': 'Chapter 97/nThe Lord reigneth; let the earth rejoice; let the multitude of
-    isles be glad thereof. &l2&rClouds and darkness are round about him: righteousness
-    and judgment are the habitation of his throne. &l3&rA fire goeth before him, and
-    burneth up his'
+  '14': 'Chapter 97
+
+    The Lord reigneth; let the earth rejoice; let the multitude of isles be glad thereof.
+    &l2&rClouds and darkness are round about him: righteousness and judgment are the
+    habitation of his throne. &l3&rA fire goeth before him, and burneth up his'
   '15': 'enemies round about. &l4&rHis lightnings enlightened the world: the earth
     saw, and trembled. &l5&rThe hills melted like wax at the presence of the Lord,
     at the presence of the Lord of the whole earth. &l6&rThe heavens declare his righteousness,
@@ -2163,42 +2417,43 @@ Book14:
     them out of the hand of the wicked. &l11&rLight is sown for the righteous, and
     gladness for the'
   '18': upright in heart. &l12&rRejoice in the Lord, ye righteous; and give thanks at the remembrance of his holiness.
-  '19': 'Chapter 98/nO sing unto the Lord a new song; for he hath done marvellous
-    things: his right hand, and his holy arm, hath gotten him the victory. &l2&rThe
-    Lord hath made known his salvation: his righteousness hath he openly shewed in
-    the sight of the'
-  '20': 'heathen. &l3&rHe hath remembered his mercy and his truth toward the house
-    of Israel: all the ends of the earth have seen the salvation of our God. &l4&rMake
-    a joyful noise unto the Lord, all the earth: make a loud noise, and rejoice, and
-    sing praise.'
-  '21': '&l5&rSing unto the Lord with the harp; with the harp, and the voice of a
-    psalm. &l6&rWith trumpets and sound of cornet make a joyful noise before the Lord,
-    the King. &l7&rLet the sea roar, and the fulness thereof; the world, and they
-    that dwell therein.'
-  '22': '&l8&rLet the floods clap their hands: let the hills be joyful together &l9&rBefore
-    the Lord; for he cometh to judge the earth: with righteousness shall he judge
-    the world, and the people with equity.'
-  '23': 'Chapter 99/nThe Lord reigneth; let the people tremble: he sitteth between
-    the cherubims; let the earth be moved. &l2&rThe Lord is great in Zion; and he
-    is high above all the people. &l3&rLet them praise thy great and terrible name;
-    for it is holy. &l4&rThe'
+  '19': 'Chapter 98
+
+    O sing unto the Lord a new song; for he hath done marvellous things: his right
+    hand, and his holy arm, hath gotten him the victory. &l2&rThe Lord hath made known
+    his salvation: his righteousness hath he openly shewed in the sight of the heathen.'
+  '20': ' &l3&rHe hath remembered his mercy and his truth toward the house of Israel:
+    all the ends of the earth have seen the salvation of our God. &l4&rMake a joyful
+    noise unto the Lord, all the earth: make a loud noise, and rejoice, and sing praise.
+    &l5&rSing'
+  '21': unto the Lord with the harp; with the harp, and the voice of a psalm. &l6&rWith trumpets and sound of cornet make a joyful noise before the Lord, the King. &l7&rLet the sea roar, and the fulness thereof; the world, and they that dwell therein. &l8&rLet the
+  '22': 'floods clap their hands: let the hills be joyful together &l9&rBefore the
+    Lord; for he cometh to judge the earth: with righteousness shall he judge the
+    world, and the people with equity.'
+  '23': 'Chapter 99
+
+    The Lord reigneth; let the people tremble: he sitteth between the cherubims; let
+    the earth be moved. &l2&rThe Lord is great in Zion; and he is high above all the
+    people. &l3&rLet them praise thy great and terrible name; for it is holy. &l4&rThe'
   '24': king's strength also loveth judgment; thou dost establish equity, thou executest judgment and righteousness in Jacob. &l5&rExalt ye the Lord our God, and worship at his footstool; for he is holy. &l6&rMoses and Aaron among his priests, and Samuel among
   '25': 'them that call upon his name; they called upon the Lord, and he answered
     them. &l7&rHe spake unto them in the cloudy pillar: they kept his testimonies,
     and the ordinance that he gave them. &l8&rThou answeredst them, O Lord our God:
     thou wast a God that'
   '26': forgavest them, though thou tookest vengeance of their inventions. &l9&rExalt the Lord our God, and worship at his holy hill; for the Lord our God is holy.
-  '27': 'Chapter 100/nMake a joyful noise unto the Lord, all ye lands. &l2&rServe
-    the Lord with gladness: come before his presence with singing. &l3&rKnow ye that
-    the Lord he is God: it is he that hath made us, and not we ourselves; we are his
-    people, and the sheep'
+  '27': 'Chapter 100
+
+    Make a joyful noise unto the Lord, all ye lands. &l2&rServe the Lord with gladness:
+    come before his presence with singing. &l3&rKnow ye that the Lord he is God: it
+    is he that hath made us, and not we ourselves; we are his people, and the sheep'
   '28': 'of his pasture. &l4&rEnter into his gates with thanksgiving, and into his
     courts with praise: be thankful unto him, and bless his name. &l5&rFor the Lord
     is good; his mercy is everlasting; and his truth endureth to all generations.'
-  '29': 'Chapter 101/nI will sing of mercy and judgment: unto thee, O Lord, will I
-    sing. &l2&rI will behave myself wisely in a perfect way. O when wilt thou come
-    unto me? I will walk within my house with a perfect heart. &l3&rI will set no
-    wicked thing before mine'
+  '29': 'Chapter 101
+
+    I will sing of mercy and judgment: unto thee, O Lord, will I sing. &l2&rI will
+    behave myself wisely in a perfect way. O when wilt thou come unto me? I will walk
+    within my house with a perfect heart. &l3&rI will set no wicked thing before mine'
   '30': 'eyes: I hate the work of them that turn aside; it shall not cleave to me.
     &l4&rA froward heart shall depart from me: I will not know a wicked person. &l5&rWhoso
     privily slandereth his neighbour, him will I cut off: him that hath an high look
@@ -2208,10 +2463,12 @@ Book14:
     serve me. &l7&rHe that worketh deceit shall not dwell within my house: he that
     telleth lies shall not'
   '32': tarry in my sight. &l8&rI will early destroy all the wicked of the land; that I may cut off all wicked doers from the city of the Lord.
-  '33': 'Chapter 102/nHear my prayer, O Lord, and let my cry come unto thee. &l2&rHide
-    not thy face from me in the day when I am in trouble; incline thine ear unto me:
-    in the day when I call answer me speedily. &l3&rFor my days are consumed like
-    smoke, and my bones'
+  '33': 'Chapter 102
+
+    Hear my prayer, O Lord, and let my cry come unto thee. &l2&rHide not thy face
+    from me in the day when I am in trouble; incline thine ear unto me: in the day
+    when I call answer me speedily. &l3&rFor my days are consumed like smoke, and
+    my bones'
   '34': 'are burned as an hearth. &l4&rMy heart is smitten, and withered like grass;
     so that I forget to eat my bread. &l5&rBy reason of the voice of my groaning my
     bones cleave to my skin. &l6&rI am like a pelican of the wilderness: I am like
@@ -2244,10 +2501,11 @@ Book14:
   '42': 'change them, and they shall be changed: &l27&rBut thou art the same, and
     thy years shall have no end. &l28&rThe children of thy servants shall continue,
     and their seed shall be established before thee.'
-  '43': 'Chapter 103/nBless the Lord, O my soul: and all that is within me, bless
-    his holy name. &l2&rBless the Lord, O my soul, and forget not all his benefits:
-    &l3&rWho forgiveth all thine iniquities; who healeth all thy diseases; &l4&rWho
-    redeemeth thy life from'
+  '43': 'Chapter 103
+
+    Bless the Lord, O my soul: and all that is within me, bless his holy name. &l2&rBless
+    the Lord, O my soul, and forget not all his benefits: &l3&rWho forgiveth all thine
+    iniquities; who healeth all thy diseases; &l4&rWho redeemeth thy life from'
   '44': destruction; who crowneth thee with lovingkindness and tender mercies; &l5&rWho satisfieth thy mouth with good things; so that thy youth is renewed like the eagle's. &l6&rThe Lord executeth righteousness and judgment for all that are oppressed. &l7&rHe
   '45': 'made known his ways unto Moses, his acts unto the children of Israel. &l8&rThe
     Lord is merciful and gracious, slow to anger, and plenteous in mercy. &l9&rHe
@@ -2270,10 +2528,13 @@ Book15:
   start:
     c: 104
     v: 1
-  '1': 'Chapter 104 Cont./nChapter 104/nBless the Lord, O my soul. O Lord my God,
-    thou art very great; thou art clothed with honour and majesty. &l2&rWho coverest
-    thyself with light as with a garment: who stretchest out the heavens like a curtain:
-    &l3&rWho layeth'
+  '1': 'Chapter 104 Cont.
+
+    Chapter 104
+
+    Bless the Lord, O my soul. O Lord my God, thou art very great; thou art clothed
+    with honour and majesty. &l2&rWho coverest thyself with light as with a garment:
+    who stretchest out the heavens like a curtain: &l3&rWho layeth'
   '2': 'the beams of his chambers in the waters: who maketh the clouds his chariot:
     who walketh upon the wings of the wind: &l4&rWho maketh his angels spirits; his
     ministers a flaming fire: &l5&rWho laid the foundations of the earth, that it
@@ -2320,10 +2581,12 @@ Book15:
     be glad in the Lord. &l35&rLet the sinners be consumed out of the earth, and let
     the wicked be no more.'
   '14': Bless thou the Lord, O my soul. Praise ye the Lord.
-  '15': 'Chapter 105/nO give thanks unto the Lord; call upon his name: make known
-    his deeds among the people. &l2&rSing unto him, sing psalms unto him: talk ye
-    of all his wondrous works. &l3&rGlory ye in his holy name: let the heart of them
-    rejoice that seek the'
+  '15': 'Chapter 105
+
+    O give thanks unto the Lord; call upon his name: make known his deeds among the
+    people. &l2&rSing unto him, sing psalms unto him: talk ye of all his wondrous
+    works. &l3&rGlory ye in his holy name: let the heart of them rejoice that seek
+    the'
   '16': 'Lord. &l4&rSeek the Lord, and his strength: seek his face evermore. &l5&rRemember
     his marvellous works that he hath done; his wonders, and the judgments of his
     mouth; &l6&rO ye seed of Abraham his servant, ye children of Jacob his chosen.
@@ -2366,10 +2629,11 @@ Book15:
     the people;'
   '29': '&l45&rThat they might observe his statutes, and keep his laws. Praise ye
     the Lord.'
-  '30': 'Chapter 106/nPraise ye the Lord. O give thanks unto the Lord; for he is good:
-    for his mercy endureth for ever. &l2&rWho can utter the mighty acts of the Lord?
-    who can shew forth all his praise? &l3&rBlessed are they that keep judgment, and
-    he that doeth'
+  '30': 'Chapter 106
+
+    Praise ye the Lord. O give thanks unto the Lord; for he is good: for his mercy
+    endureth for ever. &l2&rWho can utter the mighty acts of the Lord? who can shew
+    forth all his praise? &l3&rBlessed are they that keep judgment, and he that doeth'
   '31': 'righteousness at all times. &l4&rRemember me, O Lord, with the favour that
     thou bearest unto thy people: O visit me with thy salvation; &l5&rThat I may see
     the good of thy chosen, that I may rejoice in the gladness of thy nation, that
@@ -2425,12 +2689,14 @@ Book15:
   '47': 'heathen, to give thanks unto thy holy name, and to triumph in thy praise.
     &l48&rBlessed be the Lord God of Israel from everlasting to everlasting: and let
     all the people say, Amen. Praise ye the Lord.'
-  '48': 'Chapter 107/nO give thanks unto the Lord, for he is good: for his mercy endureth
-    for ever. &l2&rLet the redeemed of the Lord say so, whom he hath redeemed from
-    the hand of the enemy; &l3&rAnd gathered them out of the lands, from the east,
-    and from the'
-  '49': west, from the north, and from the south. &l4&rThey wandered in the wilderness in a solitary way; they found no city to dwell in. &l5&rHungry and thirsty, their soul fainted in them. &l6&rThen they cried unto the Lord in their trouble, and he delivered
-  '50': them out of their distresses. &l7&rAnd he led them forth by the right way, that they might go to a city of habitation. &l8&rOh that men would praise the Lord for his goodness, and for his wonderful works to the children of men!
+  '48': 'Chapter 107
+
+    O give thanks unto the Lord, for he is good: for his mercy endureth for ever.
+    &l2&rLet the redeemed of the Lord say so, whom he hath redeemed from the hand
+    of the enemy; &l3&rAnd gathered them out of the lands, from the east, and from
+    the west,'
+  '49': from the north, and from the south. &l4&rThey wandered in the wilderness in a solitary way; they found no city to dwell in. &l5&rHungry and thirsty, their soul fainted in them. &l6&rThen they cried unto the Lord in their trouble, and he delivered them out
+  '50': of their distresses. &l7&rAnd he led them forth by the right way, that they might go to a city of habitation. &l8&rOh that men would praise the Lord for his goodness, and for his wonderful works to the children of men!
   end:
     c: 107
     v: 8
@@ -2438,7 +2704,11 @@ Book16:
   start:
     c: 107
     v: 9
-  '1': Chapter 107 Cont./n&l9&rFor he satisfieth the longing soul, and filleth the hungry soul with goodness. &l10&rSuch as sit in darkness and in the shadow of death, being bound in affliction and iron; &l11&rBecause they rebelled against the words of God, and
+  '1': 'Chapter 107 Cont.
+
+    &l9&rFor he satisfieth the longing soul, and filleth the hungry soul with goodness.
+    &l10&rSuch as sit in darkness and in the shadow of death, being bound in affliction
+    and iron; &l11&rBecause they rebelled against the words of God, and'
   '2': 'contemned the counsel of the most High: &l12&rTherefore he brought down their
     heart with labour; they fell down, and there was none to help. &l13&rThen they
     cried unto the Lord in their trouble, and he saved them out of their distresses.
@@ -2460,10 +2730,11 @@ Book16:
     see it, and rejoice: and all iniquity shall stop her mouth. &l43&rWhoso is wise,
     and will observe these things, even they shall understand the lovingkindness of
     the Lord.'
-  '14': 'Chapter 108/nO God, my heart is fixed; I will sing and give praise, even
-    with my glory. &l2&rAwake, psaltery and harp: I myself will awake early. &l3&rI
-    will praise thee, O Lord, among the people: and I will sing praises unto thee
-    among the nations.'
+  '14': 'Chapter 108
+
+    O God, my heart is fixed; I will sing and give praise, even with my glory. &l2&rAwake,
+    psaltery and harp: I myself will awake early. &l3&rI will praise thee, O Lord,
+    among the people: and I will sing praises unto thee among the nations.'
   '15': '&l4&rFor thy mercy is great above the heavens: and thy truth reacheth unto
     the clouds. &l5&rBe thou exalted, O God, above the heavens: and thy glory above
     all the earth; &l6&rThat thy beloved may be delivered: save with thy right hand,
@@ -2475,10 +2746,11 @@ Book16:
   '17': I cast out my shoe; over Philistia will I triumph. &l10&rWho will bring me into the strong city? who will lead me into Edom? &l11&rWilt not thou, O God, who hast cast us off? and wilt not thou, O God, go forth with our hosts? &l12&rGive us help from
   '18': 'trouble: for vain is the help of man. &l13&rThrough God we shall do valiantly:
     for he it is that shall tread down our enemies.'
-  '19': 'Chapter 109/nHold not thy peace, O God of my praise; &l2&rFor the mouth of
-    the wicked and the mouth of the deceitful are opened against me: they have spoken
-    against me with a lying tongue. &l3&rThey compassed me about also with words of
-    hatred; and fought'
+  '19': 'Chapter 109
+
+    Hold not thy peace, O God of my praise; &l2&rFor the mouth of the wicked and the
+    mouth of the deceitful are opened against me: they have spoken against me with
+    a lying tongue. &l3&rThey compassed me about also with words of hatred; and fought'
   '20': 'against me without a cause. &l4&rFor my love they are my adversaries: but
     I give myself unto prayer. &l5&rAnd they have rewarded me evil for good, and hatred
     for my love. &l6&rSet thou a wicked man over him: and let Satan stand at his right
@@ -2517,10 +2789,11 @@ Book16:
     with their own confusion, as with a mantle. &l30&rI will greatly praise the Lord
     with my mouth;'
   '30': yea, I will praise him among the multitude. &l31&rFor he shall stand at the right hand of the poor, to save him from those that condemn his soul.
-  '31': 'Chapter 110/nThe Lord said unto my Lord, Sit thou at my right hand, until
-    I make thine enemies thy footstool. &l2&rThe Lord shall send the rod of thy strength
-    out of Zion: rule thou in the midst of thine enemies. &l3&rThy people shall be
-    willing in the day'
+  '31': 'Chapter 110
+
+    The Lord said unto my Lord, Sit thou at my right hand, until I make thine enemies
+    thy footstool. &l2&rThe Lord shall send the rod of thy strength out of Zion: rule
+    thou in the midst of thine enemies. &l3&rThy people shall be willing in the day'
   '32': 'of thy power, in the beauties of holiness from the womb of the morning: thou
     hast the dew of thy youth. &l4&rThe Lord hath sworn, and will not repent, Thou
     art a priest for ever after the order of Melchizedek. &l5&rThe Lord at thy right
@@ -2529,7 +2802,12 @@ Book16:
     he shall fill the places with the dead bodies; he shall wound the heads over many
     countries. &l7&rHe shall drink of the brook in the way: therefore shall he lift
     up the head.'
-  '34': Chapter 111/nPraise ye the Lord. I will praise the Lord with my whole heart, in the assembly of the upright, and in the congregation. &l2&rThe works of the Lord are great, sought out of all them that have pleasure therein. &l3&rHis work is honourable and
+  '34': 'Chapter 111
+
+    Praise ye the Lord. I will praise the Lord with my whole heart, in the assembly
+    of the upright, and in the congregation. &l2&rThe works of the Lord are great,
+    sought out of all them that have pleasure therein. &l3&rHis work is honourable
+    and'
   '35': 'glorious: and his righteousness endureth for ever. &l4&rHe hath made his
     wonderful works to be remembered: the Lord is gracious and full of compassion.
     &l5&rHe hath given meat unto them that fear him: he will ever be mindful of his
@@ -2540,10 +2818,11 @@ Book16:
     of wisdom: a good understanding have all they that do his commandments: his praise
     endureth for'
   '38': ever.
-  '39': 'Chapter 112/nPraise ye the Lord. Blessed is the man that feareth the Lord,
-    that delighteth greatly in his commandments. &l2&rHis seed shall be mighty upon
-    earth: the generation of the upright shall be blessed. &l3&rWealth and riches
-    shall be in his house:'
+  '39': 'Chapter 112
+
+    Praise ye the Lord. Blessed is the man that feareth the Lord, that delighteth
+    greatly in his commandments. &l2&rHis seed shall be mighty upon earth: the generation
+    of the upright shall be blessed. &l3&rWealth and riches shall be in his house:'
   '40': 'and his righteousness endureth for ever. &l4&rUnto the upright there ariseth
     light in the darkness: he is gracious, and full of compassion, and righteous.
     &l5&rA good man sheweth favour, and lendeth: he will guide his affairs with discretion.
@@ -2557,16 +2836,27 @@ Book16:
     see it, and be grieved; he shall gnash with his teeth, and melt away: the desire
     of the'
   '43': wicked shall perish.
-  '44': Chapter 113/nPraise ye the Lord. Praise, O ye servants of the Lord, praise the name of the Lord. &l2&rBlessed be the name of the Lord from this time forth and for evermore. &l3&rFrom the rising of the sun unto the going down of the same the Lord's name is
+  '44': 'Chapter 113
+
+    Praise ye the Lord. Praise, O ye servants of the Lord, praise the name of the
+    Lord. &l2&rBlessed be the name of the Lord from this time forth and for evermore.
+    &l3&rFrom the rising of the sun unto the going down of the same the Lord''s name
+    is'
   '45': to be praised. &l4&rThe Lord is high above all nations, and his glory above the heavens. &l5&rWho is like unto the Lord our God, who dwelleth on high, &l6&rWho humbleth himself to behold the things that are in heaven, and in the earth! &l7&rHe raiseth up
   '46': the poor out of the dust, and lifteth the needy out of the dunghill; &l8&rThat he may set him with princes, even with the princes of his people. &l9&rHe maketh the barren woman to keep house, and to be a joyful mother of children. Praise ye the Lord.
-  '47': 'Chapter 114/nWhen Israel went out of Egypt, the house of Jacob from a people
-    of strange language; &l2&rJudah was his sanctuary, and Israel his dominion. &l3&rThe
-    sea saw it, and fled: Jordan was driven back. &l4&rThe mountains skipped like
-    rams, and the'
+  '47': 'Chapter 114
+
+    When Israel went out of Egypt, the house of Jacob from a people of strange language;
+    &l2&rJudah was his sanctuary, and Israel his dominion. &l3&rThe sea saw it, and
+    fled: Jordan was driven back. &l4&rThe mountains skipped like rams, and the'
   '48': little hills like lambs. &l5&rWhat ailed thee, O thou sea, that thou fleddest? thou Jordan, that thou wast driven back? &l6&rYe mountains, that ye skipped like rams; and ye little hills, like lambs? &l7&rTremble, thou earth, at the presence of the Lord, at
   '49': the presence of the God of Jacob; &l8&rWhich turned the rock into a standing water, the flint into a fountain of waters.
-  '50': Chapter 115/nNot unto us, O Lord, not unto us, but unto thy name give glory, for thy mercy, and for thy truth's sake. &l2&rWherefore should the heathen say, Where is now their God?
+  '50': 'Chapter 115
+
+    Not unto us, O Lord, not unto us, but unto thy name give glory, for thy mercy,
+    and for thy truth''s sake. &l2&rWherefore should the heathen say, Where is now
+    their God? &l3&rBut our God is in the heavens: he hath done whatsoever he hath
+    pleased.'
   end:
     c: 115
     v: 2
@@ -2574,28 +2864,29 @@ Book17:
   start:
     c: 115
     v: 3
-  '1': 'Chapter 115 Cont./n&l3&rBut our God is in the heavens: he hath done whatsoever
-    he hath pleased. &l4&rTheir idols are silver and gold, the work of men''s hands.
-    &l5&rThey have mouths, but they speak not: eyes have they, but they see not: &l6&rThey
-    have ears,'
-  '2': 'but they hear not: noses have they, but they smell not: &l7&rThey have hands,
-    but they handle not: feet have they, but they walk not: neither speak they through
-    their throat. &l8&rThey that make them are like unto them; so is every one that
-    trusteth in'
-  '3': 'them. &l9&rO Israel, trust thou in the Lord: he is their help and their shield.
-    &l10&rO house of Aaron, trust in the Lord: he is their help and their shield.
-    &l11&rYe that fear the Lord, trust in the Lord: he is their help and their shield.
-    &l12&rThe Lord'
-  '4': 'hath been mindful of us: he will bless us; he will bless the house of Israel;
-    he will bless the house of Aaron. &l13&rHe will bless them that fear the Lord,
-    both small and great. &l14&rThe Lord shall increase you more and more, you and
-    your children.'
-  '5': '&l15&rYe are blessed of the Lord which made heaven and earth. &l16&rThe heaven,
-    even the heavens, are the Lord''s: but the earth hath he given to the children
-    of men. &l17&rThe dead praise not the Lord, neither any that go down into silence.
-    &l18&rBut we'
-  '6': will bless the Lord from this time forth and for evermore. Praise the Lord.
-  '7': Chapter 116/nI love the Lord, because he hath heard my voice and my supplications. &l2&rBecause he hath inclined his ear unto me, therefore will I call upon him as long as I live. &l3&rThe sorrows of death compassed me, and the pains of hell gat hold upon
+  '1': "Chapter 115 Cont.\n &l4&rTheir idols are silver and gold, the work of men's\
+    \ hands. &l5&rThey have mouths, but they speak not: eyes have they, but they see\
+    \ not: &l6&rThey have ears, but they hear not: noses have they, but they smell\
+    \ not: &l7&rThey have"
+  '2': 'hands, but they handle not: feet have they, but they walk not: neither speak
+    they through their throat. &l8&rThey that make them are like unto them; so is
+    every one that trusteth in them. &l9&rO Israel, trust thou in the Lord: he is
+    their help and their'
+  '3': 'shield. &l10&rO house of Aaron, trust in the Lord: he is their help and their
+    shield. &l11&rYe that fear the Lord, trust in the Lord: he is their help and their
+    shield. &l12&rThe Lord hath been mindful of us: he will bless us; he will bless
+    the house of'
+  '4': Israel; he will bless the house of Aaron. &l13&rHe will bless them that fear the Lord, both small and great. &l14&rThe Lord shall increase you more and more, you and your children. &l15&rYe are blessed of the Lord which made heaven and earth. &l16&rThe
+  '5': 'heaven, even the heavens, are the Lord''s: but the earth hath he given to
+    the children of men. &l17&rThe dead praise not the Lord, neither any that go down
+    into silence. &l18&rBut we will bless the Lord from this time forth and for evermore.
+    Praise the'
+  '6': Lord.
+  '7': 'Chapter 116
+
+    I love the Lord, because he hath heard my voice and my supplications. &l2&rBecause
+    he hath inclined his ear unto me, therefore will I call upon him as long as I
+    live. &l3&rThe sorrows of death compassed me, and the pains of hell gat hold upon'
   '8': 'me: I found trouble and sorrow. &l4&rThen called I upon the name of the Lord;
     O Lord, I beseech thee, deliver my soul. &l5&rGracious is the Lord, and righteous;
     yea, our God is merciful. &l6&rThe Lord preserveth the simple: I was brought low,
@@ -2611,13 +2902,17 @@ Book17:
     hast loosed my'
   '12': bonds. &l17&rI will offer to thee the sacrifice of thanksgiving, and will call upon the name of the Lord. &l18&rI will pay my vows unto the Lord now in the presence of all his people. &l19&rIn the courts of the Lord's house, in the midst of thee, O
   '13': Jerusalem. Praise ye the Lord.
-  '14': 'Chapter 117/nO praise the Lord, all ye nations: praise him, all ye people.
-    &l2&rFor his merciful kindness is great toward us: and the truth of the Lord endureth
-    for ever. Praise ye the Lord.'
-  '15': 'Chapter 118/nO give thanks unto the Lord; for he is good: because his mercy
-    endureth for ever. &l2&rLet Israel now say, that his mercy endureth for ever.
-    &l3&rLet the house of Aaron now say, that his mercy endureth for ever. &l4&rLet
-    them now that fear the'
+  '14': 'Chapter 117
+
+    O praise the Lord, all ye nations: praise him, all ye people. &l2&rFor his merciful
+    kindness is great toward us: and the truth of the Lord endureth for ever. Praise
+    ye the Lord.'
+  '15': 'Chapter 118
+
+    O give thanks unto the Lord; for he is good: because his mercy endureth for ever.
+    &l2&rLet Israel now say, that his mercy endureth for ever. &l3&rLet the house
+    of Aaron now say, that his mercy endureth for ever. &l4&rLet them now that fear
+    the'
   '16': 'Lord say, that his mercy endureth for ever. &l5&rI called upon the Lord in
     distress: the Lord answered me, and set me in a large place. &l6&rThe Lord is
     on my side; I will not fear: what can man do unto me? &l7&rThe Lord taketh my
@@ -2650,11 +2945,12 @@ Book17:
   '24': 'even unto the horns of the altar. &l28&rThou art my God, and I will praise
     thee: thou art my God, I will exalt thee. &l29&rO give thanks unto the Lord; for
     he is good: for his mercy endureth for ever.'
-  '25': 'Chapter 119/nBlessed are the undefiled in the way, who walk in the law of
-    the Lord. &l2&rBlessed are they that keep his testimonies, and that seek him with
-    the whole heart. &l3&rThey also do no iniquity: they walk in his ways. &l4&rThou
-    hast commanded us'
-  '26': to keep thy precepts diligently. &l5&rO that my ways were directed to keep thy statutes! &l6&rThen shall I not be ashamed, when I have respect unto all thy commandments. &l7&rI will praise thee with uprightness of heart, when I shall have learned thy
+  '25': 'Chapter 119
+
+    Blessed are the undefiled in the way, who walk in the law of the Lord. &l2&rBlessed
+    are they that keep his testimonies, and that seek him with the whole heart. &l3&rThey
+    also do no iniquity: they walk in his ways. &l4&rThou hast commanded us to'
+  '26': keep thy precepts diligently. &l5&rO that my ways were directed to keep thy statutes! &l6&rThen shall I not be ashamed, when I have respect unto all thy commandments. &l7&rI will praise thee with uprightness of heart, when I shall have learned thy
   '27': 'righteous judgments. &l8&rI will keep thy statutes: O forsake me not utterly.
     &l9&rWherewithal shall a young man cleanse his way? by taking heed thereto according
     to thy word. &l10&rWith my whole heart have I sought thee: O let me not wander
@@ -2745,10 +3041,11 @@ Book18:
   start:
     c: 119
     v: 84
-  '1': 'Chapter 119 Cont./n&l84&rHow many are the days of thy servant? when wilt thou
-    execute judgment on them that persecute me? &l85&rThe proud have digged pits for
-    me, which are not after thy law. &l86&rAll thy commandments are faithful: they
-    persecute me'
+  '1': 'Chapter 119 Cont.
+
+    &l84&rHow many are the days of thy servant? when wilt thou execute judgment on
+    them that persecute me? &l85&rThe proud have digged pits for me, which are not
+    after thy law. &l86&rAll thy commandments are faithful: they persecute me'
   '2': wrongfully; help thou me. &l87&rThey had almost consumed me upon earth; but I forsook not thy precepts. &l88&rQuicken me after thy lovingkindness; so shall I keep the testimony of thy mouth. &l89&rFor ever, O Lord, thy word is settled in heaven. &l90&rThy
   '3': 'faithfulness is unto all generations: thou hast established the earth, and
     it abideth. &l91&rThey continue this day according to thine ordinances: for all
@@ -2856,55 +3153,75 @@ Book18:
     for I have chosen thy precepts. &l174&rI have longed for thy salvation, O Lord;
     and thy law is my'
   '30': delight. &l175&rLet my soul live, and it shall praise thee; and let thy judgments help me. &l176&rI have gone astray like a lost sheep; seek thy servant; for I do not forget thy commandments.
-  '31': Chapter 120/nIn my distress I cried unto the Lord, and he heard me. &l2&rDeliver my soul, O Lord, from lying lips, and from a deceitful tongue. &l3&rWhat shall be given unto thee? or what shall be done unto thee, thou false tongue? &l4&rSharp arrows of the
+  '31': 'Chapter 120
+
+    In my distress I cried unto the Lord, and he heard me. &l2&rDeliver my soul, O
+    Lord, from lying lips, and from a deceitful tongue. &l3&rWhat shall be given unto
+    thee? or what shall be done unto thee, thou false tongue? &l4&rSharp arrows of
+    the'
   '32': 'mighty, with coals of juniper. &l5&rWoe is me, that I sojourn in Mesech,
     that I dwell in the tents of Kedar! &l6&rMy soul hath long dwelt with him that
     hateth peace. &l7&rI am for peace: but when I speak, they are for war.'
-  '33': 'Chapter 121/nI will lift up mine eyes unto the hills, from whence cometh
-    my help. &l2&rMy help cometh from the Lord, which made heaven and earth. &l3&rHe
-    will not suffer thy foot to be moved: he that keepeth thee will not slumber. &l4&rBehold,
-    he that'
+  '33': 'Chapter 121
+
+    I will lift up mine eyes unto the hills, from whence cometh my help. &l2&rMy help
+    cometh from the Lord, which made heaven and earth. &l3&rHe will not suffer thy
+    foot to be moved: he that keepeth thee will not slumber. &l4&rBehold, he that'
   '34': 'keepeth Israel shall neither slumber nor sleep. &l5&rThe Lord is thy keeper:
     the Lord is thy shade upon thy right hand. &l6&rThe sun shall not smite thee by
     day, nor the moon by night. &l7&rThe Lord shall preserve thee from all evil: he
     shall preserve thy'
   '35': soul. &l8&rThe Lord shall preserve thy going out and thy coming in from this time forth, and even for evermore.
-  '36': 'Chapter 122/nI was glad when they said unto me, Let us go into the house
-    of the Lord. &l2&rOur feet shall stand within thy gates, O Jerusalem. &l3&rJerusalem
-    is builded as a city that is compact together: &l4&rWhither the tribes go up,
-    the tribes of the'
+  '36': 'Chapter 122
+
+    I was glad when they said unto me, Let us go into the house of the Lord. &l2&rOur
+    feet shall stand within thy gates, O Jerusalem. &l3&rJerusalem is builded as a
+    city that is compact together: &l4&rWhither the tribes go up, the tribes of the'
   '37': 'Lord, unto the testimony of Israel, to give thanks unto the name of the Lord.
     &l5&rFor there are set thrones of judgment, the thrones of the house of David.
     &l6&rPray for the peace of Jerusalem: they shall prosper that love thee. &l7&rPeace
     be within thy'
   '38': walls, and prosperity within thy palaces. &l8&rFor my brethren and companions' sakes, I will now say, Peace be within thee. &l9&rBecause of the house of the Lord our God I will seek thy good.
-  '39': Chapter 123/nUnto thee lift I up mine eyes, O thou that dwellest in the heavens. &l2&rBehold, as the eyes of servants look unto the hand of their masters, and as the eyes of a maiden unto the hand of her mistress; so our eyes wait upon the Lord our God,
+  '39': 'Chapter 123
+
+    Unto thee lift I up mine eyes, O thou that dwellest in the heavens. &l2&rBehold,
+    as the eyes of servants look unto the hand of their masters, and as the eyes of
+    a maiden unto the hand of her mistress; so our eyes wait upon the Lord our God,'
   '40': 'until that he have mercy upon us. &l3&rHave mercy upon us, O Lord, have mercy
     upon us: for we are exceedingly filled with contempt. &l4&rOur soul is exceedingly
     filled with the scorning of those that are at ease, and with the contempt of the
     proud.'
-  '41': 'Chapter 124/nIf it had not been the Lord who was on our side, now may Israel
-    say; &l2&rIf it had not been the Lord who was on our side, when men rose up against
-    us: &l3&rThen they had swallowed us up quick, when their wrath was kindled against
-    us:'
-  '42': '&l4&rThen the waters had overwhelmed us, the stream had gone over our soul:
-    &l5&rThen the proud waters had gone over our soul. &l6&rBlessed be the Lord, who
-    hath not given us as a prey to their teeth. &l7&rOur soul is escaped as a bird
-    out of the snare of'
-  '43': 'the fowlers: the snare is broken, and we are escaped. &l8&rOur help is in
-    the name of the Lord, who made heaven and earth.'
-  '44': Chapter 125/nThey that trust in the Lord shall be as mount Zion, which cannot be removed, but abideth for ever. &l2&rAs the mountains are round about Jerusalem, so the Lord is round about his people from henceforth even for ever. &l3&rFor the rod of the
+  '41': 'Chapter 124
+
+    If it had not been the Lord who was on our side, now may Israel say; &l2&rIf it
+    had not been the Lord who was on our side, when men rose up against us: &l3&rThen
+    they had swallowed us up quick, when their wrath was kindled against us: &l4&rThen'
+  '42': 'the waters had overwhelmed us, the stream had gone over our soul: &l5&rThen
+    the proud waters had gone over our soul. &l6&rBlessed be the Lord, who hath not
+    given us as a prey to their teeth. &l7&rOur soul is escaped as a bird out of the
+    snare of the'
+  '43': 'fowlers: the snare is broken, and we are escaped. &l8&rOur help is in the
+    name of the Lord, who made heaven and earth.'
+  '44': 'Chapter 125
+
+    They that trust in the Lord shall be as mount Zion, which cannot be removed, but
+    abideth for ever. &l2&rAs the mountains are round about Jerusalem, so the Lord
+    is round about his people from henceforth even for ever. &l3&rFor the rod of the'
   '45': wicked shall not rest upon the lot of the righteous; lest the righteous put forth their hands unto iniquity. &l4&rDo good, O Lord, unto those that be good, and to them that are upright in their hearts. &l5&rAs for such as turn aside unto their crooked
   '46': 'ways, the Lord shall lead them forth with the workers of iniquity: but peace
     shall be upon Israel.'
-  '47': 'Chapter 126/nWhen the Lord turned again the captivity of Zion, we were like
-    them that dream. &l2&rThen was our mouth filled with laughter, and our tongue
-    with singing: then said they among the heathen, The Lord hath done great things
-    for them. &l3&rThe'
-  '48': Lord hath done great things for us; whereof we are glad. &l4&rTurn again our captivity, O Lord, as the streams in the south. &l5&rThey that sow in tears shall reap in joy. &l6&rHe that goeth forth and weepeth, bearing precious seed, shall doubtless come
-  '49': again with rejoicing, bringing his sheaves with him.
-  '50': 'Chapter 127/nExcept the Lord build the house, they labour in vain that build
-    it: except the Lord keep the city, the watchman waketh but in vain.'
+  '47': 'Chapter 126
+
+    When the Lord turned again the captivity of Zion, we were like them that dream.
+    &l2&rThen was our mouth filled with laughter, and our tongue with singing: then
+    said they among the heathen, The Lord hath done great things for them. &l3&rThe
+    Lord'
+  '48': hath done great things for us; whereof we are glad. &l4&rTurn again our captivity, O Lord, as the streams in the south. &l5&rThey that sow in tears shall reap in joy. &l6&rHe that goeth forth and weepeth, bearing precious seed, shall doubtless come again
+  '49': with rejoicing, bringing his sheaves with him.
+  '50': 'Chapter 127
+
+    Except the Lord build the house, they labour in vain that build it: except the
+    Lord keep the city, the watchman waketh but in vain.'
   end:
     c: 127
     v: 1
@@ -2912,26 +3229,30 @@ Book19:
   start:
     c: 127
     v: 2
-  '1': 'Chapter 127 Cont./n&l2&rIt is vain for you to rise up early, to sit up late,
-    to eat the bread of sorrows: for so he giveth his beloved sleep. &l3&rLo, children
-    are an heritage of the Lord: and the fruit of the womb is his reward. &l4&rAs
-    arrows are in the'
+  '1': 'Chapter 127 Cont.
+
+    &l2&rIt is vain for you to rise up early, to sit up late, to eat the bread of
+    sorrows: for so he giveth his beloved sleep. &l3&rLo, children are an heritage
+    of the Lord: and the fruit of the womb is his reward. &l4&rAs arrows are in the'
   '2': 'hand of a mighty man; so are children of the youth. &l5&rHappy is the man
     that hath his quiver full of them: they shall not be ashamed, but they shall speak
     with the enemies in the gate.'
-  '3': 'Chapter 128/nBlessed is every one that feareth the Lord; that walketh in his
-    ways. &l2&rFor thou shalt eat the labour of thine hands: happy shalt thou be,
-    and it shall be well with thee. &l3&rThy wife shall be as a fruitful vine by the
-    sides of thine'
-  '4': 'house: thy children like olive plants round about thy table. &l4&rBehold,
-    that thus shall the man be blessed that feareth the Lord. &l5&rThe Lord shall
-    bless thee out of Zion: and thou shalt see the good of Jerusalem all the days
-    of thy life. &l6&rYea,'
-  '5': thou shalt see thy children's children, and peace upon Israel.
-  '6': 'Chapter 129/nMany a time have they afflicted me from my youth, may Israel
-    now say: &l2&rMany a time have they afflicted me from my youth: yet they have
-    not prevailed against me. &l3&rThe plowers plowed upon my back: they made long
-    their furrows. &l4&rThe'
+  '3': 'Chapter 128
+
+    Blessed is every one that feareth the Lord; that walketh in his ways. &l2&rFor
+    thou shalt eat the labour of thine hands: happy shalt thou be, and it shall be
+    well with thee. &l3&rThy wife shall be as a fruitful vine by the sides of thine
+    house:'
+  '4': 'thy children like olive plants round about thy table. &l4&rBehold, that thus
+    shall the man be blessed that feareth the Lord. &l5&rThe Lord shall bless thee
+    out of Zion: and thou shalt see the good of Jerusalem all the days of thy life.
+    &l6&rYea, thou shalt'
+  '5': see thy children's children, and peace upon Israel.
+  '6': 'Chapter 129
+
+    Many a time have they afflicted me from my youth, may Israel now say: &l2&rMany
+    a time have they afflicted me from my youth: yet they have not prevailed against
+    me. &l3&rThe plowers plowed upon my back: they made long their furrows. &l4&rThe'
   '7': 'Lord is righteous: he hath cut asunder the cords of the wicked. &l5&rLet them
     all be confounded and turned back that hate Zion. &l6&rLet them be as the grass
     upon the housetops, which withereth afore it groweth up: &l7&rWherewith the mower
@@ -2939,54 +3260,63 @@ Book19:
   '8': 'hand; nor he that bindeth sheaves his bosom. &l8&rNeither do they which go
     by say, The blessing of the Lord be upon you: we bless you in the name of the
     Lord.'
-  '9': 'Chapter 130/nOut of the depths have I cried unto thee, O Lord. &l2&rLord,
-    hear my voice: let thine ears be attentive to the voice of my supplications. &l3&rIf
-    thou, Lord, shouldest mark iniquities, O Lord, who shall stand? &l4&rBut there
-    is forgiveness'
-  '10': 'with thee, that thou mayest be feared. &l5&rI wait for the Lord, my soul
-    doth wait, and in his word do I hope. &l6&rMy soul waiteth for the Lord more than
-    they that watch for the morning: I say, more than they that watch for the morning.
-    &l7&rLet Israel'
-  '11': 'hope in the Lord: for with the Lord there is mercy, and with him is plenteous
-    redemption. &l8&rAnd he shall redeem Israel from all his iniquities.'
-  '12': 'Chapter 131/nLord, my heart is not haughty, nor mine eyes lofty: neither
-    do I exercise myself in great matters, or in things too high for me. &l2&rSurely
-    I have behaved and quieted myself, as a child that is weaned of his mother: my
-    soul is even as a'
-  '13': weaned child. &l3&rLet Israel hope in the Lord from henceforth and for ever.
-  '14': 'Chapter 132/nLord, remember David, and all his afflictions: &l2&rHow he sware
-    unto the Lord, and vowed unto the mighty God of Jacob; &l3&rSurely I will not
-    come into the tabernacle of my house, nor go up into my bed; &l4&rI will not give
-    sleep to mine'
-  '15': 'eyes, or slumber to mine eyelids, &l5&rUntil I find out a place for the Lord,
-    an habitation for the mighty God of Jacob. &l6&rLo, we heard of it at Ephratah:
-    we found it in the fields of the wood. &l7&rWe will go into his tabernacles: we
-    will worship at'
-  '16': his footstool. &l8&rArise, O Lord, into thy rest; thou, and the ark of thy strength. &l9&rLet thy priests be clothed with righteousness; and let thy saints shout for joy. &l10&rFor thy servant David's sake turn not away the face of thine anointed.
-  '17': '&l11&rThe Lord hath sworn in truth unto David; he will not turn from it;
-    Of the fruit of thy body will I set upon thy throne. &l12&rIf thy children will
-    keep my covenant and my testimony that I shall teach them, their children shall
-    also sit upon thy'
-  '18': 'throne for evermore. &l13&rFor the Lord hath chosen Zion; he hath desired
-    it for his habitation. &l14&rThis is my rest for ever: here will I dwell; for
-    I have desired it. &l15&rI will abundantly bless her provision: I will satisfy
-    her poor with bread.'
-  '19': '&l16&rI will also clothe her priests with salvation: and her saints shall
-    shout aloud for joy. &l17&rThere will I make the horn of David to bud: I have
-    ordained a lamp for mine anointed. &l18&rHis enemies will I clothe with shame:
-    but upon himself shall'
-  '20': his crown flourish.
-  '21': 'Chapter 133/nBehold, how good and how pleasant it is for brethren to dwell
-    together in unity! &l2&rIt is like the precious ointment upon the head, that ran
-    down upon the beard, even Aaron''s beard: that went down to the skirts of his
-    garments; &l3&rAs the'
+  '9': 'Chapter 130
+
+    Out of the depths have I cried unto thee, O Lord. &l2&rLord, hear my voice: let
+    thine ears be attentive to the voice of my supplications. &l3&rIf thou, Lord,
+    shouldest mark iniquities, O Lord, who shall stand? &l4&rBut there is forgiveness
+    with'
+  '10': 'thee, that thou mayest be feared. &l5&rI wait for the Lord, my soul doth
+    wait, and in his word do I hope. &l6&rMy soul waiteth for the Lord more than they
+    that watch for the morning: I say, more than they that watch for the morning.
+    &l7&rLet Israel hope in'
+  '11': 'the Lord: for with the Lord there is mercy, and with him is plenteous redemption.
+    &l8&rAnd he shall redeem Israel from all his iniquities.'
+  '12': 'Chapter 131
+
+    Lord, my heart is not haughty, nor mine eyes lofty: neither do I exercise myself
+    in great matters, or in things too high for me. &l2&rSurely I have behaved and
+    quieted myself, as a child that is weaned of his mother: my soul is even as a
+    weaned'
+  '13': child. &l3&rLet Israel hope in the Lord from henceforth and for ever.
+  '14': 'Chapter 132
+
+    Lord, remember David, and all his afflictions: &l2&rHow he sware unto the Lord,
+    and vowed unto the mighty God of Jacob; &l3&rSurely I will not come into the tabernacle
+    of my house, nor go up into my bed; &l4&rI will not give sleep to mine eyes,'
+  '15': 'or slumber to mine eyelids, &l5&rUntil I find out a place for the Lord, an
+    habitation for the mighty God of Jacob. &l6&rLo, we heard of it at Ephratah: we
+    found it in the fields of the wood. &l7&rWe will go into his tabernacles: we will
+    worship at his'
+  '16': footstool. &l8&rArise, O Lord, into thy rest; thou, and the ark of thy strength. &l9&rLet thy priests be clothed with righteousness; and let thy saints shout for joy. &l10&rFor thy servant David's sake turn not away the face of thine anointed. &l11&rThe
+  '17': Lord hath sworn in truth unto David; he will not turn from it; Of the fruit of thy body will I set upon thy throne. &l12&rIf thy children will keep my covenant and my testimony that I shall teach them, their children shall also sit upon thy throne for
+  '18': 'evermore. &l13&rFor the Lord hath chosen Zion; he hath desired it for his
+    habitation. &l14&rThis is my rest for ever: here will I dwell; for I have desired
+    it. &l15&rI will abundantly bless her provision: I will satisfy her poor with
+    bread. &l16&rI will'
+  '19': 'also clothe her priests with salvation: and her saints shall shout aloud
+    for joy. &l17&rThere will I make the horn of David to bud: I have ordained a lamp
+    for mine anointed. &l18&rHis enemies will I clothe with shame: but upon himself
+    shall his crown'
+  '20': flourish.
+  '21': 'Chapter 133
+
+    Behold, how good and how pleasant it is for brethren to dwell together in unity!
+    &l2&rIt is like the precious ointment upon the head, that ran down upon the beard,
+    even Aaron''s beard: that went down to the skirts of his garments; &l3&rAs the'
   '22': 'dew of Hermon, and as the dew that descended upon the mountains of Zion:
     for there the Lord commanded the blessing, even life for evermore.'
-  '23': Chapter 134/nBehold, bless ye the Lord, all ye servants of the Lord, which by night stand in the house of the Lord. &l2&rLift up your hands in the sanctuary, and bless the Lord. &l3&rThe Lord that made heaven and earth bless thee out of Zion.
-  '24': 'Chapter 135/nPraise ye the Lord. Praise ye the name of the Lord; praise him,
-    O ye servants of the Lord. &l2&rYe that stand in the house of the Lord, in the
-    courts of the house of our God. &l3&rPraise the Lord; for the Lord is good: sing
-    praises unto his'
+  '23': 'Chapter 134
+
+    Behold, bless ye the Lord, all ye servants of the Lord, which by night stand in
+    the house of the Lord. &l2&rLift up your hands in the sanctuary, and bless the
+    Lord. &l3&rThe Lord that made heaven and earth bless thee out of Zion.'
+  '24': 'Chapter 135
+
+    Praise ye the Lord. Praise ye the name of the Lord; praise him, O ye servants
+    of the Lord. &l2&rYe that stand in the house of the Lord, in the courts of the
+    house of our God. &l3&rPraise the Lord; for the Lord is good: sing praises unto
+    his'
   '25': name; for it is pleasant. &l4&rFor the Lord hath chosen Jacob unto himself, and Israel for his peculiar treasure. &l5&rFor I know that the Lord is great, and that our Lord is above all gods. &l6&rWhatsoever the Lord pleased, that did he in heaven, and in
   '26': earth, in the seas, and all deep places. &l7&rHe causeth the vapours to ascend from the ends of the earth; he maketh lightnings for the rain; he bringeth the wind out of his treasuries. &l8&rWho smote the firstborn of Egypt, both of man and beast. &l9&rWho
   '27': 'sent tokens and wonders into the midst of thee, O Egypt, upon Pharaoh, and
@@ -3003,10 +3333,12 @@ Book19:
     Lord, O house of Levi: ye that fear the Lord, bless the Lord. &l21&rBlessed be
     the Lord out of'
   '31': Zion, which dwelleth at Jerusalem. Praise ye the Lord.
-  '32': 'Chapter 136/nO give thanks unto the Lord; for he is good: for his mercy endureth
-    for ever. &l2&rO give thanks unto the God of gods: for his mercy endureth for
-    ever. &l3&rO give thanks to the Lord of lords: for his mercy endureth for ever.
-    &l4&rTo him who'
+  '32': 'Chapter 136
+
+    O give thanks unto the Lord; for he is good: for his mercy endureth for ever.
+    &l2&rO give thanks unto the God of gods: for his mercy endureth for ever. &l3&rO
+    give thanks to the Lord of lords: for his mercy endureth for ever. &l4&rTo him
+    who'
   '33': 'alone doeth great wonders: for his mercy endureth for ever. &l5&rTo him that
     by wisdom made the heavens: for his mercy endureth for ever. &l6&rTo him that
     stretched out the earth above the waters: for his mercy endureth for ever. &l7&rTo
@@ -3034,26 +3366,38 @@ Book19:
   '39': 'ever: &l24&rAnd hath redeemed us from our enemies: for his mercy endureth
     for ever. &l25&rWho giveth food to all flesh: for his mercy endureth for ever.
     &l26&rO give thanks unto the God of heaven: for his mercy endureth for ever.'
-  '40': Chapter 137/nBy the rivers of Babylon, there we sat down, yea, we wept, when we remembered Zion. &l2&rWe hanged our harps upon the willows in the midst thereof. &l3&rFor there they that carried us away captive required of us a song; and they that wasted us
+  '40': 'Chapter 137
+
+    By the rivers of Babylon, there we sat down, yea, we wept, when we remembered
+    Zion. &l2&rWe hanged our harps upon the willows in the midst thereof. &l3&rFor
+    there they that carried us away captive required of us a song; and they that wasted
+    us'
   '41': required of us mirth, saying, Sing us one of the songs of Zion. &l4&rHow shall we sing the Lord's song in a strange land? &l5&rIf I forget thee, O Jerusalem, let my right hand forget her cunning. &l6&rIf I do not remember thee, let my tongue cleave to the
   '42': roof of my mouth; if I prefer not Jerusalem above my chief joy. &l7&rRemember, O Lord, the children of Edom in the day of Jerusalem; who said, Rase it, rase it, even to the foundation thereof. &l8&rO daughter of Babylon, who art to be destroyed; happy
   '43': shall he be, that rewardeth thee as thou hast served us. &l9&rHappy shall he be, that taketh and dasheth thy little ones against the stones.
-  '44': 'Chapter 138/nI will praise thee with my whole heart: before the gods will
-    I sing praise unto thee. &l2&rI will worship toward thy holy temple, and praise
-    thy name for thy lovingkindness and for thy truth: for thou hast magnified thy
-    word above all thy'
-  '45': 'name. &l3&rIn the day when I cried thou answeredst me, and strengthenedst
-    me with strength in my soul. &l4&rAll the kings of the earth shall praise thee,
-    O Lord, when they hear the words of thy mouth. &l5&rYea, they shall sing in the
-    ways of the Lord: for'
-  '46': 'great is the glory of the Lord. &l6&rThough the Lord be high, yet hath he
-    respect unto the lowly: but the proud he knoweth afar off. &l7&rThough I walk
-    in the midst of trouble, thou wilt revive me: thou shalt stretch forth thine hand
-    against the wrath of'
-  '47': 'mine enemies, and thy right hand shall save me. &l8&rThe Lord will perfect
-    that which concerneth me: thy mercy, O Lord, endureth for ever: forsake not the
-    works of thine own hands.'
-  '48': Chapter 139/nO lord, thou hast searched me, and known me. &l2&rThou knowest my downsitting and mine uprising, thou understandest my thought afar off. &l3&rThou compassest my path and my lying down, and art acquainted with all my ways. &l4&rFor there is not
+  '44': 'Chapter 138
+
+    I will praise thee with my whole heart: before the gods will I sing praise unto
+    thee. &l2&rI will worship toward thy holy temple, and praise thy name for thy
+    lovingkindness and for thy truth: for thou hast magnified thy word above all thy
+    name.'
+  '45': ' &l3&rIn the day when I cried thou answeredst me, and strengthenedst me with
+    strength in my soul. &l4&rAll the kings of the earth shall praise thee, O Lord,
+    when they hear the words of thy mouth. &l5&rYea, they shall sing in the ways of
+    the Lord: for great'
+  '46': 'is the glory of the Lord. &l6&rThough the Lord be high, yet hath he respect
+    unto the lowly: but the proud he knoweth afar off. &l7&rThough I walk in the midst
+    of trouble, thou wilt revive me: thou shalt stretch forth thine hand against the
+    wrath of mine'
+  '47': 'enemies, and thy right hand shall save me. &l8&rThe Lord will perfect that
+    which concerneth me: thy mercy, O Lord, endureth for ever: forsake not the works
+    of thine own hands.'
+  '48': 'Chapter 139
+
+    O lord, thou hast searched me, and known me. &l2&rThou knowest my downsitting
+    and mine uprising, thou understandest my thought afar off. &l3&rThou compassest
+    my path and my lying down, and art acquainted with all my ways. &l4&rFor there
+    is not'
   '49': a word in my tongue, but, lo, O Lord, thou knowest it altogether. &l5&rThou hast beset me behind and before, and laid thine hand upon me. &l6&rSuch knowledge is too wonderful for me; it is high, I cannot attain unto it. &l7&rWhither shall I go from thy
   '50': 'spirit? or whither shall I flee from thy presence? &l8&rIf I ascend up into
     heaven, thou art there: if I make my bed in hell, behold, thou art there. &l9&rIf
@@ -3065,7 +3409,11 @@ Book20:
   start:
     c: 139
     v: 10
-  '1': Chapter 139 Cont./n&l10&rEven there shall thy hand lead me, and thy right hand shall hold me. &l11&rIf I say, Surely the darkness shall cover me; even the night shall be light about me. &l12&rYea, the darkness hideth not from thee; but the night shineth as
+  '1': 'Chapter 139 Cont.
+
+    &l10&rEven there shall thy hand lead me, and thy right hand shall hold me. &l11&rIf
+    I say, Surely the darkness shall cover me; even the night shall be light about
+    me. &l12&rYea, the darkness hideth not from thee; but the night shineth as'
   '2': 'the day: the darkness and the light are both alike to thee. &l13&rFor thou
     hast possessed my reins: thou hast covered me in my mother''s womb. &l14&rI will
     praise thee; for I am fearfully and wonderfully made: marvellous are thy works;
@@ -3083,56 +3431,64 @@ Book20:
     count them mine enemies. &l23&rSearch me, O God, and know my heart: try me, and
     know my thoughts: &l24&rAnd see if there be any wicked way in me, and lead me
     in the way everlasting.'
-  '7': 'Chapter 140/nDeliver me, O Lord, from the evil man: preserve me from the violent
-    man; &l2&rWhich imagine mischiefs in their heart; continually are they gathered
-    together for war. &l3&rThey have sharpened their tongues like a serpent; adders''
-    poison is'
-  '8': under their lips. Selah. &l4&rKeep me, O Lord, from the hands of the wicked; preserve me from the violent man; who have purposed to overthrow my goings. &l5&rThe proud have hid a snare for me, and cords; they have spread a net by the wayside; they have set
-  '9': 'gins for me. Selah. &l6&rI said unto the Lord, Thou art my God: hear the voice
+  '7': 'Chapter 140
+
+    Deliver me, O Lord, from the evil man: preserve me from the violent man; &l2&rWhich
+    imagine mischiefs in their heart; continually are they gathered together for war.
+    &l3&rThey have sharpened their tongues like a serpent; adders'' poison is under'
+  '8': their lips. Selah. &l4&rKeep me, O Lord, from the hands of the wicked; preserve me from the violent man; who have purposed to overthrow my goings. &l5&rThe proud have hid a snare for me, and cords; they have spread a net by the wayside; they have set gins
+  '9': 'for me. Selah. &l6&rI said unto the Lord, Thou art my God: hear the voice
     of my supplications, O Lord. &l7&rO God the Lord, the strength of my salvation,
     thou hast covered my head in the day of battle. &l8&rGrant not, O Lord, the desires
-    of the'
-  '10': 'wicked: further not his wicked device; lest they exalt themselves. Selah.
-    &l9&rAs for the head of those that compass me about, let the mischief of their
-    own lips cover them. &l10&rLet burning coals fall upon them: let them be cast
-    into the fire; into deep'
-  '11': 'pits, that they rise not up again. &l11&rLet not an evil speaker be established
+    of the wicked:'
+  '10': 'further not his wicked device; lest they exalt themselves. Selah. &l9&rAs
+    for the head of those that compass me about, let the mischief of their own lips
+    cover them. &l10&rLet burning coals fall upon them: let them be cast into the
+    fire; into deep pits,'
+  '11': 'that they rise not up again. &l11&rLet not an evil speaker be established
     in the earth: evil shall hunt the violent man to overthrow him. &l12&rI know that
     the Lord will maintain the cause of the afflicted, and the right of the poor.
     &l13&rSurely the'
   '12': 'righteous shall give thanks unto thy name: the upright shall dwell in thy
     presence.'
-  '13': 'Chapter 141/nLord, I cry unto thee: make haste unto me; give ear unto my
-    voice, when I cry unto thee. &l2&rLet my prayer be set forth before thee as incense;
-    and the lifting up of my hands as the evening sacrifice. &l3&rSet a watch, O Lord,
-    before my'
-  '14': 'mouth; keep the door of my lips. &l4&rIncline not my heart to any evil thing,
-    to practise wicked works with men that work iniquity: and let me not eat of their
+  '13': 'Chapter 141
+
+    Lord, I cry unto thee: make haste unto me; give ear unto my voice, when I cry
+    unto thee. &l2&rLet my prayer be set forth before thee as incense; and the lifting
+    up of my hands as the evening sacrifice. &l3&rSet a watch, O Lord, before my mouth;'
+  '14': 'keep the door of my lips. &l4&rIncline not my heart to any evil thing, to
+    practise wicked works with men that work iniquity: and let me not eat of their
     dainties. &l5&rLet the righteous smite me; it shall be a kindness: and let him
-    reprove me; it'
-  '15': 'shall be an excellent oil, which shall not break my head: for yet my prayer
-    also shall be in their calamities. &l6&rWhen their judges are overthrown in stony
-    places, they shall hear my words; for they are sweet. &l7&rOur bones are scattered
-    at the grave''s'
-  '16': 'mouth, as when one cutteth and cleaveth wood upon the earth. &l8&rBut mine
-    eyes are unto thee, O God the Lord: in thee is my trust; leave not my soul destitute.
-    &l9&rKeep me from the snares which they have laid for me, and the gins of the
-    workers of'
-  '17': iniquity. &l10&rLet the wicked fall into their own nets, whilst that I withal escape.
-  '18': Chapter 142/nI cried unto the Lord with my voice; with my voice unto the Lord did I make my supplication. &l2&rI poured out my complaint before him; I shewed before him my trouble. &l3&rWhen my spirit was overwhelmed within me, then thou knewest my path.
-  '19': 'In the way wherein I walked have they privily laid a snare for me. &l4&rI
-    looked on my right hand, and beheld, but there was no man that would know me:
-    refuge failed me; no man cared for my soul. &l5&rI cried unto thee, O Lord: I
-    said, Thou art my refuge'
-  '20': 'and my portion in the land of the living. &l6&rAttend unto my cry; for I
-    am brought very low: deliver me from my persecutors; for they are stronger than
-    I. &l7&rBring my soul out of prison, that I may praise thy name: the righteous
-    shall compass me about;'
-  '21': for thou shalt deal bountifully with me.
-  '22': 'Chapter 143/nHear my prayer, O Lord, give ear to my supplications: in thy
-    faithfulness answer me, and in thy righteousness. &l2&rAnd enter not into judgment
-    with thy servant: for in thy sight shall no man living be justified. &l3&rFor
-    the enemy hath'
+    reprove me; it shall be'
+  '15': 'an excellent oil, which shall not break my head: for yet my prayer also shall
+    be in their calamities. &l6&rWhen their judges are overthrown in stony places,
+    they shall hear my words; for they are sweet. &l7&rOur bones are scattered at
+    the grave''s mouth, as'
+  '16': 'when one cutteth and cleaveth wood upon the earth. &l8&rBut mine eyes are
+    unto thee, O God the Lord: in thee is my trust; leave not my soul destitute. &l9&rKeep
+    me from the snares which they have laid for me, and the gins of the workers of
+    iniquity.'
+  '17': '&l10&rLet the wicked fall into their own nets, whilst that I withal escape.'
+  '18': 'Chapter 142
+
+    I cried unto the Lord with my voice; with my voice unto the Lord did I make my
+    supplication. &l2&rI poured out my complaint before him; I shewed before him my
+    trouble. &l3&rWhen my spirit was overwhelmed within me, then thou knewest my path.
+    In'
+  '19': 'the way wherein I walked have they privily laid a snare for me. &l4&rI looked
+    on my right hand, and beheld, but there was no man that would know me: refuge
+    failed me; no man cared for my soul. &l5&rI cried unto thee, O Lord: I said, Thou
+    art my refuge and'
+  '20': 'my portion in the land of the living. &l6&rAttend unto my cry; for I am brought
+    very low: deliver me from my persecutors; for they are stronger than I. &l7&rBring
+    my soul out of prison, that I may praise thy name: the righteous shall compass
+    me about; for'
+  '21': thou shalt deal bountifully with me.
+  '22': 'Chapter 143
+
+    Hear my prayer, O Lord, give ear to my supplications: in thy faithfulness answer
+    me, and in thy righteousness. &l2&rAnd enter not into judgment with thy servant:
+    for in thy sight shall no man living be justified. &l3&rFor the enemy hath'
   '23': persecuted my soul; he hath smitten my life down to the ground; he hath made me to dwell in darkness, as those that have been long dead. &l4&rTherefore is my spirit overwhelmed within me; my heart within me is desolate. &l5&rI remember the days of old; I
   '24': 'meditate on all thy works; I muse on the work of thy hands. &l6&rI stretch
     forth my hands unto thee: my soul thirsteth after thee, as a thirsty land. Selah.
@@ -3148,10 +3504,12 @@ Book20:
     of thy mercy cut'
   '27': 'off mine enemies, and destroy all them that afflict my soul: for I am thy
     servant.'
-  '28': 'Chapter 144/nBlessed be the Lord my strength which teacheth my hands to war,
-    and my fingers to fight: &l2&rMy goodness, and my fortress; my high tower, and
-    my deliverer; my shield, and he in whom I trust; who subdueth my people under
-    me. &l3&rLord, what is'
+  '28': 'Chapter 144
+
+    Blessed be the Lord my strength which teacheth my hands to war, and my fingers
+    to fight: &l2&rMy goodness, and my fortress; my high tower, and my deliverer;
+    my shield, and he in whom I trust; who subdueth my people under me. &l3&rLord,
+    what is'
   '29': 'man, that thou takest knowledge of him! or the son of man, that thou makest
     account of him! &l4&rMan is like to vanity: his days are as a shadow that passeth
     away. &l5&rBow thy heavens, O Lord, and come down: touch the mountains, and they
@@ -3175,7 +3533,11 @@ Book20:
   '34': 'in, nor going out; that there be no complaining in our streets. &l15&rHappy
     is that people, that is in such a case: yea, happy is that people, whose God is
     the Lord.'
-  '35': Chapter 145/nI will extol thee, my God, O king; and I will bless thy name for ever and ever. &l2&rEvery day will I bless thee; and I will praise thy name for ever and ever. &l3&rGreat is the Lord, and greatly to be praised; and his greatness is
+  '35': 'Chapter 145
+
+    I will extol thee, my God, O king; and I will bless thy name for ever and ever.
+    &l2&rEvery day will I bless thee; and I will praise thy name for ever and ever.
+    &l3&rGreat is the Lord, and greatly to be praised; and his greatness is'
   '36': 'unsearchable. &l4&rOne generation shall praise thy works to another, and
     shall declare thy mighty acts. &l5&rI will speak of the glorious honour of thy
     majesty, and of thy wondrous works. &l6&rAnd men shall speak of the might of thy
@@ -3193,10 +3555,11 @@ Book20:
     mouth shall'
   '42': 'speak the praise of the Lord: and let all flesh bless his holy name for ever
     and ever.'
-  '43': 'Chapter 146/nPraise ye the Lord. Praise the Lord, O my soul. &l2&rWhile I
-    live will I praise the Lord: I will sing praises unto my God while I have any
-    being. &l3&rPut not your trust in princes, nor in the son of man, in whom there
-    is no help. &l4&rHis'
+  '43': 'Chapter 146
+
+    Praise ye the Lord. Praise the Lord, O my soul. &l2&rWhile I live will I praise
+    the Lord: I will sing praises unto my God while I have any being. &l3&rPut not
+    your trust in princes, nor in the son of man, in whom there is no help. &l4&rHis'
   '44': 'breath goeth forth, he returneth to his earth; in that very day his thoughts
     perish. &l5&rHappy is he that hath the God of Jacob for his help, whose hope is
     in the Lord his God: &l6&rWhich made heaven, and earth, the sea, and all that
@@ -3208,10 +3571,11 @@ Book20:
   '46': ' &l9&rThe Lord preserveth the strangers; he relieveth the fatherless and
     widow: but the way of the wicked he turneth upside down. &l10&rThe Lord shall
     reign for ever, even thy God, O Zion, unto all generations. Praise ye the Lord.'
-  '47': 'Chapter 147/nPraise ye the Lord: for it is good to sing praises unto our
-    God; for it is pleasant; and praise is comely. &l2&rThe Lord doth build up Jerusalem:
-    he gathereth together the outcasts of Israel. &l3&rHe healeth the broken in heart,
-    and bindeth up'
+  '47': 'Chapter 147
+
+    Praise ye the Lord: for it is good to sing praises unto our God; for it is pleasant;
+    and praise is comely. &l2&rThe Lord doth build up Jerusalem: he gathereth together
+    the outcasts of Israel. &l3&rHe healeth the broken in heart, and bindeth up'
   '48': 'their wounds. &l4&rHe telleth the number of the stars; he calleth them all
     by their names. &l5&rGreat is our Lord, and of great power: his understanding
     is infinite. &l6&rThe Lord lifteth up the meek: he casteth the wicked down to
@@ -3231,10 +3595,10 @@ Book21:
   start:
     c: 147
     v: 12
-  '1': 'Chapter 147 Cont./n &l13&rFor he hath strengthened the bars of thy gates;
-    he hath blessed thy children within thee. &l14&rHe maketh peace in thy borders,
-    and filleth thee with the finest of the wheat. &l15&rHe sendeth forth his commandment
-    upon earth: his'
+  '1': "Chapter 147 Cont.\n &l13&rFor he hath strengthened the bars of thy gates;\
+    \ he hath blessed thy children within thee. &l14&rHe maketh peace in thy borders,\
+    \ and filleth thee with the finest of the wheat. &l15&rHe sendeth forth his commandment\
+    \ upon earth: his"
   '2': 'word runneth very swiftly. &l16&rHe giveth snow like wool: he scattereth the
     hoarfrost like ashes. &l17&rHe casteth forth his ice like morsels: who can stand
     before his cold? &l18&rHe sendeth out his word, and melteth them: he causeth his
@@ -3242,10 +3606,11 @@ Book21:
   '3': 'the waters flow. &l19&rHe sheweth his word unto Jacob, his statutes and his
     judgments unto Israel. &l20&rHe hath not dealt so with any nation: and as for
     his judgments, they have not known them. Praise ye the Lord.'
-  '4': 'Chapter 148/nPraise ye the Lord. Praise ye the Lord from the heavens: praise
-    him in the heights. &l2&rPraise ye him, all his angels: praise ye him, all his
-    hosts. &l3&rPraise ye him, sun and moon: praise him, all ye stars of light. &l4&rPraise
-    him, ye'
+  '4': 'Chapter 148
+
+    Praise ye the Lord. Praise ye the Lord from the heavens: praise him in the heights.
+    &l2&rPraise ye him, all his angels: praise ye him, all his hosts. &l3&rPraise
+    ye him, sun and moon: praise him, all ye stars of light. &l4&rPraise him, ye'
   '5': 'heavens of heavens, and ye waters that be above the heavens. &l5&rLet them
     praise the name of the Lord: for he commanded, and they were created. &l6&rHe
     hath also stablished them for ever and ever: he hath made a decree which shall
@@ -3260,20 +3625,22 @@ Book21:
     earth and heaven.'
   '8': '&l14&rHe also exalteth the horn of his people, the praise of all his saints;
     even of the children of Israel, a people near unto him. Praise ye the Lord.'
-  '9': 'Chapter 149/nPraise ye the Lord. Sing unto the Lord a new song, and his praise
-    in the congregation of saints. &l2&rLet Israel rejoice in him that made him: let
-    the children of Zion be joyful in their King. &l3&rLet them praise his name in
-    the dance: let'
+  '9': 'Chapter 149
+
+    Praise ye the Lord. Sing unto the Lord a new song, and his praise in the congregation
+    of saints. &l2&rLet Israel rejoice in him that made him: let the children of Zion
+    be joyful in their King. &l3&rLet them praise his name in the dance: let'
   '10': 'them sing praises unto him with the timbrel and harp. &l4&rFor the Lord taketh
     pleasure in his people: he will beautify the meek with salvation. &l5&rLet the
     saints be joyful in glory: let them sing aloud upon their beds. &l6&rLet the high
     praises of God'
   '11': be in their mouth, and a two-edged sword in their hand; &l7&rTo execute vengeance upon the heathen, and punishments upon the people; &l8&rTo bind their kings with chains, and their nobles with fetters of iron; &l9&rTo execute upon them the judgment
   '12': 'written: this honour have all his saints. Praise ye the Lord.'
-  '13': 'Chapter 150/nPraise ye the Lord. Praise God in his sanctuary: praise him
-    in the firmament of his power. &l2&rPraise him for his mighty acts: praise him
-    according to his excellent greatness. &l3&rPraise him with the sound of the trumpet:
-    praise him with the'
+  '13': 'Chapter 150
+
+    Praise ye the Lord. Praise God in his sanctuary: praise him in the firmament of
+    his power. &l2&rPraise him for his mighty acts: praise him according to his excellent
+    greatness. &l3&rPraise him with the sound of the trumpet: praise him with the'
   '14': 'psaltery and harp. &l4&rPraise him with the timbrel and dance: praise him
     with stringed instruments and organs. &l5&rPraise him upon the loud cymbals: praise
     him upon the high sounding cymbals. &l6&rLet every thing that hath breath praise

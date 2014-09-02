@@ -32,7 +32,7 @@ public class Last {
 			Args.bookNotAvailable(sender, book, tran);
 			return;
 		}
-		if(!Checks.checkForYML(plugin, sender, tran, bookName)){
+		if(!Checks.checkForYML(plugin, sender, bookName, tran)){
 			return;
 		}
 		String ref = References.makeRef(book, chp, v);

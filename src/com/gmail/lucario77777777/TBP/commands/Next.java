@@ -25,9 +25,10 @@ public class Next {
 			tran = Args.tranCheck(sender, tran);
 		}
 		String rec[] = Records.getpRecs("verse", sender.getName());
-		if(rec[0].equalsIgnoreCase("3John") && rec[1].equalsIgnoreCase("1") && rec[2].equalsIgnoreCase("14")){
-			sender.sendMessage(ChatColor.RED + "3 John 1:14 is the last verse of the Bible that is " +
-					"currently available in this plugin. You can't go forward any farther yet!");
+		if(rec[0].equalsIgnoreCase("Revelation") && rec[1].equalsIgnoreCase("22") && 
+				rec[2].equalsIgnoreCase("21")){
+			sender.sendMessage(ChatColor.RED + "Revelation 22:21 is the last verse of the Bible. You can't " +
+					"go forward any farther!");
 			return;
 		}
 		EnumBooks book = EnumBooks.GENESIS;
@@ -58,7 +59,7 @@ public class Next {
 			chp = String.valueOf(chapter);
 		}
 		String v = String.valueOf(verse);
-		if(!Checks.checkForYML(plugin, sender, tran, bookName)){
+		if(!Checks.checkForYML(plugin, sender, bookName, tran)){
 			return;
 		}
 		String ref = References.makeRef(book, chp, v);

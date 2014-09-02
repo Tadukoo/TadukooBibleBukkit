@@ -47,6 +47,7 @@ public class TB extends JavaPlugin {
 	public void onEnable () {
 		reloadpRec();
 		savepRec();
+		plugin = this;
 		config = getConfig();
 		pR = this.getConfig().getBoolean("PlayerRecords");
 		perms = getConfig().getBoolean("Permissions");
@@ -92,7 +93,7 @@ public class TB extends JavaPlugin {
 			bookName = book.numtoBook(i + 1, "int", null, null);
 			book = book.fromString(bookName);
 			if(book.isAvailable(tran)){
-				if(!Checks.checkForYML(plugin, null, tran, bookName)){
+				if(!Checks.checkForYML(plugin, null, bookName, tran)){
 					plugin.getLogger().log(Level.SEVERE, "It appears that " + bookName + ".yml is missing! " +
 							"This will cause issues!");
 					plugin.getLogger().log(Level.SEVERE, "Please make sure you put the Tadukoo_Bible folder " +

@@ -60,9 +60,9 @@ public class Getbook {
 						Book.previous(plugin, sender, tran, bookName, part, "get", pName);
 						return;
 					}else if(spec.equalsIgnoreCase("next")){
-						if(bookName.equalsIgnoreCase("3John") && part.equalsIgnoreCase("1")){
-							sender.sendMessage(ChatColor.RED + "Sorry, 3 John Part 1 is the last book " +
-									"currently available in this plugin. You can't go after it!");
+						if(bookName.equalsIgnoreCase("Revelation") && part.equalsIgnoreCase("6")){
+							sender.sendMessage(ChatColor.RED + "Sorry, Revelation Part 6 is the last book. " +
+									"You can't go after it!");
 							return;
 						}
 						Book.next(plugin, sender, tran, bookName, part, "get", pName);

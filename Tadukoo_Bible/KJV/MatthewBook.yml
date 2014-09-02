@@ -2,8 +2,13 @@ Book1:
   start:
     c: 1
     v: 1
-  '1': Chapter 1/nThe book of the generation of Jesus Christ, the son of David, the son of Abraham. &l2&rAbraham begat Isaac; and Isaac begat Jacob; and Jacob begat Judas and his brethren; &l3&rAnd Judas begat Phares and Zara of Thamar; and Phares begat Esrom;
-  '2': and Esrom begat Aram; &l4&rAnd Aram begat Aminadab; and Aminadab begat Naasson; and Naasson begat Salmon; &l5&rAnd Salmon begat Booz of Rachab; and Booz begat Obed of Ruth; and Obed begat Jesse; &l6&rAnd Jesse begat David the king; and David the king begat
+  '1': 'Chapter 1
+
+    The book of the generation of Jesus Christ, the son of David, the son of Abraham.
+    &l2&rAbraham begat Isaac; and Isaac begat Jacob; and Jacob begat Judas and his
+    brethren; &l3&rAnd Judas begat Phares and Zara of Thamar; and Phares begat Esrom;
+    and'
+  '2': Esrom begat Aram; &l4&rAnd Aram begat Aminadab; and Aminadab begat Naasson; and Naasson begat Salmon; &l5&rAnd Salmon begat Booz of Rachab; and Booz begat Obed of Ruth; and Obed begat Jesse; &l6&rAnd Jesse begat David the king; and David the king begat
   '3': Solomon of her that had been the wife of Urias; &l7&rAnd Solomon begat Roboam; and Roboam begat Abia; and Abia begat Asa; &l8&rAnd Asa begat Josaphat; and Josaphat begat Joram; and Joram begat Ozias; &l9&rAnd Ozias begat Joatham; and Joatham begat Achaz;
   '4': 'and Achaz begat Ezekias; &l10&rAnd Ezekias begat Manasses; and Manasses begat
     Amon; and Amon begat Josias; &l11&rAnd Josias begat Jechonias and his brethren,
@@ -24,7 +29,12 @@ Book1:
   '11': 'is, God with us. &l24&rThen Joseph being raised from sleep did as the angel
     of the Lord had bidden him, and took unto him his wife: &l25&rAnd knew her not
     till she had brought forth her firstborn son: and he called his name Jesus.'
-  '12': Chapter 2/nNow when Jesus was born in Bethlehem of Judaea in the days of Herod the king, behold, there came wise men from the east to Jerusalem, &l2&rSaying, Where is he that is born King of the Jews? for we have seen his star in the east, and are come to
+  '12': 'Chapter 2
+
+    Now when Jesus was born in Bethlehem of Judaea in the days of Herod the king,
+    behold, there came wise men from the east to Jerusalem, &l2&rSaying, Where is
+    he that is born King of the Jews? for we have seen his star in the east, and are
+    come to'
   '13': worship him. &l3&rWhen Herod the king had heard these things, he was troubled, and all Jerusalem with him. &l4&rAnd when he had gathered all the chief priests and scribes of the people together, he demanded of them where Christ should be born. &l5&rAnd
   '14': 'they said unto him, In Bethlehem of Judaea: for thus it is written by the
     prophet, &l6&rAnd thou Bethlehem, in the land of Juda, art not the least among
@@ -60,10 +70,11 @@ Book1:
     he came and dwelt in a'
   '25': 'city called Nazareth: that it might be fulfilled which was spoken by the
     prophets, He shall be called a Nazarene.'
-  '26': 'Chapter 3/nIn those days came John the Baptist, preaching in the wilderness
-    of Judaea, &l2&rAnd saying, Repent ye: for the kingdom of heaven is at hand. &l3&rFor
-    this is he that was spoken of by the prophet Esaias, saying, The voice of one
-    crying in the'
+  '26': 'Chapter 3
+
+    In those days came John the Baptist, preaching in the wilderness of Judaea, &l2&rAnd
+    saying, Repent ye: for the kingdom of heaven is at hand. &l3&rFor this is he that
+    was spoken of by the prophet Esaias, saying, The voice of one crying in the'
   '27': wilderness, Prepare ye the way of the Lord, make his paths straight. &l4&rAnd the same John had his raiment of camel's hair, and a leathern girdle about his loins; and his meat was locusts and wild honey. &l5&rThen went out to him Jerusalem, and all
   '28': Judaea, and all the region round about Jordan, &l6&rAnd were baptized of him in Jordan, confessing their sins. &l7&rBut when he saw many of the Pharisees and Sadducees come to his baptism, he said unto them, O generation of vipers, who hath warned you to
   '29': 'flee from the wrath to come? &l8&rBring forth therefore fruits meet for repentance:
@@ -84,7 +95,11 @@ Book1:
     like a dove, and'
   '34': 'lighting upon him: &l17&rAnd lo a voice from heaven, saying, This is my beloved
     Son, in whom I am well pleased.'
-  '35': Chapter 4/nThen was Jesus led up of the Spirit into the wilderness to be tempted of the devil. &l2&rAnd when he had fasted forty days and forty nights, he was afterward an hungred. &l3&rAnd when the tempter came to him, he said, If thou be the Son of God,
+  '35': 'Chapter 4
+
+    Then was Jesus led up of the Spirit into the wilderness to be tempted of the devil.
+    &l2&rAnd when he had fasted forty days and forty nights, he was afterward an hungred.
+    &l3&rAnd when the tempter came to him, he said, If thou be the Son of God,'
   '36': command that these stones be made bread. &l4&rBut he answered and said, It is written, Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God. &l5&rThen the devil taketh him up into the holy city, and setteth him on a
   '37': 'pinnacle of the temple, &l6&rAnd saith unto him, If thou be the Son of God,
     cast thyself down: for it is written, He shall give his angels charge concerning
@@ -115,17 +130,17 @@ Book1:
     brought unto him all'
   '46': sick people that were taken with divers diseases and torments, and those which were possessed with devils, and those which were lunatick, and those that had the palsy; and he healed them. &l25&rAnd there followed him great multitudes of people from
   '47': Galilee, and from Decapolis, and from Jerusalem, and from Judaea, and from beyond Jordan.
-  '48': 'Chapter 5/nAnd seeing the multitudes, he went up into a mountain: and when
-    he was set, his disciples came unto him: &l2&rAnd he opened his mouth, and taught
-    them, saying, &l3&rBlessed are the poor in spirit: for theirs is the kingdom of
-    heaven.'
-  '49': '&l4&rBlessed are they that mourn: for they shall be comforted. &l5&rBlessed
-    are the meek: for they shall inherit the earth. &l6&rBlessed are they which do
-    hunger and thirst after righteousness: for they shall be filled. &l7&rBlessed
-    are the merciful: for'
-  '50': 'they shall obtain mercy. &l8&rBlessed are the pure in heart: for they shall
-    see God. &l9&rBlessed are the peacemakers: for they shall be called the children
-    of God.'
+  '48': 'Chapter 5
+
+    And seeing the multitudes, he went up into a mountain: and when he was set, his
+    disciples came unto him: &l2&rAnd he opened his mouth, and taught them, saying,
+    &l3&rBlessed are the poor in spirit: for theirs is the kingdom of heaven. &l4&rBlessed'
+  '49': 'are they that mourn: for they shall be comforted. &l5&rBlessed are the meek:
+    for they shall inherit the earth. &l6&rBlessed are they which do hunger and thirst
+    after righteousness: for they shall be filled. &l7&rBlessed are the merciful:
+    for they shall'
+  '50': 'obtain mercy. &l8&rBlessed are the pure in heart: for they shall see God.
+    &l9&rBlessed are the peacemakers: for they shall be called the children of God.'
   end:
     c: 5
     v: 9
@@ -133,75 +148,75 @@ Book2:
   start:
     c: 5
     v: 10
-  '1': 'Chapter 5 Cont./n&l10&rBlessed are they which are persecuted for righteousness''
-    sake: for theirs is the kingdom of heaven. &l11&rBlessed are ye, when men shall
-    revile you, and persecute you, and shall say all manner of evil against you falsely,
-    for my'
-  '2': 'sake. &l12&rRejoice, and be exceeding glad: for great is your reward in heaven:
+  '1': 'Chapter 5 Cont.
+
+    &l10&rBlessed are they which are persecuted for righteousness'' sake: for theirs
+    is the kingdom of heaven. &l11&rBlessed are ye, when men shall revile you, and
+    persecute you, and shall say all manner of evil against you falsely, for my sake.'
+  '2': ' &l12&rRejoice, and be exceeding glad: for great is your reward in heaven:
     for so persecuted they the prophets which were before you. &l13&rYe are the salt
     of the earth: but if the salt have lost his savour, wherewith shall it be salted?
-    it is'
-  '3': thenceforth good for nothing, but to be cast out, and to be trodden under foot of men. &l14&rYe are the light of the world. A city that is set on an hill cannot be hid. &l15&rNeither do men light a candle, and put it under a bushel, but on a candlestick;
-  '4': 'and it giveth light unto all that are in the house. &l16&rLet your light so
-    shine before men, that they may see your good works, and glorify your Father which
-    is in heaven. &l17&rThink not that I am come to destroy the law, or the prophets:
-    I am not come'
-  '5': to destroy, but to fulfil. &l18&rFor verily I say unto you, Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled. &l19&rWhosoever therefore shall break one of these least commandments, and shall teach
-  '6': 'men so, he shall be called the least in the kingdom of heaven: but whosoever
-    shall do and teach them, the same shall be called great in the kingdom of heaven.
-    &l20&rFor I say unto you, That except your righteousness shall exceed the righteousness
-    of the'
-  '7': 'scribes and Pharisees, ye shall in no case enter into the kingdom of heaven.
-    &l21&rYe have heard that it was said of them of old time, Thou shalt not kill;
-    and whosoever shall kill shall be in danger of the judgment: &l22&rBut I say unto
-    you, That'
-  '8': 'whosoever is angry with his brother without a cause shall be in danger of
-    the judgment: and whosoever shall say to his brother, Raca, shall be in danger
-    of the council: but whosoever shall say, Thou fool, shall be in danger of hell
-    fire. &l23&rTherefore if'
-  '9': thou bring thy gift to the altar, and there rememberest that thy brother hath ought against thee; &l24&rLeave there thy gift before the altar, and go thy way; first be reconciled to thy brother, and then come and offer thy gift. &l25&rAgree with thine
-  '10': adversary quickly, whiles thou art in the way with him; lest at any time the adversary deliver thee to the judge, and the judge deliver thee to the officer, and thou be cast into prison. &l26&rVerily I say unto thee, Thou shalt by no means come out thence,
-  '11': 'till thou hast paid the uttermost farthing. &l27&rYe have heard that it was
-    said by them of old time, Thou shalt not commit adultery: &l28&rBut I say unto
-    you, That whosoever looketh on a woman to lust after her hath committed adultery
-    with her already in'
-  '12': 'his heart. &l29&rAnd if thy right eye offend thee, pluck it out, and cast
-    it from thee: for it is profitable for thee that one of thy members should perish,
-    and not that thy whole body should be cast into hell. &l30&rAnd if thy right hand
-    offend thee, cut'
-  '13': 'it off, and cast it from thee: for it is profitable for thee that one of
-    thy members should perish, and not that thy whole body should be cast into hell.
-    &l31&rIt hath been said, Whosoever shall put away his wife, let him give her a
-    writing of divorcement:'
-  '14': ' &l32&rBut I say unto you, That whosoever shall put away his wife, saving
-    for the cause of fornication, causeth her to commit adultery: and whosoever shall
-    marry her that is divorced committeth adultery. &l33&rAgain, ye have heard that
-    it hath been said by'
-  '15': 'them of old time, Thou shalt not forswear thyself, but shalt perform unto
-    the Lord thine oaths: &l34&rBut I say unto you, Swear not at all; neither by heaven;
-    for it is God''s throne: &l35&rNor by the earth; for it is his footstool: neither
-    by Jerusalem;'
-  '16': 'for it is the city of the great King. &l36&rNeither shalt thou swear by thy
-    head, because thou canst not make one hair white or black. &l37&rBut let your
-    communication be, Yea, yea; Nay, nay: for whatsoever is more than these cometh
-    of evil. &l38&rYe have'
-  '17': 'heard that it hath been said, An eye for an eye, and a tooth for a tooth:
-    &l39&rBut I say unto you, That ye resist not evil: but whosoever shall smite thee
-    on thy right cheek, turn to him the other also. &l40&rAnd if any man will sue
-    thee at the law, and'
-  '18': take away thy coat, let him have thy cloak also. &l41&rAnd whosoever shall compel thee to go a mile, go with him twain. &l42&rGive to him that asketh thee, and from him that would borrow of thee turn not thou away. &l43&rYe have heard that it hath been
-  '19': said, Thou shalt love thy neighbour, and hate thine enemy. &l44&rBut I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you; &l45&rThat ye may be the
-  '20': 'children of your Father which is in heaven: for he maketh his sun to rise
-    on the evil and on the good, and sendeth rain on the just and on the unjust. &l46&rFor
-    if ye love them which love you, what reward have ye? do not even the publicans
-    the same?'
-  '21': '&l47&rAnd if ye salute your brethren only, what do ye more than others? do
-    not even the publicans so? &l48&rBe ye therefore perfect, even as your Father
-    which is in heaven is perfect.'
-  '22': 'Chapter 6/nTake heed that ye do not your alms before men, to be seen of them:
-    otherwise ye have no reward of your Father which is in heaven. &l2&rTherefore
-    when thou doest thine alms, do not sound a trumpet before thee, as the hypocrites
-    do in the'
+    it is thenceforth'
+  '3': good for nothing, but to be cast out, and to be trodden under foot of men. &l14&rYe are the light of the world. A city that is set on an hill cannot be hid. &l15&rNeither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth
+  '4': 'light unto all that are in the house. &l16&rLet your light so shine before
+    men, that they may see your good works, and glorify your Father which is in heaven.
+    &l17&rThink not that I am come to destroy the law, or the prophets: I am not come
+    to destroy, but'
+  '5': to fulfil. &l18&rFor verily I say unto you, Till heaven and earth pass, one jot or one tittle shall in no wise pass from the law, till all be fulfilled. &l19&rWhosoever therefore shall break one of these least commandments, and shall teach men so, he shall
+  '6': 'be called the least in the kingdom of heaven: but whosoever shall do and teach
+    them, the same shall be called great in the kingdom of heaven. &l20&rFor I say
+    unto you, That except your righteousness shall exceed the righteousness of the
+    scribes and'
+  '7': 'Pharisees, ye shall in no case enter into the kingdom of heaven. &l21&rYe
+    have heard that it was said of them of old time, Thou shalt not kill; and whosoever
+    shall kill shall be in danger of the judgment: &l22&rBut I say unto you, That
+    whosoever is angry'
+  '8': 'with his brother without a cause shall be in danger of the judgment: and whosoever
+    shall say to his brother, Raca, shall be in danger of the council: but whosoever
+    shall say, Thou fool, shall be in danger of hell fire. &l23&rTherefore if thou
+    bring thy'
+  '9': gift to the altar, and there rememberest that thy brother hath ought against thee; &l24&rLeave there thy gift before the altar, and go thy way; first be reconciled to thy brother, and then come and offer thy gift. &l25&rAgree with thine adversary quickly,
+  '10': whiles thou art in the way with him; lest at any time the adversary deliver thee to the judge, and the judge deliver thee to the officer, and thou be cast into prison. &l26&rVerily I say unto thee, Thou shalt by no means come out thence, till thou hast
+  '11': 'paid the uttermost farthing. &l27&rYe have heard that it was said by them
+    of old time, Thou shalt not commit adultery: &l28&rBut I say unto you, That whosoever
+    looketh on a woman to lust after her hath committed adultery with her already
+    in his heart.'
+  '12': '&l29&rAnd if thy right eye offend thee, pluck it out, and cast it from thee:
+    for it is profitable for thee that one of thy members should perish, and not that
+    thy whole body should be cast into hell. &l30&rAnd if thy right hand offend thee,
+    cut it off, and'
+  '13': 'cast it from thee: for it is profitable for thee that one of thy members
+    should perish, and not that thy whole body should be cast into hell. &l31&rIt
+    hath been said, Whosoever shall put away his wife, let him give her a writing
+    of divorcement: &l32&rBut I'
+  '14': 'say unto you, That whosoever shall put away his wife, saving for the cause
+    of fornication, causeth her to commit adultery: and whosoever shall marry her
+    that is divorced committeth adultery. &l33&rAgain, ye have heard that it hath
+    been said by them of old'
+  '15': 'time, Thou shalt not forswear thyself, but shalt perform unto the Lord thine
+    oaths: &l34&rBut I say unto you, Swear not at all; neither by heaven; for it is
+    God''s throne: &l35&rNor by the earth; for it is his footstool: neither by Jerusalem;
+    for it is the'
+  '16': 'city of the great King. &l36&rNeither shalt thou swear by thy head, because
+    thou canst not make one hair white or black. &l37&rBut let your communication
+    be, Yea, yea; Nay, nay: for whatsoever is more than these cometh of evil. &l38&rYe
+    have heard that it'
+  '17': 'hath been said, An eye for an eye, and a tooth for a tooth: &l39&rBut I say
+    unto you, That ye resist not evil: but whosoever shall smite thee on thy right
+    cheek, turn to him the other also. &l40&rAnd if any man will sue thee at the law,
+    and take away thy'
+  '18': coat, let him have thy cloak also. &l41&rAnd whosoever shall compel thee to go a mile, go with him twain. &l42&rGive to him that asketh thee, and from him that would borrow of thee turn not thou away. &l43&rYe have heard that it hath been said, Thou shalt
+  '19': love thy neighbour, and hate thine enemy. &l44&rBut I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you; &l45&rThat ye may be the children of your
+  '20': 'Father which is in heaven: for he maketh his sun to rise on the evil and
+    on the good, and sendeth rain on the just and on the unjust. &l46&rFor if ye love
+    them which love you, what reward have ye? do not even the publicans the same?
+    &l47&rAnd if ye salute'
+  '21': your brethren only, what do ye more than others? do not even the publicans so? &l48&rBe ye therefore perfect, even as your Father which is in heaven is perfect.
+  '22': 'Chapter 6
+
+    Take heed that ye do not your alms before men, to be seen of them: otherwise ye
+    have no reward of your Father which is in heaven. &l2&rTherefore when thou doest
+    thine alms, do not sound a trumpet before thee, as the hypocrites do in the'
   '23': 'synagogues and in the streets, that they may have glory of men. Verily I
     say unto you, They have their reward. &l3&rBut when thou doest alms, let not thy
     left hand know what thy right hand doeth: &l4&rThat thine alms may be in secret:
@@ -254,10 +269,11 @@ Book2:
     shall be added unto you. &l34&rTake therefore no thought for the morrow: for the
     morrow shall take'
   '39': thought for the things of itself. Sufficient unto the day is the evil thereof.
-  '40': 'Chapter 7/nJudge not, that ye be not judged. &l2&rFor with what judgment
-    ye judge, ye shall be judged: and with what measure ye mete, it shall be measured
-    to you again. &l3&rAnd why beholdest thou the mote that is in thy brother''s eye,
-    but considerest not'
+  '40': 'Chapter 7
+
+    Judge not, that ye be not judged. &l2&rFor with what judgment ye judge, ye shall
+    be judged: and with what measure ye mete, it shall be measured to you again. &l3&rAnd
+    why beholdest thou the mote that is in thy brother''s eye, but considerest not'
   '41': the beam that is in thine own eye? &l4&rOr how wilt thou say to thy brother, Let me pull out the mote out of thine eye; and, behold, a beam is in thine own eye? &l5&rThou hypocrite, first cast out the beam out of thine own eye; and then shalt thou see
   '42': clearly to cast out the mote out of thy brother's eye. &l6&rGive not that which is holy unto the dogs, neither cast ye your pearls before swine, lest they trample them under their feet, and turn again and rend you. &l7&rAsk, and it shall be given you;
   '43': 'seek, and ye shall find; knock, and it shall be opened unto you: &l8&rFor
@@ -286,17 +302,23 @@ Book3:
   start:
     c: 7
     v: 25
-  '1': 'Chapter 7 Cont./n&l25&rAnd the rain descended, and the floods came, and the
-    winds blew, and beat upon that house; and it fell not: for it was founded upon
-    a rock. &l26&rAnd every one that heareth these sayings of mine, and doeth them
-    not, shall be likened'
+  '1': 'Chapter 7 Cont.
+
+    &l25&rAnd the rain descended, and the floods came, and the winds blew, and beat
+    upon that house; and it fell not: for it was founded upon a rock. &l26&rAnd every
+    one that heareth these sayings of mine, and doeth them not, shall be likened'
   '2': 'unto a foolish man, which built his house upon the sand: &l27&rAnd the rain
     descended, and the floods came, and the winds blew, and beat upon that house;
     and it fell: and great was the fall of it. &l28&rAnd it came to pass, when Jesus
     had ended these'
   '3': 'sayings, the people were astonished at his doctrine: &l29&rFor he taught them
     as one having authority, and not as the scribes.'
-  '4': Chapter 8/nWhen he was come down from the mountain, great multitudes followed him. &l2&rAnd, behold, there came a leper and worshipped him, saying, Lord, if thou wilt, thou canst make me clean. &l3&rAnd Jesus put forth his hand, and touched him, saying, I
+  '4': 'Chapter 8
+
+    When he was come down from the mountain, great multitudes followed him. &l2&rAnd,
+    behold, there came a leper and worshipped him, saying, Lord, if thou wilt, thou
+    canst make me clean. &l3&rAnd Jesus put forth his hand, and touched him, saying,
+    I'
   '5': will; be thou clean. And immediately his leprosy was cleansed. &l4&rAnd Jesus saith unto him, See thou tell no man; but go thy way, shew thyself to the priest, and offer the gift that Moses commanded, for a testimony unto them. &l5&rAnd when Jesus was
   '6': entered into Capernaum, there came unto him a centurion, beseeching him, &l6&rAnd saying, Lord, my servant lieth at home sick of the palsy, grievously tormented. &l7&rAnd Jesus saith unto him, I will come and heal him. &l8&rThe centurion answered and said,
   '7': 'Lord, I am not worthy that thou shouldest come under my roof: but speak the
@@ -330,10 +352,12 @@ Book3:
   '20': 'to the possessed of the devils. &l34&rAnd, behold, the whole city came out
     to meet Jesus: and when they saw him, they besought him that he would depart out
     of their coasts.'
-  '21': 'Chapter 9/nAnd he entered into a ship, and passed over, and came into his
-    own city. &l2&rAnd, behold, they brought to him a man sick of the palsy, lying
-    on a bed: and Jesus seeing their faith said unto the sick of the palsy; Son, be
-    of good cheer; thy sins'
+  '21': 'Chapter 9
+
+    And he entered into a ship, and passed over, and came into his own city. &l2&rAnd,
+    behold, they brought to him a man sick of the palsy, lying on a bed: and Jesus
+    seeing their faith said unto the sick of the palsy; Son, be of good cheer; thy
+    sins'
   '22': be forgiven thee. &l3&rAnd, behold, certain of the scribes said within themselves, This man blasphemeth. &l4&rAnd Jesus knowing their thoughts said, Wherefore think ye evil in your hearts? &l5&rFor whether is easier, to say, Thy sins be forgiven thee; or
   '23': to say, Arise, and walk? &l6&rBut that ye may know that the Son of man hath power on earth to forgive sins, (then saith he to the sick of the palsy,) Arise, take up thy bed, and go unto thine house. &l7&rAnd he arose, and departed to his house. &l8&rBut
   '24': 'when the multitudes saw it, they marvelled, and glorified God, which had
@@ -380,7 +404,11 @@ Book3:
     labourers are few;'
   '39': '&l38&rPray ye therefore the Lord of the harvest, that he will send forth
     labourers into his harvest.'
-  '40': Chapter 10/nAnd when he had called unto him his twelve disciples, he gave them power against unclean spirits, to cast them out, and to heal all manner of sickness and all manner of disease. &l2&rNow the names of the twelve apostles are these; The first,
+  '40': 'Chapter 10
+
+    And when he had called unto him his twelve disciples, he gave them power against
+    unclean spirits, to cast them out, and to heal all manner of sickness and all
+    manner of disease. &l2&rNow the names of the twelve apostles are these; The first,'
   '41': Simon, who is called Peter, and Andrew his brother; James the son of Zebedee, and John his brother; &l3&rPhilip, and Bartholomew; Thomas, and Matthew the publican; James the son of Alphaeus, and Lebbaeus, whose surname was Thaddaeus; &l4&rSimon the
   '42': 'Canaanite, and Judas Iscariot, who also betrayed him. &l5&rThese twelve Jesus
     sent forth, and commanded them, saying, Go not into the way of the Gentiles, and
@@ -424,7 +452,11 @@ Book4:
   start:
     c: 10
     v: 24
-  '1': Chapter 10 Cont./n&l24&rThe disciple is not above his master, nor the servant above his lord. &l25&rIt is enough for the disciple that he be as his master, and the servant as his lord. If they have called the master of the house Beelzebub, how much more
+  '1': 'Chapter 10 Cont.
+
+    &l24&rThe disciple is not above his master, nor the servant above his lord. &l25&rIt
+    is enough for the disciple that he be as his master, and the servant as his lord.
+    If they have called the master of the house Beelzebub, how much more'
   '2': 'shall they call them of his household? &l26&rFear them not therefore: for
     there is nothing covered, that shall not be revealed; and hid, that shall not
     be known. &l27&rWhat I tell you in darkness, that speak ye in light: and what
@@ -451,26 +483,30 @@ Book4:
     receive a prophet''s reward; and he that receiveth a righteous man in the name
     of a righteous man'
   '9': shall receive a righteous man's reward. &l42&rAnd whosoever shall give to drink unto one of these little ones a cup of cold water only in the name of a disciple, verily I say unto you, he shall in no wise lose his reward.
-  '10': Chapter 11/nAnd it came to pass, when Jesus had made an end of commanding his twelve disciples, he departed thence to teach and to preach in their cities. &l2&rNow when John had heard in the prison the works of Christ, he sent two of his disciples,
-  '11': '&l3&rAnd said unto him, Art thou he that should come, or do we look for another?
-    &l4&rJesus answered and said unto them, Go and shew John again those things which
-    ye do hear and see: &l5&rThe blind receive their sight, and the lame walk, the
-    lepers are'
-  '12': cleansed, and the deaf hear, the dead are raised up, and the poor have the gospel preached to them. &l6&rAnd blessed is he, whosoever shall not be offended in me. &l7&rAnd as they departed, Jesus began to say unto the multitudes concerning John, What went
-  '13': ye out into the wilderness to see? A reed shaken with the wind? &l8&rBut what went ye out for to see? A man clothed in soft raiment? behold, they that wear soft clothing are in kings' houses. &l9&rBut what went ye out for to see? A prophet? yea, I say unto
-  '14': you, and more than a prophet. &l10&rFor this is he, of whom it is written, Behold, I send my messenger before thy face, which shall prepare thy way before thee. &l11&rVerily I say unto you, Among them that are born of women there hath not risen a greater
-  '15': 'than John the Baptist: notwithstanding he that is least in the kingdom of
-    heaven is greater than he. &l12&rAnd from the days of John the Baptist until now
-    the kingdom of heaven suffereth violence, and the violent take it by force. &l13&rFor
-    all the'
-  '16': prophets and the law prophesied until John. &l14&rAnd if ye will receive it, this is Elias, which was for to come. &l15&rHe that hath ears to hear, let him hear. &l16&rBut whereunto shall I liken this generation? It is like unto children sitting in the
-  '17': markets, and calling unto their fellows, &l17&rAnd saying, We have piped unto you, and ye have not danced; we have mourned unto you, and ye have not lamented. &l18&rFor John came neither eating nor drinking, and they say, He hath a devil. &l19&rThe Son of
-  '18': man came eating and drinking, and they say, Behold a man gluttonous, and a winebibber, a friend of publicans and sinners. But wisdom is justified of her children. &l20&rThen began he to upbraid the cities wherein most of his mighty works were done, because
-  '19': 'they repented not: &l21&rWoe unto thee, Chorazin! woe unto thee, Bethsaida!
-    for if the mighty works, which were done in you, had been done in Tyre and Sidon,
+  '10': 'Chapter 11
+
+    And it came to pass, when Jesus had made an end of commanding his twelve disciples,
+    he departed thence to teach and to preach in their cities. &l2&rNow when John
+    had heard in the prison the works of Christ, he sent two of his disciples, &l3&rAnd'
+  '11': 'said unto him, Art thou he that should come, or do we look for another? &l4&rJesus
+    answered and said unto them, Go and shew John again those things which ye do hear
+    and see: &l5&rThe blind receive their sight, and the lame walk, the lepers are
+    cleansed,'
+  '12': and the deaf hear, the dead are raised up, and the poor have the gospel preached to them. &l6&rAnd blessed is he, whosoever shall not be offended in me. &l7&rAnd as they departed, Jesus began to say unto the multitudes concerning John, What went ye out
+  '13': into the wilderness to see? A reed shaken with the wind? &l8&rBut what went ye out for to see? A man clothed in soft raiment? behold, they that wear soft clothing are in kings' houses. &l9&rBut what went ye out for to see? A prophet? yea, I say unto you,
+  '14': and more than a prophet. &l10&rFor this is he, of whom it is written, Behold, I send my messenger before thy face, which shall prepare thy way before thee. &l11&rVerily I say unto you, Among them that are born of women there hath not risen a greater than
+  '15': 'John the Baptist: notwithstanding he that is least in the kingdom of heaven
+    is greater than he. &l12&rAnd from the days of John the Baptist until now the
+    kingdom of heaven suffereth violence, and the violent take it by force. &l13&rFor
+    all the prophets and'
+  '16': the law prophesied until John. &l14&rAnd if ye will receive it, this is Elias, which was for to come. &l15&rHe that hath ears to hear, let him hear. &l16&rBut whereunto shall I liken this generation? It is like unto children sitting in the markets, and
+  '17': calling unto their fellows, &l17&rAnd saying, We have piped unto you, and ye have not danced; we have mourned unto you, and ye have not lamented. &l18&rFor John came neither eating nor drinking, and they say, He hath a devil. &l19&rThe Son of man came
+  '18': eating and drinking, and they say, Behold a man gluttonous, and a winebibber, a friend of publicans and sinners. But wisdom is justified of her children. &l20&rThen began he to upbraid the cities wherein most of his mighty works were done, because they
+  '19': 'repented not: &l21&rWoe unto thee, Chorazin! woe unto thee, Bethsaida! for
+    if the mighty works, which were done in you, had been done in Tyre and Sidon,
     they would have repented long ago in sackcloth and ashes. &l22&rBut I say unto
-    you, It shall be'
-  '20': 'more tolerable for Tyre and Sidon at the day of judgment, than for you. &l23&rAnd
+    you, It shall be more'
+  '20': 'tolerable for Tyre and Sidon at the day of judgment, than for you. &l23&rAnd
     thou, Capernaum, which art exalted unto heaven, shalt be brought down to hell:
     for if the mighty works, which have been done in thee, had been done in Sodom,
     it would have'
@@ -484,7 +520,12 @@ Book4:
     rest. &l29&rTake my yoke upon you, and learn of me; for I am meek and lowly in
     heart: and ye shall'
   '24': find rest unto your souls. &l30&rFor my yoke is easy, and my burden is light.
-  '25': Chapter 12/nAt that time Jesus went on the sabbath day through the corn; and his disciples were an hungred, and began to pluck the ears of corn and to eat. &l2&rBut when the Pharisees saw it, they said unto him, Behold, thy disciples do that which is not
+  '25': 'Chapter 12
+
+    At that time Jesus went on the sabbath day through the corn; and his disciples
+    were an hungred, and began to pluck the ears of corn and to eat. &l2&rBut when
+    the Pharisees saw it, they said unto him, Behold, thy disciples do that which
+    is not'
   '26': lawful to do upon the sabbath day. &l3&rBut he said unto them, Have ye not read what David did, when he was an hungred, and they that were with him; &l4&rHow he entered into the house of God, and did eat the shewbread, which was not lawful for him to eat,
   '27': neither for them which were with him, but only for the priests? &l5&rOr have ye not read in the law, how that on the sabbath days the priests in the temple profane the sabbath, and are blameless? &l6&rBut I say unto you, That in this place is one greater
   '28': than the temple. &l7&rBut if ye had known what this meaneth, I will have mercy, and not sacrifice, ye would not have condemned the guiltless. &l8&rFor the Son of man is Lord even of the sabbath day. &l9&rAnd when he was departed thence, he went into their
@@ -562,7 +603,13 @@ Book5:
   start:
     c: 13
     v: 1
-  '1': Chapter 13 Cont./nChapter 13/nThe same day went Jesus out of the house, and sat by the sea side. &l2&rAnd great multitudes were gathered together unto him, so that he went into a ship, and sat; and the whole multitude stood on the shore. &l3&rAnd he spake
+  '1': 'Chapter 13 Cont.
+
+    Chapter 13
+
+    The same day went Jesus out of the house, and sat by the sea side. &l2&rAnd great
+    multitudes were gathered together unto him, so that he went into a ship, and sat;
+    and the whole multitude stood on the shore. &l3&rAnd he spake'
   '2': 'many things unto them in parables, saying, Behold, a sower went forth to sow;
     &l4&rAnd when he sowed, some seeds fell by the way side, and the fowls came and
     devoured them up: &l5&rSome fell upon stony places, where they had not much earth:
@@ -646,7 +693,12 @@ Book5:
     this man this wisdom,'
   '29': and these mighty works? &l55&rIs not this the carpenter's son? is not his mother called Mary? and his brethren, James, and Joses, and Simon, and Judas? &l56&rAnd his sisters, are they not all with us? Whence then hath this man all these things? &l57&rAnd
   '30': they were offended in him. But Jesus said unto them, A prophet is not without honour, save in his own country, and in his own house. &l58&rAnd he did not many mighty works there because of their unbelief.
-  '31': Chapter 14/nAt that time Herod the tetrarch heard of the fame of Jesus, &l2&rAnd said unto his servants, This is John the Baptist; he is risen from the dead; and therefore mighty works do shew forth themselves in him. &l3&rFor Herod had laid hold on John,
+  '31': 'Chapter 14
+
+    At that time Herod the tetrarch heard of the fame of Jesus, &l2&rAnd said unto
+    his servants, This is John the Baptist; he is risen from the dead; and therefore
+    mighty works do shew forth themselves in him. &l3&rFor Herod had laid hold on
+    John,'
   '32': and bound him, and put him in prison for Herodias' sake, his brother Philip's wife. &l4&rFor John said unto him, It is not lawful for thee to have her. &l5&rAnd when he would have put him to death, he feared the multitude, because they counted him as a
   '33': prophet. &l6&rBut when Herod's birthday was kept, the daughter of Herodias danced before them, and pleased Herod. &l7&rWhereupon he promised with an oath to give her whatsoever she would ask. &l8&rAnd she, being before instructed of her mother, said, Give
   '34': 'me here John Baptist''s head in a charger. &l9&rAnd the king was sorry: nevertheless
@@ -676,7 +728,11 @@ Book5:
   '46': 'about, and brought unto him all that were diseased; &l36&rAnd besought him
     that they might only touch the hem of his garment: and as many as touched were
     made perfectly whole.'
-  '47': Chapter 15/nThen came to Jesus scribes and Pharisees, which were of Jerusalem, saying, &l2&rWhy do thy disciples transgress the tradition of the elders? for they wash not their hands when they eat bread. &l3&rBut he answered and said unto them, Why do ye
+  '47': 'Chapter 15
+
+    Then came to Jesus scribes and Pharisees, which were of Jerusalem, saying, &l2&rWhy
+    do thy disciples transgress the tradition of the elders? for they wash not their
+    hands when they eat bread. &l3&rBut he answered and said unto them, Why do ye'
   '48': 'also transgress the commandment of God by your tradition? &l4&rFor God commanded,
     saying, Honour thy father and mother: and, He that curseth father or mother, let
     him die the death. &l5&rBut ye say, Whosoever shall say to his father or his mother,
@@ -692,10 +748,11 @@ Book6:
   start:
     c: 15
     v: 10
-  '1': 'Chapter 15 Cont./n&l10&rAnd he called the multitude, and said unto them, Hear,
-    and understand: &l11&rNot that which goeth into the mouth defileth a man; but
-    that which cometh out of the mouth, this defileth a man. &l12&rThen came his disciples,
-    and said'
+  '1': 'Chapter 15 Cont.
+
+    &l10&rAnd he called the multitude, and said unto them, Hear, and understand: &l11&rNot
+    that which goeth into the mouth defileth a man; but that which cometh out of the
+    mouth, this defileth a man. &l12&rThen came his disciples, and said'
   '2': 'unto him, Knowest thou that the Pharisees were offended, after they heard
     this saying? &l13&rBut he answered and said, Every plant, which my heavenly Father
     hath not planted, shall be rooted up. &l14&rLet them alone: they be blind leaders
@@ -727,10 +784,11 @@ Book6:
     disciples to the multitude. &l37&rAnd they did all eat, and were filled: and they
     took up of the'
   '14': broken meat that was left seven baskets full. &l38&rAnd they that did eat were four thousand men, beside women and children. &l39&rAnd he sent away the multitude, and took ship, and came into the coasts of Magdala.
-  '15': 'Chapter 16/nThe Pharisees also with the Sadducees came, and tempting desired
-    him that he would shew them a sign from heaven. &l2&rHe answered and said unto
-    them, When it is evening, ye say, It will be fair weather: for the sky is red.
-    &l3&rAnd in the'
+  '15': 'Chapter 16
+
+    The Pharisees also with the Sadducees came, and tempting desired him that he would
+    shew them a sign from heaven. &l2&rHe answered and said unto them, When it is
+    evening, ye say, It will be fair weather: for the sky is red. &l3&rAnd in the'
   '16': 'morning, It will be foul weather to day: for the sky is red and lowering.
     O ye hypocrites, ye can discern the face of the sky; but can ye not discern the
     signs of the times? &l4&rA wicked and adulterous generation seeketh after a sign;
@@ -769,10 +827,11 @@ Book6:
     Son of man shall come in the glory of his Father with his angels; and then he
     shall reward every man'
   '29': according to his works. &l28&rVerily I say unto you, There be some standing here, which shall not taste of death, till they see the Son of man coming in his kingdom.
-  '30': 'Chapter 17/nAnd after six days Jesus taketh Peter, James, and John his brother,
-    and bringeth them up into an high mountain apart, &l2&rAnd was transfigured before
-    them: and his face did shine as the sun, and his raiment was white as the light.
-    &l3&rAnd,'
+  '30': 'Chapter 17
+
+    And after six days Jesus taketh Peter, James, and John his brother, and bringeth
+    them up into an high mountain apart, &l2&rAnd was transfigured before them: and
+    his face did shine as the sun, and his raiment was white as the light. &l3&rAnd,'
   '31': 'behold, there appeared unto them Moses and Elias talking with him. &l4&rThen
     answered Peter, and said unto Jesus, Lord, it is good for us to be here: if thou
     wilt, let us make here three tabernacles; one for thee, and one for Moses, and
@@ -808,7 +867,11 @@ Book6:
   '42': their own children, or of strangers? &l26&rPeter saith unto him, Of strangers. Jesus saith unto him, Then are the children free. &l27&rNotwithstanding, lest we should offend them, go thou to the sea, and cast an hook, and take up the fish that first cometh
   '43': 'up; and when thou hast opened his mouth, thou shalt find a piece of money:
     that take, and give unto them for me and thee.'
-  '44': Chapter 18/nAt the same time came the disciples unto Jesus, saying, Who is the greatest in the kingdom of heaven? &l2&rAnd Jesus called a little child unto him, and set him in the midst of them, &l3&rAnd said, Verily I say unto you, Except ye be converted,
+  '44': 'Chapter 18
+
+    At the same time came the disciples unto Jesus, saying, Who is the greatest in
+    the kingdom of heaven? &l2&rAnd Jesus called a little child unto him, and set
+    him in the midst of them, &l3&rAnd said, Verily I say unto you, Except ye be converted,'
   '45': and become as little children, ye shall not enter into the kingdom of heaven. &l4&rWhosoever therefore shall humble himself as this little child, the same is greatest in the kingdom of heaven. &l5&rAnd whoso shall receive one such little child in my name
   '46': receiveth me. &l6&rBut whoso shall offend one of these little ones which believe in me, it were better for him that a millstone were hanged about his neck, and that he were drowned in the depth of the sea. &l7&rWoe unto the world because of offences! for
   '47': 'it must needs be that offences come; but woe to that man by whom the offence
@@ -828,7 +891,11 @@ Book7:
   start:
     c: 18
     v: 13
-  '1': Chapter 18 Cont./n&l13&rAnd if so be that he find it, verily I say unto you, he rejoiceth more of that sheep, than of the ninety and nine which went not astray. &l14&rEven so it is not the will of your Father which is in heaven, that one of these little
+  '1': 'Chapter 18 Cont.
+
+    &l13&rAnd if so be that he find it, verily I say unto you, he rejoiceth more of
+    that sheep, than of the ninety and nine which went not astray. &l14&rEven so it
+    is not the will of your Father which is in heaven, that one of these little'
   '2': 'ones should perish. &l15&rMoreover if thy brother shall trespass against thee,
     go and tell him his fault between thee and him alone: if he shall hear thee, thou
     hast gained thy brother. &l16&rBut if he will not hear thee, then take with thee
@@ -861,53 +928,61 @@ Book7:
     compassion on thy fellowservant, even as I had pity on thee? &l34&rAnd his lord
     was wroth, and'
   '12': delivered him to the tormentors, till he should pay all that was due unto him. &l35&rSo likewise shall my heavenly Father do also unto you, if ye from your hearts forgive not every one his brother their trespasses.
-  '13': Chapter 19/nAnd it came to pass, that when Jesus had finished these sayings, he departed from Galilee, and came into the coasts of Judaea beyond Jordan; &l2&rAnd great multitudes followed him; and he healed them there. &l3&rThe Pharisees also came unto
-  '14': him, tempting him, and saying unto him, Is it lawful for a man to put away his wife for every cause? &l4&rAnd he answered and said unto them, Have ye not read, that he which made them at the beginning made them male and female, &l5&rAnd said, For this
-  '15': 'cause shall a man leave father and mother, and shall cleave to his wife:
-    and they twain shall be one flesh? &l6&rWherefore they are no more twain, but
-    one flesh. What therefore God hath joined together, let not man put asunder. &l7&rThey
-    say unto him, Why'
-  '16': 'did Moses then command to give a writing of divorcement, and to put her away?
+  '13': 'Chapter 19
+
+    And it came to pass, that when Jesus had finished these sayings, he departed from
+    Galilee, and came into the coasts of Judaea beyond Jordan; &l2&rAnd great multitudes
+    followed him; and he healed them there. &l3&rThe Pharisees also came unto him,'
+  '14': tempting him, and saying unto him, Is it lawful for a man to put away his wife for every cause? &l4&rAnd he answered and said unto them, Have ye not read, that he which made them at the beginning made them male and female, &l5&rAnd said, For this cause
+  '15': 'shall a man leave father and mother, and shall cleave to his wife: and they
+    twain shall be one flesh? &l6&rWherefore they are no more twain, but one flesh.
+    What therefore God hath joined together, let not man put asunder. &l7&rThey say
+    unto him, Why did'
+  '16': 'Moses then command to give a writing of divorcement, and to put her away?
     &l8&rHe saith unto them, Moses because of the hardness of your hearts suffered
     you to put away your wives: but from the beginning it was not so. &l9&rAnd I say
-    unto you,'
-  '17': 'Whosoever shall put away his wife, except it be for fornication, and shall
-    marry another, committeth adultery: and whoso marrieth her which is put away doth
-    commit adultery. &l10&rHis disciples say unto him, If the case of the man be so
-    with his wife, it'
-  '18': 'is not good to marry. &l11&rBut he said unto them, All men cannot receive
-    this saying, save they to whom it is given. &l12&rFor there are some eunuchs,
-    which were so born from their mother''s womb: and there are some eunuchs, which
-    were made eunuchs of men:'
-  '19': 'and there be eunuchs, which have made themselves eunuchs for the kingdom
-    of heaven''s sake. He that is able to receive it, let him receive it. &l13&rThen
-    were there brought unto him little children, that he should put his hands on them,
-    and pray: and the'
-  '20': 'disciples rebuked them. &l14&rBut Jesus said, Suffer little children, and
-    forbid them not, to come unto me: for of such is the kingdom of heaven. &l15&rAnd
-    he laid his hands on them, and departed thence. &l16&rAnd, behold, one came and
-    said unto him, Good'
-  '21': 'Master, what good thing shall I do, that I may have eternal life? &l17&rAnd
-    he said unto him, Why callest thou me good? there is none good but one, that is,
-    God: but if thou wilt enter into life, keep the commandments. &l18&rHe saith unto
-    him, Which? Jesus'
-  '22': 'said, Thou shalt do no murder, Thou shalt not commit adultery, Thou shalt
-    not steal, Thou shalt not bear false witness, &l19&rHonour thy father and thy
-    mother: and, Thou shalt love thy neighbour as thyself. &l20&rThe young man saith
-    unto him, All these'
-  '23': 'things have I kept from my youth up: what lack I yet? &l21&rJesus said unto
-    him, If thou wilt be perfect, go and sell that thou hast, and give to the poor,
-    and thou shalt have treasure in heaven: and come and follow me. &l22&rBut when
-    the young man heard'
-  '24': 'that saying, he went away sorrowful: for he had great possessions. &l23&rThen
+    unto you, Whosoever'
+  '17': 'shall put away his wife, except it be for fornication, and shall marry another,
+    committeth adultery: and whoso marrieth her which is put away doth commit adultery.
+    &l10&rHis disciples say unto him, If the case of the man be so with his wife,
+    it is not good'
+  '18': 'to marry. &l11&rBut he said unto them, All men cannot receive this saying,
+    save they to whom it is given. &l12&rFor there are some eunuchs, which were so
+    born from their mother''s womb: and there are some eunuchs, which were made eunuchs
+    of men: and there'
+  '19': 'be eunuchs, which have made themselves eunuchs for the kingdom of heaven''s
+    sake. He that is able to receive it, let him receive it. &l13&rThen were there
+    brought unto him little children, that he should put his hands on them, and pray:
+    and the disciples'
+  '20': 'rebuked them. &l14&rBut Jesus said, Suffer little children, and forbid them
+    not, to come unto me: for of such is the kingdom of heaven. &l15&rAnd he laid
+    his hands on them, and departed thence. &l16&rAnd, behold, one came and said unto
+    him, Good Master,'
+  '21': 'what good thing shall I do, that I may have eternal life? &l17&rAnd he said
+    unto him, Why callest thou me good? there is none good but one, that is, God:
+    but if thou wilt enter into life, keep the commandments. &l18&rHe saith unto him,
+    Which? Jesus said,'
+  '22': 'Thou shalt do no murder, Thou shalt not commit adultery, Thou shalt not steal,
+    Thou shalt not bear false witness, &l19&rHonour thy father and thy mother: and,
+    Thou shalt love thy neighbour as thyself. &l20&rThe young man saith unto him,
+    All these things'
+  '23': 'have I kept from my youth up: what lack I yet? &l21&rJesus said unto him,
+    If thou wilt be perfect, go and sell that thou hast, and give to the poor, and
+    thou shalt have treasure in heaven: and come and follow me. &l22&rBut when the
+    young man heard that'
+  '24': 'saying, he went away sorrowful: for he had great possessions. &l23&rThen
     said Jesus unto his disciples, Verily I say unto you, That a rich man shall hardly
     enter into the kingdom of heaven. &l24&rAnd again I say unto you, It is easier
-    for a camel to'
-  '25': go through the eye of a needle, than for a rich man to enter into the kingdom of God. &l25&rWhen his disciples heard it, they were exceedingly amazed, saying, Who then can be saved? &l26&rBut Jesus beheld them, and said unto them, With men this is
-  '26': impossible; but with God all things are possible. &l27&rThen answered Peter and said unto him, Behold, we have forsaken all, and followed thee; what shall we have therefore? &l28&rAnd Jesus said unto them, Verily I say unto you, That ye which have followed
-  '27': me, in the regeneration when the Son of man shall sit in the throne of his glory, ye also shall sit upon twelve thrones, judging the twelve tribes of Israel. &l29&rAnd every one that hath forsaken houses, or brethren, or sisters, or father, or mother, or
-  '28': wife, or children, or lands, for my name's sake, shall receive an hundredfold, and shall inherit everlasting life. &l30&rBut many that are first shall be last; and the last shall be first.
-  '29': Chapter 20/nFor the kingdom of heaven is like unto a man that is an householder, which went out early in the morning to hire labourers into his vineyard. &l2&rAnd when he had agreed with the labourers for a penny a day, he sent them into his vineyard.
+    for a camel to go'
+  '25': through the eye of a needle, than for a rich man to enter into the kingdom of God. &l25&rWhen his disciples heard it, they were exceedingly amazed, saying, Who then can be saved? &l26&rBut Jesus beheld them, and said unto them, With men this is impossible;
+  '26': but with God all things are possible. &l27&rThen answered Peter and said unto him, Behold, we have forsaken all, and followed thee; what shall we have therefore? &l28&rAnd Jesus said unto them, Verily I say unto you, That ye which have followed me, in the
+  '27': regeneration when the Son of man shall sit in the throne of his glory, ye also shall sit upon twelve thrones, judging the twelve tribes of Israel. &l29&rAnd every one that hath forsaken houses, or brethren, or sisters, or father, or mother, or wife, or
+  '28': children, or lands, for my name's sake, shall receive an hundredfold, and shall inherit everlasting life. &l30&rBut many that are first shall be last; and the last shall be first.
+  '29': 'Chapter 20
+
+    For the kingdom of heaven is like unto a man that is an householder, which went
+    out early in the morning to hire labourers into his vineyard. &l2&rAnd when he
+    had agreed with the labourers for a penny a day, he sent them into his vineyard.'
   '30': '&l3&rAnd he went out about the third hour, and saw others standing idle in
     the marketplace, &l4&rAnd said unto them; Go ye also into the vineyard, and whatsoever
     is right I will give you. And they went their way. &l5&rAgain he went out about
@@ -952,7 +1027,11 @@ Book7:
     Lord, that our eyes'
   '45': 'may be opened. &l34&rSo Jesus had compassion on them, and touched their eyes:
     and immediately their eyes received sight, and they followed him.'
-  '46': Chapter 21/nAnd when they drew nigh unto Jerusalem, and were come to Bethphage, unto the mount of Olives, then sent Jesus two disciples, &l2&rSaying unto them, Go into the village over against you, and straightway ye shall find an ass tied, and a colt with
+  '46': 'Chapter 21
+
+    And when they drew nigh unto Jerusalem, and were come to Bethphage, unto the mount
+    of Olives, then sent Jesus two disciples, &l2&rSaying unto them, Go into the village
+    over against you, and straightway ye shall find an ass tied, and a colt with'
   '47': 'her: loose them, and bring them unto me. &l3&rAnd if any man say ought unto
     you, ye shall say, The Lord hath need of them; and straightway he will send them.
     &l4&rAll this was done, that it might be fulfilled which was spoken by the prophet,
@@ -972,7 +1051,11 @@ Book8:
   start:
     c: 21
     v: 11
-  '1': Chapter 21 Cont./n&l11&rAnd the multitude said, This is Jesus the prophet of Nazareth of Galilee. &l12&rAnd Jesus went into the temple of God, and cast out all them that sold and bought in the temple, and overthrew the tables of the moneychangers, and the
+  '1': 'Chapter 21 Cont.
+
+    &l11&rAnd the multitude said, This is Jesus the prophet of Nazareth of Galilee.
+    &l12&rAnd Jesus went into the temple of God, and cast out all them that sold and
+    bought in the temple, and overthrew the tables of the moneychangers, and the'
   '2': seats of them that sold doves, &l13&rAnd said unto them, It is written, My house shall be called the house of prayer; but ye have made it a den of thieves. &l14&rAnd the blind and the lame came to him in the temple; and he healed them. &l15&rAnd when the
   '3': chief priests and scribes saw the wonderful things that he did, and the children crying in the temple, and saying, Hosanna to the son of David; they were sore displeased, &l16&rAnd said unto him, Hearest thou what these say? And Jesus saith unto them, Yea;
   '4': have ye never read, Out of the mouth of babes and sucklings thou hast perfected praise? &l17&rAnd he left them, and went out of the city into Bethany; and he lodged there. &l18&rNow in the morning as he returned into the city, he hungered. &l19&rAnd when
@@ -1013,10 +1096,11 @@ Book8:
     will grind him to powder. &l45&rAnd when the chief priests and Pharisees had heard
     his parables, they'
   '20': perceived that he spake of them. &l46&rBut when they sought to lay hands on him, they feared the multitude, because they took him for a prophet.
-  '21': 'Chapter 22/nAnd Jesus answered and spake unto them again by parables, and
-    said, &l2&rThe kingdom of heaven is like unto a certain king, which made a marriage
-    for his son, &l3&rAnd sent forth his servants to call them that were bidden to
-    the wedding: and'
+  '21': 'Chapter 22
+
+    And Jesus answered and spake unto them again by parables, and said, &l2&rThe kingdom
+    of heaven is like unto a certain king, which made a marriage for his son, &l3&rAnd
+    sent forth his servants to call them that were bidden to the wedding: and'
   '22': 'they would not come. &l4&rAgain, he sent forth other servants, saying, Tell
     them which are bidden, Behold, I have prepared my dinner: my oxen and my fatlings
     are killed, and all things are ready: come unto the marriage. &l5&rBut they made
@@ -1053,72 +1137,86 @@ Book8:
   '37': second is like unto it, Thou shalt love thy neighbour as thyself. &l40&rOn these two commandments hang all the law and the prophets. &l41&rWhile the Pharisees were gathered together, Jesus asked them, &l42&rSaying, What think ye of Christ? whose son is he?
   '38': They say unto him, The son of David. &l43&rHe saith unto them, How then doth David in spirit call him Lord, saying, &l44&rThe Lord said unto my Lord, Sit thou on my right hand, till I make thine enemies thy footstool? &l45&rIf David then call him Lord, how
   '39': is he his son? &l46&rAnd no man was able to answer him a word, neither durst any man from that day forth ask him any more questions.
-  '40': 'Chapter 23/nThen spake Jesus to the multitude, and to his disciples, &l2&rSaying
-    The scribes and the Pharisees sit in Moses'' seat: &l3&rAll therefore whatsoever
-    they bid you observe, that observe and do; but do not ye after their works: for
-    they say, and'
-  '41': 'do not. &l4&rFor they bind heavy burdens and grievous to be borne, and lay
-    them on men''s shoulders; but they themselves will not move them with one of their
+  '40': 'Chapter 23
+
+    Then spake Jesus to the multitude, and to his disciples, &l2&rSaying The scribes
+    and the Pharisees sit in Moses'' seat: &l3&rAll therefore whatsoever they bid
+    you observe, that observe and do; but do not ye after their works: for they say,
+    and do'
+  '41': 'not. &l4&rFor they bind heavy burdens and grievous to be borne, and lay them
+    on men''s shoulders; but they themselves will not move them with one of their
     fingers. &l5&rBut all their works they do for to be seen of men: they make broad
-    their'
-  '42': 'phylacteries, and enlarge the borders of their garments, &l6&rAnd love the
-    uppermost rooms at feasts, and the chief seats in the synagogues, &l7&rAnd greetings
-    in the markets, and to be called of men, Rabbi, Rabbi. &l8&rBut be not ye called
-    Rabbi: for one'
-  '43': 'is your Master, even Christ; and all ye are brethren. &l9&rAnd call no man
-    your father upon the earth: for one is your Father, which is in heaven. &l10&rNeither
-    be ye called masters: for one is your Master, even Christ. &l11&rBut he that is
-    greatest among'
-  '44': 'you shall be your servant. &l12&rAnd whosoever shall exalt himself shall
-    be abased; and he that shall humble himself shall be exalted. &l13&rBut woe unto
-    you, scribes and Pharisees, hypocrites! for ye shut up the kingdom of heaven against
-    men: for ye'
-  '45': 'neither go in yourselves, neither suffer ye them that are entering to go
-    in. &l14&rWoe unto you, scribes and Pharisees, hypocrites! for ye devour widows''
-    houses, and for a pretence make long prayer: therefore ye shall receive the greater
-    damnation.'
-  '46': '&l15&rWoe unto you, scribes and Pharisees, hypocrites! for ye compass sea
-    and land to make one proselyte, and when he is made, ye make him twofold more
-    the child of hell than yourselves. &l16&rWoe unto you, ye blind guides, which
-    say, Whosoever shall swear'
-  '47': 'by the temple, it is nothing; but whosoever shall swear by the gold of the
-    temple, he is a debtor! &l17&rYe fools and blind: for whether is greater, the
-    gold, or the temple that sanctifieth the gold? &l18&rAnd, Whosoever shall swear
-    by the altar, it is'
-  '48': 'nothing; but whosoever sweareth by the gift that is upon it, he is guilty.
-    &l19&rYe fools and blind: for whether is greater, the gift, or the altar that
-    sanctifieth the gift? &l20&rWhoso therefore shall swear by the altar, sweareth
-    by it, and by all things'
-  '49': thereon. &l21&rAnd whoso shall swear by the temple, sweareth by it, and by him that dwelleth therein. &l22&rAnd he that shall swear by heaven, sweareth by the throne of God, and by him that sitteth thereon. &l23&rWoe unto you, scribes and Pharisees,
-  '50': 'hypocrites! for ye pay tithe of mint and anise and cummin, and have omitted
-    the weightier matters of the law, judgment, mercy, and faith: these ought ye to
-    have done, and not to leave the other undone.'
+    their phylacteries,'
+  '42': 'and enlarge the borders of their garments, &l6&rAnd love the uppermost rooms
+    at feasts, and the chief seats in the synagogues, &l7&rAnd greetings in the markets,
+    and to be called of men, Rabbi, Rabbi. &l8&rBut be not ye called Rabbi: for one
+    is your'
+  '43': 'Master, even Christ; and all ye are brethren. &l9&rAnd call no man your father
+    upon the earth: for one is your Father, which is in heaven. &l10&rNeither be ye
+    called masters: for one is your Master, even Christ. &l11&rBut he that is greatest
+    among you'
+  '44': 'shall be your servant. &l12&rAnd whosoever shall exalt himself shall be abased;
+    and he that shall humble himself shall be exalted. &l13&rBut woe unto you, scribes
+    and Pharisees, hypocrites! for ye shut up the kingdom of heaven against men: for
+    ye neither'
+  '45': 'go in yourselves, neither suffer ye them that are entering to go in. &l14&rWoe
+    unto you, scribes and Pharisees, hypocrites! for ye devour widows'' houses, and
+    for a pretence make long prayer: therefore ye shall receive the greater damnation.
+    &l15&rWoe unto'
+  '46': you, scribes and Pharisees, hypocrites! for ye compass sea and land to make one proselyte, and when he is made, ye make him twofold more the child of hell than yourselves. &l16&rWoe unto you, ye blind guides, which say, Whosoever shall swear by the temple,
+  '47': 'it is nothing; but whosoever shall swear by the gold of the temple, he is
+    a debtor! &l17&rYe fools and blind: for whether is greater, the gold, or the temple
+    that sanctifieth the gold? &l18&rAnd, Whosoever shall swear by the altar, it is
+    nothing; but'
+  '48': 'whosoever sweareth by the gift that is upon it, he is guilty. &l19&rYe fools
+    and blind: for whether is greater, the gift, or the altar that sanctifieth the
+    gift? &l20&rWhoso therefore shall swear by the altar, sweareth by it, and by all
+    things thereon.'
+  '49': '&l21&rAnd whoso shall swear by the temple, sweareth by it, and by him that
+    dwelleth therein. &l22&rAnd he that shall swear by heaven, sweareth by the throne
+    of God, and by him that sitteth thereon. &l23&rWoe unto you, scribes and Pharisees,
+    hypocrites! for'
+  '50': 'ye pay tithe of mint and anise and cummin, and have omitted the weightier
+    matters of the law, judgment, mercy, and faith: these ought ye to have done, and
+    not to leave the other undone. &l24&rYe blind guides, which strain at a gnat,
+    and swallow a camel.'
   end:
     c: 23
-    v: 23
+    v: 24
 Book9:
   start:
     c: 23
-    v: 24
-  '1': Chapter 23 Cont./n&l24&rYe blind guides, which strain at a gnat, and swallow a camel. &l25&rWoe unto you, scribes and Pharisees, hypocrites! for ye make clean the outside of the cup and of the platter, but within they are full of extortion and excess.
-  '2': '&l26&rThou blind Pharisee, cleanse first that which is within the cup and
-    platter, that the outside of them may be clean also. &l27&rWoe unto you, scribes
-    and Pharisees, hypocrites! for ye are like unto whited sepulchres, which indeed
-    appear beautiful'
-  '3': outward, but are within full of dead men's bones, and of all uncleanness. &l28&rEven so ye also outwardly appear righteous unto men, but within ye are full of hypocrisy and iniquity. &l29&rWoe unto you, scribes and Pharisees, hypocrites! because ye build
-  '4': the tombs of the prophets, and garnish the sepulchres of the righteous, &l30&rAnd say, If we had been in the days of our fathers, we would not have been partakers with them in the blood of the prophets. &l31&rWherefore ye be witnesses unto yourselves, that
-  '5': ye are the children of them which killed the prophets. &l32&rFill ye up then the measure of your fathers. &l33&rYe serpents, ye generation of vipers, how can ye escape the damnation of hell? &l34&rWherefore, behold, I send unto you prophets, and wise men,
-  '6': 'and scribes: and some of them ye shall kill and crucify; and some of them
-    shall ye scourge in your synagogues, and persecute them from city to city: &l35&rThat
-    upon you may come all the righteous blood shed upon the earth, from the blood
-    of righteous Abel'
-  '7': unto the blood of Zacharias son of Barachias, whom ye slew between the temple and the altar. &l36&rVerily I say unto you, All these things shall come upon this generation. &l37&rO Jerusalem, Jerusalem, thou that killest the prophets, and stonest them which
-  '8': are sent unto thee, how often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not! &l38&rBehold, your house is left unto you desolate. &l39&rFor I say unto you, Ye shall not see me henceforth,
-  '9': till ye shall say, Blessed is he that cometh in the name of the Lord.
-  '10': 'Chapter 24/nAnd Jesus went out, and departed from the temple: and his disciples
-    came to him for to shew him the buildings of the temple. &l2&rAnd Jesus said unto
-    them, See ye not all these things? verily I say unto you, There shall not be left
-    here one'
+    v: 25
+  '1': 'Chapter 23 Cont.
+
+    &l25&rWoe unto you, scribes and Pharisees, hypocrites! for ye make clean the outside
+    of the cup and of the platter, but within they are full of extortion and excess.
+    &l26&rThou blind Pharisee, cleanse first that which is within the cup and'
+  '2': platter, that the outside of them may be clean also. &l27&rWoe unto you, scribes and Pharisees, hypocrites! for ye are like unto whited sepulchres, which indeed appear beautiful outward, but are within full of dead men's bones, and of all uncleanness.
+  '3': '&l28&rEven so ye also outwardly appear righteous unto men, but within ye are
+    full of hypocrisy and iniquity. &l29&rWoe unto you, scribes and Pharisees, hypocrites!
+    because ye build the tombs of the prophets, and garnish the sepulchres of the
+    righteous,'
+  '4': '&l30&rAnd say, If we had been in the days of our fathers, we would not have
+    been partakers with them in the blood of the prophets. &l31&rWherefore ye be witnesses
+    unto yourselves, that ye are the children of them which killed the prophets. &l32&rFill
+    ye up'
+  '5': 'then the measure of your fathers. &l33&rYe serpents, ye generation of vipers,
+    how can ye escape the damnation of hell? &l34&rWherefore, behold, I send unto
+    you prophets, and wise men, and scribes: and some of them ye shall kill and crucify;
+    and some of'
+  '6': 'them shall ye scourge in your synagogues, and persecute them from city to
+    city: &l35&rThat upon you may come all the righteous blood shed upon the earth,
+    from the blood of righteous Abel unto the blood of Zacharias son of Barachias,
+    whom ye slew between'
+  '7': the temple and the altar. &l36&rVerily I say unto you, All these things shall come upon this generation. &l37&rO Jerusalem, Jerusalem, thou that killest the prophets, and stonest them which are sent unto thee, how often would I have gathered thy children
+  '8': together, even as a hen gathereth her chickens under her wings, and ye would not! &l38&rBehold, your house is left unto you desolate. &l39&rFor I say unto you, Ye shall not see me henceforth, till ye shall say, Blessed is he that cometh in the name of the
+  '9': Lord.
+  '10': 'Chapter 24
+
+    And Jesus went out, and departed from the temple: and his disciples came to him
+    for to shew him the buildings of the temple. &l2&rAnd Jesus said unto them, See
+    ye not all these things? verily I say unto you, There shall not be left here one'
   '11': stone upon another, that shall not be thrown down. &l3&rAnd as he sat upon the mount of Olives, the disciples came unto him privately, saying, Tell us, when shall these things be? and what shall be the sign of thy coming, and of the end of the world?
   '12': '&l4&rAnd Jesus answered and said unto them, Take heed that no man deceive
     you. &l5&rFor many shall come in my name, saying, I am Christ; and shall deceive
@@ -1178,7 +1276,12 @@ Book9:
   '31': in his heart, My lord delayeth his coming; &l49&rAnd shall begin to smite his fellowservants, and to eat and drink with the drunken; &l50&rThe lord of that servant shall come in a day when he looketh not for him, and in an hour that he is not aware of,
   '32': '&l51&rAnd shall cut him asunder, and appoint him his portion with the hypocrites:
     there shall be weeping and gnashing of teeth.'
-  '33': Chapter 25/nThen shall the kingdom of heaven be likened unto ten virgins, which took their lamps, and went forth to meet the bridegroom. &l2&rAnd five of them were wise, and five were foolish. &l3&rThey that were foolish took their lamps, and took no oil
+  '33': 'Chapter 25
+
+    Then shall the kingdom of heaven be likened unto ten virgins, which took their
+    lamps, and went forth to meet the bridegroom. &l2&rAnd five of them were wise,
+    and five were foolish. &l3&rThey that were foolish took their lamps, and took
+    no oil'
   '34': 'with them: &l4&rBut the wise took oil in their vessels with their lamps.
     &l5&rWhile the bridegroom tarried, they all slumbered and slept. &l6&rAnd at midnight
     there was a cry made, Behold, the bridegroom cometh; go ye out to meet him. &l7&rThen
@@ -1242,16 +1345,24 @@ Book10:
   start:
     c: 25
     v: 40
-  '1': Chapter 25 Cont./n&l40&rAnd the King shall answer and say unto them, Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me. &l41&rThen shall he say also unto them on the left hand, Depart
-  '2': 'from me, ye cursed, into everlasting fire, prepared for the devil and his
-    angels: &l42&rFor I was an hungred, and ye gave me no meat: I was thirsty, and
-    ye gave me no drink: &l43&rI was a stranger, and ye took me not in: naked, and
-    ye clothed me not: sick,'
-  '3': and in prison, and ye visited me not. &l44&rThen shall they also answer him, saying, Lord, when saw we thee an hungred, or athirst, or a stranger, or naked, or sick, or in prison, and did not minister unto thee? &l45&rThen shall he answer them, saying,
-  '4': 'Verily I say unto you, Inasmuch as ye did it not to one of the least of these,
-    ye did it not to me. &l46&rAnd these shall go away into everlasting punishment:
-    but the righteous into life eternal.'
-  '5': Chapter 26/nAnd it came to pass, when Jesus had finished all these sayings, he said unto his disciples, &l2&rYe know that after two days is the feast of the passover, and the Son of man is betrayed to be crucified. &l3&rThen assembled together the chief
+  '1': 'Chapter 25 Cont.
+
+    &l40&rAnd the King shall answer and say unto them, Verily I say unto you, Inasmuch
+    as ye have done it unto one of the least of these my brethren, ye have done it
+    unto me. &l41&rThen shall he say also unto them on the left hand, Depart from'
+  '2': 'me, ye cursed, into everlasting fire, prepared for the devil and his angels:
+    &l42&rFor I was an hungred, and ye gave me no meat: I was thirsty, and ye gave
+    me no drink: &l43&rI was a stranger, and ye took me not in: naked, and ye clothed
+    me not: sick, and'
+  '3': in prison, and ye visited me not. &l44&rThen shall they also answer him, saying, Lord, when saw we thee an hungred, or athirst, or a stranger, or naked, or sick, or in prison, and did not minister unto thee? &l45&rThen shall he answer them, saying, Verily
+  '4': 'I say unto you, Inasmuch as ye did it not to one of the least of these, ye
+    did it not to me. &l46&rAnd these shall go away into everlasting punishment: but
+    the righteous into life eternal.'
+  '5': 'Chapter 26
+
+    And it came to pass, when Jesus had finished all these sayings, he said unto his
+    disciples, &l2&rYe know that after two days is the feast of the passover, and
+    the Son of man is betrayed to be crucified. &l3&rThen assembled together the chief'
   '6': priests, and the scribes, and the elders of the people, unto the palace of the high priest, who was called Caiaphas, &l4&rAnd consulted that they might take Jesus by subtilty, and kill him. &l5&rBut they said, Not on the feast day, lest there be an uproar
   '7': among the people. &l6&rNow when Jesus was in Bethany, in the house of Simon the leper, &l7&rThere came unto him a woman having an alabaster box of very precious ointment, and poured it on his head, as he sat at meat. &l8&rBut when his disciples saw it,
   '8': they had indignation, saying, To what purpose is this waste? &l9&rFor this ointment might have been sold for much, and given to the poor. &l10&rWhen Jesus understood it, he said unto them, Why trouble ye the woman? for she hath wrought a good work upon me.
@@ -1325,10 +1436,11 @@ Book10:
   '37': denied before them all, saying, I know not what thou sayest. &l71&rAnd when he was gone out into the porch, another maid saw him, and said unto them that were there, This fellow was also with Jesus of Nazareth. &l72&rAnd again he denied with an oath, I do
   '38': not know the man. &l73&rAnd after a while came unto him they that stood by, and said to Peter, Surely thou also art one of them; for thy speech bewrayeth thee. &l74&rThen began he to curse and to swear, saying, I know not the man. And immediately the cock
   '39': crew. &l75&rAnd Peter remembered the word of Jesus, which said unto him, Before the cock crow, thou shalt deny me thrice. And he went out, and wept bitterly.
-  '40': 'Chapter 27/nWhen the morning was come, all the chief priests and elders of
-    the people took counsel against Jesus to put him to death: &l2&rAnd when they
-    had bound him, they led him away, and delivered him to Pontius Pilate the governor.
-    &l3&rThen Judas,'
+  '40': 'Chapter 27
+
+    When the morning was come, all the chief priests and elders of the people took
+    counsel against Jesus to put him to death: &l2&rAnd when they had bound him, they
+    led him away, and delivered him to Pontius Pilate the governor. &l3&rThen Judas,'
   '41': which had betrayed him, when he saw that he was condemned, repented himself, and brought again the thirty pieces of silver to the chief priests and elders, &l4&rSaying, I have sinned in that I have betrayed the innocent blood. And they said, What is that
   '42': to us? see thou to that. &l5&rAnd he cast down the pieces of silver in the temple, and departed, and went and hanged himself. &l6&rAnd the chief priests took the silver pieces, and said, It is not lawful for to put them into the treasury, because it is the
   '43': price of blood. &l7&rAnd they took counsel, and bought with them the potter's field, to bury strangers in. &l8&rWherefore that field was called, The field of blood, unto this day. &l9&rThen was fulfilled that which was spoken by Jeremy the prophet, saying,
@@ -1352,11 +1464,13 @@ Book11:
   start:
     c: 27
     v: 24
-  '1': 'Chapter 27 Cont./n&l24&rWhen Pilate saw that he could prevail nothing, but
-    that rather a tumult was made, he took water, and washed his hands before the
-    multitude, saying, I am innocent of the blood of this just person: see ye to it.
-    &l25&rThen answered'
-  '2': 'all the people, and said, His blood be on us, and on our children. &l26&rThen
+  '1': 'Chapter 27 Cont.
+
+    &l24&rWhen Pilate saw that he could prevail nothing, but that rather a tumult
+    was made, he took water, and washed his hands before the multitude, saying, I
+    am innocent of the blood of this just person: see ye to it. &l25&rThen answered
+    all'
+  '2': 'the people, and said, His blood be on us, and on our children. &l26&rThen
     released he Barabbas unto them: and when he had scourged Jesus, he delivered him
     to be crucified. &l27&rThen the soldiers of the governor took Jesus into the common
     hall, and'
@@ -1405,10 +1519,12 @@ Book11:
     last error shall be worse than the first. &l65&rPilate said unto them, Ye have
     a watch: go your'
   '20': way, make it as sure as ye can. &l66&rSo they went, and made the sepulchre sure, sealing the stone, and setting a watch.
-  '21': 'Chapter 28/nIn the end of the sabbath, as it began to dawn toward the first
-    day of the week, came Mary Magdalene and the other Mary to see the sepulchre.
-    &l2&rAnd, behold, there was a great earthquake: for the angel of the Lord descended
-    from heaven, and'
+  '21': 'Chapter 28
+
+    In the end of the sabbath, as it began to dawn toward the first day of the week,
+    came Mary Magdalene and the other Mary to see the sepulchre. &l2&rAnd, behold,
+    there was a great earthquake: for the angel of the Lord descended from heaven,
+    and'
   '22': 'came and rolled back the stone from the door, and sat upon it. &l3&rHis countenance
     was like lightning, and his raiment white as snow: &l4&rAnd for fear of him the
     keepers did shake, and became as dead men. &l5&rAnd the angel answered and said

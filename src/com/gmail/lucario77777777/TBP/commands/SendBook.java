@@ -53,7 +53,7 @@ public class Sendbook {
 				}
 			}
 		}
-		if(args.length == i + 1 && Args.tranCheck(sender, args[4]) != null){
+		if(args.length == i + 1 && Args.tranCheck(sender, args[i]) != null){
 			tran = Args.tranCheck(sender, args[i]);
 		}
 		if(!book.isAvailable(tran)){

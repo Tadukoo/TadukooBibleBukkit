@@ -2,10 +2,12 @@ Book1:
   start:
     c: 1
     v: 1
-  '1': 'Chapter 1/nIn the beginning God created the heavens and the earth. &l2&rAnd
-    the earth was without form, and void and darkness was upon the face of the deep.
-    &l3&rAnd God said, Let there be light: and there was light. &l4&rAnd God saw the
-    light, that it was'
+  '1': 'Chapter 1
+
+    In the beginning God created the heavens and the earth. &l2&rAnd the earth was
+    without form, and void and darkness was upon the face of the deep. &l3&rAnd God
+    said, Let there be light: and there was light. &l4&rAnd God saw the light, that
+    it was'
   '2': 'good: and God divided the light from the darkness. &l5&rAnd God called the
     light Day, and the darkness he called Night. And the evening and the morning were
     the first day. &l6&rAnd God said, Let there be a firmament in the midst of the
@@ -61,7 +63,11 @@ Book1:
     that creepeth upon the earth, wherein there is life, I have given every green
     herb for meat: and'
   '17': it was so. &l31&rAnd God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day.
-  '18': Chapter 2/nThus the heavens and the earth were finished, and all the host of them. &l2&rAnd on the seventh day God ended the work which he had made and he rested on the seventh day from all his work which he had made. &l3&rAnd God blessed the seventh day,
+  '18': 'Chapter 2
+
+    Thus the heavens and the earth were finished, and all the host of them. &l2&rAnd
+    on the seventh day God ended the work which he had made and he rested on the seventh
+    day from all his work which he had made. &l3&rAnd God blessed the seventh day,'
   '19': 'and sanctified it: because that in it he had rested from all his work which
     God created and made. &l4&rThese are the generations of the heavens and of the
     earth when they were created, in the day that the LORD God made the earth and
@@ -103,23 +109,25 @@ Book1:
   '30': 'shall a man leave his father and his mother, and shall cleave unto his wife:
     and they shall be one flesh. &l25&rAnd they were both naked, the man and his wife,
     and were not ashamed.'
-  '31': Chapter 3/nNow the serpent was more subtil than any beast of the field which the LORD God had made. And he said unto the woman, Yea, hath God said, Ye shall not eat of any tree of the garden? &l2&rAnd the woman said unto the serpent, We may eat of the
-  '32': 'fruit of the trees of the garden: &l3&rBut of the fruit of the tree which
-    is in the midst of the garden, God hath said, Ye shall not eat of it, neither
-    shall ye touch it, lest ye die. &l4&rAnd the serpent said unto the woman, Ye shall
-    not surely die:'
-  '33': '&l5&rFor God doth know that in the day ye eat thereof, then your eyes shall
-    be opened, and ye shall be as gods, knowing good and evil. &l6&rAnd when the woman
-    saw that the tree was good for food, and that it was pleasant to the eyes, and
-    a tree to be'
-  '34': desired to make one wise, she took of the fruit thereof, and did eat, and gave also unto her husband with her and he did eat. &l7&rAnd the eyes of them both were opened, and they knew that they were naked and they sewed fig leaves together, and made
-  '35': 'themselves aprons. &l8&rAnd they heard the voice of the LORD God walking
-    in the garden in the cool of the day: and Adam and his wife hid themselves from
-    the presence of the LORD God amongst the trees of the garden. &l9&rAnd the LORD
-    God called unto Adam,'
-  '36': and said unto him, Where art thou? &l10&rAnd he said, I heard thy voice in the garden, and I was afraid, because I was naked and I hid myself. &l11&rAnd he said, Who told thee that thou wast naked? Hast thou eaten of the tree, whereof I commanded thee that
-  '37': thou shouldest not eat? &l12&rAnd the man said, The woman whom thou gavest to be with me, she gave me of the tree, and I did eat. &l13&rAnd the LORD God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and
-  '38': 'I did eat. &l14&rAnd the LORD God said unto the serpant, Because thou hast
+  '31': 'Chapter 3
+
+    Now the serpent was more subtil than any beast of the field which the LORD God
+    had made. And he said unto the woman, Yea, hath God said, Ye shall not eat of
+    any tree of the garden? &l2&rAnd the woman said unto the serpent, We may eat of
+    the fruit'
+  '32': 'of the trees of the garden: &l3&rBut of the fruit of the tree which is in
+    the midst of the garden, God hath said, Ye shall not eat of it, neither shall
+    ye touch it, lest ye die. &l4&rAnd the serpent said unto the woman, Ye shall not
+    surely die: &l5&rFor'
+  '33': God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil. &l6&rAnd when the woman saw that the tree was good for food, and that it was pleasant to the eyes, and a tree to be desired to
+  '34': make one wise, she took of the fruit thereof, and did eat, and gave also unto her husband with her and he did eat. &l7&rAnd the eyes of them both were opened, and they knew that they were naked and they sewed fig leaves together, and made themselves
+  '35': 'aprons. &l8&rAnd they heard the voice of the LORD God walking in the garden
+    in the cool of the day: and Adam and his wife hid themselves from the presence
+    of the LORD God amongst the trees of the garden. &l9&rAnd the LORD God called
+    unto Adam, and said'
+  '36': unto him, Where art thou? &l10&rAnd he said, I heard thy voice in the garden, and I was afraid, because I was naked and I hid myself. &l11&rAnd he said, Who told thee that thou wast naked? Hast thou eaten of the tree, whereof I commanded thee that thou
+  '37': shouldest not eat? &l12&rAnd the man said, The woman whom thou gavest to be with me, she gave me of the tree, and I did eat. &l13&rAnd the LORD God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I
+  '38': 'did eat. &l14&rAnd the LORD God said unto the serpant, Because thou hast
     done this, thou art cursed above all cattle, and above every beast of the field
     upon thy belly shalt thou go, and dust shalt thou eat all the days of thy life:
     &l15&rAnd I will put'
@@ -138,7 +146,12 @@ Book1:
     of the tree of life, and eat, and live for ever: &l23&rTherefore the LORD God
     sent him forth from'
   '44': the garden of Eden, to till the ground from whence he was taken. &l24&rSo he drove out the man and he placed at the east of the garden of Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life.
-  '45': Chapter 4/nAnd Adam knew Eve his wife; and she conceived, and bare Cain, and said, I have gotten a man from the LORD &l2&rAnd she again bare his brother Abel. And Abel was a keeper of sheep, but Cain was a tiller of the ground. &l3&rAnd in process of time
+  '45': 'Chapter 4
+
+    And Adam knew Eve his wife; and she conceived, and bare Cain, and said, I have
+    gotten a man from the LORD &l2&rAnd she again bare his brother Abel. And Abel
+    was a keeper of sheep, but Cain was a tiller of the ground. &l3&rAnd in process
+    of time'
   '46': 'it came to pass, that Cain brought of the fruit of the ground an offering
     unto the LORD. &l4&rAnd Abel, he also brought of the firstlings of his flock and
     of the fat thereof. And the LORD had respect unto Abel and to his offering: &l5&rBut
@@ -160,68 +173,84 @@ Book2:
   start:
     c: 4
     v: 13
-  '1': Chapter 4 Cont./n&l13&rAnd Cain said unto the LORD, My punishment is greater than I can bear. &l14&rBehold, thou hast driven me out this day from the face of the earth; and from thy face shall I be hid; and I shall be a fugitive and a vagabond in the
-  '2': earth; and it shall come to pass, that every one that findeth me shall slay me. &l15&rAnd the LORD said unto him, Therefore whosoever slayeth Cain, vengeance shall be taken on him sevenfold. And the LORD set a mark upon Cain, lest any finding him should
-  '3': kill him. &l16&rAnd Cain went out from the presence of the LORD, and dwelt in the land of Nod, on the east of Eden. &l17&rAnd Cain knew his wife; and she conceived, and bare Enoch; and he builded a city, after the name of his son, Enoch. &l18&rAnd unto
-  '4': 'Enoch was born Irad: and Irad begat Mehujael: and Mehujael begat Methusael:
-    and Methusael begat Lamech. &l19&rAnd Lamech took unto him two wives: the name
-    of the one was Adah, and the name of the other Zillah. &l20&rAnd Adah bare Jabal:
-    he was the father'
-  '5': 'of such as dwell in tents, and of such as have cattle. &l21&rAnd his brother''s
-    name was Jubal: he was the father of all such as handle the harp and organ. &l22&rAnd
+  '1': 'Chapter 4 Cont.
+
+    &l13&rAnd Cain said unto the LORD, My punishment is greater than I can bear. &l14&rBehold,
+    thou hast driven me out this day from the face of the earth; and from thy face
+    shall I be hid; and I shall be a fugitive and a vagabond in the earth;'
+  '2': and it shall come to pass, that every one that findeth me shall slay me. &l15&rAnd the LORD said unto him, Therefore whosoever slayeth Cain, vengeance shall be taken on him sevenfold. And the LORD set a mark upon Cain, lest any finding him should kill him.
+  '3': ' &l16&rAnd Cain went out from the presence of the LORD, and dwelt in the land
+    of Nod, on the east of Eden. &l17&rAnd Cain knew his wife; and she conceived,
+    and bare Enoch; and he builded a city, after the name of his son, Enoch. &l18&rAnd
+    unto Enoch was'
+  '4': 'born Irad: and Irad begat Mehujael: and Mehujael begat Methusael: and Methusael
+    begat Lamech. &l19&rAnd Lamech took unto him two wives: the name of the one was
+    Adah, and the name of the other Zillah. &l20&rAnd Adah bare Jabal: he was the
+    father of such as'
+  '5': 'dwell in tents, and of such as have cattle. &l21&rAnd his brother''s name
+    was Jubal: he was the father of all such as handle the harp and organ. &l22&rAnd
     Zillah, she also bare Tubalcain, an instructer of every artificer in brass and
-    iron: and'
-  '6': the sister of Tubalcain was Naamah. &l23&rAnd Lamech said unto his wives, Adah and Zillah, Hear my voice; ye wives of Lamech, hearken unto my speech for I have slain a man to my wounding, and a young man to my hurt. &l24&rIf Cain shall be avenged
-  '7': 'sevenfold, truly Lamech seventy and sevenfold. &l25&rAnd Adam knew his wife
-    again; and she bare a son, and called his name Seth: For God, said she, hath appointed
-    me another seed instead of Abel, whom Cain slew. &l26&rAnd to Seth, to him also
-    there was'
-  '8': 'born a son; and he called his name Enos: then began men to call upon the name
-    of the LORD.'
-  '9': Chapter 5/nThis is the book of the generations of Adam. In the day that God created man, in the likeness of God made he him; &l2&rMale and female created he them; and blessed them, and called their name Adam, in the day when they were created. &l3&rAnd
-  '10': 'Adam lived an hundred and thirty years, and begat a son in his own likeness,
-    after his image; and called his name Seth: &l4&rAnd the days of Adam after he
-    had begotten Seth were eight hundred years: and he begat sons and daughters: &l5&rAnd
-    all the days'
-  '11': 'that Adam lived were nine hundred and thirty years: and he died. &l6&rAnd
-    Seth lived an hundred and five years, and begat Enos: &l7&rAnd Seth lived after
-    he begat Enos eight hundred and seven years, and begat sons and daughters: &l8&rAnd
-    all the days of'
-  '12': 'Seth were nine hundred and twelve years: and he died. &l9&rAnd Enos lived
-    ninety years, and begat Cainan: &l10&rAnd Enos lived after he begat Cainan eight
-    hundred and fifteen years, and begat sons and daughters: &l11&rAnd all the days
-    of Enos were nine'
-  '13': 'hundred and five years: and he died. &l12&rAnd Cainan lived seventy years,
-    and begat Mahalaleel: &l13&rAnd Cainan lived after he begat Mahalaleel eight hundred
-    and forty years, and begat sons and daughters: &l14&rAnd all the days of Cainan
-    were nine'
-  '14': 'hundred and ten years: and he died. &l15&rAnd Mahalaleel lived sixty and
-    five years, and begat Jared: &l16&rAnd Mahalaleel lived after he begat Jared eight
-    hundred and thirty years, and begat sons and daughters: &l17&rAnd all the days
-    of Mahalaleel were'
-  '15': 'eight hundred ninety and five years: and he died. &l18&rAnd Jared lived an
-    hundred sixty and two years, and he begat Enoch: &l19&rAnd Jared lived after he
-    begat Enoch eight hundred years, and begat sons and daughters: &l20&rAnd all the
-    days of Jared were'
-  '16': 'nine hundred sixty and two years: and he died. &l21&rAnd Enoch lived sixty
-    and five years, and begat Methuselah: &l22&rAnd Enoch walked with God after he
-    begat Methuselah three hundred years, and begat sons and daughters: &l23&rAnd
-    all the days of Enoch'
-  '17': 'were three hundred sixty and five years: &l24&rAnd Enoch walked with God:
-    and he was not; for God took him. &l25&rAnd Methuselah lived an hundred eighty
-    and seven years, and begat Lamech. &l26&rAnd Methuselah lived after he begat Lamech
-    seven hundred'
-  '18': 'eighty and two years, and begat sons and daughters: &l27&rAnd all the days
-    of Methuselah were nine hundred sixty and nine years, and he died. &l28&rAnd Lamech
-    lived an hundred eighty and two years, and begat a son: &l29&rAnd he called his
-    name Noah,'
-  '19': 'saying, This same shall comfort us concerning our work and toil of our hands,
-    because of the ground which the LORD hath cursed. &l30&rAnd Lamech lived after
-    he begat Noah five hundred ninety and five years, and begat sons and daughters:
-    &l31&rAnd all the'
-  '20': 'days of Lamech were seven hundred seventy and seven years: and he died. &l32&rAnd
-    Noah was five hundred years old: and Noah begat Shem, Ham, and Japheth.'
-  '21': Chapter 6/nAnd it came to pass, when men began to multiply on the face of the earth, and daughters were born unto them, &l2&rThat the sons of God saw tha daughters of men that they were fair; and they took them wives of all which they chose. &l3&rAnd the
+    iron: and the sister of'
+  '6': Tubalcain was Naamah. &l23&rAnd Lamech said unto his wives, Adah and Zillah, Hear my voice; ye wives of Lamech, hearken unto my speech for I have slain a man to my wounding, and a young man to my hurt. &l24&rIf Cain shall be avenged sevenfold, truly Lamech
+  '7': 'seventy and sevenfold. &l25&rAnd Adam knew his wife again; and she bare a
+    son, and called his name Seth: For God, said she, hath appointed me another seed
+    instead of Abel, whom Cain slew. &l26&rAnd to Seth, to him also there was born
+    a son; and he called'
+  '8': 'his name Enos: then began men to call upon the name of the LORD.'
+  '9': 'Chapter 5
+
+    This is the book of the generations of Adam. In the day that God created man,
+    in the likeness of God made he him; &l2&rMale and female created he them; and
+    blessed them, and called their name Adam, in the day when they were created. &l3&rAnd
+    Adam'
+  '10': 'lived an hundred and thirty years, and begat a son in his own likeness, after
+    his image; and called his name Seth: &l4&rAnd the days of Adam after he had begotten
+    Seth were eight hundred years: and he begat sons and daughters: &l5&rAnd all the
+    days that'
+  '11': 'Adam lived were nine hundred and thirty years: and he died. &l6&rAnd Seth
+    lived an hundred and five years, and begat Enos: &l7&rAnd Seth lived after he
+    begat Enos eight hundred and seven years, and begat sons and daughters: &l8&rAnd
+    all the days of Seth'
+  '12': 'were nine hundred and twelve years: and he died. &l9&rAnd Enos lived ninety
+    years, and begat Cainan: &l10&rAnd Enos lived after he begat Cainan eight hundred
+    and fifteen years, and begat sons and daughters: &l11&rAnd all the days of Enos
+    were nine hundred'
+  '13': 'and five years: and he died. &l12&rAnd Cainan lived seventy years, and begat
+    Mahalaleel: &l13&rAnd Cainan lived after he begat Mahalaleel eight hundred and
+    forty years, and begat sons and daughters: &l14&rAnd all the days of Cainan were
+    nine hundred and'
+  '14': 'ten years: and he died. &l15&rAnd Mahalaleel lived sixty and five years,
+    and begat Jared: &l16&rAnd Mahalaleel lived after he begat Jared eight hundred
+    and thirty years, and begat sons and daughters: &l17&rAnd all the days of Mahalaleel
+    were eight hundred'
+  '15': 'ninety and five years: and he died. &l18&rAnd Jared lived an hundred sixty
+    and two years, and he begat Enoch: &l19&rAnd Jared lived after he begat Enoch
+    eight hundred years, and begat sons and daughters: &l20&rAnd all the days of Jared
+    were nine hundred'
+  '16': 'sixty and two years: and he died. &l21&rAnd Enoch lived sixty and five years,
+    and begat Methuselah: &l22&rAnd Enoch walked with God after he begat Methuselah
+    three hundred years, and begat sons and daughters: &l23&rAnd all the days of Enoch
+    were three'
+  '17': 'hundred sixty and five years: &l24&rAnd Enoch walked with God: and he was
+    not; for God took him. &l25&rAnd Methuselah lived an hundred eighty and seven
+    years, and begat Lamech. &l26&rAnd Methuselah lived after he begat Lamech seven
+    hundred eighty and two'
+  '18': 'years, and begat sons and daughters: &l27&rAnd all the days of Methuselah
+    were nine hundred sixty and nine years, and he died. &l28&rAnd Lamech lived an
+    hundred eighty and two years, and begat a son: &l29&rAnd he called his name Noah,
+    saying, This same'
+  '19': 'shall comfort us concerning our work and toil of our hands, because of the
+    ground which the LORD hath cursed. &l30&rAnd Lamech lived after he begat Noah
+    five hundred ninety and five years, and begat sons and daughters: &l31&rAnd all
+    the days of Lamech were'
+  '20': 'seven hundred seventy and seven years: and he died. &l32&rAnd Noah was five
+    hundred years old: and Noah begat Shem, Ham, and Japheth.'
+  '21': 'Chapter 6
+
+    And it came to pass, when men began to multiply on the face of the earth, and
+    daughters were born unto them, &l2&rThat the sons of God saw tha daughters of
+    men that they were fair; and they took them wives of all which they chose. &l3&rAnd
+    the'
   '22': 'LORD said, My spirit shall not always strive with man, for that he also is
     flesh: yet his days shall be an hundred and twenty years. &l4&rThere were giants
     in the earth in those days; and also after that, when the sons of God came in
@@ -246,10 +275,12 @@ Book2:
   '31': of all flesh, two of every sort shalt thou bring into the ark, to keep them alive with thee; they shall be male and female. &l20&rOf fowls after their kind, and of cattle after their kind, of every creeping thing of the earth after his kind, two of every
   '32': sort shall come unto thee, to keep them alive. &l21&rAnd take thou unto thee of all food that is eaten, and thou shalt gather it to thee; and it shall be for food for thee, and for them. &l22&rThus did Noah; according to all that God commanded him, so did
   '33': he.
-  '34': 'Chapter 7/nAnd the LORD said unto Noah, Come thou and all thy house into
-    the ark; for thee have I seen righteous before me in this generation. &l2&rOf
-    every clean beast thou shalt take to thee by sevens, the male and his female:
-    and of beasts that are not'
+  '34': 'Chapter 7
+
+    And the LORD said unto Noah, Come thou and all thy house into the ark; for thee
+    have I seen righteous before me in this generation. &l2&rOf every clean beast
+    thou shalt take to thee by sevens, the male and his female: and of beasts that
+    are not'
   '35': clean by two, the male and his female. &l3&rOf fowls also of the air by sevens, the male and the female; to keep seed alive upon the face of all the earth. &l4&rFor yet seven days, and I will cause it to rain upon the earth forty days and forty nights; and
   '36': every living substance that I have made will I destroy from off the face of the earth. &l5&rAnd Noah did according unto all that the LORD commanded him. &l6&rAnd Noah was six hundred years old when the flood of waters was upon the earth. &l7&rAnd Noah went
   '37': in, and his sons, and his wife, and his sons' wives with him, into the ark, because of the waters of the flood. &l8&rOf clean beasts, and of beasts that are not clean, and of fowls, and of every thing that creepeth upon the earth, &l9&rThere went in two
@@ -271,13 +302,14 @@ Book2:
     and they were destroyed from the earth: and Noah only remained alive, and they
     that were with him in'
   '46': the ark. &l24&rAnd the waters prevailed upon the earth an hundred and fifty days.
-  '47': 'Chapter 8/nAnd God remembered Noah, and every living thing, and all the cattle
-    that was with him in the ark: and God made a wind to pass over the earth, and
-    the waters asswaged; &l2&rThe fountains also of the deep and the windows of heaven
-    were stopped,'
-  '48': 'and the rain from heaven was restrained; &l3&rAnd the waters returned from
-    off the earth continually: and after the end of the hundred and fifty days the
-    waters were abated. &l4&rAnd the ark rested in the seventh month, on the seventeenth
+  '47': 'Chapter 8
+
+    And God remembered Noah, and every living thing, and all the cattle that was with
+    him in the ark: and God made a wind to pass over the earth, and the waters asswaged;
+    &l2&rThe fountains also of the deep and the windows of heaven were stopped, and'
+  '48': 'the rain from heaven was restrained; &l3&rAnd the waters returned from off
+    the earth continually: and after the end of the hundred and fifty days the waters
+    were abated. &l4&rAnd the ark rested in the seventh month, on the seventeenth
     day of the month,'
   '49': 'upon the mountains of Ararat. &l5&rAnd the waters decreased continually until
     the tenth month: in the tenth month, on the first day of the month, were the tops
@@ -294,10 +326,11 @@ Book3:
   start:
     c: 8
     v: 9
-  '1': 'Chapter 8 Cont./n&l9&rBut the dove found no rest for the sole of her foot,
-    and she returned unto him into the ark, for the waters were on the face of the
-    whole earth: then he put forth his hand, and took her, and pulled her in unto
-    him into the ark.'
+  '1': 'Chapter 8 Cont.
+
+    &l9&rBut the dove found no rest for the sole of her foot, and she returned unto
+    him into the ark, for the waters were on the face of the whole earth: then he
+    put forth his hand, and took her, and pulled her in unto him into the ark.'
   '2': '&l10&rAnd he stayed yet other seven days; and again he sent forth the dove
     out of the ark; &l11&rAnd the dove came in to him in the evening; and, lo, in
     her mouth was an olive leaf pluckt off: so Noah knew that the waters were abated
@@ -318,7 +351,11 @@ Book3:
   '7': the earth, after their kinds, went forth out of the ark. &l20&rAnd Noah builded an altar unto the Lord; and took of every clean beast, and of every clean fowl, and offered burnt offerings on the altar. &l21&rAnd the Lord smelled a sweet savour; and the
   '8': Lord said in his heart, I will not again curse the ground any more for man's sake; for the imagination of man's heart is evil from his youth; neither will I again smite any more every thing living, as I have done. &l22&rWhile the earth remaineth, seedtime
   '9': and harvest, and cold and heat, and summer and winter, and day and night shall not cease.
-  '10': Chapter 9/nAnd God blessed Noah and his sons, and said unto them, Be fruitful, and multiply, and replenish the earth. &l2&rAnd the fear of you and the dread of you shall be upon every beast of the earth, and upon every fowl of the air, upon all that moveth
+  '10': 'Chapter 9
+
+    And God blessed Noah and his sons, and said unto them, Be fruitful, and multiply,
+    and replenish the earth. &l2&rAnd the fear of you and the dread of you shall be
+    upon every beast of the earth, and upon every fowl of the air, upon all that moveth'
   '11': upon the earth, and upon all the fishes of the sea; into your hand are they delivered. &l3&rEvery moving thing that liveth shall be meat for you; even as the green herb have I given you all things. &l4&rBut flesh with the life thereof, which is the blood
   '12': thereof, shall ye not eat. &l5&rAnd surely your blood of your lives will I require; at the hand of every beast will I require it, and at the hand of man; at the hand of every man's brother will I require the life of man. &l6&rWhoso sheddeth man's blood, by
   '13': 'man shall his blood be shed: for in the image of God made he man. &l7&rAnd
@@ -352,10 +389,12 @@ Book3:
   '23': 'dwell in the tents of Shem; and "Canaan shall be his servant. &l28&rAnd Noah
     lived after the flood three hundred and fifty years. &l29&rAnd all the days of
     Noah were nine hundred and fifty years: and he died.'
-  '24': 'Chapter 10/nNow these are the generations of the sons of Noah, Shem, Ham,
-    and Japheth: and unto them were sons born after the flood. &l2&rThe sons of Japheth;
-    Gomer, and Magog, and Madai, and Javan, and Tubal, and Meshech, and Tiras. &l3&rAnd
-    the sons of'
+  '24': 'Chapter 10
+
+    Now these are the generations of the sons of Noah, Shem, Ham, and Japheth: and
+    unto them were sons born after the flood. &l2&rThe sons of Japheth; Gomer, and
+    Magog, and Madai, and Javan, and Tubal, and Meshech, and Tiras. &l3&rAnd the sons
+    of'
   '25': Gomer; Ashkenaz, and Riphath, and Togarmah. &l4&rAnd the sons of Javan; Elishah, and Tarshish, Kittim, and Dodanim. &l5&rBy these were the isles of the Gentiles divided in their lands; every one after his tongue, after their families, in their nations.
   '26': '&l6&rAnd the sons of Ham; Cush, and Mizraim, and Phut, and Canaan. &l7&rAnd
     the sons of Cush; Seba, and Havilah, and Sabtah, and Raamah, and Sabtechah: and
@@ -390,7 +429,12 @@ Book3:
   '35': ' &l32&rThese are the families of the sons of Noah, after their generations,
     in their nations: and by these were the nations divided in the earth after the
     flood.'
-  '36': Chapter 11/nAnd the whole earth was of one language, and of one speech. &l2&rAnd it came to pass, as they journeyed from the east, that they found a plain in the land of Shinar; and they dwelt there. &l3&rAnd they said one to another, Go to, let us make
+  '36': 'Chapter 11
+
+    And the whole earth was of one language, and of one speech. &l2&rAnd it came to
+    pass, as they journeyed from the east, that they found a plain in the land of
+    Shinar; and they dwelt there. &l3&rAnd they said one to another, Go to, let us
+    make'
   '37': brick, and burn them thoroughly. And they had brick for stone, and slime had they for morter. &l4&rAnd they said, Go to, let us build us a city and a tower, whose top may reach unto heaven; and let us make us a name, lest we be scattered abroad upon the
   '38': 'face of the whole earth. &l5&rAnd the Lord came down to see the city and
     the tower, which the children of men builded. &l6&rAnd the Lord said, Behold,
@@ -435,9 +479,10 @@ Book3:
   '48': barren; she had no child. &l31&rAnd Terah took Abram his son, and Lot the son of Haran his son's son, and Sarai his daughter in law, his son Abram's wife; and they went forth with them from Ur of the Chaldees, to go into the land of Canaan; and they came
   '49': 'unto Haran, and dwelt there. &l32&rAnd the days of Terah were two hundred
     and five years: and Terah died in Haran.'
-  '50': 'Chapter 12/nNow the Lord had said unto Abram, Get thee out of thy country,
-    and from thy kindred, and from thy father''s house, unto a land that I will shew
-    thee:'
+  '50': 'Chapter 12
+
+    Now the Lord had said unto Abram, Get thee out of thy country, and from thy kindred,
+    and from thy father''s house, unto a land that I will shew thee:'
   end:
     c: 12
     v: 1
@@ -445,10 +490,11 @@ Book4:
   start:
     c: 12
     v: 2
-  '1': 'Chapter 12 Cont./n&l2&rAnd I will make of thee a great nation, and I will
-    bless thee, and make thy name great; and thou shalt be a blessing: &l3&rAnd I
-    will bless them that bless thee, and curse him that curseth thee: and "in thee
-    shall all families of the'
+  '1': 'Chapter 12 Cont.
+
+    &l2&rAnd I will make of thee a great nation, and I will bless thee, and make thy
+    name great; and thou shalt be a blessing: &l3&rAnd I will bless them that bless
+    thee, and curse him that curseth thee: and "in thee shall all families of the'
   '2': 'earth be blessed. &l4&rSo Abram departed, as the Lord had spoken unto him;
     and Lot went with him: and Abram was seventy and five years old when he departed
     out of Haran. &l5&rAnd Abram took Sarai his wife, and Lot his brother''s son,
@@ -484,7 +530,12 @@ Book4:
     now therefore behold'
   '11': 'thy wife, take her, and go thy way. &l20&rAnd Pharaoh commanded his men concerning
     him: and they sent him away, and his wife, and all that he had.'
-  '12': Chapter 13/nAnd Abram went up out of Egypt, he, and his wife, and all that he had, and Lot with him, into the south. &l2&rAnd Abram was very rich in cattle, in silver, and in gold. &l3&rAnd he went on his journeys from the south even to Bethel, unto the
+  '12': 'Chapter 13
+
+    And Abram went up out of Egypt, he, and his wife, and all that he had, and Lot
+    with him, into the south. &l2&rAnd Abram was very rich in cattle, in silver, and
+    in gold. &l3&rAnd he went on his journeys from the south even to Bethel, unto
+    the'
   '13': 'place where his tent had been at the beginning, between Bethel and Hai; &l4&rUnto
     the place of the altar, which he had make there at the first: and there Abram
     called on the name of the Lord. &l5&rAnd Lot also, which went with Abram, had
@@ -513,7 +564,11 @@ Book4:
     give it unto thee.'
   '21': ' &l18&rThen Abram removed his tent, and came and dwelt in the plain of Mamre,
     which is in Hebron, and built there an altar unto the Lord.'
-  '22': Chapter 14/nAnd it came to pass in the days of Amraphel king of Shinar, Arioch king of Ellasar, Chedorlaomer king of Elam, and Tidal king of nations; &l2&rThat these made war with Bera king of Sodom, and with Birsha king of Gomorrah, Shinab king of Admah,
+  '22': 'Chapter 14
+
+    And it came to pass in the days of Amraphel king of Shinar, Arioch king of Ellasar,
+    Chedorlaomer king of Elam, and Tidal king of nations; &l2&rThat these made war
+    with Bera king of Sodom, and with Birsha king of Gomorrah, Shinab king of Admah,'
   '23': and Shemeber king of Zeboiim, and the king of Bela, which is Zoar. &l3&rAll these were joined together in the vale of Siddim, which is the salt sea. &l4&rTwelve years they served Chedorlaomer, and in the thirteenth year they rebelled. &l5&rAnd in the
   '24': fourteenth year came Chedorlaomer, and the kings that were with him, and smote the Rephaims in Ashteroth Karnaim, and the Zuzims in Ham, and the Emins in Shaveh Kiriathaim, &l6&rAnd the Horites in their mount Seir, unto Elparan, which is by the wilderness.
   '25': ' &l7&rAnd they returned, and came to Enmishpat, which is Kadesh, and smote
@@ -539,10 +594,11 @@ Book4:
     made Abram rich: &l24&rSave only that which the young men have eaten, and the
     portion of the men which'
   '35': went with me, Aner, Eshcol, and Mamre; let them take their portion.
-  '36': 'Chapter 15/nAfter these things the word of the Lord came unto Abram in a
-    vision, saying, Fear not, Abram: I am thy shield, and thy exceeding great reward.
-    &l2&rAnd Abram said, Lord God, what wilt thou give me, seeing I go childless,
-    and the steward of my'
+  '36': 'Chapter 15
+
+    After these things the word of the Lord came unto Abram in a vision, saying, Fear
+    not, Abram: I am thy shield, and thy exceeding great reward. &l2&rAnd Abram said,
+    Lord God, what wilt thou give me, seeing I go childless, and the steward of my'
   '37': 'house is this Eliezer of Damascus? &l3&rAnd Abram said, Behold, to me thou
     hast given no seed: and, lo, one born in my house is mine heir. &l4&rAnd, behold,
     the word of the Lord came unto him, saying, This shall not be thine heir; but
@@ -570,10 +626,12 @@ Book4:
     Kenizzites, and the Kadmonites, &l20&rAnd the Hittites, and the Perizzites, and
     the Rephaims, &l21&rAnd the Amorites, and the Canaanites, and the Girgashites,
     and the Jebusites.'
-  '46': 'Chapter 16/nNow Sarai Abram''s wife bare him no children: and she had an
-    handmaid, an Egyptian, whose name was Hagar. &l2&rAnd Sarai said unto Abram, Behold
-    now, the Lord hath restrained me from bearing: I pray thee, go in unto my maid;
-    it may be that I may'
+  '46': 'Chapter 16
+
+    Now Sarai Abram''s wife bare him no children: and she had an handmaid, an Egyptian,
+    whose name was Hagar. &l2&rAnd Sarai said unto Abram, Behold now, the Lord hath
+    restrained me from bearing: I pray thee, go in unto my maid; it may be that I
+    may'
   '47': obtain children by her. And Abram hearkened to the voice of Sarai. &l3&rAnd Sarai Abram's wife took Hagar her maid the Egyptian, after Abram had dwelt ten years in the land of Canaan, and gave her to her husband Abram to be his wife. &l4&rAnd he went in
   '48': 'unto Hagar, and she conceived: and when she saw that she had conceived, her
     mistress was despised in her eyes. &l5&rAnd Sarai said unto Abram, My wrong be
@@ -591,7 +649,11 @@ Book5:
   start:
     c: 16
     v: 9
-  '1': Chapter 16 Cont./n&l9&rAnd the angel of the Lord said unto her, Return to thy mistress, and submit thyself under her hands. &l10&rAnd the angel of the Lord said unto her, I will multiply thy seed exceedingly, that it shall not be numbered for multitude.
+  '1': 'Chapter 16 Cont.
+
+    &l9&rAnd the angel of the Lord said unto her, Return to thy mistress, and submit
+    thyself under her hands. &l10&rAnd the angel of the Lord said unto her, I will
+    multiply thy seed exceedingly, that it shall not be numbered for multitude.'
   '2': '&l11&rAnd the angel of the Lord said unto her, Behold, thou art with child
     and shalt bear a son, and shalt call his name Ishmael; because the Lord hath heard
     thy affliction. &l12&rAnd he will be a wild man; his hand will be against every
@@ -603,7 +665,11 @@ Book5:
   '4': 'called Beerlahairoi; behold, it is between Kadesh and Bered. &l15&rAnd Hagar
     bare Abram a son: and Abram called his son''s name, which Hagar bare, Ishmael.
     &l16&rAnd Abram was fourscore and six years old, when Hagar bare Ishmael to Abram.'
-  '5': Chapter 17/nAnd when Abram was ninety years old and nine, the Lord appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect. &l2&rAnd I will make my covenant between me and thee, and will multiply thee exceedingly.
+  '5': 'Chapter 17
+
+    And when Abram was ninety years old and nine, the Lord appeared to Abram, and
+    said unto him, I am the Almighty God; walk before me, and be thou perfect. &l2&rAnd
+    I will make my covenant between me and thee, and will multiply thee exceedingly.'
   '6': '&l3&rAnd Abram fell on his face: and God talked with him, saying, &l4&rAs
     for me, behold, my covenant is with thee, and thou shalt be a father of many nations.
     &l5&rNeither shall thy name any more be called Abram, but thy name shall be Abraham;
@@ -636,10 +702,12 @@ Book5:
     when he was circumcised in the flesh of his foreskin. &l26&rIn the selfsame day
     was Abraham'
   '19': circumcised, and Ishmael his son. &l27&rAnd all the men of his house, born in the house, and bought with money of the stranger, were circumcised with him.
-  '20': 'Chapter 18/nAnd the Lord appeared unto him in the plains of Mamre: and he
-    sat in the tent door in the heat of the day; &l2&rAnd he lift up his eyes and
-    looked, and, lo, three men stood by him: and when he saw them, he ran to meet
-    them from the tent door,'
+  '20': 'Chapter 18
+
+    And the Lord appeared unto him in the plains of Mamre: and he sat in the tent
+    door in the heat of the day; &l2&rAnd he lift up his eyes and looked, and, lo,
+    three men stood by him: and when he saw them, he ran to meet them from the tent
+    door,'
   '21': 'and bowed himself toward the ground, &l3&rAnd said, My Lord, if now I have
     found favour in thy sight, pass not away, I pray thee, from thy servant: &l4&rLet
     a little water, I pray you, be fetched, and wash your feet, and rest yourselves
@@ -688,10 +756,12 @@ Book5:
     ten''s sake. &l33&rAnd the Lord went his way, as soon as he had left communing
     with Abraham: and Abraham'
   '38': returned unto his place.
-  '39': 'Chapter 19/nAnd there came two angels to Sodom at even; and Lot sat in the
-    gate of Sodom: and Lot seeing them rose up to meet them; and he bowed himself
-    with his face toward the ground; &l2&rAnd he said, Behold now, my lords, turn
-    in, I pray you, into your'
+  '39': 'Chapter 19
+
+    And there came two angels to Sodom at even; and Lot sat in the gate of Sodom:
+    and Lot seeing them rose up to meet them; and he bowed himself with his face toward
+    the ground; &l2&rAnd he said, Behold now, my lords, turn in, I pray you, into
+    your'
   '40': servant's house, and tarry all night, and wash your feet, and ye shall rise up early, and go on your ways. And they said, Nay; but we will abide in the street all night. &l3&rAnd he pressed upon them greatly; and they turned in unto him, and entered into
   '41': 'his house; and he made them a feast, and did bake unleavened bread, and they
     did eat. &l4&rBut before they lay down, the men of the city, even the men of Sodom,
@@ -730,10 +800,11 @@ Book6:
   start:
     c: 19
     v: 19
-  '1': 'Chapter 19 Cont./n&l19&rBehold now, thy servant hath found grace in thy sight,
-    and thou hast magnified thy mercy, which thou hast shewed unto me in saving my
-    life; and I cannot escape to the mountain, lest some evil take me, and I die:
-    &l20&rBehold now,'
+  '1': 'Chapter 19 Cont.
+
+    &l19&rBehold now, thy servant hath found grace in thy sight, and thou hast magnified
+    thy mercy, which thou hast shewed unto me in saving my life; and I cannot escape
+    to the mountain, lest some evil take me, and I die: &l20&rBehold now,'
   '2': 'this city is near to flee unto, and it is a little one: Oh, let me escape
     thither, (is it not a little one?) and my soul shall live. &l21&rAnd he said unto
     him, See, I have accepted thee concerning this thing also, that I will not overthrow
@@ -766,10 +837,11 @@ Book6:
     unto this day. &l38&rAnd the younger, she also bare a son, and called his name
     Benammi: the same is'
   '12': the father of the children of Ammon unto this day.
-  '13': 'Chapter 20/nAnd Abraham journeyed from thence toward the south country, and
-    dwelled between Kadesh and Shur, and sojourned in Gerar. &l2&rAnd Abraham said
-    of Sarah his wife, She is my sister: and Abimelech king of Gerar sent, and took
-    Sarah. &l3&rBut God'
+  '13': 'Chapter 20
+
+    And Abraham journeyed from thence toward the south country, and dwelled between
+    Kadesh and Shur, and sojourned in Gerar. &l2&rAnd Abraham said of Sarah his wife,
+    She is my sister: and Abimelech king of Gerar sent, and took Sarah. &l3&rBut God'
   '14': 'came to Abimelech in a dream by night, and said to him, Behold, thou art
     but a dead man, for the woman which thou hast taken; for she is a man''s wife.
     &l4&rBut Abimelech had not come near her: and he said, Lord, wilt thou slay also
@@ -798,19 +870,24 @@ Book6:
     thus she was reproved. &l17&rSo Abraham prayed unto God: and God healed Abimelech,
     and his wife,'
   '23': and his maidservants; and they bare children. &l18&rFor the Lord had fast closed up all the wombs of the house of Abimelech, because of Sarah Abraham's wife.
-  '24': Chapter 21/nAnd the Lord visited Sarah as he had said, and the Lord did unto Sarah as he had spoken. &l2&rFor Sarah conceived, and bare Abraham a son in his old age, at the set time of which God had spoken to him. &l3&rAnd Abraham called the name of his
-  '25': son that was born unto him, whom Sarah bare to him, Isaac. &l4&rAnd Abraham circumcised his son Isaac being eight days old, as God had commanded him. &l5&rAnd Abraham was an hundred years old, when his son Isaac was born unto him. &l6&rAnd Sarah said, God
-  '26': 'hath made me to laugh, so that all that hear will laugh with me. &l7&rAnd
-    she said, Who would have said unto Abraham, that Sarah should have given children
+  '24': 'Chapter 21
+
+    And the Lord visited Sarah as he had said, and the Lord did unto Sarah as he had
+    spoken. &l2&rFor Sarah conceived, and bare Abraham a son in his old age, at the
+    set time of which God had spoken to him. &l3&rAnd Abraham called the name of his
+    son'
+  '25': that was born unto him, whom Sarah bare to him, Isaac. &l4&rAnd Abraham circumcised his son Isaac being eight days old, as God had commanded him. &l5&rAnd Abraham was an hundred years old, when his son Isaac was born unto him. &l6&rAnd Sarah said, God hath
+  '26': 'made me to laugh, so that all that hear will laugh with me. &l7&rAnd she
+    said, Who would have said unto Abraham, that Sarah should have given children
     suck? for I have born him a son in his old age. &l8&rAnd the child grew, and was
-    weaned: and Abraham'
-  '27': 'made a great feast the same day that Isaac was weaned. &l9&rAnd Sarah saw
-    the son of Hagar the Egyptian, which she had born unto Abraham, mocking. &l10&rWherefore
+    weaned: and Abraham made'
+  '27': 'a great feast the same day that Isaac was weaned. &l9&rAnd Sarah saw the
+    son of Hagar the Egyptian, which she had born unto Abraham, mocking. &l10&rWherefore
     she said unto Abraham, Cast out this bondwoman and her son: for the son of this
-    bondwoman'
-  '28': shall not be heir with my son, even with Isaac. &l11&rAnd the thing was very grievous in Abraham's sight because of his son. &l12&rAnd God said unto Abraham, Let it not be grievous in thy sight because of the lad, and because of thy bondwoman; in all that
-  '29': Sarah hath said unto thee, hearken unto her voice; for in Isaac shall thy seed be called. &l13&rAnd also of the son of the bondwoman will I make a nation, because he is thy seed. &l14&rAnd Abraham rose up early in the morning, and took bread, and a bottle
-  '30': 'of water, and gave it unto Hagar, putting it on her shoulder, and the child,
+    bondwoman shall'
+  '28': not be heir with my son, even with Isaac. &l11&rAnd the thing was very grievous in Abraham's sight because of his son. &l12&rAnd God said unto Abraham, Let it not be grievous in thy sight because of the lad, and because of thy bondwoman; in all that Sarah
+  '29': hath said unto thee, hearken unto her voice; for in Isaac shall thy seed be called. &l13&rAnd also of the son of the bondwoman will I make a nation, because he is thy seed. &l14&rAnd Abraham rose up early in the morning, and took bread, and a bottle of
+  '30': 'water, and gave it unto Hagar, putting it on her shoulder, and the child,
     and sent her away: and she departed, and wandered in the wilderness of Beersheba.
     &l15&rAnd the water was spent in the bottle, and she cast the child under one
     of the shrubs.'
@@ -839,11 +916,13 @@ Book6:
     land of the Philistines. &l33&rAnd Abraham planted a grove in Beersheba, and called
     there on the name'
   '40': of the Lord, the everlasting God. &l34&rAnd Abraham sojourned in the Philistines' land many days.
-  '41': 'Chapter 22/nAnd it came to pass after these things, that God did tempt Abraham,
-    and said unto him, Abraham: and he said, Behold, here I am. &l2&rAnd he said,
-    Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the
-    land of Moriah;'
-  '42': and offer him there for a burnt offering upon one of the mountains which I will tell thee of. &l3&rAnd Abraham rose up early in the morning, and saddled his ass, and took two of his young men with him, and Isaac his son, and clave the wood for the burnt
+  '41': 'Chapter 22
+
+    And it came to pass after these things, that God did tempt Abraham, and said unto
+    him, Abraham: and he said, Behold, here I am. &l2&rAnd he said, Take now thy son,
+    thine only son Isaac, whom thou lovest, and get thee into the land of Moriah;
+    and'
+  '42': offer him there for a burnt offering upon one of the mountains which I will tell thee of. &l3&rAnd Abraham rose up early in the morning, and saddled his ass, and took two of his young men with him, and Isaac his son, and clave the wood for the burnt
   '43': offering, and rose up, and went unto the place of which God had told him. &l4&rThen on the third day Abraham lifted up his eyes, and saw the place afar off. &l5&rAnd Abraham said unto his young men, Abide ye here with the ass; and I and the lad will go
   '44': yonder and worship, and come again to you. &l6&rAnd Abraham took the wood of the burnt offering, and laid it upon Isaac his son; and he took the fire in his hand, and a knife; and they went both of them together. &l7&rAnd Isaac spake unto Abraham his
   '45': 'father, and said, My father: and he said, Here am I, my son. And he said,
@@ -872,16 +951,22 @@ Book7:
   start:
     c: 22
     v: 17
-  '1': Chapter 22 Cont./n&l17&rThat in blessing I will bless thee, and in multiplying I will multiply thy seed as the stars of the heaven, and as the sand which is upon the sea shore; and thy seed shall possess the gate of his enemies; &l18&rAnd in thy seed shall
+  '1': 'Chapter 22 Cont.
+
+    &l17&rThat in blessing I will bless thee, and in multiplying I will multiply thy
+    seed as the stars of the heaven, and as the sand which is upon the sea shore;
+    and thy seed shall possess the gate of his enemies; &l18&rAnd in thy seed shall'
   '2': all the nations of the earth be blessed; because thou hast obeyed my voice. &l19&rSo Abraham returned unto his young men, and they rose up and went together to Beersheba; and Abraham dwelt at Beersheba. &l20&rAnd it came to pass after these things, that it
   '3': was told Abraham, saying, Behold, Milcah, she hath also born children unto thy brother Nahor; &l21&rHuz his firstborn, and Buz his brother, and Kemuel the father of Aram, &l22&rAnd Chesed, and Hazo, and Pildash, and Jidlaph, and Bethuel. &l23&rAnd Bethuel
   '4': 'begat Rebekah: these eight Milcah did bear to Nahor, Abraham''s brother. &l24&rAnd
     his concubine, whose name was Reumah, she bare also Tebah, and Gaham, and Thahash,
     and Maachah.'
-  '5': 'Chapter 23/nAnd Sarah was an hundred and seven and twenty years old: these
-    were the years of the life of Sarah. &l2&rAnd Sarah died in Kirjatharba; the same
-    is Hebron in the land of Canaan: and Abraham came to mourn for Sarah, and to weep
-    for her. &l3&rAnd'
+  '5': 'Chapter 23
+
+    And Sarah was an hundred and seven and twenty years old: these were the years
+    of the life of Sarah. &l2&rAnd Sarah died in Kirjatharba; the same is Hebron in
+    the land of Canaan: and Abraham came to mourn for Sarah, and to weep for her.
+    &l3&rAnd'
   '6': 'Abraham stood up from before his dead, and spake unto the sons of Heth, saying,
     &l4&rI am a stranger and a sojourner with you: give me a possession of a buryingplace
     with you, that I may bury my dead out of my sight. &l5&rAnd the children of Heth
@@ -914,10 +999,12 @@ Book7:
     of Canaan. &l20&rAnd the field, and the cave that is therein, were made sure unto
     Abraham for a'
   '16': possession of a buryingplace by the sons of Heth.
-  '17': 'Chapter 24/nAnd Abraham was old, and well stricken in age: and the Lord had
-    blessed Abraham in all things. &l2&rAnd Abraham said unto his eldest servant of
-    his house, that ruled over all that he had, Put, I pray thee, thy hand under my
-    thigh: &l3&rAnd I'
+  '17': 'Chapter 24
+
+    And Abraham was old, and well stricken in age: and the Lord had blessed Abraham
+    in all things. &l2&rAnd Abraham said unto his eldest servant of his house, that
+    ruled over all that he had, Put, I pray thee, thy hand under my thigh: &l3&rAnd
+    I'
   '18': 'will make thee swear by the Lord, the God of heaven, and the God of the earth,
     that thou shalt not take a wife unto my son of the daughters of the Canaanites,
     among whom I dwell: &l4&rBut thou shalt go unto my country, and to my kindred,
@@ -1027,7 +1114,11 @@ Book8:
   start:
     c: 24
     v: 60
-  '1': Chapter 24 Cont./n&l60&rAnd they blessed Rebekah, and said unto her, Thou art our sister, be thou the mother of thousands of millions, and let thy seed possess the gate of those which hate them. &l61&rAnd Rebekah arose, and her damsels, and they rode upon
+  '1': 'Chapter 24 Cont.
+
+    &l60&rAnd they blessed Rebekah, and said unto her, Thou art our sister, be thou
+    the mother of thousands of millions, and let thy seed possess the gate of those
+    which hate them. &l61&rAnd Rebekah arose, and her damsels, and they rode upon'
   '2': 'the camels, and followed the man: and the servant took Rebekah, and went his
     way. &l62&rAnd Isaac came from the way of the well Lahairoi; for he dwelt in the
     south country. &l63&rAnd Isaac went out to meditate in the field at the eventide:
@@ -1038,7 +1129,11 @@ Book8:
     brought her into his mother Sarah''s tent, and took Rebekah, and she became his
     wife; and he loved her:'
   '5': and Isaac was comforted after his mother's death.
-  '6': Chapter 25/nThen again Abraham took a wife, and her name was Keturah. &l2&rAnd she bare him Zimran, and Jokshan, and Medan, and Midian, and Ishbak, and Shuah. &l3&rAnd Jokshan begat Sheba, and Dedan. And the sons of Dedan were Asshurim, and Letushim, and
+  '6': 'Chapter 25
+
+    Then again Abraham took a wife, and her name was Keturah. &l2&rAnd she bare him
+    Zimran, and Jokshan, and Medan, and Midian, and Ishbak, and Shuah. &l3&rAnd Jokshan
+    begat Sheba, and Dedan. And the sons of Dedan were Asshurim, and Letushim, and'
   '7': Leummim. &l4&rAnd the sons of Midian; Ephah, and Epher, and Hanoch, and Abidah, and Eldaah. All these were the children of Keturah. &l5&rAnd Abraham gave all that he had unto Isaac. &l6&rBut unto the sons of the concubines, which Abraham had, Abraham gave
   '8': gifts, and sent them away from Isaac his son, while he yet lived, eastward, unto the east country. &l7&rAnd these are the days of the years of Abraham's life which he lived, an hundred threescore and fifteen years. &l8&rThen Abraham gave up the ghost, and
   '9': died in a good old age, an old man, and full of years; and was gathered to his people. &l9&rAnd his sons Isaac and Ishmael buried him in the cave of Machpelah, in the field of Ephron the son of Zohar the Hittite, which is before Mamre; &l10&rThe field
@@ -1083,7 +1178,12 @@ Book8:
   '21': 'his birthright unto Jacob. &l34&rThen Jacob gave Esau bread and pottage of
     lentiles; and he did eat and drink, and rose up, and went his way: thus Esau despised
     his birthright.'
-  '22': Chapter 26/nAnd there was a famine in the land, beside the first famine that was in the days of Abraham. And Isaac went unto Abimelech king of the Philistines unto Gerar. &l2&rAnd the Lord appeared unto him, and said, Go not down into Egypt; dwell in the
+  '22': 'Chapter 26
+
+    And there was a famine in the land, beside the first famine that was in the days
+    of Abraham. And Isaac went unto Abimelech king of the Philistines unto Gerar.
+    &l2&rAnd the Lord appeared unto him, and said, Go not down into Egypt; dwell in
+    the'
   '23': 'land which I shall tell thee of: &l3&rSojourn in this land, and I will be
     with thee, and will bless thee; for unto thee, and unto thy seed, I will give
     all these countries, and I will perform the oath which I sware unto Abraham thy
@@ -1137,10 +1237,12 @@ Book8:
   '40': 'city is Beersheba unto this day. &l34&rAnd Esau was forty years old when
     he took to wife Judith the daughter of Beeri the Hittite, and Bashemath the daughter
     of Elon the Hittite: &l35&rWhich were a grief of mind unto Isaac and to Rebekah.'
-  '41': 'Chapter 27/nAnd it came to pass, that when Isaac was old, and his eyes were
-    dim, so that he could not see, he called Esau his eldest son, and said unto him,
-    My son: and he said unto him, Behold, here am I. &l2&rAnd he said, Behold now,
-    I am old, I know not'
+  '41': 'Chapter 27
+
+    And it came to pass, that when Isaac was old, and his eyes were dim, so that he
+    could not see, he called Esau his eldest son, and said unto him, My son: and he
+    said unto him, Behold, here am I. &l2&rAnd he said, Behold now, I am old, I know
+    not'
   '42': 'the day of my death: &l3&rNow therefore take, I pray thee, thy weapons, thy
     quiver and thy bow, and go out to the field, and take me some venison; &l4&rAnd
     make me savoury meat, such as I love, and bring it to me, that I may eat; that
@@ -1178,37 +1280,42 @@ Book9:
   start:
     c: 27
     v: 21
-  '1': Chapter 27 Cont./n&l21&rAnd Isaac said unto Jacob, Come near, I pray thee, that I may feel thee, my son, whether thou be my very son Esau or not. &l22&rAnd Jacob went near unto Isaac his father; and he felt him, and said, The voice is Jacob's voice, but
-  '2': 'the hands are the hands of Esau. &l23&rAnd he discerned him not, because his
-    hands were hairy, as his brother Esau''s hands: so he blessed him. &l24&rAnd he
-    said, Art thou my very son Esau? And he said, I am. &l25&rAnd he said, Bring it
-    near to me, and I'
-  '3': 'will eat of my son''s venison, that my soul may bless thee. And he brought
-    it near to him, and he did eat: and he brought him wine and he drank. &l26&rAnd
-    his father Isaac said unto him, Come near now, and kiss me, my son. &l27&rAnd
-    he came near, and kissed'
-  '4': 'him: and he smelled the smell of his raiment, and blessed him, and said, See,
-    the smell of my son is as the smell of a field which the Lord hath blessed: &l28&rTherefore
+  '1': 'Chapter 27 Cont.
+
+    &l21&rAnd Isaac said unto Jacob, Come near, I pray thee, that I may feel thee,
+    my son, whether thou be my very son Esau or not. &l22&rAnd Jacob went near unto
+    Isaac his father; and he felt him, and said, The voice is Jacob''s voice, but
+    the'
+  '2': 'hands are the hands of Esau. &l23&rAnd he discerned him not, because his hands
+    were hairy, as his brother Esau''s hands: so he blessed him. &l24&rAnd he said,
+    Art thou my very son Esau? And he said, I am. &l25&rAnd he said, Bring it near
+    to me, and I will'
+  '3': 'eat of my son''s venison, that my soul may bless thee. And he brought it near
+    to him, and he did eat: and he brought him wine and he drank. &l26&rAnd his father
+    Isaac said unto him, Come near now, and kiss me, my son. &l27&rAnd he came near,
+    and kissed him:'
+  '4': 'and he smelled the smell of his raiment, and blessed him, and said, See, the
+    smell of my son is as the smell of a field which the Lord hath blessed: &l28&rTherefore
     God give thee of the dew of heaven, and the fatness of the earth, and plenty of
-    corn'
-  '5': 'and wine: &l29&rLet people serve thee, and nations bow down to thee: be lord
-    over thy brethren, and let thy mother''s sons bow down to thee: cursed be every
-    one that curseth thee, and blessed be he that blesseth thee. &l30&rAnd it came
-    to pass, as soon as'
-  '6': Isaac had made an end of blessing Jacob, and Jacob was yet scarce gone out from the presence of Isaac his father, that Esau his brother came in from his hunting. &l31&rAnd he also had made savoury meat, and brought it unto his father, and said unto his
-  '7': father, Let my father arise, and eat of his son's venison, that thy soul may bless me. &l32&rAnd Isaac his father said unto him, Who art thou? And he said, I am thy son, thy firstborn Esau. &l33&rAnd Isaac trembled very exceedingly, and said, Who? where is
-  '8': he that hath taken venison, and brought it me, and I have eaten of all before thou camest, and have blessed him? yea, and he shall be blessed. &l34&rAnd when Esau heard the words of his father, he cried with a great and exceeding bitter cry, and said unto
-  '9': 'his father, Bless me, even me also, O my father. &l35&rAnd he said, Thy brother
+    corn and'
+  '5': 'wine: &l29&rLet people serve thee, and nations bow down to thee: be lord over
+    thy brethren, and let thy mother''s sons bow down to thee: cursed be every one
+    that curseth thee, and blessed be he that blesseth thee. &l30&rAnd it came to
+    pass, as soon as Isaac'
+  '6': had made an end of blessing Jacob, and Jacob was yet scarce gone out from the presence of Isaac his father, that Esau his brother came in from his hunting. &l31&rAnd he also had made savoury meat, and brought it unto his father, and said unto his father,
+  '7': Let my father arise, and eat of his son's venison, that thy soul may bless me. &l32&rAnd Isaac his father said unto him, Who art thou? And he said, I am thy son, thy firstborn Esau. &l33&rAnd Isaac trembled very exceedingly, and said, Who? where is he that
+  '8': hath taken venison, and brought it me, and I have eaten of all before thou camest, and have blessed him? yea, and he shall be blessed. &l34&rAnd when Esau heard the words of his father, he cried with a great and exceeding bitter cry, and said unto his
+  '9': 'father, Bless me, even me also, O my father. &l35&rAnd he said, Thy brother
     came with subtilty, and hath taken away thy blessing. &l36&rAnd he said, Is not
     he rightly named Jacob? for he hath supplanted me these two times: he took away
-    my birthright;'
-  '10': and, behold, now he hath taken away my blessing. And he said, Hast thou not reserved a blessing for me? &l37&rAnd Isaac answered and said unto Esau, Behold, I have made him thy lord, and all his brethren have I given to him for servants; and with corn and
-  '11': 'wine have I sustained him: and what shall I do now unto thee, my son? &l38&rAnd
+    my birthright; and,'
+  '10': behold, now he hath taken away my blessing. And he said, Hast thou not reserved a blessing for me? &l37&rAnd Isaac answered and said unto Esau, Behold, I have made him thy lord, and all his brethren have I given to him for servants; and with corn and wine
+  '11': 'have I sustained him: and what shall I do now unto thee, my son? &l38&rAnd
     Esau said unto his father, Hast thou but one blessing, my father? bless me, even
     me also, O my father. And Esau lifted up his voice, and wept. &l39&rAnd Isaac
-    his father'
-  '12': answered and said unto him, Behold, thy dwelling shall be the fatness of the earth, and of the dew of heaven from above; &l40&rAnd by thy sword shalt thou live, and shalt serve thy brother; and it shall come to pass when thou shalt have the dominion, that
-  '13': 'thou shalt break his yoke from off thy neck. &l41&rAnd Esau hated Jacob because
+    his father answered'
+  '12': and said unto him, Behold, thy dwelling shall be the fatness of the earth, and of the dew of heaven from above; &l40&rAnd by thy sword shalt thou live, and shalt serve thy brother; and it shall come to pass when thou shalt have the dominion, that thou
+  '13': 'shalt break his yoke from off thy neck. &l41&rAnd Esau hated Jacob because
     of the blessing wherewith his father blessed him: and Esau said in his heart,
     The days of mourning for my father are at hand; then will I slay my brother Jacob.
     &l42&rAnd these'
@@ -1225,21 +1332,29 @@ Book9:
     take a wife of the daughters of Heth, such as these which are of the daughters
     of the land, what'
   '17': good shall my life do me?
-  '18': Chapter 28/nAnd Isaac called Jacob, and blessed him, and charged him, and said unto him, Thou shalt not take a wife of the daughters of Canaan. &l2&rArise, go to Padanaram, to the house of Bethuel thy mother's father; and take thee a wife from thence of
-  '19': the daughers of Laban thy mother's brother. &l3&rAnd God Almighty bless thee, and make thee fruitful, and multiply thee, that thou mayest be a multitude of people; &l4&rAnd give thee the blessing of Abraham, to thee, and to thy seed with thee; that thou
-  '20': 'mayest inherit the land wherein thou art a stranger, which God gave unto
-    Abraham. &l5&rAnd Isaac sent away Jacob: and he went to Padanaram unto Laban,
-    son of Bethuel the Syrian, the brother of Rebekah, Jacob''s and Esau''s mother.
-    &l6&rWhen Esau saw that'
-  '21': Isaac had blessed Jacob, and sent him away to Padanaram, to take him a wife from thence; and that as he blessed him he gave him a charge, saying, Thou shalt not take a wife of the daughers of Canaan; &l7&rAnd that Jacob obeyed his father and his mother,
-  '22': and was gone to Padanaram; &l8&rAnd Esau seeing that the daughters of Canaan pleased not Isaac his father; &l9&rThen went Esau unto Ishmael, and took unto the wives which he had Mahalath the daughter of Ishmael Abraham's son, the sister of Nebajoth, to be
-  '23': his wife. &l10&rAnd Jacob went out from Beersheba, and went toward Haran. &l11&rAnd he lighted upon a certain place, and tarried there all night, because the sun was set; and he took of the stones of that place, and put them for his pillows, and lay down
-  '24': 'in that place to sleep. &l12&rAnd he dreamed, and behold a ladder set up
-    on the earth, and the top of it reached to heaven: and behold the angels of God
-    ascending and descending on it. &l13&rAnd, behold, the Lord stood above it, and
-    said, I am the Lord God'
-  '25': 'of Abraham thy father, and the God of Isaac: the land whereon thou liest,
-    to thee will I give it, and to thy seed; &l14&rAnd thy seed shall be as the dust
+  '18': 'Chapter 28
+
+    And Isaac called Jacob, and blessed him, and charged him, and said unto him, Thou
+    shalt not take a wife of the daughters of Canaan. &l2&rArise, go to Padanaram,
+    to the house of Bethuel thy mother''s father; and take thee a wife from thence
+    of the'
+  '19': daughers of Laban thy mother's brother. &l3&rAnd God Almighty bless thee, and make thee fruitful, and multiply thee, that thou mayest be a multitude of people; &l4&rAnd give thee the blessing of Abraham, to thee, and to thy seed with thee; that thou mayest
+  '20': 'inherit the land wherein thou art a stranger, which God gave unto Abraham.
+    &l5&rAnd Isaac sent away Jacob: and he went to Padanaram unto Laban, son of Bethuel
+    the Syrian, the brother of Rebekah, Jacob''s and Esau''s mother. &l6&rWhen Esau
+    saw that Isaac had'
+  '21': blessed Jacob, and sent him away to Padanaram, to take him a wife from thence; and that as he blessed him he gave him a charge, saying, Thou shalt not take a wife of the daughers of Canaan; &l7&rAnd that Jacob obeyed his father and his mother, and was gone
+  '22': to Padanaram; &l8&rAnd Esau seeing that the daughters of Canaan pleased not Isaac his father; &l9&rThen went Esau unto Ishmael, and took unto the wives which he had Mahalath the daughter of Ishmael Abraham's son, the sister of Nebajoth, to be his wife.
+  '23': '&l10&rAnd Jacob went out from Beersheba, and went toward Haran. &l11&rAnd
+    he lighted upon a certain place, and tarried there all night, because the sun
+    was set; and he took of the stones of that place, and put them for his pillows,
+    and lay down in that'
+  '24': 'place to sleep. &l12&rAnd he dreamed, and behold a ladder set up on the earth,
+    and the top of it reached to heaven: and behold the angels of God ascending and
+    descending on it. &l13&rAnd, behold, the Lord stood above it, and said, I am the
+    Lord God of'
+  '25': 'Abraham thy father, and the God of Isaac: the land whereon thou liest, to
+    thee will I give it, and to thy seed; &l14&rAnd thy seed shall be as the dust
     of the earth, and thou shalt spread abroad to the west, and to the east, and to
     the north, and to the'
   '26': 'south: and in thee and in thy seed shall all the families of the earth be
@@ -1255,10 +1370,12 @@ Book9:
   '30': 'shall the Lord be my God: &l22&rAnd this stone, which I have set for a pillar,
     shall be God''s house: and of all that thou shalt give me I will surely give the
     tenth unto thee.'
-  '31': 'Chapter 29/nThen Jacob went on his journey, and came into the land of the
-    people of the east. &l2&rAnd he looked, and behold a well in the field, and, lo,
-    there were three flocks of sheep lying by it; for out of that well they watered
-    the flocks: and a'
+  '31': 'Chapter 29
+
+    Then Jacob went on his journey, and came into the land of the people of the east.
+    &l2&rAnd he looked, and behold a well in the field, and, lo, there were three
+    flocks of sheep lying by it; for out of that well they watered the flocks: and
+    a'
   '32': 'great stone was upon the well''s mouth. &l3&rAnd thither were all the flocks
     gathered: and they rolled the stone from the well''s mouth, and watered the sheep,
     and put the stone again upon the well''s mouth in his place. &l4&rAnd Jacob said
@@ -1310,14 +1427,15 @@ Book9:
     Levi. &l35&rAnd'
   '48': 'she conceived again, and bare a son: and she said, Now will I praise the
     Lord: therefore she called his name Judah; and left bearing.'
-  '49': 'Chapter 30/nAnd when Rachel saw that she bare Jacob no children, Rachel envied
-    her sister; and said unto Jacob, Give me children, or else I die. &l2&rAnd Jacob''s
-    anger was kindled against Rachel: and he said, Am I in God''s stead, who hath
-    withheld from'
-  '50': 'thee the fruit of the womb? &l3&rAnd she said, Behold my maid Bilhah, go
-    in unto her; and she shall bear upon my knees, that I may also have children by
-    her. &l4&rAnd she gave him Bilhah her handmaid to wife: and Jacob went in unto
-    her.'
+  '49': 'Chapter 30
+
+    And when Rachel saw that she bare Jacob no children, Rachel envied her sister;
+    and said unto Jacob, Give me children, or else I die. &l2&rAnd Jacob''s anger
+    was kindled against Rachel: and he said, Am I in God''s stead, who hath withheld
+    from thee'
+  '50': 'the fruit of the womb? &l3&rAnd she said, Behold my maid Bilhah, go in unto
+    her; and she shall bear upon my knees, that I may also have children by her. &l4&rAnd
+    she gave him Bilhah her handmaid to wife: and Jacob went in unto her.'
   end:
     c: 30
     v: 4
@@ -1325,10 +1443,11 @@ Book10:
   start:
     c: 30
     v: 5
-  '1': 'Chapter 30 Cont./n&l5&rAnd Bilhah conceived, and bare Jacob a son. &l6&rAnd
-    Rachel said, God hath judged me, and hath also heard my voice, and hath given
-    me a son: therefore called she his name Dan. &l7&rAnd Bilhah Rachel''s maid conceived
-    again, and bare'
+  '1': 'Chapter 30 Cont.
+
+    &l5&rAnd Bilhah conceived, and bare Jacob a son. &l6&rAnd Rachel said, God hath
+    judged me, and hath also heard my voice, and hath given me a son: therefore called
+    she his name Dan. &l7&rAnd Bilhah Rachel''s maid conceived again, and bare'
   '2': 'Jacob a second son. &l8&rAnd Rachel said, With great wrestlings have I wrestled
     with my sister, and I have prevailed: and she called his name Naphtali. &l9&rWhen
     Leah saw that she had left bearing, she took Zilpah her maid, and gave her Jacob
@@ -1379,8 +1498,13 @@ Book10:
     man increased exceedingly, and had much cattle, and maidservants, and menservants,
     and camels, and'
   '21': asses.
-  '22': Chapter 31/nAnd he heard the words of Laban's sons, saying, Jacob hath taken away all that was our father's; and of that which was our father's hath he gotten all this glory. &l2&rAnd Jacob beheld the countenance of Laban, and, behold, it was not toward
-  '23': him as before. &l3&rAnd the Lord said unto Jacob, Return unto the land of thy fathers, and to thy kindred; and I will be with thee. &l4&rAnd Jacob sent and called Rachel and Leah to the field unto his flock, &l5&rAnd said unto them, I see your father's
+  '22': 'Chapter 31
+
+    And he heard the words of Laban''s sons, saying, Jacob hath taken away all that
+    was our father''s; and of that which was our father''s hath he gotten all this
+    glory. &l2&rAnd Jacob beheld the countenance of Laban, and, behold, it was not
+    toward him'
+  '23': as before. &l3&rAnd the Lord said unto Jacob, Return unto the land of thy fathers, and to thy kindred; and I will be with thee. &l4&rAnd Jacob sent and called Rachel and Leah to the field unto his flock, &l5&rAnd said unto them, I see your father's
   '24': countenance, that it is not toward me as before; but the God of my father hath been with me. &l6&rAnd ye know that with all my power I have served your father. &l7&rAnd your father hath deceived me, and changed my wages ten times; but God suffered him not
   '25': 'to hurt me. &l8&rIf he said thus, The speckled shall be thy wages; then all
     the cattle bare speckled: and if he said thus, The ringstraked shall be thy hire;
@@ -1460,17 +1584,19 @@ Book11:
   start:
     c: 31
     v: 53
-  '1': 'Chapter 31 Cont./n&l53&rThe God of Abraham, and the God of Nahor, the God
-    of their father, judge betwixt us. And Jacob sware by the fear of his father Isaac.
-    &l54&rThen Jacob offered sacrifice upon the mount, and called his brethren to
-    eat bread: and they'
+  '1': 'Chapter 31 Cont.
+
+    &l53&rThe God of Abraham, and the God of Nahor, the God of their father, judge
+    betwixt us. And Jacob sware by the fear of his father Isaac. &l54&rThen Jacob
+    offered sacrifice upon the mount, and called his brethren to eat bread: and they'
   '2': 'did eat bread, and tarried all night in the mount. &l55&rAnd early in the
     morning Laban rose up, and kissed his sons and his daughters, and blessed them:
     and Laban departed, and returned unto his place.'
-  '3': 'Chapter 32/nAnd Jacob went on his way, and the angels of God met him. &l2&rAnd
-    when Jacob saw them, he said, This is God''s host: and he called the name of that
-    place Mahanaim. &l3&rAnd Jacob sent messengers before him to Esau his brother
-    unto the land of'
+  '3': 'Chapter 32
+
+    And Jacob went on his way, and the angels of God met him. &l2&rAnd when Jacob
+    saw them, he said, This is God''s host: and he called the name of that place Mahanaim.
+    &l3&rAnd Jacob sent messengers before him to Esau his brother unto the land of'
   '4': 'Seir, the country of Edom. &l4&rAnd he commanded them, saying, Thus shall
     ye speak unto my lord Esau; Thy servant Jacob saith thus, I have sojourned with
     Laban, and stayed there until now: &l5&rAnd I have oxen, and asses, flocks, and
@@ -1516,7 +1642,12 @@ Book11:
   '19': 'he halted upon his thigh. &l32&rTherefore the children of Israel eat not
     of the sinew which shrank, which is upon the hollow of the thigh, unto this day:
     because he touched the hollow of Jacob''s thigh in the sinew that shrank.'
-  '20': Chapter 33/nAnd Jacob lifted up his eyes, and looked, and, behold, Esau came, and with him four hundred men. And he divided the children unto Leah, and unto Rachel, and unto the two handmaids. &l2&rAnd he put the handmaids and their children foremost, and
+  '20': 'Chapter 33
+
+    And Jacob lifted up his eyes, and looked, and, behold, Esau came, and with him
+    four hundred men. And he divided the children unto Leah, and unto Rachel, and
+    unto the two handmaids. &l2&rAnd he put the handmaids and their children foremost,
+    and'
   '21': Leah and her children after, and Rachel and Joseph hindermost. &l3&rAnd he passed over before them, and bowed himself to the ground seven times, until he came near to his brother. &l4&rAnd Esau ran to meet him, and embraced him, and fell on his neck, and
   '22': 'kissed him: and they wept. &l5&rAnd he lifted up his eyes, and saw the women
     and the children; and said, Who are those with thee? And he said, The children
@@ -1545,13 +1676,18 @@ Book11:
     of Canaan, when he came from Padanaram; and pitched his tent before the city.
     &l19&rAnd he bought a'
   '30': parcel of a field, where he had spread his tent, at the hand of the children of Hamor, Shechem's father, for an hundred pieces of money. &l20&rAnd he erected there an altar, and called it EleloheIsrael.
-  '31': Chapter 34/nAnd Dinah the daughter of Leah, which she bare unto Jacob, went out to see the daughters of the land. &l2&rAnd when Shechem the son of Hamor the Hivite, prince of the country, saw her, he took her, and lay with her, and defiled her. &l3&rAnd
-  '32': 'his soul clave unto Dinah the daughter of Jacob, and he loved the damsel,
-    and spake kindly unto the damsel. &l4&rAnd Shechem spake unto his father Hamor,
-    saying, Get me this damsel to wife. &l5&rAnd Jacob heard that he had defiled Dinah
-    his daughter: now'
-  '33': 'his sons were with his cattle in the field: and Jacob held his peace until
-    they were come. &l6&rAnd Hamor the father of Shechem went out unto Jacob to commune
+  '31': 'Chapter 34
+
+    And Dinah the daughter of Leah, which she bare unto Jacob, went out to see the
+    daughters of the land. &l2&rAnd when Shechem the son of Hamor the Hivite, prince
+    of the country, saw her, he took her, and lay with her, and defiled her. &l3&rAnd
+    his'
+  '32': 'soul clave unto Dinah the daughter of Jacob, and he loved the damsel, and
+    spake kindly unto the damsel. &l4&rAnd Shechem spake unto his father Hamor, saying,
+    Get me this damsel to wife. &l5&rAnd Jacob heard that he had defiled Dinah his
+    daughter: now his'
+  '33': 'sons were with his cattle in the field: and Jacob held his peace until they
+    were come. &l6&rAnd Hamor the father of Shechem went out unto Jacob to commune
     with him. &l7&rAnd the sons of Jacob came out of the field when they heard it:
     and the men were'
   '34': 'grieved, and they were very wroth, because he had wrought folly in Israel
@@ -1589,10 +1725,12 @@ Book11:
     to make me to stink among the inhabitants of the land, among the Canaanites and
     the Perizzites: and I'
   '47': being few in number, they shall gather themselves together against me, and slay me; and I shall be destroyed, I and my house. &l31&rAnd they said, Should he deal with our sister as with an harlot?
-  '48': 'Chapter 35/nAnd God said unto Jacob, Arise, go up to Bethel, and dwell there:
-    and make there an altar unto God, that appeared unto thee when thou fleddest from
-    the face of Esau thy brother. &l2&rThen Jacob said unto his household, and to
-    all that were with'
+  '48': 'Chapter 35
+
+    And God said unto Jacob, Arise, go up to Bethel, and dwell there: and make there
+    an altar unto God, that appeared unto thee when thou fleddest from the face of
+    Esau thy brother. &l2&rThen Jacob said unto his household, and to all that were
+    with'
   '49': 'him, Put away the strange gods that are among you, and be clean, and change
     your garments: &l3&rAnd let us arise, and go up to Bethel; and I will make there
     an altar unto God, who answered me in the day of my distress, and was with me
@@ -1605,10 +1743,11 @@ Book12:
   start:
     c: 35
     v: 5
-  '1': 'Chapter 35 Cont./n&l5&rAnd they journeyed: and the terror of God was upon
-    the cities that were round about them, and they did not pursue after the sons
-    of Jacob. &l6&rSo Jacob came to Luz, which is in the land of Canaan, that is,
-    Bethel, he and all the'
+  '1': 'Chapter 35 Cont.
+
+    &l5&rAnd they journeyed: and the terror of God was upon the cities that were round
+    about them, and they did not pursue after the sons of Jacob. &l6&rSo Jacob came
+    to Luz, which is in the land of Canaan, that is, Bethel, he and all the'
   '2': 'people that were with him. &l7&rAnd he built there an altar, and called the
     place Elbethel: because there God appeared unto him, when he fled from the face
     of his brother. &l8&rBut Deborah, Rebekah''s nurse died, and she was buried beneath
@@ -1648,7 +1787,11 @@ Book12:
   '11': Jacob, which were born to him in Padanaram. &l27&rAnd Jacob came unto Isaac his father unto Mamre, unto the city of Arbah, which is Hebron, where Abraham and Isaac sojourned. &l28&rAnd the days of Isaac were an hundred and fourscore years. &l29&rAnd Isaac
   '12': 'gave up the ghost, and died, and was gathered unto his people, being old
     and full of days: and his sons Esau and Jacob buried him.'
-  '13': Chapter 36/nNow these are the generations of Esau, who is Edom. &l2&rEsau took his wives of the daughters of Canaan; Adah the daughter of Elon the Hittite, and Aholibamah the daughter of Anah the daughter of Zibeon the Hivite; &l3&rAnd Bashemath Ishmael's
+  '13': 'Chapter 36
+
+    Now these are the generations of Esau, who is Edom. &l2&rEsau took his wives of
+    the daughters of Canaan; Adah the daughter of Elon the Hittite, and Aholibamah
+    the daughter of Anah the daughter of Zibeon the Hivite; &l3&rAnd Bashemath Ishmael''s'
   '14': 'daughter, sister of Nebajoth. &l4&rAnd Adah bare to Esau Eliphaz; and Bashemath
     bare Reuel; &l5&rAnd Aholibamah bare Jeush, and Jaalam, and Korah: these are the
     sons of Esau, which were born unto him in the land of Canaan. &l6&rAnd Esau took
@@ -1708,7 +1851,12 @@ Book12:
   '31': 'duke Elah, duke Pinon, &l42&rDuke Kenaz, duke Teman, duke Mibzar, &l43&rDuke
     Magdiel, duke Iram: these be the dukes of Edom, according to their habitations
     in the land of their possession: he is Esau the father of the Edomites.'
-  '32': Chapter 37/nAnd Jacob dwelt in the land wherein his father was a stranger, in the land of Canaan. &l2&rThese are the generations of Jacob. Joseph, being seventeen years old, was feeding the flock with his brethren; and the lad was with the sons of Bilhah,
+  '32': 'Chapter 37
+
+    And Jacob dwelt in the land wherein his father was a stranger, in the land of
+    Canaan. &l2&rThese are the generations of Jacob. Joseph, being seventeen years
+    old, was feeding the flock with his brethren; and the lad was with the sons of
+    Bilhah,'
   '33': 'and with the sons of Zilpah, his father''s wives: and Joseph brought unto
     his father their evil report. &l3&rNow Israel loved Joseph more than all his children,
     because he was the son of his old age: and he made him a coat of many colours.
@@ -1761,13 +1909,22 @@ Book13:
   start:
     c: 37
     v: 35
-  '1': Chapter 37 Cont./n&l35&rAnd all his sons and all his daughters rose up to comfort him; but he refused to be comforted; and he said, For I will go down into the grave unto my son mourning. Thus his father wept for him. &l36&rAnd the Midianites sold him into
+  '1': 'Chapter 37 Cont.
+
+    &l35&rAnd all his sons and all his daughters rose up to comfort him; but he refused
+    to be comforted; and he said, For I will go down into the grave unto my son mourning.
+    Thus his father wept for him. &l36&rAnd the Midianites sold him into'
   '2': Egypt unto Potiphar, an officer of Pharaoh's, and captain of the guard.
-  '3': Chapter 38/nAnd it came to pass at that time, that Judah went down from his brethren, and turned in to a certain Adullamite, whose name was Hirah. &l2&rAnd Judah saw there a daughter of a certain Canaanite, whose name was Shuah; and he took her, and went
-  '4': 'in unto her. &l3&rAnd she conceived, and bare a son; and he called his name
-    Er. &l4&rAnd she conceived again, and bare a son; and she called his name Onan.
-    &l5&rAnd she yet again conceived, and bare a son; and called his name Shelah:
-    and he was at Chezib,'
+  '3': 'Chapter 38
+
+    And it came to pass at that time, that Judah went down from his brethren, and
+    turned in to a certain Adullamite, whose name was Hirah. &l2&rAnd Judah saw there
+    a daughter of a certain Canaanite, whose name was Shuah; and he took her, and
+    went in'
+  '4': 'unto her. &l3&rAnd she conceived, and bare a son; and he called his name Er.
+    &l4&rAnd she conceived again, and bare a son; and she called his name Onan. &l5&rAnd
+    she yet again conceived, and bare a son; and called his name Shelah: and he was
+    at Chezib,'
   '5': when she bare him. &l6&rAnd Judah took a wife for Er his firstborn, whose name was Tamar. &l7&rAnd Er, Judah's firstborn, was wicked in the sight of the Lord; and the Lord slew him. &l8&rAnd Judah said unto Onan, Go in unto thy brother's wife, and marry
   '6': her, and raise up seed to thy brother. &l9&rAnd Onan knew that the seed should not be his; and it came to pass, when he went in unto his brother's wife, that he spilled it on the ground, lest that he should give seed to his brother. &l10&rAnd the thing
   '7': 'which he did displeased the Lord: wherefore he slew him also. &l11&rThen said
@@ -1800,7 +1957,11 @@ Book13:
   '19': 'came out: and she said, How hast thou broken forth? this breach be upon thee:
     therefore his name was called Pharez. &l30&rAnd afterward came out his brother,
     that had the scarlet thread upon his hand: and his name was called Zarah.'
-  '20': Chapter 39/nAnd Joseph was brought down to Egypt; and Potiphar, an officer of Pharaoh, captain of the guard, an Egyptian, bought him of the hands of the Ishmeelites, which had brought him down thither. &l2&rAnd the Lord was with Joseph, and he was a
+  '20': 'Chapter 39
+
+    And Joseph was brought down to Egypt; and Potiphar, an officer of Pharaoh, captain
+    of the guard, an Egyptian, bought him of the hands of the Ishmeelites, which had
+    brought him down thither. &l2&rAnd the Lord was with Joseph, and he was a'
   '21': 'prosperous man; and he was in the house of his master the Egyptian. &l3&rAnd
     his master saw that the Lord was with him, and that the Lord made all that he
     did to prosper in his hand. &l4&rAnd Joseph found grace in his sight, and he served
@@ -1835,48 +1996,57 @@ Book13:
     and gave him favour in the'
   '32': sight of the keeper of the prison. &l22&rAnd the keeper of the prison committed to Joseph's hand all the prisoners that were in the prison; and whatsoever they did there, he was the doer of it. &l23&rThe keeper of the prison looked not to any thing that
   '33': was under his hand; because the Lord was with him, and that which he did, the Lord made it to prosper.
-  '34': Chapter 40/nAnd it came to pass after these things, that the butler of the king of Egypt and his baker had offended their lord the king of Egypt. &l2&rAnd Pharaoh was wroth against two of his officers, against the chief of the butlers, and against the
-  '35': 'chief of the bakers. &l3&rAnd he put them in ward in the house of the captain
-    of the guard, into the prison, the place where Joseph was bound. &l4&rAnd the
-    captain of the guard charged Joseph with them, and he served them: and they continued
-    a season in'
-  '36': ward. &l5&rAnd they dreamed a dream both of them, each man his dream in one night, each man according to the interpretation of his dream, the butler and the baker of the king of Egypt, which were bound in the prison. &l6&rAnd Joseph came in unto them in
-  '37': the morning, and looked upon them, and, behold, they were sad. &l7&rAnd he asked Pharaoh's officers that were with him in the ward of his lord's house, saying, Wherefore look ye so sadly to day? &l8&rAnd they said unto him, We have dreamed a dream, and
-  '38': there is no interpreter of it. And Joseph said unto them, Do not interpretations belong to God? tell me them, I pray you. &l9&rAnd the chief butler told his dream to Joseph, and said to him, In my dream, behold, a vine was before me; &l10&rAnd in the vine
-  '39': 'were three branches: and it was as though it budded, and her blossoms shot
-    forth; and the clusters thereof brought forth ripe grapes: &l11&rAnd Pharaoh''s
-    cup was in my hand: and I took the grapes, and pressed them into Pharaoh''s cup,
-    and I gave the cup'
-  '40': 'into Pharaoh''s hand. &l12&rAnd Joseph said unto him, This is the interpretation
+  '34': 'Chapter 40
+
+    And it came to pass after these things, that the butler of the king of Egypt and
+    his baker had offended their lord the king of Egypt. &l2&rAnd Pharaoh was wroth
+    against two of his officers, against the chief of the butlers, and against the
+    chief'
+  '35': 'of the bakers. &l3&rAnd he put them in ward in the house of the captain of
+    the guard, into the prison, the place where Joseph was bound. &l4&rAnd the captain
+    of the guard charged Joseph with them, and he served them: and they continued
+    a season in ward.'
+  '36': '&l5&rAnd they dreamed a dream both of them, each man his dream in one night,
+    each man according to the interpretation of his dream, the butler and the baker
+    of the king of Egypt, which were bound in the prison. &l6&rAnd Joseph came in
+    unto them in the'
+  '37': morning, and looked upon them, and, behold, they were sad. &l7&rAnd he asked Pharaoh's officers that were with him in the ward of his lord's house, saying, Wherefore look ye so sadly to day? &l8&rAnd they said unto him, We have dreamed a dream, and there
+  '38': is no interpreter of it. And Joseph said unto them, Do not interpretations belong to God? tell me them, I pray you. &l9&rAnd the chief butler told his dream to Joseph, and said to him, In my dream, behold, a vine was before me; &l10&rAnd in the vine were
+  '39': 'three branches: and it was as though it budded, and her blossoms shot forth;
+    and the clusters thereof brought forth ripe grapes: &l11&rAnd Pharaoh''s cup was
+    in my hand: and I took the grapes, and pressed them into Pharaoh''s cup, and I
+    gave the cup into'
+  '40': 'Pharaoh''s hand. &l12&rAnd Joseph said unto him, This is the interpretation
     of it: The three branches are three days: &l13&rYet within three days shall Pharaoh
     lift up thine head, and restore thee unto thy place: and thou shalt deliver Pharaoh''s
-    cup'
-  '41': 'into his hand, after the former manner when thou wast his butler. &l14&rBut
-    think on me when it shall be well with thee, and shew kindness, I pray thee, unto
-    me, and make mention of me unto Pharaoh, and bring me out of this house: &l15&rFor
-    indeed I was'
-  '42': 'stolen away out of the land of the Hebrews: and here also have I done nothing
-    that they should put me into the dungeon. &l16&rWhen the chief baker saw that
-    the interpretation was good, he said unto Joseph, I also was in my dream, and,
-    behold, I had three'
-  '43': 'white baskets on my head: &l17&rAnd in the uppermost basket there was of
-    all manner of bakemeats for Pharaoh; and the birds did eat them out of the basket
-    upon my head. &l18&rAnd Joseph answered and said, This is the interpretation thereof:
-    The three'
-  '44': 'baskets are three days: &l19&rYet within three days shall Pharaoh lift up
-    thy head from off thee, and shall hang thee on a tree; and the birds shall eat
-    thy flesh from off thee. &l20&rAnd it came to pass the third day, which was Pharaoh''s
-    birthday, that he'
-  '45': 'made a feast unto all his servants: and he lifted up the head of the chief
-    butler and of the chief baker among his servants. &l21&rAnd he restored the chief
-    butler unto his butlership again; and he gave the cup into Pharaoh''s hand: &l22&rBut
-    he hanged the'
-  '46': 'chief baker: as Joseph had interpreted to them. &l23&rYet did not the chief
-    butler remember Joseph, but forgat him.'
-  '47': 'Chapter 41/nAnd it came to pass at the end of two full years, that Pharaoh
-    dreamed: and, behold, he stood by the river. &l2&rAnd, behold, there came up out
-    of the river seven well favoured kine and fatfleshed; and they fed in a meadow.
-    &l3&rAnd, behold,'
+    cup into'
+  '41': 'his hand, after the former manner when thou wast his butler. &l14&rBut think
+    on me when it shall be well with thee, and shew kindness, I pray thee, unto me,
+    and make mention of me unto Pharaoh, and bring me out of this house: &l15&rFor
+    indeed I was stolen'
+  '42': 'away out of the land of the Hebrews: and here also have I done nothing that
+    they should put me into the dungeon. &l16&rWhen the chief baker saw that the interpretation
+    was good, he said unto Joseph, I also was in my dream, and, behold, I had three
+    white'
+  '43': 'baskets on my head: &l17&rAnd in the uppermost basket there was of all manner
+    of bakemeats for Pharaoh; and the birds did eat them out of the basket upon my
+    head. &l18&rAnd Joseph answered and said, This is the interpretation thereof:
+    The three baskets are'
+  '44': 'three days: &l19&rYet within three days shall Pharaoh lift up thy head from
+    off thee, and shall hang thee on a tree; and the birds shall eat thy flesh from
+    off thee. &l20&rAnd it came to pass the third day, which was Pharaoh''s birthday,
+    that he made a'
+  '45': 'feast unto all his servants: and he lifted up the head of the chief butler
+    and of the chief baker among his servants. &l21&rAnd he restored the chief butler
+    unto his butlership again; and he gave the cup into Pharaoh''s hand: &l22&rBut
+    he hanged the chief'
+  '46': 'baker: as Joseph had interpreted to them. &l23&rYet did not the chief butler
+    remember Joseph, but forgat him.'
+  '47': 'Chapter 41
+
+    And it came to pass at the end of two full years, that Pharaoh dreamed: and, behold,
+    he stood by the river. &l2&rAnd, behold, there came up out of the river seven
+    well favoured kine and fatfleshed; and they fed in a meadow. &l3&rAnd, behold,'
   '48': seven other kine came up after them out of the river, ill favoured and leanfleshed; and stood by the other kine upon the brink of the river. &l4&rAnd the ill favoured and leanfleshed kine did eat up the seven well favoured and fat kine. So Pharaoh awoke.
   '49': '&l5&rAnd he slept and dreamed the second time: and, behold, seven ears of
     corn came up upon one stalk, rank and good. &l6&rAnd, behold, seven thin ears
@@ -1890,10 +2060,11 @@ Book14:
   start:
     c: 41
     v: 8
-  '1': 'Chapter 41 Cont./n&l8&rAnd it came to pass in the morning that his spirit
-    was troubled; and he sent and called for all the magicians of Egypt, and all the
-    wise men thereof: and Pharaoh told them his dream; but there was none that could
-    interpret them unto'
+  '1': 'Chapter 41 Cont.
+
+    &l8&rAnd it came to pass in the morning that his spirit was troubled; and he sent
+    and called for all the magicians of Egypt, and all the wise men thereof: and Pharaoh
+    told them his dream; but there was none that could interpret them unto'
   '2': 'Pharaoh. &l9&rThen spake the chief butler unto Pharaoh, saying, I do remember
     my faults this day: &l10&rPharaoh was wroth with his servants, and put me in ward
     in the captain of the guard''s house, both me and the chief baker: &l11&rAnd we
@@ -1974,10 +2145,12 @@ Book14:
     and Joseph opened all the storehouses, and sold unto the Egyptians; and the famine
     waxed sore'
   '27': in the land of Egypt. &l57&rAnd all countries came into Egypt to Joseph for to buy corn; because that the famine was so sore in all lands.
-  '28': 'Chapter 42/nNow when Jacob saw that there was corn in Egypt, Jacob said unto
-    his sons, Why do ye look one upon another? &l2&rAnd he said, Behold, I have heard
-    that there is corn in Egypt: get you down thither, and buy for us from thence;
-    that we may live,'
+  '28': 'Chapter 42
+
+    Now when Jacob saw that there was corn in Egypt, Jacob said unto his sons, Why
+    do ye look one upon another? &l2&rAnd he said, Behold, I have heard that there
+    is corn in Egypt: get you down thither, and buy for us from thence; that we may
+    live,'
   '29': and not die. &l3&rAnd Joseph's ten brethren went down to buy corn in Egypt. &l4&rBut Benjamin, Joseph's brother, Jacob sent not with his brethren; for he said, Lest peradventure mischief befall him. &l5&rAnd the sons of Israel came to buy corn among those
   '30': 'that came: for the famine was in the land of Canaan. &l6&rAnd Joseph was
     the governor over the land, and he it was that sold to all the people of the land:
@@ -2034,7 +2207,12 @@ Book14:
     go down with you; for his brother is dead, and he is left alone: if mischief befall
     him by the way in'
   '48': the which ye go, then shall ye bring down my gray hairs with sorrow to the grave.
-  '49': Chapter 43/nAnd the famine was sore in the land. &l2&rAnd it came to pass, when they had eaten up the corn which they had brought out of Egypt, their father said unto them, Go again, buy us a little food. &l3&rAnd Judah spake unto him, saying, The man did
+  '49': 'Chapter 43
+
+    And the famine was sore in the land. &l2&rAnd it came to pass, when they had eaten
+    up the corn which they had brought out of Egypt, their father said unto them,
+    Go again, buy us a little food. &l3&rAnd Judah spake unto him, saying, The man
+    did'
   '50': 'solemnly protest unto us, saying, Ye shall not see my face, except your brother
     be with you. &l4&rIf thou wilt send our brother with us, we will go down and buy
     thee food:'
@@ -2045,10 +2223,12 @@ Book15:
   start:
     c: 43
     v: 5
-  '1': 'Chapter 43 Cont./n&l5&rBut if thou wilt not send him, we will not go down:
-    for the man said unto us, Ye shall not see my face, except your brother be with
-    you. &l6&rAnd Israel said, Wherefore dealt ye so ill with me, as to tell the man
-    whether ye had yet a'
+  '1': 'Chapter 43 Cont.
+
+    &l5&rBut if thou wilt not send him, we will not go down: for the man said unto
+    us, Ye shall not see my face, except your brother be with you. &l6&rAnd Israel
+    said, Wherefore dealt ye so ill with me, as to tell the man whether ye had yet
+    a'
   '2': 'brother? &l7&rAnd they said, The man asked us straitly of our state, and of
     our kindred, saying, Is your father yet alive? have ye another brother? and we
     told him according to the tenor of these words: could we certainly know that he
@@ -2102,7 +2282,12 @@ Book15:
     one at another. &l34&rAnd he took and sent messes unto them from before him: but
     Benjamin''s mess was five times so much as any of their''s. And they drank, and
     were merry with him.'
-  '19': Chapter 44/nAnd he commanded the steward of his house, saying, Fill the men's sacks with food, as much as they can carry, and put every man's money in his sack's mouth. &l2&rAnd put my cup, the silver cup, in the sack's mouth of the youngest, and his corn
+  '19': 'Chapter 44
+
+    And he commanded the steward of his house, saying, Fill the men''s sacks with
+    food, as much as they can carry, and put every man''s money in his sack''s mouth.
+    &l2&rAnd put my cup, the silver cup, in the sack''s mouth of the youngest, and
+    his corn'
   '20': money. And he did according to the word that Joseph had spoken. &l3&rAs soon as the morning was light, the men were sent away, they and their asses. &l4&rAnd when they were gone out of the city, and not yet far off, Joseph said unto his steward, Up, follow
   '21': after the men; and when thou dost overtake them, say unto them, Wherefore have ye rewarded evil for good? &l5&rIs not this it in which my lord drinketh, and whereby indeed he divineth? ye have done evil in so doing. &l6&rAnd he overtook them, and he spake
   '22': 'unto them these same words. &l7&rAnd they said unto him, Wherefore saith
@@ -2150,10 +2335,11 @@ Book15:
     father with sorrow to'
   '35': the grave. &l32&rFor thy servant became surety for the lad unto my father, saying, If I bring him not unto thee, then I shall bear the blame to my father for ever. &l33&rNow therefore, I pray thee, let thy servant abide instead of the lad a bondman to my
   '36': lord; and let the lad go up with his brethren. &l34&rFor how shall I go up to my father, and the lad be not with me? lest peradventure I see the evil that shall come on my father.
-  '37': 'Chapter 45/nThen Joseph could not refrain himself before all them that stood
-    by him; and he cried, Cause every man to go out from me. And there stood no man
-    with him, while Joseph made himself known unto his brethren. &l2&rAnd he wept
-    aloud: and the'
+  '37': 'Chapter 45
+
+    Then Joseph could not refrain himself before all them that stood by him; and he
+    cried, Cause every man to go out from me. And there stood no man with him, while
+    Joseph made himself known unto his brethren. &l2&rAnd he wept aloud: and the'
   '38': Egyptians and the house of Pharaoh heard. &l3&rAnd Joseph said unto his brethren, I am Joseph; doth my father yet live? And his brethren could not answer him; for they were troubled at his presence. &l4&rAnd Joseph said unto his brethren, Come near to me,
   '39': 'I pray you. And they came near. And he said, I am Joseph your brother, whom
     ye sold into Egypt. &l5&rNow therefore be not grieved, nor angry with yourselves,
@@ -2201,14 +2387,19 @@ Book16:
   start:
     c: 45
     v: 26
-  '1': 'Chapter 45 Cont./n&l26&rAnd told him, saying, Joseph is yet alive, and he
-    is governor over all the land of Egypt. And Jacob''s heart fainted, for he believed
-    them not. &l27&rAnd they told him all the words of Joseph, which he had said unto
-    them: and when he'
+  '1': 'Chapter 45 Cont.
+
+    &l26&rAnd told him, saying, Joseph is yet alive, and he is governor over all the
+    land of Egypt. And Jacob''s heart fainted, for he believed them not. &l27&rAnd
+    they told him all the words of Joseph, which he had said unto them: and when he'
   '2': 'saw the wagons which Joseph had sent to carry him, the spirit of Jacob their
     father revived: &l28&rAnd Israel said, It is enough; Joseph my son is yet alive:
     I will go and see him before I die.'
-  '3': Chapter 46/nAnd Israel took his journey with all that he had, and came to Beersheba, and offered sacrifices unto the God of his father Isaac. &l2&rAnd God spake unto Israel in the visions of the night, and said, Jacob, Jacob. And he said, Here am I.
+  '3': 'Chapter 46
+
+    And Israel took his journey with all that he had, and came to Beersheba, and offered
+    sacrifices unto the God of his father Isaac. &l2&rAnd God spake unto Israel in
+    the visions of the night, and said, Jacob, Jacob. And he said, Here am I.'
   '4': '&l3&rAnd he said, I am God, the God of thy father: fear not to go down into
     Egypt; for I will there make of thee a great nation: &l4&rI will go down with
     thee into Egypt; and I will also surely bring thee up again: and Joseph shall
@@ -2257,7 +2448,11 @@ Book16:
   '19': 'trade hath been about cattle from our youth even until now, both we, and
     also our fathers: that ye may dwell in the land of Goshen; for every shepherd
     is an abomination unto the Egyptians.'
-  '20': Chapter 47/nThen Joseph came and told Pharaoh, and said, My father and my brethren, and their flocks, and their herds, and all that they have, are come out of the land of Canaan; and, behold, they are in the land of Goshen. &l2&rAnd he took some of his
+  '20': 'Chapter 47
+
+    Then Joseph came and told Pharaoh, and said, My father and my brethren, and their
+    flocks, and their herds, and all that they have, are come out of the land of Canaan;
+    and, behold, they are in the land of Goshen. &l2&rAnd he took some of his'
   '21': brethren, even five men, and presented them unto Pharaoh. &l3&rAnd Pharaoh said unto his brethren, What is your occupation? And they said unto Pharaoh, Thy servants are shepherds, both we, and also our fathers. &l4&rThey said morever unto Pharaoh, For to
   '22': 'sojourn in the land are we come; for thy servants have no pasture for their
     flocks; for the famine is sore in the land of Canaan: now therefore, we pray thee,
@@ -2320,10 +2515,11 @@ Book16:
     Egypt, and bury me in their buryingplace. And he said, I will do as thou hast
     said. &l31&rAnd he'
   '40': said, Swear unto me. And he sware unto him. And Israel bowed himself upon the bed's head.
-  '41': 'Chapter 48/nAnd it came to pass after these things, that one told Joseph,
-    Behold, thy father is sick: and he took with him his two sons, Manasseh and Ephraim.
-    &l2&rAnd one told Jacob, and said, Behold, thy son Joseph cometh unto thee: and
-    Israel'
+  '41': 'Chapter 48
+
+    And it came to pass after these things, that one told Joseph, Behold, thy father
+    is sick: and he took with him his two sons, Manasseh and Ephraim. &l2&rAnd one
+    told Jacob, and said, Behold, thy son Joseph cometh unto thee: and Israel'
   '42': strengthened himself, and sat upon the bed. &l3&rAnd Jacob said unto Joseph, God Almighty appeared unto me at Luz in the land of Canaan, and blessed me, &l4&rAnd said unto me, Behold, I will make thee fruitful, and multiply thee, and I will make of thee a
   '43': multitude of people; and will give this land to thy seed after thee for an everlasting possession. &l5&rAnd now thy two sons, Ephraim and Manasseh, which were born unto thee in the land of Egypt before I came unto thee into Egypt, are mine; as Reuben and
   '44': Simeon, they shall be mine. &l6&rAnd thy issue, which thou begettest after them, shall be thine, and shall be called after the name of their brethren in their inheritance. &l7&rAnd as for me, when I came from Padan, Rachel died by me in the land of Canaan
@@ -2346,10 +2542,12 @@ Book17:
   start:
     c: 48
     v: 17
-  '1': 'Chapter 48 Cont./n&l17&rAnd when Joseph saw that his father laid his right
-    hand upon the head of Ephraim, it displeased him: and he held up his father''s
-    hand, to remove it from Ephraim''s head unto Manasseh''s head. &l18&rAnd Joseph
-    said unto his father, Not'
+  '1': 'Chapter 48 Cont.
+
+    &l17&rAnd when Joseph saw that his father laid his right hand upon the head of
+    Ephraim, it displeased him: and he held up his father''s hand, to remove it from
+    Ephraim''s head unto Manasseh''s head. &l18&rAnd Joseph said unto his father,
+    Not'
   '2': 'so, my father: for this is the firstborn; put thy right hand upon his head.
     &l19&rAnd his father refused, and said, I know it, my son, I know it: he also
     shall become a people, and he also shall be great: but truly his younger brother
@@ -2361,7 +2559,11 @@ Book17:
   '4': 'die: but God shall be with you, and bring you again unto the land of your
     fathers. &l22&rMoreover I have given to thee one portion above thy brethren, which
     I took out of the hand of the Amorite with my sword and with my bow.'
-  '5': Chapter 49/nAnd Jacob called unto his sons, and said, Gather yourselves together, that I may tell you that which shall befall you in the last days. &l2&rGather yourselves together, and hear, ye sons of Jacob; and hearken unto Israel your father.
+  '5': 'Chapter 49
+
+    And Jacob called unto his sons, and said, Gather yourselves together, that I may
+    tell you that which shall befall you in the last days. &l2&rGather yourselves
+    together, and hear, ye sons of Jacob; and hearken unto Israel your father.'
   '6': '&l3&rReuben, thou art my firstborn, my might, and the beginning of my strength,
     the excellency of dignity, and the excellency of power: &l4&rUnstable as water,
     thou shalt not excel; because thou wentest up to thy father''s bed; then defiledst
@@ -2417,10 +2619,11 @@ Book17:
     of Ephron the'
   '20': Hittite for a possession of a buryingplace. &l31&rThere they buried Abraham and Sarah his wife; there they buried Isaac and Rebekah his wife; and there I buried Leah. &l32&rThe purchase of the field and of the cave that is therein was from the children of
   '21': Heth. &l33&rAnd when Jacob had made an end of commanding his sons, he gathered up his feet into the bed, and yielded up the ghost, and was gathered unto his people.
-  '22': 'Chapter 50/nAnd Joseph fell upon his father''s face, and wept upon him, and
-    kissed him. &l2&rAnd Joseph commanded his servants the physicians to embalm his
-    father: and the physicians embalmed Israel. &l3&rAnd forty days were fulfilled
-    for him; for so are'
+  '22': 'Chapter 50
+
+    And Joseph fell upon his father''s face, and wept upon him, and kissed him. &l2&rAnd
+    Joseph commanded his servants the physicians to embalm his father: and the physicians
+    embalmed Israel. &l3&rAnd forty days were fulfilled for him; for so are'
   '23': 'fulfilled the days of those which are embalmed: and the Egyptians mourned
     for him threescore and ten days. &l4&rAnd when the days of his mourning were past,
     Joseph spake unto the house of Pharaoh, saying, If now I have found grace in your

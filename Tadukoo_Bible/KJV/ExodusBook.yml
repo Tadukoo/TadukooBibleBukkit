@@ -2,7 +2,11 @@ Book1:
   start:
     c: 1
     v: 1
-  '1': Chapter 1/nNow these are the names of the children of Israel, which came into Egypt; every man and his household came with Jacob. &l2&rReuben, Simeon, Levi, and Judah, &l3&rIssachar, Zebulun, and Benjamin, &l4&rDan, and Naphtali, Gad, and Asher. &l5&rAnd
+  '1': 'Chapter 1
+
+    Now these are the names of the children of Israel, which came into Egypt; every
+    man and his household came with Jacob. &l2&rReuben, Simeon, Levi, and Judah, &l3&rIssachar,
+    Zebulun, and Benjamin, &l4&rDan, and Naphtali, Gad, and Asher. &l5&rAnd'
   '2': 'all the souls that came out of the loins of Jacob were seventy souls: for
     Joseph was in Egypt already. &l6&rAnd Joseph died, and all his brethren, and all
     that generation. &l7&rAnd the children of Israel were fruitful, and increased
@@ -34,10 +38,12 @@ Book1:
     God, that he made them houses. &l22&rAnd Pharaoh charged all his people, saying,
     Every son that is'
   '11': born ye shall cast into the river, and every daughter ye shall save alive.
-  '12': 'Chapter 2/nAnd there went a man of the house of Levi, and took to wife a
-    daughter of Levi. &l2&rAnd the woman conceived, and bare a son: and when she saw
-    him that he was a goodly child, she hid him three months. &l3&rAnd when she could
-    not longer hide him,'
+  '12': 'Chapter 2
+
+    And there went a man of the house of Levi, and took to wife a daughter of Levi.
+    &l2&rAnd the woman conceived, and bare a son: and when she saw him that he was
+    a goodly child, she hid him three months. &l3&rAnd when she could not longer hide
+    him,'
   '13': she took for him an ark of bulrushes, and daubed it with slime and with pitch, and put the child therein; and she laid it in the flags by the river's brink. &l4&rAnd his sister stood afar off, to wit what would be done to him. &l5&rAnd the daughter of
   '14': 'Pharaoh came down to wash herself at the river; and her maidens walked along
     by the river''s side; and when she saw the ark among the flags, she sent her maid
@@ -75,10 +81,12 @@ Book1:
     they cried, and their cry came up unto God by reason of the bondage. &l24&rAnd
     God heard their'
   '25': groaning, and God remembered his covenant with Abraham, with Isaac, and with Jacob. &l25&rAnd God looked upon the children of Israel, and God had respect unto them.
-  '26': 'Chapter 3/nNow Moses kept the flock of Jethro his father in law, the priest
-    of Midian: and he led the flock to the backside of the desert, and came to the
-    mountain of God, even to Horeb. &l2&rAnd the angel of the Lord appeared unto him
-    in a flame of fire'
+  '26': 'Chapter 3
+
+    Now Moses kept the flock of Jethro his father in law, the priest of Midian: and
+    he led the flock to the backside of the desert, and came to the mountain of God,
+    even to Horeb. &l2&rAnd the angel of the Lord appeared unto him in a flame of
+    fire'
   '27': 'out of the midst of a bush: and he looked, and, behold, the bush burned with
     fire, and the bush was not consumed. &l3&rAnd Moses said, I will now turn aside,
     and see this great sight, why the bush is not burnt. &l4&rAnd when the Lord saw
@@ -127,10 +135,12 @@ Book1:
     her that sojourneth in her house, jewels of silver, and jewels of gold, and raiment:
     and ye shall put them upon your sons, and upon your daughters; and ye shall spoil
     the Egyptians.'
-  '42': 'Chapter 4/nAnd Moses answered and said, But, behold, they will not believe
-    me, nor hearken unto my voice: for they will say, The Lord hath not appeared unto
-    thee. &l2&rAnd the Lord said unto him, What is that in thine hand? And he said,
-    A rod. &l3&rAnd he'
+  '42': 'Chapter 4
+
+    And Moses answered and said, But, behold, they will not believe me, nor hearken
+    unto my voice: for they will say, The Lord hath not appeared unto thee. &l2&rAnd
+    the Lord said unto him, What is that in thine hand? And he said, A rod. &l3&rAnd
+    he'
   '43': said, Cast it on the ground. And he cast it on the ground, and it became a serpent; and Moses fled from before it. &l4&rAnd the Lord said unto Moses, Put forth thine hand, and take it by the tail. And he put forth his hand, and caught it, and it became a
   '44': 'rod in his hand: &l5&rThat they may believe that the Lord God of their fathers,
     the God of Abraham, the God of Isaac, and the God of Jacob, hath appeared unto
@@ -160,10 +170,11 @@ Book2:
   start:
     c: 4
     v: 15
-  '1': 'Chapter 4 Cont./n&l15&rAnd thou shalt speak unto him, and put words in his
-    mouth: and I will be with thy mouth, and with his mouth, and will teach you what
-    ye shall do. &l16&rAnd he shall be thy spokesman unto the people: and he shall
-    be, even he shall be'
+  '1': 'Chapter 4 Cont.
+
+    &l15&rAnd thou shalt speak unto him, and put words in his mouth: and I will be
+    with thy mouth, and with his mouth, and will teach you what ye shall do. &l16&rAnd
+    he shall be thy spokesman unto the people: and he shall be, even he shall be'
   '2': to thee instead of a mouth, and thou shalt be to him instead of God. &l17&rAnd thou shalt take this rod in thine hand, wherewith thou shalt do signs. &l18&rAnd Moses went and returned to Jethro his father in law, and said unto him, Let me go, I pray thee,
   '3': 'and return unto my brethren which are in Egypt, and see whether they be yet
     alive. And Jethro said to Moses, Go in peace. &l19&rAnd the Lord said unto Moses
@@ -191,48 +202,54 @@ Book2:
     the people believed: and when they heard that the Lord had visited the children
     of Israel, and that he'
   '10': had looked upon their affliction, then they bowed their heads and worshipped.
-  '11': Chapter 5/nAnd afterward Moses and Aaron went in, and told Pharaoh, Thus saith the Lord God of Israel, Let my people go, that they may hold a feast unto me in the wilderness. &l2&rAnd Pharaoh said, Who is the Lord, that I should obey his voice to let
-  '12': 'Israel go? I know not the Lord, neither will I let Israel go. &l3&rAnd they
-    said, The God of the Hebrews hath met with us: let us go, we pray thee, three
-    days'' journey into the desert, and sacrifice unto the Lord our God; lest he fall
-    upon us with'
-  '13': pestilence, or with the sword. &l4&rAnd the king of Egypt said unto them, Wherefore do ye, Moses and Aaron, let the people from their works? get you unto your burdens. &l5&rAnd Pharaoh said, Behold, the people of the land now are many, and ye make them
-  '14': 'rest from their burdens. &l6&rAnd Pharaoh commanded the same day the taskmasters
-    of the people, and their officers, saying, &l7&rYe shall no more give the people
-    straw to make brick, as heretofore: let them go and gather straw for themselves.
-    &l8&rAnd the'
-  '15': 'tale of the bricks, which they did make heretofore, ye shall lay upon them;
-    ye shall not diminish ought thereof: for they be idle; therefore they cry, saying,
-    Let us go and sacrifice to our God. &l9&rLet there more work be laid upon the
-    men, that they may'
-  '16': 'labour therein; and let them not regard vain words. &l10&rAnd the taskmasters
-    of the people went out, and their officers, and they spake to the people, saying,
+  '11': 'Chapter 5
+
+    And afterward Moses and Aaron went in, and told Pharaoh, Thus saith the Lord God
+    of Israel, Let my people go, that they may hold a feast unto me in the wilderness.
+    &l2&rAnd Pharaoh said, Who is the Lord, that I should obey his voice to let Israel'
+  '12': 'go? I know not the Lord, neither will I let Israel go. &l3&rAnd they said,
+    The God of the Hebrews hath met with us: let us go, we pray thee, three days''
+    journey into the desert, and sacrifice unto the Lord our God; lest he fall upon
+    us with pestilence, or'
+  '13': with the sword. &l4&rAnd the king of Egypt said unto them, Wherefore do ye, Moses and Aaron, let the people from their works? get you unto your burdens. &l5&rAnd Pharaoh said, Behold, the people of the land now are many, and ye make them rest from their
+  '14': 'burdens. &l6&rAnd Pharaoh commanded the same day the taskmasters of the people,
+    and their officers, saying, &l7&rYe shall no more give the people straw to make
+    brick, as heretofore: let them go and gather straw for themselves. &l8&rAnd the
+    tale of the'
+  '15': 'bricks, which they did make heretofore, ye shall lay upon them; ye shall
+    not diminish ought thereof: for they be idle; therefore they cry, saying, Let
+    us go and sacrifice to our God. &l9&rLet there more work be laid upon the men,
+    that they may labour'
+  '16': 'therein; and let them not regard vain words. &l10&rAnd the taskmasters of
+    the people went out, and their officers, and they spake to the people, saying,
     Thus saith Pharaoh, I will not give you straw. &l11&rGo ye, get you straw where
-    ye can find it:'
-  '17': yet not ought of your work shall be diminished. &l12&rSo the people were scattered abroad throughout all the land of Egypt to gather stubble instead of straw. &l13&rAnd the taskmasters hasted them, saying, Fulfil your works, your daily tasks, as when there
-  '18': was straw. &l14&rAnd the officers of the children of Israel, which Pharaoh's taskmasters had set over them, were beaten, and demanded, Wherefore have ye not fulfilled your task in making brick both yesterday and to day, as heretofore? &l15&rThen the
-  '19': 'officers of the children of Israel came and cried unto Pharaoh, saying, Wherefore
+    ye can find it: yet not'
+  '17': ought of your work shall be diminished. &l12&rSo the people were scattered abroad throughout all the land of Egypt to gather stubble instead of straw. &l13&rAnd the taskmasters hasted them, saying, Fulfil your works, your daily tasks, as when there was
+  '18': straw. &l14&rAnd the officers of the children of Israel, which Pharaoh's taskmasters had set over them, were beaten, and demanded, Wherefore have ye not fulfilled your task in making brick both yesterday and to day, as heretofore? &l15&rThen the officers
+  '19': 'of the children of Israel came and cried unto Pharaoh, saying, Wherefore
     dealest thou thus with thy servants? &l16&rThere is no straw given unto thy servants,
     and they say to us, Make brick: and, behold, thy servants are beaten; but the
-    fault is'
-  '20': 'in thine own people. &l17&rBut he said, Ye are idle, ye are idle: therefore
-    ye say, Let us go and do sacrifice to the Lord. &l18&rGo therefore now, and work;
-    for there shall no straw be given you, yet shall ye deliver the tale of bricks.
-    &l19&rAnd the'
-  '21': 'officers of the children of Israel did see that they were in evil case, after
-    it was said, Ye shall not minish ought from your bricks of your daily task. &l20&rAnd
+    fault is in thine'
+  '20': 'own people. &l17&rBut he said, Ye are idle, ye are idle: therefore ye say,
+    Let us go and do sacrifice to the Lord. &l18&rGo therefore now, and work; for
+    there shall no straw be given you, yet shall ye deliver the tale of bricks. &l19&rAnd
+    the officers of'
+  '21': 'the children of Israel did see that they were in evil case, after it was
+    said, Ye shall not minish ought from your bricks of your daily task. &l20&rAnd
     they met Moses and Aaron, who stood in the way, as they came forth from Pharaoh:
-    &l21&rAnd'
-  '22': they said unto them, The Lord look upon you, and judge; because ye have made our savour to be abhorred in the eyes of Pharaoh, and in the eyes of his servants, to put a sword in their hand to slay us. &l22&rAnd Moses returned unto the Lord, and said, Lord,
-  '23': wherefore hast thou so evil entreated this people? why is it that thou hast sent me? &l23&rFor since I came to Pharaoh to speak in thy name, he hath done evil to this people; neither hast thou delivered thy people at all.
-  '24': 'Chapter 6/nThen the Lord said unto Moses, Now shalt thou see what I will
-    do to Pharaoh: for with a strong hand shall he let them go, and with a strong
-    hand shall he drive them out of his land. &l2&rAnd God spake unto Moses, and said
-    unto him, I am the'
-  '25': 'Lord: &l3&rAnd I appeared unto Abraham, unto Isaac, and unto Jacob, by the
-    name of God Almighty, but by my name Jehovah was I not known to them. &l4&rAnd
-    I have also established my covenant with them, to give them the land of Canaan,
-    the land of their'
+    &l21&rAnd they said'
+  '22': unto them, The Lord look upon you, and judge; because ye have made our savour to be abhorred in the eyes of Pharaoh, and in the eyes of his servants, to put a sword in their hand to slay us. &l22&rAnd Moses returned unto the Lord, and said, Lord, wherefore
+  '23': hast thou so evil entreated this people? why is it that thou hast sent me? &l23&rFor since I came to Pharaoh to speak in thy name, he hath done evil to this people; neither hast thou delivered thy people at all.
+  '24': 'Chapter 6
+
+    Then the Lord said unto Moses, Now shalt thou see what I will do to Pharaoh: for
+    with a strong hand shall he let them go, and with a strong hand shall he drive
+    them out of his land. &l2&rAnd God spake unto Moses, and said unto him, I am the
+    Lord:'
+  '25': ' &l3&rAnd I appeared unto Abraham, unto Isaac, and unto Jacob, by the name
+    of God Almighty, but by my name Jehovah was I not known to them. &l4&rAnd I have
+    also established my covenant with them, to give them the land of Canaan, the land
+    of their'
   '26': pilgrimage, wherein they were strangers. &l5&rAnd I have also heard the groaning of the children of Israel, whom the Egyptians keep in bondage; and I have remembered my covenant. &l6&rWherefore say unto the children of Israel, I am the Lord, and I will
   '27': 'bring you out from under the burdens of the Egyptians, and I will rid you
     out of their bondage, and I will redeem you with a stretched out arm, and with
@@ -281,10 +298,11 @@ Book2:
     of Egypt all that I say unto thee. &l30&rAnd Moses said before the Lord, Behold,
     I am of'
   '40': uncircumcised lips, and how shall Pharaoh hearken unto me?
-  '41': 'Chapter 7/nAnd the Lord said unto Moses, See, I have made thee a god to Pharaoh:
-    and Aaron thy brother shall be thy prophet. &l2&rThou shalt speak all that I command
-    thee: and Aaron thy brother shall speak unto Pharaoh, that he send the children
-    of Israel'
+  '41': 'Chapter 7
+
+    And the Lord said unto Moses, See, I have made thee a god to Pharaoh: and Aaron
+    thy brother shall be thy prophet. &l2&rThou shalt speak all that I command thee:
+    and Aaron thy brother shall speak unto Pharaoh, that he send the children of Israel'
   '42': out of his land. &l3&rAnd I will harden Pharaoh's heart, and multiply my signs and my wonders in the land of Egypt. &l4&rBut Pharaoh shall not hearken unto you, that I may lay my hand upon Egypt, and bring forth mine armies, and my people the children of
   '43': Israel, out of the land of Egypt by great judgments. &l5&rAnd the Egyptians shall know that I am the Lord, when I stretch forth mine hand upon Egypt, and bring out the children of Israel from among them. &l6&rAnd Moses and Aaron did as the Lord commanded
   '44': them, so did they. &l7&rAnd Moses was fourscore years old, and Aaron fourscore and three years old, when they spake unto Pharaoh. &l8&rAnd the Lord spake unto Moses and unto Aaron, saying, &l9&rWhen Pharaoh shall speak unto you, saying, Shew a miracle for
@@ -310,7 +328,11 @@ Book3:
   start:
     c: 7
     v: 19
-  '1': Chapter 7 Cont./n&l19&rAnd the Lord spake unto Moses, Say unto Aaron, Take thy rod, and stretch out thine hand upon the waters of Egypt, upon their streams, upon their rivers, and upon their ponds, and upon all their pools of water, that they may become
+  '1': 'Chapter 7 Cont.
+
+    &l19&rAnd the Lord spake unto Moses, Say unto Aaron, Take thy rod, and stretch
+    out thine hand upon the waters of Egypt, upon their streams, upon their rivers,
+    and upon their ponds, and upon all their pools of water, that they may become'
   '2': blood; and that there may be blood throughout all the land of Egypt, both in vessels of wood, and in vessels of stone. &l20&rAnd Moses and Aaron did so, as the Lord commanded; and he lifted up the rod, and smote the waters that were in the river, in the
   '3': sight of Pharaoh, and in the sight of his servants; and all the waters that were in the river were turned to blood. &l21&rAnd the fish that was in the river died; and the river stank, and the Egyptians could not drink of the water of the river; and there
   '4': 'was blood throughout all the land of Egypt. &l22&rAnd the magicians of Egypt
@@ -318,10 +340,11 @@ Book3:
     he hearken unto them; as the Lord had said. &l23&rAnd Pharaoh turned and went
     into his house, neither'
   '5': did he set his heart to this also. &l24&rAnd all the Egyptians digged round about the river for water to drink; for they could not drink of the water of the river. &l25&rAnd seven days were fulfilled, after that the Lord had smitten the river.
-  '6': 'Chapter 8/nAnd the Lord spake unto Moses, Go unto Pharaoh, and say unto him,
-    Thus saith the Lord, Let my people go, that they may serve me. &l2&rAnd if thou
-    refuse to let them go, behold, I will smite all thy borders with frogs: &l3&rAnd
-    the river shall'
+  '6': 'Chapter 8
+
+    And the Lord spake unto Moses, Go unto Pharaoh, and say unto him, Thus saith the
+    Lord, Let my people go, that they may serve me. &l2&rAnd if thou refuse to let
+    them go, behold, I will smite all thy borders with frogs: &l3&rAnd the river shall'
   '7': 'bring forth frogs abundantly, which shall go up and come into thine house,
     and into thy bedchamber, and upon thy bed, and into the house of thy servants,
     and upon thy people, and into thine ovens, and into thy kneadingtroughs: &l4&rAnd
@@ -374,16 +397,21 @@ Book3:
     from Pharaoh, and intreated the Lord. &l31&rAnd the Lord did according to the
     word of Moses; and he'
   '25': removed the swarms of flies from Pharaoh, from his servants, and from his people; there remained not one. &l32&rAnd Pharaoh hardened his heart at this time also, neither would he let the people go.
-  '26': Chapter 9/nThen the Lord said unto Moses, Go in unto Pharaoh, and tell him, Thus saith the Lord God of the Hebrews, Let my people go, that they may serve me. &l2&rFor if thou refuse to let them go, and wilt hold them still, &l3&rBehold, the hand of the
-  '27': 'Lord is upon thy cattle which is in the field, upon the horses, upon the
-    asses, upon the camels, upon the oxen, and upon the sheep: there shall be a very
-    grievous murrain. &l4&rAnd the Lord shall sever between the cattle of Israel and
-    the cattle of Egypt:'
-  '28': 'and there shall nothing die of all that is the children''s of Israel. &l5&rAnd
+  '26': 'Chapter 9
+
+    Then the Lord said unto Moses, Go in unto Pharaoh, and tell him, Thus saith the
+    Lord God of the Hebrews, Let my people go, that they may serve me. &l2&rFor if
+    thou refuse to let them go, and wilt hold them still, &l3&rBehold, the hand of
+    the Lord'
+  '27': 'is upon thy cattle which is in the field, upon the horses, upon the asses,
+    upon the camels, upon the oxen, and upon the sheep: there shall be a very grievous
+    murrain. &l4&rAnd the Lord shall sever between the cattle of Israel and the cattle
+    of Egypt: and'
+  '28': 'there shall nothing die of all that is the children''s of Israel. &l5&rAnd
     the Lord appointed a set time, saying, To morrow the Lord shall do this thing
     in the land. &l6&rAnd the Lord did that thing on the morrow, and all the cattle
-    of Egypt died: but'
-  '29': of the cattle of the children of Israel died not one. &l7&rAnd Pharaoh sent, and, behold, there was not one of the cattle of the Israelites dead. And the heart of Pharaoh was hardened, and he did not let the people go. &l8&rAnd the Lord said unto Moses and
+    of Egypt died: but of'
+  '29': the cattle of the children of Israel died not one. &l7&rAnd Pharaoh sent, and, behold, there was not one of the cattle of the Israelites dead. And the heart of Pharaoh was hardened, and he did not let the people go. &l8&rAnd the Lord said unto Moses and
   '30': unto Aaron, Take to you handfuls of ashes of the furnace, and let Moses sprinkle it toward the heaven in the sight of Pharaoh. &l9&rAnd it shall become small dust in all the land of Egypt, and shall be a boil breaking forth with blains upon man, and upon
   '31': beast, throughout all the land of Egypt. &l10&rAnd they took ashes of the furnace, and stood before Pharaoh; and Moses sprinkled it up toward heaven; and it became a boil breaking forth with blains upon man, and upon beast. &l11&rAnd the magicians could
   '32': not stand before Moses because of the boils; for the boil was upon the magicians, and upon all the Egyptians. &l12&rAnd the Lord hardened the heart of Pharaoh, and he hearkened not unto them; as the Lord had spoken unto Moses. &l13&rAnd the Lord said unto
@@ -413,18 +441,19 @@ Book3:
     unto the Lord: and'
   '45': the thunders and hail ceased, and the rain was not poured upon the earth. &l34&rAnd when Pharaoh saw that the rain and the hail and the thunders were ceased, he sinned yet more, and hardened his heart, he and his servants. &l35&rAnd the heart of Pharaoh
   '46': was hardened, neither would he let the children of Israel go; as the Lord had spoken by Moses.
-  '47': 'Chapter 10/nAnd the Lord said unto Moses, Go in unto Pharaoh: for I have
-    hardened his heart, and the heart of his servants, that I might shew these my
-    signs before him: &l2&rAnd that thou mayest tell in the ears of thy son, and of
-    thy son''s son, what'
-  '48': things I have wrought in Egypt, and my signs which I have done among them; that ye may know how that I am the Lord. &l3&rAnd Moses and Aaron came in unto Pharaoh, and said unto him, Thus saith the Lord God of the Hebrews, How long wilt thou refuse to
-  '49': 'humble thyself before me? let my people go, that they may serve me. &l4&rElse,
-    if thou refuse to let my people go, behold, to morrow will I bring the locusts
-    into thy coast: &l5&rAnd they shall cover the face of the earth, that one cannot
-    be able to see'
-  '50': 'the earth: and they shall eat the residue of that which is escaped, which
-    remaineth unto you from the hail, and shall eat every tree which groweth for you
-    out of the field:'
+  '47': 'Chapter 10
+
+    And the Lord said unto Moses, Go in unto Pharaoh: for I have hardened his heart,
+    and the heart of his servants, that I might shew these my signs before him: &l2&rAnd
+    that thou mayest tell in the ears of thy son, and of thy son''s son, what things'
+  '48': I have wrought in Egypt, and my signs which I have done among them; that ye may know how that I am the Lord. &l3&rAnd Moses and Aaron came in unto Pharaoh, and said unto him, Thus saith the Lord God of the Hebrews, How long wilt thou refuse to humble
+  '49': 'thyself before me? let my people go, that they may serve me. &l4&rElse, if
+    thou refuse to let my people go, behold, to morrow will I bring the locusts into
+    thy coast: &l5&rAnd they shall cover the face of the earth, that one cannot be
+    able to see the'
+  '50': 'earth: and they shall eat the residue of that which is escaped, which remaineth
+    unto you from the hail, and shall eat every tree which groweth for you out of
+    the field:'
   end:
     c: 10
     v: 5
@@ -432,7 +461,11 @@ Book4:
   start:
     c: 10
     v: 6
-  '1': Chapter 10 Cont./n&l6&rAnd they shall fill thy houses, and the houses of all thy servants, and the houses of all the Egyptians; which neither thy fathers, nor thy fathers' fathers have seen, since the day that they were upon the earth unto this day. And he
+  '1': 'Chapter 10 Cont.
+
+    &l6&rAnd they shall fill thy houses, and the houses of all thy servants, and the
+    houses of all the Egyptians; which neither thy fathers, nor thy fathers'' fathers
+    have seen, since the day that they were upon the earth unto this day. And he'
   '2': 'turned himself, and went out from Pharaoh. &l7&rAnd Pharaoh''s servants said
     unto him, How long shall this man be a snare unto us? let the men go, that they
     may serve the Lord their God: knowest thou not yet that Egypt is destroyed? &l8&rAnd
@@ -468,10 +501,11 @@ Book4:
     &l26&rOur'
   '14': cattle also shall go with us; there shall not an hoof be left behind; for thereof must we take to serve the Lord our God; and we know not with what we must serve the Lord, until we come thither. &l27&rBut the Lord hardened Pharaoh's heart, and he would not
   '15': let them go. &l28&rAnd Pharaoh said unto him, Get thee from me, take heed to thyself, see my face no more; for in that day thou seest my face thou shalt die. &l29&rAnd Moses said, Thou hast spoken well, I will see thy face again no more.
-  '16': 'Chapter 11/nAnd the Lord said unto Moses, Yet will I bring one plague more
-    upon Pharaoh, and upon Egypt; afterwards he will let you go hence: when he shall
-    let you go, he shall surely thrust you out hence altogether. &l2&rSpeak now in
-    the ears of the'
+  '16': 'Chapter 11
+
+    And the Lord said unto Moses, Yet will I bring one plague more upon Pharaoh, and
+    upon Egypt; afterwards he will let you go hence: when he shall let you go, he
+    shall surely thrust you out hence altogether. &l2&rSpeak now in the ears of the'
   '17': people, and let every man borrow of his neighbour, and every woman of her neighbour, jewels of silver and jewels of gold. &l3&rAnd the Lord gave the people favour in the sight of the Egyptians. Moreover the man Moses was very great in the land of Egypt, in
   '18': 'the sight of Pharaoh''s servants, and in the sight of the people. &l4&rAnd
     Moses said, Thus saith the Lord, About midnight will I go out into the midst of
@@ -489,10 +523,12 @@ Book4:
   '22': 'may be multiplied in the land of Egypt. &l10&rAnd Moses and Aaron did all
     these wonders before Pharaoh: and the Lord hardened Pharaoh''s heart, so that
     he would not let the children of Israel go out of his land.'
-  '23': 'Chapter 12/nAnd the Lord spake unto Moses and Aaron in the land of Egypt
-    saying, &l2&rThis month shall be unto you the beginning of months: it shall be
-    the first month of the year to you. &l3&rSpeak ye unto all the congregation of
-    Israel, saying, In the'
+  '23': 'Chapter 12
+
+    And the Lord spake unto Moses and Aaron in the land of Egypt saying, &l2&rThis
+    month shall be unto you the beginning of months: it shall be the first month of
+    the year to you. &l3&rSpeak ye unto all the congregation of Israel, saying, In
+    the'
   '24': 'tenth day of this month they shall take to them every man a lamb, according
     to the house of their fathers, a lamb for an house: &l4&rAnd if the household
     be too little for the lamb, let him and his neighbour next unto his house take
@@ -558,17 +594,22 @@ Book5:
   start:
     c: 12
     v: 44
-  '1': Chapter 12 Cont./n&l44&rBut every man's servant that is bought for money, when thou hast circumcised him, then shall he eat thereof. &l45&rA foreigner and an hired servant shall not eat thereof. &l46&rIn one house shall it be eaten; thou shalt not carry
+  '1': 'Chapter 12 Cont.
+
+    &l44&rBut every man''s servant that is bought for money, when thou hast circumcised
+    him, then shall he eat thereof. &l45&rA foreigner and an hired servant shall not
+    eat thereof. &l46&rIn one house shall it be eaten; thou shalt not carry'
   '2': forth ought of the flesh abroad out of the house; neither shall ye break a bone thereof. &l47&rAll the congregation of Israel shall keep it. &l48&rAnd when a stranger shall sojourn with thee, and will keep the passover to the Lord, let all his males be
   '3': 'circumcised, and then let him come near and keep it; and he shall be as one
     that is born in the land: for no uncircumcised person shall eat thereof. &l49&rOne
     law shall be to him that is homeborn, and unto the stranger that sojourneth among
     you. &l50&rThus'
   '4': did all the children of Israel; as the Lord commanded Moses and Aaron, so did they. &l51&rAnd it came to pass the selfsame day, that the Lord did bring the children of Israel out of the land of Egypt by their armies.
-  '5': 'Chapter 13/nAnd the Lord spake unto Moses, saying, &l2&rSanctify unto me all
-    the firstborn, whatsoever openeth the womb among the children of Israel, both
-    of man and of beast: it is mine. &l3&rAnd Moses said unto the people, Remember
-    this day, in which ye'
+  '5': 'Chapter 13
+
+    And the Lord spake unto Moses, saying, &l2&rSanctify unto me all the firstborn,
+    whatsoever openeth the womb among the children of Israel, both of man and of beast:
+    it is mine. &l3&rAnd Moses said unto the people, Remember this day, in which ye'
   '6': 'came out from Egypt, out of the house of bondage; for by strength of hand
     the Lord brought you out from this place: there shall no leavened bread be eaten.
     &l4&rThis day came ye out in the month Abib. &l5&rAnd it shall be when the Lord
@@ -613,10 +654,12 @@ Book5:
     go by day and night: &l22&rHe took not away the pillar of the cloud by day, nor
     the pillar of fire'
   '19': by night, from before the people.
-  '20': 'Chapter 14/nAnd the Lord spake unto Moses, saying, &l2&rSpeak unto the children
-    of Israel, that they turn and encamp before Pihahiroth, between Migdol and the
-    sea, over against Baalzephon: before it shall ye encamp by the sea. &l3&rFor Pharaoh
-    will say of'
+  '20': 'Chapter 14
+
+    And the Lord spake unto Moses, saying, &l2&rSpeak unto the children of Israel,
+    that they turn and encamp before Pihahiroth, between Migdol and the sea, over
+    against Baalzephon: before it shall ye encamp by the sea. &l3&rFor Pharaoh will
+    say of'
   '21': the children of Israel, They are entangled in the land, the wilderness hath shut them in. &l4&rAnd I will harden Pharaoh's heart, that he shall follow after them; and I will be honoured upon Pharaoh, and upon all his host; that the Egyptians may know that
   '22': 'I am the Lord. And they did so. &l5&rAnd it was told the king of Egypt that
     the people fled: and the heart of Pharaoh and of his servants was turned against
@@ -672,10 +715,12 @@ Book5:
     upon the sea shore. &l31&rAnd Israel saw that great work which the Lord did upon
     the Egyptians: and the people feared the Lord, and believed the Lord, and his
     servant Moses.'
-  '40': 'Chapter 15/nThen sang Moses and the children of Israel this song unto the
-    Lord, and spake, saying, I will sing unto the Lord, for he hath triumphed gloriously:
-    the horse and his rider hath he thrown into the sea. &l2&rThe Lord is my strength
-    and song, and'
+  '40': 'Chapter 15
+
+    Then sang Moses and the children of Israel this song unto the Lord, and spake,
+    saying, I will sing unto the Lord, for he hath triumphed gloriously: the horse
+    and his rider hath he thrown into the sea. &l2&rThe Lord is my strength and song,
+    and'
   '41': 'he is become my salvation: he is my God, and I will prepare him an habitation;
     my father''s God, and I will exalt him. &l3&rThe Lord is a man of war: the Lord
     is his name. &l4&rPharaoh''s chariots and his host hath he cast into the sea:
@@ -708,7 +753,11 @@ Book6:
   start:
     c: 15
     v: 21
-  '1': Chapter 15 Cont./n&l21&rAnd Miriam answered them, Sing ye to the Lord, for he hath triumphed gloriously; the horse and his rider hath he thrown into the sea. &l22&rSo Moses brought Israel from the Red sea, and they went out into the wilderness of Shur; and
+  '1': 'Chapter 15 Cont.
+
+    &l21&rAnd Miriam answered them, Sing ye to the Lord, for he hath triumphed gloriously;
+    the horse and his rider hath he thrown into the sea. &l22&rSo Moses brought Israel
+    from the Red sea, and they went out into the wilderness of Shur; and'
   '2': 'they went three days in the wilderness, and found no water. &l23&rAnd when
     they came to Marah, they could not drink of the waters of Marah, for they were
     bitter: therefore the name of it was called Marah. &l24&rAnd the people murmured
@@ -721,7 +770,12 @@ Book6:
   '5': 'Egyptians: for I am the Lord that healeth thee. &l27&rAnd they came to Elim,
     where were twelve wells of water, and threescore and ten palm trees: and they
     encamped there by the waters.'
-  '6': Chapter 16/nAnd they took their journey from Elim, and all the congregation of the children of Israel came unto the wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after their departing out of the land of Egypt.
+  '6': 'Chapter 16
+
+    And they took their journey from Elim, and all the congregation of the children
+    of Israel came unto the wilderness of Sin, which is between Elim and Sinai, on
+    the fifteenth day of the second month after their departing out of the land of
+    Egypt.'
   '7': '&l2&rAnd the whole congregation of the children of Israel murmured against
     Moses and Aaron in the wilderness: &l3&rAnd the children of Israel said unto them,
     Would to God we had died by the hand of the Lord in the land of Egypt, when we
@@ -777,10 +831,11 @@ Book6:
   '26': wilderness, when I brought you forth from the land of Egypt. &l33&rAnd Moses said unto Aaron, Take a pot, and put an omer full of manna therein, and lay it up before the Lord, to be kept for your generations. &l34&rAs the Lord commanded Moses, so Aaron
   '27': laid it up before the Testimony, to be kept. &l35&rAnd the children of Israel did eat manna forty years, until they came to a land inhabited; they did eat manna, until they came unto the borders of the land of Canaan. &l36&rNow an omer is the tenth part of
   '28': an ephah.
-  '29': 'Chapter 17/nAnd all the congregation of the children of Israel journeyed
-    from the wilderness of Sin, after their journeys, according to the commandment
-    of the Lord, and pitched in Rephidim: and there was no water for the people to
-    drink. &l2&rWherefore the'
+  '29': 'Chapter 17
+
+    And all the congregation of the children of Israel journeyed from the wilderness
+    of Sin, after their journeys, according to the commandment of the Lord, and pitched
+    in Rephidim: and there was no water for the people to drink. &l2&rWherefore the'
   '30': people did chide with Moses, and said, Give us water that we may drink. And Moses said unto them, Why chide ye with me? wherefore do ye tempt the Lord? &l3&rAnd the people thirsted there for water; and the people murmured against Moses, and said, Wherefore
   '31': is this that thou hast brought us up out of Egypt, to kill us and our children and our cattle with thirst? &l4&rAnd Moses cried unto the Lord, saying, What shall I do unto this people? they be almost ready to stone me. &l5&rAnd the Lord said unto Moses, Go
   '32': on before the people, and take with thee of the elders of Israel; and thy rod, wherewith thou smotest the river, take in thine hand, and go. &l6&rBehold, I will stand before thee there upon the rock in Horeb; and thou shalt smite the rock, and there shall
@@ -801,7 +856,12 @@ Book6:
   '38': 'from under heaven. &l15&rAnd Moses built an altar, and called the name of
     it Jehovahnissi: &l16&rFor he said, Because the Lord hath sworn that the Lord
     will have war with Amalek from generation to generation.'
-  '39': Chapter 18/nWhen Jethro, the priest of Midian, Moses' father in law, heard of all that God had done for Moses, and for Israel his people, and that the Lord had brought Israel out of Egypt; &l2&rThen Jethro, Moses' father in law, took Zipporah, Moses' wife,
+  '39': 'Chapter 18
+
+    When Jethro, the priest of Midian, Moses'' father in law, heard of all that God
+    had done for Moses, and for Israel his people, and that the Lord had brought Israel
+    out of Egypt; &l2&rThen Jethro, Moses'' father in law, took Zipporah, Moses''
+    wife,'
   '40': 'after he had sent her back, &l3&rAnd her two sons; of which the name of the
     one was Gershom; for he said, I have been an alien in a strange land: &l4&rAnd
     the name of the other was Eliezer; for the God of my father, said he, was mine
@@ -839,10 +899,11 @@ Book7:
   start:
     c: 18
     v: 21
-  '1': 'Chapter 18 Cont./n&l21&rMoreover thou shalt provide out of all the people
-    able men, such as fear God, men of truth, hating covetousness; and place such
-    over them, to be rulers of thousands, and rulers of hundreds, rulers of fifties,
-    and rulers of tens:'
+  '1': 'Chapter 18 Cont.
+
+    &l21&rMoreover thou shalt provide out of all the people able men, such as fear
+    God, men of truth, hating covetousness; and place such over them, to be rulers
+    of thousands, and rulers of hundreds, rulers of fifties, and rulers of tens:'
   '2': '&l22&rAnd let them judge the people at all seasons: and it shall be, that
     every great matter they shall bring unto thee, but every small matter they shall
     judge: so shall it be easier for thyself, and they shall bear the burden with
@@ -853,7 +914,12 @@ Book7:
     the people at all seasons: the hard causes they brought unto Moses, but every
     small matter'
   '5': they judged themselves. &l27&rAnd Moses let his father in law depart; and he went his way into his own land.
-  '6': Chapter 19/nIn the third month, when the children of Israel were gone forth out of the land of Egypt, the same day came they into the wilderness of Sinai. &l2&rFor they were departed from Rephidim, and were come to the desert of Sinai, and had pitched in
+  '6': 'Chapter 19
+
+    In the third month, when the children of Israel were gone forth out of the land
+    of Egypt, the same day came they into the wilderness of Sinai. &l2&rFor they were
+    departed from Rephidim, and were come to the desert of Sinai, and had pitched
+    in'
   '7': the wilderness; and there Israel camped before the mount. &l3&rAnd Moses went up unto God, and the Lord called unto him out of the mountain, saying, Thus shalt thou say to the house of Jacob, and tell the children of Israel; &l4&rYe have seen what I did
   '8': 'unto the Egyptians, and how I bare you on eagles'' wings, and brought you
     unto myself. &l5&rNow therefore, if ye will obey my voice indeed, and keep my
@@ -894,7 +960,12 @@ Book7:
   '20': 'down, and thou shalt come up, thou, and Aaron with thee: but let not the
     priests and the people break through to come up unto the Lord, lest he break forth
     upon them. &l25&rSo Moses went down unto the people, and spake unto them.'
-  '21': Chapter 20/nAnd God spake all these words, saying, &l2&rI am the Lord thy God, which have brought thee out of the land of Egypt, out of the house of bondage. &l3&rThou shalt have no other gods before me. &l4&rThou shalt not make unto thee any graven image,
+  '21': 'Chapter 20
+
+    And God spake all these words, saying, &l2&rI am the Lord thy God, which have
+    brought thee out of the land of Egypt, out of the house of bondage. &l3&rThou
+    shalt have no other gods before me. &l4&rThou shalt not make unto thee any graven
+    image,'
   '22': 'or any likeness of any thing that is in heaven above, or that is in the earth
     beneath, or that is in the water under the earth. &l5&rThou shalt not bow down
     thyself to them, nor serve them: for I the Lord thy God am a jealous God, visiting
@@ -932,10 +1003,12 @@ Book7:
   '32': 'thou wilt make me an altar of stone, thou shalt not build it of hewn stone:
     for if thou lift up thy tool upon it, thou hast polluted it. &l26&rNeither shalt
     thou go up by steps unto mine altar, that thy nakedness be not discovered thereon.'
-  '33': 'Chapter 21/nNow these are the judgments which thou shalt set before them.
-    &l2&rIf thou buy an Hebrew servant, six years he shall serve: and in the seventh
-    he shall go out free for nothing. &l3&rIf he came in by himself, he shall go out
-    by himself: if he'
+  '33': 'Chapter 21
+
+    Now these are the judgments which thou shalt set before them. &l2&rIf thou buy
+    an Hebrew servant, six years he shall serve: and in the seventh he shall go out
+    free for nothing. &l3&rIf he came in by himself, he shall go out by himself: if
+    he'
   '34': were married, then his wife shall go out with him. &l4&rIf his master have given him a wife, and she have born him sons or daughters; the wife and her children shall be her master's, and he shall go out by himself. &l5&rAnd if the servant shall plainly
   '35': 'say, I love my master, my wife, and my children; I will not go out free:
     &l6&rThen his master shall bring him unto the judges; he shall also bring him
@@ -977,7 +1050,13 @@ Book8:
   start:
     c: 22
     v: 1
-  '1': Chapter 22 Cont./nChapter 22/nIf a man shall steal an ox, or a sheep, and kill it, or sell it; he shall restore five oxen for an ox, and four sheep for a sheep. &l2&rIf a thief be found breaking up, and be smitten that he die, there shall no blood be shed
+  '1': 'Chapter 22 Cont.
+
+    Chapter 22
+
+    If a man shall steal an ox, or a sheep, and kill it, or sell it; he shall restore
+    five oxen for an ox, and four sheep for a sheep. &l2&rIf a thief be found breaking
+    up, and be smitten that he die, there shall no blood be shed'
   '2': for him. &l3&rIf the sun be risen upon him, there shall be blood shed for him; for he should make full restitution; if he have nothing, then he shall be sold for his theft. &l4&rIf the theft be certainly found in his hand alive, whether it be ox, or ass,
   '3': or sheep; he shall restore double. &l5&rIf a man shall cause a field or vineyard to be eaten, and shall put in his beast, and shall feed in another man's field; of the best of his own field, and of the best of his own vineyard, shall he make restitution.
   '4': '&l6&rIf fire break out, and catch in thorns, so that the stacks of corn, or
@@ -1021,10 +1100,11 @@ Book8:
     give it me. &l31&rAnd ye shall be holy men unto me: neither shall ye eat any flesh
     that is torn of'
   '17': beasts in the field; ye shall cast it to the dogs.
-  '18': 'Chapter 23/nThou shalt not raise a false report: put not thine hand with
-    the wicked to be an unrighteous witness. &l2&rThou shalt not follow a multitude
-    to do evil; neither shalt thou speak in a cause to decline after many to wrest
-    judgment: &l3&rNeither'
+  '18': 'Chapter 23
+
+    Thou shalt not raise a false report: put not thine hand with the wicked to be
+    an unrighteous witness. &l2&rThou shalt not follow a multitude to do evil; neither
+    shalt thou speak in a cause to decline after many to wrest judgment: &l3&rNeither'
   '19': shalt thou countenance a poor man in his cause. &l4&rIf thou meet thine enemy's ox or his ass going astray, thou shalt surely bring it back to him again. &l5&rIf thou see the ass of him that hateth thee lying under his burden, and wouldest forbear to help
   '20': 'him, thou shalt surely help with him. &l6&rThou shalt not wrest the judgment
     of thy poor in his cause. &l7&rKeep thee far from a false matter; and the innocent
@@ -1074,45 +1154,48 @@ Book8:
   '35': 'no covenant with them, nor with their gods. &l33&rThey shall not dwell in
     thy land, lest they make thee sin against me: for if thou serve their gods, it
     will surely be a snare unto thee.'
-  '36': 'Chapter 24/nAnd he said unto Moses, Come up unto the Lord, thou, and Aaron,
-    Nadab, and Abihu, and seventy of the elders of Israel; and worship ye afar off.
-    &l2&rAnd Moses alone shall come near the Lord: but they shall not come nigh; neither
-    shall the'
-  '37': 'people go up with him. &l3&rAnd Moses came and told the people all the words
-    of the Lord, and all the judgments: and all the people answered with one voice,
-    and said, All the words which the Lord hath said will we do. &l4&rAnd Moses wrote
-    all the words of'
-  '38': the Lord, and rose up early in the morning, and builded an altar under the hill, and twelve pillars, according to the twelve tribes of Israel. &l5&rAnd he sent young men of the children of Israel, which offered burnt offerings, and sacrificed peace
-  '39': 'offerings of oxen unto the Lord. &l6&rAnd Moses took half of the blood, and
-    put it in basons; and half of the blood he sprinkled on the altar. &l7&rAnd he
-    took the book of the covenant, and read in the audience of the people: and they
-    said, All that the'
-  '40': Lord hath said will we do, and be obedient. &l8&rAnd Moses took the blood, and sprinkled it on the people, and said, Behold the blood of the covenant, which the Lord hath made with you concerning all these words. &l9&rThen went up Moses, and Aaron, Nadab,
-  '41': 'and Abihu, and seventy of the elders of Israel: &l10&rAnd they saw the God
-    of Israel: and there was under his feet as it were a paved work of a sapphire
-    stone, and as it were the body of heaven in his clearness. &l11&rAnd upon the
-    nobles of the children of'
-  '42': 'Israel he laid not his hand: also they saw God, and did eat and drink. &l12&rAnd
-    the Lord said unto Moses, Come up to me into the mount, and be there: and I will
-    give thee tables of stone, and a law, and commandments which I have written; that
-    thou mayest'
-  '43': 'teach them. &l13&rAnd Moses rose up, and his minister Joshua: and Moses went
-    up into the mount of God. &l14&rAnd he said unto the elders, Tarry ye here for
-    us, until we come again unto you: and, behold, Aaron and Hur are with you: if
-    any man have any'
-  '44': 'matters to do, let him come unto them. &l15&rAnd Moses went up into the mount,
-    and a cloud covered the mount. &l16&rAnd the glory of the Lord abode upon mount
-    Sinai, and the cloud covered it six days: and the seventh day he called unto Moses
-    out of the'
-  '45': 'midst of the cloud. &l17&rAnd the sight of the glory of the Lord was like
-    devouring fire on the top of the mount in the eyes of the children of Israel.
-    &l18&rAnd Moses went into the midst of the cloud, and gat him up into the mount:
-    and Moses was in the'
-  '46': mount forty days and forty nights.
-  '47': 'Chapter 25/nAnd the Lord spake unto Moses, saying, &l2&rSpeak unto the children
-    of Israel, that they bring me an offering: of every man that giveth it willingly
-    with his heart ye shall take my offering. &l3&rAnd this is the offering which
-    ye shall take of'
+  '36': 'Chapter 24
+
+    And he said unto Moses, Come up unto the Lord, thou, and Aaron, Nadab, and Abihu,
+    and seventy of the elders of Israel; and worship ye afar off. &l2&rAnd Moses alone
+    shall come near the Lord: but they shall not come nigh; neither shall the people'
+  '37': 'go up with him. &l3&rAnd Moses came and told the people all the words of
+    the Lord, and all the judgments: and all the people answered with one voice, and
+    said, All the words which the Lord hath said will we do. &l4&rAnd Moses wrote
+    all the words of the'
+  '38': Lord, and rose up early in the morning, and builded an altar under the hill, and twelve pillars, according to the twelve tribes of Israel. &l5&rAnd he sent young men of the children of Israel, which offered burnt offerings, and sacrificed peace offerings
+  '39': 'of oxen unto the Lord. &l6&rAnd Moses took half of the blood, and put it
+    in basons; and half of the blood he sprinkled on the altar. &l7&rAnd he took the
+    book of the covenant, and read in the audience of the people: and they said, All
+    that the Lord hath'
+  '40': said will we do, and be obedient. &l8&rAnd Moses took the blood, and sprinkled it on the people, and said, Behold the blood of the covenant, which the Lord hath made with you concerning all these words. &l9&rThen went up Moses, and Aaron, Nadab, and Abihu,
+  '41': 'and seventy of the elders of Israel: &l10&rAnd they saw the God of Israel:
+    and there was under his feet as it were a paved work of a sapphire stone, and
+    as it were the body of heaven in his clearness. &l11&rAnd upon the nobles of the
+    children of Israel he'
+  '42': 'laid not his hand: also they saw God, and did eat and drink. &l12&rAnd the
+    Lord said unto Moses, Come up to me into the mount, and be there: and I will give
+    thee tables of stone, and a law, and commandments which I have written; that thou
+    mayest teach'
+  '43': 'them. &l13&rAnd Moses rose up, and his minister Joshua: and Moses went up
+    into the mount of God. &l14&rAnd he said unto the elders, Tarry ye here for us,
+    until we come again unto you: and, behold, Aaron and Hur are with you: if any
+    man have any matters to'
+  '44': 'do, let him come unto them. &l15&rAnd Moses went up into the mount, and a
+    cloud covered the mount. &l16&rAnd the glory of the Lord abode upon mount Sinai,
+    and the cloud covered it six days: and the seventh day he called unto Moses out
+    of the midst of the'
+  '45': 'cloud. &l17&rAnd the sight of the glory of the Lord was like devouring fire
+    on the top of the mount in the eyes of the children of Israel. &l18&rAnd Moses
+    went into the midst of the cloud, and gat him up into the mount: and Moses was
+    in the mount forty'
+  '46': days and forty nights.
+  '47': 'Chapter 25
+
+    And the Lord spake unto Moses, saying, &l2&rSpeak unto the children of Israel,
+    that they bring me an offering: of every man that giveth it willingly with his
+    heart ye shall take my offering. &l3&rAnd this is the offering which ye shall
+    take of'
   '48': them; gold, and silver, and brass, &l4&rAnd blue, and purple, and scarlet, and fine linen, and goats' hair, &l5&rAnd rams' skins dyed red, and badgers' skins, and shittim wood, &l6&rOil for the light, spices for anointing oil, and for sweet incense,
   '49': '&l7&rOnyx stones, and stones to be set in the ephod, and in the breastplate.
     &l8&rAnd let them make me a sanctuary; that I may dwell among them. &l9&rAccording
@@ -1128,7 +1211,11 @@ Book9:
   start:
     c: 25
     v: 11
-  '1': Chapter 25 Cont./n&l11&rAnd thou shalt overlay it with pure gold, within and without shalt thou overlay it, and shalt make upon it a crown of gold round about. &l12&rAnd thou shalt cast four rings of gold for it, and put them in the four corners thereof;
+  '1': 'Chapter 25 Cont.
+
+    &l11&rAnd thou shalt overlay it with pure gold, within and without shalt thou
+    overlay it, and shalt make upon it a crown of gold round about. &l12&rAnd thou
+    shalt cast four rings of gold for it, and put them in the four corners thereof;'
   '2': and two rings shall be in the one side of it, and two rings in the other side of it. &l13&rAnd thou shalt make staves of shittim wood, and overlay them with gold. &l14&rAnd thou shalt put the staves into the rings by the sides of the ark, that the ark may
   '3': 'be borne with them. &l15&rThe staves shall be in the rings of the ark: they
     shall not be taken from it. &l16&rAnd thou shalt put into the ark the testimony
@@ -1168,10 +1255,11 @@ Book9:
     gold. &l39&rOf a talent of pure gold shall he make it, with all these vessels.
     &l40&rAnd look that thou make them after their pattern, which was shewed thee
     in the mount.'
-  '17': 'Chapter 26/nMoreover thou shalt make the tabernacle with ten curtains of
-    fine twined linen, and blue, and purple, and scarlet: with cherubims of cunning
-    work shalt thou make them. &l2&rThe length of one curtain shall be eight and twenty
-    cubits, and the'
+  '17': 'Chapter 26
+
+    Moreover thou shalt make the tabernacle with ten curtains of fine twined linen,
+    and blue, and purple, and scarlet: with cherubims of cunning work shalt thou make
+    them. &l2&rThe length of one curtain shall be eight and twenty cubits, and the'
   '18': 'breadth of one curtain four cubits: and every one of the curtains shall have
     one measure. &l3&rThe five curtains shall be coupled together one to another;
     and other five curtains shall be coupled one to another. &l4&rAnd thou shalt make
@@ -1227,38 +1315,39 @@ Book9:
   '37': 'shalt make for the hanging five pillars of shittim wood, and overlay them
     with gold, and their hooks shall be of gold: and thou shalt cast five sockets
     of brass for them.'
-  '38': 'Chapter 27/nAnd thou shalt make an altar of shittim wood, five cubits long,
-    and five cubits broad; the altar shall be foursquare: and the height thereof shall
-    be three cubits. &l2&rAnd thou shalt make the horns of it upon the four corners
-    thereof: his'
-  '39': 'horns shall be of the same: and thou shalt overlay it with brass. &l3&rAnd
-    thou shalt make his pans to receive his ashes, and his shovels, and his basons,
-    and his fleshhooks, and his firepans: all the vessels thereof thou shalt make
-    of brass. &l4&rAnd thou'
-  '40': shalt make for it a grate of network of brass; and upon the net shalt thou make four brasen rings in the four corners thereof. &l5&rAnd thou shalt put it under the compass of the altar beneath, that the net may be even to the midst of the altar. &l6&rAnd
-  '41': 'thou shalt make staves for the altar, staves of shittim wood, and overlay
-    them with brass. &l7&rAnd the staves shall be put into the rings, and the staves
-    shall be upon the two sides of the altar, to bear it. &l8&rHollow with boards
-    shalt thou make it: as'
-  '42': 'it was shewed thee in the mount, so shall they make it. &l9&rAnd thou shalt
+  '38': 'Chapter 27
+
+    And thou shalt make an altar of shittim wood, five cubits long, and five cubits
+    broad; the altar shall be foursquare: and the height thereof shall be three cubits.
+    &l2&rAnd thou shalt make the horns of it upon the four corners thereof: his horns'
+  '39': 'shall be of the same: and thou shalt overlay it with brass. &l3&rAnd thou
+    shalt make his pans to receive his ashes, and his shovels, and his basons, and
+    his fleshhooks, and his firepans: all the vessels thereof thou shalt make of brass.
+    &l4&rAnd thou shalt'
+  '40': make for it a grate of network of brass; and upon the net shalt thou make four brasen rings in the four corners thereof. &l5&rAnd thou shalt put it under the compass of the altar beneath, that the net may be even to the midst of the altar. &l6&rAnd thou
+  '41': 'shalt make staves for the altar, staves of shittim wood, and overlay them
+    with brass. &l7&rAnd the staves shall be put into the rings, and the staves shall
+    be upon the two sides of the altar, to bear it. &l8&rHollow with boards shalt
+    thou make it: as it'
+  '42': 'was shewed thee in the mount, so shall they make it. &l9&rAnd thou shalt
     make the court of the tabernacle: for the south side southward there shall be
     hangings for the court of fine twined linen of an hundred cubits long for one
-    side: &l10&rAnd the'
-  '43': twenty pillars thereof and their twenty sockets shall be of brass; the hooks of the pillars and their fillets shall be of silver. &l11&rAnd likewise for the north side in length there shall be hangings of an hundred cubits long, and his twenty pillars and
-  '44': 'their twenty sockets of brass; the hooks of the pillars and their fillets
-    of silver. &l12&rAnd for the breadth of the court on the west side shall be hangings
-    of fifty cubits: their pillars ten, and their sockets ten. &l13&rAnd the breadth
-    of the court on'
-  '45': 'the east side eastward shall be fifty cubits. &l14&rThe hangings of one side
+    side: &l10&rAnd the twenty'
+  '43': pillars thereof and their twenty sockets shall be of brass; the hooks of the pillars and their fillets shall be of silver. &l11&rAnd likewise for the north side in length there shall be hangings of an hundred cubits long, and his twenty pillars and their
+  '44': 'twenty sockets of brass; the hooks of the pillars and their fillets of silver.
+    &l12&rAnd for the breadth of the court on the west side shall be hangings of fifty
+    cubits: their pillars ten, and their sockets ten. &l13&rAnd the breadth of the
+    court on the'
+  '45': 'east side eastward shall be fifty cubits. &l14&rThe hangings of one side
     of the gate shall be fifteen cubits: their pillars three, and their sockets three.
     &l15&rAnd on the other side shall be hangings fifteen cubits: their pillars three,
-    and their'
-  '46': 'sockets three. &l16&rAnd for the gate of the court shall be an hanging of
-    twenty cubits, of blue, and purple, and scarlet, and fine twined linen, wrought
-    with needlework: and their pillars shall be four, and their sockets four. &l17&rAll
-    the pillars round'
-  '47': about the court shall be filleted with silver; their hooks shall be of silver, and their sockets of brass. &l18&rThe length of the court shall be an hundred cubits, and the breadth fifty every where, and the height five cubits of fine twined linen, and
-  '48': their sockets of brass. &l19&rAll the vessels of the tabernacle in all the service thereof, and all the pins thereof, and all the pins of the court, shall be of brass. &l20&rAnd thou shalt command the children of Israel, that they bring thee pure oil olive
+    and their sockets'
+  '46': 'three. &l16&rAnd for the gate of the court shall be an hanging of twenty
+    cubits, of blue, and purple, and scarlet, and fine twined linen, wrought with
+    needlework: and their pillars shall be four, and their sockets four. &l17&rAll
+    the pillars round about'
+  '47': the court shall be filleted with silver; their hooks shall be of silver, and their sockets of brass. &l18&rThe length of the court shall be an hundred cubits, and the breadth fifty every where, and the height five cubits of fine twined linen, and their
+  '48': sockets of brass. &l19&rAll the vessels of the tabernacle in all the service thereof, and all the pins thereof, and all the pins of the court, shall be of brass. &l20&rAnd thou shalt command the children of Israel, that they bring thee pure oil olive
   '49': 'beaten for the light, to cause the lamp to burn always. &l21&rIn the tabernacle
     of the congregation without the vail, which is before the testimony, Aaron and
     his sons shall order it from evening to morning before the Lord: it shall be a
@@ -1271,7 +1360,13 @@ Book10:
   start:
     c: 28
     v: 1
-  '1': Chapter 28 Cont./nChapter 28/nAnd take thou unto thee Aaron thy brother, and his sons with him, from among the children of Israel, that he may minister unto me in the priest's office, even Aaron, Nadab and Abihu, Eleazar and Ithamar, Aaron's sons. &l2&rAnd
+  '1': 'Chapter 28 Cont.
+
+    Chapter 28
+
+    And take thou unto thee Aaron thy brother, and his sons with him, from among the
+    children of Israel, that he may minister unto me in the priest''s office, even
+    Aaron, Nadab and Abihu, Eleazar and Ithamar, Aaron''s sons. &l2&rAnd'
   '2': thou shalt make holy garments for Aaron thy brother for glory and for beauty. &l3&rAnd thou shalt speak unto all that are wise hearted, whom I have filled with the spirit of wisdom, that they may make Aaron's garments to consecrate him, that he may
   '3': 'minister unto me in the priest''s office. &l4&rAnd these are the garments
     which they shall make; a breastplate, and an ephod, and a robe, and a broidered
@@ -1341,10 +1436,12 @@ Book10:
     the altar to'
   '27': 'minister in the holy place; that they bear not iniquity, and die: it shall
     be a statute for ever unto him and his seed after him.'
-  '28': 'Chapter 29/nAnd this is the thing that thou shalt do unto them to hallow
-    them, to minister unto me in the priest''s office: Take one young bullock, and
-    two rams without blemish, &l2&rAnd unleavened bread, and cakes unleavened tempered
-    with oil, and wafers'
+  '28': 'Chapter 29
+
+    And this is the thing that thou shalt do unto them to hallow them, to minister
+    unto me in the priest''s office: Take one young bullock, and two rams without
+    blemish, &l2&rAnd unleavened bread, and cakes unleavened tempered with oil, and
+    wafers'
   '29': 'unleavened anointed with oil: of wheaten flour shalt thou make them. &l3&rAnd
     thou shalt put them into one basket, and bring them in the basket, with the bullock
     and the two rams. &l4&rAnd Aaron and his sons thou shalt bring unto the door of
@@ -1417,10 +1514,11 @@ Book11:
   start:
     c: 29
     v: 37
-  '1': 'Chapter 29 Cont./n&l37&rSeven days thou shalt make an atonement for the altar,
-    and sanctify it; and it shall be an altar most holy: whatsoever toucheth the altar
-    shall be holy. &l38&rNow this is that which thou shalt offer upon the altar; two
-    lambs of the'
+  '1': 'Chapter 29 Cont.
+
+    &l37&rSeven days thou shalt make an atonement for the altar, and sanctify it;
+    and it shall be an altar most holy: whatsoever toucheth the altar shall be holy.
+    &l38&rNow this is that which thou shalt offer upon the altar; two lambs of the'
   '2': 'first year day by day continually. &l39&rThe one lamb thou shalt offer in
     the morning; and the other lamb thou shalt offer at even: &l40&rAnd with the one
     lamb a tenth deal of flour mingled with the fourth part of an hin of beaten oil;
@@ -1437,10 +1535,11 @@ Book11:
   '6': 'the children of Israel, and will be their God. &l46&rAnd they shall know that
     I am the Lord their God, that brought them forth out of the land of Egypt, that
     I may dwell among them: I am the Lord their God.'
-  '7': 'Chapter 30/nAnd thou shalt make an altar to burn incense upon: of shittim
-    wood shalt thou make it. &l2&rA cubit shall be the length thereof, and a cubit
-    the breadth thereof; foursquare shall it be: and two cubits shall be the height
-    thereof: the horns'
+  '7': 'Chapter 30
+
+    And thou shalt make an altar to burn incense upon: of shittim wood shalt thou
+    make it. &l2&rA cubit shall be the length thereof, and a cubit the breadth thereof;
+    foursquare shall it be: and two cubits shall be the height thereof: the horns'
   '8': thereof shall be of the same. &l3&rAnd thou shalt overlay it with pure gold, the top thereof, and the sides thereof round about, and the horns thereof; and thou shalt make unto it a crown of gold round about. &l4&rAnd two golden rings shalt thou make to it
   '9': under the crown of it, by the two corners thereof, upon the two sides of it shalt thou make it; and they shall be for places for the staves to bear it withal. &l5&rAnd thou shalt make the staves of shittim wood, and overlay them with gold. &l6&rAnd thou
   '10': 'shalt put it before the vail that is by the ark of the testimony, before
@@ -1498,10 +1597,12 @@ Book11:
     which thou shalt make, ye shall not make to yourselves according to the composition
     thereof: it'
   '28': shall be unto thee holy for the Lord. &l38&rWhosoever shall make like unto that, to smell thereto, shall even be cut off from his people.
-  '29': 'Chapter 31/nAnd the Lord spake unto Moses, saying, &l2&rSee, I have called
-    by name Bezaleel the son of Uri, the son of Hur, of the tribe of Judah: &l3&rAnd
-    I have filled him with the spirit of God, in wisdom, and in understanding, and
-    in knowledge, and in'
+  '29': 'Chapter 31
+
+    And the Lord spake unto Moses, saying, &l2&rSee, I have called by name Bezaleel
+    the son of Uri, the son of Hur, of the tribe of Judah: &l3&rAnd I have filled
+    him with the spirit of God, in wisdom, and in understanding, and in knowledge,
+    and in'
   '30': all manner of workmanship, &l4&rTo devise cunning works, to work in gold, and in silver, and in brass, &l5&rAnd in cutting of stones, to set them, and in carving of timber, to work in all manner of workmanship. &l6&rAnd I, behold, I have given with him
   '31': 'Aholiab, the son of Ahisamach, of the tribe of Dan: and in the hearts of
     all that are wise hearted I have put wisdom, that they may make all that I have
@@ -1529,8 +1630,13 @@ Book11:
     Lord made heaven and earth, and on the seventh day he rested, and was refreshed.
     &l18&rAnd he gave unto'
   '38': Moses, when he had made an end of communing with him upon mount Sinai, two tables of testimony, tables of stone, written with the finger of God.
-  '39': Chapter 32/nAnd when the people saw that Moses delayed to come down out of the mount, the people gathered themselves together unto Aaron, and said unto him, Up, make us gods, which shall go before us; for as for this Moses, the man that brought us up out
-  '40': of the land of Egypt, we wot not what is become of him. &l2&rAnd Aaron said unto them, Break off the golden earrings, which are in the ears of your wives, of your sons, and of your daughters, and bring them unto me. &l3&rAnd all the people brake off the
+  '39': 'Chapter 32
+
+    And when the people saw that Moses delayed to come down out of the mount, the
+    people gathered themselves together unto Aaron, and said unto him, Up, make us
+    gods, which shall go before us; for as for this Moses, the man that brought us
+    up out of'
+  '40': the land of Egypt, we wot not what is become of him. &l2&rAnd Aaron said unto them, Break off the golden earrings, which are in the ears of your wives, of your sons, and of your daughters, and bring them unto me. &l3&rAnd all the people brake off the
   '41': 'golden earrings which were in their ears, and brought them unto Aaron. &l4&rAnd
     he received them at their hand, and fashioned it with a graving tool, after he
     had made it a molten calf: and they said, These be thy gods, O Israel, which brought
@@ -1563,10 +1669,11 @@ Book12:
   start:
     c: 32
     v: 18
-  '1': 'Chapter 32 Cont./n&l18&rAnd he said, It is not the voice of them that shout
-    for mastery, neither is it the voice of them that cry for being overcome: but
-    the noise of them that sing do I hear. &l19&rAnd it came to pass, as soon as he
-    came nigh unto the'
+  '1': 'Chapter 32 Cont.
+
+    &l18&rAnd he said, It is not the voice of them that shout for mastery, neither
+    is it the voice of them that cry for being overcome: but the noise of them that
+    sing do I hear. &l19&rAnd it came to pass, as soon as he came nigh unto the'
   '2': 'camp, that he saw the calf, and the dancing: and Moses'' anger waxed hot,
     and he cast the tables out of his hands, and brake them beneath the mount. &l20&rAnd
     he took the calf which they had made, and burnt it in the fire, and ground it
@@ -1602,10 +1709,12 @@ Book12:
     I will visit their sin upon them. &l35&rAnd the Lord plagued the people, because
     they made the calf,'
   '12': which Aaron made.
-  '13': 'Chapter 33/nAnd the Lord said unto Moses, Depart, and go up hence, thou and
-    the people which thou hast brought up out of the land of Egypt, unto the land
-    which I sware unto Abraham, to Isaac, and to Jacob, saying, Unto thy seed will
-    I give it: &l2&rAnd I'
+  '13': 'Chapter 33
+
+    And the Lord said unto Moses, Depart, and go up hence, thou and the people which
+    thou hast brought up out of the land of Egypt, unto the land which I sware unto
+    Abraham, to Isaac, and to Jacob, saying, Unto thy seed will I give it: &l2&rAnd
+    I'
   '14': 'will send an angel before thee; and I will drive out the Canaanite, the Amorite,
     and the Hittite, and the Perizzite, the Hivite, and the Jebusite: &l3&rUnto a
     land flowing with milk and honey: for I will not go up in the midst of thee; for
@@ -1654,10 +1763,11 @@ Book12:
     thee with my hand while'
   '27': 'I pass by: &l23&rAnd I will take away mine hand, and thou shalt see my back
     parts: but my face shall not be seen.'
-  '28': 'Chapter 34/nAnd the Lord said unto Moses, Hew thee two tables of stone like
-    unto the first: and I will write upon these tables the words that were in the
-    first tables, which thou brakest. &l2&rAnd be ready in the morning, and come up
-    in the morning unto'
+  '28': 'Chapter 34
+
+    And the Lord said unto Moses, Hew thee two tables of stone like unto the first:
+    and I will write upon these tables the words that were in the first tables, which
+    thou brakest. &l2&rAnd be ready in the morning, and come up in the morning unto'
   '29': mount Sinai, and present thyself there to me in the top of the mount. &l3&rAnd no man shall come up with thee, neither let any man be seen throughout all the mount; neither let the flocks nor herds feed before that mount. &l4&rAnd he hewed two tables of
   '30': stone like unto the first; and Moses rose up early in the morning, and went up unto mount Sinai, as the Lord had commanded him, and took in his hand the two tables of stone. &l5&rAnd the Lord descended in the cloud, and stood with him there, and proclaimed
   '31': the name of the Lord. &l6&rAnd the Lord passed by before him, and proclaimed, The Lord, The Lord God, merciful and gracious, longsuffering, and abundant in goodness and truth, &l7&rKeeping mercy for thousands, forgiving iniquity and transgression and sin,
@@ -1707,7 +1817,11 @@ Book12:
   '48': face. &l34&rBut when Moses went in before the Lord to speak with him, he took the vail off, until he came out. And he came out, and spake unto the children of Israel that which he was commanded. &l35&rAnd the children of Israel saw the face of Moses, that
   '49': 'the skin of Moses'' face shone: and Moses put the vail upon his face again,
     until he went in to speak with him.'
-  '50': Chapter 35/nAnd Moses gathered all the congregation of the children of Israel together, and said unto them, These are the words which the Lord hath commanded, that ye should do them.
+  '50': 'Chapter 35
+
+    And Moses gathered all the congregation of the children of Israel together, and
+    said unto them, These are the words which the Lord hath commanded, that ye should
+    do them.'
   end:
     c: 35
     v: 1
@@ -1715,10 +1829,11 @@ Book13:
   start:
     c: 35
     v: 2
-  '1': 'Chapter 35 Cont./n&l2&rSix days shall work be done, but on the seventh day
-    there shall be to you an holy day, a sabbath of rest to the Lord: whosoever doeth
-    work therein shall be put to death. &l3&rYe shall kindle no fire throughout your
-    habitations upon'
+  '1': 'Chapter 35 Cont.
+
+    &l2&rSix days shall work be done, but on the seventh day there shall be to you
+    an holy day, a sabbath of rest to the Lord: whosoever doeth work therein shall
+    be put to death. &l3&rYe shall kindle no fire throughout your habitations upon'
   '2': 'the sabbath day. &l4&rAnd Moses spake unto all the congregation of the children
     of Israel, saying, This is the thing which the Lord commanded, saying, &l5&rTake
     ye from among you an offering unto the Lord: whosoever is of a willing heart,
@@ -1745,7 +1860,11 @@ Book13:
   '16': and in all manner of workmanship; &l32&rAnd to devise curious works, to work in gold, and in silver, and in brass, &l33&rAnd in the cutting of stones, to set them, and in carving of wood, to make any manner of cunning work. &l34&rAnd he hath put in his
   '17': heart that he may teach, both he, and Aholiab, the son of Ahisamach, of the tribe of Dan. &l35&rThem hath he filled with wisdom of heart, to work all manner of work, of the engraver, and of the cunning workman, and of the embroiderer, in blue, and in
   '18': purple, in scarlet, and in fine linen, and of the weaver, even of them that do any work, and of those that devise cunning work.
-  '19': Chapter 36/nThen wrought Bezaleel and Aholiab, and every wise hearted man, in whom the Lord put wisdom and understanding to know how to work all manner of work for the service of the sanctuary, according to all that the Lord had commanded. &l2&rAnd Moses
+  '19': 'Chapter 36
+
+    Then wrought Bezaleel and Aholiab, and every wise hearted man, in whom the Lord
+    put wisdom and understanding to know how to work all manner of work for the service
+    of the sanctuary, according to all that the Lord had commanded. &l2&rAnd Moses'
   '20': 'called Bezaleel and Aholiab, and every wise hearted man, in whose heart the
     Lord had put wisdom, even every one whose heart stirred him up to come unto the
     work to do it: &l3&rAnd they received of Moses all the offering, which the children
@@ -1800,15 +1919,16 @@ Book13:
   '38': 'scarlet, and fine twined linen, of needlework; &l38&rAnd the five pillars
     of it with their hooks: and he overlaid their chapiters and their fillets with
     gold: but their five sockets were of brass.'
-  '39': 'Chapter 37/nAnd Bezaleel made the ark of shittim wood: two cubits and a half
-    was the length of it, and a cubit and a half the breadth of it, and a cubit and
-    a half the height of it: &l2&rAnd he overlaid it with pure gold within and without,
-    and made a'
-  '40': crown of gold to it round about. &l3&rAnd he cast for it four rings of gold, to be set by the four corners of it; even two rings upon the one side of it, and two rings upon the other side of it. &l4&rAnd he made staves of shittim wood, and overlaid them
-  '41': 'with gold. &l5&rAnd he put the staves into the rings by the sides of the
-    ark, to bear the ark. &l6&rAnd he made the mercy seat of pure gold: two cubits
-    and a half was the length thereof, and one cubit and a half the breadth thereof.
-    &l7&rAnd he made two'
+  '39': 'Chapter 37
+
+    And Bezaleel made the ark of shittim wood: two cubits and a half was the length
+    of it, and a cubit and a half the breadth of it, and a cubit and a half the height
+    of it: &l2&rAnd he overlaid it with pure gold within and without, and made a crown'
+  '40': of gold to it round about. &l3&rAnd he cast for it four rings of gold, to be set by the four corners of it; even two rings upon the one side of it, and two rings upon the other side of it. &l4&rAnd he made staves of shittim wood, and overlaid them with
+  '41': 'gold. &l5&rAnd he put the staves into the rings by the sides of the ark,
+    to bear the ark. &l6&rAnd he made the mercy seat of pure gold: two cubits and
+    a half was the length thereof, and one cubit and a half the breadth thereof. &l7&rAnd
+    he made two'
   '42': 'cherubims of gold, beaten out of one piece made he them, on the two ends
     of the mercy seat; &l8&rOne cherub on the end on this side, and another cherub
     on the other end on that side: out of the mercy seat made he the cherubims on
@@ -1845,20 +1965,22 @@ Book14:
   start:
     c: 37
     v: 23
-  '1': 'Chapter 37 Cont./n&l23&rAnd he made his seven lamps, and his snuffers, and
-    his snuffdishes, of pure gold. &l24&rOf a talent of pure gold made he it, and
-    all the vessels thereof. &l25&rAnd he made the incense altar of shittim wood:
-    the length of it was a'
+  '1': 'Chapter 37 Cont.
+
+    &l23&rAnd he made his seven lamps, and his snuffers, and his snuffdishes, of pure
+    gold. &l24&rOf a talent of pure gold made he it, and all the vessels thereof.
+    &l25&rAnd he made the incense altar of shittim wood: the length of it was a'
   '2': 'cubit, and the breadth of it a cubit; it was foursquare; and two cubits was
     the height of it; the horns thereof were of the same. &l26&rAnd he overlaid it
     with pure gold, both the top of it, and the sides thereof round about, and the
     horns of it: also he'
   '3': made unto it a crown of gold round about. &l27&rAnd he made two rings of gold for it under the crown thereof, by the two corners of it, upon the two sides thereof, to be places for the staves to bear it withal. &l28&rAnd he made the staves of shittim wood,
   '4': and overlaid them with gold. &l29&rAnd he made the holy anointing oil, and the pure incense of sweet spices, according to the work of the apothecary.
-  '5': 'Chapter 38/nAnd he made the altar of burnt offering of shittim wood: five
-    cubits was the length thereof, and five cubits the breadth thereof; it was foursquare;
-    and three cubits the height thereof. &l2&rAnd he made the horns thereof on the
-    four corners of'
+  '5': 'Chapter 38
+
+    And he made the altar of burnt offering of shittim wood: five cubits was the length
+    thereof, and five cubits the breadth thereof; it was foursquare; and three cubits
+    the height thereof. &l2&rAnd he made the horns thereof on the four corners of'
   '6': 'it; the horns thereof were of the same: and he overlaid it with brass. &l3&rAnd
     he made all the vessels of the altar, the pots, and the shovels, and the basons,
     and the fleshhooks, and the firepans: all the vessels thereof made he of brass.
@@ -1895,7 +2017,11 @@ Book14:
   '21': the hundred talents, a talent for a socket. &l28&rAnd of the thousand seven hundred seventy and five shekels he made hooks for the pillars, and overlaid their chapiters, and filleted them. &l29&rAnd the brass of the offering was seventy talents, and two
   '22': thousand and four hundred shekels. &l30&rAnd therewith he made the sockets to the door of the tabernacle of the congregation, and the brasen altar, and the brasen grate for it, and all the vessels of the altar, &l31&rAnd the sockets of the court round
   '23': about, and the sockets of the court gate, and all the pins of the tabernacle, and all the pins of the court round about.
-  '24': Chapter 39/nAnd of the blue, and purple, and scarlet, they made cloths of service, to do service in the holy place, and made the holy garments for Aaron; as the Lord commanded Moses. &l2&rAnd he made the ephod of gold, blue, and purple, and scarlet, and
+  '24': 'Chapter 39
+
+    And of the blue, and purple, and scarlet, they made cloths of service, to do service
+    in the holy place, and made the holy garments for Aaron; as the Lord commanded
+    Moses. &l2&rAnd he made the ephod of gold, blue, and purple, and scarlet, and'
   '25': fine twined linen. &l3&rAnd they did beat the gold into thin plates, and cut it into wires, to work it in the blue, and in the purple, and in the scarlet, and in the fine linen, with cunning work. &l4&rThey made shoulderpieces for it, to couple it
   '26': 'together: by the two edges was it coupled together. &l5&rAnd the curious
     girdle of his ephod, that was upon it, was of the same, according to the work
@@ -1946,13 +2072,14 @@ Book14:
   '45': the holy place, and the holy garments for Aaron the priest, and his sons' garments, to minister in the priest's office. &l42&rAccording to all that the Lord commanded Moses, so the children of Israel made all the work. &l43&rAnd Moses did look upon all the
   '46': 'work, and, behold, they had done it as the Lord had commanded, even so had
     they done it: and Moses blessed them.'
-  '47': Chapter 40/nAnd the Lord spake unto Moses, saying, &l2&rOn the first day of the first month shalt thou set up the tabernacle of the tent of the congregation. &l3&rAnd thou shalt put therein the ark of the testimony, and cover the ark with the vail.
-  '48': '&l4&rAnd thou shalt bring in the table, and set in order the things that
-    are to be set in order upon it; and thou shalt bring in the candlestick, and light
-    the lamps thereof. &l5&rAnd thou shalt set the altar of gold for the incense before
-    the ark of the'
-  '49': testimony, and put the hanging of the door to the tabernacle. &l6&rAnd thou shalt set the altar of the burnt offering before the door of the tabernacle of the tent of the congregation. &l7&rAnd thou shalt set the laver between the tent of the congregation
-  '50': and the altar, and shalt put water therein. &l8&rAnd thou shalt set up the court round about, and hang up the hanging at the court gate.
+  '47': 'Chapter 40
+
+    And the Lord spake unto Moses, saying, &l2&rOn the first day of the first month
+    shalt thou set up the tabernacle of the tent of the congregation. &l3&rAnd thou
+    shalt put therein the ark of the testimony, and cover the ark with the vail. &l4&rAnd'
+  '48': thou shalt bring in the table, and set in order the things that are to be set in order upon it; and thou shalt bring in the candlestick, and light the lamps thereof. &l5&rAnd thou shalt set the altar of gold for the incense before the ark of the testimony,
+  '49': and put the hanging of the door to the tabernacle. &l6&rAnd thou shalt set the altar of the burnt offering before the door of the tabernacle of the tent of the congregation. &l7&rAnd thou shalt set the laver between the tent of the congregation and the
+  '50': altar, and shalt put water therein. &l8&rAnd thou shalt set up the court round about, and hang up the hanging at the court gate.
   end:
     c: 40
     v: 8
@@ -1960,10 +2087,11 @@ Book15:
   start:
     c: 40
     v: 9
-  '1': 'Chapter 40 Cont./n&l9&rAnd thou shalt take the anointing oil, and anoint the
-    tabernacle, and all that is therein, and shalt hallow it, and all the vessels
-    thereof: and it shall be holy. &l10&rAnd thou shalt anoint the altar of the burnt
-    offering, and all'
+  '1': 'Chapter 40 Cont.
+
+    &l9&rAnd thou shalt take the anointing oil, and anoint the tabernacle, and all
+    that is therein, and shalt hallow it, and all the vessels thereof: and it shall
+    be holy. &l10&rAnd thou shalt anoint the altar of the burnt offering, and all'
   '2': 'his vessels, and sanctify the altar: and it shall be an altar most holy. &l11&rAnd
     thou shalt anoint the laver and his foot, and sanctify it. &l12&rAnd thou shalt
     bring Aaron and his sons unto the door of the tabernacle of the congregation,

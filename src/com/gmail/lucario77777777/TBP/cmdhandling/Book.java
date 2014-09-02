@@ -70,7 +70,7 @@ public class Book{
 				}else{
 					senderName = sender.getName();
 				}
-				player.sendMessage(ChatColor.GREEN + senderName + " sent you " + bookName + " Part" + 
+				player.sendMessage(ChatColor.GREEN + senderName + " sent you " + bookName + " Part " + 
 						part + "!");
 			}
 			Records.savepRecs("book", pName, bookName, null, null, tran, part);
@@ -99,7 +99,7 @@ public class Book{
 		String pNum = "";
 		EnumBooks ebook = EnumBooks.GENESIS;
 		String newBook = bookName;
-		if(plugin.getigBook(bookName, tran).contains(newBook + "Book" + bN)){
+		if(plugin.getigBook(bookName, tran).contains("Book" + bN)){
 			pNum = String.valueOf(bN);
 		}else{
 			boolean cont = true;
@@ -120,7 +120,7 @@ public class Book{
 		String pNum = "";
 		EnumBooks ebook = EnumBooks.GENESIS;
 		String newBook = bookName;
-		if(plugin.getigBook(bookName, tran).contains(newBook + "Book" + bN)){
+		if(plugin.getigBook(bookName, tran).contains("Book" + bN)){
 			pNum = String.valueOf(bN);
 		}else{
 			boolean cont = true;

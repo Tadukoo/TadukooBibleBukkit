@@ -18,7 +18,7 @@ public class Checks {
 		}
 	}
 
-	public static boolean checkForYML(TB plugin, CommandSender sender, String tran, String bookName) {
+	public static boolean checkForYML(TB plugin, CommandSender sender, String bookName, String tran) {
 		if(plugin.getBook(bookName, tran) == null){
 			if(sender != null){
 				sender.sendMessage(ChatColor.RED + "Sorry, " + tran + "/" + bookName 

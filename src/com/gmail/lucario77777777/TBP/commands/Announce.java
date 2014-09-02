@@ -65,7 +65,7 @@ public class Announce {
 		if(!book.isAvailable(tran)){
 			return;
 		}
-		if(!Checks.checkForYML(plugin, sender, tran, bookName)){
+		if(!Checks.checkForYML(plugin, sender, bookName, tran)){
 			return;
 		}
 		String ref = Checks.bookCheck(sender, book, bookName, chp, v);

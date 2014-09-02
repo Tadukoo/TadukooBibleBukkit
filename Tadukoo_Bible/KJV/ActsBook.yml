@@ -2,10 +2,11 @@ Book1:
   start:
     c: 1
     v: 1
-  '1': 'Chapter 1/nThe former treatise have I made, O Theophilus, of all that Jesus
-    began both to do and teach, &l2&rUntil the day in which he was taken up, after
-    that he through the Holy Ghost had given commandments unto the apostles whom he
-    had chosen: &l3&rTo'
+  '1': 'Chapter 1
+
+    The former treatise have I made, O Theophilus, of all that Jesus began both to
+    do and teach, &l2&rUntil the day in which he was taken up, after that he through
+    the Holy Ghost had given commandments unto the apostles whom he had chosen: &l3&rTo'
   '2': 'whom also he shewed himself alive after his passion by many infallible proofs,
     being seen of them forty days, and speaking of the things pertaining to the kingdom
     of God: &l4&rAnd, being assembled together with them, commanded them that they
@@ -29,7 +30,11 @@ Book1:
   '13': the time that the Lord Jesus went in and out among us, &l22&rBeginning from the baptism of John, unto that same day that he was taken up from us, must one be ordained to be a witness with us of his resurrection. &l23&rAnd they appointed two, Joseph called
   '14': Barsabas, who was surnamed Justus, and Matthias. &l24&rAnd they prayed, and said, Thou, Lord, which knowest the hearts of all men, shew whether of these two thou hast chosen, &l25&rThat he may take part of this ministry and apostleship, from which Judas by
   '15': transgression fell, that he might go to his own place. &l26&rAnd they gave forth their lots; and the lot fell upon Matthias; and he was numbered with the eleven apostles.
-  '16': Chapter 2/nAnd when the day of Pentecost was fully come, they were all with one accord in one place. &l2&rAnd suddenly there came a sound from heaven as of a rushing mighty wind, and it filled all the house where they were sitting. &l3&rAnd there appeared
+  '16': 'Chapter 2
+
+    And when the day of Pentecost was fully come, they were all with one accord in
+    one place. &l2&rAnd suddenly there came a sound from heaven as of a rushing mighty
+    wind, and it filled all the house where they were sitting. &l3&rAnd there appeared'
   '17': unto them cloven tongues like as of fire, and it sat upon each of them. &l4&rAnd they were all filled with the Holy Ghost, and began to speak with other tongues, as the Spirit gave them utterance. &l5&rAnd there were dwelling at Jerusalem Jews, devout men,
   '18': out of every nation under heaven. &l6&rNow when this was noised abroad, the multitude came together, and were confounded, because that every man heard them speak in his own language. &l7&rAnd they were all amazed and marvelled, saying one to another,
   '19': Behold, are not all these which speak Galilaeans? &l8&rAnd how hear we every man in our own tongue, wherein we were born? &l9&rParthians, and Medes, and Elamites, and the dwellers in Mesopotamia, and in Judaea, and Cappadocia, in Pontus, and Asia,
@@ -85,8 +90,13 @@ Book1:
     and had all'
   '37': things common; &l45&rAnd sold their possessions and goods, and parted them to all men, as every man had need. &l46&rAnd they, continuing daily with one accord in the temple, and breaking bread from house to house, did eat their meat with gladness and
   '38': singleness of heart, &l47&rPraising God, and having favour with all the people. And the Lord added to the church daily such as should be saved.
-  '39': Chapter 3/nNow Peter and John went up together into the temple at the hour of prayer, being the ninth hour. &l2&rAnd a certain man lame from his mother's womb was carried, whom they laid daily at the gate of the temple which is called Beautiful, to ask
-  '40': alms of them that entered into the temple; &l3&rWho seeing Peter and John about to go into the temple asked an alms. &l4&rAnd Peter, fastening his eyes upon him with John, said, Look on us. &l5&rAnd he gave heed unto them, expecting to receive something of
+  '39': 'Chapter 3
+
+    Now Peter and John went up together into the temple at the hour of prayer, being
+    the ninth hour. &l2&rAnd a certain man lame from his mother''s womb was carried,
+    whom they laid daily at the gate of the temple which is called Beautiful, to ask
+    alms'
+  '40': of them that entered into the temple; &l3&rWho seeing Peter and John about to go into the temple asked an alms. &l4&rAnd Peter, fastening his eyes upon him with John, said, Look on us. &l5&rAnd he gave heed unto them, expecting to receive something of
   '41': 'them. &l6&rThen Peter said, Silver and gold have I none; but such as I have
     give I thee: In the name of Jesus Christ of Nazareth rise up and walk. &l7&rAnd
     he took him by the right hand, and lifted him up: and immediately his feet and
@@ -119,9 +129,18 @@ Book2:
   start:
     c: 3
     v: 24
-  '1': Chapter 3 Cont./n&l24&rYea, and all the prophets from Samuel and those that follow after, as many as have spoken, have likewise foretold of these days. &l25&rYe are the children of the prophets, and of the covenant which God made with our fathers, saying
+  '1': 'Chapter 3 Cont.
+
+    &l24&rYea, and all the prophets from Samuel and those that follow after, as many
+    as have spoken, have likewise foretold of these days. &l25&rYe are the children
+    of the prophets, and of the covenant which God made with our fathers, saying'
   '2': unto Abraham, And in thy seed shall all the kindreds of the earth be blessed. &l26&rUnto you first God, having raised up his Son Jesus, sent him to bless you, in turning away every one of you from his iniquities.
-  '3': Chapter 4/nAnd as they spake unto the people, the priests, and the captain of the temple, and the Sadducees, came upon them, &l2&rBeing grieved that they taught the people, and preached through Jesus the resurrection from the dead. &l3&rAnd they laid hands
+  '3': 'Chapter 4
+
+    And as they spake unto the people, the priests, and the captain of the temple,
+    and the Sadducees, came upon them, &l2&rBeing grieved that they taught the people,
+    and preached through Jesus the resurrection from the dead. &l3&rAnd they laid
+    hands'
   '4': 'on them, and put them in hold unto the next day: for it was now eventide.
     &l4&rHowbeit many of them which heard the word believed; and the number of the
     men was about five thousand. &l5&rAnd it came to pass on the morrow, that their
@@ -164,7 +183,11 @@ Book2:
     laid them down at the apostles'' feet: and distribution was made unto every man
     according as he'
   '21': had need. &l36&rAnd Joses, who by the apostles was surnamed Barnabas, (which is, being interpreted, The son of consolation,) a Levite, and of the country of Cyprus, &l37&rHaving land, sold it, and brought the money, and laid it at the apostles' feet.
-  '22': Chapter 5/nBut a certain man named Ananias, with Sapphira his wife, sold a possession, &l2&rAnd kept back part of the price, his wife also being privy to it, and brought a certain part, and laid it at the apostles' feet. &l3&rBut Peter said, Ananias, why
+  '22': 'Chapter 5
+
+    But a certain man named Ananias, with Sapphira his wife, sold a possession, &l2&rAnd
+    kept back part of the price, his wife also being privy to it, and brought a certain
+    part, and laid it at the apostles'' feet. &l3&rBut Peter said, Ananias, why'
   '23': hath Satan filled thine heart to lie to the Holy Ghost, and to keep back part of the price of the land? &l4&rWhiles it remained, was it not thine own? and after it was sold, was it not in thine own power? why hast thou conceived this thing in thine heart?
   '24': 'thou hast not lied unto men, but unto God. &l5&rAnd Ananias hearing these
     words fell down, and gave up the ghost: and great fear came on all them that heard
@@ -217,7 +240,11 @@ Book2:
     apostles, and beaten'
   '43': them, they commanded that they should not speak in the name of Jesus, and let them go. &l41&rAnd they departed from the presence of the council, rejoicing that they were counted worthy to suffer shame for his name. &l42&rAnd daily in the temple, and in
   '44': every house, they ceased not to teach and preach Jesus Christ.
-  '45': Chapter 6/nAnd in those days, when the number of the disciples was multiplied, there arose a murmuring of the Grecians against the Hebrews, because their widows were neglected in the daily ministration. &l2&rThen the twelve called the multitude of the
+  '45': 'Chapter 6
+
+    And in those days, when the number of the disciples was multiplied, there arose
+    a murmuring of the Grecians against the Hebrews, because their widows were neglected
+    in the daily ministration. &l2&rThen the twelve called the multitude of the'
   '46': disciples unto them, and said, It is not reason that we should leave the word of God, and serve tables. &l3&rWherefore, brethren, look ye out among you seven men of honest report, full of the Holy Ghost and wisdom, whom we may appoint over this business.
   '47': '&l4&rBut we will give ourselves continually to prayer, and to the ministry
     of the word. &l5&rAnd the saying pleased the whole multitude: and they chose Stephen,
@@ -236,21 +263,31 @@ Book3:
   start:
     c: 6
     v: 11
-  '1': Chapter 6 Cont./n&l11&rThen they suborned men, which said, We have heard him speak blasphemous words against Moses, and against God. &l12&rAnd they stirred up the people, and the elders, and the scribes, and came upon him, and caught him, and brought him
-  '2': 'to the council, &l13&rAnd set up false witnesses, which said, This man ceaseth
+  '1': 'Chapter 6 Cont.
+
+    &l11&rThen they suborned men, which said, We have heard him speak blasphemous
+    words against Moses, and against God. &l12&rAnd they stirred up the people, and
+    the elders, and the scribes, and came upon him, and caught him, and brought him
+    to'
+  '2': 'the council, &l13&rAnd set up false witnesses, which said, This man ceaseth
     not to speak blasphemous words against this holy place, and the law: &l14&rFor
     we have heard him say, that this Jesus of Nazareth shall destroy this place, and
     shall change the'
   '3': customs which Moses delivered us. &l15&rAnd all that sat in the council, looking stedfastly on him, saw his face as it had been the face of an angel.
-  '4': Chapter 7/nThen said the high priest, Are these things so? &l2&rAnd he said, Men, brethren, and fathers, hearken; The God of glory appeared unto our father Abraham, when he was in Mesopotamia, before he dwelt in Charran, &l3&rAnd said unto him, Get thee
-  '5': 'out of thy country, and from thy kindred, and come into the land which I shall
+  '4': 'Chapter 7
+
+    Then said the high priest, Are these things so? &l2&rAnd he said, Men, brethren,
+    and fathers, hearken; The God of glory appeared unto our father Abraham, when
+    he was in Mesopotamia, before he dwelt in Charran, &l3&rAnd said unto him, Get
+    thee out'
+  '5': 'of thy country, and from thy kindred, and come into the land which I shall
     shew thee. &l4&rThen came he out of the land of the Chaldaeans, and dwelt in Charran:
     and from thence, when his father was dead, he removed him into this land, wherein
-    ye now'
-  '6': 'dwell. &l5&rAnd he gave him none inheritance in it, no, not so much as to
-    set his foot on: yet he promised that he would give it to him for a possession,
-    and to his seed after him, when as yet he had no child. &l6&rAnd God spake on
-    this wise, That his seed'
+    ye now dwell.'
+  '6': ' &l5&rAnd he gave him none inheritance in it, no, not so much as to set his
+    foot on: yet he promised that he would give it to him for a possession, and to
+    his seed after him, when as yet he had no child. &l6&rAnd God spake on this wise,
+    That his seed'
   '7': 'should sojourn in a strange land; and that they should bring them into bondage,
     and entreat them evil four hundred years. &l7&rAnd the nation to whom they shall
     be in bondage will I judge, said God: and after that shall they come forth, and
@@ -324,7 +361,11 @@ Book3:
     &l59&rAnd they stoned Stephen, calling upon God, and saying, Lord Jesus, receive
     my spirit. &l60&rAnd'
   '34': he kneeled down, and cried with a loud voice, Lord, lay not this sin to their charge. And when he had said this, he fell asleep.
-  '35': Chapter 8/nAnd Saul was consenting unto his death. And at that time there was a great persecution against the church which was at Jerusalem; and they were all scattered abroad throughout the regions of Judaea and Samaria, except the apostles. &l2&rAnd
+  '35': 'Chapter 8
+
+    And Saul was consenting unto his death. And at that time there was a great persecution
+    against the church which was at Jerusalem; and they were all scattered abroad
+    throughout the regions of Judaea and Samaria, except the apostles. &l2&rAnd'
   '36': devout men carried Stephen to his burial, and made great lamentation over him. &l3&rAs for Saul, he made havock of the church, entering into every house, and haling men and women committed them to prison. &l4&rTherefore they that were scattered abroad went
   '37': every where preaching the word. &l5&rThen Philip went down to the city of Samaria, and preached Christ unto them. &l6&rAnd the people with one accord gave heed unto those things which Philip spake, hearing and seeing the miracles which he did. &l7&rFor
   '38': 'unclean spirits, crying with loud voice, came out of many that were possessed
@@ -370,14 +411,16 @@ Book4:
   start:
     c: 8
     v: 33
-  '1': 'Chapter 8 Cont./n&l33&rIn his humiliation his judgment was taken away: and
-    who shall declare his generation? for his life is taken from the earth. &l34&rAnd
-    the eunuch answered Philip, and said, I pray thee, of whom speaketh the prophet
-    this? of himself,'
-  '2': 'or of some other man? &l35&rThen Philip opened his mouth, and began at the
-    same scripture, and preached unto him Jesus. &l36&rAnd as they went on their way,
-    they came unto a certain water: and the eunuch said, See, here is water; what
-    doth hinder me to be'
+  '1': 'Chapter 8 Cont.
+
+    &l33&rIn his humiliation his judgment was taken away: and who shall declare his
+    generation? for his life is taken from the earth. &l34&rAnd the eunuch answered
+    Philip, and said, I pray thee, of whom speaketh the prophet this? of himself,
+    or'
+  '2': 'of some other man? &l35&rThen Philip opened his mouth, and began at the same
+    scripture, and preached unto him Jesus. &l36&rAnd as they went on their way, they
+    came unto a certain water: and the eunuch said, See, here is water; what doth
+    hinder me to be'
   '3': 'baptized? &l37&rAnd Philip said, If thou believest with all thine heart, thou
     mayest. And he answered and said, I believe that Jesus Christ is the Son of God.
     &l38&rAnd he commanded the chariot to stand still: and they went down both into
@@ -387,7 +430,12 @@ Book4:
     saw him no more: and he went on his way rejoicing. &l40&rBut Philip was found
     at Azotus: and passing'
   '5': through he preached in all the cities, till he came to Caesarea.
-  '6': Chapter 9/nAnd Saul, yet breathing out threatenings and slaughter against the disciples of the Lord, went unto the high priest, &l2&rAnd desired of him letters to Damascus to the synagogues, that if he found any of this way, whether they were men or women,
+  '6': 'Chapter 9
+
+    And Saul, yet breathing out threatenings and slaughter against the disciples of
+    the Lord, went unto the high priest, &l2&rAnd desired of him letters to Damascus
+    to the synagogues, that if he found any of this way, whether they were men or
+    women,'
   '7': 'he might bring them bound unto Jerusalem. &l3&rAnd as he journeyed, he came
     near Damascus: and suddenly there shined round about him a light from heaven:
     &l4&rAnd he fell to the earth, and heard a voice saying unto him, Saul, Saul,
@@ -452,7 +500,12 @@ Book4:
     hand, and lifted her up, and when he had called the saints and widows, presented
     her alive. &l42&rAnd'
   '28': it was known throughout all Joppa; and many believed in the Lord. &l43&rAnd it came to pass, that he tarried many days in Joppa with one Simon a tanner.
-  '29': Chapter 10/nThere was a certain man in Caesarea called Cornelius, a centurion of the band called the Italian band, &l2&rA devout man, and one that feared God with all his house, which gave much alms to the people, and prayed to God alway. &l3&rHe saw in a
+  '29': 'Chapter 10
+
+    There was a certain man in Caesarea called Cornelius, a centurion of the band
+    called the Italian band, &l2&rA devout man, and one that feared God with all his
+    house, which gave much alms to the people, and prayed to God alway. &l3&rHe saw
+    in a'
   '30': vision evidently about the ninth hour of the day an angel of God coming in to him, and saying unto him, Cornelius. &l4&rAnd when he looked on him, he was afraid, and said, What is it, Lord? And he said unto him, Thy prayers and thine alms are come up for a
   '31': 'memorial before God. &l5&rAnd now send men to Joppa, and call for one Simon,
     whose surname is Peter: &l6&rHe lodgeth with one Simon a tanner, whose house is
@@ -517,43 +570,50 @@ Book5:
   start:
     c: 10
     v: 45
-  '1': Chapter 10 Cont./n&l45&rAnd they of the circumcision which believed were astonished, as many as came with Peter, because that on the Gentiles also was poured out the gift of the Holy Ghost. &l46&rFor they heard them speak with tongues, and magnify God.
-  '2': Then answered Peter, &l47&rCan any man forbid water, that these should not be baptized, which have received the Holy Ghost as well as we? &l48&rAnd he commanded them to be baptized in the name of the Lord. Then prayed they him to tarry certain days.
-  '3': Chapter 11/nAnd the apostles and brethren that were in Judaea heard that the Gentiles had also received the word of God. &l2&rAnd when Peter was come up to Jerusalem, they that were of the circumcision contended with him, &l3&rSaying, Thou wentest in to
-  '4': 'men uncircumcised, and didst eat with them. &l4&rBut Peter rehearsed the matter
+  '1': 'Chapter 10 Cont.
+
+    &l45&rAnd they of the circumcision which believed were astonished, as many as
+    came with Peter, because that on the Gentiles also was poured out the gift of
+    the Holy Ghost. &l46&rFor they heard them speak with tongues, and magnify God.
+    Then'
+  '2': answered Peter, &l47&rCan any man forbid water, that these should not be baptized, which have received the Holy Ghost as well as we? &l48&rAnd he commanded them to be baptized in the name of the Lord. Then prayed they him to tarry certain days.
+  '3': 'Chapter 11
+
+    And the apostles and brethren that were in Judaea heard that the Gentiles had
+    also received the word of God. &l2&rAnd when Peter was come up to Jerusalem, they
+    that were of the circumcision contended with him, &l3&rSaying, Thou wentest in
+    to men'
+  '4': 'uncircumcised, and didst eat with them. &l4&rBut Peter rehearsed the matter
     from the beginning, and expounded it by order unto them, saying, &l5&rI was in
     the city of Joppa praying: and in a trance I saw a vision, A certain vessel descend,
-    as it had'
-  '5': 'been a great sheet, let down from heaven by four corners; and it came even
-    to me: &l6&rUpon the which when I had fastened mine eyes, I considered, and saw
-    fourfooted beasts of the earth, and wild beasts, and creeping things, and fowls
-    of the air. &l7&rAnd'
-  '6': 'I heard a voice saying unto me, Arise, Peter; slay and eat. &l8&rBut I said,
-    Not so, Lord: for nothing common or unclean hath at any time entered into my mouth.
-    &l9&rBut the voice answered me again from heaven, What God hath cleansed, that
-    call not thou'
-  '7': 'common. &l10&rAnd this was done three times: and all were drawn up again into
-    heaven. &l11&rAnd, behold, immediately there were three men already come unto
-    the house where I was, sent from Caesarea unto me. &l12&rAnd the Spirit bade me
-    go with them,'
-  '8': 'nothing doubting. Moreover these six brethren accompanied me, and we entered
-    into the man''s house: &l13&rAnd he shewed us how he had seen an angel in his
-    house, which stood and said unto him, Send men to Joppa, and call for Simon, whose
-    surname is Peter;'
-  '9': '&l14&rWho shall tell thee words, whereby thou and all thy house shall be saved.
-    &l15&rAnd as I began to speak, the Holy Ghost fell on them, as on us at the beginning.
-    &l16&rThen remembered I the word of the Lord, how that he said, John indeed baptized
-    with'
-  '10': water; but ye shall be baptized with the Holy Ghost. &l17&rForasmuch then as God gave them the like gift as he did unto us, who believed on the Lord Jesus Christ; what was I, that I could withstand God? &l18&rWhen they heard these things, they held their
-  '11': peace, and glorified God, saying, Then hath God also to the Gentiles granted repentance unto life. &l19&rNow they which were scattered abroad upon the persecution that arose about Stephen travelled as far as Phenice, and Cyprus, and Antioch, preaching the
-  '12': 'word to none but unto the Jews only. &l20&rAnd some of them were men of Cyprus
-    and Cyrene, which, when they were come to Antioch, spake unto the Grecians, preaching
+    as it had been a'
+  '5': 'great sheet, let down from heaven by four corners; and it came even to me:
+    &l6&rUpon the which when I had fastened mine eyes, I considered, and saw fourfooted
+    beasts of the earth, and wild beasts, and creeping things, and fowls of the air.
+    &l7&rAnd I heard'
+  '6': 'a voice saying unto me, Arise, Peter; slay and eat. &l8&rBut I said, Not so,
+    Lord: for nothing common or unclean hath at any time entered into my mouth. &l9&rBut
+    the voice answered me again from heaven, What God hath cleansed, that call not
+    thou common.'
+  '7': '&l10&rAnd this was done three times: and all were drawn up again into heaven.
+    &l11&rAnd, behold, immediately there were three men already come unto the house
+    where I was, sent from Caesarea unto me. &l12&rAnd the Spirit bade me go with
+    them, nothing'
+  '8': 'doubting. Moreover these six brethren accompanied me, and we entered into
+    the man''s house: &l13&rAnd he shewed us how he had seen an angel in his house,
+    which stood and said unto him, Send men to Joppa, and call for Simon, whose surname
+    is Peter; &l14&rWho'
+  '9': shall tell thee words, whereby thou and all thy house shall be saved. &l15&rAnd as I began to speak, the Holy Ghost fell on them, as on us at the beginning. &l16&rThen remembered I the word of the Lord, how that he said, John indeed baptized with water;
+  '10': but ye shall be baptized with the Holy Ghost. &l17&rForasmuch then as God gave them the like gift as he did unto us, who believed on the Lord Jesus Christ; what was I, that I could withstand God? &l18&rWhen they heard these things, they held their peace,
+  '11': and glorified God, saying, Then hath God also to the Gentiles granted repentance unto life. &l19&rNow they which were scattered abroad upon the persecution that arose about Stephen travelled as far as Phenice, and Cyprus, and Antioch, preaching the word to
+  '12': 'none but unto the Jews only. &l20&rAnd some of them were men of Cyprus and
+    Cyrene, which, when they were come to Antioch, spake unto the Grecians, preaching
     the Lord Jesus. &l21&rAnd the hand of the Lord was with them: and a great number
-    believed,'
-  '13': 'and turned unto the Lord. &l22&rThen tidings of these things came unto the
-    ears of the church which was in Jerusalem: and they sent forth Barnabas, that
-    he should go as far as Antioch. &l23&rWho, when he came, and had seen the grace
-    of God, was glad, and'
+    believed, and'
+  '13': 'turned unto the Lord. &l22&rThen tidings of these things came unto the ears
+    of the church which was in Jerusalem: and they sent forth Barnabas, that he should
+    go as far as Antioch. &l23&rWho, when he came, and had seen the grace of God,
+    was glad, and'
   '14': 'exhorted them all, that with purpose of heart they would cleave unto the
     Lord. &l24&rFor he was a good man, and full of the Holy Ghost and of faith: and
     much people was added unto the Lord. &l25&rThen departed Barnabas to Tarsus, for
@@ -569,7 +629,11 @@ Book5:
   '17': 'every man according to his ability, determined to send relief unto the brethren
     which dwelt in Judaea: &l30&rWhich also they did, and sent it to the elders by
     the hands of Barnabas and Saul.'
-  '18': Chapter 12/nNow about that time Herod the king stretched forth his hands to vex certain of the church. &l2&rAnd he killed James the brother of John with the sword. &l3&rAnd because he saw it pleased the Jews, he proceeded further to take Peter also. (Then
+  '18': 'Chapter 12
+
+    Now about that time Herod the king stretched forth his hands to vex certain of
+    the church. &l2&rAnd he killed James the brother of John with the sword. &l3&rAnd
+    because he saw it pleased the Jews, he proceeded further to take Peter also. (Then'
   '19': 'were the days of unleavened bread.) &l4&rAnd when he had apprehended him,
     he put him in prison, and delivered him to four quaternions of soldiers to keep
     him; intending after Easter to bring him forth to the people. &l5&rPeter therefore
@@ -605,52 +669,46 @@ Book5:
     word of God grew and multiplied. &l25&rAnd Barnabas and Saul returned from Jerusalem,
     when they had'
   '32': fulfilled their ministry, and took with them John, whose surname was Mark.
-  '33': Chapter 13/nNow there were in the church that was at Antioch certain prophets and teachers; as Barnabas, and Simeon that was called Niger, and Lucius of Cyrene, and Manaen, which had been brought up with Herod the tetrarch, and Saul. &l2&rAs they
-  '34': ministered to the Lord, and fasted, the Holy Ghost said, Separate me Barnabas and Saul for the work whereunto I have called them. &l3&rAnd when they had fasted and prayed, and laid their hands on them, they sent them away. &l4&rSo they, being sent forth by
-  '35': 'the Holy Ghost, departed unto Seleucia; and from thence they sailed to Cyprus.
-    &l5&rAnd when they were at Salamis, they preached the word of God in the synagogues
-    of the Jews: and they had also John to their minister. &l6&rAnd when they had
-    gone through'
-  '36': 'the isle unto Paphos, they found a certain sorcerer, a false prophet, a Jew,
-    whose name was Barjesus: &l7&rWhich was with the deputy of the country, Sergius
-    Paulus, a prudent man; who called for Barnabas and Saul, and desired to hear the
-    word of God.'
-  '37': '&l8&rBut Elymas the sorcerer (for so is his name by interpretation) withstood
-    them, seeking to turn away the deputy from the faith. &l9&rThen Saul, (who also
-    is called Paul,) filled with the Holy Ghost, set his eyes on him. &l10&rAnd said,
-    O full of all'
-  '38': subtilty and all mischief, thou child of the devil, thou enemy of all righteousness, wilt thou not cease to pervert the right ways of the Lord? &l11&rAnd now, behold, the hand of the Lord is upon thee, and thou shalt be blind, not seeing the sun for a
-  '39': season. And immediately there fell on him a mist and a darkness; and he went about seeking some to lead him by the hand. &l12&rThen the deputy, when he saw what was done, believed, being astonished at the doctrine of the Lord. &l13&rNow when Paul and his
-  '40': 'company loosed from Paphos, they came to Perga in Pamphylia: and John departing
-    from them returned to Jerusalem. &l14&rBut when they departed from Perga, they
-    came to Antioch in Pisidia, and went into the synagogue on the sabbath day, and
-    sat down.'
-  '41': '&l15&rAnd after the reading of the law and the prophets the rulers of the
-    synagogue sent unto them, saying, Ye men and brethren, if ye have any word of
-    exhortation for the people, say on. &l16&rThen Paul stood up, and beckoning with
-    his hand said, Men of'
-  '42': Israel, and ye that fear God, give audience. &l17&rThe God of this people of Israel chose our fathers, and exalted the people when they dwelt as strangers in the land of Egypt, and with an high arm brought he them out of it. &l18&rAnd about the time of
-  '43': forty years suffered he their manners in the wilderness. &l19&rAnd when he had destroyed seven nations in the land of Chanaan, he divided their land to them by lot. &l20&rAnd after that he gave unto them judges about the space of four hundred and fifty
-  '44': 'years, until Samuel the prophet. &l21&rAnd afterward they desired a king:
-    and God gave unto them Saul the son of Cis, a man of the tribe of Benjamin, by
-    the space of forty years. &l22&rAnd when he had removed him, he raised up unto
-    them David to be their'
-  '45': 'king; to whom also he gave their testimony, and said, I have found David
-    the son of Jesse, a man after mine own heart, which shall fulfil all my will.
-    &l23&rOf this man''s seed hath God according to his promise raised unto Israel
-    a Saviour, Jesus:'
-  '46': '&l24&rWhen John had first preached before his coming the baptism of repentance
-    to all the people of Israel. &l25&rAnd as John fulfilled his course, he said,
-    Whom think ye that I am? I am not he. But, behold, there cometh one after me,
-    whose shoes of his'
-  '47': feet I am not worthy to loose. &l26&rMen and brethren, children of the stock of Abraham, and whosoever among you feareth God, to you is the word of this salvation sent. &l27&rFor they that dwell at Jerusalem, and their rulers, because they knew him not,
-  '48': nor yet the voices of the prophets which are read every sabbath day, they have fulfilled them in condemning him. &l28&rAnd though they found no cause of death in him, yet desired they Pilate that he should be slain. &l29&rAnd when they had fulfilled all
-  '49': 'that was written of him, they took him down from the tree, and laid him in
-    a sepulchre. &l30&rBut God raised him from the dead: &l31&rAnd he was seen many
-    days of them which came up with him from Galilee to Jerusalem, who are his witnesses
-    unto the people.'
-  '50': ' &l32&rAnd we declare unto you glad tidings, how that the promise which was
-    made unto the fathers,'
+  '33': 'Chapter 13
+
+    Now there were in the church that was at Antioch certain prophets and teachers;
+    as Barnabas, and Simeon that was called Niger, and Lucius of Cyrene, and Manaen,
+    which had been brought up with Herod the tetrarch, and Saul. &l2&rAs they ministered'
+  '34': to the Lord, and fasted, the Holy Ghost said, Separate me Barnabas and Saul for the work whereunto I have called them. &l3&rAnd when they had fasted and prayed, and laid their hands on them, they sent them away. &l4&rSo they, being sent forth by the Holy
+  '35': 'Ghost, departed unto Seleucia; and from thence they sailed to Cyprus. &l5&rAnd
+    when they were at Salamis, they preached the word of God in the synagogues of
+    the Jews: and they had also John to their minister. &l6&rAnd when they had gone
+    through the isle'
+  '36': 'unto Paphos, they found a certain sorcerer, a false prophet, a Jew, whose
+    name was Barjesus: &l7&rWhich was with the deputy of the country, Sergius Paulus,
+    a prudent man; who called for Barnabas and Saul, and desired to hear the word
+    of God. &l8&rBut'
+  '37': Elymas the sorcerer (for so is his name by interpretation) withstood them, seeking to turn away the deputy from the faith. &l9&rThen Saul, (who also is called Paul,) filled with the Holy Ghost, set his eyes on him. &l10&rAnd said, O full of all subtilty
+  '38': and all mischief, thou child of the devil, thou enemy of all righteousness, wilt thou not cease to pervert the right ways of the Lord? &l11&rAnd now, behold, the hand of the Lord is upon thee, and thou shalt be blind, not seeing the sun for a season. And
+  '39': immediately there fell on him a mist and a darkness; and he went about seeking some to lead him by the hand. &l12&rThen the deputy, when he saw what was done, believed, being astonished at the doctrine of the Lord. &l13&rNow when Paul and his company
+  '40': 'loosed from Paphos, they came to Perga in Pamphylia: and John departing from
+    them returned to Jerusalem. &l14&rBut when they departed from Perga, they came
+    to Antioch in Pisidia, and went into the synagogue on the sabbath day, and sat
+    down. &l15&rAnd after'
+  '41': the reading of the law and the prophets the rulers of the synagogue sent unto them, saying, Ye men and brethren, if ye have any word of exhortation for the people, say on. &l16&rThen Paul stood up, and beckoning with his hand said, Men of Israel, and ye
+  '42': that fear God, give audience. &l17&rThe God of this people of Israel chose our fathers, and exalted the people when they dwelt as strangers in the land of Egypt, and with an high arm brought he them out of it. &l18&rAnd about the time of forty years
+  '43': suffered he their manners in the wilderness. &l19&rAnd when he had destroyed seven nations in the land of Chanaan, he divided their land to them by lot. &l20&rAnd after that he gave unto them judges about the space of four hundred and fifty years, until
+  '44': 'Samuel the prophet. &l21&rAnd afterward they desired a king: and God gave
+    unto them Saul the son of Cis, a man of the tribe of Benjamin, by the space of
+    forty years. &l22&rAnd when he had removed him, he raised up unto them David to
+    be their king; to whom'
+  '45': 'also he gave their testimony, and said, I have found David the son of Jesse,
+    a man after mine own heart, which shall fulfil all my will. &l23&rOf this man''s
+    seed hath God according to his promise raised unto Israel a Saviour, Jesus: &l24&rWhen
+    John had'
+  '46': first preached before his coming the baptism of repentance to all the people of Israel. &l25&rAnd as John fulfilled his course, he said, Whom think ye that I am? I am not he. But, behold, there cometh one after me, whose shoes of his feet I am not worthy
+  '47': to loose. &l26&rMen and brethren, children of the stock of Abraham, and whosoever among you feareth God, to you is the word of this salvation sent. &l27&rFor they that dwell at Jerusalem, and their rulers, because they knew him not, nor yet the voices of
+  '48': the prophets which are read every sabbath day, they have fulfilled them in condemning him. &l28&rAnd though they found no cause of death in him, yet desired they Pilate that he should be slain. &l29&rAnd when they had fulfilled all that was written of him,
+  '49': 'they took him down from the tree, and laid him in a sepulchre. &l30&rBut
+    God raised him from the dead: &l31&rAnd he was seen many days of them which came
+    up with him from Galilee to Jerusalem, who are his witnesses unto the people.
+    &l32&rAnd we declare'
+  '50': unto you glad tidings, how that the promise which was made unto the fathers,
   end:
     c: 13
     v: 32
@@ -658,7 +716,11 @@ Book6:
   start:
     c: 13
     v: 33
-  '1': Chapter 13 Cont./n&l33&rGod hath fulfilled the same unto us their children, in that he hath raised up Jesus again; as it is also written in the second psalm, Thou art my Son, this day have I begotten thee. &l34&rAnd as concerning that he raised him up from
+  '1': 'Chapter 13 Cont.
+
+    &l33&rGod hath fulfilled the same unto us their children, in that he hath raised
+    up Jesus again; as it is also written in the second psalm, Thou art my Son, this
+    day have I begotten thee. &l34&rAnd as concerning that he raised him up from'
   '2': the dead, now no more to return to corruption, he said on this wise, I will give you the sure mercies of David. &l35&rWherefore he saith also in another psalm, Thou shalt not suffer thine Holy One to see corruption. &l36&rFor David, after he had served his
   '3': 'own generation by the will of God, fell on sleep, and was laid unto his fathers,
     and saw corruption: &l37&rBut he, whom God raised again, saw no corruption. &l38&rBe
@@ -691,7 +753,12 @@ Book6:
     of their coasts.'
   '11': '&l51&rBut they shook off the dust of their feet against them, and came unto
     Iconium. &l52&rAnd the disciples were filled with joy, and with the Holy Ghost.'
-  '12': Chapter 14/nAnd it came to pass in Iconium, that they went both together into the synagogue of the Jews, and so spake, that a great multitude both of the Jews and also of the Greeks believed. &l2&rBut the unbelieving Jews stirred up the Gentiles, and made
+  '12': 'Chapter 14
+
+    And it came to pass in Iconium, that they went both together into the synagogue
+    of the Jews, and so spake, that a great multitude both of the Jews and also of
+    the Greeks believed. &l2&rBut the unbelieving Jews stirred up the Gentiles, and
+    made'
   '13': their minds evil affected against the brethren. &l3&rLong time therefore abode they speaking boldly in the Lord, which gave testimony unto the word of his grace, and granted signs and wonders to be done by their hands. &l4&rBut the multitude of the city
   '14': 'was divided: and part held with the Jews, and part with the apostles. &l5&rAnd
     when there was an assault made both of the Gentiles, and also of the Jews with
@@ -724,7 +791,11 @@ Book6:
     sailed to'
   '25': Antioch, from whence they had been recommended to the grace of God for the work which they fulfilled. &l27&rAnd when they were come, and had gathered the church together, they rehearsed all that God had done with them, and how he had opened the door of
   '26': faith unto the Gentiles. &l28&rAnd there they abode long time with the disciples.
-  '27': Chapter 15/nAnd certain men which came down from Judaea taught the brethren, and said, Except ye be circumcised after the manner of Moses, ye cannot be saved. &l2&rWhen therefore Paul and Barnabas had no small dissension and disputation with them, they
+  '27': 'Chapter 15
+
+    And certain men which came down from Judaea taught the brethren, and said, Except
+    ye be circumcised after the manner of Moses, ye cannot be saved. &l2&rWhen therefore
+    Paul and Barnabas had no small dissension and disputation with them, they'
   '28': determined that Paul and Barnabas, and certain other of them, should go up to Jerusalem unto the apostles and elders about this question. &l3&rAnd being brought on their way by the church, they passed through Phenice and Samaria, declaring the conversion
   '29': 'of the Gentiles: and they caused great joy unto all the brethren. &l4&rAnd
     when they were come to Jerusalem, they were received of the church, and of the
@@ -773,10 +844,12 @@ Book6:
     and departed, being recommended by the brethren unto the grace of God. &l41&rAnd
     he went through Syria'
   '48': and Cilicia, confirming the churches.
-  '49': 'Chapter 16/nThen came he to Derbe and Lystra: and, behold, a certain disciple
-    was there, named Timotheus, the son of a certain woman, which was a Jewess, and
-    believed; but his father was a Greek: &l2&rWhich was well reported of by the brethren
-    that were at'
+  '49': 'Chapter 16
+
+    Then came he to Derbe and Lystra: and, behold, a certain disciple was there, named
+    Timotheus, the son of a certain woman, which was a Jewess, and believed; but his
+    father was a Greek: &l2&rWhich was well reported of by the brethren that were
+    at'
   '50': 'Lystra and Iconium. &l3&rHim would Paul have to go forth with him; and took
     and circumcised him because of the Jews which were in those quarters: for they
     knew all that his father was a Greek.'
@@ -787,7 +860,11 @@ Book7:
   start:
     c: 16
     v: 4
-  '1': Chapter 16 Cont./n&l4&rAnd as they went through the cities, they delivered them the decrees for to keep, that were ordained of the apostles and elders which were at Jerusalem. &l5&rAnd so were the churches established in the faith, and increased in number
+  '1': 'Chapter 16 Cont.
+
+    &l4&rAnd as they went through the cities, they delivered them the decrees for
+    to keep, that were ordained of the apostles and elders which were at Jerusalem.
+    &l5&rAnd so were the churches established in the faith, and increased in number'
   '2': 'daily. &l6&rNow when they had gone throughout Phrygia and the region of Galatia,
     and were forbidden of the Holy Ghost to preach the word in Asia, &l7&rAfter they
     were come to Mysia, they assayed to go into Bithynia: but the Spirit suffered
@@ -843,10 +920,11 @@ Book7:
     to depart out of the city. &l40&rAnd they went out of the prison, and entered
     into the house of'
   '20': 'Lydia: and when they had seen the brethren, they comforted them, and departed.'
-  '21': 'Chapter 17/nNow when they had passed through Amphipolis and Apollonia, they
-    came to Thessalonica, where was a synagogue of the Jews: &l2&rAnd Paul, as his
-    manner was, went in unto them, and three sabbath days reasoned with them out of
-    the scriptures,'
+  '21': 'Chapter 17
+
+    Now when they had passed through Amphipolis and Apollonia, they came to Thessalonica,
+    where was a synagogue of the Jews: &l2&rAnd Paul, as his manner was, went in unto
+    them, and three sabbath days reasoned with them out of the scriptures,'
   '22': '&l3&rOpening and alleging, that Christ must needs have suffered, and risen
     again from the dead; and that this Jesus, whom I preach unto you, is Christ. &l4&rAnd
     some of them believed, and consorted with Paul and Silas; and of the devout Greeks
@@ -899,7 +977,11 @@ Book7:
     &l34&rHowbeit certain men clave unto him, and believed: among the which was Dionysius
     the Areopagite,'
   '40': and a woman named Damaris, and others with them.
-  '41': Chapter 18/nAfter these things Paul departed from Athens, and came to Corinth; &l2&rAnd found a certain Jew named Aquila, born in Pontus, lately come from Italy, with his wife Priscilla; (because that Claudius had commanded all Jews to depart from Rome:)
+  '41': 'Chapter 18
+
+    After these things Paul departed from Athens, and came to Corinth; &l2&rAnd found
+    a certain Jew named Aquila, born in Pontus, lately come from Italy, with his wife
+    Priscilla; (because that Claudius had commanded all Jews to depart from Rome:)'
   '42': 'and came unto them. &l3&rAnd because he was of the same craft, he abode with
     them, and wrought: for by their occupation they were tentmakers. &l4&rAnd he reasoned
     in the synagogue every sabbath, and persuaded the Jews and the Greeks. &l5&rAnd
@@ -930,10 +1012,11 @@ Book8:
   start:
     c: 18
     v: 20
-  '1': 'Chapter 18 Cont./n&l20&rWhen they desired him to tarry longer time with them,
-    he consented not; &l21&rBut bade them farewell, saying, I must by all means keep
-    this feast that cometh in Jerusalem: but I will return again unto you, if God
-    will. And he sailed'
+  '1': 'Chapter 18 Cont.
+
+    &l20&rWhen they desired him to tarry longer time with them, he consented not;
+    &l21&rBut bade them farewell, saying, I must by all means keep this feast that
+    cometh in Jerusalem: but I will return again unto you, if God will. And he sailed'
   '2': from Ephesus. &l22&rAnd when he had landed at Caesarea, and gone up, and saluted the church, he went down to Antioch. &l23&rAnd after he had spent some time there, he departed, and went over all the country of Galatia and Phrygia in order, strengthening
   '3': all the disciples. &l24&rAnd a certain Jew named Apollos, born at Alexandria, an eloquent man, and mighty in the scriptures, came to Ephesus. &l25&rThis man was instructed in the way of the Lord; and being fervent in the spirit, he spake and taught
   '4': 'diligently the things of the Lord, knowing only the baptism of John. &l26&rAnd
@@ -945,10 +1028,11 @@ Book8:
     through grace: &l28&rFor he mightily convinced the Jews, and that publicly, shewing
     by the'
   '6': scriptures that Jesus was Christ.
-  '7': 'Chapter 19/nAnd it came to pass, that, while Apollos was at Corinth, Paul
-    having passed through the upper coasts came to Ephesus: and finding certain disciples,
-    &l2&rHe said unto them, Have ye received the Holy Ghost since ye believed? And
-    they said unto'
+  '7': 'Chapter 19
+
+    And it came to pass, that, while Apollos was at Corinth, Paul having passed through
+    the upper coasts came to Ephesus: and finding certain disciples, &l2&rHe said
+    unto them, Have ye received the Holy Ghost since ye believed? And they said unto'
   '8': him, We have not so much as heard whether there be any Holy Ghost. &l3&rAnd he said unto them, Unto what then were ye baptized? And they said, Unto John's baptism. &l4&rThen said Paul, John verily baptized with the baptism of repentance, saying unto the
   '9': people, that they should believe on him which should come after him, that is, on Christ Jesus. &l5&rWhen they heard this, they were baptized in the name of the Lord Jesus. &l6&rAnd when Paul had laid his hands upon them, the Holy Ghost came on them; and
   '10': they spake with tongues, and prophesied. &l7&rAnd all the men were about twelve. &l8&rAnd he went into the synagogue, and spake boldly for the space of three months, disputing and persuading the things concerning the kingdom of God. &l9&rBut when divers
@@ -989,7 +1073,11 @@ Book8:
     any thing concerning'
   '28': other matters, it shall be determined in a lawful assembly. &l40&rFor we are in danger to be called in question for this day's uproar, there being no cause whereby we may give an account of this concourse. &l41&rAnd when he had thus spoken, he dismissed
   '29': the assembly.
-  '30': Chapter 20/nAnd after the uproar was ceased, Paul called unto him the disciples, and embraced them, and departed for to go into Macedonia. &l2&rAnd when he had gone over those parts, and had given them much exhortation, he came into Greece, &l3&rAnd there
+  '30': 'Chapter 20
+
+    And after the uproar was ceased, Paul called unto him the disciples, and embraced
+    them, and departed for to go into Macedonia. &l2&rAnd when he had gone over those
+    parts, and had given them much exhortation, he came into Greece, &l3&rAnd there'
   '31': abode three months. And when the Jews laid wait for him, as he was about to sail into Syria, he purposed to return through Macedonia. &l4&rAnd there accompanied him into Asia Sopater of Berea; and of the Thessalonians, Aristarchus and Secundus; and Gaius
   '32': of Derbe, and Timotheus; and of Asia, Tychicus and Trophimus. &l5&rThese going before tarried for us at Troas. &l6&rAnd we sailed away from Philippi after the days of unleavened bread, and came unto them to Troas in five days; where we abode seven days.
   '33': '&l7&rAnd upon the first day of the week, when the disciples came together
@@ -1033,9 +1121,11 @@ Book8:
   '47': yourselves know, that these hands have ministered unto my necessities, and to them that were with me. &l35&rI have shewed you all things, how that so labouring ye ought to support the weak, and to remember the words of the Lord Jesus, how he said, It is
   '48': more blessed to give than to receive. &l36&rAnd when he had thus spoken, he kneeled down, and prayed with them all. &l37&rAnd they all wept sore, and fell on Paul's neck, and kissed him, &l38&rSorrowing most of all for the words which he spake, that they
   '49': should see his face no more. And they accompanied him unto the ship.
-  '50': 'Chapter 21/nAnd it came to pass, that after we were gotten from them, and
-    had launched, we came with a straight course unto Coos, and the day following
-    unto Rhodes, and from thence unto Patara:'
+  '50': 'Chapter 21
+
+    And it came to pass, that after we were gotten from them, and had launched, we
+    came with a straight course unto Coos, and the day following unto Rhodes, and
+    from thence unto Patara:'
   end:
     c: 21
     v: 1
@@ -1043,41 +1133,42 @@ Book9:
   start:
     c: 21
     v: 2
-  '1': 'Chapter 21 Cont./n&l2&rAnd finding a ship sailing over unto Phenicia, we went
-    aboard, and set forth. &l3&rNow when we had discovered Cyprus, we left it on the
-    left hand, and sailed into Syria, and landed at Tyre: for there the ship was to
-    unlade her'
-  '2': 'burden. &l4&rAnd finding disciples, we tarried there seven days: who said
-    to Paul through the Spirit, that he should not go up to Jerusalem. &l5&rAnd when
-    we had accomplished those days, we departed and went our way; and they all brought
-    us on our way,'
-  '3': 'with wives and children, till we were out of the city: and we kneeled down
-    on the shore, and prayed. &l6&rAnd when we had taken our leave one of another,
-    we took ship; and they returned home again. &l7&rAnd when we had finished our
-    course from Tyre, we'
-  '4': 'came to Ptolemais, and saluted the brethren, and abode with them one day.
-    &l8&rAnd the next day we that were of Paul''s company departed, and came unto
-    Caesarea: and we entered into the house of Philip the evangelist, which was one
-    of the seven; and abode'
-  '5': with him. &l9&rAnd the same man had four daughters, virgins, which did prophesy. &l10&rAnd as we tarried there many days, there came down from Judaea a certain prophet, named Agabus. &l11&rAnd when he was come unto us, he took Paul's girdle, and bound his
-  '6': own hands and feet, and said, Thus saith the Holy Ghost, So shall the Jews at Jerusalem bind the man that owneth this girdle, and shall deliver him into the hands of the Gentiles. &l12&rAnd when we heard these things, both we, and they of that place,
-  '7': besought him not to go up to Jerusalem. &l13&rThen Paul answered, What mean ye to weep and to break mine heart? for I am ready not to be bound only, but also to die at Jerusalem for the name of the Lord Jesus. &l14&rAnd when he would not be persuaded, we
-  '8': ceased, saying, The will of the Lord be done. &l15&rAnd after those days we took up our carriages, and went up to Jerusalem. &l16&rThere went with us also certain of the disciples of Caesarea, and brought with them one Mnason of Cyprus, an old disciple,
-  '9': with whom we should lodge. &l17&rAnd when we were come to Jerusalem, the brethren received us gladly. &l18&rAnd the day following Paul went in with us unto James; and all the elders were present. &l19&rAnd when he had saluted them, he declared particularly
-  '10': 'what things God had wrought among the Gentiles by his ministry. &l20&rAnd
-    when they heard it, they glorified the Lord, and said unto him, Thou seest, brother,
+  '1': 'Chapter 21 Cont.
+
+    &l2&rAnd finding a ship sailing over unto Phenicia, we went aboard, and set forth.
+    &l3&rNow when we had discovered Cyprus, we left it on the left hand, and sailed
+    into Syria, and landed at Tyre: for there the ship was to unlade her burden.'
+  '2': ' &l4&rAnd finding disciples, we tarried there seven days: who said to Paul
+    through the Spirit, that he should not go up to Jerusalem. &l5&rAnd when we had
+    accomplished those days, we departed and went our way; and they all brought us
+    on our way, with wives'
+  '3': 'and children, till we were out of the city: and we kneeled down on the shore,
+    and prayed. &l6&rAnd when we had taken our leave one of another, we took ship;
+    and they returned home again. &l7&rAnd when we had finished our course from Tyre,
+    we came to'
+  '4': 'Ptolemais, and saluted the brethren, and abode with them one day. &l8&rAnd
+    the next day we that were of Paul''s company departed, and came unto Caesarea:
+    and we entered into the house of Philip the evangelist, which was one of the seven;
+    and abode with him.'
+  '5': ' &l9&rAnd the same man had four daughters, virgins, which did prophesy. &l10&rAnd
+    as we tarried there many days, there came down from Judaea a certain prophet,
+    named Agabus. &l11&rAnd when he was come unto us, he took Paul''s girdle, and
+    bound his own hands'
+  '6': and feet, and said, Thus saith the Holy Ghost, So shall the Jews at Jerusalem bind the man that owneth this girdle, and shall deliver him into the hands of the Gentiles. &l12&rAnd when we heard these things, both we, and they of that place, besought him
+  '7': not to go up to Jerusalem. &l13&rThen Paul answered, What mean ye to weep and to break mine heart? for I am ready not to be bound only, but also to die at Jerusalem for the name of the Lord Jesus. &l14&rAnd when he would not be persuaded, we ceased,
+  '8': saying, The will of the Lord be done. &l15&rAnd after those days we took up our carriages, and went up to Jerusalem. &l16&rThere went with us also certain of the disciples of Caesarea, and brought with them one Mnason of Cyprus, an old disciple, with whom
+  '9': we should lodge. &l17&rAnd when we were come to Jerusalem, the brethren received us gladly. &l18&rAnd the day following Paul went in with us unto James; and all the elders were present. &l19&rAnd when he had saluted them, he declared particularly what
+  '10': 'things God had wrought among the Gentiles by his ministry. &l20&rAnd when
+    they heard it, they glorified the Lord, and said unto him, Thou seest, brother,
     how many thousands of Jews there are which believe; and they are all zealous of
-    the law:'
-  '11': '&l21&rAnd they are informed of thee, that thou teachest all the Jews which
-    are among the Gentiles to forsake Moses, saying that they ought not to circumcise
-    their children, neither to walk after the customs. &l22&rWhat is it therefore?
-    the multitude must'
-  '12': 'needs come together: for they will hear that thou art come. &l23&rDo therefore
-    this that we say to thee: We have four men which have a vow on them; &l24&rThem
-    take, and purify thyself with them, and be at charges with them, that they may
-    shave their heads:'
-  '13': and all may know that those things, whereof they were informed concerning thee, are nothing; but that thou thyself also walkest orderly, and keepest the law. &l25&rAs touching the Gentiles which believe, we have written and concluded that they observe no
-  '14': such thing, save only that they keep themselves from things offered to idols, and from blood, and from strangled, and from fornication. &l26&rThen Paul took the men, and the next day purifying himself with them entered into the temple, to signify the
+    the law: &l21&rAnd'
+  '11': they are informed of thee, that thou teachest all the Jews which are among the Gentiles to forsake Moses, saying that they ought not to circumcise their children, neither to walk after the customs. &l22&rWhat is it therefore? the multitude must needs come
+  '12': 'together: for they will hear that thou art come. &l23&rDo therefore this
+    that we say to thee: We have four men which have a vow on them; &l24&rThem take,
+    and purify thyself with them, and be at charges with them, that they may shave
+    their heads: and all'
+  '13': may know that those things, whereof they were informed concerning thee, are nothing; but that thou thyself also walkest orderly, and keepest the law. &l25&rAs touching the Gentiles which believe, we have written and concluded that they observe no such
+  '14': thing, save only that they keep themselves from things offered to idols, and from blood, and from strangled, and from fornication. &l26&rThen Paul took the men, and the next day purifying himself with them entered into the temple, to signify the
   '15': accomplishment of the days of purification, until that an offering should be offered for every one of them. &l27&rAnd when the seven days were almost ended, the Jews which were of Asia, when they saw him in the temple, stirred up all the people, and laid
   '16': 'hands on him, &l28&rCrying out, Men of Israel, help: This is the man, that
     teacheth all men every where against the people, and the law, and this place:
@@ -1102,10 +1193,12 @@ Book9:
     citizen of no mean city: and, I beseech thee, suffer me to speak unto the people.
     &l40&rAnd'
   '23': when he had given him licence, Paul stood on the stairs, and beckoned with the hand unto the people. And when there was made a great silence, he spake unto them in the Hebrew tongue, saying,
-  '24': 'Chapter 22/nMen, brethren, and fathers, hear ye my defence which I make now
-    unto you. &l2&r(And when they heard that he spake in the Hebrew tongue to them,
-    they kept the more silence: and he saith,) &l3&rI am verily a man which am a Jew,
-    born in Tarsus, a'
+  '24': 'Chapter 22
+
+    Men, brethren, and fathers, hear ye my defence which I make now unto you. &l2&r(And
+    when they heard that he spake in the Hebrew tongue to them, they kept the more
+    silence: and he saith,) &l3&rI am verily a man which am a Jew, born in Tarsus,
+    a'
   '25': city in Cilicia, yet brought up in this city at the feet of Gamaliel, and taught according to the perfect manner of the law of the fathers, and was zealous toward God, as ye all are this day. &l4&rAnd I persecuted this way unto the death, binding and
   '26': 'delivering into prisons both men and women. &l5&rAs also the high priest
     doth bear me witness, and all the estate of the elders: from whom also I received
@@ -1140,7 +1233,11 @@ Book9:
     have known the certainty wherefore he was accused of the Jews, he loosed him from
     his bands, and'
   '40': commanded the chief priests and all their council to appear, and brought Paul down, and set him before them.
-  '41': Chapter 23/nAnd Paul, earnestly beholding the council, said, Men and brethren, I have lived in all good conscience before God until this day. &l2&rAnd the high priest Ananias commanded them that stood by him to smite him on the mouth. &l3&rThen said Paul
+  '41': 'Chapter 23
+
+    And Paul, earnestly beholding the council, said, Men and brethren, I have lived
+    in all good conscience before God until this day. &l2&rAnd the high priest Ananias
+    commanded them that stood by him to smite him on the mouth. &l3&rThen said Paul'
   '42': 'unto him, God shall smite thee, thou whited wall: for sittest thou to judge
     me after the law, and commandest me to be smitten contrary to the law? &l4&rAnd
     they that stood by said, Revilest thou God''s high priest? &l5&rThen said Paul,
@@ -1174,10 +1271,11 @@ Book10:
   start:
     c: 23
     v: 17
-  '1': 'Chapter 23 Cont./n&l17&rThen Paul called one of the centurions unto him, and
-    said, Bring this young man unto the chief captain: for he hath a certain thing
-    to tell him. &l18&rSo he took him, and brought him to the chief captain, and said,
-    Paul the prisoner'
+  '1': 'Chapter 23 Cont.
+
+    &l17&rThen Paul called one of the centurions unto him, and said, Bring this young
+    man unto the chief captain: for he hath a certain thing to tell him. &l18&rSo
+    he took him, and brought him to the chief captain, and said, Paul the prisoner'
   '2': called me unto him, and prayed me to bring this young man unto thee, who hath something to say unto thee. &l19&rThen the chief captain took him by the hand, and went with him aside privately, and asked him, What is that thou hast to tell me? &l20&rAnd he
   '3': 'said, The Jews have agreed to desire thee that thou wouldest bring down Paul
     to morrow into the council, as though they would enquire somewhat of him more
@@ -1206,7 +1304,11 @@ Book10:
     he asked of what province he was. And when he understood that he was of Cilicia;
     &l35&rI will'
   '11': hear thee, said he, when thine accusers are also come. And he commanded him to be kept in Herod's judgment hall.
-  '12': Chapter 24/nAnd after five days Ananias the high priest descended with the elders, and with a certain orator named Tertullus, who informed the governor against Paul. &l2&rAnd when he was called forth, Tertullus began to accuse him, saying, Seeing that by
+  '12': 'Chapter 24
+
+    And after five days Ananias the high priest descended with the elders, and with
+    a certain orator named Tertullus, who informed the governor against Paul. &l2&rAnd
+    when he was called forth, Tertullus began to accuse him, saying, Seeing that by'
   '13': thee we enjoy great quietness, and that very worthy deeds are done unto this nation by thy providence, &l3&rWe accept it always, and in all places, most noble Felix, with all thankfulness. &l4&rNotwithstanding, that I be not further tedious unto thee, I
   '14': 'pray thee that thou wouldest hear us of thy clemency a few words. &l5&rFor
     we have found this man a pestilent fellow, and a mover of sedition among all the
@@ -1246,7 +1348,12 @@ Book10:
     him. &l27&rBut'
   '26': 'after two years Porcius Festus came into Felix'' room: and Felix, willing
     to shew the Jews a pleasure, left Paul bound.'
-  '27': Chapter 25/nNow when Festus was come into the province, after three days he ascended from Caesarea to Jerusalem. &l2&rThen the high priest and the chief of the Jews informed him against Paul, and besought him, &l3&rAnd desired favour against him, that he
+  '27': 'Chapter 25
+
+    Now when Festus was come into the province, after three days he ascended from
+    Caesarea to Jerusalem. &l2&rThen the high priest and the chief of the Jews informed
+    him against Paul, and besought him, &l3&rAnd desired favour against him, that
+    he'
   '28': would send for him to Jerusalem, laying wait in the way to kill him. &l4&rBut Festus answered, that Paul should be kept at Caesarea, and that he himself would depart shortly thither. &l5&rLet them therefore, said he, which among you are able, go down with
   '29': me, and accuse this man, if there be any wickedness in him. &l6&rAnd when he had tarried among them more than ten days, he went down unto Caesarea; and the next day sitting on the judgment seat commanded Paul to be brought. &l7&rAnd when he was come, the
   '30': Jews which came down from Jerusalem stood round about, and laid many and grievous complaints against Paul, which they could not prove. &l8&rWhile he answered for himself, Neither against the law of the Jews, neither against the temple, nor yet against
@@ -1270,10 +1377,12 @@ Book10:
   '40': forth. &l24&rAnd Festus said, King Agrippa, and all men which are here present with us, ye see this man, about whom all the multitude of the Jews have dealt with me, both at Jerusalem, and also here, crying that he ought not to live any longer. &l25&rBut
   '41': when I found that he had committed nothing worthy of death, and that he himself hath appealed to Augustus, I have determined to send him. &l26&rOf whom I have no certain thing to write unto my lord. Wherefore I have brought him forth before you, and
   '42': specially before thee, O king Agrippa, that, after examination had, I might have somewhat to write. &l27&rFor it seemeth to me unreasonable to send a prisoner, and not withal to signify the crimes laid against him.
-  '43': 'Chapter 26/nThen Agrippa said unto Paul, Thou art permitted to speak for
-    thyself. Then Paul stretched forth the hand, and answered for himself: &l2&rI
-    think myself happy, king Agrippa, because I shall answer for myself this day before
-    thee touching all the'
+  '43': 'Chapter 26
+
+    Then Agrippa said unto Paul, Thou art permitted to speak for thyself. Then Paul
+    stretched forth the hand, and answered for himself: &l2&rI think myself happy,
+    king Agrippa, because I shall answer for myself this day before thee touching
+    all the'
   '44': 'things whereof I am accused of the Jews: &l3&rEspecially because I know thee
     to be expert in all customs and questions which are among the Jews: wherefore
     I beseech thee to hear me patiently. &l4&rMy manner of life from my youth, which
@@ -1300,10 +1409,11 @@ Book11:
   start:
     c: 26
     v: 15
-  '1': 'Chapter 26 Cont./n&l15&rAnd I said, Who art thou, Lord? And he said, I am
-    Jesus whom thou persecutest. &l16&rBut rise, and stand upon thy feet: for I have
-    appeared unto thee for this purpose, to make thee a minister and a witness both
-    of these things which'
+  '1': 'Chapter 26 Cont.
+
+    &l15&rAnd I said, Who art thou, Lord? And he said, I am Jesus whom thou persecutest.
+    &l16&rBut rise, and stand upon thy feet: for I have appeared unto thee for this
+    purpose, to make thee a minister and a witness both of these things which'
   '2': thou hast seen, and of those things in the which I will appear unto thee; &l17&rDelivering thee from the people, and from the Gentiles, unto whom now I send thee, &l18&rTo open their eyes, and to turn them from darkness to light, and from the power of
   '3': 'Satan unto God, that they may receive forgiveness of sins, and inheritance
     among them which are sanctified by faith that is in me. &l19&rWhereupon, O king
@@ -1325,7 +1435,12 @@ Book11:
     they that sat with them: &l31&rAnd when they were gone aside, they talked between
     themselves,'
   '10': saying, This man doeth nothing worthy of death or of bonds. &l32&rThen said Agrippa unto Festus, This man might have been set at liberty, if he had not appealed unto Caesar.
-  '11': Chapter 27/nAnd when it was determined that we should sail into Italy, they delivered Paul and certain other prisoners unto one named Julius, a centurion of Augustus' band. &l2&rAnd entering into a ship of Adramyttium, we launched, meaning to sail by the
+  '11': 'Chapter 27
+
+    And when it was determined that we should sail into Italy, they delivered Paul
+    and certain other prisoners unto one named Julius, a centurion of Augustus'' band.
+    &l2&rAnd entering into a ship of Adramyttium, we launched, meaning to sail by
+    the'
   '12': coasts of Asia; one Aristarchus, a Macedonian of Thessalonica, being with us. &l3&rAnd the next day we touched at Sidon. And Julius courteously entreated Paul, and gave him liberty to go unto his friends to refresh himself. &l4&rAnd when we had launched
   '13': from thence, we sailed under Cyprus, because the winds were contrary. &l5&rAnd when we had sailed over the sea of Cilicia and Pamphylia, we came to Myra, a city of Lycia. &l6&rAnd there the centurion found a ship of Alexandria sailing into Italy; and he
   '14': put us therein. &l7&rAnd when we had sailed slowly many days, and scarce were come over against Cnidus, the wind not suffering us, we sailed under Crete, over against Salmone; &l8&rAnd, hardly passing it, came unto a place which is called The fair havens;
@@ -1370,10 +1485,12 @@ Book11:
   '32': the soldiers' counsel was to kill the prisoners, lest any of them should swim out, and escape. &l43&rBut the centurion, willing to save Paul, kept them from their purpose; and commanded that they which could swim should cast themselves first into the sea,
   '33': 'and get to land: &l44&rAnd the rest, some on boards, and some on broken pieces
     of the ship. And so it came to pass, that they escaped all safe to land.'
-  '34': 'Chapter 28/nAnd when they were escaped, then they knew that the island was
-    called Melita. &l2&rAnd the barbarous people shewed us no little kindness: for
-    they kindled a fire, and received us every one, because of the present rain, and
-    because of the cold.'
+  '34': 'Chapter 28
+
+    And when they were escaped, then they knew that the island was called Melita.
+    &l2&rAnd the barbarous people shewed us no little kindness: for they kindled a
+    fire, and received us every one, because of the present rain, and because of the
+    cold.'
   '35': '&l3&rAnd when Paul had gathered a bundle of sticks, and laid them on the
     fire, there came a viper out of the heat, and fastened on his hand. &l4&rAnd when
     the barbarians saw the venomous beast hang on his hand, they said among themselves,
@@ -1430,7 +1547,11 @@ Book12:
   start:
     c: 28
     v: 29
-  '1': Chapter 28 Cont./n&l29&rAnd when he had said these words, the Jews departed, and had great reasoning among themselves. &l30&rAnd Paul dwelt two whole years in his own hired house, and received all that came in unto him, &l31&rPreaching the kingdom of God,
+  '1': 'Chapter 28 Cont.
+
+    &l29&rAnd when he had said these words, the Jews departed, and had great reasoning
+    among themselves. &l30&rAnd Paul dwelt two whole years in his own hired house,
+    and received all that came in unto him, &l31&rPreaching the kingdom of God,'
   '2': and teaching those things which concern the Lord Jesus Christ, with all confidence, no man forbidding him.
   end:
     c: 28

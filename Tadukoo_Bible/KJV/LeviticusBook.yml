@@ -2,7 +2,12 @@ Book1:
   start:
     c: 1
     v: 1
-  '1': Chapter 1/nAnd the Lord called unto Moses, and spake unto him out of the tabernacle of the congregation, saying, &l2&rSpeak unto the children of Israel, and say unto them, If any man of you bring an offering unto the Lord, ye shall bring your offering of
+  '1': 'Chapter 1
+
+    And the Lord called unto Moses, and spake unto him out of the tabernacle of the
+    congregation, saying, &l2&rSpeak unto the children of Israel, and say unto them,
+    If any man of you bring an offering unto the Lord, ye shall bring your offering
+    of'
   '2': 'the cattle, even of the herd, and of the flock. &l3&rIf his offering be a
     burnt sacrifice of the herd, let him offer a male without blemish: he shall offer
     it of his own voluntary will at the door of the tabernacle of the congregation
@@ -33,10 +38,11 @@ Book1:
   '11': 'thereof, but shall not divide it asunder: and the priest shall burn it upon
     the altar, upon the wood that is upon the fire: it is a burnt sacrifice, an offering
     made by fire, of a sweet savour unto the Lord.'
-  '12': 'Chapter 2/nAnd when any will offer a meat offering unto the Lord, his offering
-    shall be of fine flour; and he shall pour oil upon it, and put frankincense thereon:
-    &l2&rAnd he shall bring it to Aaron''s sons the priests: and he shall take thereout
-    his'
+  '12': 'Chapter 2
+
+    And when any will offer a meat offering unto the Lord, his offering shall be of
+    fine flour; and he shall pour oil upon it, and put frankincense thereon: &l2&rAnd
+    he shall bring it to Aaron''s sons the priests: and he shall take thereout his'
   '13': 'handful of the flour thereof, and of the oil thereof, with all the frankincense
     thereof; and the priest shall burn the memorial of it upon the altar, to be an
     offering made by fire, of a sweet savour unto the Lord: &l3&rAnd the remnant of
@@ -74,7 +80,11 @@ Book1:
     memorial of it, part of the beaten corn thereof, and part of the oil thereof,
     with all the'
   '22': 'frankincense thereof: it is an offering made by fire unto the Lord.'
-  '23': Chapter 3/nAnd if his oblation be a sacrifice of peace offering, if he offer it of the herd; whether it be a male or female, he shall offer it without blemish before the Lord. &l2&rAnd he shall lay his hand upon the head of his offering, and kill it at the
+  '23': 'Chapter 3
+
+    And if his oblation be a sacrifice of peace offering, if he offer it of the herd;
+    whether it be a male or female, he shall offer it without blemish before the Lord.
+    &l2&rAnd he shall lay his hand upon the head of his offering, and kill it at the'
   '24': 'door of the tabernacle of the congregation: and Aaron''s sons the priests
     shall sprinkle the blood upon the altar round about. &l3&rAnd he shall offer of
     the sacrifice of the peace offering an offering made by fire unto the Lord; the
@@ -103,7 +113,12 @@ Book1:
     shall burn them upon the altar: it is the food of the offering made by fire for
     a sweet savour: all'
   '33': the fat is the Lord's. &l17&rIt shall be a perpetual statute for your generations throughout all your dwellings, that ye eat neither fat nor blood.
-  '34': Chapter 4/nAnd the Lord spake unto Moses, saying, &l2&rSpeak unto the children of Israel, saying, If a soul shall sin through ignorance against any of the commandments of the Lord concerning things which ought not to be done, and shall do against any of
+  '34': 'Chapter 4
+
+    And the Lord spake unto Moses, saying, &l2&rSpeak unto the children of Israel,
+    saying, If a soul shall sin through ignorance against any of the commandments
+    of the Lord concerning things which ought not to be done, and shall do against
+    any of'
   '35': 'them: &l3&rIf the priest that is anointed do sin according to the sin of
     the people; then let him bring for his sin, which he hath sinned, a young bullock
     without blemish unto the Lord for a sin offering. &l4&rAnd he shall bring the
@@ -151,10 +166,11 @@ Book2:
   start:
     c: 4
     v: 26
-  '1': 'Chapter 4 Cont./n&l26&rAnd he shall burn all his fat upon the altar, as the
-    fat of the sacrifice of peace offerings: and the priest shall make an atonement
-    for him as concerning his sin, and it shall be forgiven him. &l27&rAnd if any
-    one of the common'
+  '1': 'Chapter 4 Cont.
+
+    &l26&rAnd he shall burn all his fat upon the altar, as the fat of the sacrifice
+    of peace offerings: and the priest shall make an atonement for him as concerning
+    his sin, and it shall be forgiven him. &l27&rAnd if any one of the common'
   '2': 'people sin through ignorance, while he doeth somewhat against any of the commandments
     of the Lord concerning things which ought not to be done, and be guilty; &l28&rOr
     if his sin, which he hath sinned, come to his knowledge: then he shall bring his'
@@ -169,7 +185,11 @@ Book2:
   '8': 'the priest shall burn them upon the altar, according to the offerings made
     by fire unto the Lord: and the priest shall make an atonement for his sin that
     he hath committed, and it shall be forgiven him.'
-  '9': Chapter 5/nAnd if a soul sin, and hear the voice of swearing, and is a witness, whether he hath seen or known of it; if he do not utter it, then he shall bear his iniquity. &l2&rOr if a soul touch any unclean thing, whether it be a carcase of an unclean
+  '9': 'Chapter 5
+
+    And if a soul sin, and hear the voice of swearing, and is a witness, whether he
+    hath seen or known of it; if he do not utter it, then he shall bear his iniquity.
+    &l2&rOr if a soul touch any unclean thing, whether it be a carcase of an unclean'
   '10': beast, or a carcase of unclean cattle, or the carcase of unclean creeping things, and if it be hidden from him; he also shall be unclean, and guilty. &l3&rOr if he touch the uncleanness of man, whatsoever uncleanness it be that a man shall be defiled
   '11': withal, and it be hid from him; when he knoweth of it, then he shall be guilty. &l4&rOr if a soul swear, pronouncing with his lips to do evil, or to do good, whatsoever it be that a man shall pronounce with an oath, and it be hid from him; when he knoweth
   '12': 'of it, then he shall be guilty in one of these. &l5&rAnd it shall be, when
@@ -207,7 +227,12 @@ Book2:
   '23': 'priest: and the priest shall make an atonement for him concerning his ignorance
     wherein he erred and wist it not, and it shall be forgiven him. &l19&rIt is a
     trespass offering: he hath certainly trespassed against the Lord.'
-  '24': Chapter 6/nAnd the Lord spake unto Moses, saying, &l2&rIf a soul sin, and commit a trespass against the Lord, and lie unto his neighbour in that which was delivered him to keep, or in fellowship, or in a thing taken away by violence, or hath deceived his
+  '24': 'Chapter 6
+
+    And the Lord spake unto Moses, saying, &l2&rIf a soul sin, and commit a trespass
+    against the Lord, and lie unto his neighbour in that which was delivered him to
+    keep, or in fellowship, or in a thing taken away by violence, or hath deceived
+    his'
   '25': 'neighbour; &l3&rOr have found that which was lost, and lieth concerning it,
     and sweareth falsely; in any of all these that a man doeth, sinning therein: &l4&rThen
     it shall be, because he hath sinned, and is guilty, that he shall restore that
@@ -264,10 +289,12 @@ Book2:
   '42': 'eat thereof: it is most holy. &l30&rAnd no sin offering, whereof any of the
     blood is brought into the tabernacle of the congregation to reconcile withal in
     the holy place, shall be eaten: it shall be burnt in the fire.'
-  '43': 'Chapter 7/nLikewise this is the law of the trespass offering: it is most
-    holy. &l2&rIn the place where they kill the burnt offering shall they kill the
-    trespass offering: and the blood thereof shall he sprinkle round about upon the
-    altar. &l3&rAnd he shall'
+  '43': 'Chapter 7
+
+    Likewise this is the law of the trespass offering: it is most holy. &l2&rIn the
+    place where they kill the burnt offering shall they kill the trespass offering:
+    and the blood thereof shall he sprinkle round about upon the altar. &l3&rAnd he
+    shall'
   '44': 'offer of it all the fat thereof; the rump, and the fat that covereth the
     inwards, &l4&rAnd the two kidneys, and the fat that is on them, which is by the
     flanks, and the caul that is above the liver, with the kidneys, it shall he take
@@ -294,38 +321,46 @@ Book3:
   start:
     c: 7
     v: 15
-  '1': Chapter 7 Cont./n&l15&rAnd the flesh of the sacrifice of his peace offerings for thanksgiving shall be eaten the same day that it is offered; he shall not leave any of it until the morning. &l16&rBut if the sacrifice of his offering be a vow, or a
-  '2': 'voluntary offering, it shall be eaten the same day that he offereth his sacrifice:
-    and on the morrow also the remainder of it shall be eaten: &l17&rBut the remainder
+  '1': 'Chapter 7 Cont.
+
+    &l15&rAnd the flesh of the sacrifice of his peace offerings for thanksgiving shall
+    be eaten the same day that it is offered; he shall not leave any of it until the
+    morning. &l16&rBut if the sacrifice of his offering be a vow, or a voluntary'
+  '2': 'offering, it shall be eaten the same day that he offereth his sacrifice: and
+    on the morrow also the remainder of it shall be eaten: &l17&rBut the remainder
     of the flesh of the sacrifice on the third day shall be burnt with fire. &l18&rAnd
-    if any'
-  '3': 'of the flesh of the sacrifice of his peace offerings be eaten at all on the
-    third day, it shall not be accepted, neither shall it be imputed unto him that
-    offereth it: it shall be an abomination, and the soul that eateth of it shall
-    bear his iniquity.'
-  '4': '&l19&rAnd the flesh that toucheth any unclean thing shall not be eaten; it
-    shall be burnt with fire: and as for the flesh, all that be clean shall eat thereof.
-    &l20&rBut the soul that eateth of the flesh of the sacrifice of peace offerings,
-    that pertain'
-  '5': unto the Lord, having his uncleanness upon him, even that soul shall be cut off from his people. &l21&rMoreover the soul that shall touch any unclean thing, as the uncleanness of man, or any unclean beast, or any abominable unclean thing, and eat of the
-  '6': flesh of the sacrifice of peace offerings, which pertain unto the Lord, even that soul shall be cut off from his people. &l22&rAnd the Lord spake unto Moses, saying, &l23&rSpeak unto the children of Israel, saying, Ye shall eat no manner of fat, of ox, or
-  '7': 'of sheep, or of goat. &l24&rAnd the fat of the beast that dieth of itself,
-    and the fat of that which is torn with beasts, may be used in any other use: but
-    ye shall in no wise eat of it. &l25&rFor whosoever eateth the fat of the beast,
-    of which men offer'
-  '8': an offering made by fire unto the Lord, even the soul that eateth it shall be cut off from his people. &l26&rMoreover ye shall eat no manner of blood, whether it be of fowl or of beast, in any of your dwellings. &l27&rWhatsoever soul it be that eateth any
-  '9': manner of blood, even that soul shall be cut off from his people. &l28&rAnd the Lord spake unto Moses, saying, &l29&rSpeak unto the children of Israel, saying, He that offereth the sacrifice of his peace offerings unto the Lord shall bring his oblation
-  '10': unto the Lord of the sacrifice of his peace offerings. &l30&rHis own hands shall bring the offerings of the Lord made by fire, the fat with the breast, it shall he bring, that the breast may be waved for a wave offering before the Lord. &l31&rAnd the
-  '11': 'priest shall burn the fat upon the altar: but the breast shall be Aaron''s
-    and his sons''. &l32&rAnd the right shoulder shall ye give unto the priest for
-    an heave offering of the sacrifices of your peace offerings. &l33&rHe among the
-    sons of Aaron, that'
-  '12': offereth the blood of the peace offerings, and the fat, shall have the right shoulder for his part. &l34&rFor the wave breast and the heave shoulder have I taken of the children of Israel from off the sacrifices of their peace offerings, and have given
-  '13': them unto Aaron the priest and unto his sons by a statute for ever from among the children of Israel. &l35&rThis is the portion of the anointing of Aaron, and of the anointing of his sons, out of the offerings of the Lord made by fire, in the day when he
-  '14': presented them to minister unto the Lord in the priest's office; &l36&rWhich the Lord commanded to be given them of the children of Israel, in the day that he anointed them, by a statute for ever throughout their generations. &l37&rThis is the law of the
-  '15': burnt offering, of the meat offering, and of the sin offering, and of the trespass offering, and of the consecrations, and of the sacrifice of the peace offerings; &l38&rWhich the Lord commanded Moses in mount Sinai, in the day that he commanded the
-  '16': children of Israel to offer their oblations unto the Lord, in the wilderness of Sinai.
-  '17': Chapter 8/nAnd the Lord spake unto Moses, saying, &l2&rTake Aaron and his sons with him, and the garments, and the anointing oil, and a bullock for the sin offering, and two rams, and a basket of unleavened bread; &l3&rAnd gather thou all the congregation
+    if any of the'
+  '3': 'flesh of the sacrifice of his peace offerings be eaten at all on the third
+    day, it shall not be accepted, neither shall it be imputed unto him that offereth
+    it: it shall be an abomination, and the soul that eateth of it shall bear his
+    iniquity. &l19&rAnd'
+  '4': 'the flesh that toucheth any unclean thing shall not be eaten; it shall be
+    burnt with fire: and as for the flesh, all that be clean shall eat thereof. &l20&rBut
+    the soul that eateth of the flesh of the sacrifice of peace offerings, that pertain
+    unto the'
+  '5': Lord, having his uncleanness upon him, even that soul shall be cut off from his people. &l21&rMoreover the soul that shall touch any unclean thing, as the uncleanness of man, or any unclean beast, or any abominable unclean thing, and eat of the flesh of
+  '6': the sacrifice of peace offerings, which pertain unto the Lord, even that soul shall be cut off from his people. &l22&rAnd the Lord spake unto Moses, saying, &l23&rSpeak unto the children of Israel, saying, Ye shall eat no manner of fat, of ox, or of sheep,
+  '7': 'or of goat. &l24&rAnd the fat of the beast that dieth of itself, and the fat
+    of that which is torn with beasts, may be used in any other use: but ye shall
+    in no wise eat of it. &l25&rFor whosoever eateth the fat of the beast, of which
+    men offer an offering'
+  '8': made by fire unto the Lord, even the soul that eateth it shall be cut off from his people. &l26&rMoreover ye shall eat no manner of blood, whether it be of fowl or of beast, in any of your dwellings. &l27&rWhatsoever soul it be that eateth any manner of
+  '9': blood, even that soul shall be cut off from his people. &l28&rAnd the Lord spake unto Moses, saying, &l29&rSpeak unto the children of Israel, saying, He that offereth the sacrifice of his peace offerings unto the Lord shall bring his oblation unto the Lord
+  '10': of the sacrifice of his peace offerings. &l30&rHis own hands shall bring the offerings of the Lord made by fire, the fat with the breast, it shall he bring, that the breast may be waved for a wave offering before the Lord. &l31&rAnd the priest shall burn
+  '11': 'the fat upon the altar: but the breast shall be Aaron''s and his sons''.
+    &l32&rAnd the right shoulder shall ye give unto the priest for an heave offering
+    of the sacrifices of your peace offerings. &l33&rHe among the sons of Aaron, that
+    offereth the blood of'
+  '12': the peace offerings, and the fat, shall have the right shoulder for his part. &l34&rFor the wave breast and the heave shoulder have I taken of the children of Israel from off the sacrifices of their peace offerings, and have given them unto Aaron the
+  '13': priest and unto his sons by a statute for ever from among the children of Israel. &l35&rThis is the portion of the anointing of Aaron, and of the anointing of his sons, out of the offerings of the Lord made by fire, in the day when he presented them to
+  '14': minister unto the Lord in the priest's office; &l36&rWhich the Lord commanded to be given them of the children of Israel, in the day that he anointed them, by a statute for ever throughout their generations. &l37&rThis is the law of the burnt offering, of
+  '15': the meat offering, and of the sin offering, and of the trespass offering, and of the consecrations, and of the sacrifice of the peace offerings; &l38&rWhich the Lord commanded Moses in mount Sinai, in the day that he commanded the children of Israel to
+  '16': offer their oblations unto the Lord, in the wilderness of Sinai.
+  '17': 'Chapter 8
+
+    And the Lord spake unto Moses, saying, &l2&rTake Aaron and his sons with him,
+    and the garments, and the anointing oil, and a bullock for the sin offering, and
+    two rams, and a basket of unleavened bread; &l3&rAnd gather thou all the congregation'
   '18': together unto the door of the tabernacle of the congregation. &l4&rAnd Moses did as the Lord commanded him; and the assembly was gathered together unto the door of the tabernacle of the congregation. &l5&rAnd Moses said unto the congregation, This is the
   '19': thing which the Lord commanded to be done. &l6&rAnd Moses brought Aaron and his sons, and washed them with water. &l7&rAnd he put upon him the coat, and girded him with the girdle, and clothed him with the robe, and put the ephod upon him, and he girded
   '20': 'him with the curious girdle of the ephod, and bound it unto him therewith.
@@ -386,7 +421,12 @@ Book3:
     die not: for so I am commanded. &l36&rSo Aaron and his sons did all things which
     the Lord commanded by'
   '38': the hand of Moses.
-  '39': Chapter 9/nAnd it came to pass on the eighth day, that Moses called Aaron and his sons, and the elders of Israel; &l2&rAnd he said unto Aaron, Take thee a young calf for a sin offering, and a ram for a burnt offering, without blemish, and offer them before
+  '39': 'Chapter 9
+
+    And it came to pass on the eighth day, that Moses called Aaron and his sons, and
+    the elders of Israel; &l2&rAnd he said unto Aaron, Take thee a young calf for
+    a sin offering, and a ram for a burnt offering, without blemish, and offer them
+    before'
   '40': the Lord. &l3&rAnd unto the children of Israel thou shalt speak, saying, Take ye a kid of the goats for a sin offering; and a calf and a lamb, both of the first year, without blemish, for a burnt offering; &l4&rAlso a bullock and a ram for peace offerings,
   '41': 'to sacrifice before the Lord; and a meat offering mingled with oil: for to
     day the Lord will appear unto you. &l5&rAnd they brought that which Moses commanded
@@ -427,13 +467,21 @@ Book4:
   start:
     c: 9
     v: 22
-  '1': Chapter 9 Cont./n&l22&rAnd Aaron lifted up his hand toward the people, and blessed them, and came down from offering of the sin offering, and the burnt offering, and peace offerings. &l23&rAnd Moses and Aaron went into the tabernacle of the congregation,
+  '1': 'Chapter 9 Cont.
+
+    &l22&rAnd Aaron lifted up his hand toward the people, and blessed them, and came
+    down from offering of the sin offering, and the burnt offering, and peace offerings.
+    &l23&rAnd Moses and Aaron went into the tabernacle of the congregation,'
   '2': 'and came out, and blessed the people: and the glory of the Lord appeared unto
     all the people. &l24&rAnd there came a fire out from before the Lord, and consumed
     upon the altar the burnt offering and the fat: which when all the people saw,
     they shouted, and'
   '3': fell on their faces.
-  '4': Chapter 10/nAnd Nadab and Abihu, the sons of Aaron, took either of them his censer, and put fire therein, and put incense thereon, and offered strange fire before the Lord, which he commanded them not. &l2&rAnd there went out fire from the Lord, and
+  '4': 'Chapter 10
+
+    And Nadab and Abihu, the sons of Aaron, took either of them his censer, and put
+    fire therein, and put incense thereon, and offered strange fire before the Lord,
+    which he commanded them not. &l2&rAnd there went out fire from the Lord, and'
   '5': devoured them, and they died before the Lord. &l3&rThen Moses said unto Aaron, This is it that the Lord spake, saying, I will be sanctified in them that come nigh me, and before all the people I will be glorified. And Aaron held his peace. &l4&rAnd Moses
   '6': called Mishael and Elzaphan, the sons of Uzziel the uncle of Aaron, and said unto them, Come near, carry your brethren from before the sanctuary out of the camp. &l5&rSo they went near, and carried them in their coats out of the camp; as Moses had said.
   '7': '&l6&rAnd Moses said unto Aaron, and unto Eleazar and unto Ithamar, his sons,
@@ -471,7 +519,11 @@ Book4:
     their burnt offering before the Lord; and such things have befallen me: and if
     I had eaten the sin'
   '17': offering to day, should it have been accepted in the sight of the Lord? &l20&rAnd when Moses heard that, he was content.
-  '18': Chapter 11/nAnd the Lord spake unto Moses and to Aaron, saying unto them, &l2&rSpeak unto the children of Israel, saying, These are the beasts which ye shall eat among all the beasts that are on the earth. &l3&rWhatsoever parteth the hoof, and is
+  '18': 'Chapter 11
+
+    And the Lord spake unto Moses and to Aaron, saying unto them, &l2&rSpeak unto
+    the children of Israel, saying, These are the beasts which ye shall eat among
+    all the beasts that are on the earth. &l3&rWhatsoever parteth the hoof, and is'
   '19': 'clovenfooted, and cheweth the cud, among the beasts, that shall ye eat. &l4&rNevertheless
     these shall ye not eat of them that chew the cud, or of them that divide the hoof:
     as the camel, because he cheweth the cud, but divideth not the hoof; he is unclean'
@@ -534,10 +586,12 @@ Book4:
     that moveth in the waters, and of every creature that creepeth upon the earth:
     &l47&rTo make a'
   '42': difference between the unclean and the clean, and between the beast that may be eaten and the beast that may not be eaten.
-  '43': 'Chapter 12/nAnd the Lord spake unto Moses, saying, &l2&rSpeak unto the children
-    of Israel, saying, If a woman have conceived seed, and born a man child: then
-    she shall be unclean seven days; according to the days of the separation for her
-    infirmity shall'
+  '43': 'Chapter 12
+
+    And the Lord spake unto Moses, saying, &l2&rSpeak unto the children of Israel,
+    saying, If a woman have conceived seed, and born a man child: then she shall be
+    unclean seven days; according to the days of the separation for her infirmity
+    shall'
   '44': she be unclean. &l3&rAnd in the eighth day the flesh of his foreskin shall be circumcised. &l4&rAnd she shall then continue in the blood of her purifying three and thirty days; she shall touch no hallowed thing, nor come into the sanctuary, until the days
   '45': 'of her purifying be fulfilled. &l5&rBut if she bear a maid child, then she
     shall be unclean two weeks, as in her separation: and she shall continue in the
@@ -550,8 +604,13 @@ Book4:
   '47': before the Lord, and make an atonement for her; and she shall be cleansed from the issue of her blood. This is the law for her that hath born a male or a female. &l8&rAnd if she be not able to bring a lamb, then she shall bring two turtles, or two young
   '48': 'pigeons; the one for the burnt offering, and the other for a sin offering:
     and the priest shall make an atonement for her, and she shall be clean.'
-  '49': Chapter 13/nAnd the Lord spake unto Moses and Aaron, saying, &l2&rWhen a man shall have in the skin of his flesh a rising, a scab, or bright spot, and it be in the skin of his flesh like the plague of leprosy; then he shall be brought unto Aaron the
-  '50': 'priest, or unto one of his sons the priests:'
+  '49': 'Chapter 13
+
+    And the Lord spake unto Moses and Aaron, saying, &l2&rWhen a man shall have in
+    the skin of his flesh a rising, a scab, or bright spot, and it be in the skin
+    of his flesh like the plague of leprosy; then he shall be brought unto Aaron the
+    priest,'
+  '50': 'or unto one of his sons the priests:'
   end:
     c: 13
     v: 2
@@ -559,10 +618,11 @@ Book5:
   start:
     c: 13
     v: 3
-  '1': 'Chapter 13 Cont./n&l3&rAnd the priest shall look on the plague in the skin
-    of the flesh: and when the hair in the plague is turned white, and the plague
-    in sight be deeper than the skin of his flesh, it is a plague of leprosy: and
-    the priest shall look on'
+  '1': 'Chapter 13 Cont.
+
+    &l3&rAnd the priest shall look on the plague in the skin of the flesh: and when
+    the hair in the plague is turned white, and the plague in sight be deeper than
+    the skin of his flesh, it is a plague of leprosy: and the priest shall look on'
   '2': 'him, and pronounce him unclean. &l4&rIf the bright spot be white in the skin
     of his flesh, and in sight be not deeper than the skin, and the hair thereof be
     not turned white; then the priest shall shut up him that hath the plague seven
@@ -689,10 +749,12 @@ Book5:
     shalt burn that'
   '36': wherein the plague is with fire. &l58&rAnd the garment, either warp, or woof, or whatsoever thing of skin it be, which thou shalt wash, if the plague be departed from them, then it shall be washed the second time, and shall be clean. &l59&rThis is the law
   '37': of the plague of leprosy in a garment of woollen or linen, either in the warp, or woof, or any thing of skins, to pronounce it clean, or to pronounce it unclean.
-  '38': 'Chapter 14/nAnd the Lord spake unto Moses, saying, &l2&rThis shall be the
-    law of the leper in the day of his cleansing: He shall be brought unto the priest:
-    &l3&rAnd the priest shall go forth out of the camp; and the priest shall look,
-    and, behold, if the'
+  '38': 'Chapter 14
+
+    And the Lord spake unto Moses, saying, &l2&rThis shall be the law of the leper
+    in the day of his cleansing: He shall be brought unto the priest: &l3&rAnd the
+    priest shall go forth out of the camp; and the priest shall look, and, behold,
+    if the'
   '39': 'plague of leprosy be healed in the leper; &l4&rThen shall the priest command
     to take for him that is to be cleansed two birds alive and clean, and cedar wood,
     and scarlet, and hyssop: &l5&rAnd the priest shall command that one of the birds
@@ -741,10 +803,11 @@ Book6:
   start:
     c: 14
     v: 20
-  '1': 'Chapter 14 Cont./n&l20&rAnd the priest shall offer the burnt offering and
-    the meat offering upon the altar: and the priest shall make an atonement for him,
-    and he shall be clean. &l21&rAnd if he be poor, and cannot get so much; then he
-    shall take one lamb'
+  '1': 'Chapter 14 Cont.
+
+    &l20&rAnd the priest shall offer the burnt offering and the meat offering upon
+    the altar: and the priest shall make an atonement for him, and he shall be clean.
+    &l21&rAnd if he be poor, and cannot get so much; then he shall take one lamb'
   '2': for a trespass offering to be waved, to make an atonement for him, and one tenth deal of fine flour mingled with oil for a meat offering, and a log of oil; &l22&rAnd two turtledoves, or two young pigeons, such as he is able to get; and the one shall be a
   '3': sin offering, and the other a burnt offering. &l23&rAnd he shall bring them on the eighth day for his cleansing unto the priest, unto the door of the tabernacle of the congregation, before the Lord. &l24&rAnd the priest shall take the lamb of the trespass
   '4': 'offering, and the log of oil, and the priest shall wave them for a wave offering
@@ -805,7 +868,12 @@ Book6:
     a garment, and of a house, &l56&rAnd for a rising, and for a scab, and for a bright
     spot: &l57&rTo teach when it is unclean, and when it is clean: this is the law
     of leprosy.'
-  '23': Chapter 15/nAnd the Lord spake unto Moses and to Aaron, saying, &l2&rSpeak unto the children of Israel, and say unto them, When any man hath a running issue out of his flesh, because of his issue he is unclean. &l3&rAnd this shall be his uncleanness in his
+  '23': 'Chapter 15
+
+    And the Lord spake unto Moses and to Aaron, saying, &l2&rSpeak unto the children
+    of Israel, and say unto them, When any man hath a running issue out of his flesh,
+    because of his issue he is unclean. &l3&rAnd this shall be his uncleanness in
+    his'
   '24': 'issue: whether his flesh run with his issue, or his flesh be stopped from
     his issue, it is his uncleanness. &l4&rEvery bed, whereon he lieth that hath the
     issue, is unclean: and every thing, whereon he sitteth, shall be unclean. &l5&rAnd
@@ -849,7 +917,11 @@ Book6:
   '40': the door of the tabernacle of the congregation. &l30&rAnd the priest shall offer the one for a sin offering, and the other for a burnt offering; and the priest shall make an atonement for her before the Lord for the issue of her uncleanness. &l31&rThus
   '41': shall ye separate the children of Israel from their uncleanness; that they die not in their uncleanness, when they defile my tabernacle that is among them. &l32&rThis is the law of him that hath an issue, and of him whose seed goeth from him, and is
   '42': defiled therewith; &l33&rAnd of her that is sick of her flowers, and of him that hath an issue, of the man, and of the woman, and of him that lieth with her that is unclean.
-  '43': Chapter 16/nAnd the Lord spake unto Moses after the death of the two sons of Aaron, when they offered before the Lord, and died; &l2&rAnd the Lord said unto Moses, Speak unto Aaron thy brother, that he come not at all times into the holy place within the
+  '43': 'Chapter 16
+
+    And the Lord spake unto Moses after the death of the two sons of Aaron, when they
+    offered before the Lord, and died; &l2&rAnd the Lord said unto Moses, Speak unto
+    Aaron thy brother, that he come not at all times into the holy place within the'
   '44': 'vail before the mercy seat, which is upon the ark; that he die not: for I
     will appear in the cloud upon the mercy seat. &l3&rThus shall Aaron come into
     the holy place: with a young bullock for a sin offering, and a ram for a burnt
@@ -875,15 +947,16 @@ Book7:
   start:
     c: 16
     v: 13
-  '1': 'Chapter 16 Cont./n&l13&rAnd he shall put the incense upon the fire before
-    the Lord, that the cloud of the incense may cover the mercy seat that is upon
-    the testimony, that he die not: &l14&rAnd he shall take of the blood of the bullock,
-    and sprinkle it'
-  '2': with his finger upon the mercy seat eastward; and before the mercy seat shall he sprinkle of the blood with his finger seven times. &l15&rThen shall he kill the goat of the sin offering, that is for the people, and bring his blood within the vail, and do
-  '3': 'with that blood as he did with the blood of the bullock, and sprinkle it upon
-    the mercy seat, and before the mercy seat: &l16&rAnd he shall make an atonement
-    for the holy place, because of the uncleanness of the children of Israel, and
-    because of their'
+  '1': 'Chapter 16 Cont.
+
+    &l13&rAnd he shall put the incense upon the fire before the Lord, that the cloud
+    of the incense may cover the mercy seat that is upon the testimony, that he die
+    not: &l14&rAnd he shall take of the blood of the bullock, and sprinkle it with'
+  '2': his finger upon the mercy seat eastward; and before the mercy seat shall he sprinkle of the blood with his finger seven times. &l15&rThen shall he kill the goat of the sin offering, that is for the people, and bring his blood within the vail, and do with
+  '3': 'that blood as he did with the blood of the bullock, and sprinkle it upon the
+    mercy seat, and before the mercy seat: &l16&rAnd he shall make an atonement for
+    the holy place, because of the uncleanness of the children of Israel, and because
+    of their'
   '4': 'transgressions in all their sins: and so shall he do for the tabernacle of
     the congregation, that remaineth among them in the midst of their uncleanness.
     &l17&rAnd there shall be no man in the tabernacle of the congregation when he
@@ -925,7 +998,11 @@ Book7:
     the altar, and he shall make an atonement for the priests, and for all the people
     of the'
   '17': congregation. &l34&rAnd this shall be an everlasting statute unto you, to make an atonement for the children of Israel for all their sins once a year. And he did as the Lord commanded Moses.
-  '18': Chapter 17/nAnd the Lord spake unto Moses, saying, &l2&rSpeak unto Aaron, and unto his sons, and unto all the children of Israel, and say unto them; This is the thing which the Lord hath commanded, saying, &l3&rWhat man soever there be of the house of
+  '18': 'Chapter 17
+
+    And the Lord spake unto Moses, saying, &l2&rSpeak unto Aaron, and unto his sons,
+    and unto all the children of Israel, and say unto them; This is the thing which
+    the Lord hath commanded, saying, &l3&rWhat man soever there be of the house of'
   '19': Israel, that killeth an ox, or lamb, or goat, in the camp, or that killeth it out of the camp, &l4&rAnd bringeth it not unto the door of the tabernacle of the congregation, to offer an offering unto the Lord before the tabernacle of the Lord; blood shall
   '20': 'be imputed unto that man; he hath shed blood; and that man shall be cut off
     from among his people: &l5&rTo the end that the children of Israel may bring their
@@ -951,10 +1028,12 @@ Book7:
   '29': 'clothes, and bathe himself in water, and be unclean until the even: then
     shall he be clean. &l16&rBut if he wash them not, nor bathe his flesh; then he
     shall bear his iniquity.'
-  '30': 'Chapter 18/nAnd the Lord spake unto Moses, saying, &l2&rSpeak unto the children
-    of Israel, and say unto them, I am the Lord your God. &l3&rAfter the doings of
-    the land of Egypt, wherein ye dwelt, shall ye not do: and after the doings of
-    the land of Canaan,'
+  '30': 'Chapter 18
+
+    And the Lord spake unto Moses, saying, &l2&rSpeak unto the children of Israel,
+    and say unto them, I am the Lord your God. &l3&rAfter the doings of the land of
+    Egypt, wherein ye dwelt, shall ye not do: and after the doings of the land of
+    Canaan,'
   '31': 'whither I bring you, shall ye not do: neither shall ye walk in their ordinances.
     &l4&rYe shall do my judgments, and keep mine ordinances, to walk therein: I am
     the Lord your God. &l5&rYe shall therefore keep my statutes, and my judgments:
@@ -1003,10 +1082,12 @@ Book7:
     whosoever shall'
   '44': commit any of these abominations, even the souls that commit them shall be cut off from among their people. &l30&rTherefore shall ye keep mine ordinance, that ye commit not any one of these abominable customs, which were committed before you, and that ye
   '45': 'defile not yourselves therein: I am the Lord your God.'
-  '46': 'Chapter 19/nAnd the Lord spake unto Moses, saying, &l2&rSpeak unto all the
-    congregation of the children of Israel, and say unto them, Ye shall be holy: for
-    I the Lord your God am holy. &l3&rYe shall fear every man his mother, and his
-    father, and keep my'
+  '46': 'Chapter 19
+
+    And the Lord spake unto Moses, saying, &l2&rSpeak unto all the congregation of
+    the children of Israel, and say unto them, Ye shall be holy: for I the Lord your
+    God am holy. &l3&rYe shall fear every man his mother, and his father, and keep
+    my'
   '47': 'sabbaths: I am the Lord your God. &l4&rTurn ye not unto idols, nor make to
     yourselves molten gods: I am the Lord your God. &l5&rAnd if ye offer a sacrifice
     of peace offerings unto the Lord, ye shall offer it at your own will. &l6&rIt
@@ -1029,61 +1110,65 @@ Book8:
   start:
     c: 19
     v: 11
-  '1': 'Chapter 19 Cont./n&l11&rYe shall not steal, neither deal falsely, neither
-    lie one to another. &l12&rAnd ye shall not swear by my name falsely, neither shalt
-    thou profane the name of thy God: I am the Lord. &l13&rThou shalt not defraud
-    thy neighbour,'
-  '2': 'neither rob him: the wages of him that is hired shall not abide with thee
-    all night until the morning. &l14&rThou shalt not curse the deaf, nor put a stumblingblock
-    before the blind, but shalt fear thy God: I am the Lord. &l15&rYe shall do no'
-  '3': 'unrighteousness in judgment: thou shalt not respect the person of the poor,
-    nor honor the person of the mighty: but in righteousness shalt thou judge thy
-    neighbour. &l16&rThou shalt not go up and down as a talebearer among thy people:
-    neither shalt thou'
-  '4': 'stand against the blood of thy neighbour; I am the Lord. &l17&rThou shalt
-    not hate thy brother in thine heart: thou shalt in any wise rebuke thy neighbour,
-    and not suffer sin upon him. &l18&rThou shalt not avenge, nor bear any grudge
-    against the children'
-  '5': 'of thy people, but thou shalt love thy neighbour as thyself: I am the Lord.
-    &l19&rYe shall keep my statutes. Thou shalt not let thy cattle gender with a diverse
-    kind: thou shalt not sow thy field with mingled seed: neither shall a garment
-    mingled of linen'
-  '6': and woollen come upon thee. &l20&rAnd whosoever lieth carnally with a woman, that is a bondmaid, betrothed to an husband, and not at all redeemed, nor freedom given her; she shall be scourged; they shall not be put to death, because she was not free.
-  '7': '&l21&rAnd he shall bring his trespass offering unto the Lord, unto the door
-    of the tabernacle of the congregation, even a ram for a trespass offering. &l22&rAnd
-    the priest shall make an atonement for him with the ram of the trespass offering
-    before the'
-  '8': 'Lord for his sin which he hath done: and the sin which he hath done shall
-    be forgiven him. &l23&rAnd when ye shall come into the land, and shall have planted
-    all manner of trees for food, then ye shall count the fruit thereof as uncircumcised:
-    three years'
-  '9': 'shall it be as uncircumcised unto you: it shall not be eaten of. &l24&rBut
-    in the fourth year all the fruit thereof shall be holy to praise the Lord withal.
-    &l25&rAnd in the fifth year shall ye eat of the fruit thereof, that it may yield
-    unto you the'
-  '10': 'increase thereof: I am the Lord your God. &l26&rYe shall not eat any thing
-    with the blood: neither shall ye use enchantment, nor observe times. &l27&rYe
-    shall not round the corners of your heads, neither shalt thou mar the corners
-    of thy beard. &l28&rYe'
-  '11': 'shall not make any cuttings in your flesh for the dead, nor print any marks
-    upon you: I am the Lord. &l29&rDo not prostitute thy daughter, to cause her to
-    be a whore; lest the land fall to whoredom, and the land become full of wickedness.
-    &l30&rYe shall'
-  '12': 'keep my sabbaths, and reverence my sanctuary: I am the Lord. &l31&rRegard
-    not them that have familiar spirits, neither seek after wizards, to be defiled
-    by them: I am the Lord your God. &l32&rThou shalt rise up before the hoary head,
-    and honour the face of'
-  '13': 'the old man, and fear thy God: I am the Lord. &l33&rAnd if a stranger sojourn
-    with thee in your land, ye shall not vex him. &l34&rBut the stranger that dwelleth
-    with you shall be unto you as one born among you, and thou shalt love him as thyself;
-    for ye'
-  '14': 'were strangers in the land of Egypt: I am the Lord your God. &l35&rYe shall
-    do no unrighteousness in judgment, in meteyard, in weight, or in measure. &l36&rJust
-    balances, just weights, a just ephah, and a just hin, shall ye have: I am the
-    Lord your God,'
-  '15': 'which brought you out of the land of Egypt. &l37&rTherefore shall ye observe
-    all my statutes, and all my judgments, and do them: I am the Lord.'
-  '16': Chapter 20/nAnd the Lord spake unto Moses, saying, &l2&rAgain, thou shalt say to the children of Israel, Whosoever he be of the children of Israel, or of the strangers that sojourn in Israel, that giveth any of his seed unto Molech; he shall surely be put
+  '1': 'Chapter 19 Cont.
+
+    &l11&rYe shall not steal, neither deal falsely, neither lie one to another. &l12&rAnd
+    ye shall not swear by my name falsely, neither shalt thou profane the name of
+    thy God: I am the Lord. &l13&rThou shalt not defraud thy neighbour, neither'
+  '2': 'rob him: the wages of him that is hired shall not abide with thee all night
+    until the morning. &l14&rThou shalt not curse the deaf, nor put a stumblingblock
+    before the blind, but shalt fear thy God: I am the Lord. &l15&rYe shall do no
+    unrighteousness in'
+  '3': 'judgment: thou shalt not respect the person of the poor, nor honor the person
+    of the mighty: but in righteousness shalt thou judge thy neighbour. &l16&rThou
+    shalt not go up and down as a talebearer among thy people: neither shalt thou
+    stand against the'
+  '4': 'blood of thy neighbour; I am the Lord. &l17&rThou shalt not hate thy brother
+    in thine heart: thou shalt in any wise rebuke thy neighbour, and not suffer sin
+    upon him. &l18&rThou shalt not avenge, nor bear any grudge against the children
+    of thy people, but'
+  '5': 'thou shalt love thy neighbour as thyself: I am the Lord. &l19&rYe shall keep
+    my statutes. Thou shalt not let thy cattle gender with a diverse kind: thou shalt
+    not sow thy field with mingled seed: neither shall a garment mingled of linen
+    and woollen come'
+  '6': upon thee. &l20&rAnd whosoever lieth carnally with a woman, that is a bondmaid, betrothed to an husband, and not at all redeemed, nor freedom given her; she shall be scourged; they shall not be put to death, because she was not free. &l21&rAnd he shall
+  '7': bring his trespass offering unto the Lord, unto the door of the tabernacle of the congregation, even a ram for a trespass offering. &l22&rAnd the priest shall make an atonement for him with the ram of the trespass offering before the Lord for his sin which
+  '8': 'he hath done: and the sin which he hath done shall be forgiven him. &l23&rAnd
+    when ye shall come into the land, and shall have planted all manner of trees for
+    food, then ye shall count the fruit thereof as uncircumcised: three years shall
+    it be as'
+  '9': 'uncircumcised unto you: it shall not be eaten of. &l24&rBut in the fourth
+    year all the fruit thereof shall be holy to praise the Lord withal. &l25&rAnd
+    in the fifth year shall ye eat of the fruit thereof, that it may yield unto you
+    the increase thereof: I'
+  '10': 'am the Lord your God. &l26&rYe shall not eat any thing with the blood: neither
+    shall ye use enchantment, nor observe times. &l27&rYe shall not round the corners
+    of your heads, neither shalt thou mar the corners of thy beard. &l28&rYe shall
+    not make any'
+  '11': 'cuttings in your flesh for the dead, nor print any marks upon you: I am the
+    Lord. &l29&rDo not prostitute thy daughter, to cause her to be a whore; lest the
+    land fall to whoredom, and the land become full of wickedness. &l30&rYe shall
+    keep my sabbaths, and'
+  '12': 'reverence my sanctuary: I am the Lord. &l31&rRegard not them that have familiar
+    spirits, neither seek after wizards, to be defiled by them: I am the Lord your
+    God. &l32&rThou shalt rise up before the hoary head, and honour the face of the
+    old man, and fear'
+  '13': 'thy God: I am the Lord. &l33&rAnd if a stranger sojourn with thee in your
+    land, ye shall not vex him. &l34&rBut the stranger that dwelleth with you shall
+    be unto you as one born among you, and thou shalt love him as thyself; for ye
+    were strangers in the'
+  '14': 'land of Egypt: I am the Lord your God. &l35&rYe shall do no unrighteousness
+    in judgment, in meteyard, in weight, or in measure. &l36&rJust balances, just
+    weights, a just ephah, and a just hin, shall ye have: I am the Lord your God,
+    which brought you out of'
+  '15': 'the land of Egypt. &l37&rTherefore shall ye observe all my statutes, and
+    all my judgments, and do them: I am the Lord.'
+  '16': 'Chapter 20
+
+    And the Lord spake unto Moses, saying, &l2&rAgain, thou shalt say to the children
+    of Israel, Whosoever he be of the children of Israel, or of the strangers that
+    sojourn in Israel, that giveth any of his seed unto Molech; he shall surely be
+    put'
   '17': 'to death: the people of the land shall stone him with stones. &l3&rAnd I
     will set my face against that man, and will cut him off from among his people;
     because he hath given of his seed unto Molech, to defile my sanctuary, and to
@@ -1148,10 +1233,12 @@ Book8:
   '33': 'you from other people, that ye should be mine. &l27&rA man also or woman
     that hath a familiar spirit, or that is a wizard, shall surely be put to death:
     they shall stone them with stones: their blood shall be upon them.'
-  '34': 'Chapter 21/nAnd the Lord said unto Moses, Speak unto the priests the sons
-    of Aaron, and say unto them, There shall none be defiled for the dead among his
-    people: &l2&rBut for his kin, that is near unto him, that is, for his mother,
-    and for his father, and'
+  '34': 'Chapter 21
+
+    And the Lord said unto Moses, Speak unto the priests the sons of Aaron, and say
+    unto them, There shall none be defiled for the dead among his people: &l2&rBut
+    for his kin, that is near unto him, that is, for his mother, and for his father,
+    and'
   '35': for his son, and for his daughter, and for his brother. &l3&rAnd for his sister a virgin, that is nigh unto him, which hath had no husband; for her may he be defiled. &l4&rBut he shall not defile himself, being a chief man among his people, to profane
   '36': 'himself. &l5&rThey shall not make baldness upon their head, neither shall
     they shave off the corner of their beard, nor make any cuttings in their flesh.
@@ -1191,10 +1278,12 @@ Book8:
     that he profane not my sanctuaries: for I the Lord do sanctify them. &l24&rAnd
     Moses told it unto Aaron,'
   '46': and to his sons, and unto all the children of Israel.
-  '47': 'Chapter 22/nAnd the Lord spake unto Moses, saying, &l2&rSpeak unto Aaron
-    and to his sons, that they separate themselves from the holy things of the children
-    of Israel, and that they profane not my holy name in those things which they hallow
-    unto me: I am'
+  '47': 'Chapter 22
+
+    And the Lord spake unto Moses, saying, &l2&rSpeak unto Aaron and to his sons,
+    that they separate themselves from the holy things of the children of Israel,
+    and that they profane not my holy name in those things which they hallow unto
+    me: I am'
   '48': 'the Lord. &l3&rSay unto them, Whosoever he be of all your seed among your
     generations, that goeth unto the holy things, which the children of Israel hallow
     unto the Lord, having his uncleanness upon him, that soul shall be cut off from
@@ -1208,62 +1297,74 @@ Book9:
   start:
     c: 22
     v: 6
-  '1': Chapter 22 Cont./n&l6&rThe soul which hath touched any such shall be unclean until even, and shall not eat of the holy things, unless he wash his flesh with water. &l7&rAnd when the sun is down, he shall be clean, and shall afterward eat of the holy
-  '2': things; because it is his food. &l8&rThat which dieth of itself, or is torn with beasts, he shall not eat to defile himself therewith; I am the Lord. &l9&rThey shall therefore keep mine ordinance, lest they bear sin for it, and die therefore, if they
-  '3': 'profane it: I the Lord do sanctify them. &l10&rThere shall no stranger eat
-    of the holy thing: a sojourner of the priest, or an hired servant, shall not eat
-    of the holy thing. &l11&rBut if the priest buy any soul with his money, he shall
-    eat of it, and he'
-  '4': 'that is born in his house: they shall eat of his meat. &l12&rIf the priest''s
-    daughter also be married unto a stranger, she may not eat of an offering of the
-    holy things. &l13&rBut if the priest''s daughter be a widow, or divorced, and
-    have no child, and is'
-  '5': 'returned unto her father''s house, as in her youth, she shall eat of her father''s
-    meat: but there shall be no stranger eat thereof. &l14&rAnd if a man eat of the
-    holy thing unwittingly, then he shall put the fifth part thereof unto it, and
-    shall give it'
-  '6': 'unto the priest with the holy thing. &l15&rAnd they shall not profane the
-    holy things of the children of Israel, which they offer unto the Lord; &l16&rOr
-    suffer them to bear the iniquity of trespass, when they eat their holy things:
-    for I the Lord do'
-  '7': sanctify them. &l17&rAnd the Lord spake unto Moses, saying, &l18&rSpeak unto Aaron, and to his sons, and unto all the children of Israel, and say unto them, Whatsoever he be of the house of Israel, or of the strangers in Israel, that will offer his
-  '8': oblation for all his vows, and for all his freewill offerings, which they will offer unto the Lord for a burnt offering; &l19&rYe shall offer at your own will a male without blemish, of the beeves, of the sheep, or of the goats. &l20&rBut whatsoever hath a
-  '9': 'blemish, that shall ye not offer: for it shall not be acceptable for you.
-    &l21&rAnd whosoever offereth a sacrifice of peace offerings unto the Lord to accomplish
-    his vow, or a freewill offering in beeves or sheep, it shall be perfect to be
-    accepted; there'
-  '10': shall be no blemish therein. &l22&rBlind, or broken, or maimed, or having a wen, or scurvy, or scabbed, ye shall not offer these unto the Lord, nor make an offering by fire of them upon the altar unto the Lord. &l23&rEither a bullock or a lamb that hath
-  '11': any thing superfluous or lacking in his parts, that mayest thou offer for a freewill offering; but for a vow it shall not be accepted. &l24&rYe shall not offer unto the Lord that which is bruised, or crushed, or broken, or cut; neither shall ye make any
-  '12': 'offering thereof in your land. &l25&rNeither from a stranger''s hand shall
-    ye offer the bread of your God of any of these; because their corruption is in
-    them, and blemishes be in them: they shall not be accepted for you. &l26&rAnd
-    the Lord spake unto'
-  '13': Moses, saying, &l27&rWhen a bullock, or a sheep, or a goat, is brought forth, then it shall be seven days under the dam; and from the eighth day and thenceforth it shall be accepted for an offering made by fire unto the Lord. &l28&rAnd whether it be cow,
-  '14': 'or ewe, ye shall not kill it and her young both in one day. &l29&rAnd when
-    ye will offer a sacrifice of thanksgiving unto the Lord, offer it at your own
-    will. &l30&rOn the same day it shall be eaten up; ye shall leave none of it until
-    the morrow: I am the'
-  '15': 'Lord. &l31&rTherefore shall ye keep my commandments, and do them: I am the
-    Lord. &l32&rNeither shall ye profane my holy name; but I will be hallowed among
-    the children of Israel: I am the Lord which hallow you, &l33&rThat brought you
-    out of the land of'
-  '16': 'Egypt, to be your God: I am the Lord.'
-  '17': 'Chapter 23/nAnd the Lord spake unto Moses, saying, &l2&rSpeak unto the children
-    of Israel, and say unto them, Concerning the feasts of the Lord, which ye shall
-    proclaim to be holy convocations, even these are my feasts. &l3&rSix days shall
-    work be done:'
-  '18': 'but the seventh day is the sabbath of rest, an holy convocation; ye shall
-    do no work therein: it is the sabbath of the Lord in all your dwellings. &l4&rThese
+  '1': 'Chapter 22 Cont.
+
+    &l6&rThe soul which hath touched any such shall be unclean until even, and shall
+    not eat of the holy things, unless he wash his flesh with water. &l7&rAnd when
+    the sun is down, he shall be clean, and shall afterward eat of the holy things;'
+  '2': 'because it is his food. &l8&rThat which dieth of itself, or is torn with beasts,
+    he shall not eat to defile himself therewith; I am the Lord. &l9&rThey shall therefore
+    keep mine ordinance, lest they bear sin for it, and die therefore, if they profane
+    it: I'
+  '3': 'the Lord do sanctify them. &l10&rThere shall no stranger eat of the holy thing:
+    a sojourner of the priest, or an hired servant, shall not eat of the holy thing.
+    &l11&rBut if the priest buy any soul with his money, he shall eat of it, and he
+    that is born in'
+  '4': 'his house: they shall eat of his meat. &l12&rIf the priest''s daughter also
+    be married unto a stranger, she may not eat of an offering of the holy things.
+    &l13&rBut if the priest''s daughter be a widow, or divorced, and have no child,
+    and is returned unto'
+  '5': 'her father''s house, as in her youth, she shall eat of her father''s meat:
+    but there shall be no stranger eat thereof. &l14&rAnd if a man eat of the holy
+    thing unwittingly, then he shall put the fifth part thereof unto it, and shall
+    give it unto the priest'
+  '6': 'with the holy thing. &l15&rAnd they shall not profane the holy things of the
+    children of Israel, which they offer unto the Lord; &l16&rOr suffer them to bear
+    the iniquity of trespass, when they eat their holy things: for I the Lord do sanctify
+    them.'
+  '7': '&l17&rAnd the Lord spake unto Moses, saying, &l18&rSpeak unto Aaron, and to
+    his sons, and unto all the children of Israel, and say unto them, Whatsoever he
+    be of the house of Israel, or of the strangers in Israel, that will offer his
+    oblation for all his'
+  '8': vows, and for all his freewill offerings, which they will offer unto the Lord for a burnt offering; &l19&rYe shall offer at your own will a male without blemish, of the beeves, of the sheep, or of the goats. &l20&rBut whatsoever hath a blemish, that shall
+  '9': 'ye not offer: for it shall not be acceptable for you. &l21&rAnd whosoever
+    offereth a sacrifice of peace offerings unto the Lord to accomplish his vow, or
+    a freewill offering in beeves or sheep, it shall be perfect to be accepted; there
+    shall be no blemish'
+  '10': therein. &l22&rBlind, or broken, or maimed, or having a wen, or scurvy, or scabbed, ye shall not offer these unto the Lord, nor make an offering by fire of them upon the altar unto the Lord. &l23&rEither a bullock or a lamb that hath any thing superfluous
+  '11': or lacking in his parts, that mayest thou offer for a freewill offering; but for a vow it shall not be accepted. &l24&rYe shall not offer unto the Lord that which is bruised, or crushed, or broken, or cut; neither shall ye make any offering thereof in your
+  '12': 'land. &l25&rNeither from a stranger''s hand shall ye offer the bread of your
+    God of any of these; because their corruption is in them, and blemishes be in
+    them: they shall not be accepted for you. &l26&rAnd the Lord spake unto Moses,
+    saying, &l27&rWhen a'
+  '13': bullock, or a sheep, or a goat, is brought forth, then it shall be seven days under the dam; and from the eighth day and thenceforth it shall be accepted for an offering made by fire unto the Lord. &l28&rAnd whether it be cow, or ewe, ye shall not kill it
+  '14': 'and her young both in one day. &l29&rAnd when ye will offer a sacrifice of
+    thanksgiving unto the Lord, offer it at your own will. &l30&rOn the same day it
+    shall be eaten up; ye shall leave none of it until the morrow: I am the Lord.
+    &l31&rTherefore shall'
+  '15': 'ye keep my commandments, and do them: I am the Lord. &l32&rNeither shall
+    ye profane my holy name; but I will be hallowed among the children of Israel:
+    I am the Lord which hallow you, &l33&rThat brought you out of the land of Egypt,
+    to be your God: I am the'
+  '16': Lord.
+  '17': 'Chapter 23
+
+    And the Lord spake unto Moses, saying, &l2&rSpeak unto the children of Israel,
+    and say unto them, Concerning the feasts of the Lord, which ye shall proclaim
+    to be holy convocations, even these are my feasts. &l3&rSix days shall work be
+    done: but'
+  '18': 'the seventh day is the sabbath of rest, an holy convocation; ye shall do
+    no work therein: it is the sabbath of the Lord in all your dwellings. &l4&rThese
     are the feasts of the Lord, even holy convocations, which ye shall proclaim in
-    their seasons.'
-  '19': '&l5&rIn the fourteenth day of the first month at even is the Lord''s passover.
-    &l6&rAnd on the fifteenth day of the same month is the feast of unleavened bread
-    unto the Lord: seven days ye must eat unleavened bread. &l7&rIn the first day
-    ye shall have an'
-  '20': 'holy convocation: ye shall do no servile work therein. &l8&rBut ye shall
-    offer an offering made by fire unto the Lord seven days: in the seventh day is
-    an holy convocation: ye shall do no servile work therein. &l9&rAnd the Lord spake
-    unto Moses, saying,'
+    their seasons. &l5&rIn'
+  '19': 'the fourteenth day of the first month at even is the Lord''s passover. &l6&rAnd
+    on the fifteenth day of the same month is the feast of unleavened bread unto the
+    Lord: seven days ye must eat unleavened bread. &l7&rIn the first day ye shall
+    have an holy'
+  '20': 'convocation: ye shall do no servile work therein. &l8&rBut ye shall offer
+    an offering made by fire unto the Lord seven days: in the seventh day is an holy
+    convocation: ye shall do no servile work therein. &l9&rAnd the Lord spake unto
+    Moses, saying,'
   '21': '&l10&rSpeak unto the children of Israel, and say unto them, When ye be come
     into the land which I give unto you, and shall reap the harvest thereof, then
     ye shall bring a sheaf of the firstfruits of your harvest unto the priest: &l11&rAnd
@@ -1347,7 +1448,12 @@ Book9:
     when I brought them out of the land of Egypt: I am the Lord your God. &l44&rAnd
     Moses'
   '43': declared unto the children of Israel the feasts of the Lord.
-  '44': Chapter 24/nAnd the Lord spake unto Moses, saying, &l2&rCommand the children of Israel, that they bring unto thee pure oil olive beaten for the light, to cause the lamps to burn continually. &l3&rWithout the vail of the testimony, in the tabernacle of the
+  '44': 'Chapter 24
+
+    And the Lord spake unto Moses, saying, &l2&rCommand the children of Israel, that
+    they bring unto thee pure oil olive beaten for the light, to cause the lamps to
+    burn continually. &l3&rWithout the vail of the testimony, in the tabernacle of
+    the'
   '45': 'congregation, shall Aaron order it from the evening unto the morning before
     the Lord continually: it shall be a statute for ever in your generations. &l4&rHe
     shall order the lamps upon the pure candlestick before the Lord continually. &l5&rAnd
@@ -1373,7 +1479,11 @@ Book10:
   start:
     c: 24
     v: 14
-  '1': Chapter 24 Cont./n&l14&rBring forth him that hath cursed without the camp; and let all that heard him lay their hands upon his head, and let all the congregation stone him. &l15&rAnd thou shalt speak unto the children of Israel, saying, Whosoever curseth
+  '1': 'Chapter 24 Cont.
+
+    &l14&rBring forth him that hath cursed without the camp; and let all that heard
+    him lay their hands upon his head, and let all the congregation stone him. &l15&rAnd
+    thou shalt speak unto the children of Israel, saying, Whosoever curseth'
   '2': 'his God shall bear his sin. &l16&rAnd he that blasphemeth the name of the
     Lord, he shall surely be put to death, and all the congregation shall certainly
     stone him: as well the stranger, as he that is born in the land, when he blasphemeth
@@ -1388,7 +1498,11 @@ Book10:
     they should bring forth him that had cursed out of the camp, and stone him with
     stones. And'
   '6': the children of Israel did as the Lord commanded Moses.
-  '7': Chapter 25/nAnd the Lord spake unto Moses in mount Sinai, saying, &l2&rSpeak unto the children of Israel, and say unto them, When ye come into the land which I give you, then shall the land keep a sabbath unto the Lord. &l3&rSix years thou shalt sow thy
+  '7': 'Chapter 25
+
+    And the Lord spake unto Moses in mount Sinai, saying, &l2&rSpeak unto the children
+    of Israel, and say unto them, When ye come into the land which I give you, then
+    shall the land keep a sabbath unto the Lord. &l3&rSix years thou shalt sow thy'
   '8': 'field, and six years thou shalt prune thy vineyard, and gather in the fruit
     thereof; &l4&rBut in the seventh year shall be a sabbath of rest unto the land,
     a sabbath for the Lord: thou shalt neither sow thy field, nor prune thy vineyard.
@@ -1490,10 +1604,11 @@ Book10:
     servants; they are my servants whom I brought forth out of the land of Egypt:
     I am the Lord your'
   '39': God.
-  '40': 'Chapter 26/nYe shall make you no idols nor graven image, neither rear you
-    up a standing image, neither shall ye set up any image of stone in your land,
-    to bow down unto it: for I am the Lord your God. &l2&rYe shall keep my sabbaths,
-    and reverence my'
+  '40': 'Chapter 26
+
+    Ye shall make you no idols nor graven image, neither rear you up a standing image,
+    neither shall ye set up any image of stone in your land, to bow down unto it:
+    for I am the Lord your God. &l2&rYe shall keep my sabbaths, and reverence my'
   '41': 'sanctuary: I am the Lord. &l3&rIf ye walk in my statutes, and keep my commandments,
     and do them; &l4&rThen I will give you rain in due season, and the land shall
     yield her increase, and the trees of the field shall yield their fruit. &l5&rAnd
@@ -1532,7 +1647,11 @@ Book11:
   start:
     c: 26
     v: 22
-  '1': Chapter 26 Cont./n&l22&rI will also send wild beasts among you, which shall rob you of your children, and destroy your cattle, and make you few in number; and your high ways shall be desolate. &l23&rAnd if ye will not be reformed by me by these things, but
+  '1': 'Chapter 26 Cont.
+
+    &l22&rI will also send wild beasts among you, which shall rob you of your children,
+    and destroy your cattle, and make you few in number; and your high ways shall
+    be desolate. &l23&rAnd if ye will not be reformed by me by these things, but'
   '2': 'will walk contrary unto me; &l24&rThen will I also walk contrary unto you,
     and will punish you yet seven times for your sins. &l25&rAnd I will bring a sword
     upon you, that shall avenge the quarrel of my covenant: and when ye are gathered
@@ -1575,9 +1694,14 @@ Book11:
     I brought forth out of the land of Egypt in the sight of the heathen, that I might
     be their God: I am'
   '16': the Lord. &l46&rThese are the statutes and judgments and laws, which the Lord made between him and the children of Israel in mount Sinai by the hand of Moses.
-  '17': Chapter 27/nAnd the Lord spake unto Moses, saying, &l2&rSpeak unto the children of Israel, and say unto them, When a man shall make a singular vow, the persons shall be for the Lord by thy estimation. &l3&rAnd thy estimation shall be of the male from
-  '18': twenty years old even unto sixty years old, even thy estimation shall be fifty shekels of silver, after the shekel of the sanctuary. &l4&rAnd if it be a female, then thy estimation shall be thirty shekels. &l5&rAnd if it be from five years old even unto
-  '19': twenty years old, then thy estimation shall be of the male twenty shekels, and for the female ten shekels. &l6&rAnd if it be from a month old even unto five years old, then thy estimation shall be of the male five shekels of silver, and for the female thy
+  '17': 'Chapter 27
+
+    And the Lord spake unto Moses, saying, &l2&rSpeak unto the children of Israel,
+    and say unto them, When a man shall make a singular vow, the persons shall be
+    for the Lord by thy estimation. &l3&rAnd thy estimation shall be of the male from
+    twenty'
+  '18': years old even unto sixty years old, even thy estimation shall be fifty shekels of silver, after the shekel of the sanctuary. &l4&rAnd if it be a female, then thy estimation shall be thirty shekels. &l5&rAnd if it be from five years old even unto twenty
+  '19': years old, then thy estimation shall be of the male twenty shekels, and for the female ten shekels. &l6&rAnd if it be from a month old even unto five years old, then thy estimation shall be of the male five shekels of silver, and for the female thy
   '20': estimation shall be three shekels of silver. &l7&rAnd if it be from sixty years old and above; if it be a male, then thy estimation shall be fifteen shekels, and for the female ten shekels. &l8&rBut if he be poorer than thy estimation, then he shall
   '21': present himself before the priest, and the priest shall value him; according to his ability that vowed shall the priest value him. &l9&rAnd if it be a beast, whereof men bring an offering unto the Lord, all that any man giveth of such unto the Lord shall
   '22': 'be holy. &l10&rHe shall not alter it, nor change it, a good for a bad, or

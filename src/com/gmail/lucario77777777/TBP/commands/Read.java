@@ -1,5 +1,6 @@
 package com.gmail.lucario77777777.TBP.commands;
 
+import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.lucario77777777.TBP.TB;
@@ -39,7 +40,15 @@ public class Read {
 			bookName = book.getBook();
 			i = Args.getCurrentArg(book, cmds, args, i);
 			if(args.length >= i + 1){
-				if(args[i].contains(":")){
+				if(args[i].equalsIgnoreCase("info") ||args[i].equalsIgnoreCase("?")){
+					String msg = book.getDesc();
+					sender.sendMessage(ChatColor.GREEN + msg);
+					return;
+				}else if(args[i].equalsIgnoreCase("#")){
+					String msg = bookName + " has " + book.getChp() + " chapters.";
+					sender.sendMessage(ChatColor.GREEN + msg);
+					return;
+				}else if(args[i].contains(":")){
 					String[] chpV = args[i].split(":");
 					chp = chpV[0];
 					v = chpV[1];
@@ -47,9 +56,25 @@ public class Read {
 				}else{
 					chp = args[i];
 					i++;
+					if(Integer.parseInt(chp) > book.getNum()){
+						sender.sendMessage(ChatColor.RED + bookName + " does not have that many chapters!");
+						return;
+					}
 					if(args.length >= i + 1){
-						v = args[i];
-						i++;
+						if(args[i].equalsIgnoreCase("#")){
+							String msg = bookName + " Chapter " + chp + " has " + 
+									echp.getNum(Integer.parseInt(chp)) + " verses.";
+							sender.sendMessage(ChatColor.GREEN + msg);
+							return;
+						}else{
+							v = args[i];
+							i++;
+							if(Integer.parseInt(v) > echp.getNum(Integer.parseInt(chp))){
+								sender.sendMessage(ChatColor.RED + bookName + " Chapter " + chp + " does not " +
+										"have that many verses!");
+								return;
+							}
+						}
 					}
 				}
 				if(args.length >= i + 1 && Args.tranCheck(sender, args[i]) != null){
@@ -61,7 +86,7 @@ public class Read {
 			Args.bookNotAvailable(sender, book, tran);
 			return;
 		}
-		if(!Checks.checkForYML(plugin, sender, tran, bookName)){
+		if(!Checks.checkForYML(plugin, sender, bookName, tran)){
 			return;
 		}
 		String pName = sender.getName();
