@@ -1,4 +1,4 @@
-package com.gmail.lucario77777777.TBP.commands;
+package com.gmail.lucario77777777.TBP.cmdhandling;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -14,8 +14,7 @@ public class Book{
 	
 	@SuppressWarnings("deprecation")
 	public static boolean Run(TB plugin, CommandSender sender, String tran, String bookName, String part,
-			String type, String p)
-	{
+			String type, String p, boolean anonymous){
 		String pName = null;
 		Player player = null;
 		if(type == "get"){
@@ -25,7 +24,7 @@ public class Book{
 			player = sender.getServer().getPlayer(p);
 			pName = player.getName();
 		}
-		if(plugin.getigBook(tran).getString(bookName + "Book" + part + "." + 1) == null){
+		if(plugin.getigBook(bookName, tran).getString("Book" + part + "." + 1) == null){
 			sender.sendMessage(ChatColor.RED + "That book does not exist.");
 			return true;
 		}
@@ -46,12 +45,15 @@ public class Book{
 		meta.setAuthor(author);
 		Boolean cont = true;
 		int i = 1;
+		String page;
 		while(cont == true){
-			if(plugin.getigBook(tran).getString(bookName + "Book" + part + "." + i) == null){
+			if(plugin.getigBook(bookName, tran).getString("Book" + part + "." + i) == null){
 				cont = false;
 				break;
 			}
-			meta.addPage(plugin.getigBook(tran).getString(bookName + "Book" + part + "." + i));
+			page = plugin.getigBook(bookName, tran).getString("Book" + part + "." + i);
+			page = page.replaceAll("&", "§");
+			meta.addPage(page);
 			i++;
 			if(i == 51){
 				cont = false;
@@ -61,18 +63,28 @@ public class Book{
 		igbook.setItemMeta(meta);
 		if(player != null){
 			player.getInventory().addItem(igbook);
-			MainCommandExecutor.savepRecs("book", pName, bookName, null, null, tran, part);
+			if(type == "send"){
+				String senderName;
+				if(anonymous){
+					senderName = "anonymous";
+				}else{
+					senderName = sender.getName();
+				}
+				player.sendMessage(ChatColor.GREEN + senderName + " sent you " + bookName + " Part " + 
+						part + "!");
+			}
+			Records.savepRecs("book", pName, bookName, null, null, tran, part);
 		}else{
 			sender.sendMessage(ChatColor.RED + p + " is not online!");
 		}
 		return true;
-}
+	}
 
 	public static void contains(TB plugin, CommandSender sender, String tran, String bookName, String part){
-		String start = plugin.getigBook(tran).getString(bookName + part + "Start.c") + ":" +
-				plugin.getigBook(tran).getString(bookName + part + "Start.v");
-		String end = plugin.getigBook(tran).getString(bookName + part + "End.c") + ":" +
-				plugin.getigBook(tran).getString(bookName + part + "End.v");
+		String start = plugin.getigBook(bookName, tran).getString(bookName + part + "Start.c") + ":" +
+				plugin.getigBook(bookName, tran).getString(bookName + part + "Start.v");
+		String end = plugin.getigBook(bookName, tran).getString(bookName + part + "End.c") + ":" +
+				plugin.getigBook(bookName, tran).getString(bookName + part + "End.v");
 		if(start == null || end == null){
 			sender.sendMessage(ChatColor.RED + "That part does not exist.");
 			return;
@@ -87,7 +99,7 @@ public class Book{
 		String pNum = "";
 		EnumBooks ebook = EnumBooks.GENESIS;
 		String newBook = bookName;
-		if(plugin.getigBook(tran).contains(newBook + "Book" + bN)){
+		if(plugin.getigBook(bookName, tran).contains("Book" + bN)){
 			pNum = String.valueOf(bN);
 		}else{
 			boolean cont = true;
@@ -99,7 +111,7 @@ public class Book{
 			}
 			pNum = "1";
 		}
-		Run(plugin, sender, tran, newBook, pNum, type, p);
+		Run(plugin, sender, tran, newBook, pNum, type, p, false);
 	}
 	
 	public static void next(TB plugin, CommandSender sender, String tran, String bookName, String part,
@@ -108,7 +120,7 @@ public class Book{
 		String pNum = "";
 		EnumBooks ebook = EnumBooks.GENESIS;
 		String newBook = bookName;
-		if(plugin.getigBook(tran).contains(newBook + "Book" + bN)){
+		if(plugin.getigBook(bookName, tran).contains("Book" + bN)){
 			pNum = String.valueOf(bN);
 		}else{
 			boolean cont = true;
@@ -120,6 +132,40 @@ public class Book{
 			}
 			pNum = "1";
 		}
-		Run(plugin, sender, tran, newBook, pNum, type, p);
+		Run(plugin, sender, tran, newBook, pNum, type, p, false);
+	}
+	
+	public static void list(TB plugin, CommandSender sender, String tran){
+		Player player = (Player) sender;
+		if(plugin.getigBook("List", tran).getString("Book1.1") == null){
+			sender.sendMessage(ChatColor.RED + "Sorry, that book does not exist.");
+			return;
+		}
+		String author = "Tadukoo";
+		String igbookName = tran + " Books List";
+		ItemStack igbook = new ItemStack(Material.WRITTEN_BOOK, 1);
+		BookMeta meta = (BookMeta) igbook.getItemMeta();
+		meta.setTitle(igbookName);
+		meta.setAuthor(author);
+		Boolean cont = true;
+		int i = 1;
+		String page;
+		while(cont == true){
+			if(plugin.getigBook("List", tran).getString("Book1." + i) == null){
+				cont = false;
+				break;
+			}
+			page = plugin.getigBook("List", tran).getString("Book1." + i);
+			page = page.replaceAll("&", "§");
+			meta.addPage(page);
+			i++;
+			if(i == 51){
+				cont = false;
+				break;
+			}
+		}
+		igbook.setItemMeta(meta);
+		player.getInventory().addItem(igbook);
+		return;
 	}
 }

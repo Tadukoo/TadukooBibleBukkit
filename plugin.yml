@@ -1,6 +1,6 @@
 name: Tadukoo_Bible
 main: com.gmail.lucario77777777.TBP.TB
-version: Beta 0.4
+version: Beta 0.5
 description: Read the Bible using commands.
 author: Tadukoo
 prefix: TB
@@ -19,11 +19,13 @@ permissions:
          TadukooBible.book.*: true
          TadukooBible.info.*: true
          TadukooBible.op.*: true
+         TadukooBible.anonymous.*: true
    TadukooBible.verse.*:
       description: Gives all verse permissions (read, send, previous, next, last, and random).
       children:
          TadukooBible.verse.read: true
          TadukooBible.verse.send: true
+         TadukooBible.verse.receive: true
          TadukooBible.verse.previous: true
          TadukooBible.verse.next: true
          TadukooBible.verse.last: true
@@ -34,6 +36,7 @@ permissions:
       children:
          TadukooBible.book.get: true
          TadukooBible.book.send: true
+         TadukooBible.book.receive: true
    TadukooBible.info.*:
       description: Gives all info permissions (help, plugin, book, and translation).
       children:
@@ -41,11 +44,17 @@ permissions:
          TadukooBible.info.plugin: true
          TadukooBible.info.book: true
          TadukooBible.info.translation: true
+         TadukooBible.info.permission: true
    TadukooBible.op.*:
       description: Gives all op permissions (config and announce).
       children:
          TadukooBible.op.announce: true
          TadukooBible.op.config: true
+   TadukooBible.anonymous.*:
+      description: Gives all anonymous permissions (verse and book).
+      children:
+         TadukooBible.anonymous.verse: true
+         TadukooBible.anonymous.book: true
    TadukooBible.use:
       description: Gives access to the plugin.
       default: true
@@ -54,6 +63,9 @@ permissions:
       default: true
    TadukooBible.verse.send:
       description: Allows use of /bible send.
+      default: op
+   TadukooBible.verse.receive:
+      description: Allows you to receive verses.
       default: true
    TadukooBible.verse.previous:
       description: Allows use of /bible previous.
@@ -76,6 +88,9 @@ permissions:
    TadukooBible.book.send:
       description: Allows use of /bible sendbook.
       default: op
+   TadukooBible.book.receive:
+      description: Allows you to receive books.
+      default: true
    TadukooBible.info.help:
       description: Allows use of /bible help.
       default: true
@@ -88,9 +103,18 @@ permissions:
    TadukooBible.info.translation:
       description: Allows use of /bible translation and using /bible info for translation information.
       default: true
+   TadukooBible.info.permission:
+      description: Allows use of /bible info for permission information.
+      default: op
    TadukooBible.op.config:
       description: Allows use of /bible config.
       default: op
    TadukooBible.op.announce:
       description: Allows use of /bible announce.
+      default: op
+   TadukooBible.anonymous.verse:
+      description: Allows you to send verses anonymously.
+      default: op
+   TadukooBible.anonymous.book:
+      description: Allows you to send books anonymously.
       default: op

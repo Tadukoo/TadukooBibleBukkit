@@ -1,4 +1,4 @@
-package com.gmail.lucario77777777.TBP.Info;
+package com.gmail.lucario77777777.TBP.cmdhandling;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 import com.gmail.lucario77777777.TBP.TB;
 import com.gmail.lucario77777777.TBP.Enums.EnumHelp;
 
-public class Help {
+public class HelpPages {
 	private static int readPage = EnumHelp.READ.getNum();
 	private static int sendPage = EnumHelp.SEND.getNum();
 	private static int previousPage = EnumHelp.PREVIOUS.getNum();
@@ -68,7 +68,9 @@ public class Help {
 					" /bible (1/3)");
 			sender.sendMessage(ChatColor.GREEN + "Description: Shows you a Bible verse.");
 			sender.sendMessage(ChatColor.GREEN + "Aliases: read, verseread, readverse, vread, and readv.");
-			sender.sendMessage(ChatColor.GREEN + "Usage: /bible [book] [chapter #] [verse #] [translation]");
+			sender.sendMessage(ChatColor.GREEN + "Usage: /bible [book] [chapter ] [verse ] [translation] " +
+					"or /bible [alias] [book] [chapter] [verse] [translation] or /bible [book] " +
+					"[chapter:verse] [translation]");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible help " + helpPageU + " for more info about " +
 					"/bible.");
 			return;
@@ -97,10 +99,13 @@ public class Help {
 					" /bible send (1/1)");
 			sender.sendMessage(ChatColor.GREEN + "Description: Sends a Bible verse to someone.");
 			sender.sendMessage(ChatColor.GREEN + "Usage: /bible send <player> <book> <chapter> <verse> " +
-					"[translation] or /bible send <player> <book> <chapter:verse> [translation]");
+					"[translation] [\"anonymous\"] or /bible send <player> <book> <chapter:verse> " +
+					"[translation] [\"anonymous\"]");
 			sender.sendMessage(ChatColor.GREEN + "Aliases: sendverse, versesend, giveverse, versegive, " +
 					"sendv, vsend, givev, and vgive.");
 			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.verse.send");
+			sender.sendMessage(ChatColor.GREEN + "Typing anonymous makes it so that you are anonymous in " +
+					"sending the verse. This requires the TadukooBible.anonymous.verse permission.");
 			return;
 		}else if(page.equalsIgnoreCase("previous1")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page " + helpPage + "/" + maxPages +
@@ -180,14 +185,17 @@ public class Help {
 					"the next book.");
 			sender.sendMessage(ChatColor.GREEN + "[book] can be replaced with last or its aliases to get " +
 					"the book you got the last time you typed the command.");
+			sender.sendMessage(ChatColor.GREEN + "[book] can be replaced with list to get a book containing " +
+					"a list of all the books for the translation.");
+			sender.sendMessage(ChatColor.GREEN + "[book] can be replaced with random to get a random book.");
 			return;
 		}else if(page.equalsIgnoreCase("sendbook1")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page " + helpPage + "/" + maxPages +
 					" /bible sendbook (1/2)");
 			sender.sendMessage(ChatColor.GREEN + "Description: Sends part of the Bible in book form to a " +
 					"player.");
-			sender.sendMessage(ChatColor.GREEN + "Usage: /bible sendbook <player> [book] [part #] " +
-					"[translation]");
+			sender.sendMessage(ChatColor.GREEN + "Usage: /bible sendbook <player> <book> <part> " +
+					"[translation] [\"anonymous\"]");
 			sender.sendMessage(ChatColor.GREEN + "Aliases: booksend, sendbible, biblesend, givebook, " +
 					"bookgive, biblegive, and givebible");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible help " + helpPageU + " for defaults, " +
@@ -196,18 +204,22 @@ public class Help {
 		}else if(page.equalsIgnoreCase("sendbook2")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page " + helpPage + "/" + maxPages +
 					" /bible sendbook Cont. (2/2)");
-			sender.sendMessage(ChatColor.GREEN + "Defaults: /bible sendbook <player> Genesis 1 " + 
+			sender.sendMessage(ChatColor.GREEN + "Defaults: /bible sendbook <player> <book> <part> " + 
 					plugin.getConfig().getString("DefaultTranslation"));
-			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.book.give");
+			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.book.send");
 			sender.sendMessage(ChatColor.GREEN + "Note: [part #] is not [chapter #]");
+			sender.sendMessage(ChatColor.GREEN + "Typing anonymous at the end makes it so that you are " +
+					"anonymous in sending the book. This requires the TadukooBible.anonymous.book " +
+					"permission.");
 			return;
 		}else if(page.equalsIgnoreCase("info1")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page " + helpPage + "/" + maxPages +
 					" /bible info (1/2)");
 			sender.sendMessage(ChatColor.GREEN + "Description: Tells you information about the plugin, " +
-					"a translation, a book of the Bible, or lists books or translations.");
-			sender.sendMessage(ChatColor.GREEN + "Usage: /bible info [translation|book|\"plugin\"|" +
-					"\"books\"|\"translations\"] [page]");
+					"a translation, a book of the Bible, a permission, or lists books, translations, or " +
+					"permissions.");
+			sender.sendMessage(ChatColor.GREEN + "Usage: /bible info [translation|book|permission|" +
+					"\"plugin\"|\"books\"|\"translations\"|\"permissions\"] [page]");
 			sender.sendMessage(ChatColor.GREEN + "Aliases: about, abt, and information.");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible help " + helpPageU + " for more information " +
 					"about the permissions and usage.");
@@ -222,6 +234,8 @@ public class Help {
 					"TadukooBible.info.book permission.");
 			sender.sendMessage(ChatColor.GREEN + "To view info about a translation, you need the " +
 					"TadukooBible.info.translation permission.");
+			sender.sendMessage(ChatColor.GREEN + "To view info about a permission, you need the " +
+					"TadukooBible.info.permission permission.");
 			return;
 		}else if(page.equalsIgnoreCase("plugin1")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page " + helpPage + "/" + maxPages +
@@ -238,7 +252,8 @@ public class Help {
 			sender.sendMessage(ChatColor.GREEN + "Description: Lists all the books in the Bible or shows " +
 					"info about a book.");
 			sender.sendMessage(ChatColor.GREEN + "Usage: /bible books [page|book]");
-			sender.sendMessage(ChatColor.GREEN + "Aliases: bookslist, listbooks, and booklist.");
+			sender.sendMessage(ChatColor.GREEN + "Aliases: bookslist, listbooks, booklist, booksinfo, " +
+					"bookinfo, infobooks, and infobook.");
 			sender.sendMessage(ChatColor.GREEN + "Books in red are unavailable, while books in green are " +
 					"available.");
 			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.info.book");
@@ -250,7 +265,7 @@ public class Help {
 					"about a translation.");
 			sender.sendMessage(ChatColor.GREEN + "Usage: /bible translation [translation]");
 			sender.sendMessage(ChatColor.GREEN + "Aliases: translations, translist, translationslist, " +
-					"listtrans, tran, and trans.");
+					"listtrans, tran, trans, translationinfo, translationsinfo, transinfo, and traninfo.");
 			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.info.translation");
 			return;
 		}else if(page.equalsIgnoreCase("config1")){
@@ -270,7 +285,7 @@ public class Help {
 					" /bible announce (1/1)");
 			sender.sendMessage(ChatColor.GREEN + "Description: Announces a Bible verse to the server.");
 			sender.sendMessage(ChatColor.GREEN + "Usage: /bible announce <book> <chapter> <verse> " +
-					"[translation]");
+					"[translation] or /bible announce <book> <chapter:verse> [translation]");
 			sender.sendMessage(ChatColor.GREEN + "Aliases: ann, broadcast, broad, shout, and yell.");
 			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.op.announce");
 			sender.sendMessage(ChatColor.GREEN + "You need TadukooBible.verse.announceget to see " +

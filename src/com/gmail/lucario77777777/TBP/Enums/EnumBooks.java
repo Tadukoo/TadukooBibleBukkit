@@ -3,21 +3,26 @@ package com.gmail.lucario77777777.TBP.Enums;
 import com.gmail.lucario77777777.TBP.TB;
 
 public enum EnumBooks {
-	GENESIS("Genesis", "Gen", "Ge", "Genesis is about Creation up through the time the Israelites go to " +
-			"Egypt. It was written by Moses and has 50 chapters.", "Its aliases are Gen and Ge.", "Moses", 1, 
-			50, true),
-	EXODUS("Exodus", "Exo", "Ex", "Exodus is about the time from the Exodus of the Israelites from Egypt up " +
-			"to the laws given to the Israelites by God. It was written by Moses and has 40 chapters.", 
-			"Its aliases are Exo and Ex.", "Moses", 2, 40, true),
-	LEVITICUS("Leviticus", "Lev", "Le", "Leviticus is about the various laws that were given to the " +
-			"Israelites by God. It was written by Moses and has 27 chapters.", "Its aliases are Lev and Le.",
-			"Moses", 3, 27, true),
-	NUMBERS("Numbers", "Num", "Nu", "Numbers is about the various laws that were given to the Israelites " +
-			"by God. It was written by Moses and has 36 chapters.", "Its aliases are Num and Nu.", "Moses", 4,
-			36, true),
-	DEUTERONOMY("Deuteronomy", "Deu", "De", "Deuteronomy is about the laws given to the Israelites by God " +
-			"through Moses. It was written by Moses and has 34 chapters.", "Its aliases are Deu and De.",
-			"Moses", 5, 34, true),
+	GENESIS("Genesis", "Gen", "Ge", "Genesis is about creation, the fall of man, the great flood, God's " +
+			"covenant with Abraham, Isaac, and Jacob, and how the Israelites end up in Egypt. It was " +
+			"written by Moses and has 50 chapters.", "Its aliases are Gen and Ge.", "Moses", 1, 50, true),
+	EXODUS("Exodus", "Exo", "Ex", "Exodus is about God freeing the Israelites from their bondage in Egypt " +
+			"through Moses and 10 plagues, the reason for Passover, the Exodus of the Israelites from " +
+			"Egypt,  the 10 Commandments, and priest and worship instructions. It was written by Moses and " +
+			"has 40 chapters.", "Its aliases are Exo and Ex.", "Moses", 2, 40, true),
+	LEVITICUS("Leviticus", "Lev", "Le", "Leviticus is about God's instructions for sacrifices, offerings, " +
+			"the priesthood, unclean things, the Day of Atonement, and general laws for holy living. It was " +
+			"written by Moses and has 27 chapters.", "Its aliases are Lev and Le.", "Moses", 3, 27, true),
+	NUMBERS("Numbers", "Num", "Nu", "Numbers is about the preparation of the Israelite's journey into the " +
+			"promised land and the start of this journey, including the sending of spies into the promised " +
+			"land, the Israelites wandering in the desert for 40 years as punishment, and the appointment " +
+			"of Joshua as leader after Moses is banished from entering the land. It was written by Moses " +
+			"and has 36 chapters.", "Its aliases are Num and Nu.", "Moses", 4, 36, true),
+	DEUTERONOMY("Deuteronomy", "Deu", "De", "Deuteronomy is about Moses reviewing the Israelite's history, " +
+			"the Ten Commandments, the instructions on holy living, and committing the Israelites to " +
+			"setting themselves apart unto God. Then Moses blesses each of the tribes, hands over his " +
+			"authority to Joshua, and God allows him to see the promised land before he dies. It was " +
+			"written by Moses and has 34 chapters.", "Its aliases are Deu and De.", "Moses", 5, 34, true),
 	JOSHUA("Joshua", "Jos", "", "Its alias is Jos.", "Joshua", 6, 24, false),
 	JUDGES("Judges", "Jud", "", "Its alias is Jud.", "Samuel", 7, 21, false),
 	RUTH("Ruth", "Ru", "", "Its alias is Ru.", "Samuel", 8, 4, false),
@@ -33,11 +38,13 @@ public enum EnumBooks {
 	NEHEMIAH("Nehemiah", "Neh", "Ne", "", "Its aliases are Neh and Ne.", "Ezra", 16, 13, false),
 	ESTHER("Esther", "Est", "Es", "", "Its aliases are Est and Es.", "Unknown", 17, 10, false),
 	JOB("Job", "", "It has no aliases.", "Unknown", 18, 42, false),
-	PSALMS("Psalms", "Psalm", "Ps", "Psalms is a book containing poetry. It was written by many people and " +
-			"has 150 chapters.", "Its aliases are Psalm and Ps.", "Many people", 19, 150, true),
-	PROVERBS("Proverbs", "Pro", "Pr", "Proverbs is a book of wise sayings by Solomon and a few other " +
-			"people. It was written by Solomon and a few other people. It has 31 chapters.",
-			"Its aliases are Pro and Pr.", "Solomon", 20, 31, true),
+	PSALMS("Psalms", "Psalm", "Ps", "Psalms is a book containing songs and poetry. 73 Psalms were written " +
+			"by David, 12 by Asaph, 9 by the sons of Korah, 3 by Solomon, 1 by Ethan, 1 by Moses, and 51 " +
+			"without a known author. Psalms is mainly about praising God, totaling 150 Psalms.", "Its " +
+			"aliases are Psalm and Ps.", "Many people", 19, 150, true),
+	PROVERBS("Proverbs", "Pro", "Pr", "Proverbs is a book of wise sayings by Solomon, Lemuel, and Agur. " +
+			"It talks about seeking wisdom in your youth, holy living, wisdom for leaders, and heeding your " +
+			"parents' advice. It has 31 chapters.", "Its aliases are Pro and Pr.", "Solomon", 20, 31, true),
 	ECCLESIASTES("Ecclesiastes", "Ecc", "Ec", "", "Its aliases are Ecc and Ec.", "Solomon", 21, 12, false),
 	SONGOFSONGS("SongofSongs", "SongofSolomon", "So", "", "Its alias is Song of Solomon.", "Solomon", 22, 8,
 			false),
@@ -58,29 +65,43 @@ public enum EnumBooks {
 	HAGGAI("Haggai", "Hag", "", "Its alias is Hag.", "Haggai", 37, 2, false),
 	ZECHARIAH("Zechariah", "Zec", "", "Its alias is Zec.", "Zechariah", 38, 14, false),
 	MALACHI("Malachi", "Mal", "", "Its alias is Mal.", "Malachi", 39, 4, false),
-	MATTHEW("Matthew", "Mat", "Mt", "Matthew tells about Jesus' life. It was written by Matthew and has 28 " +
+	MATTHEW("Matthew", "Mat", "Mt", "Matthew tells about Jesus' life, including His birth, genealogy, " +
+			"ministry, miracles, teachings, death, and resurrection. It was written by Matthew and has 28 " +
 			"chapters.", "Its aliases are Mat and Mt.", "Matthew", 40, 28, true),
-	MARK("Mark", "Mr", "Mark tells about Jesus' life. It was written by John Mark and has 16 chapters.", 
-			"Its alias is Mr.", "John Mark", 41, 16, true),
-	LUKE("Luke", "Lu", "Luke tells about Jesus' life. It was written by Luke and has 24 chapters.", 
+	MARK("Mark", "Mr", "Mark tells about Jesus' life, including His baptism, temptation, ministry, " +
+			"selection of His disciples, teachings, blessings, miracles, death, and resurrection. It was " +
+			"written by John Mark and has 16 chapters.", "Its alias is Mr.", "John Mark", 41, 16, true),
+	LUKE("Luke", "Lu", "Luke tells about Jesus' life, including His birth, baptism, ministry, teachings, " +
+			"healings, betrayal, death, and resurrection. It was written by Luke and has 24 chapters.", 
 			"Its alias is Lu.", "Luke", 42,	24, true),
-	JOHN("John", "Joh", "John tells about Jesus' life. It was written by John and has 21 chapters.", 
-			"Its alias is Joh.", "John", 43, 21, true),
-	ACTS("Acts", "Ac", "Acts tells about what the apostles did after Jesus' ascension into Heaven. It was " +
-			"written by Luke. It has 28 chapters.", "Its alias is Ac.", "Luke", 44, 28, true),
+	JOHN("John", "Joh", "John tells about Jesus' life, including His ministry, Last Supper, teachings, " +
+			"death, burial, and resurrection. It was written by John and has 21 chapters.", "Its alias is " +
+					"Joh.", "John", 43, 21, true),
+	ACTS("Acts", "Ac", "Acts tells about what the apostles did after Jesus' ascension into Heaven, " +
+			"including the starting of the Christian church, proclaiming the Gospel to Gentiles, and Paul's " +
+			"journeys and difficulties. It was written by Luke and has 28 chapters.", "Its alias is Ac.",
+			"Luke", 44, 28, true),
 	ROMANS("Romans", "Rom", "Ro", "Romans is a letter written to the believers in Rome about the " +
-			"fundamentals of faith, God's sovereignty, and holy living. It was written by Paul. It has " +
+			"fundamentals of faith, God's sovereignty, and holy living. It was written by Paul and has " +
 			"16 chapters.", "Its aliases are Rom and Ro.", "Paul", 45, 16, true),
 	CORINTHIANS1("1Corinthians", "1Cor", "1Co", "1 Corinthians is a letter written to the church in Corinth " +
 			"about difficulties and confusion in the church along with the resurrection. It was written by " +
-			"Paul. It has 16 chapters.", "Its aliases are 1 Cor and 1 Co.", "Paul", 46, 16, true),
+			"Paul and has 16 chapters.", "Its aliases are 1 Cor and 1 Co.", "Paul", 46, 16, true),
 	CORINTHIANS2("2Corinthians", "2Cor", "2Co", "2 Corinthians is a letter written to the church in Corinth " +
-			"about being an apostle, preaching the Gospel, and testing your faith. It was written by Paul. " +
-			"It has 13 chapters.", "Its aliases are 2 Cor and 2 Co.", "Paul", 47, 13, true),
-	GALATIANS("Galatians", "Gal", "Ga", "", "Its aliases are Gal and Ga.", "Paul", 48, 6, false),
-	EPHESIANS("Ephesians", "Eph", "", "Its alias is Eph.", "Paul", 49, 6, false),
-	PHILIPPIANS("Philippians", "Phili", "Php", "", "Its aliases are Phili and Php.", "Paul", 50, 4, false),
-	COLOSSIANS("Colossians", "Col", "", "Its alias is Col.", "Paul", 51, 4, false),
+			"about being an apostle, preaching the Gospel, and testing your faith. It was written by Paul " +
+			"and has 13 chapters.", "Its aliases are 2 Cor and 2 Co.", "Paul", 47, 13, true),
+	GALATIANS("Galatians", "Gal", "Ga", "Galatians is a letter written by Paul warning about false " +
+			"teachers and teaching about salvation, the fruits of the Spirit, and walking by the Spirit. It " +
+			"has 6 chapters.", "Its aliases are Gal and Ga.", "Paul", 48, 6, true),
+	EPHESIANS("Ephesians", "Eph", "Ephesians is a letter written by Paul while he was in prison about being " +
+			"chosen by God, living as a servant of God, and the armor of God.", "Its alias is Eph.", "Paul",
+			49, 6, true),
+	PHILIPPIANS("Philippians", "Phili", "Php", "Philippians is a letter written by Paul while he was in " +
+			"prison about joy through suffering, the humanity of Jesus, and joy in Christ. It has 4 chapters.",
+			"Its aliases are Phili and Php.", "Paul", 50, 4, true),
+	COLOSSIANS("Colossians", "Col", "Colossians is a letter written by Paul while he was in prison about " +
+			"the divinity of Jesus, holy living, and focusing on God.", "Its alias is Col.", "Paul", 51, 4,
+			true),
 	THESSALONIANS1("1Thessalonians", "1Thes", "1Th", "", "Its aliases are 1 Thes and 1 Th.", "Paul", 52, 5,
 			false),
 	THESSALONIANS2("2Thessalonians", "2Thes", "2Th", "", "Its aliases are 2 Thes and 2 Th.", "Paul", 53, 3,
@@ -93,14 +114,18 @@ public enum EnumBooks {
 	JAMES("James", "Jas", "", "Its alias is Jas.", "James", 59, 5, false),
 	PETER1("1Peter", "1Pe", "", "Its alias is 1 Pe.", "Peter", 60, 5, false),
 	PETER2("2Peter", "2Pe", "", "Its alias is 2 Pe.", "Peter", 61, 3, false),
-	JOHN1("1John", "1Jo", "1 John teaches about how to discern true teachers. It was written by John and " +
-			"has 5 chapters.", "Its alias is 1 Jo.", "John", 62, 5, true),
-	JOHN2("2John", "2Jo", "2 John teaches about focusing on Jesus Christ. It was written by John and has " +
-			"1 chapter.", "Its alias is 2 Jo.", "John", 63, 1, true),
-	JOHN3("3John", "3Jo", "3 John teaches about loving God and other people. It was written by John and has " +
-			"1 chapter.", "Its alias is 3 Jo.", "John", 64, 1, true),
-	JUDE("Jude", "", "It has no alias.", "Jude", 65, 1, false),
-	REVELATION("Revelation", "Rev", "Re", "", "Its aliases are Rev and Re.", "John", 66, 22, false);
+	JOHN1("1John", "1Jo", "1 John teaches about how to discern true teachers, the love of God, and " +
+			"overcoming faith. It was written by John and has 5 chapters.", "Its alias is 1 Jo.", "John", 62,
+			5, true),
+	JOHN2("2John", "2Jo", "2 John teaches about focusing on Jesus Christ and not following false teachers. " +
+			"It was written by John and has 1 chapter.", "Its alias is 2 Jo.", "John", 63, 1, true),
+	JOHN3("3John", "3Jo", "3 John teaches about loving God and other people by walking in the truth. It " +
+			"was written by John and has 1 chapter.", "Its alias is 3 Jo.", "John", 64, 1, true),
+	JUDE("Jude", "Jude warns us to avoid false teachers and remember the words of the prophets. It was " +
+			"written by Jude and has 1 chapter.", "It has no alias.", "Jude", 65, 1, true),
+	REVELATION("Revelation", "Rev", "Re", "Revelation is a book of prophecy about what will happen in the " +
+			"future concerning the end times. It was written by John and has 22 chapters.", "Its aliases " +
+					"are Rev and Re.", "John", 66, 22, true);
 	
 	private String book;
 	private String alias;
