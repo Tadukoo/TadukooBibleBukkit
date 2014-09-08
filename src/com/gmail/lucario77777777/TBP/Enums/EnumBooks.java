@@ -45,9 +45,9 @@ public enum EnumBooks {
 	PROVERBS("Proverbs", "Pro", "Pr", "Proverbs is a book of wise sayings by Solomon, Lemuel, and Agur. " +
 			"It talks about seeking wisdom in your youth, holy living, wisdom for leaders, and heeding your " +
 			"parents' advice. It has 31 chapters.", "Its aliases are Pro and Pr.", "Solomon", 20, 31, true),
-	ECCLESIASTES("Ecclesiastes", "Ecc", "Ec", "", "Its aliases are Ecc and Ec.", "Solomon", 21, 12, false),
+	ECCLESIASTES("Ecclesiastes", "Ecc", "Ec", "", "Its aliases are Ecc and Ec.", "Solomon", 21, 12, true),
 	SONGOFSONGS("SongofSongs", "SongofSolomon", "So", "", "Its alias is Song of Solomon.", "Solomon", 22, 8,
-			false),
+			true),
 	ISAIAH("Isaiah", "Isa", "", "Its alias is Isa.", "Isaiah", 23, 66, false),
 	JEREMIAH("Jeremiah", "Jer", "", "Its alias is Jer.", "Jeremiah", 24, 52, false),
 	LAMENTATIONS("Lamentations", "Lam", "La", "", "Its aliases are Lam and La.", "Jeremiah", 25, 5, false),
@@ -94,26 +94,41 @@ public enum EnumBooks {
 			"teachers and teaching about salvation, the fruits of the Spirit, and walking by the Spirit. It " +
 			"has 6 chapters.", "Its aliases are Gal and Ga.", "Paul", 48, 6, true),
 	EPHESIANS("Ephesians", "Eph", "Ephesians is a letter written by Paul while he was in prison about being " +
-			"chosen by God, living as a servant of God, and the armor of God.", "Its alias is Eph.", "Paul",
-			49, 6, true),
+			"chosen by God, living as a servant of God, and the armor of God. It has 6 chapters.",
+			"Its alias is Eph.", "Paul", 49, 6, true),
 	PHILIPPIANS("Philippians", "Phili", "Php", "Philippians is a letter written by Paul while he was in " +
 			"prison about joy through suffering, the humanity of Jesus, and joy in Christ. It has 4 chapters.",
 			"Its aliases are Phili and Php.", "Paul", 50, 4, true),
 	COLOSSIANS("Colossians", "Col", "Colossians is a letter written by Paul while he was in prison about " +
-			"the divinity of Jesus, holy living, and focusing on God.", "Its alias is Col.", "Paul", 51, 4,
-			true),
-	THESSALONIANS1("1Thessalonians", "1Thes", "1Th", "", "Its aliases are 1 Thes and 1 Th.", "Paul", 52, 5,
-			false),
-	THESSALONIANS2("2Thessalonians", "2Thes", "2Th", "", "Its aliases are 2 Thes and 2 Th.", "Paul", 53, 3,
-			false),
-	TIMOTHY1("1Timothy", "1Tim", "1Ti", "", "Its aliases are 1 Tim and 1 Ti.", "Paul", 54, 6, false),
-	TIMOTHY2("2Timothy", "2Tim", "2Ti", "", "Its aliases are 2 Tim and 2 Ti.", "Paul", 55, 4, false),
-	TITUS("Titus", "Tit", "", "Its alias is Tit.", "Paul", 56, 3, false),
-	PHILEMON("Philemon", "Phile", "Phm", "", "Its aliases are Phil and Phm.", "Paul", 57, 1, false),
-	HEBREWS("Hebrews", "Heb", "", "Its alias is Heb.", "Unknown", 58, 13, false),
-	JAMES("James", "Jas", "", "Its alias is Jas.", "James", 59, 5, false),
-	PETER1("1Peter", "1Pe", "", "Its alias is 1 Pe.", "Peter", 60, 5, false),
-	PETER2("2Peter", "2Pe", "", "Its alias is 2 Pe.", "Peter", 61, 3, false),
+			"the divinity of Jesus, holy living, and focusing on God. It has 4 chapters.",
+			"Its alias is Col.", "Paul", 51, 4, true),
+	THESSALONIANS1("1Thessalonians", "1Thes", "1Th", "1 Thessalonians is a letter written by Paul about " +
+			"faith, hope, love, the Second Coming, continual prayer, and examining the spirits. It has 5 " +
+			"chapters.", "Its aliases are 1 Thes and 1 Th.", "Paul", 52, 5, true),
+	THESSALONIANS2("2Thessalonians", "2Thes", "2Th", "2 Thessalonians is a letter written by Paul about " +
+			"the Second Coming, perseverance through persecution, and signs of the end times. It has 3 " +
+			"chapters.", "Its aliases are 2 Thes and 2 Th.", "Paul", 53, 3, true),
+	TIMOTHY1("1Timothy", "1Tim", "1Ti", "1 Timothy is a letter written by Paul about fighting the good " +
+			"fight, salvation, church leadership, and relationships within the church. It has 6 chapters.",
+			"Its aliases are 1 Tim and 1 Ti.", "Paul", 54, 6, true),
+	TIMOTHY2("2Timothy", "2Tim", "2Ti", "2 Timothy is a letter written by Paul about remaining faithful, " +
+			"endurance through persecution, and being a preacher of the Gospel. It has 4 chapters.",
+			"Its aliases are 2 Tim and 2 Ti.", "Paul", 55, 4, true),
+	TITUS("Titus", "Tit", "Titus is a letter written by Paul about qualifications for church leaders, holy " +
+			"living, and salvation. It has 3 chapters.", "Its alias is Tit.", "Paul", 56, 3, true),
+	PHILEMON("Philemon", "Phile", "Phm", "Philemon is a letter written by Paul while he was in prison to " +
+			"Philemon for forgiveness for Philemon's slave, Onesimus, who ran away and accepted Christ. It " +
+			"has 1 chapter.", "Its aliases are Phil and Phm.", "Paul", 57, 1, true),
+	HEBREWS("Hebrews", "Heb", "Hebrews is a letter written by an anonymous author about Jesus being God, " +
+			"the New Covenant as being better than the Old Testament, and the power of faith. It has 13 " +
+			"chapters.", "Its alias is Heb.", "Unknown", 58, 13, true),
+	JAMES("James", "Jas", "James is a letter written by James about testing your faith, putting your faith " +
+			"into action, works being evidence of faith, and submitting to God. It has 5 chapters.",
+			"Its alias is Jas.", "James", 59, 5, true),
+	PETER1("1Peter", "1Pe", "1 Peter is a letter written by Peter about holy living, serving God, and being " +
+			"alert to deception. It has 5 chapters.", "Its alias is 1 Pe.", "Peter", 60, 5, true),
+	PETER2("2Peter", "2Pe", "2 Peter is a letter written by Peter about the truth of the Gospel and the " +
+			"end times. It has 3 chapters.", "Its alias is 2 Pe.", "Peter", 61, 3, true),
 	JOHN1("1John", "1Jo", "1 John teaches about how to discern true teachers, the love of God, and " +
 			"overcoming faith. It was written by John and has 5 chapters.", "Its alias is 1 Jo.", "John", 62,
 			5, true),
@@ -125,7 +140,7 @@ public enum EnumBooks {
 			"written by Jude and has 1 chapter.", "It has no alias.", "Jude", 65, 1, true),
 	REVELATION("Revelation", "Rev", "Re", "Revelation is a book of prophecy about what will happen in the " +
 			"future concerning the end times. It was written by John and has 22 chapters.", "Its aliases " +
-					"are Rev and Re.", "John", 66, 22, true);
+			"are Rev and Re.", "John", 66, 22, true);
 	
 	private String book;
 	private String alias;
