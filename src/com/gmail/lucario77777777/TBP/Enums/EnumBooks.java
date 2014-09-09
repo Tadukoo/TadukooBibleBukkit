@@ -23,10 +23,19 @@ public enum EnumBooks {
 			"setting themselves apart unto God. Then Moses blesses each of the tribes, hands over his " +
 			"authority to Joshua, and God allows him to see the promised land before he dies. It was " +
 			"written by Moses and has 34 chapters.", "Its aliases are Deu and De.", "Moses", 5, 34, true),
-	JOSHUA("Joshua", "Jos", "", "Its alias is Jos.", "Joshua", 6, 24, false),
-	JUDGES("Judges", "Jud", "", "Its alias is Jud.", "Samuel", 7, 21, false),
-	RUTH("Ruth", "Ru", "", "Its alias is Ru.", "Samuel", 8, 4, false),
-	SAMUEL1("1Samuel", "1Sam", "1Sa", "", "Its aliases are 1 Sam and 1 Sa.", "Unknown", 9, 31, false),
+	JOSHUA("Joshua", "Jos", "Joshua is about the Israelites entering the promised land, conquering it, " +
+			"dividing it among the tribes, and Joshua's death, leaving a great challenge for everyone. It " +
+			"was written by Joshua and has 24 chapters.", "Its alias is Jos.", "Joshua", 6, 24, false),
+	JUDGES("Judges", "Jud", "Judges is about the various judges God raised up for the Israelites to get " +
+			"them back on track with following God after each time they rebelled. It was written by Samuel " +
+			"and has 21 chapters.", "Its alias is Jud.", "Samuel", 7, 21, false),
+	RUTH("Ruth", "Ru", "Ruth is a story about how Ruth came to marry Boaz. It shows the love and " +
+			"faithfulness God desires us to have for Him. It was written by Samuel and has 4 chapters.",
+			"Its alias is Ru.", "Samuel", 8, 4, false),
+	SAMUEL1("1Samuel", "1Sam", "1Sa", "1 Samuel is a book about Samuel, the last judge of Israel. During " +
+			"his time, Israel wants a king to rule over them, and Saul is selected. Saul turns against God, " +
+			"and David is chosen as the next king. The author is unknown, but it has 31 chapters.",
+			"Its aliases are 1 Sam and 1 Sa.", "Unknown", 9, 31, false),
 	SAMUEL2("2Samuel", "2Sam", "2Sa", "", "Its aliases are 2 Sam and 2 Sa.", "Unknown", 10, 24, false),
 	KINGS1("1Kings", "1Ki", "", "Its alias is 1 Ki.", "Unknown", 11, 22, false),
 	KINGS2("2Kings", "2Ki", "", "Its alias is 2 Ki.", "Unknown", 12, 25, false),
