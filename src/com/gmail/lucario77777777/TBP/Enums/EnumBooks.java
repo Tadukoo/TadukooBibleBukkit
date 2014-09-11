@@ -36,16 +36,34 @@ public enum EnumBooks {
 			"his time, Israel wants a king to rule over them, and Saul is selected. Saul turns against God, " +
 			"and David is chosen as the next king. The author is unknown, but it has 31 chapters.",
 			"Its aliases are 1 Sam and 1 Sa.", "Unknown", 9, 31, false),
-	SAMUEL2("2Samuel", "2Sam", "2Sa", "", "Its aliases are 2 Sam and 2 Sa.", "Unknown", 10, 24, false),
-	KINGS1("1Kings", "1Ki", "", "Its alias is 1 Ki.", "Unknown", 11, 22, false),
-	KINGS2("2Kings", "2Ki", "", "Its alias is 2 Ki.", "Unknown", 12, 25, false),
-	CHRONICLES1("1Chronicles", "1Chron", "1Ch", "", "Its aliases are 1 Chron and 1 Ch.", "Ezra", 13, 29,
+	SAMUEL2("2Samuel", "2Sam", "2Sa", "2 Samuel is a book about David, King of Israel at the time. During " +
+			"his reign, there are rebellions against him and we see his sinful side, which he ultimately " +
+			"repents from. The author is unknown, but it has 24 chapters.", "Its aliases are 2 Sam and 2 Sa.",
+			"Unknown", 10, 24, false),
+	KINGS1("1Kings", "1Ki", "1 Kings is about the end of King David's reign along with the reign of " +
+			"Solomon and the splitting of the kingdom into Israel and Judah. Its author is unknown, but it " +
+			"has 22 chapters.", "Its alias is 1 Ki.", "Unknown", 11, 22, false),
+	KINGS2("2Kings", "2Ki", "2 Kings is about the various kings of Israel and Judah who lead the people " +
+			"astray from God. During this time, God sends prophets to lead His people back on track. Its " +
+			"author is unknown, but it has 25 chapters.", "Its alias is 2 Ki.", "Unknown", 12, 25, false),
+	CHRONICLES1("1Chronicles", "1Chron", "1Ch", "1 Chronicles is about the genealogies of the nation of " +
+			"Israel from Adam and a review of the times from Saul's death through Solomon's reign. It was " +
+			"written by Ezra and has 29 chapters.", "Its aliases are 1 Chron and 1 Ch.", "Ezra", 13, 29, 
 			false),
-	CHRONICLES2("2Chronicles", "2Chron", "2Ch", "", "Its aliases are 2 Chron and 2 Ch.", "Ezra", 14, 36,
-			false),
-	EZRA("Ezra", "Ezr", "", "Its alias is Ezr.", "Ezra", 15, 10, false),
-	NEHEMIAH("Nehemiah", "Neh", "Ne", "", "Its aliases are Neh and Ne.", "Ezra", 16, 13, false),
-	ESTHER("Esther", "Est", "Es", "", "Its aliases are Est and Es.", "Unknown", 17, 10, false),
+	CHRONICLES2("2Chronicles", "2Chron", "2Ch", "2 Chronicles is about the history of Israel as a united " +
+			"nation under Solomon and its divide and the reigns of the kings of Judah and Israel until " +
+			"their captivity. It was written by Ezra and has 36 chapters.", 
+			"Its aliases are 2 Chron and 2 Ch.", "Ezra", 14, 36, false),
+	EZRA("Ezra", "Ezr", "Ezra is about the beginning of the Israelites returning to their land after their " +
+			"captivity. They begin rebuilding the temple and Ezra teaches them the Law again. It was " +
+			"written by Ezra and has 10 chapters.", "Its alias is Ezr.", "Ezra", 15, 10, false),
+	NEHEMIAH("Nehemiah", "Neh", "Ne", "Nehemiah is about the beginnings of the Israelites returning to " +
+			"their land after their captivity. They rebuild the walls in 52 days and begin to reestablish " +
+			"themselves as a nation. It was written by Ezra and has 13 chapters.",
+			"Its aliases are Neh and Ne.", "Ezra", 16, 13, false),
+	ESTHER("Esther", "Est", "Es", "Esther is about how Esther becomes queen of Persia through God's help " +
+			"and is able to save the Jews from Haman, a corrupt official of the king. Its author is " +
+			"unknown, but it has 10 chapters.", "Its aliases are Est and Es.", "Unknown", 17, 10, false),
 	JOB("Job", "", "It has no aliases.", "Unknown", 18, 42, false),
 	PSALMS("Psalms", "Psalm", "Ps", "Psalms is a book containing songs and poetry. 73 Psalms were written " +
 			"by David, 12 by Asaph, 9 by the sons of Korah, 3 by Solomon, 1 by Ethan, 1 by Moses, and 51 " +

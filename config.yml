@@ -2,6 +2,12 @@
 #                                        #
 #       Tadukoo Bible Config             #
 ##########################################
+# NEVER change this setting!
+Version: Beta 0.7 SNAPSHOT
+
+# Set this to false if you want to disable the checks of this file during start up.
+startup-checks: true
+
 # This is the book, chapter, verse, and translation used for commands when none is specified.
 # DefaultChapter, DefaultVerse, and DefaultPart must be a number in parentheses.
 DefaultTranslation: KJV

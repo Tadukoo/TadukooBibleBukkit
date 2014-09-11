@@ -80,7 +80,7 @@ public enum EnumChps {
 	PROVERBS4("Proverbs", 4, 31),
 	ECCLESIASTES("Ecclesiastes", 1, 18, 26, 22, 16, 20, 12, 29, 17, 18, 20),
 	ECCLESIASTES2("Ecclesiastes", 2, 10, 14),
-	SONGOFSONGS("SongofSongs", 1, 0),
+	SONGOFSONGS("SongofSongs", 1, 17, 17, 11, 16, 16, 13, 13, 14),
 	ISAIAH("Isaiah", 1, 0),
 	ISAIAH2("Isaiah", 2, 0),
 	ISAIAH3("Isaiah", 3, 0),
