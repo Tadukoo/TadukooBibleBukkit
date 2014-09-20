@@ -23,7 +23,7 @@ public enum EnumChps {
 	DEUTERONOMY2("Deuteronomy", 2, 32, 32, 18, 29, 23, 22, 20, 22, 21, 20),
 	DEUTERONOMY3("Deuteronomy", 3, 23, 30, 25, 22, 19, 19, 26, 68, 29, 20),
 	DEUTERONOMY4("Deuteronomy", 4, 30, 52, 29, 12),
-	JOSHUA("Joshua", 1, 0),
+	JOSHUA("Joshua", 1, 18),
 	JOSHUA2("Joshua", 2, 0),
 	JOSHUA3("Joshua", 3, 0),
 	JUDGES("Judges", 1, 0),

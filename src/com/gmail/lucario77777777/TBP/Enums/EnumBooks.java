@@ -64,7 +64,9 @@ public enum EnumBooks {
 	ESTHER("Esther", "Est", "Es", "Esther is about how Esther becomes queen of Persia through God's help " +
 			"and is able to save the Jews from Haman, a corrupt official of the king. Its author is " +
 			"unknown, but it has 10 chapters.", "Its aliases are Est and Es.", "Unknown", 17, 10, false),
-	JOB("Job", "", "It has no aliases.", "Unknown", 18, 42, false),
+	JOB("Job", "Job is about Job, a man whose faith was tested by God. Job never gave up his faith in God, " +
+			"and he never blamed God for all the pain and sorrow he experienced. The author of Job is " +
+			"unknown, but it has 42 chapters.", "It has no aliases.", "Unknown", 18, 42, false),
 	PSALMS("Psalms", "Psalm", "Ps", "Psalms is a book containing songs and poetry. 73 Psalms were written " +
 			"by David, 12 by Asaph, 9 by the sons of Korah, 3 by Solomon, 1 by Ethan, 1 by Moses, and 51 " +
 			"without a known author. Psalms is mainly about praising God, totaling 150 Psalms.", "Its " +
@@ -72,9 +74,13 @@ public enum EnumBooks {
 	PROVERBS("Proverbs", "Pro", "Pr", "Proverbs is a book of wise sayings by Solomon, Lemuel, and Agur. " +
 			"It talks about seeking wisdom in your youth, holy living, wisdom for leaders, and heeding your " +
 			"parents' advice. It has 31 chapters.", "Its aliases are Pro and Pr.", "Solomon", 20, 31, true),
-	ECCLESIASTES("Ecclesiastes", "Ecc", "Ec", "", "Its aliases are Ecc and Ec.", "Solomon", 21, 12, true),
-	SONGOFSONGS("SongofSongs", "SongofSolomon", "So", "", "Its alias is Song of Solomon.", "Solomon", 22, 8,
+	ECCLESIASTES("Ecclesiastes", "Ecc", "Ec", "Ecclesiastes is a book of wisdom written by Solomon about " +
+			"how all worldly pleasures are meaningless, general wisdom, and that everything is worth " +
+			"nothing without God. It has 12 chapters.", "Its aliases are Ecc and Ec.", "Solomon", 21, 12, 
 			true),
+	SONGOFSONGS("SongofSongs", "SongofSolomon", "So", "Song of Songs is a book written by Solomon about how " +
+			"marriage is supposed to be. It has 8 chapters.", "Its alias is Song of Solomon.", "Solomon", 22, 
+			8, true),
 	ISAIAH("Isaiah", "Isa", "", "Its alias is Isa.", "Isaiah", 23, 66, false),
 	JEREMIAH("Jeremiah", "Jer", "", "Its alias is Jer.", "Jeremiah", 24, 52, false),
 	LAMENTATIONS("Lamentations", "Lam", "La", "", "Its aliases are Lam and La.", "Jeremiah", 25, 5, false),
