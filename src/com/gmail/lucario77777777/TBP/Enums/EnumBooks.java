@@ -25,48 +25,48 @@ public enum EnumBooks {
 			"written by Moses and has 34 chapters.", "Its aliases are Deu and De.", "Moses", 5, 34, true),
 	JOSHUA("Joshua", "Jos", "Joshua is about the Israelites entering the promised land, conquering it, " +
 			"dividing it among the tribes, and Joshua's death, leaving a great challenge for everyone. It " +
-			"was written by Joshua and has 24 chapters.", "Its alias is Jos.", "Joshua", 6, 24, false),
+			"was written by Joshua and has 24 chapters.", "Its alias is Jos.", "Joshua", 6, 24, true),
 	JUDGES("Judges", "Jud", "Judges is about the various judges God raised up for the Israelites to get " +
 			"them back on track with following God after each time they rebelled. It was written by Samuel " +
-			"and has 21 chapters.", "Its alias is Jud.", "Samuel", 7, 21, false),
+			"and has 21 chapters.", "Its alias is Jud.", "Samuel", 7, 21, true),
 	RUTH("Ruth", "Ru", "Ruth is a story about how Ruth came to marry Boaz. It shows the love and " +
 			"faithfulness God desires us to have for Him. It was written by Samuel and has 4 chapters.",
-			"Its alias is Ru.", "Samuel", 8, 4, false),
+			"Its alias is Ru.", "Samuel", 8, 4, true),
 	SAMUEL1("1Samuel", "1Sam", "1Sa", "1 Samuel is a book about Samuel, the last judge of Israel. During " +
 			"his time, Israel wants a king to rule over them, and Saul is selected. Saul turns against God, " +
 			"and David is chosen as the next king. The author is unknown, but it has 31 chapters.",
-			"Its aliases are 1 Sam and 1 Sa.", "Unknown", 9, 31, false),
+			"Its aliases are 1 Sam and 1 Sa.", "Unknown", 9, 31, true),
 	SAMUEL2("2Samuel", "2Sam", "2Sa", "2 Samuel is a book about David, King of Israel at the time. During " +
 			"his reign, there are rebellions against him and we see his sinful side, which he ultimately " +
 			"repents from. The author is unknown, but it has 24 chapters.", "Its aliases are 2 Sam and 2 Sa.",
-			"Unknown", 10, 24, false),
+			"Unknown", 10, 24, true),
 	KINGS1("1Kings", "1Ki", "1 Kings is about the end of King David's reign along with the reign of " +
 			"Solomon and the splitting of the kingdom into Israel and Judah. Its author is unknown, but it " +
-			"has 22 chapters.", "Its alias is 1 Ki.", "Unknown", 11, 22, false),
+			"has 22 chapters.", "Its alias is 1 Ki.", "Unknown", 11, 22, true),
 	KINGS2("2Kings", "2Ki", "2 Kings is about the various kings of Israel and Judah who lead the people " +
 			"astray from God. During this time, God sends prophets to lead His people back on track. Its " +
-			"author is unknown, but it has 25 chapters.", "Its alias is 2 Ki.", "Unknown", 12, 25, false),
+			"author is unknown, but it has 25 chapters.", "Its alias is 2 Ki.", "Unknown", 12, 25, true),
 	CHRONICLES1("1Chronicles", "1Chron", "1Ch", "1 Chronicles is about the genealogies of the nation of " +
 			"Israel from Adam and a review of the times from Saul's death through Solomon's reign. It was " +
 			"written by Ezra and has 29 chapters.", "Its aliases are 1 Chron and 1 Ch.", "Ezra", 13, 29, 
-			false),
+			true),
 	CHRONICLES2("2Chronicles", "2Chron", "2Ch", "2 Chronicles is about the history of Israel as a united " +
 			"nation under Solomon and its divide and the reigns of the kings of Judah and Israel until " +
 			"their captivity. It was written by Ezra and has 36 chapters.", 
-			"Its aliases are 2 Chron and 2 Ch.", "Ezra", 14, 36, false),
+			"Its aliases are 2 Chron and 2 Ch.", "Ezra", 14, 36, true),
 	EZRA("Ezra", "Ezr", "Ezra is about the beginning of the Israelites returning to their land after their " +
 			"captivity. They begin rebuilding the temple and Ezra teaches them the Law again. It was " +
-			"written by Ezra and has 10 chapters.", "Its alias is Ezr.", "Ezra", 15, 10, false),
+			"written by Ezra and has 10 chapters.", "Its alias is Ezr.", "Ezra", 15, 10, true),
 	NEHEMIAH("Nehemiah", "Neh", "Ne", "Nehemiah is about the beginnings of the Israelites returning to " +
 			"their land after their captivity. They rebuild the walls in 52 days and begin to reestablish " +
 			"themselves as a nation. It was written by Ezra and has 13 chapters.",
-			"Its aliases are Neh and Ne.", "Ezra", 16, 13, false),
+			"Its aliases are Neh and Ne.", "Ezra", 16, 13, true),
 	ESTHER("Esther", "Est", "Es", "Esther is about how Esther becomes queen of Persia through God's help " +
 			"and is able to save the Jews from Haman, a corrupt official of the king. Its author is " +
-			"unknown, but it has 10 chapters.", "Its aliases are Est and Es.", "Unknown", 17, 10, false),
+			"unknown, but it has 10 chapters.", "Its aliases are Est and Es.", "Unknown", 17, 10, true),
 	JOB("Job", "Job is about Job, a man whose faith was tested by God. Job never gave up his faith in God, " +
 			"and he never blamed God for all the pain and sorrow he experienced. The author of Job is " +
-			"unknown, but it has 42 chapters.", "It has no aliases.", "Unknown", 18, 42, false),
+			"unknown, but it has 42 chapters.", "It has no aliases.", "Unknown", 18, 42, true),
 	PSALMS("Psalms", "Psalm", "Ps", "Psalms is a book containing songs and poetry. 73 Psalms were written " +
 			"by David, 12 by Asaph, 9 by the sons of Korah, 3 by Solomon, 1 by Ethan, 1 by Moses, and 51 " +
 			"without a known author. Psalms is mainly about praising God, totaling 150 Psalms.", "Its " +
