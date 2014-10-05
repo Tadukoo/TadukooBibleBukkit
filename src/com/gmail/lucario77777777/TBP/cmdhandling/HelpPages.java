@@ -25,8 +25,14 @@ public class HelpPages {
 	
 	public static void help(TB plugin, CommandSender sender, String page, int helpPage, int helpPageU){
 		if(page.equalsIgnoreCase("toc1")){
-			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page " + helpPage + "/" + maxPages +
-					" Table of Contents (1/5).");
+			String heading = plugin.getLanguage().getString("help.heading");
+			heading = heading.replaceAll("{helpPage}", String.valueOf(helpPage));
+			heading = heading.replaceAll("{maxPages}", String.valueOf(maxPages));
+			heading = heading.replaceAll("title}", 
+					plugin.getLanguage().getString("help.titles.tableofcontents"));
+			heading = heading.replaceAll("{minorPage}", String.valueOf(1));
+			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(5));
+			sender.sendMessage(ChatColor.GREEN + heading);
 			sender.sendMessage(ChatColor.GREEN + "Page " + readPage + ". /bible");
 			sender.sendMessage(ChatColor.GREEN + "Page " + sendPage + ". /bible send");
 			sender.sendMessage(ChatColor.GREEN + "Page " + previousPage + ". /bible previous");

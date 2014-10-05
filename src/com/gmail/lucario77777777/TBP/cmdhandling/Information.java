@@ -24,8 +24,11 @@ public class Information {
 		}else{
 			if(book.getAlias2() == null){
 				aliases = plugin.getLanguage().getString("aliases.one");
+				aliases = aliases.replaceAll("{alias1}", book.getAlias());
 			}else{
 				aliases = plugin.getLanguage().getString("aliases.two");
+				aliases = aliases.replaceAll("{alias1}", book.getAlias());
+				aliases = aliases.replaceAll("{alias2}", book.getAlias2());
 			}
 		}
 		sender.sendMessage(ChatColor.GREEN + desc);
