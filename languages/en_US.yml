@@ -69,11 +69,42 @@ books:
   3John: 3 John teaches about loving God and other people by walking in the truth. It was written by John and has 1 chapter.
   Jude: Jude warns us to avoid false teachers and remember the words of the prophets. It was written by Jude and has 1 chapter.
   Revelation: Revelation is a book of prophecy about what will happen in the future concerning the end times. It was written by John and has 22 chapters.
+commands:
+  read: read
+  send: send
+  previous: previous
+  next: next
+  last: last
+  random: random
+  getbook: getbook
+  sendbook: sendbook
+  info: info
+  help: help
+  plugin: plugin
+  books: books
+  translation: translation
+  config: config
+  announce: announce
 help:
   heading: TadukooBible Help Page {helpPage}/{maxPages} {title} ({minorPage}/{maxMinorPages}).
   titles:
-    tableofcontents: Table of Contents
+    toc: Table of Contents
+    read: /bible
   pages:
     toc: Page {pageType}. /bible {command}
+    read:
+      description: 'Description: Shows you a Bible verse.'
+      aliases: 'Aliases: read, verseread, readverse, vread, and readv.'
+      usage: 'Usage: /bible [book] [chapter] [verse] [translation]'
+      altusage: 'Alternate Usage: /bible [book] [chapter:verse] [translation] or /bible [alias] [book] [chapter] [verse] [translation]'
+      defaults: 'Defaults: /bible {defBook} {defChp} {defV} {defTran}'
+      permission: 'Permission: TadukooBible.verse.read'
+      replace1: '[chapter] can be replaced with:'
+      replace2: # to list how many chapters are in that book.
+      replace3: info or ? to tell information about that book.
+      replace4: [verse] can be replaced with #, info, or ? to list how many verses are in that chapter.
+  nextPage: 
+    generic: Type /bible help {nextPage} for the next page.
+    specific: Type /bible help {nextPage} for more info about {command}.
 translations:
   KJV: KJV is the King James Version. It was started in 1604 and finished in 1611, made for the Church of England after King James decided a new English translation was needed.
