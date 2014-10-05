@@ -172,32 +172,27 @@ public class HelpPages {
 			line1 = plugin.getLanguage().getString("help.pages.next.permission");
 			line2 = plugin.getLanguage().getString("help.pages.next.warning");
 		}else if(page.equalsIgnoreCase("last1")){
-			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page " + helpPage + "/" + maxPages +
-					" /bible last (1/1)");
-			sender.sendMessage(ChatColor.GREEN + "Description: Shows you the verse you read last.");
-			sender.sendMessage(ChatColor.GREEN + "Usage: /bible last [translation]");
-			sender.sendMessage(ChatColor.GREEN + "Aliases: saved, save, load, lastverse, verselast, lastv, " +
-					"vlast, versesaved, savedverse, vsaved, savedv, vsave, versesave, loadverse, verseload, " +
-					"vload, and loadv.");
-			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.verse.last");
-			return;
+			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.last"));
+			heading = heading.replaceAll("{minorPage}", String.valueOf(1));
+			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(1));
+			line1 = plugin.getLanguage().getString("help.pages.last.description");
+			line2 = plugin.getLanguage().getString("help.pages.last.usage");
+			line3 = plugin.getLanguage().getString("help.pages.last.aliases");
+			line4 = plugin.getLanguage().getString("help.pages.last.permission");
 		}else if(page.equalsIgnoreCase("random1")){
-			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page " + helpPage + "/" + maxPages +
-					" /bible random (1/2)");
-			sender.sendMessage(ChatColor.GREEN + "Description: Shows you a random verse of the Bible.");
-			sender.sendMessage(ChatColor.GREEN + "Usage: /bible random [book] [chapter] [translation]");
-			sender.sendMessage(ChatColor.GREEN + "Aliases: rand, randomverse, randomv, verserandom, " +
-					"vrandom, randverse, randv, verserand, and vrand.");
-			sender.sendMessage(ChatColor.GREEN + "Type /bible help " + helpPageU + " for more information " +
-					"and the permission.");
-			return;
+			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.random"));
+			heading = heading.replaceAll("{minorPage}", String.valueOf(1));
+			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
+			line1 = plugin.getLanguage().getString("help.pages.random.description");
+			line2 = plugin.getLanguage().getString("help.pages.random.usage");
+			line3 = plugin.getLanguage().getString("help.pages.random.aliases");
+			line4 = pageNextspec.replaceAll("{command}", plugin.getLanguage().getString("help.titles.random"));
 		}else if(page.equalsIgnoreCase("random2")){
-			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page " + helpPage + "/" + maxPages +
-					" /bible random Cont. (2/2)");
-			sender.sendMessage(ChatColor.GREEN + "If no book or chapter are specified, they are random as " +
-					"well.");
-			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.verse.random");
-			return;
+			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.random"));
+			heading = heading.replaceAll("{minorPage}", String.valueOf(2));
+			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
+			line1 = plugin.getLanguage().getString("help.pages.random.permission");
+			line2 = plugin.getLanguage().getString("help.pages.random.note");
 		}else if(page.equalsIgnoreCase("getbook1")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page " + helpPage + "/" + maxPages +
 					" /bible getbook (1/3)");

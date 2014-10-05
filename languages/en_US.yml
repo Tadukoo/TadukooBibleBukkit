@@ -93,6 +93,8 @@ help:
     send: /bible send
     previous: /bible previous
     next: /bible next
+    last: /bible last
+    random: /bible random
   pages:
     toc: Page {pageType}. /bible {command}
     read:
@@ -125,6 +127,17 @@ help:
       aliases: 'Aliases: forward, for, after, aft, nextverse, versenext, nextv, and vnext.'
       permission: 'Permission: TadukooBible.verse.next'
       warning: 'This will give a warning if you try to go after Revelation 22:21'
+    last:
+      description: 'Description: Shows you the verse you read last.'
+      usage: 'Usage: /bible last [translation]'
+      aliases: 'Aliases: saved, save, load, lastverse, verselast, lastv, vlast, versesaved, savedverse, vsaved, savedv, vsave, versesave, loadverse, verseload, vload, and loadv.'
+      permission: 'Permission: TadukooBible.verse.last'
+    random:
+      description: 'Description: Shows you a random verse of the Bible.'
+      usage: 'Usage: /bible random [book] [chapter] [translation]'
+      aliases: 'Aliases: rand, randomverse, randomv, verserandom, vrandom, randverse, randv, verserand, and vrand.'
+      permission: 'Permission: TadukooBible.verse.random'
+      note: If no book or chapter are specified, they are random as well.
   nextPage: 
     generic: Type /bible help {nextPage} for the next page.
     specific: Type /bible help {nextPage} for more info about {command}.
