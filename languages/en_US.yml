@@ -90,6 +90,9 @@ help:
   titles:
     toc: Table of Contents
     read: /bible
+    send: /bible send
+    previous: /bible previous
+    next: /bible next
   pages:
     toc: Page {pageType}. /bible {command}
     read:
@@ -102,7 +105,26 @@ help:
       replace1: '[chapter] can be replaced with:'
       replace2: # to list how many chapters are in that book.
       replace3: info or ? to tell information about that book.
-      replace4: [verse] can be replaced with #, info, or ? to list how many verses are in that chapter.
+      replace4: '[verse] can be replaced with #, info, or ? to list how many verses are in that chapter.'
+    send:
+      description: 'Description: Sends a Bible verse to someone.'
+      usage: 'Usage: /bible send <player> <book> <chapter> <verse> [translation] ["anonymous"]'
+      aliases: 'Aliases: sendverse, versesend, giveverse, versegive, sendv, vsend, givev, and vgive.'
+      permission: 'Permission: TadukooBible.verse.send'
+      altusage: 'Alternate Usage: /bible send <player> <book> <chapter:verse> [translation] ["anonymous"]'
+      anonynote: Typing anonymous makes it so that you are anonymous in sending the verse. This requires the TadukooBible.anonymous.verse permission.
+    previous:
+      description: 'Description: Shows you the verse before the one you read last.'
+      usage: 'Usage: /bible previous [translation]'
+      aliases: 'Aliases: pre, prev, back, before, and b4.'
+      permission: 'Permission: TadukooBible.verse.previous'
+      warning: 'This will give a warning if you try to go before Genesis 1:1'
+    next:
+      description: 'Description: Shows you the verse after the one you read last.'
+      usage: 'Usage: /bible next [translation]'
+      aliases: 'Aliases: forward, for, after, aft, nextverse, versenext, nextv, and vnext.'
+      permission: 'Permission: TadukooBible.verse.next'
+      warning: 'This will give a warning if you try to go after Revelation 22:21'
   nextPage: 
     generic: Type /bible help {nextPage} for the next page.
     specific: Type /bible help {nextPage} for more info about {command}.

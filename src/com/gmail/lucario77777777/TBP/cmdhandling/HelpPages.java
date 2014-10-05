@@ -106,7 +106,7 @@ public class HelpPages {
 			line1 = plugin.getLanguage().getString("help.pages.read.description");
 			line2 = plugin.getLanguage().getString("help.pages.read.aliases");
 			line3 = plugin.getLanguage().getString("help.pages.read.usage");
-			line4 = pageNextspec.replaceAll("{command}", "/bible");
+			line4 = pageNextspec.replaceAll("{command}", plugin.getLanguage().getString("help.titles.read"));
 		}else if(page.equalsIgnoreCase("read2")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.read"));
 			heading = heading.replaceAll("{minorPage}", String.valueOf(2));
@@ -118,7 +118,7 @@ public class HelpPages {
 			line2 = line2.replaceAll("{defV}", plugin.getConfig().getString("DefaultVerse"));
 			line2 = line2.replaceAll("{defTran}", plugin.getConfig().getString("DefaultTranslation"));
 			line3 = plugin.getLanguage().getString("help.pages.read.permission");
-			line4 = pageNextspec.replaceAll("{command}", "/bible");
+			line4 = pageNextspec.replaceAll("{command}", plugin.getLanguage().getString("help.titles.read"));
 		}else if(page.equalsIgnoreCase("read3")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.read"));
 			heading = heading.replaceAll("{minorPage}", String.valueOf(3));
@@ -128,40 +128,49 @@ public class HelpPages {
 			line3 = plugin.getLanguage().getString("help.pages.read.replace3");
 			line4 = plugin.getLanguage().getString("help.pages.read.replace4");
 		}else if(page.equalsIgnoreCase("send1")){
-			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page " + helpPage + "/" + maxPages +
-					" /bible send (1/1)");
-			sender.sendMessage(ChatColor.GREEN + "Description: Sends a Bible verse to someone.");
-			sender.sendMessage(ChatColor.GREEN + "Usage: /bible send <player> <book> <chapter> <verse> " +
-					"[translation] [\"anonymous\"] or /bible send <player> <book> <chapter:verse> " +
-					"[translation] [\"anonymous\"]");
-			sender.sendMessage(ChatColor.GREEN + "Aliases: sendverse, versesend, giveverse, versegive, " +
-					"sendv, vsend, givev, and vgive.");
-			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.verse.send");
-			sender.sendMessage(ChatColor.GREEN + "Typing anonymous makes it so that you are anonymous in " +
-					"sending the verse. This requires the TadukooBible.anonymous.verse permission.");
-			return;
+			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.send"));
+			heading = heading.replaceAll("{minorPage}", String.valueOf(1));
+			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
+			line1 = plugin.getLanguage().getString("help.pages.send.description");
+			line2 = plugin.getLanguage().getString("help.pages.send.usage");
+			line3 = plugin.getLanguage().getString("help.pages.send.aliases");
+			line4 = pageNextspec.replaceAll("{command}", plugin.getLanguage().getString("help.titles.send"));
+		}else if(page.equalsIgnoreCase("send2")){
+			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.send"));
+			heading = heading.replaceAll("{minorPage}", String.valueOf(2));
+			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
+			line1 = plugin.getLanguage().getString("help.pages.send.permission");
+			line2 = plugin.getLanguage().getString("help.pages.send.altusage");
+			line3 = plugin.getLanguage().getString("help.pages.send.anonynote");
 		}else if(page.equalsIgnoreCase("previous1")){
-			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page " + helpPage + "/" + maxPages +
-					" /bible previous (1/1)");
-			sender.sendMessage(ChatColor.GREEN + "Description: Shows you the verse before the one you read " +
-					"last.");
-			sender.sendMessage(ChatColor.GREEN + "Usage: /bible previous [translation]");
-			sender.sendMessage(ChatColor.GREEN + "Aliases: pre, prev, back, before, and b4.");
-			sender.sendMessage(ChatColor.GREEN + "This will give a warning if you try to go before Genesis " +
-					"1:1");
-			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.verse.previous");
-			return;
+			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.previous"));
+			heading = heading.replaceAll("{minorPage}", String.valueOf(1));
+			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
+			line1 = plugin.getLanguage().getString("help.pages.previous.description");
+			line2 = plugin.getLanguage().getString("help.pages.previous.usage");
+			line3 = plugin.getLanguage().getString("help.pages.previous.aliases");
+			line4 = pageNextspec.replaceAll("{command}", 
+					plugin.getLanguage().getString("help.titles.previous"));
+		}else if(page.equalsIgnoreCase("previous2")){
+			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.previous"));
+			heading = heading.replaceAll("{minorPage}", String.valueOf(2));
+			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
+			line1 = plugin.getLanguage().getString("help.pages.previous.permission");
+			line2 = plugin.getLanguage().getString("help.pages.previous.warning");
 		}else if(page.equalsIgnoreCase("next1")){
-			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page " + helpPage + "/" + maxPages +
-					" /bible next (1/1)");
-			sender.sendMessage(ChatColor.GREEN + "Description: Shows you the verse after the one you read " +
-					"last.");
-			sender.sendMessage(ChatColor.GREEN + "Usage: /bible next [translation]");
-			sender.sendMessage(ChatColor.GREEN + "Aliases: pre, prev, back, before, and b4.");
-			sender.sendMessage(ChatColor.GREEN + "This will give a warning if you try to go after 3 John " +
-					"1:14");
-			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.verse.next");
-			return;
+			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.next"));
+			heading = heading.replaceAll("{minorPage}", String.valueOf(1));
+			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
+			line1 = plugin.getLanguage().getString("help.pages.next.description");
+			line2 = plugin.getLanguage().getString("help.pages.next.usage");
+			line3 = plugin.getLanguage().getString("help.pages.next.aliases");
+			line4 = pageNextspec.replaceAll("{command}", plugin.getLanguage().getString("help.titles.next"));
+		}else if(page.equalsIgnoreCase("next2")){
+			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.next"));
+			heading = heading.replaceAll("{minorPage}", String.valueOf(2));
+			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
+			line1 = plugin.getLanguage().getString("help.pages.next.permission");
+			line2 = plugin.getLanguage().getString("help.pages.next.warning");
 		}else if(page.equalsIgnoreCase("last1")){
 			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page " + helpPage + "/" + maxPages +
 					" /bible last (1/1)");
