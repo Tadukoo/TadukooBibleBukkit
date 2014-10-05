@@ -41,7 +41,7 @@ public class Read {
 			i = Args.getCurrentArg(book, cmds, args, i);
 			if(args.length >= i + 1){
 				if(args[i].equalsIgnoreCase("info") ||args[i].equalsIgnoreCase("?")){
-					String msg = book.getDesc();
+					String msg = plugin.getLanguage().getString("books." + bookName);
 					sender.sendMessage(ChatColor.GREEN + msg);
 					return;
 				}else if(args[i].equalsIgnoreCase("#")){

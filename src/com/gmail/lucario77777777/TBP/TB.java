@@ -2,6 +2,7 @@ package com.gmail.lucario77777777.TBP;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.Reader;
 import java.util.logging.Level;
 
 import org.bukkit.configuration.file.FileConfiguration;
@@ -27,6 +28,8 @@ public class TB extends JavaPlugin {
 	public String igbookBook = null;
 	public static FileConfiguration pRec = null;
 	public static File pRecFile = null;
+	public static FileConfiguration language = null;
+	public static File languageFile = null;
 	public Boolean perms = null;
 	public static boolean pR;
 	
@@ -47,6 +50,7 @@ public class TB extends JavaPlugin {
 	public void onEnable () {
 		reloadpRec();
 		savepRec();
+		reloadLanguage();
 		plugin = this;
 		config = getConfig();
 		pR = this.getConfig().getBoolean("PlayerRecords");
@@ -255,5 +259,28 @@ public class TB extends JavaPlugin {
 	    } catch (IOException ex) {
 	        plugin.getLogger().log(Level.SEVERE, "Could not save player records to " + pRecFile + ex);
 	    }
+	}
+	
+	public void reloadLanguage() {
+	    if (languageFile == null) {
+	    languageFile = new File(getDataFolder(), "languages/en_US.yml");
+	    }
+	    language = YamlConfiguration.loadConfiguration(languageFile);
+	 
+	    // Look for defaults in the jar
+	    Reader defConfigFile = this.getTextResource("languages/en_US.yml");
+	    if (defConfigFile != null) {
+			YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(defConfigFile);
+	        language.setDefaults(defConfig);
+	    }else{
+	    	this.getLogger().log(Level.WARNING, "Couldn't find language file in plugin!");
+	    }
+	}
+	
+	public FileConfiguration getLanguage() {
+	    if (language == null) {
+	        this.reloadLanguage();
+	    }
+	    return language;
 	}
 }

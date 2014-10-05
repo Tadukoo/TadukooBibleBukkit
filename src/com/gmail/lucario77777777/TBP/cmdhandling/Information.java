@@ -15,9 +15,21 @@ public class Information {
 		sender.sendMessage(ChatColor.GREEN + "Version: " + plugin.getDescription().getVersion());
 	}
 	
-	public static void bookInfo(CommandSender sender, EnumBooks book) {
-		sender.sendMessage(ChatColor.GREEN + book.getDesc());
-		sender.sendMessage(ChatColor.GREEN + book.getAliases());
+	public static void bookInfo(CommandSender sender, TB plugin, EnumBooks book) {
+		String bookName = book.getBook();
+		String desc = plugin.getLanguage().getString("books." + bookName);
+		String aliases = "";
+		if(book.getAlias() == null){
+			aliases = plugin.getLanguage().getString("aliases.none");
+		}else{
+			if(book.getAlias2() == null){
+				aliases = plugin.getLanguage().getString("aliases.one");
+			}else{
+				aliases = plugin.getLanguage().getString("aliases.two");
+			}
+		}
+		sender.sendMessage(ChatColor.GREEN + desc);
+		sender.sendMessage(ChatColor.GREEN + aliases);
 	}
 	
 	public static void booksList(CommandSender sender, String page){
@@ -70,7 +82,9 @@ public class Information {
 	}
 	
 	public static void tranInfo(CommandSender sender, TB plugin, EnumTrans etran){
-		sender.sendMessage(ChatColor.GREEN + etran.getDesc());
+		String tran = etran.getTran();
+		String desc = plugin.getLanguage().getString("translations." + tran);
+		sender.sendMessage(ChatColor.GREEN + desc);
 		sender.sendMessage(ChatColor.GREEN + etran.getAliases());
 	}
 	

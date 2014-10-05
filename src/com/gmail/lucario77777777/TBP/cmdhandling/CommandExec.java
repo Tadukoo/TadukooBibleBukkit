@@ -119,7 +119,7 @@ public class CommandExec implements CommandExecutor {
 						Plugin.run(plugin, sender, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("books")){
-						Books.run(sender, args);
+						Books.run(sender, plugin, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("translation")){
 						Translation.run(plugin, sender, args);

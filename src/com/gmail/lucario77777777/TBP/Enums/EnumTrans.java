@@ -3,27 +3,23 @@ package com.gmail.lucario77777777.TBP.Enums;
 import com.gmail.lucario77777777.TBP.TB;
 
 public enum EnumTrans {
-	KJV("KJV", "KJB", "AV", "KJ", "KJV is the King James Version. It was started in 1604 and finished in " +
-			"1611, made for the Church of England after King James decided a new English translation was " +
-			"needed.", "Its aliases are KJV, AV, and KJ.", TB.config.getBoolean("KJV"), false, 1);
+	KJV("KJV", "KJB", "AV", "KJ", "Its aliases are KJV, AV, and KJ.", TB.config.getBoolean("KJV"), false, 1);
 	
 	private String tran;
 	private String alias;
 	private String alias2;
 	private String alias3;
-	private String desc;
 	private String aliases;
 	private boolean available;
 	private boolean complete;
 	private int num;
 	
-	private EnumTrans(String tran, String alias, String alias2, String alias3, String desc, String aliases,
+	private EnumTrans(String tran, String alias, String alias2, String alias3, String aliases, 
 			boolean available, 	boolean complete, int num){
 		this.tran = tran;
 		this.alias = alias;
 		this.alias2 = alias2;
 		this.alias3 = alias3;
-		this.desc = desc;
 		this.aliases = aliases;
 		this.available = available;
 		this.complete = complete;
@@ -44,10 +40,6 @@ public enum EnumTrans {
 	
 	public String getAlias3(){
 		return alias3;
-	}
-	
-	public String getDesc(){
-		return desc;
 	}
 	
 	public String getAliases(){

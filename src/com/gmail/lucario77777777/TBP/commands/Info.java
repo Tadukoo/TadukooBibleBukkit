@@ -30,7 +30,7 @@ public class Info {
 			}else if(Args.isBook(book, cmds, args, 1) != null && Checks.permCheck(playerType, sender, 
 					"info.book", permsOn)){
 				book = Args.isBook(book, cmds, args, 1);
-				Information.bookInfo(sender, book);
+				Information.bookInfo(sender, plugin, book);
 				return;
 			}else if(Args.isCmd(cmds, args[1]) != null){
 				cmds = Args.isCmd(cmds, args[1]);
