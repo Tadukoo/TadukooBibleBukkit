@@ -95,6 +95,7 @@ help:
     next: /bible next
     last: /bible last
     random: /bible random
+    getbook: /bible getbook
   pages:
     toc: Page {pageType}. /bible {command}
     read:

@@ -21,6 +21,6 @@ public class Help {
 		String helpPage = ehelp.getPage();
 		int helpPageNum = ehelp.getNum();
 		int helpPageNumU = helpPageNum + 1;
-		HelpPages.help(plugin, sender, helpPage, helpPageNum, helpPageNumU);
+		HelpPages.help(plugin, sender, helpPage, helpPageNum, helpPageNumU, ehelp);
 	}
 }

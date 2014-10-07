@@ -23,10 +23,13 @@ public class HelpPages {
 	private static int announcePage = EnumHelp.ANNOUNCE.getNum();
 	private static int maxPages = EnumHelp.ANNOUNCE.getNum();
 	
-	public static void help(TB plugin, CommandSender sender, String page, int helpPage, int helpPageU){
+	public static void help(TB plugin, CommandSender sender, String page, int helpPage, int helpPageU, 
+			EnumHelp ehelp){
 		String heading = plugin.getLanguage().getString("help.heading");
 		heading = heading.replaceAll("{helpPage}", String.valueOf(helpPage));
 		heading = heading.replaceAll("{maxPages}", String.valueOf(maxPages));
+		heading = heading.replaceAll("{minorPage}", String.valueOf(ehelp.getMinor()));
+		heading = heading.replaceAll("{maxMinorPages}", String.valueOf(ehelp.getMax()));
 		String line1 = "", line2 = "", line3 = "", line4 = "";
 		String pageNext = plugin.getLanguage().getString("help.nextPage.generic");
 		pageNext = pageNext.replaceAll("{nextPage}", String.valueOf(helpPageU));
@@ -34,8 +37,6 @@ public class HelpPages {
 		pageNextspec = pageNextspec.replaceAll("{nextPage}", String.valueOf(helpPageU));
 		if(page.equalsIgnoreCase("toc1")){
 			heading = heading.replaceAll("title}", plugin.getLanguage().getString("help.titles.toc"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(1));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(5));
 			line1 = plugin.getLanguage().getString("help.pages.toc");
 			line2 = line1;
 			line3 = line1;
@@ -48,8 +49,6 @@ public class HelpPages {
 			line4 = pageNext;
 		}else if(page.equalsIgnoreCase("toc2")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.toc"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(2));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(5));
 			line1 = plugin.getLanguage().getString("help.pages.toc");
 			line2 = line1;
 			line3 = line1;
@@ -62,8 +61,6 @@ public class HelpPages {
 			line4 = pageNext;
 		}else if(page.equalsIgnoreCase("toc3")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.toc"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(3));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(5));
 			line1 = plugin.getLanguage().getString("help.pages.toc");
 			line2 = line1;
 			line3 = line1;
@@ -76,8 +73,6 @@ public class HelpPages {
 			line4 = pageNext;
 		}else if(page.equalsIgnoreCase("toc4")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.toc"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(4));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(5));
 			line1 = plugin.getLanguage().getString("help.pages.toc");
 			line2 = line1;
 			line3 = line1;
@@ -90,8 +85,6 @@ public class HelpPages {
 			line4 = pageNext;
 		}else if(page.equalsIgnoreCase("toc5")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.toc"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(5));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(5));
 			line1 = plugin.getLanguage().getString("help.pages.toc");
 			line2 = line1;
 			line1 = line1.replaceAll("{pageType}", String.valueOf(configPage));
@@ -101,16 +94,12 @@ public class HelpPages {
 			line3 = pageNext;
 		}else if(page.equalsIgnoreCase("read1")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.read"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(1));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(3));
 			line1 = plugin.getLanguage().getString("help.pages.read.description");
 			line2 = plugin.getLanguage().getString("help.pages.read.aliases");
 			line3 = plugin.getLanguage().getString("help.pages.read.usage");
 			line4 = pageNextspec.replaceAll("{command}", plugin.getLanguage().getString("help.titles.read"));
 		}else if(page.equalsIgnoreCase("read2")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.read"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(2));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(3));
 			line1 = plugin.getLanguage().getString("help.pages.read.altusage");
 			line2 = plugin.getLanguage().getString("help.pages.read.defaults");
 			line2 = line2.replaceAll("{defBook}", plugin.getConfig().getString("DefaultBook"));
@@ -121,31 +110,23 @@ public class HelpPages {
 			line4 = pageNextspec.replaceAll("{command}", plugin.getLanguage().getString("help.titles.read"));
 		}else if(page.equalsIgnoreCase("read3")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.read"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(3));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(3));
 			line1 = plugin.getLanguage().getString("help.pages.read.replace1");
 			line2 = plugin.getLanguage().getString("help.pages.read.replace2");
 			line3 = plugin.getLanguage().getString("help.pages.read.replace3");
 			line4 = plugin.getLanguage().getString("help.pages.read.replace4");
 		}else if(page.equalsIgnoreCase("send1")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.send"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(1));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
 			line1 = plugin.getLanguage().getString("help.pages.send.description");
 			line2 = plugin.getLanguage().getString("help.pages.send.usage");
 			line3 = plugin.getLanguage().getString("help.pages.send.aliases");
 			line4 = pageNextspec.replaceAll("{command}", plugin.getLanguage().getString("help.titles.send"));
 		}else if(page.equalsIgnoreCase("send2")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.send"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(2));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
 			line1 = plugin.getLanguage().getString("help.pages.send.permission");
 			line2 = plugin.getLanguage().getString("help.pages.send.altusage");
 			line3 = plugin.getLanguage().getString("help.pages.send.anonynote");
 		}else if(page.equalsIgnoreCase("previous1")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.previous"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(1));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
 			line1 = plugin.getLanguage().getString("help.pages.previous.description");
 			line2 = plugin.getLanguage().getString("help.pages.previous.usage");
 			line3 = plugin.getLanguage().getString("help.pages.previous.aliases");
@@ -153,49 +134,36 @@ public class HelpPages {
 					plugin.getLanguage().getString("help.titles.previous"));
 		}else if(page.equalsIgnoreCase("previous2")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.previous"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(2));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
 			line1 = plugin.getLanguage().getString("help.pages.previous.permission");
 			line2 = plugin.getLanguage().getString("help.pages.previous.warning");
 		}else if(page.equalsIgnoreCase("next1")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.next"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(1));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
 			line1 = plugin.getLanguage().getString("help.pages.next.description");
 			line2 = plugin.getLanguage().getString("help.pages.next.usage");
 			line3 = plugin.getLanguage().getString("help.pages.next.aliases");
 			line4 = pageNextspec.replaceAll("{command}", plugin.getLanguage().getString("help.titles.next"));
 		}else if(page.equalsIgnoreCase("next2")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.next"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(2));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
 			line1 = plugin.getLanguage().getString("help.pages.next.permission");
 			line2 = plugin.getLanguage().getString("help.pages.next.warning");
 		}else if(page.equalsIgnoreCase("last1")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.last"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(1));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(1));
 			line1 = plugin.getLanguage().getString("help.pages.last.description");
 			line2 = plugin.getLanguage().getString("help.pages.last.usage");
 			line3 = plugin.getLanguage().getString("help.pages.last.aliases");
 			line4 = plugin.getLanguage().getString("help.pages.last.permission");
 		}else if(page.equalsIgnoreCase("random1")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.random"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(1));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
 			line1 = plugin.getLanguage().getString("help.pages.random.description");
 			line2 = plugin.getLanguage().getString("help.pages.random.usage");
 			line3 = plugin.getLanguage().getString("help.pages.random.aliases");
 			line4 = pageNextspec.replaceAll("{command}", plugin.getLanguage().getString("help.titles.random"));
 		}else if(page.equalsIgnoreCase("random2")){
 			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.random"));
-			heading = heading.replaceAll("{minorPage}", String.valueOf(2));
-			heading = heading.replaceAll("{maxMinorPages}", String.valueOf(2));
 			line1 = plugin.getLanguage().getString("help.pages.random.permission");
 			line2 = plugin.getLanguage().getString("help.pages.random.note");
 		}else if(page.equalsIgnoreCase("getbook1")){
-			sender.sendMessage(ChatColor.GREEN + "TadukooBible Help Page " + helpPage + "/" + maxPages +
-					" /bible getbook (1/3)");
+			heading = heading.replaceAll("{title}", plugin.getLanguage().getString("help.titles.getbook"));
 			sender.sendMessage(ChatColor.GREEN + "Description: Gives you part of the Bible in book form.");
 			sender.sendMessage(ChatColor.GREEN + "Usage: /bible getbook [book] [part #] [translation] [?]");
 			sender.sendMessage(ChatColor.GREEN + "Aliases: book, bookget, bibleget, and getbible.");
