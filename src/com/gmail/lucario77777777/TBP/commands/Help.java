@@ -18,9 +18,10 @@ public class Help {
 				ehelp = ehelp.fromString(args[1]);
 			}
 		}
-		String helpPage = ehelp.getPage();
+		String helpPage = ehelp.getTitle();
 		int helpPageNum = ehelp.getNum();
 		int helpPageNumU = helpPageNum + 1;
-		HelpPages.help(plugin, sender, helpPage, helpPageNum, helpPageNumU, ehelp);
+		int helpPageNumMinor = ehelp.getMinor();
+		HelpPages.help(plugin, sender, helpPage, helpPageNum, helpPageNumU, helpPageNumMinor, ehelp);
 	}
 }

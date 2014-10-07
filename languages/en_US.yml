@@ -91,17 +91,24 @@ help:
     toc: Table of Contents
     read: /bible
     send: /bible send
-    previous: /bible previous
+    prev: /bible previous
     next: /bible next
     last: /bible last
-    random: /bible random
-    getbook: /bible getbook
+    rand: /bible random
+    getb: /bible getbook
+    sendb: /bible sendbook
+    info: /bible info
+    plugin: /bible plugin
+    books: /bible books
+    tran: /bible translation
+    config: /bible config
+    ann: /bible announce
   pages:
     toc: Page {pageType}. /bible {command}
     read:
       description: 'Description: Shows you a Bible verse.'
-      aliases: 'Aliases: read, verseread, readverse, vread, and readv.'
       usage: 'Usage: /bible [book] [chapter] [verse] [translation]'
+      aliases: 'Aliases: read, verseread, readverse, vread, and readv.'
       altusage: 'Alternate Usage: /bible [book] [chapter:verse] [translation] or /bible [alias] [book] [chapter] [verse] [translation]'
       defaults: 'Defaults: /bible {defBook} {defChp} {defV} {defTran}'
       permission: 'Permission: TadukooBible.verse.read'
@@ -111,12 +118,12 @@ help:
       replace4: '[verse] can be replaced with #, info, or ? to list how many verses are in that chapter.'
     send:
       description: 'Description: Sends a Bible verse to someone.'
-      usage: 'Usage: /bible send <player> <book> <chapter> <verse> [translation] ["anonymous"]'
+      usage: 'Usage: /bible send <player> <book> <chapter> <verse> [translation] [anonymous]'
       aliases: 'Aliases: sendverse, versesend, giveverse, versegive, sendv, vsend, givev, and vgive.'
       permission: 'Permission: TadukooBible.verse.send'
       altusage: 'Alternate Usage: /bible send <player> <book> <chapter:verse> [translation] ["anonymous"]'
       anonynote: Typing anonymous makes it so that you are anonymous in sending the verse. This requires the TadukooBible.anonymous.verse permission.
-    previous:
+    prev:
       description: 'Description: Shows you the verse before the one you read last.'
       usage: 'Usage: /bible previous [translation]'
       aliases: 'Aliases: pre, prev, back, before, and b4.'
@@ -133,12 +140,47 @@ help:
       usage: 'Usage: /bible last [translation]'
       aliases: 'Aliases: saved, save, load, lastverse, verselast, lastv, vlast, versesaved, savedverse, vsaved, savedv, vsave, versesave, loadverse, verseload, vload, and loadv.'
       permission: 'Permission: TadukooBible.verse.last'
-    random:
+    rand:
       description: 'Description: Shows you a random verse of the Bible.'
       usage: 'Usage: /bible random [book] [chapter] [translation]'
       aliases: 'Aliases: rand, randomverse, randomv, verserandom, vrandom, randverse, randv, verserand, and vrand.'
       permission: 'Permission: TadukooBible.verse.random'
       note: If no book or chapter are specified, they are random as well.
+    getb:
+      description: 'Description: Gives you part of the Bible in book form.'
+      usage: 'Usage: /bible getbook [book] [part #] [translation] [?]'
+      aliases: 'Aliases: book, bookget, bibleget, getbible, bget, and getb.'
+      defaults: 'Defaults: /bible getbook {defBook} {defPart} {defTran}'
+      permission: 'Permission: TadukooBible.book.get'
+      note: 'Note: [part #] is not [chapter #]'
+      note2: '? is used to show what''s in that part.'
+      note3: '[book] can be replaced with previous or its aliases to get the previous book.'
+      note4: '[book] can be replaced with next or its aliases to get the next book.'
+      note5: '[book] can be replaced with last or its aliases to get the book you got the last time you typed the command.'
+      note6: '[book] can be replaced with list to get a book containing a list of all the books for the translation.'
+      note7: '[book] can be replaced with random to get a random book.'
+    sendb:
+      description: 'Description: Sends part of the Bible in book form to a player.'
+      usage: 'Usage: /bible sendbook <player> <book> <part> [translation] [anonymous]'
+      aliases: 'Aliases: booksend, sendbible, biblesend, givebook, bookgive, biblegive, givebible, sendb, bsend, giveb, and bgive.'
+      defaults: 'Defaults: /bible sendbook <player> <book> <part> {defTran}'
+      permission: 'Permission: TadukooBible.book.send'
+      note: 'Note: [part #] is not [chapter #]'
+      anonynote: 'Typing anonymous at the end makes it so that you are anonymous in sending the book. This requires the TadukooBible.anonymous.book permission.'
+    info:
+      description: 'Description: Tells you information about the plugin, a translation, a book of the Bible, a permission, or lists books, translations, or permissions.'
+      usage: 'Usage: /bible info [translation|book|permission|"plugin"|"books"|"translations"|"permissions"] [page]'
+      aliases: 'Aliases: about, abt, and information.'
+      note: Using no parameters defaults to showing plugin info.
+      note2: To view plugin info, you need the TadukooBible.info.plugin permission.
+      note3: To view info about a book, you need the TadukooBible.info.book permission.
+      note4: To view info about a translation, you need the TadukooBible.info.translation permission.
+      note5: To view info about a permission, you need the TadukooBible.info.permission permission.
+    plugin:
+      description: 'Description: Shows info about the plugin.'
+      usage: 'Usage: /bible plugin'
+      aliases: 'Aliases: TB, TadukooBible, TadukooBibleinfo, and plugininfo.
+      permission: 'Permission: TadukooBible.info.plugin'
   nextPage: 
     generic: Type /bible help {nextPage} for the next page.
     specific: Type /bible help {nextPage} for more info about {command}.
