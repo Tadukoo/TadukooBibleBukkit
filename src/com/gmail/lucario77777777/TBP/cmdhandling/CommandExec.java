@@ -71,7 +71,7 @@ public class CommandExec implements CommandExecutor {
 					}else if(Args.isCmd(cmds, args[0]) != null){
 						cmds = Args.isCmd(cmds, args[0]);
 						//Check if the command is available.
-						if(!cmds.isAvailable()){
+						if(!cmds.isAvailable("Bible")){
 							sender.sendMessage(ChatColor.RED + "Sorry, " + cmds.getCmd() + " is not " +
 									"available yet.");
 							return true;

@@ -87,8 +87,23 @@ public class Information {
 	public static void tranInfo(CommandSender sender, TB plugin, EnumTrans etran){
 		String tran = etran.getTran();
 		String desc = plugin.getLanguage().getString("translations." + tran);
+		String aliases = plugin.getLanguage().getString("aliases.none");
+		if(etran.getAlias() != null){
+			if(etran.getAlias2() != null){
+				if(etran.getAlias3() != null){
+					aliases = plugin.getLanguage().getString("aliases.three");
+					aliases = aliases.replace("{alias3}", etran.getAlias3());
+				}else{
+					aliases = plugin.getLanguage().getString("aliases.two");
+				}
+				aliases = aliases.replace("{alias2}", etran.getAlias2());
+			}else{
+				aliases = plugin.getLanguage().getString("aliases.one");
+			}
+			aliases = aliases.replace("{alias1}", etran.getAlias());
+		}
 		sender.sendMessage(ChatColor.GREEN + desc);
-		sender.sendMessage(ChatColor.GREEN + etran.getAliases());
+		sender.sendMessage(ChatColor.GREEN + aliases);
 	}
 	
 	public static void settings(CommandSender sender) {

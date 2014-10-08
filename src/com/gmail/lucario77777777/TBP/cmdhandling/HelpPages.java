@@ -141,38 +141,11 @@ public class HelpPages {
 		}else if(page.equalsIgnoreCase("info1") || page.equalsIgnoreCase("info2")){
 			line4 = line4.replaceAll("{command}", plugin.getLanguage().getString("help.titles.info"));
 		}else if(page.equalsIgnoreCase("books1")){
-			sender.sendMessage(ChatColor.GREEN + "Description: Lists all the books in the Bible or shows " +
-					"info about a book.");
-			sender.sendMessage(ChatColor.GREEN + "Usage: /bible books [page|book]");
-			sender.sendMessage(ChatColor.GREEN + "Aliases: bookslist, listbooks, booklist, booksinfo, " +
-					"bookinfo, infobooks, and infobook.");
-			sender.sendMessage(ChatColor.GREEN + "Books in red are unavailable, while books in green are " +
-					"available.");
-			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.info.book");
-		}else if(page.equalsIgnoreCase("tran1")){
-			sender.sendMessage(ChatColor.GREEN + "Description: Lists available translations or shows info " +
-					"about a translation.");
-			sender.sendMessage(ChatColor.GREEN + "Usage: /bible translation [translation]");
-			sender.sendMessage(ChatColor.GREEN + "Aliases: translations, translist, translationslist, " +
-					"listtrans, tran, trans, translationinfo, translationsinfo, transinfo, and traninfo.");
-			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.info.translation");
+			line4 = line4.replaceAll("{command}", plugin.getLanguage().getString("help.titles.books"));
 		}else if(page.equalsIgnoreCase("config1")){
-			sender.sendMessage(ChatColor.GREEN + "Description: Shows or changes a setting in the config.yml");
-			sender.sendMessage(ChatColor.GREEN + "Usage: /bible config <setting> [value]");
-			sender.sendMessage(ChatColor.GREEN + "Aliases: configuration, settings, set, and options.");
-			sender.sendMessage(ChatColor.GREEN + "Typing a value will set it to that value, while leaving " +
-					"it out will show what the current value is.");
-			sender.sendMessage(ChatColor.GREEN + "<setting> can be replace with list to list all the " +
-					"settings.");
-			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.op.config");
+			line4 = line4.replaceAll("{command}", plugin.getLanguage().getString("help.titles.config"));
 		}else if(page.equalsIgnoreCase("ann1")){
-			sender.sendMessage(ChatColor.GREEN + "Description: Announces a Bible verse to the server.");
-			sender.sendMessage(ChatColor.GREEN + "Usage: /bible announce <book> <chapter> <verse> " +
-					"[translation] or /bible announce <book> <chapter:verse> [translation]");
-			sender.sendMessage(ChatColor.GREEN + "Aliases: ann, broadcast, broad, shout, and yell.");
-			sender.sendMessage(ChatColor.GREEN + "Permission: TadukooBible.op.announce");
-			sender.sendMessage(ChatColor.GREEN + "You need TadukooBible.verse.announceget to see " +
-					"announcements.");
+			line4 = line4.replaceAll("{command}", plugin.getLanguage().getString("help.titles.ann"));
 		}
 		sender.sendMessage(ChatColor.GREEN + heading);
 		sender.sendMessage(ChatColor.GREEN + line1);

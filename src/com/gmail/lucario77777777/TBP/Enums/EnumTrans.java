@@ -3,24 +3,22 @@ package com.gmail.lucario77777777.TBP.Enums;
 import com.gmail.lucario77777777.TBP.TB;
 
 public enum EnumTrans {
-	KJV("KJV", "KJB", "AV", "KJ", "Its aliases are KJV, AV, and KJ.", TB.config.getBoolean("KJV"), false, 1);
+	KJV("KJV", "KJB", "AV", "KJ", TB.config.getBoolean("KJV"), false, 1);
 	
 	private String tran;
 	private String alias;
 	private String alias2;
 	private String alias3;
-	private String aliases;
 	private boolean available;
 	private boolean complete;
 	private int num;
 	
-	private EnumTrans(String tran, String alias, String alias2, String alias3, String aliases, 
-			boolean available, 	boolean complete, int num){
+	private EnumTrans(String tran, String alias, String alias2, String alias3, boolean available, 
+			boolean complete, int num){
 		this.tran = tran;
 		this.alias = alias;
 		this.alias2 = alias2;
 		this.alias3 = alias3;
-		this.aliases = aliases;
 		this.available = available;
 		this.complete = complete;
 		this.num = num;
@@ -40,10 +38,6 @@ public enum EnumTrans {
 	
 	public String getAlias3(){
 		return alias3;
-	}
-	
-	public String getAliases(){
-		return aliases;
 	}
 	
 	public boolean isAvailable(){
