@@ -50,13 +50,14 @@ public class TB extends JavaPlugin {
 	public void onEnable () {
 		reloadpRec();
 		savepRec();
-		reloadLanguage();
 		plugin = this;
 		config = getConfig();
+		configCheck(plugin, config);
+		reloadLanguage();
 		pR = this.getConfig().getBoolean("PlayerRecords");
 		perms = getConfig().getBoolean("Permissions");
-		configCheck(plugin, config);
 		getCommand("bible").setExecutor(new CommandExec(this, perms));
+		getCommand("apocrypha").setExecutor(new CommandExec(this, perms));
 	}
 	
 	private static void configCheck(TB plugin, FileConfiguration config){
@@ -72,6 +73,14 @@ public class TB extends JavaPlugin {
 		}else{
 			check = true;
 			config.set("startup-checks", true);
+			plugin.saveConfig();
+		}
+		String language = config.getString("language");
+		if(language.equalsIgnoreCase("English") || language.equalsIgnoreCase("en")){
+			config.set("language", "en_US");
+			plugin.saveConfig();
+		}else if(!language.equalsIgnoreCase("en_US")){
+			config.set("language", "en_US");
 			plugin.saveConfig();
 		}
 		if(check || !ver){
@@ -262,19 +271,23 @@ public class TB extends JavaPlugin {
 	}
 	
 	public void reloadLanguage() {
+		String Language = config.getString("language");
+		
 	    if (languageFile == null) {
-	    languageFile = new File(getDataFolder(), "languages/en_US.yml");
+	    	languageFile = new File(getDataFolder(), "languages/" + Language + ".yml");
 	    }
 	    language = YamlConfiguration.loadConfiguration(languageFile);
 	 
-	    // Look for defaults in the jar
-	    Reader defConfigFile = this.getTextResource("languages/en_US.yml");
-	    if (defConfigFile != null) {
-			YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(defConfigFile);
-	        language.setDefaults(defConfig);
-	    }else{
-	    	this.getLogger().log(Level.WARNING, "Couldn't find language file in plugin!");
+	    Reader defConfigFile = this.getTextResource("languages/" + Language + ".yml");
+	    if (defConfigFile == null) {
+	    	this.getLogger().log(Level.WARNING, "Couldn't find " + Language + " language file in plugin!");
+	    	this.getLogger().log(Level.WARNING, "Setting to en_US...");
+	    	config.set("language", "en_US");
+	    	saveConfig();
+	    	defConfigFile = this.getTextResource("languages/en_US.yml");
 	    }
+	    YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(defConfigFile);
+	    language.setDefaults(defConfig);
 	}
 	
 	public FileConfiguration getLanguage() {

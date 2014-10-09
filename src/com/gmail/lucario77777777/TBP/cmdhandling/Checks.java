@@ -30,14 +30,28 @@ public class Checks {
 		}
 	}
 	
-	public static boolean permCheck(String playerType, CommandSender sender, String perm, boolean permsOn){
+	public static boolean permCheck(String playerType, CommandSender sender, String type, String perm, 
+			boolean permsOn){
 		if(permsOn && playerType == "player"){
 			Player player = (Player) sender;
-			if(player.hasPermission("TadukooBible." + perm)){
-				return true;
+			if(type == "Bible"){
+				if(player.hasPermission("TadukooBible." + perm)){
+					return true;
+				}else{
+					sender.sendMessage(ChatColor.RED + "You don't have permission.");
+					sender.sendMessage(ChatColor.RED + "You need TadukooBible." + perm);
+					return false;
+				}
+			}else if(type == "Apocrypha"){
+				if(player.hasPermission("TadukooBible.apocrypha." + perm)){
+					return true;
+				}else{
+					sender.sendMessage(ChatColor.RED + "You don't have permission.");
+					sender.sendMessage(ChatColor.RED + "You need TadukooBible.apocrypha." + perm);
+					return false;
+				}
 			}else{
-				sender.sendMessage(ChatColor.RED + "You don't have permission.");
-				sender.sendMessage(ChatColor.RED + "You need TadukooBible." + perm);
+				sender.sendMessage(ChatColor.RED + "An error occured.");
 				return false;
 			}
 		}else{

@@ -6,6 +6,7 @@ public enum EnumCmds {
 	SECOND("2", "verse.read", "one", "second", "2nd", true, false),
 	THIRD("3", "verse.read", "one", "third", "3rd", true, false),
 	SONG("Song", "verse.read", true, false),
+	ANONYMOUS("anonymous", "", "anon", "an", "anony", false, false),
 	
 	//Actual Commands.
 	READ("read", "verse.read", "readverse", "verseread", "readv", "vread", true, false),

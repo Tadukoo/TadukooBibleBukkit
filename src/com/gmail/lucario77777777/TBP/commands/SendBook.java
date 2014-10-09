@@ -45,7 +45,7 @@ public class Sendbook {
 		boolean anonymous = false;
 		if(args.length >= i + 1){
 			if(args[i].equalsIgnoreCase("anonymous")){
-				if(!Checks.permCheck(playerType, sender, "anonymous.book", permsOn)){
+				if(!Checks.permCheck(playerType, sender, "bible", "anonymous.book", permsOn)){
 					return;
 				}else{
 					anonymous = true;

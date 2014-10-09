@@ -55,7 +55,7 @@ public class Send {
 					}
 				}
 				if(args.length >= i + 1 && args[i].equalsIgnoreCase("anonymous")){
-					if(!Checks.permCheck(playerType, sender, "anonymous.verse", permsOn)){
+					if(!Checks.permCheck(playerType, sender, "bible", "anonymous.verse", permsOn)){
 						return;
 					}else{
 						anonymous = true;

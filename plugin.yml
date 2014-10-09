@@ -10,9 +10,19 @@ commands:
       usage: /<command>
       permission: TadukooBible.use
       permission-message: You don't have <permission>.
+   apocrypha:
+      description: The base command for apocryphal books. Type /apocrypha help for help.
+      usage: /<command>
+      permission: TadukooBible.apocrypha.use
+      permission-message: You don't have <permission>.
 permissions:
    TadukooBible.*:
       description: Gives all permissions.
+      children:
+         TadukooBible.bible.*: true
+         TadukooBible.apocrypha.*: true
+   TadukooBible.bible.*:
+      description: Gives all bible permissions.
       children:
          TadukooBible.use: true
          TadukooBible.verse.*: true
@@ -55,6 +65,10 @@ permissions:
       children:
          TadukooBible.anonymous.verse: true
          TadukooBible.anonymous.book: true
+   TadukooBible.apocrypha.*:
+      description: Gives all apocrypha permissions.
+      children:
+         TadukooBible.apocrypha.use: true
    TadukooBible.use:
       description: Gives access to the plugin.
       default: true
@@ -118,3 +132,6 @@ permissions:
    TadukooBible.anonymous.book:
       description: Allows you to send books anonymously.
       default: op
+   TadukooBible.apocrypha.use:
+      description: Allows use of /apocrypha.
+      default: true

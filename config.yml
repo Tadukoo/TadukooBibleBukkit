@@ -5,6 +5,10 @@
 # NEVER change this setting!
 Version: 1.0 SNAPSHOT
 
+# Set this to whatever language you want to use. Using the name of the language instead of the actual language
+# file's name will change it to that language file on start up.
+language: en_US
+
 # Set this to false if you want to disable the checks of this file during start up.
 startup-checks: true
 

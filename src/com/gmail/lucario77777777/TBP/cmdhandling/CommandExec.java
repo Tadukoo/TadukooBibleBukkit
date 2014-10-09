@@ -35,7 +35,7 @@ public class CommandExec implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
 		/*
-		 * Sets default book, chapter, verse, and translation.
+		 * Sets default book.
 		 */
 		EnumBooks book = EnumBooks.GENESIS;
 		
@@ -58,7 +58,9 @@ public class CommandExec implements CommandExecutor {
 			playerType = "unknown";
 		}
 		
-		if(cmd.getName().equalsIgnoreCase("bible") && Checks.permCheck(playerType, sender, "use", permsOn)){
+		if(cmd.getName().equalsIgnoreCase("bible") && 
+				Checks.permCheck(playerType, sender, "Bible", "use", permsOn)){
+			String type = "Bible";
 			if(playerType == "block" || playerType == "unknown"){
 				//Don't yet know how to handle command block and unknown senders.
 				sender.sendMessage(ChatColor.RED + "Unknown sender!");
@@ -71,7 +73,7 @@ public class CommandExec implements CommandExecutor {
 					}else if(Args.isCmd(cmds, args[0]) != null){
 						cmds = Args.isCmd(cmds, args[0]);
 						//Check if the command is available.
-						if(!cmds.isAvailable("Bible")){
+						if(!cmds.isAvailable(type)){
 							sender.sendMessage(ChatColor.RED + "Sorry, " + cmds.getCmd() + " is not " +
 									"available yet.");
 							return true;
@@ -84,7 +86,7 @@ public class CommandExec implements CommandExecutor {
 				}
 				String cmdType = cmds.getCmd();
 				String cmdPerm = cmds.getPerm();
-				if(Checks.permCheck(playerType, sender, cmdPerm, permsOn)){
+				if(Checks.permCheck(playerType, sender, type, cmdPerm, permsOn)){
 					if(cmdType.equalsIgnoreCase("read")){
 						Read.run(plugin, sender, args);
 						return true;
@@ -131,6 +133,33 @@ public class CommandExec implements CommandExecutor {
 						Announce.run(plugin, sender, args);
 						return true;
 					}
+				}
+			}
+		}else if(cmd.getName().equalsIgnoreCase("apocrypha") && 
+				Checks.permCheck(playerType, sender, "Apocrypha", "use", permsOn)){
+			String type = "Apocrypha";
+			if(playerType == "block" || playerType == "unknown"){
+				sender.sendMessage(ChatColor.RED + "Unknown sender!");
+				return true;
+			}else{
+				if(args.length >= 1){
+					if(Args.isCmd(cmds, args[0]) != null){
+						cmds = Args.isCmd(cmds, args[0]);
+						if(!cmds.isAvailable(type)){
+							sender.sendMessage(ChatColor.RED + "Sorry, " + cmds.getCmd() + " is not " +
+									"available yet for /apocrypha.");
+							return true;
+						}
+					}else{
+						sender.sendMessage(ChatColor.RED + "Sorry, that command does not exist.");
+						sender.sendMessage(ChatColor.RED + "No help is available yet for /apocrypha.");
+						return true;
+					}
+				}
+				String cmdType = cmds.getCmd();
+				String cmdPerm = cmds.getPerm();
+				if(Checks.permCheck(playerType, sender, type, cmdPerm, permsOn)){
+					
 				}
 			}
 		}

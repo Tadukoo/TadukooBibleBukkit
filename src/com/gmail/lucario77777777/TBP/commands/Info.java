@@ -22,12 +22,12 @@ public class Info {
 		EnumCmds cmds = EnumCmds.INFO;
 		EnumPerms perms = EnumPerms.STAR;
 		if(args.length >= 2){
-			if(etran.fromString(args[1]) != null && Checks.permCheck(playerType, sender, "info.translation",
-					permsOn)){
+			if(etran.fromString(args[1]) != null && Checks.permCheck(playerType, sender, "bible",
+					"info.translation", permsOn)){
 				etran = etran.fromString(args[1]);
 				Information.tranInfo(sender, plugin, etran);
 				return;
-			}else if(Args.isBook(book, cmds, args, 1) != null && Checks.permCheck(playerType, sender, 
+			}else if(Args.isBook(book, cmds, args, 1) != null && Checks.permCheck(playerType, sender, "bible",
 					"info.book", permsOn)){
 				book = Args.isBook(book, cmds, args, 1);
 				Information.bookInfo(sender, plugin, book);
@@ -35,11 +35,11 @@ public class Info {
 			}else if(Args.isCmd(cmds, args[1]) != null){
 				cmds = Args.isCmd(cmds, args[1]);
 				String cmd = cmds.getCmd();
-				if(cmd.equalsIgnoreCase("translation") && Checks.permCheck(playerType, sender,
+				if(cmd.equalsIgnoreCase("translation") && Checks.permCheck(playerType, sender, "bible",
 						"info.translation", permsOn)){
 					Information.tranList(sender, plugin);
 					return;
-				}else if(cmd.equalsIgnoreCase("books") && Checks.permCheck(playerType, sender, 
+				}else if(cmd.equalsIgnoreCase("books") && Checks.permCheck(playerType, sender, "bible",
 						"info.book", permsOn)){
 					String part = "1";
 					if(args.length == 3){
@@ -48,18 +48,18 @@ public class Info {
 					Information.booksList(sender, part);
 					return;
 				}
-			}else if(args[1].equalsIgnoreCase("permissions") && Checks.permCheck(playerType, sender, 
+			}else if(args[1].equalsIgnoreCase("permissions") && Checks.permCheck(playerType, sender, "bible",
 					"info.permission", permsOn)){
 				Information.perms(sender);
 				return;
-			}else if(perms.fromString(args[1]) != null && Checks.permCheck(playerType, sender, 
+			}else if(perms.fromString(args[1]) != null && Checks.permCheck(playerType, sender, "bible",
 					"info.permission", permsOn)){
 				perms = perms.fromString(args[1]);
 				Information.permInfo(sender, perms);
 				return;
 			}
 		}
-		if(!Checks.permCheck(playerType, sender, "info.plugin", permsOn)){
+		if(!Checks.permCheck(playerType, sender, "bible", "info.plugin", permsOn)){
 			return;
 		}
 		Information.pluginInfo(plugin, sender);
