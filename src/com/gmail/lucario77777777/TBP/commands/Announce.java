@@ -13,8 +13,7 @@ import com.gmail.lucario77777777.TBP.cmdhandling.Sending;
 
 public class Announce {
 	public static void run(TB plugin, CommandSender sender, String[] args){
-		if(Args.argsLengthCheck(sender, args, 3, 7, "/bible announce <book> <chapter> <verse> [translation] " +
-				"or /bible announce <book> <chapter:verse> [translation]")){
+		if(Args.argsLengthCheck(sender, args, 3, 7, plugin.getLanguage().getString("help.pages.ann.usage"))){
 			return;
 		}
 		EnumBooks book = EnumBooks.GENESIS;
@@ -31,7 +30,9 @@ public class Announce {
 			bookName = book.getBook();
 			i = Args.getCurrentArg(book, cmds, args, 1);
 		}else{
-			sender.sendMessage(ChatColor.RED + args[1] + " must be a book!");
+			String error = plugin.getLanguage().getString("command.announce.mustbebookerr");
+			error = error.replaceAll("{args1}", args[1]);
+			sender.sendMessage(ChatColor.RED + error);
 			return;
 		}
 		if(args.length >= i + 1){
@@ -47,16 +48,16 @@ public class Announce {
 					v = args[i];
 					i++;
 				}else{
-					sender.sendMessage(ChatColor.RED + "Not enough args!");
-					sender.sendMessage(ChatColor.RED + "/bible announce <book> <chapter> <verse> " +
-							"[translation] or /bible announce <book> <chapter:verse> [translation]");
+					sender.sendMessage(ChatColor.RED + 
+							plugin.getLanguage().getString("command.args.notenougherr"));
+					sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("help.pages.ann.usage"));
 					return;
 				}
 			}
 		}else{
-			sender.sendMessage(ChatColor.RED + "Not enough args!");
-			sender.sendMessage(ChatColor.RED + "/bible announce <book> <chapter> <verse> [translation] or " +
-					"/bible announce <book> <chapter:verse> [translation]");
+			sender.sendMessage(ChatColor.RED + 
+					plugin.getLanguage().getString("command.args.notenougherr"));
+			sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("help.pages.ann.usage"));
 			return;
 		}
 		if(args.length == i + 1 && Args.tranCheck(sender, args[i]) != null){

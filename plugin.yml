@@ -69,6 +69,7 @@ permissions:
       description: Gives all apocrypha permissions.
       children:
          TadukooBible.apocrypha.use: true
+         TadukooBible.apocrypha.help: true
    TadukooBible.use:
       description: Gives access to the plugin.
       default: true
@@ -135,3 +136,6 @@ permissions:
    TadukooBible.apocrypha.use:
       description: Allows use of /apocrypha.
       default: true
+   TadukooBible.apocrypha.help:
+     description: Allows use of /apocrypha help.
+     default: true

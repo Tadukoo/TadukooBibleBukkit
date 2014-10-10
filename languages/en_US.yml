@@ -3,6 +3,11 @@ aliases:
   one: Its alias is {alias1}.
   two: Its aliases are {alias1} and {alias2}.
   three: Its aliases are {alias1}, {alias2}, and {alias3}.
+apocrypha:
+  commands:
+    help: 'Usage: /apocrypha help [page|command]'
+  help:
+    pages: 'No commands are yet available.'
 books:
   Genesis: Genesis is about creation, the fall of man, the great flood, God's covenant with Abraham, Isaac, and Jacob, and how the Israelites end up in Egypt. It was written by Moses and has 50 chapters.
   Exodus: Exodus is about God freeing the Israelites from their bondage in Egypt through Moses and 10 plagues, the reason for Passover, the Exodus of the Israelites from Egypt,  the 10 Commandments, and priest and worship instructions. It was written by Moses and has 40 chapters.
@@ -70,6 +75,16 @@ books:
   3John: 3 John teaches about loving God and other people by walking in the truth. It was written by John and has 1 chapter.
   Jude: Jude warns us to avoid false teachers and remember the words of the prophets. It was written by Jude and has 1 chapter.
   Revelation: Revelation is a book of prophecy about what will happen in the future concerning the end times. It was written by John and has 22 chapters.
+command:
+  args:
+    notenougherr: 'Not enough args!'
+  announce:
+    mustbebookerr: '{args1} must be a book!"
+  error:
+    unknownsender: 'Unknown sender!'
+    commandnotavailable: 'Sorry, {cmd} is not available yet for {type}.'
+    commanddoesntexist: 'Sorry, that book/command does not exist.'
+    help: 'For help, please type /{type} help.'
 commands:
   read: read
   send: send

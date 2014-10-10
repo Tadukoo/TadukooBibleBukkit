@@ -22,6 +22,7 @@ import com.gmail.lucario77777777.TBP.commands.Read;
 import com.gmail.lucario77777777.TBP.commands.Send;
 import com.gmail.lucario77777777.TBP.commands.Sendbook;
 import com.gmail.lucario77777777.TBP.commands.Translation;
+import com.gmail.lucario77777777.TBP.commands.apocrypha.ApoHelp;
 import com.gmail.lucario77777777.TBP.TB;
 
 public class CommandExec implements CommandExecutor {
@@ -44,6 +45,11 @@ public class CommandExec implements CommandExecutor {
 		 */
 		EnumCmds cmds = EnumCmds.READ;
 		
+		String unknownSender = plugin.getLanguage().getString("command.error.unknownsender");
+		String notAvailable = plugin.getLanguage().getString("command.error.commandnotavailable");
+		String doesntExist = plugin.getLanguage().getString("command.error.commanddoesntexist");
+		String help = plugin.getLanguage().getString("command.error.help");
+		
 		/*
 		 * Determine Player Type
 		 */
@@ -63,7 +69,7 @@ public class CommandExec implements CommandExecutor {
 			String type = "Bible";
 			if(playerType == "block" || playerType == "unknown"){
 				//Don't yet know how to handle command block and unknown senders.
-				sender.sendMessage(ChatColor.RED + "Unknown sender!");
+				sender.sendMessage(ChatColor.RED + unknownSender);
 				return true;
 			}else{
 				if(args.length >= 1){
@@ -74,13 +80,15 @@ public class CommandExec implements CommandExecutor {
 						cmds = Args.isCmd(cmds, args[0]);
 						//Check if the command is available.
 						if(!cmds.isAvailable(type)){
-							sender.sendMessage(ChatColor.RED + "Sorry, " + cmds.getCmd() + " is not " +
-									"available yet.");
+							notAvailable = notAvailable.replaceAll("{cmd}", cmds.getCmd());
+							notAvailable = notAvailable.replaceAll("{type}", type);
+							sender.sendMessage(ChatColor.RED + notAvailable);
 							return true;
 						}
 					}else{
-						sender.sendMessage(ChatColor.RED + "Sorry, that book/command does not exist.");
-						sender.sendMessage(ChatColor.RED + "For help, please type /bible help");
+						help = help.replaceAll("{type}", type);
+						sender.sendMessage(ChatColor.RED + doesntExist);
+						sender.sendMessage(ChatColor.RED + help);
 						return true;
 					}
 				}
@@ -139,19 +147,20 @@ public class CommandExec implements CommandExecutor {
 				Checks.permCheck(playerType, sender, "Apocrypha", "use", permsOn)){
 			String type = "Apocrypha";
 			if(playerType == "block" || playerType == "unknown"){
-				sender.sendMessage(ChatColor.RED + "Unknown sender!");
+				sender.sendMessage(ChatColor.RED + unknownSender);
 				return true;
 			}else{
 				if(args.length >= 1){
 					if(Args.isCmd(cmds, args[0]) != null){
 						cmds = Args.isCmd(cmds, args[0]);
 						if(!cmds.isAvailable(type)){
-							sender.sendMessage(ChatColor.RED + "Sorry, " + cmds.getCmd() + " is not " +
-									"available yet for /apocrypha.");
+							notAvailable = notAvailable.replaceAll("{cmd}", cmds.getCmd());
+							notAvailable = notAvailable.replaceAll("{type}", type);
+							sender.sendMessage(ChatColor.RED + notAvailable);
 							return true;
 						}
 					}else{
-						sender.sendMessage(ChatColor.RED + "Sorry, that command does not exist.");
+						sender.sendMessage(ChatColor.RED + doesntExist);
 						sender.sendMessage(ChatColor.RED + "No help is available yet for /apocrypha.");
 						return true;
 					}
@@ -159,7 +168,10 @@ public class CommandExec implements CommandExecutor {
 				String cmdType = cmds.getCmd();
 				String cmdPerm = cmds.getPerm();
 				if(Checks.permCheck(playerType, sender, type, cmdPerm, permsOn)){
-					
+					if(cmdType.equalsIgnoreCase("help")){
+						ApoHelp.run(plugin, sender, args);
+						return true;
+					}
 				}
 			}
 		}
