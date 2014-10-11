@@ -85,6 +85,13 @@ command:
     commandnotavailable: 'Sorry, {cmd} is not available yet for {type}.'
     commanddoesntexist: 'Sorry, that book/command does not exist.'
     help: 'For help, please type /{type} help.'
+    mustbeplayer: 'You must be a player!'
+    ymldoesntexist: 'Sorry, {tran}/{book}.yml does not exist.'
+    generic: 'An error occured.'
+    chpdoesntexist: 'That chapter does not exist in {book}!'
+    vdoesntexist: 'That verse does not exist in {book} Chapter {chp}!'
+    chpvmustbenums: 'Chapter and verse must be numbers!'
+  help: '/bible help [page|command]'
 commands:
   read: read
   send: send
@@ -224,5 +231,8 @@ help:
   nextPage: 
     generic: Type /bible help {nextPage} for the next page.
     specific: Type /bible help {nextPage} for more info about {command}.
+permission:
+  donthave: 'You don''t have permission.'
+  need: 'You need {perm}'
 translations:
   KJV: KJV is the King James Version. It was started in 1604 and finished in 1611, made for the Church of England after King James decided a new English translation was needed.

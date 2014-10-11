@@ -30,6 +30,7 @@ public class Send {
 		String v = null;
 		String tran = etran.getTran();
 		int i = 2;
+		EnumCmds ecmd = EnumCmds.ANONYMOUS;
 		boolean anonymous = false;
 		if(Args.isBook(book, cmds, args, i) != null){
 			book = Args.isBook(book, cmds, args, i);
@@ -54,8 +55,8 @@ public class Send {
 						return;
 					}
 				}
-				if(args.length >= i + 1 && args[i].equalsIgnoreCase("anonymous")){
-					if(!Checks.permCheck(playerType, sender, "bible", "anonymous.verse", permsOn)){
+				if(args.length >= i + 1 && ecmd.fromString(args[i]) == EnumCmds.ANONYMOUS){
+					if(!Checks.permCheck(playerType, plugin, sender, "bible", "anonymous.verse", permsOn)){
 						return;
 					}else{
 						anonymous = true;

@@ -20,21 +20,19 @@ public class Records {
 	
 	public static void savepRecs(String type, String pName, String bookName, String chp,
 			String v, String tran, String part){
-		if(TB.pR){
-			if(bookName.contains(" ")){
-				bookName = bookName.replaceAll(" ", "");
-			}
-			if(type == "verse"){
-				TB.getpRec().set(pName + ".lastRead.bookName", bookName);
-				TB.getpRec().set(pName + ".lastRead.chp", chp);
-				TB.getpRec().set(pName + ".lastRead.v", v);
-				TB.getpRec().set(pName + ".lastRead.tran", tran);
-			}else if(type == "book"){
-				TB.getpRec().set(pName + ".lastbook.book", bookName);
-				TB.getpRec().set(pName + ".lastbook.part", part);
-				TB.getpRec().set(pName + ".lastbook.tran", tran);
-			}
-			TB.savepRec();
+		if(bookName.contains(" ")){
+			bookName = bookName.replaceAll(" ", "");
 		}
+		if(type == "verse"){
+			TB.getpRec().set(pName + ".lastRead.bookName", bookName);
+			TB.getpRec().set(pName + ".lastRead.chp", chp);
+			TB.getpRec().set(pName + ".lastRead.v", v);
+			TB.getpRec().set(pName + ".lastRead.tran", tran);
+		}else if(type == "book"){
+			TB.getpRec().set(pName + ".lastbook.book", bookName);
+			TB.getpRec().set(pName + ".lastbook.part", part);
+			TB.getpRec().set(pName + ".lastbook.tran", tran);
+		}
+		TB.savepRec();
 	}
 }

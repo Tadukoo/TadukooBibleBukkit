@@ -31,7 +31,6 @@ public class TB extends JavaPlugin {
 	public static FileConfiguration language = null;
 	public static File languageFile = null;
 	public Boolean perms = null;
-	public static boolean pR;
 	
 	@Override
 	public void onDisable () {
@@ -54,9 +53,9 @@ public class TB extends JavaPlugin {
 		config = getConfig();
 		configCheck(plugin, config);
 		reloadLanguage();
-		pR = this.getConfig().getBoolean("PlayerRecords");
 		perms = getConfig().getBoolean("Permissions");
 		getCommand("bible").setExecutor(new CommandExec(this, perms));
+		getCommand("b").setExecutor(new CommandExec(this, perms));
 		getCommand("apocrypha").setExecutor(new CommandExec(this, perms));
 	}
 	
@@ -193,10 +192,6 @@ public class TB extends JavaPlugin {
 			}
 			if(config.getString("Permissions") == null){
 				config.set("Permissions", true);
-				plugin.saveConfig();
-			}
-			if(config.getString("PlayerRecords") == null){
-				config.set("PlayerRecords", true);
 				plugin.saveConfig();
 			}
 			if(config.getString("Books") == null){

@@ -30,7 +30,7 @@ public enum EnumBooks {
 	LAMENTATIONS(25, "Lamentations", "Lam", "La", "Jeremiah", 5, false),
 	EZEKIEL(26, "Ezekiel", "Eze", "Ezekiel", 48, false),
 	DANIEL(27, "Daniel", "Dan", "Da", "Daniel", 12, false),
-	HOSEA(28, "Hosea", "Hos", "Ho", "Hosea", 14, false),
+	HOSEA(28, "Hosea", "Hos", "Ho", "Hosea", 14, true),
 	JOEL(29, "Joel", "Joe", "Joel", 3, false),
 	AMOS(30, "Amos", "Am", "Amos", 9, false),
 	OBADIAH(31, "Obadiah", "Oba", "Ob", "Obadiah", 1, false),

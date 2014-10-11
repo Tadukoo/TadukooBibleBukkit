@@ -43,14 +43,12 @@ public class Sendbook {
 			return;
 		}
 		boolean anonymous = false;
-		if(args.length >= i + 1){
-			if(args[i].equalsIgnoreCase("anonymous")){
-				if(!Checks.permCheck(playerType, sender, "bible", "anonymous.book", permsOn)){
-					return;
-				}else{
-					anonymous = true;
-					i++;
-				}
+		if(args.length >= i + 1 && cmds.fromString(args[i]) == EnumCmds.ANONYMOUS){
+			if(!Checks.permCheck(playerType, plugin, sender, "bible", "anonymous.book", permsOn)){
+				return;
+			}else{
+				anonymous = true;
+				i++;
 			}
 		}
 		if(args.length == i + 1 && Args.tranCheck(sender, args[i]) != null){

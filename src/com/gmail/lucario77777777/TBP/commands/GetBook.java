@@ -45,9 +45,6 @@ public class Getbook {
 				String spec = cmds.fromString(args[1]).getCmd();
 				if(spec.equalsIgnoreCase("previous") || spec.equalsIgnoreCase("next") || 
 						spec.equalsIgnoreCase("last")){
-					if(!Args.pRCheck(sender)){
-						return;
-					}
 					bookName = TB.getpRec().getString(pName + ".lastbook.book");
 					part = TB.getpRec().getString(pName + ".lastbook.part");
 					tran = TB.getpRec().getString(pName + ".lastbook.tran");

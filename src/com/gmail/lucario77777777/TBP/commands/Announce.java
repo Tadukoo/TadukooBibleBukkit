@@ -69,7 +69,7 @@ public class Announce {
 		if(!Checks.checkForYML(plugin, sender, bookName, tran)){
 			return;
 		}
-		String ref = Checks.bookCheck(sender, book, bookName, chp, v);
+		String ref = Checks.bookCheck(plugin, sender, book, bookName, chp, v);
 		if(ref == null){
 			return;
 		}

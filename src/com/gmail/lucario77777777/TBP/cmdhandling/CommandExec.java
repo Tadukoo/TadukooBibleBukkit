@@ -8,8 +8,10 @@ import org.bukkit.command.CommandExecutor;
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumCmds;
 import com.gmail.lucario77777777.TBP.commands.Announce;
+import com.gmail.lucario77777777.TBP.commands.Block;
 import com.gmail.lucario77777777.TBP.commands.Books;
 import com.gmail.lucario77777777.TBP.commands.Config;
+import com.gmail.lucario77777777.TBP.commands.Favorite;
 import com.gmail.lucario77777777.TBP.commands.Getbook;
 import com.gmail.lucario77777777.TBP.commands.Help;
 import com.gmail.lucario77777777.TBP.commands.Info;
@@ -19,6 +21,7 @@ import com.gmail.lucario77777777.TBP.commands.Plugin;
 import com.gmail.lucario77777777.TBP.commands.Previous;
 import com.gmail.lucario77777777.TBP.commands.RandomCmd;
 import com.gmail.lucario77777777.TBP.commands.Read;
+import com.gmail.lucario77777777.TBP.commands.Receive;
 import com.gmail.lucario77777777.TBP.commands.Send;
 import com.gmail.lucario77777777.TBP.commands.Sendbook;
 import com.gmail.lucario77777777.TBP.commands.Translation;
@@ -64,8 +67,8 @@ public class CommandExec implements CommandExecutor {
 			playerType = "unknown";
 		}
 		
-		if(cmd.getName().equalsIgnoreCase("bible") && 
-				Checks.permCheck(playerType, sender, "Bible", "use", permsOn)){
+		if((cmd.getName().equalsIgnoreCase("bible") || cmd.getName().equalsIgnoreCase("b")) && 
+				Checks.permCheck(playerType, plugin, sender, "Bible", "use", permsOn)){
 			String type = "Bible";
 			if(playerType == "block" || playerType == "unknown"){
 				//Don't yet know how to handle command block and unknown senders.
@@ -94,26 +97,30 @@ public class CommandExec implements CommandExecutor {
 				}
 				String cmdType = cmds.getCmd();
 				String cmdPerm = cmds.getPerm();
-				if(Checks.permCheck(playerType, sender, type, cmdPerm, permsOn)){
+				if(Checks.permCheck(playerType, plugin, sender, type, cmdPerm, permsOn)){
 					if(cmdType.equalsIgnoreCase("read")){
 						Read.run(plugin, sender, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("send")){
 						Send.run(plugin, playerType, sender, args, permsOn);
 						return true;
-					}else if(cmdType.equalsIgnoreCase("previous") && TB.pR){
+					}else if(cmdType.equalsIgnoreCase("previous")){
 						Previous.run(plugin, sender, args);
 						return true;
-					}else if(cmdType.equalsIgnoreCase("next") && TB.pR){
+					}else if(cmdType.equalsIgnoreCase("next")){
 						Next.run(plugin, sender, args);
 						return true;
-					}else if(cmdType.equalsIgnoreCase("last") && TB.pR){
+					}else if(cmdType.equalsIgnoreCase("last")){
 						Last.run(plugin, sender, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("random")){
 						RandomCmd.run(plugin, sender, args);
 						return true;
-					}else if(cmdType.equalsIgnoreCase("getbook") && Checks.consoleCheck(sender, playerType)){
+					}else if(cmdType.equalsIgnoreCase("favorite")){
+						Favorite.run(plugin, sender, args);
+						return true;
+					}else if(cmdType.equalsIgnoreCase("getbook") && 
+							Checks.consoleCheck(plugin, sender, playerType)){
 						Getbook.run(plugin, sender, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("sendbook")){
@@ -134,6 +141,12 @@ public class CommandExec implements CommandExecutor {
 					}else if(cmdType.equalsIgnoreCase("translation")){
 						Translation.run(plugin, sender, args);
 						return true;
+					}else if(cmdType.equalsIgnoreCase("block")){
+						Block.run(plugin, sender, args);
+						return true;
+					}else if(cmdType.equalsIgnoreCase("receive")){
+						Receive.run(plugin, sender, args);
+						return true;
 					}else if(cmdType.equalsIgnoreCase("config")){
 						Config.run(plugin, sender, args);
 						return true;
@@ -144,7 +157,7 @@ public class CommandExec implements CommandExecutor {
 				}
 			}
 		}else if(cmd.getName().equalsIgnoreCase("apocrypha") && 
-				Checks.permCheck(playerType, sender, "Apocrypha", "use", permsOn)){
+				Checks.permCheck(playerType, plugin, sender, "Apocrypha", "use", permsOn)){
 			String type = "Apocrypha";
 			if(playerType == "block" || playerType == "unknown"){
 				sender.sendMessage(ChatColor.RED + unknownSender);
@@ -167,7 +180,7 @@ public class CommandExec implements CommandExecutor {
 				}
 				String cmdType = cmds.getCmd();
 				String cmdPerm = cmds.getPerm();
-				if(Checks.permCheck(playerType, sender, type, cmdPerm, permsOn)){
+				if(Checks.permCheck(playerType, plugin, sender, type, cmdPerm, permsOn)){
 					if(cmdType.equalsIgnoreCase("help")){
 						ApoHelp.run(plugin, sender, args);
 						return true;

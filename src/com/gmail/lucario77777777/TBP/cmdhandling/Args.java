@@ -3,7 +3,6 @@ package com.gmail.lucario77777777.TBP.cmdhandling;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
-import com.gmail.lucario77777777.TBP.TB;
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumCmds;
 import com.gmail.lucario77777777.TBP.Enums.EnumTrans;
@@ -124,15 +123,6 @@ public class Args {
 		}else{
 			i++;
 			return i;
-		}
-	}
-
-	public static boolean pRCheck(CommandSender sender) {
-		if(TB.pR){
-			return true;
-		}else{
-			sender.sendMessage(ChatColor.RED + "Sorry, player records are turned off.");
-			return false;
 		}
 	}
 	

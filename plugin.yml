@@ -7,6 +7,7 @@ prefix: TB
 commands:
    bible:
       description: The base command for Tadukoo Bible. Type /bible help for help.
+      aliases: [b]
       usage: /<command>
       permission: TadukooBible.use
       permission-message: You don't have <permission>.
@@ -31,7 +32,7 @@ permissions:
          TadukooBible.op.*: true
          TadukooBible.anonymous.*: true
    TadukooBible.verse.*:
-      description: Gives all verse permissions (read, send, previous, next, last, and random).
+      description: Gives all verse permissions (read, send, previous, next, last, favorite, and random).
       children:
          TadukooBible.verse.read: true
          TadukooBible.verse.send: true
@@ -39,6 +40,7 @@ permissions:
          TadukooBible.verse.previous: true
          TadukooBible.verse.next: true
          TadukooBible.verse.last: true
+         TadukooBible.verse.favorite: true
          TadukooBible.verse.random: true
          TadukooBible.verse.announceget: true
    TadukooBible.book.*:
@@ -69,7 +71,7 @@ permissions:
       description: Gives all apocrypha permissions.
       children:
          TadukooBible.apocrypha.use: true
-         TadukooBible.apocrypha.help: true
+         TadukooBible.apocrypha.info.help: true
    TadukooBible.use:
       description: Gives access to the plugin.
       default: true
@@ -90,6 +92,9 @@ permissions:
       default: true
    TadukooBible.verse.last:
       description: Allows use of /bible last.
+      default: true
+   TadukooBible.verse.favorite:
+      description: Allows use of /bible favorite.
       default: true
    TadukooBible.verse.random:
       description: Allows use of /bible random.
@@ -136,6 +141,6 @@ permissions:
    TadukooBible.apocrypha.use:
       description: Allows use of /apocrypha.
       default: true
-   TadukooBible.apocrypha.help:
+   TadukooBible.apocrypha.info.help:
      description: Allows use of /apocrypha help.
      default: true

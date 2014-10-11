@@ -9,7 +9,7 @@ import com.gmail.lucario77777777.TBP.cmdhandling.HelpPages;
 
 public class Help {
 	public static void run(TB plugin, CommandSender sender, String[] args){
-		if(Args.argsLengthCheck(sender, args, 1, 2, "/bible help [page|command]")){
+		if(Args.argsLengthCheck(sender, args, 1, 2, plugin.getLanguage().getString("command.help"))){
 			return;
 		}
 		EnumHelp ehelp = EnumHelp.TABLEOFCONTENTS;

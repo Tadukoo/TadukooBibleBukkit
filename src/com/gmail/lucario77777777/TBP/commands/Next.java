@@ -14,9 +14,6 @@ import com.gmail.lucario77777777.TBP.cmdhandling.Sending;
 
 public class Next {
 	public static void run(TB plugin, CommandSender sender, String[] args){
-		if(!Args.pRCheck(sender)){
-			return;
-		}
 		if(Args.argsLengthCheck(sender, args, 1, 2, "/bible next [translation]")){
 			return;
 		}
