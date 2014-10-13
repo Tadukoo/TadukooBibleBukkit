@@ -5,6 +5,7 @@ import org.bukkit.command.CommandSender;
 
 import com.gmail.lucario77777777.TBP.TB;
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
+import com.gmail.lucario77777777.TBP.Enums.EnumChps;
 import com.gmail.lucario77777777.TBP.Enums.EnumPerms;
 import com.gmail.lucario77777777.TBP.Enums.EnumTrans;
 
@@ -33,6 +34,17 @@ public class Information {
 		}
 		sender.sendMessage(ChatColor.GREEN + desc);
 		sender.sendMessage(ChatColor.GREEN + aliases);
+	}
+	
+	public static void chpInfo(CommandSender sender, TB plugin, EnumChps echp, String chp){
+		String msg = plugin.getLanguage().getString("command.info.chpinfo");
+		String bookName = echp.getBook();
+		msg = msg.replaceAll("{book}", bookName);
+		msg = msg.replaceAll("{chp}", chp);
+		int v = echp.getNum(Integer.parseInt(chp));
+		String vNum = String.valueOf(v);
+		msg = msg.replaceAll("{vNum}", vNum);
+		sender.sendMessage(ChatColor.GREEN + msg);
 	}
 	
 	public static void booksList(CommandSender sender, String page){

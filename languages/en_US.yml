@@ -78,6 +78,7 @@ books:
 command:
   args:
     notenougherr: 'Not enough args!'
+    unknownarg: 'Unknown argument {arg}!'
   announce:
     mustbebookerr: '{args1} must be a book!"
   error:
@@ -91,7 +92,11 @@ command:
     chpdoesntexist: 'That chapter does not exist in {book}!'
     vdoesntexist: 'That verse does not exist in {book} Chapter {chp}!'
     chpvmustbenums: 'Chapter and verse must be numbers!'
+    chpdoesntexist: '{book} does not have that many chapters!'
+    vdoesntexist: '{book} Chapter {chp} does not have that many verses!'
   help: '/bible help [page|command]'
+  info:
+    chpinfo: '{book} Chapter {chp} has {vNum} verses.'
 commands:
   read: read
   send: send

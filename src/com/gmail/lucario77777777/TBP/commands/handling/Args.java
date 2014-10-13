@@ -3,6 +3,7 @@ package com.gmail.lucario77777777.TBP.commands.handling;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
+import com.gmail.lucario77777777.TBP.TB;
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumCmds;
 import com.gmail.lucario77777777.TBP.Enums.EnumTrans;
@@ -134,5 +135,11 @@ public class Args {
 		bookMsg = bookMsg.replace("SongofSongs", "Song of Songs");
 		sender.sendMessage(ChatColor.RED + "Sorry, " + bookMsg + " is not available yet in the " + 
 				tran.toUpperCase() + " translation.");
+	}
+	
+	public static void unknownArg(TB plugin, CommandSender sender, String arg){
+		String error = plugin.getLanguage().getString("command.args.unknownarg");
+		error = error.replaceAll("{arg}", arg);
+		sender.sendMessage(ChatColor.RED + error);
 	}
 }

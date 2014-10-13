@@ -8,16 +8,13 @@ import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumChps;
 import com.gmail.lucario77777777.TBP.Enums.EnumCmds;
 import com.gmail.lucario77777777.TBP.Enums.EnumTrans;
-import com.gmail.lucario77777777.TBP.commands.References;
-import com.gmail.lucario77777777.TBP.commands.Sending;
+import com.gmail.lucario77777777.TBP.commands.Information;
+import com.gmail.lucario77777777.TBP.commands.Verse;
 import com.gmail.lucario77777777.TBP.commands.handling.Args;
-import com.gmail.lucario77777777.TBP.commands.handling.Checks;
 
 public class Read {
 	public static void run(TB plugin, CommandSender sender, String[] args){
-		if(Args.argsLengthCheck(sender, args, 0, 7, "/bible [book] [chapter] [verse] " +
-				"[translation] or /bible [book] [chapter:verse] [translation] or " +
-				"/bible [alias] [book] [chapter] [verse] [translation]")){
+		if(Args.argsLengthCheck(sender, args, 0, 7, plugin.getLanguage().getString("help.pages.read.usage"))){
 			return;
 		}
 		EnumBooks book = EnumBooks.GENESIS;
@@ -35,65 +32,69 @@ public class Read {
 		if(args.length >= 1 && Args.isCmd(cmds, args[0]) == EnumCmds.READ){
 			i++;
 		}
-		if(args.length >= i + 1 && Args.isBook(book, cmds, args, i) != null){
-			book = Args.isBook(book, cmds, args, i);
-			bookName = book.getBook();
-			i = Args.getCurrentArg(book, cmds, args, i);
+		boolean cont = true;
+		boolean bookSet = false;
+		boolean chpSet = false;
+		boolean vSet = false;
+		boolean tranSet = false;
+		while(cont){
 			if(args.length >= i + 1){
-				if(args[i].equalsIgnoreCase("info") ||args[i].equalsIgnoreCase("?")){
-					String msg = plugin.getLanguage().getString("books." + bookName);
-					sender.sendMessage(ChatColor.GREEN + msg);
-					return;
-				}else if(args[i].equalsIgnoreCase("#")){
-					String msg = bookName + " has " + book.getChp() + " chapters.";
-					sender.sendMessage(ChatColor.GREEN + msg);
-					return;
-				}else if(args[i].contains(":")){
+				if(!bookSet && Args.isBook(book, cmds, args, i) != null){
+					book = Args.isBook(book, cmds, args, i);
+					bookName = book.getBook();
+					echp = echp.fromString(bookName);
+					i = Args.getCurrentArg(book, cmds, args, i);
+					bookSet = true;
+				}else if(args[i].equalsIgnoreCase("info") || args[i].equalsIgnoreCase("?") || 
+						args[i].equalsIgnoreCase("#")){
+					if(vSet || (chpSet && !bookSet)){
+						sender.sendMessage(ChatColor.RED + 
+								plugin.getLanguage().getString("command.error.generic"));
+						return;
+					}else if(bookSet && !chpSet){
+						Information.bookInfo(sender, plugin, book);
+						cont = false;
+						break;
+					}else if(bookSet && chpSet){
+						Information.chpInfo(sender, plugin, echp, chp);
+						cont = false;
+						break;
+					}
+				}else if(!tranSet && Args.tranCheck(sender, args[i]) != null){
+					tran = Args.tranCheck(sender, args[i]);
+					i++;
+				}else if(!chpSet && !vSet && args[i].contains(":")){
 					String[] chpV = args[i].split(":");
 					chp = chpV[0];
 					v = chpV[1];
 					i++;
+					chpSet = true;
+					vSet = true;
 				}else{
-					chp = args[i];
-					i++;
-					if(Integer.parseInt(chp) > book.getNum()){
-						sender.sendMessage(ChatColor.RED + bookName + " does not have that many chapters!");
+					try{
+						if(!chpSet && !vSet){
+							int c = Integer.parseInt(args[i]);
+							chp = String.valueOf(c);
+							i++;
+						}else if(chpSet && !vSet){
+							int verse = Integer.parseInt(args[i]);
+							v = String.valueOf(verse);
+							i++;
+						}else{
+							Args.unknownArg(plugin, sender, args[i]);
+							cont = false;
+							return;
+						}
+					}catch(NumberFormatException e){
+						Args.unknownArg(plugin, sender, args[i]);
+						cont = false;
 						return;
 					}
-					if(args.length >= i + 1){
-						if(args[i].equalsIgnoreCase("#")){
-							String msg = bookName + " Chapter " + chp + " has " + 
-									echp.getNum(Integer.parseInt(chp)) + " verses.";
-							sender.sendMessage(ChatColor.GREEN + msg);
-							return;
-						}else{
-							v = args[i];
-							i++;
-							if(Integer.parseInt(v) > echp.getNum(Integer.parseInt(chp))){
-								sender.sendMessage(ChatColor.RED + bookName + " Chapter " + chp + " does not " +
-										"have that many verses!");
-								return;
-							}
-						}
-					}
 				}
-				if(args.length >= i + 1 && Args.tranCheck(sender, args[i]) != null){
-					tran = Args.tranCheck(sender, args[i]);
-				}
+			}else{
+				cont = false;
 			}
 		}
-		if(!book.isAvailable(tran)){
-			Args.bookNotAvailable(sender, book, tran);
-			return;
-		}
-		if(!Checks.checkForYML(plugin, sender, bookName, tran)){
-			return;
-		}
-		String pName = sender.getName();
-		String ref = References.makeRef(book, chp, v);
-		if(!References.checkRef(plugin, sender, bookName, tran, ref)){
-			return;
-		}
-		Sending.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
+		Verse.read(plugin, sender, bookName, chp, v, tran, book, echp);
 	}
 }
