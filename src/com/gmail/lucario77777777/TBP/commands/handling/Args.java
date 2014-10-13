@@ -30,7 +30,6 @@ public class Args {
 				return etran.getTran();
 			}
 		}
-		sender.sendMessage(ChatColor.RED + "Sorry, the " + tran + " translation is not available.");
 		return null;
 	}
 	
@@ -139,7 +138,7 @@ public class Args {
 	
 	public static void unknownArg(TB plugin, CommandSender sender, String arg){
 		String error = plugin.getLanguage().getString("command.args.unknownarg");
-		error = error.replaceAll("{arg}", arg);
+		error = error.replaceAll("\\{arg\\}", arg);
 		sender.sendMessage(ChatColor.RED + error);
 	}
 }

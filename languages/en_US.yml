@@ -80,7 +80,7 @@ command:
     notenougherr: 'Not enough args!'
     unknownarg: 'Unknown argument {arg}!'
   announce:
-    mustbebookerr: '{args1} must be a book!"
+    mustbebookerr: '{args1} must be a book!'
   error:
     unknownsender: 'Unknown sender!'
     commandnotavailable: 'Sorry, {cmd} is not available yet for {type}.'

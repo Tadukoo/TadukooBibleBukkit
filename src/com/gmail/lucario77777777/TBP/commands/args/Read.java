@@ -63,6 +63,7 @@ public class Read {
 				}else if(!tranSet && Args.tranCheck(sender, args[i]) != null){
 					tran = Args.tranCheck(sender, args[i]);
 					i++;
+					tranSet = true;
 				}else if(!chpSet && !vSet && args[i].contains(":")){
 					String[] chpV = args[i].split(":");
 					chp = chpV[0];
@@ -76,10 +77,12 @@ public class Read {
 							int c = Integer.parseInt(args[i]);
 							chp = String.valueOf(c);
 							i++;
+							chpSet = true;
 						}else if(chpSet && !vSet){
 							int verse = Integer.parseInt(args[i]);
 							v = String.valueOf(verse);
 							i++;
+							vSet = true;
 						}else{
 							Args.unknownArg(plugin, sender, args[i]);
 							cont = false;

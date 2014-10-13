@@ -67,7 +67,7 @@ public class CommandExec implements CommandExecutor {
 			playerType = "unknown";
 		}
 		
-		if((cmd.getName().equalsIgnoreCase("bible") || cmd.getName().equalsIgnoreCase("b")) && 
+		if((cmd.getName().equalsIgnoreCase("bible")) && 
 				Checks.permCheck(playerType, plugin, sender, "Bible", "use", permsOn)){
 			String type = "Bible";
 			if(playerType == "block" || playerType == "unknown"){
@@ -83,13 +83,13 @@ public class CommandExec implements CommandExecutor {
 						cmds = Args.isCmd(cmds, args[0]);
 						//Check if the command is available.
 						if(!cmds.isAvailable(type)){
-							notAvailable = notAvailable.replaceAll("{cmd}", cmds.getCmd());
-							notAvailable = notAvailable.replaceAll("{type}", type);
+							notAvailable = notAvailable.replaceAll("\\{cmd\\}", cmds.getCmd());
+							notAvailable = notAvailable.replaceAll("\\{type\\}", type);
 							sender.sendMessage(ChatColor.RED + notAvailable);
 							return true;
 						}
 					}else{
-						help = help.replaceAll("{type}", type);
+						help = help.replaceAll("\\{type\\}", type);
 						sender.sendMessage(ChatColor.RED + doesntExist);
 						sender.sendMessage(ChatColor.RED + help);
 						return true;
@@ -167,14 +167,15 @@ public class CommandExec implements CommandExecutor {
 					if(Args.isCmd(cmds, args[0]) != null){
 						cmds = Args.isCmd(cmds, args[0]);
 						if(!cmds.isAvailable(type)){
-							notAvailable = notAvailable.replaceAll("{cmd}", cmds.getCmd());
-							notAvailable = notAvailable.replaceAll("{type}", type);
+							notAvailable = notAvailable.replaceAll("\\{cmd\\}", cmds.getCmd());
+							notAvailable = notAvailable.replaceAll("\\{type\\}", type);
 							sender.sendMessage(ChatColor.RED + notAvailable);
 							return true;
 						}
 					}else{
+						help = help.replaceAll("\\{type\\}", type);
 						sender.sendMessage(ChatColor.RED + doesntExist);
-						sender.sendMessage(ChatColor.RED + "No help is available yet for /apocrypha.");
+						sender.sendMessage(ChatColor.RED + help);
 						return true;
 					}
 				}

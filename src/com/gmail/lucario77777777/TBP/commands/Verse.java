@@ -12,16 +12,16 @@ import com.gmail.lucario77777777.TBP.commands.handling.Checks;
 public class Verse {
 	public static void read(TB plugin, CommandSender sender, String bookName, String chp, String v, String tran,
 			EnumBooks book, EnumChps echp){
-		if(Integer.parseInt(chp) > book.getNum()){
+		if(Integer.parseInt(chp) > book.getChp()){
 			String error = plugin.getLanguage().getString("command.error.chpdoesntexist");
-			error = error.replaceAll("{book}", bookName);
+			error = error.replaceAll("\\{book\\}", bookName);
 			sender.sendMessage(ChatColor.RED + error);
 			return;
 		}
 		if(Integer.parseInt(v) > echp.getNum(Integer.parseInt(chp))){
 			String error = plugin.getLanguage().getString("command.error.vdoesntexist");
-			error = error.replaceAll("{book}", bookName);
-			error = error.replaceAll("{chp}", chp);
+			error = error.replaceAll("\\{book\\}", bookName);
+			error = error.replaceAll("\\{chp\\}", chp);
 			sender.sendMessage(ChatColor.RED + error);
 			return;
 		}

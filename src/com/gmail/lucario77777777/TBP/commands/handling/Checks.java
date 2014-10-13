@@ -23,8 +23,8 @@ public class Checks {
 		if(plugin.getBook(bookName, tran) == null){
 			if(sender != null){
 				String error = plugin.getLanguage().getString("command.error.ymldoesntexist");
-				error = error.replaceAll("{tran}", tran);
-				error = error.replaceAll("{book}", bookName);
+				error = error.replaceAll("\\{tran\\}", tran);
+				error = error.replaceAll("\\{book\\}", bookName);
 				sender.sendMessage(ChatColor.RED + error);
 			}
 			return false;
@@ -43,7 +43,7 @@ public class Checks {
 				if(player.hasPermission("TadukooBible." + perm)){
 					return true;
 				}else{
-					need = need.replaceAll("{perm}", "TadukooBible." + perm);
+					need = need.replaceAll("\\{perm\\}", "TadukooBible." + perm);
 					sender.sendMessage(ChatColor.RED + donthave);
 					sender.sendMessage(ChatColor.RED + need);
 					return false;
@@ -52,7 +52,7 @@ public class Checks {
 				if(player.hasPermission("TadukooBible.apocrypha." + perm)){
 					return true;
 				}else{
-					need = need.replaceAll("{perm}", "TadukooBible.apocrypha." + perm);
+					need = need.replaceAll("\\{perm\\}", "TadukooBible.apocrypha." + perm);
 					sender.sendMessage(ChatColor.RED + donthave);
 					sender.sendMessage(ChatColor.RED + need);
 					return false;
@@ -73,14 +73,14 @@ public class Checks {
 			echp = echp.fromString(bookName);
 			if(Integer.parseInt(chp) > book.getChp()){
 				String chpdoesntexist = plugin.getLanguage().getString("command.error.chpdoesntexist");
-				chpdoesntexist = chpdoesntexist.replaceAll("{book}", bookName);
+				chpdoesntexist = chpdoesntexist.replaceAll("\\{book\\}", bookName);
 				sender.sendMessage(ChatColor.RED + chpdoesntexist);
 				return null;
 			}
 			if(Integer.parseInt(v) > echp.getNum(Integer.parseInt(chp))){
 				String vdoesntexist = plugin.getLanguage().getString("command.error.vdoesntexist");
-				vdoesntexist = vdoesntexist.replaceAll("{book}", bookName);
-				vdoesntexist = vdoesntexist.replaceAll("{chp}", chp);
+				vdoesntexist = vdoesntexist.replaceAll("\\{book\\}", bookName);
+				vdoesntexist = vdoesntexist.replaceAll("\\{chp\\}", chp);
 				sender.sendMessage(ChatColor.RED + vdoesntexist);
 				return null;
 			}

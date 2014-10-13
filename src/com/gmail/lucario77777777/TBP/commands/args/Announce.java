@@ -31,7 +31,7 @@ public class Announce {
 			i = Args.getCurrentArg(book, cmds, args, 1);
 		}else{
 			String error = plugin.getLanguage().getString("command.announce.mustbebookerr");
-			error = error.replaceAll("{args1}", args[1]);
+			error = error.replaceAll("\\{args1\\}", args[1]);
 			sender.sendMessage(ChatColor.RED + error);
 			return;
 		}

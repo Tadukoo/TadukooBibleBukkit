@@ -55,7 +55,6 @@ public class TB extends JavaPlugin {
 		reloadLanguage();
 		perms = getConfig().getBoolean("Permissions");
 		getCommand("bible").setExecutor(new CommandExec(this, perms));
-		getCommand("b").setExecutor(new CommandExec(this, perms));
 		getCommand("apocrypha").setExecutor(new CommandExec(this, perms));
 	}
 	
