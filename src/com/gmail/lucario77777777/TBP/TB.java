@@ -13,8 +13,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumChps;
 import com.gmail.lucario77777777.TBP.Enums.EnumTrans;
-import com.gmail.lucario77777777.TBP.cmdhandling.Checks;
-import com.gmail.lucario77777777.TBP.cmdhandling.CommandExec;
+import com.gmail.lucario77777777.TBP.commands.handling.Checks;
+import com.gmail.lucario77777777.TBP.commands.handling.CommandExec;
 
 public class TB extends JavaPlugin {
 	public static TB plugin;

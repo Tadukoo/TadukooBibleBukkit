@@ -1,11 +1,11 @@
-package com.gmail.lucario77777777.TBP.commands;
+package com.gmail.lucario77777777.TBP.commands.args;
 
 import org.bukkit.command.CommandSender;
 
 import com.gmail.lucario77777777.TBP.TB;
 import com.gmail.lucario77777777.TBP.Enums.EnumTrans;
-import com.gmail.lucario77777777.TBP.cmdhandling.Args;
-import com.gmail.lucario77777777.TBP.cmdhandling.Information;
+import com.gmail.lucario77777777.TBP.commands.Information;
+import com.gmail.lucario77777777.TBP.commands.handling.Args;
 
 public class Translation {
 	public static void run(TB plugin, CommandSender sender, String[] args){

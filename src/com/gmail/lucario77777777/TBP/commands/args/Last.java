@@ -1,14 +1,14 @@
-package com.gmail.lucario77777777.TBP.commands;
+package com.gmail.lucario77777777.TBP.commands.args;
 
 import org.bukkit.command.CommandSender;
 
 import com.gmail.lucario77777777.TBP.TB;
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
-import com.gmail.lucario77777777.TBP.cmdhandling.Args;
-import com.gmail.lucario77777777.TBP.cmdhandling.Checks;
-import com.gmail.lucario77777777.TBP.cmdhandling.Records;
-import com.gmail.lucario77777777.TBP.cmdhandling.References;
-import com.gmail.lucario77777777.TBP.cmdhandling.Sending;
+import com.gmail.lucario77777777.TBP.commands.Records;
+import com.gmail.lucario77777777.TBP.commands.References;
+import com.gmail.lucario77777777.TBP.commands.Sending;
+import com.gmail.lucario77777777.TBP.commands.handling.Args;
+import com.gmail.lucario77777777.TBP.commands.handling.Checks;
 
 public class Last {
 	public static void run(TB plugin, CommandSender sender, String[] args){

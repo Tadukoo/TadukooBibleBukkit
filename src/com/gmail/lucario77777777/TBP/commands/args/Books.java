@@ -1,12 +1,12 @@
-package com.gmail.lucario77777777.TBP.commands;
+package com.gmail.lucario77777777.TBP.commands.args;
 
 import org.bukkit.command.CommandSender;
 
 import com.gmail.lucario77777777.TBP.TB;
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumCmds;
-import com.gmail.lucario77777777.TBP.cmdhandling.Args;
-import com.gmail.lucario77777777.TBP.cmdhandling.Information;
+import com.gmail.lucario77777777.TBP.commands.Information;
+import com.gmail.lucario77777777.TBP.commands.handling.Args;
 
 public class Books {
 	public static void run(CommandSender sender, TB plugin, String[] args){

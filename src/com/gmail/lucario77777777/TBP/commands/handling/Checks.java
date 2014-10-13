@@ -1,4 +1,4 @@
-package com.gmail.lucario77777777.TBP.cmdhandling;
+package com.gmail.lucario77777777.TBP.commands.handling;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -7,6 +7,7 @@ import org.bukkit.entity.Player;
 import com.gmail.lucario77777777.TBP.TB;
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumChps;
+import com.gmail.lucario77777777.TBP.commands.References;
 
 public class Checks {
 	public static boolean consoleCheck(TB plugin, CommandSender sender, String playerType) {

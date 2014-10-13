@@ -1,4 +1,4 @@
-package com.gmail.lucario77777777.TBP.cmdhandling;
+package com.gmail.lucario77777777.TBP.commands;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

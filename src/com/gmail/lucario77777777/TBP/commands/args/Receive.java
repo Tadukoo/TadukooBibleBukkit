@@ -1,10 +1,10 @@
-package com.gmail.lucario77777777.TBP.commands;
+package com.gmail.lucario77777777.TBP.commands.args;
 
 import org.bukkit.command.CommandSender;
 
 import com.gmail.lucario77777777.TBP.TB;
 
-public class Block {
+public class Receive {
 	public static void run(TB plugin, CommandSender sender, String[] args){
 		
 	}

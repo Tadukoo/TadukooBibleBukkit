@@ -1,10 +1,10 @@
-package com.gmail.lucario77777777.TBP.commands.apocrypha;
+package com.gmail.lucario77777777.TBP.commands.apocrypha.args;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.lucario77777777.TBP.TB;
-import com.gmail.lucario77777777.TBP.cmdhandling.Args;
+import com.gmail.lucario77777777.TBP.commands.handling.Args;
 
 public class ApoHelp {
 	public static void run(TB plugin, CommandSender sender, String[] args){

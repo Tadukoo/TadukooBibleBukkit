@@ -1,4 +1,4 @@
-package com.gmail.lucario77777777.TBP.commands;
+package com.gmail.lucario77777777.TBP.commands.args;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -7,9 +7,9 @@ import com.gmail.lucario77777777.TBP.TB;
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumCmds;
 import com.gmail.lucario77777777.TBP.Enums.EnumTrans;
-import com.gmail.lucario77777777.TBP.cmdhandling.Args;
-import com.gmail.lucario77777777.TBP.cmdhandling.Book;
-import com.gmail.lucario77777777.TBP.cmdhandling.Randomize;
+import com.gmail.lucario77777777.TBP.commands.Book;
+import com.gmail.lucario77777777.TBP.commands.Randomize;
+import com.gmail.lucario77777777.TBP.commands.handling.Args;
 
 public class Getbook {
 	public static void run(TB plugin, CommandSender sender, String[] args){

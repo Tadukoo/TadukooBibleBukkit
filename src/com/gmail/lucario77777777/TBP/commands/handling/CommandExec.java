@@ -1,4 +1,4 @@
-package com.gmail.lucario77777777.TBP.cmdhandling;
+package com.gmail.lucario77777777.TBP.commands.handling;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.*;
@@ -7,25 +7,25 @@ import org.bukkit.command.CommandExecutor;
 
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumCmds;
-import com.gmail.lucario77777777.TBP.commands.Announce;
-import com.gmail.lucario77777777.TBP.commands.Block;
-import com.gmail.lucario77777777.TBP.commands.Books;
-import com.gmail.lucario77777777.TBP.commands.Config;
-import com.gmail.lucario77777777.TBP.commands.Favorite;
-import com.gmail.lucario77777777.TBP.commands.Getbook;
-import com.gmail.lucario77777777.TBP.commands.Help;
-import com.gmail.lucario77777777.TBP.commands.Info;
-import com.gmail.lucario77777777.TBP.commands.Last;
-import com.gmail.lucario77777777.TBP.commands.Next;
-import com.gmail.lucario77777777.TBP.commands.Plugin;
-import com.gmail.lucario77777777.TBP.commands.Previous;
-import com.gmail.lucario77777777.TBP.commands.RandomCmd;
-import com.gmail.lucario77777777.TBP.commands.Read;
-import com.gmail.lucario77777777.TBP.commands.Receive;
-import com.gmail.lucario77777777.TBP.commands.Send;
-import com.gmail.lucario77777777.TBP.commands.Sendbook;
-import com.gmail.lucario77777777.TBP.commands.Translation;
-import com.gmail.lucario77777777.TBP.commands.apocrypha.ApoHelp;
+import com.gmail.lucario77777777.TBP.commands.apocrypha.args.ApoHelp;
+import com.gmail.lucario77777777.TBP.commands.args.Announce;
+import com.gmail.lucario77777777.TBP.commands.args.Block;
+import com.gmail.lucario77777777.TBP.commands.args.Books;
+import com.gmail.lucario77777777.TBP.commands.args.Config;
+import com.gmail.lucario77777777.TBP.commands.args.Favorite;
+import com.gmail.lucario77777777.TBP.commands.args.Getbook;
+import com.gmail.lucario77777777.TBP.commands.args.Help;
+import com.gmail.lucario77777777.TBP.commands.args.Info;
+import com.gmail.lucario77777777.TBP.commands.args.Last;
+import com.gmail.lucario77777777.TBP.commands.args.Next;
+import com.gmail.lucario77777777.TBP.commands.args.Plugin;
+import com.gmail.lucario77777777.TBP.commands.args.Previous;
+import com.gmail.lucario77777777.TBP.commands.args.RandomCmd;
+import com.gmail.lucario77777777.TBP.commands.args.Read;
+import com.gmail.lucario77777777.TBP.commands.args.Receive;
+import com.gmail.lucario77777777.TBP.commands.args.Send;
+import com.gmail.lucario77777777.TBP.commands.args.Sendbook;
+import com.gmail.lucario77777777.TBP.commands.args.Translation;
 import com.gmail.lucario77777777.TBP.TB;
 
 public class CommandExec implements CommandExecutor {
