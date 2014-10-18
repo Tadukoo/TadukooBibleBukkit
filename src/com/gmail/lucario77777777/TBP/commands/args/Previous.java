@@ -45,7 +45,7 @@ public class Previous {
 				chapter = 1;
 				boolean cont = true;
 				while(cont){
-					bookName = book.numtoBook(book.getNum(), "int", "lower", null);
+					bookName = book.numtoBook(book.ordinal() + 1, "int", "lower", null);
 					book = book.fromString(bookName);
 					if(book.isAvailable(tran)){
 						cont = false;
