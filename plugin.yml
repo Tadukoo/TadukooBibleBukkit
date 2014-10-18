@@ -22,10 +22,12 @@ permissions:
       children:
          TadukooBible.bible.*: true
          TadukooBible.apocrypha.*: true
+         TadukooBible.debug: true
    TadukooBible.bible.*:
       description: Gives all bible permissions.
       children:
          TadukooBible.use: true
+         TadukooBible.translation.*: true
          TadukooBible.verse.*: true
          TadukooBible.book.*: true
          TadukooBible.info.*: true
@@ -74,6 +76,17 @@ permissions:
          TadukooBible.apocrypha.info.help: true
    TadukooBible.use:
       description: Gives access to the plugin.
+      default: true
+   TadukooBible.translation.*:
+      description: Gives all translation permissions (default and KJV)
+      children:
+         TadukooBible.translation.default: true
+         TadukooBible.translation.KJV: true
+   TadukooBible.translation.default:
+      description: Allows you to use the default translation. Overrides the translation's permission.
+      default: true
+   TadukooBible.translation.KJV:
+      description: Allows you to use the KJV.
       default: true
    TadukooBible.verse.read:
       description: Allows use of /bible read (/bible [book] [chapter #] [verse #] [translation])
@@ -144,3 +157,6 @@ permissions:
    TadukooBible.apocrypha.info.help:
      description: Allows use of /apocrypha help.
      default: true
+   TadukooBible.debug:
+     description: Shows you debug messages.
+     default: false

@@ -7,6 +7,7 @@ import org.bukkit.entity.Player;
 import com.gmail.lucario77777777.TBP.TB;
 import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumChps;
+import com.gmail.lucario77777777.TBP.Enums.EnumTrans;
 import com.gmail.lucario77777777.TBP.commands.References;
 
 public class Checks {
@@ -63,6 +64,39 @@ public class Checks {
 			}
 		}else{
 			return true;
+		}
+	}
+	
+	public static boolean tranPerm(TB plugin, CommandSender sender, String tran){
+		EnumTrans etran = EnumTrans.KJV;
+		EnumTrans defaultTran = etran.getDefault();
+		boolean defTran;
+		String donthave = plugin.getLanguage().getString("permission.donthavetran");
+		donthave = donthave.replaceAll("//{tran//}", tran);
+		String need = plugin.getLanguage().getString("permission.need");
+		if(etran.fromString(tran) == defaultTran){
+			defTran = true;
+		}else{
+			defTran = false;
+		}
+		if(defTran){
+			need = need.replaceAll("//{perm//}", "TadukooBible.translation.default");
+			if(sender.hasPermission("TadukooBible.translation.default")){
+				return true;
+			}else{
+				sender.sendMessage(ChatColor.RED + donthave);
+				sender.sendMessage(ChatColor.RED + need);
+				return false;
+			}
+		}else{
+			need = need.replaceAll("//{perm//}", "TadukooBible.translation." + tran);
+			if(sender.hasPermission("TadukooBible.translation." + tran)){
+				return true;
+			}else{
+				sender.sendMessage(ChatColor.RED + donthave);
+				sender.sendMessage(ChatColor.RED + need);
+				return false;
+			}
 		}
 	}
 	

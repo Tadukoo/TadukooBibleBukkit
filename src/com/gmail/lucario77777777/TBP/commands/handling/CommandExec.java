@@ -5,7 +5,6 @@ import org.bukkit.command.*;
 import org.bukkit.entity.Player;
 import org.bukkit.command.CommandExecutor;
 
-import com.gmail.lucario77777777.TBP.Enums.EnumBooks;
 import com.gmail.lucario77777777.TBP.Enums.EnumCmds;
 import com.gmail.lucario77777777.TBP.commands.apocrypha.args.ApoHelp;
 import com.gmail.lucario77777777.TBP.commands.args.Announce;
@@ -38,14 +37,6 @@ public class CommandExec implements CommandExecutor {
 	
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
-		/*
-		 * Sets default book.
-		 */
-		EnumBooks book = EnumBooks.GENESIS;
-		
-		/*
-		 * Sets default command information.
-		 */
 		EnumCmds cmds = EnumCmds.READ;
 		
 		String unknownSender = plugin.getLanguage().getString("command.error.unknownsender");
@@ -53,9 +44,6 @@ public class CommandExec implements CommandExecutor {
 		String doesntExist = plugin.getLanguage().getString("command.error.commanddoesntexist");
 		String help = plugin.getLanguage().getString("command.error.help");
 		
-		/*
-		 * Determine Player Type
-		 */
 		final String playerType;
 		if (sender instanceof Player){
 			playerType = "player";
@@ -76,23 +64,14 @@ public class CommandExec implements CommandExecutor {
 				return true;
 			}else{
 				if(args.length >= 1){
-					//Check if a book was typed, but do nothing but continue.
-					if(Args.isBook(book, cmds, args, 0) != null){
-						//Check if a command was typed.
-					}else if(Args.isCmd(cmds, args[0]) != null){
+					if(Args.isCmd(cmds, args[0]) != null){
 						cmds = Args.isCmd(cmds, args[0]);
-						//Check if the command is available.
 						if(!cmds.isAvailable(type)){
 							notAvailable = notAvailable.replaceAll("\\{cmd\\}", cmds.getCmd());
 							notAvailable = notAvailable.replaceAll("\\{type\\}", type);
 							sender.sendMessage(ChatColor.RED + notAvailable);
 							return true;
 						}
-					}else{
-						help = help.replaceAll("\\{type\\}", type);
-						sender.sendMessage(ChatColor.RED + doesntExist);
-						sender.sendMessage(ChatColor.RED + help);
-						return true;
 					}
 				}
 				String cmdType = cmds.getCmd();

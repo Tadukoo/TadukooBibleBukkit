@@ -239,5 +239,6 @@ help:
 permission:
   donthave: 'You don''t have permission.'
   need: 'You need {perm}'
+  donthavetran: 'You don''t have permission to use the {tran} translation.'
 translations:
   KJV: KJV is the King James Version. It was started in 1604 and finished in 1611, made for the Church of England after King James decided a new English translation was needed.

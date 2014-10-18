@@ -69,7 +69,7 @@ public class Args {
 	}
 	
 	public static EnumCmds isCmd(EnumCmds cmds, String name){
-		if(cmds.fromString(name) != null){
+		if(cmds.fromString(name) != null && !cmds.fromString(name).isSpecial()){
 			return cmds.fromString(name);
 		}else{
 			return null;

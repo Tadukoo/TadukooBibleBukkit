@@ -32,6 +32,9 @@ public class Verse {
 		if(!Checks.checkForYML(plugin, sender, bookName, tran)){
 			return;
 		}
+		if(!Checks.tranPerm(plugin, sender, tran)){
+			return;
+		}
 		String pName = sender.getName();
 		String ref = References.makeRef(book, chp, v);
 		if(!References.checkRef(plugin, sender, bookName, tran, ref)){
