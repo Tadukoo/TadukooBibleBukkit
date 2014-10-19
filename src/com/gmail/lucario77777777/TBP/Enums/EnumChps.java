@@ -108,7 +108,7 @@ public enum EnumChps {
 	AMOS("Amos", 1, 15, 16, 15, 13, 27, 14, 17, 14, 15),
 	OBADIAH("Obadiah", 1, 21),
 	JONAH("Jonah", 1, 17, 10, 10, 11),
-	MICAH("Micah", 1, 0),
+	MICAH("Micah", 1, 16, 13, 12, 13, 15, 16, 20),
 	NAHUM("Nahum", 1, 0),
 	HABAKKUK("Habakkuk", 1, 0),
 	ZEPHANIAH("Zephaniah", 1, 0),
