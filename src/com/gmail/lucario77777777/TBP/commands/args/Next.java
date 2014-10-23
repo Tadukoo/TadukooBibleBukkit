@@ -34,7 +34,7 @@ public class Next {
 		book = book.fromString(bookName);
 		String chp = rec[1];
 		int chapter = Integer.parseInt(chp);
-		echp = echp.fromString(bookName);
+		echp = echp.fromString(bookName, 0);
 		int verse = Integer.parseInt(rec[2]) + 1;
 		if(tran == null){
 			tran = rec[3];

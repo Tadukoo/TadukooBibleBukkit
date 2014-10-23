@@ -104,7 +104,7 @@ public class Checks {
 			String chp, String v){
 		try{
 			EnumChps echp = EnumChps.GENESIS;
-			echp = echp.fromString(bookName);
+			echp = echp.fromString(bookName, 0);
 			if(Integer.parseInt(chp) > book.getChp()){
 				String chpdoesntexist = plugin.getLanguage().getString("command.error.chpdoesntexist");
 				chpdoesntexist = chpdoesntexist.replaceAll("\\{book\\}", bookName);

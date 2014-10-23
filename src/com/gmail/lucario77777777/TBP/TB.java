@@ -162,7 +162,7 @@ public class TB extends JavaPlugin {
 			}
 			if(config.getString("DefaultVerse") != null){
 				v = config.getString("DefaultVerse");
-				echp = echp.fromString(bookName);
+				echp = echp.fromString(bookName, 0);
 				verse = Integer.parseInt(v);
 				if(verse < 1 || verse > echp.getNum(chapter)){
 					plugin.getLogger().log(Level.WARNING, "DefaultVerse: " + v + " does not exist in " + 

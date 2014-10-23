@@ -32,7 +32,7 @@ public class Randomize {
 	}
 	
 	public static String verse(EnumBooks book, EnumChps echp, String chp){
-		echp = echp.fromString(book.getBook());
+		echp = echp.fromString(book.getBook(), 0);
 		int lim = echp.getNum(Integer.parseInt(chp));
 		int rV = generator.nextInt(lim) + 1;
 		String v = Integer.toString(rV);

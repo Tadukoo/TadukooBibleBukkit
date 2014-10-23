@@ -42,7 +42,7 @@ public class Read {
 				if(!bookSet && Args.isBook(book, cmds, args, i) != null){
 					book = Args.isBook(book, cmds, args, i);
 					bookName = book.getBook();
-					echp = echp.fromString(bookName);
+					echp = echp.fromString(bookName, 0);
 					i = Args.getCurrentArg(book, cmds, args, i);
 					bookSet = true;
 				}else if(args[i].equalsIgnoreCase("info") || args[i].equalsIgnoreCase("?") || 

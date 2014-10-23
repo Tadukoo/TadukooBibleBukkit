@@ -48,7 +48,7 @@ public class RandomCmd {
 		if(bookSet == false){
 			bookName = Randomize.book(book, tran);
 			book = book.fromString(bookName);
-			echp = echp.fromString(bookName);
+			echp = echp.fromString(bookName, 0);
 		}
 		if(chpSet == false){
 			chp = Randomize.chapter(book, bookName);
