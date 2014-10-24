@@ -181,23 +181,23 @@ public enum EnumChps {
 	MICAH("Micah", 1, 16, 13, 12, 13, 15, 16, 20),
 	
 	//Nahum
-	NAHUM("Nahum", 1, 0),
+	NAHUM("Nahum", 1, 15, 13, 19),
 	
 	//Habakkuk
-	HABAKKUK("Habakkuk", 1, 0),
+	HABAKKUK("Habakkuk", 1, 17, 20, 19),
 	
 	//Zephaniah
-	ZEPHANIAH("Zephaniah", 1, 0),
+	ZEPHANIAH("Zephaniah", 1, 18, 15, 20),
 	
 	//Haggai
-	HAGGAI("Haggai", 1, 0),
+	HAGGAI("Haggai", 1, 15, 23),
 	
 	//Zechariah
-	ZECHARIAH("Zechariah", 1, 0),
-	ZECHARIAH2("Zechariah", 2, 0),
+	ZECHARIAH("Zechariah", 1, 21, 13, 10, 14, 11, 15, 14, 23, 17, 12),
+	ZECHARIAH2("Zechariah", 2, 17, 14, 9, 21),
 	
 	//Malachi
-	MALACHI("Malachi", 1, 0),
+	MALACHI("Malachi", 1, 14, 17, 18, 6),
 	
 	//Matthew
 	MATTHEW("Matthew", 1, 25, 23, 17, 25, 48, 34, 29, 34, 38, 42),
