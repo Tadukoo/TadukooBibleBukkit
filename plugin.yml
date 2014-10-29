@@ -4,6 +4,8 @@ version: 1.0 SNAPSHOT
 description: Read the Bible using commands.
 author: Tadukoo
 prefix: TB
+softdepend: [Tadukoo_Core]
+loadbefore: [Tadukoo_Bible_Books]
 commands:
    bible:
       description: The base command for Tadukoo Bible. Type /bible help for help.

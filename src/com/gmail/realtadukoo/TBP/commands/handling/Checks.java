@@ -72,7 +72,7 @@ public class Checks {
 		EnumTrans defaultTran = etran.getDefault();
 		boolean defTran;
 		String donthave = plugin.getLanguage().getString("permission.donthavetran");
-		donthave = donthave.replaceAll("//{tran//}", tran);
+		donthave = donthave.replaceAll("\\{tran\\}", tran);
 		String need = plugin.getLanguage().getString("permission.need");
 		if(etran.fromString(tran) == defaultTran){
 			defTran = true;
@@ -80,7 +80,7 @@ public class Checks {
 			defTran = false;
 		}
 		if(defTran){
-			need = need.replaceAll("//{perm//}", "TadukooBible.translation.default");
+			need = need.replaceAll("\\{perm\\}", "TadukooBible.translation.default");
 			if(sender.hasPermission("TadukooBible.translation.default")){
 				return true;
 			}else{
@@ -89,7 +89,7 @@ public class Checks {
 				return false;
 			}
 		}else{
-			need = need.replaceAll("//{perm//}", "TadukooBible.translation." + tran);
+			need = need.replaceAll("\\{perm\\}", "TadukooBible.translation." + tran);
 			if(sender.hasPermission("TadukooBible.translation." + tran)){
 				return true;
 			}else{

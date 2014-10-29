@@ -10,7 +10,7 @@ import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.gmail.realtadukoo.TBP.commands.handling.CommandExec;
+import com.gmail.realtadukoo.TBP.commands.handling.BibleCommandExec;
 
 public class TB extends JavaPlugin {
 	// Used by other classes to use functions in here
@@ -85,8 +85,8 @@ public class TB extends JavaPlugin {
 		perms = getConfig().getBoolean("Permissions");
 		
 		// Load commands from the command executor class.
-		getCommand("bible").setExecutor(new CommandExec(this, perms));
-		getCommand("apocrypha").setExecutor(new CommandExec(this, perms));
+		getCommand("bible").setExecutor(new BibleCommandExec(this, perms));
+		getCommand("apocrypha").setExecutor(new BibleCommandExec(this, perms));
 	}
 	
 	/*

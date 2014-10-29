@@ -36,7 +36,7 @@ public enum EnumCmds {
 	PLUGIN("plugin", false, "TB", "TadukooBible", "TadukooBibleinfo", "plugininfo", true, false),
 	DICTIONARY("dictionary", false, "define", "meaning", false, false),
 	BOOKS("books", false, "bookslist", "listbooks", "booklist", "booksinfo", "bookinfo", true, false),
-	BOOKS2("book", false, "infobooks", "infobook", true, false),
+	BOOKS2("books", false, "infobooks", "infobook", true, false),
 	TRANSLATION("translation", false, "translations", "translist", "translationslist", "listtrans", "tran", 
 			true, false),
 	TRANSLATION2("translation", false, "trans", "translationinfo", "translationsinfo", "transinfo", "traninfo",
@@ -63,67 +63,85 @@ public enum EnumCmds {
 	private EnumCmds(String cmd, boolean special, boolean available, boolean apocAvailable){
 		this.cmd = cmd;
 		this.special = special;
-		perms = perms.fromString(cmd);
-		this.perm = perms.getShortPerm();
 		this.available = available;
 		this.apocAvailable = apocAvailable;
+		if(!special && (available || apocAvailable)){
+			perms = perms.fromString(cmd);
+			this.perm = perms.getShortPerm();
+		}else{
+			this.perm = perms.fromString("info").getShortPerm();
+		}
 	}
 	
 	private EnumCmds(String cmd, boolean special, String alias, boolean available, boolean apocAvailable){
 		this.cmd = cmd;
 		this.special = special;
-		perms = perms.fromString(cmd);
-		this.perm = perms.getShortPerm();
 		this.alias = alias;
 		this.available = available;
 		this.apocAvailable = apocAvailable;
+		if(!special && (available || apocAvailable)){
+			perms = perms.fromString(cmd);
+			this.perm = perms.getShortPerm();
+		}else{
+			this.perm = perms.fromString("info").getShortPerm();
+		}
 	}
 	
 	private EnumCmds(String cmd, boolean special, String alias, String alias2, boolean available,
 			boolean apocAvailable){
 		this.cmd = cmd;
 		this.special = special;
-		perms = perms.fromString(cmd);
-		this.perm = perms.getShortPerm();
 		this.alias = alias;
 		this.alias2 = alias2;
 		this.available = available;
 		this.apocAvailable = apocAvailable;
+		if(!special && (available || apocAvailable)){
+			perms = perms.fromString(cmd);
+			this.perm = perms.getShortPerm();
+		}else{
+			this.perm = perms.fromString("info").getShortPerm();
+		}
 	}
 	
 	private EnumCmds(String cmd, boolean special, String alias, String alias2, String alias3,
 			boolean available, boolean apocAvailable){
 		this.cmd = cmd;
 		this.special = special;
-		perms = perms.fromString(cmd);
-		this.perm = perms.getShortPerm();
 		this.alias = alias;
 		this.alias2 = alias2;
 		this.alias3 = alias3;
 		this.available = available;
 		this.apocAvailable = apocAvailable;
+		if(!special && (available || apocAvailable)){
+			perms = perms.fromString(cmd);
+			this.perm = perms.getShortPerm();
+		}else{
+			this.perm = perms.fromString("info").getShortPerm();
+		}
 	}
 	
 	private EnumCmds(String cmd, boolean special, String alias, String alias2, String alias3, String alias4, 
 			boolean available, boolean apocAvailable){
 		this.cmd = cmd;
 		this.special = special;
-		perms = perms.fromString(cmd);
-		this.perm = perms.getShortPerm();
 		this.alias = alias;
 		this.alias2 = alias2;
 		this.alias3 = alias3;
 		this.alias4 = alias4;
 		this.available = available;
 		this.apocAvailable = apocAvailable;
+		if(!special && (available || apocAvailable)){
+			perms = perms.fromString(cmd);
+			this.perm = perms.getShortPerm();
+		}else{
+			this.perm = perms.fromString("info").getShortPerm();
+		}
 	}
 	
 	private EnumCmds(String cmd, boolean special, String alias, String alias2, String alias3, String alias4, 
 			String alias5, boolean available, boolean apocAvailable){
 		this.cmd = cmd;
 		this.special = special;
-		perms = perms.fromString(cmd);
-		this.perm = perms.getShortPerm();
 		this.alias = alias;
 		this.alias2 = alias2;
 		this.alias3 = alias3;
@@ -131,6 +149,12 @@ public enum EnumCmds {
 		this.alias5 = alias5;
 		this.available = available;
 		this.apocAvailable = apocAvailable;
+		if(!special && (available || apocAvailable)){
+			perms = perms.fromString(cmd);
+			this.perm = perms.getShortPerm();
+		}else{
+			this.perm = perms.fromString("info").getShortPerm();
+		}
 	}
 	
 	public boolean isAvailable(String type){

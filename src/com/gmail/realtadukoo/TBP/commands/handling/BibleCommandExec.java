@@ -10,16 +10,15 @@ import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.commands.apocrypha.args.ApoHelp;
 import com.gmail.realtadukoo.TBP.commands.args.*;
 
-public class CommandExec implements CommandExecutor {
-	private TB plugin;
+public class BibleCommandExec implements CommandExecutor {
+	private static TB plugin;
 	private static boolean permsOn;
-	public CommandExec(TB plugin, boolean permsOn) {
-		this.plugin = plugin;
-		CommandExec.permsOn = permsOn;
+	public BibleCommandExec(TB plugin, boolean permsOn) {
+		BibleCommandExec.plugin = plugin;
+		BibleCommandExec.permsOn = permsOn;
 	}
 	
-	@Override
-	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
+	public static boolean onCommand(CommandSender sender, String cmd, String[] args, String playerType) {
 		EnumCmds cmds = EnumCmds.READ;
 		
 		String unknownSender = plugin.getLanguage().getString("command.error.unknownsender");
@@ -27,18 +26,7 @@ public class CommandExec implements CommandExecutor {
 		String doesntExist = plugin.getLanguage().getString("command.error.commanddoesntexist");
 		String help = plugin.getLanguage().getString("command.error.help");
 		
-		final String playerType;
-		if (sender instanceof Player){
-			playerType = "player";
-		}else if(sender instanceof ConsoleCommandSender){
-			playerType = "console";
-		}else if(sender instanceof BlockCommandSender){
-			playerType = "block";
-		}else{
-			playerType = "unknown";
-		}
-		
-		if((cmd.getName().equalsIgnoreCase("bible")) && 
+		if((cmd.equalsIgnoreCase("bible")) && 
 				Checks.permCheck(playerType, plugin, sender, "Bible", "use", permsOn)){
 			String type = "Bible";
 			if(playerType == "block" || playerType == "unknown"){
@@ -118,7 +106,7 @@ public class CommandExec implements CommandExecutor {
 					}
 				}
 			}
-		}else if(cmd.getName().equalsIgnoreCase("apocrypha") && 
+		}else if(cmd.equalsIgnoreCase("apocrypha") && 
 				Checks.permCheck(playerType, plugin, sender, "Apocrypha", "use", permsOn)){
 			String type = "Apocrypha";
 			if(playerType == "block" || playerType == "unknown"){
@@ -152,5 +140,30 @@ public class CommandExec implements CommandExecutor {
 			}
 		}
 		return false;
+	}
+	
+	@Override
+	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
+		
+		final String playerType;
+		if (sender instanceof Player){
+			playerType = "player";
+		}else if(sender instanceof ConsoleCommandSender){
+			playerType = "console";
+		}else if(sender instanceof BlockCommandSender){
+			playerType = "block";
+		}else{
+			playerType = "unknown";
+		}
+		
+		if(cmd.getName().equalsIgnoreCase("bible")){
+			onCommand(sender, "bible", args, playerType);
+			return true;
+		}else if(cmd.getName().equalsIgnoreCase("apocrypha")){
+			onCommand(sender, "apocrypha", args, playerType);
+			return true;
+		}else{
+			return false;
+		}
 	}
 }

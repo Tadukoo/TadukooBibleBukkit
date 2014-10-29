@@ -38,7 +38,7 @@ public class Read {
 		boolean vSet = false;
 		boolean tranSet = false;
 		while(cont){
-			if(args.length >= i + 1){
+			if(args.length >= i + 1 && args[i] != null){
 				if(!bookSet && Args.isBook(book, cmds, args, i) != null){
 					book = Args.isBook(book, cmds, args, i);
 					bookName = book.getBook();
