@@ -11,6 +11,7 @@ import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
 import com.gmail.realtadukoo.TBP.commands.Information;
 import com.gmail.realtadukoo.TBP.commands.Verse;
 import com.gmail.realtadukoo.TBP.commands.handling.Args;
+import com.gmail.realtadukoo.TBP.commands.handling.Checks;
 
 public class Read {
 	public static void run(TB plugin, CommandSender sender, String[] args){
@@ -64,6 +65,9 @@ public class Read {
 					tran = Args.tranCheck(sender, args[i]);
 					i++;
 					tranSet = true;
+					if(!Checks.tranPerm(plugin, sender, tran)){
+						return;
+					}
 				}else if(!chpSet && !vSet && args[i].contains(":")){
 					String[] chpV = args[i].split(":");
 					chp = chpV[0];

@@ -1,5 +1,8 @@
 package com.gmail.realtadukoo.TBP.commands.handling;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.bukkit.ChatColor;
 import org.bukkit.command.*;
 import org.bukkit.entity.Player;
@@ -9,6 +12,7 @@ import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.commands.apocrypha.args.ApoHelp;
 import com.gmail.realtadukoo.TBP.commands.args.*;
+import com.gmail.realtadukoo.TC.commands.handling.CoreCommandExec;
 
 public class BibleCommandExec implements CommandExecutor {
 	private static TB plugin;
@@ -162,8 +166,41 @@ public class BibleCommandExec implements CommandExecutor {
 		}else if(cmd.getName().equalsIgnoreCase("apocrypha")){
 			onCommand(sender, "apocrypha", args, playerType);
 			return true;
+		}else if(cmd.getName().equalsIgnoreCase("t")){
+			if(!TB.otherTPlugin && !TB.TadukooCore){
+				if(args.length >= 1){
+					if(args[0].equalsIgnoreCase("bible") || args[0].equalsIgnoreCase("b")){
+						args = switchArgs(args);
+						onCommand(sender, "bible", args, playerType);
+					}else if(args[0].equalsIgnoreCase("apocrypha") || args[0].equalsIgnoreCase("a")){
+						args = switchArgs(args);
+						onCommand(sender, "apocrypha", args, playerType);
+					}
+				}else{
+					String error = plugin.getLanguage().getString("command.args.notenougherr");
+					sender.sendMessage(ChatColor.RED + error);
+				}
+			}else if(TB.TadukooCore){
+				CoreCommandExec ce = new CoreCommandExec(TB.TadukooCoreClass);
+				ce.onCommand(sender, cmd, commandLabel, args);
+			}else if(TB.otherTPlugin && !TB.TadukooCore){
+				String error = plugin.getLanguage().getString("command.error.trequirescore");
+				sender.sendMessage(ChatColor.RED + error);
+			}
+			return true;
 		}else{
 			return false;
 		}
+	}
+	
+	public static String[] switchArgs(String[] args){
+		int i = 1;
+		int j = args.length;
+		List<String> newArgs = new ArrayList<String>();
+		while (i < j){
+			newArgs.add(args[i]);
+			i++;
+		}
+		return newArgs.toArray(args);
 	}
 }

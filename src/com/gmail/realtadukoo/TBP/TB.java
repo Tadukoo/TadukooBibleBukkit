@@ -11,6 +11,7 @@ import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import com.gmail.realtadukoo.TBP.commands.handling.BibleCommandExec;
+import com.gmail.realtadukoo.TC.TC;
 
 public class TB extends JavaPlugin {
 	// Used by other classes to use functions in here
@@ -40,8 +41,17 @@ public class TB extends JavaPlugin {
 	public static FileConfiguration language = null;
 	public static File languageFile = null;
 	
+	// Used for playerList.yml
+	public static FileConfiguration players;
+	public static File playersFile;
+	
 	// Used for if permissions are on or off
 	public Boolean perms = null;
+	
+	// Used for /t, for other Tadukoo plugins
+	public static boolean otherTPlugin;
+	public static boolean TadukooCore;
+	public static TC TadukooCoreClass;
 	
 	@Override
 	public void onDisable () {
@@ -84,9 +94,39 @@ public class TB extends JavaPlugin {
 		// Set permissions to on or off.
 		perms = getConfig().getBoolean("Permissions");
 		
+		//Check for other Tadukoo plugins.
+		checkForOtherTadukooPlugins();
+		
 		// Load commands from the command executor class.
 		getCommand("bible").setExecutor(new BibleCommandExec(this, perms));
 		getCommand("apocrypha").setExecutor(new BibleCommandExec(this, perms));
+		getCommand("t").setExecutor(new BibleCommandExec(this, perms));
+		
+		// Register event (PlayerJoinEvent saves UUID and player name)
+		getServer().getPluginManager().registerEvents(new BiblePlayerListener(this), this);
+	}
+	
+	/*
+	 * Checks for other Tadukoo plugins (Used for /t)
+	 */
+	private void checkForOtherTadukooPlugins() {
+		if(getServer().getPluginManager().getPlugin("Tadukoo_Adjustments") != null || 
+				getServer().getPluginManager().getPlugin("Tadukoo_Bible_Books") != null || 
+				getServer().getPluginManager().getPlugin("Tadukoo_Essentials") != null ||
+				getServer().getPluginManager().getPlugin("Tadukoo_Fake_Op") != null ||
+				getServer().getPluginManager().getPlugin("Tadukoo_Mob_Spawning") != null ||
+				getServer().getPluginManager().getPlugin("Tadukoo_Perms") != null ||
+				getServer().getPluginManager().getPlugin("Tadukoo_Vanilla_Feel") != null){
+			otherTPlugin = true;
+		}else{
+			otherTPlugin = false;
+		}
+		if(getServer().getPluginManager().getPlugin("Tadukoo_Core") != null){
+			TadukooCore = true;
+			TadukooCoreClass = (TC) getServer().getPluginManager().getPlugin("Tadukoo_Core");
+		}else{
+			TadukooCore = false;
+		}
 	}
 	
 	/*
@@ -202,5 +242,51 @@ public class TB extends JavaPlugin {
 	        this.reloadLanguage();
 	    }
 	    return language;
+	}
+	
+	/*
+	 * Load playerList.yml
+	 */
+	public void reloadPlayerList() {
+		if(TadukooCore){
+			TadukooCoreClass.reloadPlayerList();
+		}else{
+			if (playersFile == null) {
+				playersFile = new File(getDataFolder(), "playerList.yml");
+			}
+			players = YamlConfiguration.loadConfiguration(playersFile);
+		}
+	}
+	
+	/*
+	 * Get playerList.yml
+	 */
+	public FileConfiguration getPlayerList() {
+		if(TadukooCore){
+			return TadukooCoreClass.getPlayerList();
+		}else{
+			if (players == null) {
+				plugin.reloadPlayerList();
+			}
+			return players;
+		}
+	}
+	
+	/*
+	 * Save playerList.yml
+	 */
+	public void savePlayerList() {
+		if(TadukooCore){
+			TadukooCoreClass.savePlayerList();
+		}else{
+			if (players == null || playersFile == null) {
+				return;
+			}
+			try {
+				getPlayerList().save(playersFile);
+			} catch (IOException ex) {
+				plugin.getLogger().log(Level.SEVERE, "Could not save player records to " + playersFile + ex);
+			}
+		}
 	}
 }

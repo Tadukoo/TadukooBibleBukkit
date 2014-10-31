@@ -94,6 +94,9 @@ command:
     chpvmustbenums: 'Chapter and verse must be numbers!'
     chpdoesntexist: '{book} does not have that many chapters!'
     vdoesntexist: '{book} Chapter {chp} does not have that many verses!'
+    trequirescore: '/t is disabled if two Tadukoo plugins are present, unless Tadukoo Core is present.'
+  favorite:
+    nextpage: 'Type /bible favorite list {num} for the next page'
   help: '/bible help [page|command]'
   info:
     chpinfo: '{book} Chapter {chp} has {vNum} verses.'

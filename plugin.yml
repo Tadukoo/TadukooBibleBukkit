@@ -18,6 +18,9 @@ commands:
       usage: /<command>
       permission: TadukooBible.apocrypha.use
       permission-message: You don't have <permission>.
+   t:
+      description: The base command for all Tadukoo plugins. Type /t help for help.
+      usage: /<command>
 permissions:
    TadukooBible.*:
       description: Gives all permissions.
@@ -33,6 +36,8 @@ permissions:
          TadukooBible.verse.*: true
          TadukooBible.book.*: true
          TadukooBible.info.*: true
+         TadukooBible.block.*: true
+         TadukooBible.receive: true
          TadukooBible.op.*: true
          TadukooBible.anonymous.*: true
    TadukooBible.verse.*:
@@ -61,6 +66,13 @@ permissions:
          TadukooBible.info.book: true
          TadukooBible.info.translation: true
          TadukooBible.info.permission: true
+   TadukooBible.block.*:
+      description: Gives all block permissions (view, verse, book, and immune).
+      children:
+         TadukooBible.block.view: true
+         TadukooBible.block.verse: true
+         TadukooBible.block.book: true
+         TadukooBible.block.immune: true
    TadukooBible.op.*:
       description: Gives all op permissions (config and announce).
       children:
@@ -141,6 +153,21 @@ permissions:
    TadukooBible.info.permission:
       description: Allows use of /bible info for permission information.
       default: op
+   TadukooBible.block.view:
+      description: Allows using /bible block to view the current settings.
+      default: true
+   TadukooBible.block.verse:
+      description: Allows using /bible block <player> verse.
+      default: true
+   TadukooBible.block.book:
+      description: Allows using /bible block <player> book.
+      default: true
+   TadukooBible.block.immune:
+      description: Makes you immune to being blocked by /bible block.
+      default: op
+   TadukooBible.receive:
+      description: Allows use of /bible receive.
+      default: true
    TadukooBible.op.config:
       description: Allows use of /bible config.
       default: op
