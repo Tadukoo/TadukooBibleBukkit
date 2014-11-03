@@ -53,7 +53,7 @@ public enum EnumTrans {
 	}
 	
 	public EnumTrans getDefault(){
-		String tran = TB.config.getString("DefaultTranslation");
+		String tran = TB.config.getString("default.translation");
 		EnumTrans eTran = fromString(tran);
 		return eTran;
 	}

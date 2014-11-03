@@ -53,13 +53,13 @@ permissions:
          TadukooBible.verse.random: true
          TadukooBible.verse.announceget: true
    TadukooBible.book.*:
-      description: Gives all book permissions (get and send).
+      description: Gives all book permissions (get, send, and receive).
       children:
          TadukooBible.book.get: true
          TadukooBible.book.send: true
          TadukooBible.book.receive: true
    TadukooBible.info.*:
-      description: Gives all info permissions (help, plugin, book, and translation).
+      description: Gives all info permissions (help, plugin, book, translation, and permission).
       children:
          TadukooBible.info.help: true
          TadukooBible.info.plugin: true
@@ -76,8 +76,8 @@ permissions:
    TadukooBible.op.*:
       description: Gives all op permissions (config and announce).
       children:
-         TadukooBible.op.announce: true
          TadukooBible.op.config: true
+         TadukooBible.op.announce: true
    TadukooBible.anonymous.*:
       description: Gives all anonymous permissions (verse and book).
       children:
@@ -97,7 +97,7 @@ permissions:
          TadukooBible.translation.default: true
          TadukooBible.translation.KJV: true
    TadukooBible.translation.default:
-      description: Allows you to use the default translation. Overrides the translation's permission.
+      description: Allows you to use the default translation. Overrides that translation's permission.
       default: true
    TadukooBible.translation.KJV:
       description: Allows you to use the KJV.

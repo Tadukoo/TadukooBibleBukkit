@@ -243,5 +243,104 @@ permission:
   donthave: 'You don''t have permission.'
   need: 'You need {perm}'
   donthavetran: 'You don''t have permission to use the {tran} translation.'
+permissions:
+  star: 
+    desc: 'Gives all permissions.'
+    children: 'bible.*, apocrypha.*, debug'
+  biblestar:
+    desc: 'Gives all bible permissions.'
+    children: 'use, translation.*, verse.*, book.*, info.*, block.*, receive, op.*, and anonymous.*'
+  versestar: 
+    desc: 'Gives all verse permissions.'
+    children: 'read, send, receive, previous, next, last, favorite, random, and announceget'
+  bookstar: 
+    desc: 'Gives all book permissions.'
+    children: 'get, send, and receive'
+  infostar: 
+    desc: 'Gives all info permissions.'
+    children: 'help, plugin, book, translation, and permission'
+  blockstar:
+    desc: 'Gives all block permissions.'
+    children: 'view, verse, book, and immune'
+  opstar: 
+    desc: 'Gives all op permissions.'
+    children: 'config and announce'
+  anonymousstar: 
+    desc: 'Gives all anonymous permissions.'
+    children: 'verse and book'
+  apocryphastar:
+    desc: 'Gives all apocrypha permissions.'
+    children: 'use and info.help'
+  use:
+    desc: 'Gives access to the plugin.'
+  translationstar:
+    desc: 'Gives all translation permissions.'
+    children: 'default and KJV'
+  translationdefault:
+    desc: 'Allows you to use the default translation. Overrides the translation''s permission.'
+  KJV:
+    desc: 'Allows you to use the KJV.'
+  read:
+    desc: 'Allows use of /bible read.'
+  send:
+    desc: 'Allows use of /bible send.'
+  versereceive:
+    desc: 'Allows you to receive verses.'
+  previous:
+    desc: 'Allows use of /bible previous.'
+  next:
+    desc: 'Allows use of /bible next.'
+  last:
+    desc: 'Allows use of /bible last.'
+  favorite:
+    desc: 'Allows use of /bible favorite.'
+  random:
+    desc: 'Allows use of /bible random.'
+  anounceget:
+    desc: 'Allows getting announced verses.'
+  getbook:
+    desc: 'Allows use of /bible getbook.'
+  sendbook:
+    desc: 'Allows use of /bible sendbook.'
+  receivebook:
+    desc: 'Allows you to receive books.'
+  help:
+    desc: 'Allows use of /bible help.'
+  plugin:
+    desc: 'Allows use of /bible plugin and using /bible info for plugin info.'
+  books:
+    desc: 'Allows use of /bible books and using /bible info for book info.'
+  translation:
+    desc: 'Allows use of /bible translation and using /bible info for translation info.'
+  permission:
+    desc: 'Allows use of /bible permission and using /bible info for permission info.'
+  blockview:
+    desc: 'Allows using /bible block to view the current settings.'
+  blockverse:
+    desc: 'Allows using /bible block <player> verse.'
+  blockbook:
+    desc: 'Allows using /bible block <player> book.'
+  blockimmune:
+    desc: 'Makes you immune to being blocked by /bible block.'
+  receive:
+    desc: 'Allows use of /bible receive.'
+  config:
+    desc: 'Allows use of /bible config.'
+  announce:
+    desc: 'Allows use of /bible announce.'
+  anonymousverse:
+    desc: 'Allows you to send verses anonymously.'
+  anonymousbook:
+    desc: 'Allows you to send books anonymously.'
+  apocryphause:
+    desc: 'Allows use of /apocrypha.'
+  apocryphahelp:
+    desc: 'Allows use of /apocrypha help.'
+  debug:
+    desc: 'Shows you debug messages.'
+thelp:
+  title: 'Tadukoo Plugins Help Page 1/1'
+  line1: 'bible'
+  line2: 'apocrypha'
 translations:
   KJV: KJV is the King James Version. It was started in 1604 and finished in 1611, made for the Church of England after King James decided a new English translation was needed.

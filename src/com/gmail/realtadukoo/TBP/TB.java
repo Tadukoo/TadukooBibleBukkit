@@ -10,7 +10,7 @@ import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.gmail.realtadukoo.TBP.commands.handling.BibleCommandExec;
+import com.gmail.realtadukoo.TBP.commands.handling.BibleComExec;
 import com.gmail.realtadukoo.TC.TC;
 
 public class TB extends JavaPlugin {
@@ -92,15 +92,15 @@ public class TB extends JavaPlugin {
 		reloadLanguage();
 		
 		// Set permissions to on or off.
-		perms = getConfig().getBoolean("Permissions");
+		perms = getConfig().getBoolean("permissions");
 		
 		//Check for other Tadukoo plugins.
 		checkForOtherTadukooPlugins();
 		
 		// Load commands from the command executor class.
-		getCommand("bible").setExecutor(new BibleCommandExec(this, perms));
-		getCommand("apocrypha").setExecutor(new BibleCommandExec(this, perms));
-		getCommand("t").setExecutor(new BibleCommandExec(this, perms));
+		getCommand("bible").setExecutor(new BibleComExec(this, perms));
+		getCommand("apocrypha").setExecutor(new BibleComExec(this, perms));
+		getCommand("t").setExecutor(new BibleComExec(this, perms));
 		
 		// Register event (PlayerJoinEvent saves UUID and player name)
 		getServer().getPluginManager().registerEvents(new BiblePlayerListener(this), this);

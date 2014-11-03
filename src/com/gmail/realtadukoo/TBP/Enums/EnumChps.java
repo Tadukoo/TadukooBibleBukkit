@@ -434,7 +434,7 @@ public enum EnumChps {
 	
 	// Get the default book from the config file.
 	public EnumChps getDefault(){
-		EnumChps defBook = fromString(TB.config.getString("DefaultBook"), 1);
+		EnumChps defBook = fromString(TB.config.getString("default.book"), 1);
 		return defBook;
 	}
 	

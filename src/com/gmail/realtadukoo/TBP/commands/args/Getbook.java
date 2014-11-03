@@ -22,7 +22,7 @@ public class Getbook {
 		EnumCmds cmds = EnumCmds.GETBOOK;
 		EnumTrans etran = EnumTrans.KJV;
 		book = book.getDefault();
-		String part = plugin.getConfig().getString("DefaultPart");
+		String part = plugin.getConfig().getString("default.part");
 		etran = etran.getDefault();
 		String bookName = book.getBook();
 		String tran = etran.getTran();

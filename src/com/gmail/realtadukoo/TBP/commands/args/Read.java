@@ -25,8 +25,8 @@ public class Read {
 		echp = echp.getDefault();
 		etran = etran.getDefault();
 		String bookName = book.getBook();
-		String chp = TB.config.getString("DefaultChapter");
-		String v = TB.config.getString("DefaultVerse");
+		String chp = TB.config.getString("default.chapter");
+		String v = TB.config.getString("default.verse");
 		String tran = etran.getTran();
 		EnumCmds cmds = EnumCmds.READ;
 		int i = 0;

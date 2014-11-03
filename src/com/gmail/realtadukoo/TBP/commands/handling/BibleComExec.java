@@ -14,12 +14,12 @@ import com.gmail.realtadukoo.TBP.commands.apocrypha.args.ApoHelp;
 import com.gmail.realtadukoo.TBP.commands.args.*;
 import com.gmail.realtadukoo.TC.commands.handling.CoreCommandExec;
 
-public class BibleCommandExec implements CommandExecutor {
+public class BibleComExec implements CommandExecutor {
 	private static TB plugin;
 	private static boolean permsOn;
-	public BibleCommandExec(TB plugin, boolean permsOn) {
-		BibleCommandExec.plugin = plugin;
-		BibleCommandExec.permsOn = permsOn;
+	public BibleComExec(TB plugin, boolean permsOn) {
+		BibleComExec.plugin = plugin;
+		BibleComExec.permsOn = permsOn;
 	}
 	
 	public static boolean onCommand(CommandSender sender, String cmd, String[] args, String playerType) {
@@ -175,6 +175,28 @@ public class BibleCommandExec implements CommandExecutor {
 					}else if(args[0].equalsIgnoreCase("apocrypha") || args[0].equalsIgnoreCase("a")){
 						args = switchArgs(args);
 						onCommand(sender, "apocrypha", args, playerType);
+					}else if(args[0].equalsIgnoreCase("help")){
+						if(args.length >= 2){
+							if(args[1].equalsIgnoreCase("bible") || args[1].equalsIgnoreCase("b")){
+								args = switchArgs(args);
+								args = switchArgs(args);
+								onCommand(sender, "bible", args, playerType);
+							}else if(args[1].equalsIgnoreCase("apocrypha") || args[1].equalsIgnoreCase("a")){
+								args = switchArgs(args);
+								args = switchArgs(args);
+								onCommand(sender, "apocrypha", args, playerType);
+							}else{
+								sender.sendMessage(ChatColor.RED + 
+										plugin.getLanguage().getString("command.args.unknownarg"));
+							}
+						}else{
+							sender.sendMessage(ChatColor.GREEN + 
+									plugin.getLanguage().getString("thelp.title"));
+							sender.sendMessage(ChatColor.GREEN + 
+									plugin.getLanguage().getString("thelp.line1"));
+							sender.sendMessage(ChatColor.GREEN + 
+									plugin.getLanguage().getString("thelp.line2"));
+						}
 					}
 				}else{
 					String error = plugin.getLanguage().getString("command.args.notenougherr");

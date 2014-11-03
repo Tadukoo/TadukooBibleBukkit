@@ -123,7 +123,7 @@ public enum EnumBooks {
 	
 	// Gets default book based on config.yml setting
 	public EnumBooks getDefault(){
-		EnumBooks defBook = fromString(TB.config.getString("DefaultBook"));
+		EnumBooks defBook = fromString(TB.config.getString("default.book"));
 		return defBook;
 	}
 	

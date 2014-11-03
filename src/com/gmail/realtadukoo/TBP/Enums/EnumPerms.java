@@ -1,91 +1,117 @@
 package com.gmail.realtadukoo.TBP.Enums;
 
+import com.gmail.realtadukoo.TBP.TB;
+
 public enum EnumPerms {
-	STAR("TadukooBible.*", "*", "star", "Gives all permissions.", 
-			"use, verse.*, book.*, info.*, op.*, and anonymous.*"),
-	VERSESTAR("TadukooBible.verse.*", "verse.*", "versestar", "Gives all verse permissions.",
-			"read, send, receive, previous, next, last, random, and announceget"),
-	BOOKSTAR("TadukooBible.book.*", "book.*", "bookstar", "Gives all book permissions.",
-			"get, send, and receive"),
-	INFOSTAR("TadukooBible.info.*", "info.*", "infostar", "Gives all info permissions.", 
-			"help, plugin, book, translation, and permission"),
-	OPSTAR("TadukooBible.op.*", "op.*", "opstar", "Gives all op permissions.", "announce and config"),
-	ANONYMOUSSTAR("TadukooBible.anonymous.*", "anonymous.*", "anonymousstar", 
-			"Gives all anonymous permissions.", "verse and book"),
-	USE("TadukooBible.use", "use", "use", "Gives access to the plugin."),
-	READ("TadukooBible.verse.read", "verse.read", "read", "Allows use of /bible read."),
-	SEND("TadukooBible.verse.send", "verse.send", "send", "Allows use of /bible send."),
-	VERSERECEIVE("TadukooBible.verse.receive", "verse.receive", "versereceive", 
-			"Allows you to receive verses."),
-	PREVIOUS("TadukooBible.verse.previous", "verse.previous", "previous", "Allows use of /bible previous."),
-	NEXT("TadukooBible.verse.next", "verse.next", "next", "Allows use of /bible next."),
-	LAST("TadukooBible.verse.last", "verse.last", "last", "Allows use of /bible last."),
-	FAVORITE("TadukooBible.verse.favorite", "verse.favorite", "favorite", "Allows use of /bible favorite."),
-	RANDOM("TadukooBible.verse.random", "verse.random", "random", "Allows use of /bible random"),
-	ANNOUNCEGET("TadukooBible.verse.announceget", "verse.announceget", "announceget", 
-			"Allows getting announced verses."),
-	GETBOOK("TadukooBible.book.get", "book.get", "getbook", "Allows use of /bible getbook"),
-	SENDBOOK("TadukooBible.book.send", "book.send", "sendbook", "Allows use of /bible sendbook."),
-	RECEIVEBOOK("TadukooBible.book.receive", "book.receive", "receivebook", "Allows you to receive books."),
-	HELP("TadukooBible.info.help", "info.help", "help", "Allows use of /bible help."),
-	PLUGIN("TadukooBible.info.plugin", "info.plugin", "plugin", 
-			"Allows use of /bible plugin and using /bible info for plugin info."),
-	BOOKS("TadukooBible.info.book", "info.book", "books",
-			"Allows use of /bible books and using /bible info for book info."),
-	TRANSLATION("TadukooBible.info.translation", "info.translation", "translation", 
-			"Allows use of /bible translation and using /bible info for translation info."),
-	PERMISSION("TadukooBible.info.permission", "info.permission", "permission", 
-			"Allows using /bible info for permission info."),
-	BLOCK("TadukooBible.block", "block.view", "block", "Allows use of /bible block."),
-	RECEIVE("TadukooBible.receive", "receive", "receive", "Allows use of /bible receive."),
-	CONFIG("TadukooBible.op.config", "op.config", "config", "config", "Allows use of /bible config."),
-	ANNOUNCE("TadukooBible.op.announce", "op.announce", "announce", "Allows use of /bible announce."),
-	ANONYMOUSVERSE("TadukooBible.anonymous.verse", "anonymous.verse", "anonymousverse", 
-			"Allows you to send verses anonymously."),
-	ANONYMOUSBOOK("TadukooBible.anonymous.book", "anonymous.book", "anonymousbook", 
-			"Allows you to send books anonymously.");
+	// Star permissions
+	STAR("TadukooBible.*", "*", "star", true),
+	BIBLESTAR("TadukooBible.bible.*", "bible.*", "biblestar", true),
+	VERSESTAR("TadukooBible.verse.*", "verse.*", "versestar", true),
+	BOOKSTAR("TadukooBible.book.*", "book.*", "bookstar", true),
+	INFOSTAR("TadukooBible.info.*", "info.*", "infostar", true),
+	BLOCKSTAR("TadukooBible.block.*", "block.*", "blockstar", true),
+	OPSTAR("TadukooBible.op.*", "op.*", "opstar", true),
+	ANONYMOUSSTAR("TadukooBible.anonymous.*", "anonymous.*", "anonymousstar", true),
+	APOCRYPHASTAR("TadukooBible.apocrypha.*", "apocrypha.*", "apocryphastar", true),
 	
-	private String perm;
-	private String shortPerm;
-	private String nick;
-	private String desc;
-	private String children;
+	// Generic permission
+	USE("TadukooBible.use", "use", "use", false),
 	
-	private EnumPerms(String perm, String shortPerm, String nick, String desc, String children){
+	// Translation permissions
+	TRANSLATIONSTAR("TadukooBible.translation.*", "translation.*", "translationstar", true),
+	TRANSLATIONDEFAULT("TadukooBible.translation.default", "translation.default", "translationdefault", false),
+	KJV("TadukooBible.translation.KJV", "translation.KJV", "KJV", false),
+	
+	// Verse permissions
+	READ("TadukooBible.verse.read", "verse.read", "read", false),
+	SEND("TadukooBible.verse.send", "verse.send", "send", false),
+	VERSERECEIVE("TadukooBible.verse.receive", "verse.receive", "versereceive", false),
+	PREVIOUS("TadukooBible.verse.previous", "verse.previous", "previous", false),
+	NEXT("TadukooBible.verse.next", "verse.next", "next", false),
+	LAST("TadukooBible.verse.last", "verse.last", "last", false),
+	FAVORITE("TadukooBible.verse.favorite", "verse.favorite", "favorite", false),
+	RANDOM("TadukooBible.verse.random", "verse.random", "random", false),
+	ANNOUNCEGET("TadukooBible.verse.announceget", "verse.announceget", "announceget", false),
+	
+	// Book permissions
+	GETBOOK("TadukooBible.book.get", "book.get", "getbook", false),
+	SENDBOOK("TadukooBible.book.send", "book.send", "sendbook", false),
+	RECEIVEBOOK("TadukooBible.book.receive", "book.receive", "receivebook", false),
+	
+	// Info permissions
+	HELP("TadukooBible.info.help", "info.help", "help", false),
+	PLUGIN("TadukooBible.info.plugin", "info.plugin", "plugin", false),
+	BOOKs("TadukooBible.info.book", "info.book", "books", false),
+	TRANSLATION("TadukooBible.info.translation", "info.translation", "translation", false),
+	PERMISSION("TadukooBible.info.permission", "info.permission", "permission", false),
+	
+	// Other non-op command permissions
+	BLOCKVIEW("TadukooBible.block.view", "block.view", "block", false),
+	BLOCKVERSE("TadukooBible.block.verse", "block.verse", "blockverse", false),
+	BLOCKBOOK("TadukooBible.block.book", "block.book", "blockbook", false),
+	BLOCKIMMUNE("TadukooBible.block.immune", "block.immune", "blockimmune", false),
+	RECEIVE("TadukooBible.receive", "receive", "receive", false),
+	
+	// Op permissions
+	CONFIG("TadukooBible.op.config", "op.config", "config", false),
+	ANNOUNCE("TadukooBible.op.announce", "op.announce", "announce", false),
+	
+	// Anonymous permissions
+	ANONYMOUSVERSE("TadukooBible.anonymous.verse", "anonymous.verse", "anonymousverse", false),
+	ANONYMOUSBOOK("TadukooBible.anonymous.book", "anonymous.book", "anonymousbook", false),
+	
+	// Apocrypha permissions
+	APOCRYPHAUSE("TadukooBible.apocrypha.use", "apocrypha.use", "apocryphause", false),
+	APOCRYPHAHELP("TadukooBible.apocrypha.info.help", "apocrypha.info.help", "apocryphahelp", false),
+	
+	// Debug permission
+	DEBUG("TadukooBible.debug", "debug", "debug", false);
+	
+	private String perm; // Actual permission
+	private String shortPerm; // Permission without TadukooBible.
+	private String nick; // Nickname of permission
+	private boolean children; // Whether it has children or not
+	
+	// Constructor
+	private EnumPerms(String perm, String shortPerm, String nick, boolean children){
 		this.perm = perm;
 		this.shortPerm = shortPerm;
 		this.nick = nick;
-		this.desc = desc;
 		this.children = children;
 	}
 	
-	private EnumPerms(String perm, String shortPerm, String nick, String desc){
-		this.perm = perm;
-		this.shortPerm = shortPerm;
-		this.nick = nick;
-		this.desc = desc;
-	}
-	
+	// Returns full permission
 	public String getPerm(){
 		return perm;
 	}
 	
+	// Returns short permission
 	public String getShortPerm(){
 		return shortPerm;
 	}
 	
+	// Returns nickname
 	public String getNick(){
 		return nick;
 	}
 	
+	// Returns description from language file
 	public String getDesc(){
-		return desc;
+		TB plugin = TB.plugin;
+		return plugin.getLanguage().getString("permissions." + nick + ".desc");
 	}
 	
+	// Returns children from language file if they exist
 	public String getChildren(){
-		return children;
+		TB plugin = TB.plugin;
+		if(children){
+			return plugin.getLanguage().getString("permissions." + nick + ".children");
+		}else{
+			return null;
+		}
 	}
 	
+	// Returns an EnumPerms from a string
 	public EnumPerms fromString(String perm){
 	    if (perm != null){
 	      for (EnumPerms c : EnumPerms.values()){
