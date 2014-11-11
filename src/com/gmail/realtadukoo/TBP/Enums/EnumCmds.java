@@ -7,6 +7,7 @@ public enum EnumCmds {
 	THIRD("3", true, "one", "third", "3rd", true, false),
 	SONG("Song", true, true, false),
 	ANONYMOUS("anonymous", true, "anon", "an", "anony", false, false),
+	BYPASS("bypass", true, "pass", "passby", "force", false, false),
 	
 	/*
 	 * Actual Commands.

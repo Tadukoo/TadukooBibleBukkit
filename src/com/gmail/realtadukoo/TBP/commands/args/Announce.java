@@ -73,6 +73,6 @@ public class Announce {
 		if(ref == null){
 			return;
 		}
-		Sending.broadcast(plugin, sender, bookName, chp, v, tran, ref);
+		Sending.broadcastVerse(plugin, sender, bookName, chp, v, tran, ref);
 	}
 }

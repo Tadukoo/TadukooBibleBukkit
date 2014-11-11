@@ -112,6 +112,7 @@ public class TB extends JavaPlugin {
 	private void checkForOtherTadukooPlugins() {
 		if(getServer().getPluginManager().getPlugin("Tadukoo_Adjustments") != null || 
 				getServer().getPluginManager().getPlugin("Tadukoo_Bible_Books") != null || 
+				getServer().getPluginManager().getPlugin("Tadukoo_Chat") != null ||
 				getServer().getPluginManager().getPlugin("Tadukoo_Essentials") != null ||
 				getServer().getPluginManager().getPlugin("Tadukoo_Fake_Op") != null ||
 				getServer().getPluginManager().getPlugin("Tadukoo_Mob_Spawning") != null ||

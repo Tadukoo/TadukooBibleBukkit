@@ -40,6 +40,6 @@ public class Last {
 			return;
 		}
 		String pName = sender.getName();
-		Sending.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
+		Sending.getVerse(plugin, sender, pName, bookName, chp, v, tran, ref);
 	}
 }

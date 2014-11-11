@@ -131,8 +131,8 @@ public enum EnumChps {
 	SONGOFSONGS("SongofSongs", 1, 17, 17, 11, 16, 16, 13, 13, 14),
 	
 	//Isaiah
-	ISAIAH("Isaiah", 1, 0),
-	ISAIAH2("Isaiah", 2, 0),
+	ISAIAH("Isaiah", 1, 31, 22, 26, 6, 30, 13, 25, 22, 21, 34),
+	ISAIAH2("Isaiah", 2, 16, 6, 22, 32, 9, 14, 14, 7, 25, 6),
 	ISAIAH3("Isaiah", 3, 0),
 	ISAIAH4("Isaiah", 4, 0),
 	ISAIAH5("Isaiah", 5, 0),

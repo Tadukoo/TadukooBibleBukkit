@@ -63,6 +63,6 @@ public class RandomCmd {
 		if(!References.checkRef(plugin, sender, bookName, tran, ref)){
 			return;
 		}
-		Sending.sendVerseToPlayer(plugin, sender, pName, bookName, chp, v, tran, ref);
+		Sending.getVerse(plugin, sender, pName, bookName, chp, v, tran, ref);
 	}
 }

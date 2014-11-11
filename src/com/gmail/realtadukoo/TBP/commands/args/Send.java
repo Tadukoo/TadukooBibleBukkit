@@ -32,6 +32,7 @@ public class Send {
 		int i = 2;
 		EnumCmds ecmd = EnumCmds.ANONYMOUS;
 		boolean anonymous = false;
+		boolean bypass = false;
 		if(Args.isBook(book, cmds, args, i) != null){
 			book = Args.isBook(book, cmds, args, i);
 			bookName = book.getBook();
@@ -91,7 +92,8 @@ public class Send {
 				sender.sendMessage(ChatColor.RED + "TadukooBible.verse.receive");
 				return;
 			}
-			Sending.sendVerseToOtherPlayer(plugin, sender, player, bookName, chp, v, tran, ref, anonymous);
+			Sending.sendVerseToOtherPlayer(plugin, sender, player, bookName, chp, v, tran, ref, anonymous, 
+					bypass);
 			sender.sendMessage(ChatColor.GREEN + "Verse sent!");
 		}else{
 			sender.sendMessage(ChatColor.RED + pName + " is not online!");
