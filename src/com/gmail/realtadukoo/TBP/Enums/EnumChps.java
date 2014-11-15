@@ -136,11 +136,11 @@ public enum EnumChps {
 	ISAIAH3("Isaiah", 3, 17, 25, 18, 23, 12, 21, 13, 29, 24, 33),
 	ISAIAH4("Isaiah", 4, 9, 20, 24, 17, 10, 22, 38, 22, 8, 31),
 	ISAIAH5("Isaiah", 5, 29, 25, 28, 28, 25, 13, 15, 22, 26, 11),
-	ISAIAH6("Isaiah", 6, 23, 15, 12, 17, 13, 12),
-	ISAIAH7("Isaiah", 7, 0),
+	ISAIAH6("Isaiah", 6, 23, 15, 12, 17, 13, 12, 21, 14, 21, 22),
+	ISAIAH7("Isaiah", 7, 11, 12, 19, 12, 25, 24),
 	
 	//Jeremiah
-	JEREMIAH("Jeremiah", 1, 0),
+	JEREMIAH("Jeremiah", 1, 19, 37, 25, 31, 31, 30, 34, 22, 26),
 	JEREMIAH2("Jeremiah", 2, 0),
 	JEREMIAH3("Jeremiah", 3, 0),
 	JEREMIAH4("Jeremiah", 4, 0),
