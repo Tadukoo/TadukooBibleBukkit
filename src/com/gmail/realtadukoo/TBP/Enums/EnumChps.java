@@ -140,15 +140,15 @@ public enum EnumChps {
 	ISAIAH7("Isaiah", 7, 11, 12, 19, 12, 25, 24),
 	
 	//Jeremiah
-	JEREMIAH("Jeremiah", 1, 19, 37, 25, 31, 31, 30, 34, 22, 26),
-	JEREMIAH2("Jeremiah", 2, 0),
-	JEREMIAH3("Jeremiah", 3, 0),
-	JEREMIAH4("Jeremiah", 4, 0),
-	JEREMIAH5("Jeremiah", 5, 0),
-	JEREMIAH6("Jeremiah", 6, 0),
+	JEREMIAH("Jeremiah", 1, 19, 37, 25, 31, 31, 30, 34, 22, 26, 25),
+	JEREMIAH2("Jeremiah", 2, 23, 17, 27, 22, 21, 21, 27, 23, 15, 18),
+	JEREMIAH3("Jeremiah", 3, 14, 30, 40, 10, 38, 24, 22, 17, 32, 24),
+	JEREMIAH4("Jeremiah", 4, 40, 44, 26, 22, 19, 32, 21, 28, 18, 16),
+	JEREMIAH5("Jeremiah", 5, 18, 22, 13, 30, 5, 28, 7, 47, 39, 46),
+	JEREMIAH6("Jeremiah", 6, 64, 34),
 	
 	//Lamentations
-	LAMENTATIONS("Lamentations", 1, 0),
+	LAMENTATIONS("Lamentations", 1, 22, 22, 66, 22, 22),
 	
 	//Ezekiel
 	EZEKIEL("Ezekiel", 1, 0),

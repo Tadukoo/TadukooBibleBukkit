@@ -32,9 +32,9 @@ public enum EnumBooks {
 	ECCLESIASTES("Ecclesiastes", "Ecc", "Ec", "Solomon", 12, true),
 	SONGOFSONGS("SongofSongs", "SongofSolomon", "So", "Solomon", 8, true),
 	//Major Prophets
-	ISAIAH("Isaiah", "Isa", "Isaiah", 66, false),
-	JEREMIAH("Jeremiah", "Jer", "Jeremiah", 52, false),
-	LAMENTATIONS("Lamentations", "Lam", "La", "Jeremiah", 5, false),
+	ISAIAH("Isaiah", "Isa", "Isaiah", 66, true),
+	JEREMIAH("Jeremiah", "Jer", "Jeremiah", 52, true),
+	LAMENTATIONS("Lamentations", "Lam", "La", "Jeremiah", 5, true),
 	EZEKIEL("Ezekiel", "Eze", "Ezekiel", 48, false),
 	DANIEL("Daniel", "Dan", "Da", "Daniel", 12, false),
 	//Minor Prophets
