@@ -28,6 +28,7 @@ public class Sendbook {
 		String bookName = book.getBook();
 		String part = null;
 		String tran = etran.getTran();
+		boolean bypass = false;
 		int i = 3;
 		if(Args.isBook(book, cmds, args, 2) != null){
 			book = Args.isBook(book, cmds, args, 2);
@@ -65,6 +66,6 @@ public class Sendbook {
 			sender.sendMessage(ChatColor.RED + "TadukooBible.book.receive");
 			return;
 		}
-		Book.Run(plugin, sender, tran, bookName, part, "send", pName, anonymous);
+		Book.Run(plugin, sender, tran, bookName, part, "send", pName, anonymous, bypass);
 	}
 }

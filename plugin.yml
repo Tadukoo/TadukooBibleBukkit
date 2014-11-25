@@ -15,6 +15,7 @@ commands:
       permission-message: You don't have <permission>.
    apocrypha:
       description: The base command for apocryphal books. Type /apocrypha help for help.
+      aliases: [a]
       usage: /<command>
       permission: TadukooBible.apocrypha.use
       permission-message: You don't have <permission>.
@@ -40,6 +41,7 @@ permissions:
          TadukooBible.receive: true
          TadukooBible.op.*: true
          TadukooBible.anonymous.*: true
+         TadukooBible.bypass.*: true
    TadukooBible.verse.*:
       description: Gives all verse permissions (read, send, previous, next, last, favorite, and random).
       children:
@@ -88,6 +90,11 @@ permissions:
       children:
          TadukooBible.apocrypha.use: true
          TadukooBible.apocrypha.info.help: true
+   TadukooBible.bypass.*:
+      description: Gives all bypass permissions.
+      children:
+         TadukooBible.bypass.verse: true
+         TadukooBible.bypass.book: true
    TadukooBible.use:
       description: Gives access to the plugin.
       default: true
@@ -179,6 +186,12 @@ permissions:
       default: op
    TadukooBible.anonymous.book:
       description: Allows you to send books anonymously.
+      default: op
+   TadukooBible.bypass.verse:
+      description: Allows you to bypass players.yml verse settings.
+      default: op
+   TadukooBible.bypass.book:
+      description: Allows you to bypass players.yml book settings.
       default: op
    TadukooBible.apocrypha.use:
       description: Allows use of /apocrypha.

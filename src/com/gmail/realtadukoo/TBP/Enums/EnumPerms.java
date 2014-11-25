@@ -12,6 +12,7 @@ public enum EnumPerms {
 	BLOCKSTAR("TadukooBible.block.*", "block.*", "blockstar", true),
 	OPSTAR("TadukooBible.op.*", "op.*", "opstar", true),
 	ANONYMOUSSTAR("TadukooBible.anonymous.*", "anonymous.*", "anonymousstar", true),
+	BYPASSSTART("TadukooBible.bypass.*", "bypass.*", "bypassstar", true),
 	APOCRYPHASTAR("TadukooBible.apocrypha.*", "apocrypha.*", "apocryphastar", true),
 	
 	// Generic permission
@@ -41,12 +42,12 @@ public enum EnumPerms {
 	// Info permissions
 	HELP("TadukooBible.info.help", "info.help", "help", false),
 	PLUGIN("TadukooBible.info.plugin", "info.plugin", "plugin", false),
-	BOOKs("TadukooBible.info.book", "info.book", "books", false),
+	BOOKS("TadukooBible.info.book", "info.book", "books", false),
 	TRANSLATION("TadukooBible.info.translation", "info.translation", "translation", false),
 	PERMISSION("TadukooBible.info.permission", "info.permission", "permission", false),
 	
 	// Other non-op command permissions
-	BLOCKVIEW("TadukooBible.block.view", "block.view", "block", false),
+	BLOCKVIEW("TadukooBible.block.view", "block.view", "blockview", false),
 	BLOCKVERSE("TadukooBible.block.verse", "block.verse", "blockverse", false),
 	BLOCKBOOK("TadukooBible.block.book", "block.book", "blockbook", false),
 	BLOCKIMMUNE("TadukooBible.block.immune", "block.immune", "blockimmune", false),
@@ -59,6 +60,10 @@ public enum EnumPerms {
 	// Anonymous permissions
 	ANONYMOUSVERSE("TadukooBible.anonymous.verse", "anonymous.verse", "anonymousverse", false),
 	ANONYMOUSBOOK("TadukooBible.anonymous.book", "anonymous.book", "anonymousbook", false),
+	
+	// Bypass permissions
+	BYPASSVERSE("TadukooBible.bypass.verse", "bypass.verse", "bypassverse", false),
+	BYPASSBOOK("TadukooBible.bypass.book", "bypass.book", "bypassbook", false),
 	
 	// Apocrypha permissions
 	APOCRYPHAUSE("TadukooBible.apocrypha.use", "apocrypha.use", "apocryphause", false),
@@ -111,18 +116,56 @@ public enum EnumPerms {
 		}
 	}
 	
-	// Returns an EnumPerms from a string
+	/*
+	 *  Returns an EnumPerms from a string.
+	 *  The string can replace book with b, verse with v, and star with *.
+	 *  The string must match either the perm, shortPerm, or Nick of the permission.
+	 *  The string may include "."'s or exclude them.
+	 */
 	public EnumPerms fromString(String perm){
 	    if (perm != null){
-	      for (EnumPerms c : EnumPerms.values()){
-	    	  if(perm.equalsIgnoreCase("info")){
-	    		  return USE;
-	    	  }else if(perm.equalsIgnoreCase(c.getPerm()) || perm.equalsIgnoreCase(c.getShortPerm()) ||
-	    			  perm.equalsIgnoreCase(c.getNick())){
-	    		  return c;
-	    	  }
-	      }
+	    	String perm1 = perm, perm2 = perm, perm3 = perm;
+	    	boolean check1 = false, check2 = false, check3 = false;
+	    	if(perm.contains("b")){
+	    		perm1 = perm.replaceAll("b", "book");
+	    		check1 = true;
+	    	}
+	    	if(perm.contains("v")){
+	    		perm2 = perm.replaceAll("v", "verse");
+	    		check2 = true;
+	    	}
+	    	if(perm.contains("*")){
+	    		perm3 = perm.replaceAll("*", "star");
+	    		check3 = true;
+	    	}
+	    	for (EnumPerms c : EnumPerms.values()){
+	    		if(perm.equalsIgnoreCase("info")){
+	    			return USE;
+	    		}else if(perm.equalsIgnoreCase("block")){
+	    			return BLOCKVIEW;
+	    		}else if(check3 && (perm3.equalsIgnoreCase(c.getPerm()) || 
+	    				perm3.equalsIgnoreCase(c.getShortPerm()) || perm3.equalsIgnoreCase(c.getNick()) || 
+	    				perm3.equalsIgnoreCase(c.getPerm().replaceAll(".", "")) || 
+	    				perm3.equalsIgnoreCase(c.getShortPerm().replaceAll(".", "")))){
+	    			return c;
+	    		}else if(check2 && (perm2.equalsIgnoreCase(c.getPerm()) || 
+	    				perm2.equalsIgnoreCase(c.getShortPerm()) || perm2.equalsIgnoreCase(c.getNick()) || 
+	    				perm2.equalsIgnoreCase(c.getPerm().replaceAll(".", "")) || 
+	    				perm2.equalsIgnoreCase(c.getShortPerm().replaceAll(".", "")))){
+	    			return c;
+	    		}else if(check1 && (perm1.equalsIgnoreCase(c.getPerm()) || 
+	    				perm1.equalsIgnoreCase(c.getShortPerm()) || perm1.equalsIgnoreCase(c.getNick()) || 
+	    				perm1.equalsIgnoreCase(c.getPerm().replaceAll(".", "")) || 
+	    				perm1.equalsIgnoreCase(c.getShortPerm().replaceAll(".", "")))){
+	    			return c;
+	    		}else if(perm.equalsIgnoreCase(c.getPerm()) || perm.equalsIgnoreCase(c.getShortPerm()) ||
+	    				perm.equalsIgnoreCase(c.getNick()) || 
+	    				perm.equalsIgnoreCase(c.getPerm().replaceAll(".", "")) || 
+	    				perm.equalsIgnoreCase(c.getShortPerm().replaceAll(".", ""))){
+	    			return c;
+	    		}
+	    	}
 	    }
 	    return null;
-	  }
+	}
 }

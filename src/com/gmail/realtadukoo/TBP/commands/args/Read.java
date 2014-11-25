@@ -33,75 +33,65 @@ public class Read {
 		if(args.length >= 1 && Args.isCmd(cmds, args[0]) == EnumCmds.READ){
 			i++;
 		}
-		boolean cont = true;
 		boolean bookSet = false;
 		boolean chpSet = false;
 		boolean vSet = false;
 		boolean tranSet = false;
-		while(cont){
-			if(args.length >= i + 1 && args[i] != null){
-				if(!bookSet && Args.isBook(book, cmds, args, i) != null){
-					book = Args.isBook(book, cmds, args, i);
-					bookName = book.getBook();
-					echp = echp.fromString(bookName, 0);
-					i = Args.getCurrentArg(book, cmds, args, i);
-					bookSet = true;
-				}else if(args[i].equalsIgnoreCase("info") || args[i].equalsIgnoreCase("?") || 
-						args[i].equalsIgnoreCase("#")){
-					if(vSet || (chpSet && !bookSet)){
-						sender.sendMessage(ChatColor.RED + 
-								plugin.getLanguage().getString("command.error.generic"));
-						return;
-					}else if(bookSet && !chpSet){
-						Information.bookInfo(sender, plugin, book);
-						cont = false;
-						break;
-					}else if(bookSet && chpSet){
-						Information.chpInfo(sender, plugin, echp, chp);
-						cont = false;
-						break;
-					}
-				}else if(!tranSet && Args.tranCheck(sender, args[i]) != null){
-					tran = Args.tranCheck(sender, args[i]);
-					i++;
-					tranSet = true;
-					if(!Checks.tranPerm(plugin, sender, tran)){
-						return;
-					}
-				}else if(!chpSet && !vSet && args[i].contains(":")){
-					String[] chpV = args[i].split(":");
-					chp = chpV[0];
-					v = chpV[1];
-					i++;
-					chpSet = true;
-					vSet = true;
-				}else{
-					try{
-						if(!chpSet && !vSet){
-							int c = Integer.parseInt(args[i]);
-							chp = String.valueOf(c);
-							i++;
-							chpSet = true;
-						}else if(chpSet && !vSet){
-							int verse = Integer.parseInt(args[i]);
-							v = String.valueOf(verse);
-							i++;
-							vSet = true;
-						}else{
-							Args.unknownArg(plugin, sender, args[i]);
-							cont = false;
-							return;
-						}
-					}catch(NumberFormatException e){
-						Args.unknownArg(plugin, sender, args[i]);
-						cont = false;
-						return;
-					}
+		while(args.length >= i + 1 && args[i] != null){
+			if(!bookSet && Args.isBook(book, cmds, args, i) != null){
+				book = Args.isBook(book, cmds, args, i);
+				bookName = book.getBook();
+				echp = echp.fromString(bookName, 0);
+				i = Args.getCurrentArg(book, cmds, args, i);
+				bookSet = true;
+			}else if(args[i].equalsIgnoreCase("info") || args[i].equalsIgnoreCase("?") || 
+					args[i].equalsIgnoreCase("#")){
+				if(vSet || (chpSet && !bookSet)){
+					sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("command.error.generic"));
+					return;
+				}else if(bookSet && !chpSet){
+					Information.bookInfo(sender, plugin, book);
+					break;
+				}else if(bookSet && chpSet){
+					Information.chpInfo(sender, plugin, echp, chp);
+					break;
 				}
+			}else if(!tranSet && Args.tranCheck(sender, args[i]) != null){
+				tran = Args.tranCheck(sender, args[i]);
+				i++;
+				tranSet = true;
+				if(!Checks.tranPerm(plugin, sender, tran)){
+					return;
+				}
+			}else if(!chpSet && !vSet && args[i].contains(":")){
+				String[] chpV = args[i].split(":");
+				chp = chpV[0];
+				v = chpV[1];
+				i++;
+				chpSet = true;
+				vSet = true;
 			}else{
-				cont = false;
+				try{
+					if(!chpSet && !vSet){
+						int c = Integer.parseInt(args[i]);
+						chp = String.valueOf(c);
+						i++;
+						chpSet = true;
+					}else if(chpSet && !vSet){
+						int verse = Integer.parseInt(args[i]);
+						v = String.valueOf(verse);
+						i++;
+						vSet = true;
+					}else{
+						Args.unknownArg(plugin, sender, args[i]);
+						return;
+					}
+				}catch(NumberFormatException e){
+					Args.unknownArg(plugin, sender, args[i]);
+					return;
+				}
 			}
 		}
-		Verse.read(plugin, sender, bookName, chp, v, tran, book, echp);
+		Verse.check(plugin, sender, bookName, chp, v, tran, book, echp, "get", null, false, false);
 	}
 }

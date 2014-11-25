@@ -102,7 +102,7 @@ public class Getbook {
 					"translation.");
 			return;
 		}*/
-		Book.Run(plugin, sender, tran, bookName, part, "get", pName, false);
+		Book.Run(plugin, sender, tran, bookName, part, "get", pName, false, false);
 		return;
 	}
 }

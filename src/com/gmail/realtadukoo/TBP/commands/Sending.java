@@ -32,15 +32,30 @@ public class Sending {
 	
 	/*
 	 *  Used for sending verses to players other than yourself.
-	 *  Sender = person who typed command, player = person to send verse to, bookName, chp, v, and tran 
+	 *  Sender = person who typed command, pName = name of person to send verse to, bookName, chp, v, and tran 
 	 *  are used after the verse to form the reference, ref = reference, which is used to get the verse, 
 	 *  anonymous decides whether the person will know who sent it or not, and bypass is used to bypass 
 	 *  being blocked or if the player opted out of receiving verses.
 	 */
-	public static void sendVerseToOtherPlayer(TB plugin, CommandSender sender, Player player, String bookName,
+	public static void sendVerseToOtherPlayer(TB plugin, CommandSender sender, String pName, String bookName,
 			String chp, String v, String tran, String ref, boolean anonymous, boolean bypass){
 		// Get the verse from the file.
 		String verse = plugin.getBook(bookName, tran).getString(ref);
+		// Get the player.
+		@SuppressWarnings("deprecation")
+		Player player = plugin.getServer().getPlayer(pName);
+		// Check if player is online.
+		if(!player.isOnline()){
+			sender.sendMessage(ChatColor.RED + pName + " is not online!");
+			return;
+		}
+		// Check if player has permission to receive verses.
+		if(!player.hasPermission("TadukooBible.verse.receive")){
+			sender.sendMessage(ChatColor.RED + player.getName() + " does not have permission to receive " +
+					"verses!");
+			sender.sendMessage(ChatColor.RED + "TadukooBible.verse.receive");
+			return;
+		}
 		if(bookName.contains("1") || bookName.contains("2") || bookName.contains("3") || 
 				bookName.contains("SongofSongs")){
 			// Adds spaces to the book name where needed.
@@ -74,6 +89,7 @@ public class Sending {
 		// Send the player a message that the sender sent them a verse and then the verse and reference.
 		player.sendMessage(ChatColor.GOLD + "[" + senderName + "->" + player.getName() + "] " + 
 		ChatColor.GREEN + verse + " (" + bookName + " " + chp + ":" + v + " " + tran + ")");
+		sender.sendMessage(ChatColor.GREEN + "Verse sent!");
 	}
 	
 	// Sends information to a player.

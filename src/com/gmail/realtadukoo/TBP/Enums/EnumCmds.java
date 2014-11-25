@@ -7,7 +7,7 @@ public enum EnumCmds {
 	THIRD("3", true, "one", "third", "3rd", true, false),
 	SONG("Song", true, true, false),
 	ANONYMOUS("anonymous", true, "anon", "an", "anony", false, false),
-	BYPASS("bypass", true, "pass", "passby", "force", false, false),
+	BYPASS("bypass", true, "pass", "passby", "force", "override", false, false),
 	
 	/*
 	 * Actual Commands.
@@ -62,7 +62,7 @@ public enum EnumCmds {
 	PLUGIN("plugin", false, "TB", "TadukooBible", "TadukooBibleinfo", "plugininfo", true, false),
 	
 	// /bible dictionary
-	DICTIONARY("dictionary", false, "define", "meaning", false, false),
+	DICTIONARY("dictionary", false, "define", "meaning", "definition", false, false),
 	
 	// /bible books
 	BOOKS("books", false, "bookslist", "listbooks", "booklist", "booksinfo", "bookinfo", true, false),
@@ -81,7 +81,7 @@ public enum EnumCmds {
 	YOUTUBE("YouTube", false, "videos", "video", false, false),
 	
 	// /bible block
-	BLOCK("block", false, false, false),
+	BLOCK("block", false, "ban", false, false),
 	
 	// /bible receive
 	RECEIVE("receive", false, false, false),

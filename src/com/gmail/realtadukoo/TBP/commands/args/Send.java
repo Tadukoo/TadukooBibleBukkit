@@ -1,104 +1,85 @@
 package com.gmail.realtadukoo.TBP.commands.args;
 
-import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
+import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
-import com.gmail.realtadukoo.TBP.commands.References;
-import com.gmail.realtadukoo.TBP.commands.Sending;
+import com.gmail.realtadukoo.TBP.commands.Verse;
 import com.gmail.realtadukoo.TBP.commands.handling.Args;
-import com.gmail.realtadukoo.TBP.commands.handling.Checks;
 
 public class Send {
 	public static void run(TB plugin, String playerType, CommandSender sender, String[] args, boolean permsOn){
-		if(Args.argsLengthCheck(sender, args, 4, 9, "/bible send <player> <book> <chapter> " +
-				"<verse> [translation] or /bible send <player> <book> <chapter:verse> " +
-				"[translation] or /bible send <player> <book> <chapter> <verse> \"anonymous\" [translation]")){
+		if(Args.argsLengthCheck(sender, args, 4, 9, plugin.getLanguage().getString("help.pages.send.usage"))){
 			return;
 		}
-		String pName = args[1];
 		EnumBooks book = EnumBooks.GENESIS;
-		EnumCmds cmds = EnumCmds.SEND;
+		EnumChps echp = EnumChps.GENESIS;
 		EnumTrans etran = EnumTrans.KJV;
+		book = book.getDefault();
+		echp = echp.getDefault();
 		etran = etran.getDefault();
-		String bookName = null;
-		String chp = null;
-		String v = null;
+		String bookName = book.getBook();
+		String chp = TB.config.getString("default.chapter");
+		String v = TB.config.getString("default.verse");
 		String tran = etran.getTran();
-		int i = 2;
+		EnumCmds cmds = EnumCmds.READ;
+		int i = 1;
+		String pName = "";
 		EnumCmds ecmd = EnumCmds.ANONYMOUS;
 		boolean anonymous = false;
 		boolean bypass = false;
-		if(Args.isBook(book, cmds, args, i) != null){
-			book = Args.isBook(book, cmds, args, i);
-			bookName = book.getBook();
-			i = Args.getCurrentArg(book, cmds, args, i);
-			if(args.length >= i + 1){
-				if(args[i].contains(":")){
-					String[] chpV = args[i].split(":");
-					chp = chpV[0];
-					v = chpV[1];
-					i++;
-				}else{
-					chp = args[i];
-					i++;
-					if(args.length >= i + 1){
-						v = args[i];
-						i++;
-					}else{
-						sender.sendMessage(ChatColor.RED + "Not enough args!");
-						sender.sendMessage(ChatColor.RED + "/bible send <player> <book> " +
-								"<chapter> <verse> [translation]");
-						return;
-					}
-				}
-				if(args.length >= i + 1 && ecmd.fromString(args[i]) == EnumCmds.ANONYMOUS){
-					if(!Checks.permCheck(playerType, plugin, sender, "bible", "anonymous.verse", permsOn)){
-						return;
-					}else{
-						anonymous = true;
-						i++;
-					}
-				}
-				if(args.length >= i + 1 && Args.tranCheck(sender, args[i]) != null){
-						tran = args[i];
-				}
+		boolean bookSet = false, chpSet = false, vSet = false, tranSet = false, pSet = false;
+		while(args.length >= i + 1 && args[i] != null){
+			if(!bookSet && Args.isBook(book, cmds, args, i) != null){
+				book = Args.isBook(book, cmds, args, i);
+				bookName = book.getBook();
+				echp = echp.fromString(bookName, 0);
+				i = Args.getCurrentArg(book, cmds, args, i);
+				bookSet = true;
+			}else if(!anonymous && ecmd.fromString(args[i]) == EnumCmds.ANONYMOUS){
+				anonymous = true;
+			}else if(!bypass && ecmd.fromString(args[i]) == EnumCmds.BYPASS){
+				bypass = true;
+			}else if(!tranSet && Args.tranCheck(sender, args[i]) != null){
+				tran = Args.tranCheck(sender, args[i]);
+				tranSet = true;
+			}else if(!chpSet && !vSet && args[i].contains(":")){
+				String[] chpV = args[i].split(":");
+				chp = chpV[0];
+				v = chpV[1];
+				i++;
+				chpSet = true;
+				vSet = true;
 			}else{
-				sender.sendMessage(ChatColor.RED + "Not enough args!");
-				sender.sendMessage(ChatColor.RED + "/bible send <player> <book> " +
-						"<chapter> <verse> [translation]");
-				return;
+				try{
+					if(!chpSet && !vSet){
+						int c = Integer.parseInt(args[i]);
+						chp = String.valueOf(c);
+						i++;
+						chpSet = true;
+					}else if(chpSet && !vSet){
+						int verse = Integer.parseInt(args[i]);
+						v = String.valueOf(verse);
+						i++;
+						vSet = true;
+					}else{
+						Args.unknownArg(plugin, sender, args[i]);
+						return;
+					}
+				}catch(NumberFormatException e){
+					if(!pSet){
+						pName = args[i];
+						pSet = true;
+					}else{
+						Args.unknownArg(plugin, sender, args[i]);
+						return;
+					}
+				}
 			}
 		}
-		/*
-		 * TODO: Add check for availability using EnumAvail.
-		 * if(!book.isAvailable(tran)){
-			sender.sendMessage(ChatColor.RED + "Sorry, that book is not yet available in " +
-					"the " + tran + " translation.");
-			return;
-		}*/
-		@SuppressWarnings("deprecation")
-		Player player = plugin.getServer().getPlayer(pName);
-		if(player.isOnline()){
-			String ref = References.makeRef(book, chp, v);
-			if(!References.checkRef(plugin, sender, bookName, tran, ref)){
-				return;
-			}
-			if(!player.hasPermission("TadukooBible.verse.receive")){
-				sender.sendMessage(ChatColor.RED + player.getName() + " does not have permission to receive " +
-						"verses!");
-				sender.sendMessage(ChatColor.RED + "TadukooBible.verse.receive");
-				return;
-			}
-			Sending.sendVerseToOtherPlayer(plugin, sender, player, bookName, chp, v, tran, ref, anonymous, 
-					bypass);
-			sender.sendMessage(ChatColor.GREEN + "Verse sent!");
-		}else{
-			sender.sendMessage(ChatColor.RED + pName + " is not online!");
-		}
+		Verse.check(plugin, sender, bookName, chp, v, tran, book, echp, "send", pName, anonymous, bypass);
 	}
 }

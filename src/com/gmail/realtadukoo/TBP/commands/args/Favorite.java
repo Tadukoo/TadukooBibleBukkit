@@ -31,67 +31,55 @@ public class Favorite {
 		EnumCmds cmds = EnumCmds.FAVORITE;
 		int page = 1;
 		int i = 1;
-		boolean cont = true;
-		boolean bookSet = false;
-		boolean chpSet = false;
-		boolean vSet = false;
-		boolean tranSet = false;
+		boolean bookSet = false, chpSet = false, vSet = false, tranSet = false, pageSet = false;
 		boolean list = false;
-		boolean pageSet = false;
-		while(cont){
-			if(args.length >= i + 1 && args[i] != null){
-				if(!list && args[i].equalsIgnoreCase("list")){
-					list = true;
-					cont = false;
-				}else if(!list && !bookSet && Args.isBook(book, cmds, args, i) != null){
-					book = Args.isBook(book, cmds, args, i);
-					bookName = book.getBook();
-					echp = echp.fromString(bookName, 0);
-					i = Args.getCurrentArg(book, cmds, args, i);
-					bookSet = true;
-				}else if(!list && !tranSet && Args.tranCheck(sender, args[i]) != null){
-					tran = Args.tranCheck(sender, args[i]);
-					i++;
-					tranSet = true;
-					if(!Checks.tranPerm(plugin, sender, tran)){
-						return;
-					}
-				}else if(!list && !chpSet && !vSet && args[i].contains(":")){
-					String[] chpV = args[i].split(":");
-					chp = chpV[0];
-					v = chpV[1];
-					i++;
-					chpSet = true;
-					vSet = true;
-				}else{
-					try{
-						if(!list && !chpSet && !vSet){
-							int c = Integer.parseInt(args[i]);
-							chp = String.valueOf(c);
-							i++;
-							chpSet = true;
-						}else if(!list && chpSet && !vSet){
-							int verse = Integer.parseInt(args[i]);
-							v = String.valueOf(verse);
-							i++;
-							vSet = true;
-						}else if(list && !pageSet){
-							page = Integer.parseInt(args[i]);
-							i++;
-							pageSet = true;
-						}else{
-							Args.unknownArg(plugin, sender, args[i]);
-							cont = false;
-							return;
-						}
-					}catch(NumberFormatException e){
-						Args.unknownArg(plugin, sender, args[i]);
-						cont = false;
-						return;
-					}
+		while(args.length >= i +1 && args[i] != null){
+			if(!list && args[i].equalsIgnoreCase("list")){
+				list = true;
+			}else if(!list && !bookSet && Args.isBook(book, cmds, args, i) != null){
+				book = Args.isBook(book, cmds, args, i);
+				bookName = book.getBook();
+				echp = echp.fromString(bookName, 0);
+				i = Args.getCurrentArg(book, cmds, args, i);
+				bookSet = true;
+			}else if(!list && !tranSet && Args.tranCheck(sender, args[i]) != null){
+				tran = Args.tranCheck(sender, args[i]);
+				i++;
+				tranSet = true;
+				if(!Checks.tranPerm(plugin, sender, tran)){
+					return;
 				}
+			}else if(!list && !chpSet && !vSet && args[i].contains(":")){
+				String[] chpV = args[i].split(":");
+				chp = chpV[0];
+				v = chpV[1];
+				i++;
+				chpSet = true;
+				vSet = true;
 			}else{
-				cont = false;
+				try{
+					if(!list && !chpSet && !vSet){
+						int c = Integer.parseInt(args[i]);
+						chp = String.valueOf(c);
+						i++;
+						chpSet = true;
+					}else if(!list && chpSet && !vSet){
+						int verse = Integer.parseInt(args[i]);
+						v = String.valueOf(verse);
+						i++;
+						vSet = true;
+					}else if(list && !pageSet){
+						page = Integer.parseInt(args[i]);
+						i++;
+						pageSet = true;
+					}else{
+						Args.unknownArg(plugin, sender, args[i]);
+						return;
+					}
+				}catch(NumberFormatException e){
+					Args.unknownArg(plugin, sender, args[i]);
+					return;
+				}
 			}
 		}
 		String pName = sender.getName();

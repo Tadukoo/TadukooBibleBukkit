@@ -1,5 +1,7 @@
 package com.gmail.realtadukoo.TBP.commands;
 
+import java.util.UUID;
+
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.command.CommandSender;
@@ -13,8 +15,8 @@ import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 public class Book{
 	
 	@SuppressWarnings("deprecation")
-	public static boolean Run(TB plugin, CommandSender sender, String tran, String bookName, String part,
-			String type, String p, boolean anonymous){
+	public static void Run(TB plugin, CommandSender sender, String tran, String bookName, String part,
+			String type, String p, boolean anonymous, boolean bypass){
 		String pName = null;
 		Player player = null;
 		if(type == "get"){
@@ -26,7 +28,7 @@ public class Book{
 		}
 		if(plugin.getigBook(bookName, tran).getString("Book" + part + "." + 1) == null){
 			sender.sendMessage(ChatColor.RED + "That book does not exist.");
-			return true;
+			return;
 		}
 		EnumBooks book = EnumBooks.GENESIS;
 		book = book.fromString(bookName.toUpperCase());
@@ -70,6 +72,23 @@ public class Book{
 				}else{
 					senderName = sender.getName();
 				}
+				UUID ID = player.getUniqueId();
+				if(!bypass){ // If not bypassed, do this.
+					// If the sender is blocked
+					if(TB.getpRec().getString(ID + ".blocked." + sender.getName() + ".book") != null && 
+							!TB.getpRec().getBoolean(ID + ".blocked." + sender.getName() + ".book")){
+						// Return a message to the sender.
+						sender.sendMessage(ChatColor.RED + player.getName() + " has blocked you from sending "
+								+ "books to him/her.");
+						return;
+					}else if(TB.getpRec().getString(ID + ".receive.book") != null && 
+							!TB.getpRec().getBoolean(ID + ".receive.book")){
+						// If the player has opted out of receiving books, return a message to the sender.
+						sender.sendMessage(ChatColor.RED + player.getName() + "has opted out of receiving "
+								+ "books.");
+						return;
+					}
+				}
 				player.sendMessage(ChatColor.GREEN + senderName + " sent you " + bookName + " Part " + 
 						part + "!");
 			}
@@ -77,7 +96,7 @@ public class Book{
 		}else{
 			sender.sendMessage(ChatColor.RED + p + " is not online!");
 		}
-		return true;
+		return;
 	}
 
 	public static void contains(TB plugin, CommandSender sender, String tran, String bookName, String part){
@@ -89,8 +108,8 @@ public class Book{
 			sender.sendMessage(ChatColor.RED + "That part does not exist.");
 			return;
 		}
-		sender.sendMessage(ChatColor.GREEN + bookName + " part " + part + " contains " + bookName + " " + start + 
-				"-" + end + ".");
+		sender.sendMessage(ChatColor.GREEN + bookName + " part " + part + " contains " + bookName + " " + start 
+				+ "-" + end + ".");
 	}
 	
 	public static void previous(TB plugin, CommandSender sender, String tran, String bookName, String part,
@@ -113,7 +132,7 @@ public class Book{
 			}
 			pNum = "1";
 		}
-		Run(plugin, sender, tran, newBook, pNum, type, p, false);
+		Run(plugin, sender, tran, newBook, pNum, type, p, false, false);
 	}
 	
 	public static void next(TB plugin, CommandSender sender, String tran, String bookName, String part,
@@ -136,7 +155,7 @@ public class Book{
 			}
 			pNum = "1";
 		}
-		Run(plugin, sender, tran, newBook, pNum, type, p, false);
+		Run(plugin, sender, tran, newBook, pNum, type, p, false, false);
 	}
 	
 	public static void list(TB plugin, CommandSender sender, String tran){
