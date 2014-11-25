@@ -105,9 +105,11 @@ public class Book{
 			boolean cont = true;
 			while(cont){
 				newBook = ebook.numtoBook(0, "string", "lower", newBook);
-				if(ebook.fromString(newBook).isAvailable(tran)){
+				/*
+				 * TODO: Add check for availability using EnumAvail.
+				 * if(ebook.fromString(newBook).isAvailable(tran)){
 					cont = false;
-				}
+				}*/
 			}
 			pNum = "1";
 		}
@@ -126,9 +128,11 @@ public class Book{
 			boolean cont = true;
 			while(cont){
 				newBook = ebook.numtoBook(0, "string", "raise", newBook);
-				if(ebook.fromString(newBook).isAvailable(tran)){
+				/*
+				 * TODO: Add check for availability using EnumAvail.
+				 * if(ebook.fromString(newBook).isAvailable(tran)){
 					cont = false;
-				}
+				}*/
 			}
 			pNum = "1";
 		}

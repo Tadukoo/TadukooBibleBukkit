@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumChps;
-import com.gmail.realtadukoo.TBP.commands.handling.Args;
+//import com.gmail.realtadukoo.TBP.commands.handling.Args; TODO: Add check for availability using EnumAvail.
 import com.gmail.realtadukoo.TBP.commands.handling.Checks;
 
 public class Verse {
@@ -25,10 +25,12 @@ public class Verse {
 			sender.sendMessage(ChatColor.RED + error);
 			return;
 		}
-		if(!book.isAvailable(tran)){
+		/*
+		 * TODO: Add check for availability using EnumAvail.
+		 * if(!book.isAvailable(tran)){
 			Args.bookNotAvailable(sender, book, tran);
 			return;
-		}
+		}*/
 		if(!Checks.checkForYML(plugin, sender, bookName, tran)){
 			return;
 		}

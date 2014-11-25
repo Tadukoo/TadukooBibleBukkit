@@ -95,11 +95,13 @@ public class Getbook {
 			bookName = Randomize.book(book, tran);
 			part = Randomize.part(plugin, book, bookName, tran);
 		}
-		if(!book.isAvailable(tran)){
+		/*
+		 * TODO: Add check for availability using EnumAvail.
+		 * if(!book.isAvailable(tran)){
 			sender.sendMessage(ChatColor.RED + bookName + " is not available yet in the " + tran + 
 					"translation.");
 			return;
-		}
+		}*/
 		Book.Run(plugin, sender, tran, bookName, part, "get", pName, false);
 		return;
 	}

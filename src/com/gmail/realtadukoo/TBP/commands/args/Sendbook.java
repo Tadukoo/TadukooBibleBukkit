@@ -54,9 +54,11 @@ public class Sendbook {
 		if(args.length == i + 1 && Args.tranCheck(sender, args[i]) != null){
 			tran = Args.tranCheck(sender, args[i]);
 		}
-		if(!book.isAvailable(tran)){
+		/*
+		 * TODO: Add check for availability using EnumAvail.
+		 * if(!book.isAvailable(tran)){
 			return;
-		}
+		}*/
 		if(!player.hasPermission("TadukooBible.book.receive")){
 			sender.sendMessage(ChatColor.RED + player.getName() + " does not have permission to receive " +
 					"books!");

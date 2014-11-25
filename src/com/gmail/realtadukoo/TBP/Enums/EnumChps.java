@@ -151,15 +151,15 @@ public enum EnumChps {
 	LAMENTATIONS("Lamentations", 1, 22, 22, 66, 22, 22),
 	
 	//Ezekiel
-	EZEKIEL("Ezekiel", 1, 0),
-	EZEKIEL2("Ezekiel", 2, 0),
-	EZEKIEL3("Ezekiel", 3, 0),
-	EZEKIEL4("Ezekiel", 4, 0),
-	EZEKIEL5("Ezekiel", 5, 0),
+	EZEKIEL("Ezekiel", 1, 28, 10, 27, 17, 17, 14, 27, 18, 11, 22),
+	EZEKIEL2("Ezekiel", 2, 25, 28, 23, 23, 8, 63, 24, 32, 14, 49),
+	EZEKIEL3("Ezekiel", 3, 32, 31, 49, 27, 17, 21, 36, 26, 21, 26),
+	EZEKIEL4("Ezekiel", 4, 18, 32, 33, 31, 15, 38, 28, 23, 29, 49),
+	EZEKIEL5("Ezekiel", 5, 26, 20, 27, 31, 25, 24, 23, 35),
 	
 	//Daniel
-	DANIEL("Daniel", 1, 0),
-	DANIEL2("Daniel", 2, 0),
+	DANIEL("Daniel", 1, 21, 49, 30, 37, 31, 28, 28, 27, 27, 21),
+	DANIEL2("Daniel", 2, 45, 13),
 	
 	//Hosea
 	HOSEA("Hosea", 1, 11, 23, 5, 19, 15, 11, 16, 14, 17, 15),

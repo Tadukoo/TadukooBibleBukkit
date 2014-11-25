@@ -74,11 +74,13 @@ public class Send {
 				return;
 			}
 		}
-		if(!book.isAvailable(tran)){
+		/*
+		 * TODO: Add check for availability using EnumAvail.
+		 * if(!book.isAvailable(tran)){
 			sender.sendMessage(ChatColor.RED + "Sorry, that book is not yet available in " +
 					"the " + tran + " translation.");
 			return;
-		}
+		}*/
 		@SuppressWarnings("deprecation")
 		Player player = plugin.getServer().getPlayer(pName);
 		if(player.isOnline()){

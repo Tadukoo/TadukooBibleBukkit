@@ -7,7 +7,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
-import com.gmail.realtadukoo.TBP.commands.handling.Checks;
+//import com.gmail.realtadukoo.TBP.commands.handling.Checks; TODO: Add check for availability using EnumAvail.
 
 public class ConfigCheck {
 	/*
@@ -103,14 +103,16 @@ public class ConfigCheck {
 			while(i < 66){
 				bookName = book.numtoBook(i + 1, "int", null, null);
 				book = book.fromString(bookName);
-				if(book.isAvailable(tran)){
+				/*
+				 * TODO: Add check for availability using EnumAvail.
+				 * if(book.isAvailable(tran)){
 					if(!Checks.checkForYML(plugin, null, bookName, tran)){
 						plugin.getLogger().log(Level.SEVERE, "It appears that " + bookName + ".yml is " +
 								"missing! This will cause issues!");
 						plugin.getLogger().log(Level.SEVERE, "Please make sure you put the Tadukoo_Bible " +
 								"folder into your plugins folder.");
 					}
-				}
+				}*/
 				i++;
 			}
 			
@@ -120,13 +122,15 @@ public class ConfigCheck {
 				bookName = config.getString("default.book");
 				book = book.fromString(bookName);
 				bookName = book.getBook();
-				if(!book.isAvailable(tran)){
+				/*
+				 * TODO: Add check for availability using EnumAvail.
+				 * if(!book.isAvailable(tran)){
 					// If not, set it to Genesis.
 					plugin.getLogger().log(Level.WARNING, "default.book:" + bookName + " is not available " +
 							"in the " + tran + "translation. Setting to Genesis...");
 					config.set("default.book", "Genesis");
 					plugin.saveConfig();
-				}
+				}*/
 			}else{
 				// If no default book is set, set it to Genesis.
 				bookName = "Genesis";

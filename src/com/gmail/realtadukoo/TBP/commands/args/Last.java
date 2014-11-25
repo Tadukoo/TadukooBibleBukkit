@@ -28,10 +28,12 @@ public class Last {
 		if(tran == null){
 			tran = rec[3];
 		}
-		if(!book.isAvailable(tran)){
+		/*
+		 * TODO: Add check for availability using EnumAvail.
+		 * if(!book.isAvailable(tran)){
 			Args.bookNotAvailable(sender, book, tran);
 			return;
-		}
+		}*/
 		if(!Checks.checkForYML(plugin, sender, bookName, tran)){
 			return;
 		}

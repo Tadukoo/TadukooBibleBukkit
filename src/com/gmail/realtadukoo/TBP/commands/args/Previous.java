@@ -47,9 +47,11 @@ public class Previous {
 				while(cont){
 					bookName = book.numtoBook(book.ordinal() + 1, "int", "lower", null);
 					book = book.fromString(bookName);
-					if(book.isAvailable(tran)){
+					/*
+					 * TODO: Add check for availability using EnumAvail.
+					 * if(book.isAvailable(tran)){
 						cont = false;
-					}
+					}*/
 				}
 			}
 			chp = String.valueOf(chapter);

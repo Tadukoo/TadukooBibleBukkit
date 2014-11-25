@@ -63,9 +63,11 @@ public class Announce {
 		if(args.length == i + 1 && Args.tranCheck(sender, args[i]) != null){
 			tran = Args.tranCheck(sender, args[i]);
 		}
-		if(!book.isAvailable(tran)){
+		/*
+		 * TODO: Add check for availability using EnumAvail.
+		 * if(!book.isAvailable(tran)){
 			return;
-		}
+		}*/
 		if(!Checks.checkForYML(plugin, sender, bookName, tran)){
 			return;
 		}
