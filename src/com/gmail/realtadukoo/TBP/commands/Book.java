@@ -92,7 +92,7 @@ public class Book{
 				player.sendMessage(ChatColor.GREEN + senderName + " sent you " + bookName + " Part " + 
 						part + "!");
 			}
-			Records.savepRecs("book", pName, bookName, null, null, tran, part);
+			Records.savepRecs(plugin, "book", pName, bookName, null, null, tran, part);
 		}else{
 			sender.sendMessage(ChatColor.RED + p + " is not online!");
 		}

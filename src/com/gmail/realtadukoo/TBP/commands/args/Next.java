@@ -7,10 +7,8 @@ import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.commands.Records;
-import com.gmail.realtadukoo.TBP.commands.References;
-import com.gmail.realtadukoo.TBP.commands.Sending;
+import com.gmail.realtadukoo.TBP.commands.Verse;
 import com.gmail.realtadukoo.TBP.commands.handling.Args;
-import com.gmail.realtadukoo.TBP.commands.handling.Checks;
 
 public class Next {
 	public static void run(TB plugin, CommandSender sender, String[] args){
@@ -21,7 +19,7 @@ public class Next {
 		if(args.length == 2 && Args.tranCheck(sender, args[1]) != null){
 			tran = Args.tranCheck(sender, tran);
 		}
-		String rec[] = Records.getpRecs("verse", sender.getName());
+		String rec[] = Records.getpRecs(plugin, "verse", sender.getName());
 		if(rec[0].equalsIgnoreCase("Revelation") && rec[1].equalsIgnoreCase("22") && 
 				rec[2].equalsIgnoreCase("21")){
 			sender.sendMessage(ChatColor.RED + "Revelation 22:21 is the last verse of the Bible. You can't " +
@@ -58,14 +56,6 @@ public class Next {
 			chp = String.valueOf(chapter);
 		}
 		String v = String.valueOf(verse);
-		if(!Checks.checkForYML(plugin, sender, bookName, tran)){
-			return;
-		}
-		String ref = References.makeRef(book, chp, v);
-		if(!References.checkRef(plugin, sender, bookName, tran, ref)){
-			return;
-		}
-		String pName = sender.getName();
-		Sending.getVerse(plugin, sender, pName, bookName, chp, v, tran, ref);
+		Verse.check(plugin, sender, bookName, chp, v, tran, book, echp, "get", null, false, false);
 	}
 }

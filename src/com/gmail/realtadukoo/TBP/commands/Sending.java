@@ -27,7 +27,7 @@ public class Sending {
 		sender.sendMessage(ChatColor.GREEN + verse + " (" + bookName + " " + chp + ":" + v + " " + 
 		tran + ")");
 		// Record this verse in the players.yml file.
-		Records.savepRecs("verse", pName, bookName, chp, v, tran, null);
+		Records.savepRecs(plugin, "verse", pName, bookName, chp, v, tran, null);
 	}
 	
 	/*

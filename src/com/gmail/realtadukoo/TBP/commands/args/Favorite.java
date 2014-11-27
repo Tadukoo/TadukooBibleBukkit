@@ -17,7 +17,7 @@ public class Favorite {
 				plugin.getLanguage().getString("help.pages.favorite.usage"))){
 			return;
 		}
-		String rec[] = Records.getpRecs("verse", sender.getName());
+		String rec[] = Records.getpRecs(plugin, "verse", sender.getName());
 		String bookName = rec[0];
 		String chp = rec[1];
 		String v = rec[2];
@@ -86,7 +86,7 @@ public class Favorite {
 		if(list){
 			Records.listFavorites(plugin, sender, pName, page);
 		}else{
-			Records.saveFavorite(bookName, chp, v, tran, pName);
+			Records.saveFavorite(plugin, bookName, chp, v, tran, pName);
 		}
 	}
 }
