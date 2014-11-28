@@ -3,7 +3,7 @@
 #       Tadukoo Bible Config             #
 ##########################################
 # NEVER change this setting!
-version: 1.0 SNAPSHOT
+version: '1.0'
 
 # Set this to whatever language you want to use. Using the name of the language instead of the actual language
 # file's name will change it to that language file on start up.

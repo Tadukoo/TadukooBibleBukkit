@@ -3,7 +3,7 @@
 #       Tadukoo Bible Config             #
 ##########################################
 # NEVER change this setting!
-Version: 1.0 SNAPSHOT
+version: '1.0'
 
 # Set this to whatever language you want to use. Using the name of the language instead of the actual language
 # file's name will change it to that language file on start up.
@@ -12,22 +12,32 @@ language: en_US
 # Set this to false if you want to disable the checks of this file during start up.
 startup-checks: true
 
+# These decide whether to keep track of statistics.
+# player statistics is for statistics per player, while plugin statistics is for everyone on the server.
+statistics: 
+  player: true
+  plugin: true
+
 # This is the book, chapter, verse, and translation used for commands when none is specified.
 # DefaultChapter, DefaultVerse, and DefaultPart must be a number in parentheses.
-DefaultTranslation: KJV
-DefaultBook: Genesis
-DefaultChapter: '1'
-DefaultVerse: '1'
-DefaultPart: '1'
+default:
+  translation: KJV
+  book: Genesis
+  chapter: '1'
+  verse: '1'
+  part: '1'
 
 # This decides whether to use permissions or not.
 # Note: If you use a permissions plugin and set TadukooBible.use to false, 
 # it will still disable use of the plugin even if this is false.
-Permissions: true
+permissions: true
 
 # This will disable getting the Bible as books if set to false.
 # Note: You could always just get the book config for your translation from the site.
-Books: true
+books: true
+
+# This will show messages to help with finding errors in the plugin if set to true.
+debug: false
 
 ##########################################
 #                                        #

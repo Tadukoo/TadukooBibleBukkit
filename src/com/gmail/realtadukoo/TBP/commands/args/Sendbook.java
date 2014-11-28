@@ -15,7 +15,7 @@ import com.gmail.realtadukoo.TBP.commands.handling.Checks;
 public class Sendbook {
 	@SuppressWarnings("deprecation")
 	public static void run(TB plugin, String playerType, CommandSender sender, String[] args, boolean permsOn){
-		if(Args.argsLengthCheck(sender, args, 4, 8, "/bible sendbook <player> <book> <part> [translation] " +
+		if(Args.argsLengthCheck(sender, args, 4, 9, "/bible sendbook <player> <book> <part> [translation] " +
 				"or /bible sendbook <player> <book> <part> \"anonymous\" [translation]")){
 			return;
 		}
@@ -40,6 +40,7 @@ public class Sendbook {
 			}else if(!tranSet && Args.tranCheck(sender, args[i]) != null){
 				tran = Args.tranCheck(sender, args[i]);
 				tranSet = true;
+				i++;
 			}else if(!anonymous && cmds.fromString(args[i]) == EnumCmds.ANONYMOUS){
 				if(Checks.permCheck(playerType, plugin, sender, "Bible", "anonymous.book", permsOn)){
 					anonymous = true;
@@ -48,6 +49,7 @@ public class Sendbook {
 							+ "books.");
 					return;
 				}
+				i++;
 			}else if(!bypass && cmds.fromString(args[i]) == EnumCmds.BYPASS){
 				if(Checks.permCheck(playerType, plugin, sender, "Bible", "bypass.book", permsOn)){
 					bypass = true;
@@ -56,9 +58,12 @@ public class Sendbook {
 							+ "sending settings.");
 					return;
 				}
+				i++;
 			}else if(!playerSet){
 				player = plugin.getServer().getPlayer(args[i]);
 				pName = player.getName();
+				playerSet = true;
+				i++;
 			}else{
 				try{
 					if(!partSet){

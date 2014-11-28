@@ -104,21 +104,21 @@ public class Book{
 		sender.sendMessage(ChatColor.GREEN + "Book sent!");
 	}
 
-	public static void contains(TB plugin, CommandSender sender, String tran, String bookName, String part){
-		String start = plugin.getigBook(bookName, tran).getString("Book" + part + "Start.c") + ":" +
-				plugin.getigBook(bookName, tran).getString("Book" + part + "Start.v");
-		String end = plugin.getigBook(bookName, tran).getString("Book" + part + "End.c") + ":" +
-				plugin.getigBook(bookName, tran).getString("Book" + part + "End.v");
-		if(start == null || end == null){
+	public static void contains(TB plugin, CommandSender sender, String bookName, String part, String tran){
+		if(plugin.getigBook(bookName, tran).getString("Book" + part + ".start.c") == null){
 			sender.sendMessage(ChatColor.RED + "That part does not exist.");
 			return;
 		}
+		String start = plugin.getigBook(bookName, tran).getString("Book" + part + ".start.c") + ":" +
+				plugin.getigBook(bookName, tran).getString("Book" + part + ".start.v");
+		String end = plugin.getigBook(bookName, tran).getString("Book" + part + ".end.c") + ":" +
+				plugin.getigBook(bookName, tran).getString("Book" + part + ".end.v");
 		sender.sendMessage(ChatColor.GREEN + bookName + " part " + part + " contains " + bookName + " " + start 
 				+ "-" + end + ".");
 	}
 	
 	public static void previous(TB plugin, CommandSender sender, String playerType, String bookName, 
-			String tran, String part, String type, String pName, boolean permsOn) {
+			String part, String tran, String type, String pName, boolean permsOn) {
 		int bN = Integer.parseInt(part) - 1;
 		String pNum = "";
 		EnumBooks ebook = EnumBooks.GENESIS;

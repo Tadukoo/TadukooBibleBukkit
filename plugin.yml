@@ -1,6 +1,6 @@
 name: Tadukoo_Bible
 main: com.gmail.realtadukoo.TBP.TB
-version: 1.0 SNAPSHOT
+version: 1.0
 description: Read the Bible using commands.
 author: Tadukoo
 prefix: TB

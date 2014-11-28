@@ -2,6 +2,7 @@ package com.gmail.realtadukoo.TBP.commands.args;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
 
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
@@ -61,23 +62,31 @@ public class Getbook {
 						i++;
 						partSet = true;
 					}else if(args[i].equalsIgnoreCase("?")){
-						Book.contains(plugin, sender, tran, bookName, part);
+						Book.contains(plugin, sender, bookName, part, tran);
 						return;
 					}else{
 						Args.unknownArg(plugin, sender, args[i]);
 						return;
 					}
 				}catch(NumberFormatException e){
-					Args.unknownArg(plugin, sender, args[i]);
-					return;
+					if(args[i].equalsIgnoreCase("?")){
+						Book.contains(plugin, sender, bookName, part, tran);
+						return;
+					}else{
+						Args.unknownArg(plugin, sender, args[i]);
+						return;
+					}
 				}
 			}
 		}
 		if(previous || next || last){
-			bookName = TB.getpRec().getString(pName + ".lastbook.book");
-			part = TB.getpRec().getString(pName + ".lastbook.part");
+			@SuppressWarnings("deprecation")
+			Player player = plugin.getServer().getPlayer(pName);
+			String ID = player.getUniqueId().toString();
+			bookName = TB.getpRec().getString(ID + ".lastbook.book");
+			part = TB.getpRec().getString(ID + ".lastbook.part");
 			if(!tranSet){
-				tran = TB.getpRec().getString(pName + ".lastbook.tran");
+				tran = TB.getpRec().getString(ID + ".lastbook.tran");
 			}
 			if(previous){
 				if(bookName.equalsIgnoreCase("Genesis") && part.equalsIgnoreCase("1")){
@@ -85,7 +94,7 @@ public class Getbook {
 							+ "before it!");
 					return;
 				}
-				Book.previous(plugin, sender, playerType, bookName, tran, part, "get", pName, permsOn);
+				Book.previous(plugin, sender, playerType, bookName, part, tran, "get", pName, permsOn);
 				return;
 			}else if(next){
 				if(bookName.equalsIgnoreCase("Revelation") && part.equalsIgnoreCase("6")){
@@ -94,6 +103,7 @@ public class Getbook {
 					return;
 				}
 				Book.next(plugin, sender, playerType, bookName, part, tran, "get", pName, permsOn);
+				return;
 			}
 		}
 		if(random){
@@ -103,6 +113,10 @@ public class Getbook {
 			if(!partSet){
 				part = Randomize.part(plugin, book, bookName, tran);
 			}
+		}
+		if(list){
+			Book.list(plugin, sender, tran);
+			return;
 		}
 		Book.checkAndRun(plugin, sender, playerType, bookName, part, tran, book, "get", pName, false, false, 
 				permsOn);
