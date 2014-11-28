@@ -12,12 +12,12 @@ import com.gmail.realtadukoo.TBP.commands.handling.Args;
 import com.gmail.realtadukoo.TBP.commands.handling.Checks;
 
 public class Favorite {
-	public static void run(TB plugin, CommandSender sender, String[] args){
+	public static void run(TB plugin, CommandSender sender, String playerType, String[] args){
 		if(Args.argsLengthCheck(sender, args, 1, 7, 
 				plugin.getLanguage().getString("help.pages.favorite.usage"))){
 			return;
 		}
-		String rec[] = Records.getpRecs(plugin, "verse", sender.getName());
+		String rec[] = Records.getpRecs(plugin, playerType, "verse", sender.getName());
 		String bookName = rec[0];
 		String chp = rec[1];
 		String v = rec[2];
@@ -36,6 +36,7 @@ public class Favorite {
 		while(args.length >= i +1 && args[i] != null){
 			if(!list && args[i].equalsIgnoreCase("list")){
 				list = true;
+				i++;
 			}else if(!list && !bookSet && Args.isBook(book, cmds, args, i) != null){
 				book = Args.isBook(book, cmds, args, i);
 				bookName = book.getBook();
@@ -84,9 +85,9 @@ public class Favorite {
 		}
 		String pName = sender.getName();
 		if(list){
-			Records.listFavorites(plugin, sender, pName, page);
+			Records.listFavorites(plugin, sender, playerType, pName, page);
 		}else{
-			Records.saveFavorite(plugin, bookName, chp, v, tran, pName);
+			Records.saveFavorite(plugin, playerType, bookName, chp, v, tran, pName);
 		}
 	}
 }

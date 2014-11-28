@@ -11,7 +11,7 @@ import com.gmail.realtadukoo.TBP.commands.Verse;
 import com.gmail.realtadukoo.TBP.commands.handling.Args;
 
 public class Previous {
-	public static void run(TB plugin, CommandSender sender, String[] args){
+	public static void run(TB plugin, CommandSender sender, String playerType, String[] args){
 		if(Args.argsLengthCheck(sender, args, 1, 2, "/bible previous [translation]")){
 			return;
 		}
@@ -19,7 +19,7 @@ public class Previous {
 		if(args.length == 2 && Args.tranCheck(sender, args[1]) != null){
 			tran = Args.tranCheck(sender, tran);
 		}
-		String rec[] = Records.getpRecs(plugin, "verse", sender.getName());
+		String rec[] = Records.getpRecs(plugin, playerType, "verse", sender.getName());
 		if(rec[0].equalsIgnoreCase("Genesis") && rec[1].equalsIgnoreCase("1") && rec[2].equalsIgnoreCase("1")){
 			sender.sendMessage(ChatColor.RED + "Genesis 1:1 is the first verse of the Bible. You can't " +
 					"go back any farther!");
@@ -45,6 +45,8 @@ public class Previous {
 				while(cont){
 					bookName = book.numtoBook(book.ordinal() + 1, "int", "lower", null);
 					book = book.fromString(bookName);
+					echp = echp.fromString(bookName, 0);
+					cont = false;
 					/*
 					 * TODO: Add check for availability using EnumAvail.
 					 * if(book.isAvailable(tran)){
@@ -53,10 +55,10 @@ public class Previous {
 				}
 				chapter = book.getChp();
 			}
-			verse = echp.fromString(book.getBook(), 0).getNum(book.getChp());
+			verse = echp.getNum(chapter);
 			chp = String.valueOf(chapter);
 		}
 		String v = String.valueOf(verse);
-		Verse.check(plugin, sender, bookName, chp, v, tran, book, echp, "get", null, false, false);
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "get", null, false, false);
 	}
 }

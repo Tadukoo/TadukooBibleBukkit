@@ -16,6 +16,7 @@ public class Randomize {
 			int rB = generator.nextInt(66) + 1;
 			bookName = book.numtoBook(rB, "int", null, null);
 			book = book.fromString(bookName);
+			cont = false;
 			/*
 			 * TODO: Add check for availability using EnumAvail.
 			 * if(book.isAvailable(tran)){

@@ -53,29 +53,29 @@ public class BibleComExec implements CommandExecutor {
 				String cmdPerm = cmds.getPerm();
 				if(Checks.permCheck(playerType, plugin, sender, type, cmdPerm, permsOn)){
 					if(cmdType.equalsIgnoreCase("read")){
-						Read.run(plugin, sender, args);
+						Read.run(plugin, sender, playerType, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("send")){
 						Send.run(plugin, playerType, sender, args, permsOn);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("previous")){
-						Previous.run(plugin, sender, args);
+						Previous.run(plugin, sender, playerType, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("next")){
-						Next.run(plugin, sender, args);
+						Next.run(plugin, sender, playerType, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("last")){
-						Last.run(plugin, sender, args);
+						Last.run(plugin, sender, playerType, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("random")){
-						RandomCmd.run(plugin, sender, args);
+						RandomCmd.run(plugin, sender, playerType, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("favorite")){
-						Favorite.run(plugin, sender, args);
+						Favorite.run(plugin, sender, playerType, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("getbook") && 
 							Checks.consoleCheck(plugin, sender, playerType)){
-						Getbook.run(plugin, sender, args);
+						Getbook.run(plugin, sender, playerType, args, permsOn);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("sendbook")){
 						Sendbook.run(plugin, playerType, sender, args, permsOn);
@@ -95,6 +95,9 @@ public class BibleComExec implements CommandExecutor {
 					}else if(cmdType.equalsIgnoreCase("translation")){
 						Translation.run(plugin, sender, args);
 						return true;
+					}else if(cmdType.equalsIgnoreCase("permission")){
+						Permission.run(plugin, sender, args);
+						return true;
 					}else if(cmdType.equalsIgnoreCase("block")){
 						Block.run(plugin, sender, args);
 						return true;
@@ -105,7 +108,7 @@ public class BibleComExec implements CommandExecutor {
 						Config.run(plugin, sender, args);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("announce")){
-						Announce.run(plugin, sender, args);
+						Announce.run(plugin, sender, playerType, args);
 						return true;
 					}
 				}

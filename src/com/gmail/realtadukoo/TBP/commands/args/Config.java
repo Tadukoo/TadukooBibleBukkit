@@ -22,7 +22,7 @@ public class Config {
 			Information.settings(sender);
 			return;
 		}else if(plugin.getConfig().getString(setting) == null){
-			sender.sendMessage(ChatColor.RED + "Sorry, that setting doesn't exist.");
+			sender.sendMessage(ChatColor.RED + "Sorry, that setting doesn't exist or is set to null.");
 			return;
 		}
 		String message = null;

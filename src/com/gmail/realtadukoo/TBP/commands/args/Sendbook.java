@@ -13,59 +13,75 @@ import com.gmail.realtadukoo.TBP.commands.handling.Args;
 import com.gmail.realtadukoo.TBP.commands.handling.Checks;
 
 public class Sendbook {
+	@SuppressWarnings("deprecation")
 	public static void run(TB plugin, String playerType, CommandSender sender, String[] args, boolean permsOn){
 		if(Args.argsLengthCheck(sender, args, 4, 8, "/bible sendbook <player> <book> <part> [translation] " +
 				"or /bible sendbook <player> <book> <part> \"anonymous\" [translation]")){
 			return;
 		}
-		@SuppressWarnings("deprecation")
-		Player player = sender.getServer().getPlayer(args[1]);
-		String pName = player.getName();
 		EnumBooks book = EnumBooks.GENESIS;
 		EnumCmds cmds = EnumCmds.SENDBOOK;
 		EnumTrans etran = EnumTrans.KJV;
 		etran = etran.getDefault();
 		String bookName = book.getBook();
-		String part = null;
+		String part = plugin.getConfig().getString("default.part");
 		String tran = etran.getTran();
-		boolean bypass = false;
-		int i = 3;
-		if(Args.isBook(book, cmds, args, 2) != null){
-			book = Args.isBook(book, cmds, args, 2);
-			bookName = book.getBook();
-			i = Args.getCurrentArg(book, cmds, args, 2);
-		}
-		if(args.length >= i + 1){
-			part = args[i];
-			i++;
-		}else{
-			sender.sendMessage(ChatColor.RED + "Not enough args!");
-			sender.sendMessage(ChatColor.RED + "/bible sendbook <player> <book> <part> [translation]");
-			return;
-		}
-		boolean anonymous = false;
-		if(args.length >= i + 1 && cmds.fromString(args[i]) == EnumCmds.ANONYMOUS){
-			if(!Checks.permCheck(playerType, plugin, sender, "bible", "anonymous.book", permsOn)){
-				return;
+		Player player = null;
+		String pName = null;
+		boolean anonymous = false, bypass = false;
+		boolean bookSet = false, partSet = false, playerSet = false, tranSet = false;
+		int i = 1;
+		while(args.length >= i + 1 && args[i] != null){
+			if(!bookSet && Args.isBook(book, cmds, args, i) != null){
+				book = Args.isBook(book, cmds, args, i);
+				bookName = book.getBook();
+				i = Args.getCurrentArg(book, cmds, args, i);
+				bookSet = true;
+			}else if(!tranSet && Args.tranCheck(sender, args[i]) != null){
+				tran = Args.tranCheck(sender, args[i]);
+				tranSet = true;
+			}else if(!anonymous && cmds.fromString(args[i]) == EnumCmds.ANONYMOUS){
+				if(Checks.permCheck(playerType, plugin, sender, "Bible", "anonymous.book", permsOn)){
+					anonymous = true;
+				}else{
+					sender.sendMessage(ChatColor.RED + "Sorry, you don't have permission to send anonymous "
+							+ "books.");
+					return;
+				}
+			}else if(!bypass && cmds.fromString(args[i]) == EnumCmds.BYPASS){
+				if(Checks.permCheck(playerType, plugin, sender, "Bible", "bypass.book", permsOn)){
+					bypass = true;
+				}else{
+					sender.sendMessage(ChatColor.RED + "Sorry, you don't have permission to bypass book "
+							+ "sending settings.");
+					return;
+				}
+			}else if(!playerSet){
+				player = plugin.getServer().getPlayer(args[i]);
+				pName = player.getName();
 			}else{
-				anonymous = true;
-				i++;
+				try{
+					if(!partSet){
+						int p = Integer.parseInt(args[i]);
+						part = String.valueOf(p);
+						i++;
+						partSet = true;
+					}else{
+						Args.unknownArg(plugin, sender, args[i]);
+						return;
+					}
+				}catch(NumberFormatException e){
+					Args.unknownArg(plugin, sender, args[i]);
+					return;
+				}
 			}
 		}
-		if(args.length == i + 1 && Args.tranCheck(sender, args[i]) != null){
-			tran = Args.tranCheck(sender, args[i]);
-		}
-		/*
-		 * TODO: Add check for availability using EnumAvail.
-		 * if(!book.isAvailable(tran)){
-			return;
-		}*/
-		if(!player.hasPermission("TadukooBible.book.receive")){
-			sender.sendMessage(ChatColor.RED + player.getName() + " does not have permission to receive " +
-					"books!");
-			sender.sendMessage(ChatColor.RED + "TadukooBible.book.receive");
+		if(!playerSet || !bookSet || !partSet){
+			sender.sendMessage(ChatColor.RED + "/bible sendbook <player> <book> <part> [translation] " +
+				"or /bible sendbook <player> <book> <part> \"anonymous\" [translation]");
 			return;
 		}
-		Book.Run(plugin, sender, tran, bookName, part, "send", pName, anonymous, bypass);
+		Book.checkAndRun(plugin, sender, playerType, bookName, part, tran, book, "send", pName, anonymous, 
+				bypass, permsOn);
 	}
 }

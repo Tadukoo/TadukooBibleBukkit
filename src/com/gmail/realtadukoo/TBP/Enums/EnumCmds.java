@@ -75,7 +75,7 @@ public enum EnumCmds {
 			true, false),
 	
 	// /bible permission
-	PERMISSION("permission", false, "perm", "perms", false, false),
+	PERMISSION("permission", false, "perm", "perms", true, false),
 	
 	// /bible youtube
 	YOUTUBE("YouTube", false, "videos", "video", false, false),

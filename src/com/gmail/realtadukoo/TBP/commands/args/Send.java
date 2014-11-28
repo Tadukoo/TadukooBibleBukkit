@@ -1,5 +1,6 @@
 package com.gmail.realtadukoo.TBP.commands.args;
 
+import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.realtadukoo.TBP.TB;
@@ -7,12 +8,14 @@ import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
+import com.gmail.realtadukoo.TBP.commands.Records;
 import com.gmail.realtadukoo.TBP.commands.Verse;
 import com.gmail.realtadukoo.TBP.commands.handling.Args;
+import com.gmail.realtadukoo.TBP.commands.handling.Checks;
 
 public class Send {
 	public static void run(TB plugin, String playerType, CommandSender sender, String[] args, boolean permsOn){
-		if(Args.argsLengthCheck(sender, args, 4, 9, plugin.getLanguage().getString("help.pages.send.usage"))){
+		if(Args.argsLengthCheck(sender, args, 3, 10, plugin.getLanguage().getString("help.pages.send.usage"))){
 			return;
 		}
 		EnumBooks book = EnumBooks.GENESIS;
@@ -31,7 +34,8 @@ public class Send {
 		EnumCmds ecmd = EnumCmds.ANONYMOUS;
 		boolean anonymous = false;
 		boolean bypass = false;
-		boolean bookSet = false, chpSet = false, vSet = false, tranSet = false, pSet = false;
+		boolean bookSet = false, chpSet = false, vSet = false, tranSet = false, playerSet = false;
+		boolean favorite = false;
 		while(args.length >= i + 1 && args[i] != null){
 			if(!bookSet && Args.isBook(book, cmds, args, i) != null){
 				book = Args.isBook(book, cmds, args, i);
@@ -40,19 +44,43 @@ public class Send {
 				i = Args.getCurrentArg(book, cmds, args, i);
 				bookSet = true;
 			}else if(!anonymous && ecmd.fromString(args[i]) == EnumCmds.ANONYMOUS){
-				anonymous = true;
+				if(Checks.permCheck(playerType, plugin, sender, "Bible", "anonymous.verse", permsOn)){
+					anonymous = true;
+				}else{
+					sender.sendMessage(ChatColor.RED + "Sorry, you don't have permission to send anonymous "
+							+ "verses.");
+					return;
+				}
+				i++;
 			}else if(!bypass && ecmd.fromString(args[i]) == EnumCmds.BYPASS){
-				bypass = true;
+				if(Checks.permCheck(playerType, plugin, sender, "Bible", "bypass.verse", permsOn)){
+					bypass = true;
+				}else{
+					sender.sendMessage(ChatColor.RED + "Sorry, you don't have permission to bypass verse "
+							+ "sending settings.");
+					return;
+				}
+				i++;
 			}else if(!tranSet && Args.tranCheck(sender, args[i]) != null){
 				tran = Args.tranCheck(sender, args[i]);
 				tranSet = true;
+				i++;
 			}else if(!chpSet && !vSet && args[i].contains(":")){
 				String[] chpV = args[i].split(":");
-				chp = chpV[0];
-				v = chpV[1];
+				if(cmds.fromString(chpV[0]) == EnumCmds.FAVORITE){
+					favorite = true;
+					chp = chpV[1];
+					chpSet = true;
+				}else{
+					chp = chpV[0];
+					v = chpV[1];
+					chpSet = true;
+					vSet = true;
+				}
 				i++;
-				chpSet = true;
-				vSet = true;
+			}else if(!favorite && (cmds.fromString(args[i]) == EnumCmds.FAVORITE)){
+				favorite = true;
+				i++;
 			}else{
 				try{
 					if(!chpSet && !vSet){
@@ -70,9 +98,10 @@ public class Send {
 						return;
 					}
 				}catch(NumberFormatException e){
-					if(!pSet){
+					if(!playerSet){
 						pName = args[i];
-						pSet = true;
+						playerSet = true;
+						i++;
 					}else{
 						Args.unknownArg(plugin, sender, args[i]);
 						return;
@@ -80,6 +109,22 @@ public class Send {
 				}
 			}
 		}
-		Verse.check(plugin, sender, bookName, chp, v, tran, book, echp, "send", pName, anonymous, bypass);
+		if(favorite && chpSet){
+			int num = Integer.parseInt(chp);
+			String rec[] = Records.getFavorite(plugin, playerType, sender.getName(), num);
+			bookName = rec[0];
+			chp = rec[1];
+			v = rec[2];
+			tran = rec[3];
+			bookSet = true;
+			chpSet = true;
+			vSet = true;
+		}
+		if(!playerSet || !bookSet || !chpSet || !vSet){
+			sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("help.pages.send.usage"));
+			return;
+		}
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "send", pName, anonymous, 
+				bypass);
 	}
 }

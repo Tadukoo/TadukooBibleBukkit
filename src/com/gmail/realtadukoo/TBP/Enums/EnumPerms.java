@@ -135,8 +135,9 @@ public enum EnumPerms {
 	    		check2 = true;
 	    	}
 	    	if(perm.contains("*")){
-	    		perm3 = perm.replaceAll("*", "star");
-	    		check3 = true;
+	    		// Doesn't work
+	    		//perm3 = perm.replaceAll("*", "star");
+	    		//check3 = true;
 	    	}
 	    	for (EnumPerms c : EnumPerms.values()){
 	    		if(perm.equalsIgnoreCase("info")){

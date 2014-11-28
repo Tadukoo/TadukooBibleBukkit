@@ -11,8 +11,8 @@ import com.gmail.realtadukoo.TBP.TB;
 
 public class Sending {
 	// Sends a verse to the sender.
-	public static void getVerse(TB plugin, CommandSender sender, String pName, String bookName,
-			String chp, String v, String tran, String ref){
+	public static void getVerse(TB plugin, CommandSender sender, String playerType, String pName, 
+			String bookName, String chp, String v, String tran, String ref){
 		// Get the verse from the file.
 		String verse = plugin.getBook(bookName, tran).getString(ref);
 		if(bookName.contains("1") || bookName.contains("2") || bookName.contains("3") || 
@@ -27,7 +27,7 @@ public class Sending {
 		sender.sendMessage(ChatColor.GREEN + verse + " (" + bookName + " " + chp + ":" + v + " " + 
 		tran + ")");
 		// Record this verse in the players.yml file.
-		Records.savepRecs(plugin, "verse", pName, bookName, chp, v, tran, null);
+		Records.savepRecs(plugin, playerType, "verse", pName, bookName, chp, v, tran, null);
 	}
 	
 	/*

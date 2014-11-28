@@ -1,7 +1,5 @@
 package com.gmail.realtadukoo.TBP;
 
-import java.util.UUID;
-
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -18,7 +16,7 @@ public class BiblePlayerListener implements Listener{
 	public void onPlayerJoin(PlayerJoinEvent event){
 		Player player = event.getPlayer();
 		String name = player.getName();
-		UUID id = player.getUniqueId();
+		String id = player.getUniqueId().toString();
 		plugin.getPlayerList().set(name, id);
 		plugin.savePlayerList();
 	}

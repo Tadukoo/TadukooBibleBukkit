@@ -11,7 +11,7 @@ import com.gmail.realtadukoo.TBP.commands.Verse;
 import com.gmail.realtadukoo.TBP.commands.handling.Args;
 
 public class Next {
-	public static void run(TB plugin, CommandSender sender, String[] args){
+	public static void run(TB plugin, CommandSender sender, String playerType, String[] args){
 		if(Args.argsLengthCheck(sender, args, 1, 2, "/bible next [translation]")){
 			return;
 		}
@@ -19,7 +19,7 @@ public class Next {
 		if(args.length == 2 && Args.tranCheck(sender, args[1]) != null){
 			tran = Args.tranCheck(sender, tran);
 		}
-		String rec[] = Records.getpRecs(plugin, "verse", sender.getName());
+		String rec[] = Records.getpRecs(plugin, playerType, "verse", sender.getName());
 		if(rec[0].equalsIgnoreCase("Revelation") && rec[1].equalsIgnoreCase("22") && 
 				rec[2].equalsIgnoreCase("21")){
 			sender.sendMessage(ChatColor.RED + "Revelation 22:21 is the last verse of the Bible. You can't " +
@@ -46,6 +46,8 @@ public class Next {
 				while(cont){
 					bookName = book.numtoBook(book.ordinal() + 1, "int", "raise", null);
 					book = book.fromString(bookName);
+					echp = echp.fromString(bookName, 0);
+					cont = false;
 					/*
 					 * TODO: Add check for availability using EnumAvail.
 					 * if(book.isAvailable(tran)){
@@ -56,6 +58,6 @@ public class Next {
 			chp = String.valueOf(chapter);
 		}
 		String v = String.valueOf(verse);
-		Verse.check(plugin, sender, bookName, chp, v, tran, book, echp, "get", null, false, false);
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "get", null, false, false);
 	}
 }

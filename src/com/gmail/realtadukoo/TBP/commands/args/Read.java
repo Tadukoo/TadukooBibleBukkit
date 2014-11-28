@@ -9,12 +9,13 @@ import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
 import com.gmail.realtadukoo.TBP.commands.Information;
+import com.gmail.realtadukoo.TBP.commands.Records;
 import com.gmail.realtadukoo.TBP.commands.Verse;
 import com.gmail.realtadukoo.TBP.commands.handling.Args;
 import com.gmail.realtadukoo.TBP.commands.handling.Checks;
 
 public class Read {
-	public static void run(TB plugin, CommandSender sender, String[] args){
+	public static void run(TB plugin, CommandSender sender, String playerType, String[] args){
 		if(Args.argsLengthCheck(sender, args, 0, 7, plugin.getLanguage().getString("help.pages.read.usage"))){
 			return;
 		}
@@ -33,10 +34,8 @@ public class Read {
 		if(args.length >= 1 && Args.isCmd(cmds, args[0]) == EnumCmds.READ){
 			i++;
 		}
-		boolean bookSet = false;
-		boolean chpSet = false;
-		boolean vSet = false;
-		boolean tranSet = false;
+		boolean bookSet = false, chpSet = false, vSet = false, tranSet = false;
+		boolean favorite = false;
 		while(args.length >= i + 1 && args[i] != null){
 			if(!bookSet && Args.isBook(book, cmds, args, i) != null){
 				book = Args.isBook(book, cmds, args, i);
@@ -51,10 +50,10 @@ public class Read {
 					return;
 				}else if(bookSet && !chpSet){
 					Information.bookInfo(sender, plugin, book);
-					break;
+					return;
 				}else if(bookSet && chpSet){
 					Information.chpInfo(sender, plugin, echp, chp);
-					break;
+					return;
 				}
 			}else if(!tranSet && Args.tranCheck(sender, args[i]) != null){
 				tran = Args.tranCheck(sender, args[i]);
@@ -65,11 +64,20 @@ public class Read {
 				}
 			}else if(!chpSet && !vSet && args[i].contains(":")){
 				String[] chpV = args[i].split(":");
-				chp = chpV[0];
-				v = chpV[1];
+				if(cmds.fromString(chpV[0]) == EnumCmds.FAVORITE){
+					favorite = true;
+					chp = chpV[1];
+					chpSet = true;
+				}else{
+					chp = chpV[0];
+					v = chpV[1];
+					chpSet = true;
+					vSet = true;
+				}
 				i++;
-				chpSet = true;
-				vSet = true;
+			}else if(!favorite && (cmds.fromString(args[i]) == EnumCmds.FAVORITE)){
+				favorite = true;
+				i++;
 			}else{
 				try{
 					if(!chpSet && !vSet){
@@ -92,6 +100,14 @@ public class Read {
 				}
 			}
 		}
-		Verse.check(plugin, sender, bookName, chp, v, tran, book, echp, "get", null, false, false);
+		if(favorite && chpSet){
+			int num = Integer.parseInt(chp);
+			String rec[] = Records.getFavorite(plugin, playerType, sender.getName(), num);
+			bookName = rec[0];
+			chp = rec[1];
+			v = rec[2];
+			tran = rec[3];
+		}
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "get", null, false, false);
 	}
 }

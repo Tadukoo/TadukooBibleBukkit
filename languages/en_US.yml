@@ -31,10 +31,10 @@ books:
   Proverbs: Proverbs is a book of wise sayings by Solomon, Lemuel, and Agur. It talks about seeking wisdom in your youth, holy living, wisdom for leaders, and heeding your parents' advice. It has 31 chapters.
   Ecclesiastes: Ecclesiastes is a book of wisdom written by Solomon about how all worldly pleasures are meaningless, general wisdom, and that everything is worth nothing without God. It has 12 chapters.
   SongofSongs: Song of Songs is a book written by Solomon about how marriage is supposed to be. It has 8 chapters.
-  Isaiah: TBA
-  Jeremiah: TBA
-  Lamentations: TBA
-  Ezekiel: TBA
+  Isaiah: Isaiah is a book written by Isaiah containing prophecies concerning the Messiah, the punishments of Israel and Judah, and the return of Israel from the exile in Babylon. It has 66 chapters.
+  Jeremiah: Jeremiah is a book written by Jeremiah containing prophecies concerning Judah's punishments, the New Covenant, and a record of Judah's exile into Babylon. It has 52 chapters.
+  Lamentations: Lamentations is a book written by Jeremiah containing sorrowful poems about the fall of Jerusalem and the exile of Judah into Babylon. It has 5 chapters.
+  Ezekiel: Ezekiel is a book written by Ezekiel containing prophecies about the judgment of Judah, giving them one last chance to repent and be saved, and the restoration of Israel after their captivity in Babylon. It has 48 chapters.
   Daniel: TBA
   Hosea: TBA
   Joel: TBA
@@ -106,6 +106,7 @@ commands:
   previous: previous
   next: next
   last: last
+  favorite: favorite
   random: random
   getbook: getbook
   sendbook: sendbook
@@ -114,6 +115,7 @@ commands:
   plugin: plugin
   books: books
   translation: translation
+  permission: permission
   config: config
   announce: announce
 help:
@@ -125,6 +127,7 @@ help:
     prev: /bible previous
     next: /bible next
     last: /bible last
+    favorite: /bible favorite
     rand: /bible random
     getb: /bible getbook
     sendb: /bible sendbook
@@ -132,6 +135,7 @@ help:
     plugin: /bible plugin
     books: /bible books
     tran: /bible translation
+    perm: /bible permission
     config: /bible config
     ann: /bible announce
   pages:
@@ -140,20 +144,21 @@ help:
       description: 'Description: Shows you a Bible verse.'
       usage: 'Usage: /bible [book] [chapter] [verse] [translation]'
       aliases: 'Aliases: read, verseread, readverse, vread, and readv.'
-      altusage: 'Alternate Usage: /bible [book] [chapter:verse] [translation] or /bible [alias] [book] [chapter] [verse] [translation]'
+      altusage: 'Alternate Usage: /bible [book] [chapter:verse] [translation] or /bible [alias] [book] [chapter] [verse] [translation] or /bible favorite <#> [translation] or /bible favorite:# [translation]'
       defaults: 'Defaults: /bible {defBook} {defChp} {defV} {defTran}'
       permission: 'Permission: TadukooBible.verse.read'
       replace1: '[chapter] can be replaced with:'
-      replace2: # to list how many chapters are in that book.
+      replace2: '# to list how many chapters are in that book.'
       replace3: info or ? to tell information about that book.
       replace4: '[verse] can be replaced with #, info, or ? to list how many verses are in that chapter.'
     send:
       description: 'Description: Sends a Bible verse to someone.'
-      usage: 'Usage: /bible send <player> <book> <chapter> <verse> [translation] [anonymous]'
+      usage: 'Usage: /bible send <player> <book> <chapter> <verse> [translation] [anonymous] [bypass]'
       aliases: 'Aliases: sendverse, versesend, giveverse, versegive, sendv, vsend, givev, and vgive.'
       permission: 'Permission: TadukooBible.verse.send'
-      altusage: 'Alternate Usage: /bible send <player> <book> <chapter:verse> [translation] ["anonymous"]'
+      altusage: 'Alternate Usage: /bible send <player> <book> <chapter:verse> [translation] ["anonymous"] ["bypass"] or /bible send <player> favorite:# [translation] ["anonymous"] ["bypass"] or /bible favorite <#> [translation] ["anonymous"] ["bypass"]'
       anonynote: Typing anonymous makes it so that you are anonymous in sending the verse. This requires the TadukooBible.anonymous.verse permission.
+      bypassnote: Typing bypass makes it so that you can bypass verse sending settings. This requires the TadukooBible.bypass.verse permission.
     prev:
       description: 'Description: Shows you the verse before the one you read last.'
       usage: 'Usage: /bible previous [translation]'
@@ -171,6 +176,12 @@ help:
       usage: 'Usage: /bible last [translation]'
       aliases: 'Aliases: saved, save, load, lastverse, verselast, lastv, vlast, versesaved, savedverse, vsaved, savedv, vsave, versesave, loadverse, verseload, vload, and loadv.'
       permission: 'Permission: TadukooBible.verse.last'
+    favorite:
+      description: 'Description: Allows you to favorite a Bible verse.'
+      usage: 'Usage: /bible favorite [book] [chapter] [verse] [translation]'
+      aliases: 'Aliases: fav, favor, like, favoriteverse, versefavorite, favverse, versefav, favorverse, versefavor, likeverse, verselike, favoritev, vfavorite, favv, vfav, favorv, vfavor, likev, and vlike.'
+      permission: 'Permission: TadukooBible.verse.favorite'
+      note: '[book] may be replaced with list and [chapter] with [page] to view a list of favorited verses.'
     rand:
       description: 'Description: Shows you a random verse of the Bible.'
       usage: 'Usage: /bible random [book] [chapter] [translation]'
@@ -192,12 +203,13 @@ help:
       note7: '[book] can be replaced with random to get a random book.'
     sendb:
       description: 'Description: Sends part of the Bible in book form to a player.'
-      usage: 'Usage: /bible sendbook <player> <book> <part> [translation] [anonymous]'
+      usage: 'Usage: /bible sendbook <player> <book> <part> [translation] [anonymous] [bypass]'
       aliases: 'Aliases: booksend, sendbible, biblesend, givebook, bookgive, biblegive, givebible, sendb, bsend, giveb, and bgive.'
       defaults: 'Defaults: /bible sendbook <player> <book> <part> {defTran}'
       permission: 'Permission: TadukooBible.book.send'
       note: 'Note: [part #] is not [chapter #]'
-      anonynote: 'Typing anonymous at the end makes it so that you are anonymous in sending the book. This requires the TadukooBible.anonymous.book permission.'
+      anonynote: 'Typing anonymous makes it so that you are anonymous in sending the book. This requires the TadukooBible.anonymous.book permission.'
+      bypassnote: 'Typing bypass makes it so that you can bypass the book sending settings. This requires the TadukooBible.bypass.book permission.'
     info:
       description: 'Description: Tells you information about the plugin, a translation, a book of the Bible, a permission, or lists books, translations, or permissions.'
       usage: 'Usage: /bible info [translation|book|permission|"plugin"|"books"|"translations"|"permissions"] [page]'
@@ -223,6 +235,11 @@ help:
       usage: 'Usage: /bible translation [translation]'
       aliases: 'Aliases: translations, translist, translationslist, listtrans, tran, trans, translationinfo, translationsinfo, transinfo, and traninfo.'
       permission: 'Permission: TadukooBible.info.translation'
+    perm:
+      description: 'Description: Lists the permissions or shows info about a permission.'
+      usage: 'Usage: /bible permission [permission]'
+      aliases: 'Aliases: perm and perms.'
+      permission: 'Permission: Tadukoobible.info.permission'
     config:
       description: 'Description: Shows or changes a setting in the config.yml'
       usage: 'Usage: /bible config <setting> [value]'
@@ -235,6 +252,7 @@ help:
       usage: 'Usage: /bible announce <book> <chapter> <verse> [translation] or /bible announce <book> <chapter:verse> [translation]'
       aliases: 'Aliases: ann, broadcast, broad, shout, and yell.'
       permission: 'Permission: TadukooBible.op.announce'
+      altusage: 'Alternate usage: /bible announce favorite <#> [translation] or /bible announce favorite:# [translation]'
       note: 'You need TadukooBible.verse.announceget to see announcements.'
   nextPage: 
     generic: Type /bible help {nextPage} for the next page.

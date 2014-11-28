@@ -47,11 +47,11 @@ public class Info {
 					}
 					Information.booksList(sender, part);
 					return;
+				}else if(cmd.equalsIgnoreCase("permission") && Checks.permCheck(playerType, plugin, sender, 
+						"bible", "info.permission", permsOn)){
+					Information.perms(sender);
+					return;
 				}
-			}else if(args[1].equalsIgnoreCase("permissions") && Checks.permCheck(playerType, plugin, sender,
-					"bible", "info.permission", permsOn)){
-				Information.perms(sender);
-				return;
 			}else if(perms.fromString(args[1]) != null && Checks.permCheck(playerType, plugin, sender, "bible",
 					"info.permission", permsOn)){
 				perms = perms.fromString(args[1]);

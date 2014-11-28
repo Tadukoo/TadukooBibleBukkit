@@ -12,6 +12,7 @@ public class HelpPages {
 	private static int previousPage = EnumHelp.PREVIOUS.getNum();
 	private static int nextPage = EnumHelp.NEXT.getNum();
 	private static int lastPage = EnumHelp.LAST.getNum();
+	private static int favoritePage = EnumHelp.FAVORITE.getNum();
 	private static int randomPage = EnumHelp.RANDOM.getNum();
 	private static int getbookPage = EnumHelp.GETBOOK.getNum();
 	private static int sendbookPage = EnumHelp.SENDBOOK.getNum();
@@ -19,6 +20,7 @@ public class HelpPages {
 	private static int pluginPage = EnumHelp.PLUGIN.getNum();
 	private static int booksPage = EnumHelp.BOOKS.getNum();
 	private static int translationPage = EnumHelp.TRANSLATION.getNum();
+	private static int permissionPage = EnumHelp.PERMISSION.getNum();
 	private static int configPage = EnumHelp.CONFIG.getNum();
 	private static int announcePage = EnumHelp.ANNOUNCE.getNum();
 	private static int maxPages = EnumHelp.ANNOUNCE2.getNum();
@@ -58,7 +60,7 @@ public class HelpPages {
 		}else if(l3 == "nextPageSpec"){
 			line3 = pageNextspec;
 		}
-		if(l4 != "" && l4 != "nextPage" && l4 != "pageNextSpec"){
+		if(l4 != "" && l4 != "nextPage" && l4 != "nextPageSpec"){
 			line4 = plugin.getLanguage().getString("help.pages." + l4);
 		}else if(l4 == "nextPage"){
 			line4 = pageNext;
@@ -102,27 +104,32 @@ public class HelpPages {
 			line1 = line1.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.next"));
 			line2 = line2.replaceAll("\\{pageType\\}", String.valueOf(lastPage));
 			line2 = line2.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.last"));
-			line3 = line3.replaceAll("\\{pageType\\}", String.valueOf(randomPage));
-			line3 = line3.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.random"));
+			line3 = line3.replaceAll("\\{pageType\\}", String.valueOf(favoritePage));
+			line3 = line3.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.favorite"));
 		}else if(page.equalsIgnoreCase("toc3")){
-			line1 = line1.replaceAll("\\{pageType\\}", String.valueOf(getbookPage));
-			line1 = line1.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.getbook"));
-			line2 = line2.replaceAll("\\{pageType\\}", String.valueOf(sendbookPage));
-			line2 = line2.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.sendbook"));
-			line3 = line3.replaceAll("\\{pageType\\}", String.valueOf(infoPage));
-			line3 = line3.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.info"));
+			line1 = line1.replaceAll("\\{pageType\\}", String.valueOf(randomPage));
+			line1 = line1.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.random"));
+			line2 = line2.replaceAll("\\{pageType\\}", String.valueOf(getbookPage));
+			line2 = line2.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.getbook"));
+			line3 = line3.replaceAll("\\{pageType\\}", String.valueOf(sendbookPage));
+			line3 = line3.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.sendbook"));
 		}else if(page.equalsIgnoreCase("toc4")){
-			line1 = line1.replaceAll("\\{pageType\\}", String.valueOf(pluginPage));
-			line1 = line1.replaceAll("\\{commands\\}", plugin.getLanguage().getString("commands.plugin"));
-			line2 = line2.replaceAll("\\{pageType\\}", String.valueOf(booksPage));
-			line2 = line2.replaceAll("\\{commands\\}", plugin.getLanguage().getString("commands.books"));
-			line3 = line3.replaceAll("\\{pageType\\}", String.valueOf(translationPage));
-			line3 = line3.replaceAll("\\{commands\\}", plugin.getLanguage().getString("commands.translation"));
+			line1 = line1.replaceAll("\\{pageType\\}", String.valueOf(infoPage));
+			line1 = line1.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.info"));
+			line2 = line2.replaceAll("\\{pageType\\}", String.valueOf(pluginPage));
+			line2 = line2.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.plugin"));
+			line3 = line3.replaceAll("\\{pageType\\}", String.valueOf(booksPage));
+			line3 = line3.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.books"));
 		}else if(page.equalsIgnoreCase("toc5")){
-			line1 = line1.replaceAll("\\{pageType\\}", String.valueOf(configPage));
-			line1 = line1.replaceAll("\\{commands\\}", plugin.getLanguage().getString("commands.config"));
-			line2 = line2.replaceAll("\\{pageType\\}", String.valueOf(announcePage));
-			line2 = line2.replaceAll("\\{commands\\}", plugin.getLanguage().getString("commands.announce"));
+			line1 = line1.replaceAll("\\{pageType\\}", String.valueOf(translationPage));
+			line1 = line1.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.translation"));
+			line2 = line2.replaceAll("\\{pageType\\}", String.valueOf(permissionPage));
+			line2 = line2.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.permission"));
+			line3 = line3.replaceAll("\\{pageType\\}", String.valueOf(configPage));
+			line3 = line3.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.config"));
+		}else if(page.equalsIgnoreCase("toc6")){
+			line1 = line1.replaceAll("\\{pageType\\}", String.valueOf(announcePage));
+			line1 = line1.replaceAll("\\{command\\}", plugin.getLanguage().getString("commands.announce"));
 		}else if(page.equalsIgnoreCase("read1") || page.equalsIgnoreCase("read2")){
 			line4 = line4.replaceAll("\\{command\\}", plugin.getLanguage().getString("help.titles.read"));
 		}else if(page.equalsIgnoreCase("send1")){
@@ -131,12 +138,16 @@ public class HelpPages {
 			line4 = line4.replaceAll("\\{command\\}", plugin.getLanguage().getString("help.titles.prev"));
 		}else if(page.equalsIgnoreCase("next1")){
 			line4 = line4.replaceAll("\\{command\\}", plugin.getLanguage().getString("help.titles.next"));
+		}else if(page.equalsIgnoreCase("favorite1")){
+			line4 = line4.replaceAll("\\{command\\}", plugin.getLanguage().getString("help.titles.favorite"));
 		}else if(page.equalsIgnoreCase("rand1")){
-			line4 = line4.replaceAll("\\{command\\}", plugin.getLanguage().getString("help.titles.random"));
+			line4 = line4.replaceAll("\\{command\\}", plugin.getLanguage().getString("help.titles.rand"));
 		}else if(page.equalsIgnoreCase("getb1") || page.equalsIgnoreCase("getb2") || 
 				page.equalsIgnoreCase("getb3")){
 			line4 = line4.replaceAll("\\{command\\}", plugin.getLanguage().getString("help.titles.getb"));
 		}else if(page.equalsIgnoreCase("sendb1")){
+			line4 = line4.replaceAll("\\{command\\}", plugin.getLanguage().getString("help.titles.sendb"));
+		}else if(page.equalsIgnoreCase("sendb2")){
 			line4 = line4.replaceAll("\\{command\\}", plugin.getLanguage().getString("help.titles.sendb"));
 		}else if(page.equalsIgnoreCase("info1") || page.equalsIgnoreCase("info2")){
 			line4 = line4.replaceAll("\\{command\\}", plugin.getLanguage().getString("help.titles.info"));

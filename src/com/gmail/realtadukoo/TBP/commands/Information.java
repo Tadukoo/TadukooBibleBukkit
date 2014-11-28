@@ -25,11 +25,11 @@ public class Information {
 		}else{
 			if(book.getAlias2() == null){
 				aliases = plugin.getLanguage().getString("aliases.one");
-				aliases = aliases.replaceAll("{alias1}", book.getAlias());
+				aliases = aliases.replaceAll("\\{alias1\\}", book.getAlias());
 			}else{
 				aliases = plugin.getLanguage().getString("aliases.two");
-				aliases = aliases.replaceAll("{alias1}", book.getAlias());
-				aliases = aliases.replaceAll("{alias2}", book.getAlias2());
+				aliases = aliases.replaceAll("\\{alias1\\}", book.getAlias());
+				aliases = aliases.replaceAll("\\{alias2\\}", book.getAlias2());
 			}
 		}
 		sender.sendMessage(ChatColor.GREEN + desc);
@@ -39,11 +39,11 @@ public class Information {
 	public static void chpInfo(CommandSender sender, TB plugin, EnumChps echp, String chp){
 		String msg = plugin.getLanguage().getString("command.info.chpinfo");
 		String bookName = echp.getBook();
-		msg = msg.replaceAll("{book}", bookName);
-		msg = msg.replaceAll("{chp}", chp);
+		msg = msg.replaceAll("\\{book\\}", bookName);
+		msg = msg.replaceAll("\\{chp\\}", chp);
 		int v = echp.getNum(Integer.parseInt(chp));
 		String vNum = String.valueOf(v);
-		msg = msg.replaceAll("{vNum}", vNum);
+		msg = msg.replaceAll("\\{vNum\\}", vNum);
 		sender.sendMessage(ChatColor.GREEN + msg);
 	}
 	
@@ -51,21 +51,19 @@ public class Information {
 		if(page.equalsIgnoreCase("2")){
 			sender.sendMessage(ChatColor.GREEN + "Page 2 of 5");
 			sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
-			sender.sendMessage(ChatColor.RED + "1 Chronicles, 2 Chronicles, Ezra, Nehemiah, Esther, Job,");
-			sender.sendMessage(ChatColor.GREEN + "Psalms, Proverbs, Ecclesiastes, Song of Songs," + 
-			ChatColor.RED + " Isaiah");
+			sender.sendMessage(ChatColor.GREEN + "1 Chronicles, 2 Chronicles, Ezra, Nehemiah, Esther, Job,");
+			sender.sendMessage(ChatColor.GREEN + "Psalms, Proverbs, Ecclesiastes, Song of Songs, Isaiah");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible books 3 for the next page.");
 		}else if(page.equalsIgnoreCase("3")){
 			sender.sendMessage(ChatColor.GREEN + "Page 3 of 5");
 			sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
-			sender.sendMessage(ChatColor.RED + "Jeremiah, Lamentations, Ezekiel, Daniel, Hosea, Joel, Amos,");
-			sender.sendMessage(ChatColor.RED + "Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai");
+			sender.sendMessage(ChatColor.GREEN + "Jeremiah, Lamentations, Ezekiel, Daniel, Hosea, Joel, Amos,");
+			sender.sendMessage(ChatColor.GREEN + "Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible books 4 for the next page.");
 		}else if(page.equalsIgnoreCase("4")){
 			sender.sendMessage(ChatColor.GREEN + "Page 4 of 5");
 			sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
-			sender.sendMessage(ChatColor.RED + "Zechariah, Malachi, " + ChatColor.GREEN + "Matthew, Mark, " +
-					"Luke, John, Acts, Romans,");
+			sender.sendMessage(ChatColor.GREEN + "Zechariah, Malachi, Matthew, Mark, Luke, John, Acts, Romans,");
 			sender.sendMessage(ChatColor.GREEN + "1 Corinthians, 2 Corinthians, Galatians, Ephesians, " +
 					"Philippians");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible books 5 for the next page.");
@@ -73,15 +71,14 @@ public class Information {
 			sender.sendMessage(ChatColor.GREEN + "Page 5 of 5");
 			sender.sendMessage(ChatColor.GREEN + "Books of the Bible Cont.:");
 			sender.sendMessage(ChatColor.GREEN + "Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy,");
-			sender.sendMessage(ChatColor.GREEN + "2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter, " +
-					"2 Peter,");
+			sender.sendMessage(ChatColor.GREEN + "2 Timothy, Titus, Philemon, Hebrews, James, 1 Peter, "
+					+ "2 Peter,");
 			sender.sendMessage(ChatColor.GREEN + "1 John, 2 John, 3 John, Jude, and Revelation.");
 		}else{
 			sender.sendMessage(ChatColor.GREEN + "Page 1 of 5");
 			sender.sendMessage(ChatColor.GREEN + "The Books of the Bible are:");
-			sender.sendMessage(ChatColor.GREEN + "Genesis, Exodus, Leviticus, Numbers, Deuteronomy, " +
-					ChatColor.RED + "Joshua,");
-			sender.sendMessage(ChatColor.RED + "Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, 2 Kings");
+			sender.sendMessage(ChatColor.GREEN + "Genesis, Exodus, Leviticus, Numbers, Deuteronomy, Joshua,");
+			sender.sendMessage(ChatColor.GREEN + "Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, 2 Kings");
 			sender.sendMessage(ChatColor.GREEN + "Type /bible books 2 for the next page.");
 		}
 	}
@@ -100,27 +97,35 @@ public class Information {
 		String tran = etran.getTran();
 		String desc = plugin.getLanguage().getString("translations." + tran);
 		String aliases = plugin.getLanguage().getString("aliases.none");
-		if(etran.getAlias() != null){
-			if(etran.getAlias2() != null){
-				if(etran.getAlias3() != null){
-					aliases = plugin.getLanguage().getString("aliases.three");
-					aliases = aliases.replace("{alias3}", etran.getAlias3());
-				}else{
-					aliases = plugin.getLanguage().getString("aliases.two");
-				}
-				aliases = aliases.replace("{alias2}", etran.getAlias2());
-			}else{
-				aliases = plugin.getLanguage().getString("aliases.one");
-			}
-			aliases = aliases.replace("{alias1}", etran.getAlias());
+		int i = 0;
+		if(etran.getAlias3() != null){
+			aliases = plugin.getLanguage().getString("aliases.three");
+			i = 3;
+		}else if(etran.getAlias2() != null){
+			aliases = plugin.getLanguage().getString("aliases.two");
+			i = 2;
+		}else if(etran.getAlias() != null){
+			aliases = plugin.getLanguage().getString("aliases.one");
+			i = 1;
 		}
+		if(i >= 1){
+			aliases = aliases.replaceAll("\\{alias1\\}", etran.getAlias());
+		}
+		if(i >= 2){
+			aliases = aliases.replaceAll("\\{alias2\\}", etran.getAlias2());
+		}
+		if(i == 3){
+			aliases = aliases.replaceAll("\\{alias3\\}", etran.getAlias3());
+		}
+			
 		sender.sendMessage(ChatColor.GREEN + desc);
 		sender.sendMessage(ChatColor.GREEN + aliases);
 	}
 	
 	public static void settings(CommandSender sender) {
-		sender.sendMessage(ChatColor.GREEN + "DefaultTranslation, DefaultBook, DefaultChapter, " +
-				"DefaultVerse, Permissions, PlayerRecords, Books, and KJV.");
+		sender.sendMessage(ChatColor.GREEN + "version, language, startup-checks, statistics.player, "
+				+ "statistics.plugin, default.translation, default.book, default.chapter, default.verse, " +
+				"default.part, permissions, books, debug, and KJV.");
 	}
 	
 	public static void permInfo(CommandSender sender, EnumPerms perms){
@@ -129,6 +134,9 @@ public class Information {
 	}
 	
 	public static void perms(CommandSender sender){
+		/*
+		 * TODO: Change to go through EnumPerms instead.
+		 */
 		sender.sendMessage(ChatColor.GREEN + "All permissions start with TadukooBible. followed by what's " +
 				"below.");
 		sender.sendMessage(ChatColor.GREEN + "*, use, verse.*, book.*, info.*, op.*, anonymous.*, " +

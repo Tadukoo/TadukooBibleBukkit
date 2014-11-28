@@ -10,7 +10,7 @@ import com.gmail.realtadukoo.TBP.commands.Verse;
 import com.gmail.realtadukoo.TBP.commands.handling.Args;
 
 public class Last {
-	public static void run(TB plugin, CommandSender sender, String[] args){
+	public static void run(TB plugin, CommandSender sender, String playerType, String[] args){
 		if(Args.argsLengthCheck(sender, args, 1, 2, "/bible last [translation]")){
 			return;
 		}
@@ -19,7 +19,7 @@ public class Last {
 		if(args.length == 2 && Args.tranCheck(sender, args[1]) != null){
 			tran = Args.tranCheck(sender, args[1]);
 		}
-		String rec[] = Records.getpRecs(plugin, "verse", sender.getName());
+		String rec[] = Records.getpRecs(plugin, playerType, "verse", sender.getName());
 		String bookName = rec[0];
 		EnumBooks book = EnumBooks.GENESIS;
 		book = book.fromString(bookName);
@@ -34,6 +34,6 @@ public class Last {
 			Args.bookNotAvailable(sender, book, tran);
 			return;
 		}*/
-		Verse.check(plugin, sender, bookName, chp, v, tran, book, echp, "get", null, false, false);
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "get", null, false, false);
 	}
 }
