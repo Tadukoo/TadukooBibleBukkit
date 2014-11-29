@@ -1,0 +1,371 @@
+aliases:
+  none: It has no aliases.
+  one: Its alias is {alias1}.
+  two: Its aliases are {alias1} and {alias2}.
+  three: Its aliases are {alias1}, {alias2}, and {alias3}.
+apocrypha:
+  commands:
+    help: 'Usage: /apocrypha help [page|command]'
+  help:
+    pages: 'No commands are yet available.'
+books:
+  Genesis: Genesis is about creation, the fall of man, the great flood, God's covenant with Abraham, Isaac, and Jacob, and how the Israelites end up in Egypt. It was written by Moses and has 50 chapters.
+  Exodus: Exodus is about God freeing the Israelites from their bondage in Egypt through Moses and 10 plagues, the reason for Passover, the Exodus of the Israelites from Egypt,  the 10 Commandments, and priest and worship instructions. It was written by Moses and has 40 chapters.
+  Leviticus: Leviticus is about God's instructions for sacrifices, offerings, the priesthood, unclean things, the Day of Atonement, and general laws for holy living. It was written by Moses and has 27 chapters.
+  Numbers: Numbers is about the preparation of the Israelite's journey into the promised land and the start of this journey, including the sending of spies into the promised land, the Israelites wandering in the desert for 40 years as punishment, and the appointment of Joshua as leader after Moses is banished from entering the land. It was written by Moses and has 36 chapters.
+  Deuteronomy: Deuteronomy is about Moses reviewing the Israelite's history, the Ten Commandments, the instructions on holy living, and committing the Israelites to setting themselves apart unto God. Then Moses blesses each of the tribes, hands over his authority to Joshua, and God allows him to see the promised land before he dies. It was written by Moses and has 34 chapters.
+  Joshua: Joshua is about the Israelites entering the promised land, conquering it, dividing it among the tribes, and Joshua's death, leaving a great challenge for everyone. It was written by Joshua and has 24 chapters.
+  Judges: Judges is about the various judges God raised up for the Israelites to get them back on track with following God after each time they rebelled. It was written by Samuel and has 21 chapters.
+  Ruth: Ruth is a story about how Ruth came to marry Boaz. It shows the love and faithfulness God desires us to have for Him. It was written by Samuel and has 4 chapters.
+  1Samuel: 1 Samuel is a book about Samuel, the last judge of Israel. During his time, Israel wants a king to rule over them, and Saul is selected. Saul turns against God, and David is chosen as the next king. The author is unknown, but it has 31 chapters.
+  2Samuel: 2 Samuel is a book about David, King of Israel at the time. During his reign, there are rebellions against him and we see his sinful side, which he ultimately repents from. The author is unknown, but it has 24 chapters.
+  1Kings: 1 Kings is about the end of King David's reign along with the reign of Solomon and the splitting of the kingdom into Israel and Judah. Its author is unknown, but it has 22 chapters.
+  2Kings: 2 Kings is about the various kings of Israel and Judah who lead the people astray from God. During this time, God sends prophets to lead His people back on track. Its author is unknown, but it has 25 chapters.
+  1Chronicles: 1 Chronicles is about the genealogies of the nation of Israel from Adam and a review of the times from Saul's death through Solomon's reign. It was written by Ezra and has 29 chapters.
+  2Chronicles: 2 Chronicles is about the history of Israel as a united nation under Solomon and its divide and the reigns of the kings of Judah and Israel until their captivity. It was written by Ezra and has 36 chapters.
+  Ezra: Ezra is about the beginning of the Israelites returning to their land after their captivity. They begin rebuilding the temple and Ezra teaches them the Law again. It was written by Ezra and has 10 chapters.
+  Nehemiah: Nehemiah is about the beginnings of the Israelites returning to their land after their captivity. They rebuild the walls in 52 days and begin to reestablish themselves as a nation. It was written by Ezra and has 13 chapters.
+  Esther: Esther is about how Esther becomes queen of Persia through God's help and is able to save the Jews from Haman, a corrupt official of the king. Its author is unknown, but it has 10 chapters.
+  Job: Job is about Job, a man whose faith was tested by God. Job never gave up his faith in God, and he never blamed God for all the pain and sorrow he experienced. The author of Job is unknown, but it has 42 chapters.
+  Psalms: Psalms is a book containing songs and poetry. 73 Psalms were written by David, 12 by Asaph, 9 by the sons of Korah, 3 by Solomon, 1 by Ethan, 1 by Moses, and 51 without a known author. Psalms is mainly about praising God, totaling 150 Psalms.
+  Proverbs: Proverbs is a book of wise sayings by Solomon, Lemuel, and Agur. It talks about seeking wisdom in your youth, holy living, wisdom for leaders, and heeding your parents' advice. It has 31 chapters.
+  Ecclesiastes: Ecclesiastes is a book of wisdom written by Solomon about how all worldly pleasures are meaningless, general wisdom, and that everything is worth nothing without God. It has 12 chapters.
+  SongofSongs: Song of Songs is a book written by Solomon about how marriage is supposed to be. It has 8 chapters.
+  Isaiah: Isaiah is a book written by Isaiah containing prophecies concerning the Messiah, the punishments of Israel and Judah, and the return of Israel from the exile in Babylon. It has 66 chapters.
+  Jeremiah: Jeremiah is a book written by Jeremiah containing prophecies concerning Judah's punishments, the New Covenant, and a record of Judah's exile into Babylon. It has 52 chapters.
+  Lamentations: Lamentations is a book written by Jeremiah containing sorrowful poems about the fall of Jerusalem and the exile of Judah into Babylon. It has 5 chapters.
+  Ezekiel: Ezekiel is a book written by Ezekiel containing prophecies about the judgment of Judah, giving them one last chance to repent and be saved, and the restoration of Israel after their captivity in Babylon. It has 48 chapters.
+  Daniel: Daniel was written by the prophet Daniel around 530BC. During this time, the Israelites were in captivity by the Babylonians. In this book he sees prophesies sent to him by God and he writes about future events. It has 12 chapters.
+  Hosea: Hosea was written by the prophet Hosea around 715 B.C. explaining future events that God showed him would happen later on to the Northern Kingdom. Hosea writes about Israel’s unfaithfulness to God, talking about how God wants to redeem His people. It has 14 chapters.
+  Joel: Joel was written by the prophet Joel around 841 – 835 B.C. It was written to call the southern kingdom into repentance. Key people in this book are Joel and the people of Judah. God promises judgment to any of those who do not repent. It has 3 chapters.
+  Amos: Amos was written by the prophet Amos and talks about God’s Judgment on the Kingdom of Israel. During this time, people were only superficially religious, and were close to judgment. Also, the neighboring towns were also promised judgment, including Damascus, Gaza, Edom, and, Tyre. It has 9 chapters.
+  Obadiah: Obadiah was written by the prophet Obadiah. It focuses on the Edomites. This is the smallest book in the Old Testament. Its main focus is to discuss how God will judge anyone who is against his chosen people, Israel. It has only one chapter.
+  Jonah: Jonah was written by the prophet Jonah around 785 B.C – 760 B.C. This was before Israel’s Northern Kingdom was conquered by Assyria. In it, Jonah disobeys God when he commanded Jonah to go to Nineveh. Jonah boarded a ship instead, thinking he could run from God. He gets swallowed up by a fish. Eventually Jonah does go to Nineveh and warns them. It has 4 chapters.
+  Micah: Micah was written by the prophet Micah around 742 – 686 B.C.  This was after the fall of the Northern Kingdom of Israel.  It goes into depth about the coming judgment of the wicked nations and explains what God wants from man, to walk humbly with him, to fight for justice, and to love kindness. It has 7 chapters.
+  Nahum: Nahum was written by the prophet Nahum around 663 - 612 B.C., just before the fall of Nineveh. Nineveh had repented, but only back in the day of Jonah, at this point they were back to their old ways. Nahum went to speak to them a second time. This happened 120 years after Jonah had done his part. This second time however, Nineveh did not repent. It has 3 chapters.
+  Habakkuk: Habakkuk was written by the prophet Habakkuk around 612 – 589 B.C. He asks God very difficult questions in this book, and God says to him that “He was going to do great things that would not be believable even if someone told him”. All of the powerful nations fell. Toward the end, Habakkuk praised the lord and gave glory to him for answering his questions. It has 3 chapters.
+  Zephaniah: Zephaniah was written by the prophet Zephaniah around 630 B.C. to warn of Judah's fall and to encourage repentance of their sins. It has 3 chapters.
+  Haggai: Haggai was written by the prophet Haggai around 530 B.C. after Israel's exile in Babylon, to encourage Israel in the rebuilding process. It has 2 chapters.
+  Zechariah: Zechariah was written by the prophet Zechariah around 520 - 480 B.C. to encourage the remnant of Israel in the rebuilding process and to tell of the coming Messiah. It has 14 chapters.
+  Malachi: Malachi was written by the prophet Malachi around 430 B.C. to tell of the coming Messiah and the one to prepare the way for Him, that being John the Baptist. It has 4 chapters.
+  Matthew: Matthew tells about Jesus' life, including His birth, genealogy, ministry, miracles, teachings, death, and resurrection. It was written by Matthew and has 28 chapters.
+  Mark: Mark tells about Jesus' life, including His baptism, temptation, ministry, selection of His disciples, teachings, blessings, miracles, death, and resurrection. It was written by John Mark and has 16 chapters.
+  Luke: Luke tells about Jesus' life, including His birth, baptism, ministry, teachings, healings, betrayal, death, and resurrection. It was written by Luke and has 24 chapters.
+  John: John tells about Jesus' life, including His ministry, Last Supper, teachings, death, burial, and resurrection. It was written by John and has 21 chapters.
+  Acts: Acts tells about what the apostles did after Jesus' ascension into Heaven, including the starting of the Christian church, proclaiming the Gospel to Gentiles, and Paul's journeys and difficulties. It was written by Luke and has 28 chapters.
+  Romans: Romans is a letter written to the believers in Rome about the fundamentals of faith, God's sovereignty, and holy living. It was written by Paul and has 16 chapters.
+  1Corinthians: 1 Corinthians is a letter written to the church in Corinth about difficulties and confusion in the church along with the resurrection. It was written by Paul and has 16 chapters.
+  2Corinthians: 2 Corinthians is a letter written to the church in Corinth about being an apostle, preaching the Gospel, and testing your faith. It was written by Paul and has 13 chapters.
+  Galatians: Galatians is a letter written by Paul warning about false teachers and teaching about salvation, the fruits of the Spirit, and walking by the Spirit. It has 6 chapters.
+  Ephesians: Ephesians is a letter written by Paul while he was in prison about being chosen by God, living as a servant of God, and the armor of God. It has 6 chapters.
+  Philippians: Philippians is a letter written by Paul while he was in prison about joy through suffering, the humanity of Jesus, and joy in Christ. It has 4 chapters.
+  Colossians: Colossians is a letter written by Paul while he was in prison about the divinity of Jesus, holy living, and focusing on God. It has 4 chapters.
+  1Thessalonians: 1 Thessalonians is a letter written by Paul about faith, hope, love, the Second Coming, continual prayer, and examining the spirits. It has 5 chapters.
+  2Thessalonians: 2 Thessalonians is a letter written by Paul about the Second Coming, perseverance through persecution, and signs of the end times. It has 3 chapters.
+  1Timothy: 1 Timothy is a letter written by Paul about fighting the good fight, salvation, church leadership, and relationships within the church. It has 6 chapters.
+  2Timothy: 2 Timothy is a letter written by Paul about remaining faithful, endurance through persecution, and being a preacher of the Gospel. It has 4 chapters.
+  Titus: Titus is a letter written by Paul about qualifications for church leaders, holy living, and salvation. It has 3 chapters.
+  Philemon: Philemon is a letter written by Paul while he was in prison to Philemon for forgiveness for Philemon's slave, Onesimus, who ran away and accepted Christ. It has 1 chapter.
+  Hebrews: Hebrews is a letter written by an anonymous author about Jesus being God, the New Covenant as being better than the Old Testament, and the power of faith. It has 13 chapters.
+  James: James is a letter written by James about testing your faith, putting your faith into action, works being evidence of faith, and submitting to God. It has 5 chapters.
+  1Peter: 1 Peter is a letter written by Peter about holy living, serving God, and being alert to deception. It has 5 chapters.
+  2Peter: 2 Peter is a letter written by Peter about the truth of the Gospel and the end times. It has 3 chapters.
+  1John: 1 John teaches about how to discern true teachers, the love of God, and overcoming faith. It was written by John and has 5 chapters.
+  2John: 2 John teaches about focusing on Jesus Christ and not following false teachers. It was written by John and has 1 chapter.
+  3John: 3 John teaches about loving God and other people by walking in the truth. It was written by John and has 1 chapter.
+  Jude: Jude warns us to avoid false teachers and remember the words of the prophets. It was written by Jude and has 1 chapter.
+  Revelation: Revelation is a book of prophecy about what will happen in the future concerning the end times. It was written by John and has 22 chapters.
+command:
+  args:
+    notenougherr: 'Not enough args!'
+    unknownarg: 'Unknown argument {arg}!'
+  announce:
+    mustbebookerr: '{args1} must be a book!'
+  error:
+    unknownsender: 'Unknown sender!'
+    commandnotavailable: 'Sorry, {cmd} is not available yet for {type}.'
+    commanddoesntexist: 'Sorry, that book/command does not exist.'
+    help: 'For help, please type /{type} help.'
+    mustbeplayer: 'You must be a player!'
+    ymldoesntexist: 'Sorry, {tran}/{book}.yml does not exist.'
+    generic: 'An error occured.'
+    chpdoesntexist: 'That chapter does not exist in {book}!'
+    vdoesntexist: 'That verse does not exist in {book} Chapter {chp}!'
+    chpvmustbenums: 'Chapter and verse must be numbers!'
+    chpdoesntexist: '{book} does not have that many chapters!'
+    vdoesntexist: '{book} Chapter {chp} does not have that many verses!'
+    trequirescore: '/t is disabled if two Tadukoo plugins are present, unless Tadukoo Core is present.'
+  favorite:
+    nextpage: 'Type /bible favorite list {num} for the next page'
+  help: '/bible help [page|command]'
+  info:
+    chpinfo: '{book} Chapter {chp} has {vNum} verses.'
+commands:
+  read: read
+  send: send
+  previous: previous
+  next: next
+  last: last
+  favorite: favorite
+  random: random
+  getbook: getbook
+  sendbook: sendbook
+  info: info
+  help: help
+  plugin: plugin
+  books: books
+  translation: translation
+  permission: permission
+  config: config
+  announce: announce
+help:
+  heading: TadukooBible Help Page {helpPage}/{maxPages} {title} ({minorPage}/{maxMinorPages}).
+  titles:
+    toc: Table of Contents
+    read: /bible
+    send: /bible send
+    prev: /bible previous
+    next: /bible next
+    last: /bible last
+    favorite: /bible favorite
+    rand: /bible random
+    getb: /bible getbook
+    sendb: /bible sendbook
+    info: /bible info
+    plugin: /bible plugin
+    books: /bible books
+    tran: /bible translation
+    perm: /bible permission
+    config: /bible config
+    ann: /bible announce
+  pages:
+    toc: Page {pageType}. /bible {command}
+    read:
+      description: 'Description: Shows you a Bible verse.'
+      usage: 'Usage: /bible [book] [chapter] [verse] [translation]'
+      aliases: 'Aliases: read, verseread, readverse, vread, and readv.'
+      altusage: 'Alternate Usage: /bible [book] [chapter:verse] [translation] or /bible [alias] [book] [chapter] [verse] [translation] or /bible favorite <#> [translation] or /bible favorite:# [translation]'
+      defaults: 'Defaults: /bible {defBook} {defChp} {defV} {defTran}'
+      permission: 'Permission: TadukooBible.verse.read'
+      replace1: '[chapter] can be replaced with:'
+      replace2: '# to list how many chapters are in that book.'
+      replace3: info or ? to tell information about that book.
+      replace4: '[verse] can be replaced with #, info, or ? to list how many verses are in that chapter.'
+    send:
+      description: 'Description: Sends a Bible verse to someone.'
+      usage: 'Usage: /bible send <player> <book> <chapter> <verse> [translation] [anonymous] [bypass]'
+      aliases: 'Aliases: sendverse, versesend, giveverse, versegive, sendv, vsend, givev, and vgive.'
+      permission: 'Permission: TadukooBible.verse.send'
+      altusage: 'Alternate Usage: /bible send <player> <book> <chapter:verse> [translation] ["anonymous"] ["bypass"] or /bible send <player> favorite:# [translation] ["anonymous"] ["bypass"] or /bible favorite <#> [translation] ["anonymous"] ["bypass"]'
+      anonynote: Typing anonymous makes it so that you are anonymous in sending the verse. This requires the TadukooBible.anonymous.verse permission.
+      bypassnote: Typing bypass makes it so that you can bypass verse sending settings. This requires the TadukooBible.bypass.verse permission.
+    prev:
+      description: 'Description: Shows you the verse before the one you read last.'
+      usage: 'Usage: /bible previous [translation]'
+      aliases: 'Aliases: pre, prev, back, before, and b4.'
+      permission: 'Permission: TadukooBible.verse.previous'
+      warning: 'This will give a warning if you try to go before Genesis 1:1'
+    next:
+      description: 'Description: Shows you the verse after the one you read last.'
+      usage: 'Usage: /bible next [translation]'
+      aliases: 'Aliases: forward, for, after, aft, nextverse, versenext, nextv, and vnext.'
+      permission: 'Permission: TadukooBible.verse.next'
+      warning: 'This will give a warning if you try to go after Revelation 22:21'
+    last:
+      description: 'Description: Shows you the verse you read last.'
+      usage: 'Usage: /bible last [translation]'
+      aliases: 'Aliases: saved, save, load, lastverse, verselast, lastv, vlast, versesaved, savedverse, vsaved, savedv, vsave, versesave, loadverse, verseload, vload, and loadv.'
+      permission: 'Permission: TadukooBible.verse.last'
+    favorite:
+      description: 'Description: Allows you to favorite a Bible verse.'
+      usage: 'Usage: /bible favorite [book] [chapter] [verse] [translation]'
+      aliases: 'Aliases: fav, favor, like, favoriteverse, versefavorite, favverse, versefav, favorverse, versefavor, likeverse, verselike, favoritev, vfavorite, favv, vfav, favorv, vfavor, likev, and vlike.'
+      permission: 'Permission: TadukooBible.verse.favorite'
+      note: '[book] may be replaced with list and [chapter] with [page] to view a list of favorited verses.'
+    rand:
+      description: 'Description: Shows you a random verse of the Bible.'
+      usage: 'Usage: /bible random [book] [chapter] [translation]'
+      aliases: 'Aliases: rand, randomverse, randomv, verserandom, vrandom, randverse, randv, verserand, and vrand.'
+      permission: 'Permission: TadukooBible.verse.random'
+      note: If no book or chapter are specified, they are random as well.
+    getb:
+      description: 'Description: Gives you part of the Bible in book form.'
+      usage: 'Usage: /bible getbook [book] [part #] [translation] [?]'
+      aliases: 'Aliases: book, bookget, bibleget, getbible, bget, and getb.'
+      defaults: 'Defaults: /bible getbook {defBook} {defPart} {defTran}'
+      permission: 'Permission: TadukooBible.book.get'
+      note: 'Note: [part #] is not [chapter #]'
+      note2: '? is used to show what''s in that part.'
+      note3: '[book] can be replaced with previous or its aliases to get the previous book.'
+      note4: '[book] can be replaced with next or its aliases to get the next book.'
+      note5: '[book] can be replaced with last or its aliases to get the book you got the last time you typed the command.'
+      note6: '[book] can be replaced with list to get a book containing a list of all the books for the translation.'
+      note7: '[book] can be replaced with random to get a random book.'
+    sendb:
+      description: 'Description: Sends part of the Bible in book form to a player.'
+      usage: 'Usage: /bible sendbook <player> <book> <part> [translation] [anonymous] [bypass]'
+      aliases: 'Aliases: booksend, sendbible, biblesend, givebook, bookgive, biblegive, givebible, sendb, bsend, giveb, and bgive.'
+      defaults: 'Defaults: /bible sendbook <player> <book> <part> {defTran}'
+      permission: 'Permission: TadukooBible.book.send'
+      note: 'Note: [part #] is not [chapter #]'
+      anonynote: 'Typing anonymous makes it so that you are anonymous in sending the book. This requires the TadukooBible.anonymous.book permission.'
+      bypassnote: 'Typing bypass makes it so that you can bypass the book sending settings. This requires the TadukooBible.bypass.book permission.'
+    info:
+      description: 'Description: Tells you information about the plugin, a translation, a book of the Bible, a permission, or lists books, translations, or permissions.'
+      usage: 'Usage: /bible info [translation|book|permission|"plugin"|"books"|"translations"|"permissions"] [page]'
+      aliases: 'Aliases: about, abt, and information.'
+      note: Using no parameters defaults to showing plugin info.
+      note2: To view plugin info, you need the TadukooBible.info.plugin permission.
+      note3: To view info about a book, you need the TadukooBible.info.book permission.
+      note4: To view info about a translation, you need the TadukooBible.info.translation permission.
+      note5: To view info about a permission, you need the TadukooBible.info.permission permission.
+    plugin:
+      description: 'Description: Shows info about the plugin.'
+      usage: 'Usage: /bible plugin'
+      aliases: 'Aliases: TB, TadukooBible, TadukooBibleinfo, and plugininfo.'
+      permission: 'Permission: TadukooBible.info.plugin'
+    books:
+      description: 'Description: Lists all the books in the Bible or shows info about a book.'
+      usage: 'Usage: /bible books [page|book]'
+      aliases: 'Aliases: bookslist, listbooks, booklist, booksinfo, bookinfo, infobooks, and infobook.'
+      permission: 'Permission: TadukooBible.info.book'
+      note: 'Books in red are unavailable, while books in green are available.'
+    tran:
+      description: 'Description: Lists available translations or shows info about a translation.'
+      usage: 'Usage: /bible translation [translation]'
+      aliases: 'Aliases: translations, translist, translationslist, listtrans, tran, trans, translationinfo, translationsinfo, transinfo, and traninfo.'
+      permission: 'Permission: TadukooBible.info.translation'
+    perm:
+      description: 'Description: Lists the permissions or shows info about a permission.'
+      usage: 'Usage: /bible permission [permission]'
+      aliases: 'Aliases: perm and perms.'
+      permission: 'Permission: Tadukoobible.info.permission'
+    config:
+      description: 'Description: Shows or changes a setting in the config.yml'
+      usage: 'Usage: /bible config <setting> [value]'
+      aliases: 'Aliases: configuration, settings, set, and options.'
+      permission: 'Permission: TadukooBible.op.config'
+      note: 'Typing a value will set it to that value, while leaving it out will show what the current value is.'
+      note2: '<setting> can be replace with list to list all the settings.'
+    ann:
+      description: 'Description: Announces a Bible verse to the server.'
+      usage: 'Usage: /bible announce <book> <chapter> <verse> [translation] or /bible announce <book> <chapter:verse> [translation]'
+      aliases: 'Aliases: ann, broadcast, broad, shout, and yell.'
+      permission: 'Permission: TadukooBible.op.announce'
+      altusage: 'Alternate usage: /bible announce favorite <#> [translation] or /bible announce favorite:# [translation]'
+      note: 'You need TadukooBible.verse.announceget to see announcements.'
+  nextPage: 
+    generic: Type /bible help {nextPage} for the next page.
+    specific: Type /bible help {nextPage} for more info about {command}.
+permission:
+  donthave: 'You don''t have permission.'
+  need: 'You need {perm}'
+  donthavetran: 'You don''t have permission to use the {tran} translation.'
+permissions:
+  star: 
+    desc: 'Gives all permissions.'
+    children: 'bible.*, apocrypha.*, debug'
+  biblestar:
+    desc: 'Gives all bible permissions.'
+    children: 'use, translation.*, verse.*, book.*, info.*, block.*, receive, op.*, and anonymous.*'
+  versestar: 
+    desc: 'Gives all verse permissions.'
+    children: 'read, send, receive, previous, next, last, favorite, random, and announceget'
+  bookstar: 
+    desc: 'Gives all book permissions.'
+    children: 'get, send, and receive'
+  infostar: 
+    desc: 'Gives all info permissions.'
+    children: 'help, plugin, book, translation, and permission'
+  blockstar:
+    desc: 'Gives all block permissions.'
+    children: 'view, verse, book, and immune'
+  opstar: 
+    desc: 'Gives all op permissions.'
+    children: 'config and announce'
+  anonymousstar: 
+    desc: 'Gives all anonymous permissions.'
+    children: 'verse and book'
+  bypassstar:
+    desc: 'Gives all bypass permissions.'
+    children: 'verse and book'
+  apocryphastar:
+    desc: 'Gives all apocrypha permissions.'
+    children: 'use and info.help'
+  use:
+    desc: 'Gives access to the plugin.'
+  translationstar:
+    desc: 'Gives all translation permissions.'
+    children: 'default and KJV'
+  translationdefault:
+    desc: 'Allows you to use the default translation. Overrides the translation''s permission.'
+  KJV:
+    desc: 'Allows you to use the KJV.'
+  read:
+    desc: 'Allows use of /bible read.'
+  send:
+    desc: 'Allows use of /bible send.'
+  versereceive:
+    desc: 'Allows you to receive verses.'
+  previous:
+    desc: 'Allows use of /bible previous.'
+  next:
+    desc: 'Allows use of /bible next.'
+  last:
+    desc: 'Allows use of /bible last.'
+  favorite:
+    desc: 'Allows use of /bible favorite.'
+  random:
+    desc: 'Allows use of /bible random.'
+  anounceget:
+    desc: 'Allows getting announced verses.'
+  getbook:
+    desc: 'Allows use of /bible getbook.'
+  sendbook:
+    desc: 'Allows use of /bible sendbook.'
+  receivebook:
+    desc: 'Allows you to receive books.'
+  help:
+    desc: 'Allows use of /bible help.'
+  plugin:
+    desc: 'Allows use of /bible plugin and using /bible info for plugin info.'
+  books:
+    desc: 'Allows use of /bible books and using /bible info for book info.'
+  translation:
+    desc: 'Allows use of /bible translation and using /bible info for translation info.'
+  permission:
+    desc: 'Allows use of /bible permission and using /bible info for permission info.'
+  blockview:
+    desc: 'Allows using /bible block to view the current settings.'
+  blockverse:
+    desc: 'Allows using /bible block <player> verse.'
+  blockbook:
+    desc: 'Allows using /bible block <player> book.'
+  blockimmune:
+    desc: 'Makes you immune to being blocked by /bible block.'
+  receive:
+    desc: 'Allows use of /bible receive.'
+  config:
+    desc: 'Allows use of /bible config.'
+  announce:
+    desc: 'Allows use of /bible announce.'
+  anonymousverse:
+    desc: 'Allows you to send verses anonymously.'
+  anonymousbook:
+    desc: 'Allows you to send books anonymously.'
+  bypassverse:
+    desc: 'Allows you to bypass players.yml verse settings.'
+  bypassbook:
+    desc: 'Allows you to bypass players.yml book settings.'
+  apocryphause:
+    desc: 'Allows use of /apocrypha.'
+  apocryphahelp:
+    desc: 'Allows use of /apocrypha help.'
+  debug:
+    desc: 'Shows you debug messages.'
+thelp:
+  title: 'Tadukoo Plugins Help Page 1/1'
+  line1: 'bible'
+  line2: 'apocrypha'
+translations:
+  KJV: KJV is the King James Version. It was started in 1604 and finished in 1611, made for the Church of England after King James decided a new English translation was needed.
