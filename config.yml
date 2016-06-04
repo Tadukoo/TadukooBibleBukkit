@@ -46,3 +46,4 @@ debug: false
 # Enable or disable translations here.
 #(Note: You must still have the files for that translation or it won't work.)
 KJV: true
+OEB: true

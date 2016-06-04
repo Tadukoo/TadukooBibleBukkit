@@ -118,38 +118,78 @@ public class Book{
 	}
 	
 	public static void previous(TB plugin, CommandSender sender, String playerType, String bookName, 
-			String part, String tran, String type, String pName, boolean permsOn) {
-		int bN = Integer.parseInt(part) - 1;
+			String part, String tran, String type, String pName, boolean permsOn, String prevType){
 		String pNum = "";
 		EnumBooks ebook = EnumBooks.GENESIS;
 		String newBook = bookName;
-		if(plugin.getigBook(bookName, tran).contains("Book" + bN)){
-			pNum = String.valueOf(bN);
-		}else{
-			boolean cont = true;
-			while(cont){
-				newBook = ebook.numtoBook(0, "string", "lower", newBook);
-				cont = false;
-				/*
-				 * TODO: Add check for availability using EnumAvail.
-				 * if(ebook.fromString(newBook).isAvailable(tran)){
+		if(prevType.equalsIgnoreCase("part")){
+			int bN = Integer.parseInt(part) - 1;
+			if(plugin.getigBook(bookName, tran).contains("Book" + bN)){
+				pNum = String.valueOf(bN);
+			}else{
+				boolean cont = true;
+				while(cont){
+					newBook = ebook.numtoBook(0, "string", "lower", newBook);
 					cont = false;
-				}*/
+					/*
+					 * TODO: Add check for availability using EnumAvail.
+					 * if(ebook.fromString(newBook).isAvailable(tran)){
+						cont = false;
+					}*/
+				}
+				cont = true;
+				int pNumTest = 1;
+				while(cont){
+					if(plugin.getigBook(newBook, tran).contains("Book" + (pNumTest + 1))){
+						pNumTest++;
+					}else{
+						cont = false;
+					}
+				}
+				pNum = String.valueOf(pNumTest);
 			}
-			pNum = "1";
+		}else if(prevType.equalsIgnoreCase("book")){
+			if(pNum.equalsIgnoreCase("1")){
+				boolean cont = true;
+				while(cont){
+					newBook = ebook.numtoBook(0, "string", "lower", newBook);
+					cont = false;
+					/*
+					 * TODO: Add check for availability using EnumAvail.
+					 * if(ebook.fromString(newBook).isAvailable(tran)){
+						cont = false;
+					}*/
+				}
+			}else{
+				pNum = "1";
+			}
 		}
 		checkAndRun(plugin, sender, playerType, newBook, pNum, tran, ebook, type, pName, false, false, permsOn);
 	}
 	
 	public static void next(TB plugin, CommandSender sender, String playerType, String bookName, String part,
-			String tran, String type, String pName, boolean permsOn) {
-		int bN = Integer.parseInt(part) + 1;
+			String tran, String type, String pName, boolean permsOn, String nextType){
 		String pNum = "";
 		EnumBooks ebook = EnumBooks.GENESIS;
 		String newBook = bookName;
-		if(plugin.getigBook(bookName, tran).contains("Book" + bN)){
-			pNum = String.valueOf(bN);
-		}else{
+		if(nextType.equalsIgnoreCase("part")){
+			int bN = Integer.parseInt(part) + 1;
+			if(plugin.getigBook(bookName, tran).contains("Book" + bN)){
+				pNum = String.valueOf(bN);
+			}else{
+				boolean cont = true;
+				while(cont){
+					newBook = ebook.numtoBook(0, "string", "raise", newBook);
+					cont = false;
+					/*
+					 * TODO: Add check for availability using EnumAvail.
+					 * if(ebook.fromString(newBook).isAvailable(tran)){
+						cont = false;
+					}*/
+				}
+				pNum = "1";
+			}
+		}else if(nextType.equalsIgnoreCase("book")){
 			boolean cont = true;
 			while(cont){
 				newBook = ebook.numtoBook(0, "string", "raise", newBook);

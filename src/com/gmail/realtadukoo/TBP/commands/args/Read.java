@@ -16,7 +16,8 @@ import com.gmail.realtadukoo.TBP.commands.handling.Checks;
 
 public class Read {
 	public static void run(TB plugin, CommandSender sender, String playerType, String[] args){
-		if(Args.argsLengthCheck(sender, args, 0, 7, plugin.getLanguage().getString("help.pages.read.usage"))){
+		if(Args.argsLengthCheck(sender, args, 0, 7, plugin.getLanguage(false).
+				getString("help.pages.read.usage"))){
 			return;
 		}
 		EnumBooks book = EnumBooks.GENESIS;
@@ -46,7 +47,8 @@ public class Read {
 			}else if(args[i].equalsIgnoreCase("info") || args[i].equalsIgnoreCase("?") || 
 					args[i].equalsIgnoreCase("#")){
 				if(vSet || (chpSet && !bookSet)){
-					sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("command.error.generic"));
+					sender.sendMessage(ChatColor.RED + plugin.getLanguage(true).
+							getString("command.error.generic"));
 					return;
 				}else if(bookSet && !chpSet){
 					Information.bookInfo(sender, plugin, book);

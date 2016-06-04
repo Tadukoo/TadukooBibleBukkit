@@ -103,14 +103,14 @@ public enum EnumPerms {
 	// Returns description from language file
 	public String getDesc(){
 		TB plugin = TB.plugin;
-		return plugin.getLanguage().getString("permissions." + nick + ".desc");
+		return plugin.getLanguage(false).getString("permissions." + nick + ".desc");
 	}
 	
 	// Returns children from language file if they exist
 	public String getChildren(){
 		TB plugin = TB.plugin;
 		if(children){
-			return plugin.getLanguage().getString("permissions." + nick + ".children");
+			return plugin.getLanguage(false).getString("permissions." + nick + ".children");
 		}else{
 			return null;
 		}

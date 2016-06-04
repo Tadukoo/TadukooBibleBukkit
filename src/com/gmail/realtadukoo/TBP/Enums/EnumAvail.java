@@ -1,59 +1,102 @@
 package com.gmail.realtadukoo.TBP.Enums;
 
-public enum EnumAvail {
-	KJVTest("KJV", "Testament", "OldTestament"),
-	KJVBook("KJV", "Book", "Isaiah-Malachi"),
-	KJVChp("KJV", "Chapter", "all");
+public enum EnumAvail{
+	GENESIS("false"),
+	EXODUS("false"),
+	LEVITICUS("false"),
+	NUMBERS("false"),
+	DEUTERONOMY("false"),
+	JOSHUA("false"),
+	JUDGES("false"),
+	RUTH("false"),
+	SAMUEl1("false"),
+	SAMUEL2("false"),
+	KINGS1("false"),
+	KINGS2("false"),
+	CHRONICLES1("false"),
+	CHRONICLES2("false"),
+	EZRA("false"),
+	NEHEMIAH("false"),
+	ESTHER("false"),
+	JOB("false"),
+	PSALMS("false"),
+	PROVERBS("false"),
+	ECCLESIASTES("false"),
+	SONGOFSONGS("false"),
+	ISAIAH("false"),
+	JEREMIAH("false"),
+	LAMENTATIONS("false"),
+	EZEKIEL("false"),
+	DANIEL("false"),
+	HOSEA("false"),
+	JOEL("false"),
+	AMOS("false"),
+	OBADIAH("false"),
+	JONAH("false"),
+	MICAH("false"),
+	NAHUM("false"),
+	HABBAKKUK("false"),
+	ZEPHANIAH("false"),
+	HAGGAI("false"),
+	ZECHARIAH("false"),
+	MALACHI("false"),
+	MATTHEW("false"),
+	MARK("false"),
+	LUKE("false"),
+	JOHN("false"),
+	ACTS("false"),
+	ROMANS("false"),
+	CORINTHIANS1("false"),
+	CORINTHIANS2("false"),
+	GALATIANS("false"),
+	EPHESIANS("false"),
+	PHILIPPIANS("false"),
+	COLOSSIANS("false"),
+	THESSALONIANS1("false"),
+	THESSALONIANS2("false"),
+	TIMOTHY1("false"),
+	TIMOTHY2("false"),
+	TITUS("false"),
+	PHILEMON("false"),
+	HEBREWS("false"),
+	JAMES("false"),
+	PETER1("false"),
+	PETER2("false"),
+	JOHN1("false"),
+	JOHN2("false"),
+	JOHN3("false"),
+	JUDE("false"),
+	REVELATION("false");
 	
-	private String tran;
-	private String type;
-	private String unavail1;
-	private String unavail2;
-	private String unavail3;
-	private String unavail4;
-	private String unavail5;
+	private String OEB; // Open English Bible availability (true, false, or partial)
 	
-	private EnumAvail(String tran, String type, String unavail1){
-		this.tran = tran;
-		this.unavail1 = unavail1;
+	private EnumAvail(String OEB){
+		this.OEB = OEB;
 	}
 	
-	public String getTran(){
-		return tran;
+	private int getBook(){
+		return ordinal() + 1;
 	}
 	
-	public String getType(){
-		return type;
-	}
-	
-	public String getUnavail1(){
-		return unavail1;
-	}
-	
-	public String getUnavail2(){
-		return unavail2;
-	}
-	
-	public String getUnavail3(){
-		return unavail3;
-	}
-	
-	public String getUnavail4(){
-		return unavail4;
-	}
-	
-	public String getUnavail5(){
-		return unavail5;
-	}
-	
-	public EnumAvail fromString(String tran, String type) {
-		if (tran != null) {
+	public boolean available(int book, int chapter, int verse, String tran) {
+		if (book != 0 && tran != null) {
 			for (EnumAvail c : EnumAvail.values()) {
-				if (tran.equalsIgnoreCase(c.getTran()) && type.equalsIgnoreCase(c.getType())) {
-					return c;
+				if (book == c.getBook()){
+					if(tran.equalsIgnoreCase("OEB")){
+						if(OEB.equalsIgnoreCase("true")){
+							return true;
+						}else if(OEB.equalsIgnoreCase("false")){
+							return false;
+						}else if(OEB.startsWith("partial")){
+							//String info = OEB.substring(7);
+							//String[] bits = info.split(":");
+							
+							// TODO: Figure out how to handle this.
+						}
+					}
 				}
 			}
 		}
-		return null;
+		return false;
 	}
 }

@@ -18,16 +18,16 @@ public class Information {
 	
 	public static void bookInfo(CommandSender sender, TB plugin, EnumBooks book) {
 		String bookName = book.getBook();
-		String desc = plugin.getLanguage().getString("books." + bookName);
+		String desc = plugin.getLanguage(false).getString("books." + bookName);
 		String aliases = "";
 		if(book.getAlias() == null){
-			aliases = plugin.getLanguage().getString("aliases.none");
+			aliases = plugin.getLanguage(true).getString("aliases.none");
 		}else{
 			if(book.getAlias2() == null){
-				aliases = plugin.getLanguage().getString("aliases.one");
+				aliases = plugin.getLanguage(true).getString("aliases.one");
 				aliases = aliases.replaceAll("\\{alias1\\}", book.getAlias());
 			}else{
-				aliases = plugin.getLanguage().getString("aliases.two");
+				aliases = plugin.getLanguage(true).getString("aliases.two");
 				aliases = aliases.replaceAll("\\{alias1\\}", book.getAlias());
 				aliases = aliases.replaceAll("\\{alias2\\}", book.getAlias2());
 			}
@@ -37,7 +37,7 @@ public class Information {
 	}
 	
 	public static void chpInfo(CommandSender sender, TB plugin, EnumChps echp, String chp){
-		String msg = plugin.getLanguage().getString("command.info.chpinfo");
+		String msg = plugin.getLanguage(false).getString("command.info.chpinfo");
 		String bookName = echp.getBook();
 		msg = msg.replaceAll("\\{book\\}", bookName);
 		msg = msg.replaceAll("\\{chp\\}", chp);
@@ -83,29 +83,33 @@ public class Information {
 		}
 	}
 	
-	public static void tranList(CommandSender sender, TB plugin) {
+	public static void tranList(CommandSender sender, TB plugin){
 		String a = "The available translations are:";
 		String b = "";
-		if(plugin.getConfig().getBoolean("KJV") == true){
-			b = b + "KJV";
+		if(plugin.getConfig().getBoolean("KJV")){
+			b = b + ChatColor.GREEN + "KJV ";
 		}
+		if(plugin.getConfig().getBoolean("OEB")){
+			b = b + ChatColor.GREEN + "OEB ";
+		}
+		
 		sender.sendMessage(ChatColor.GREEN + a);
 		sender.sendMessage(ChatColor.GREEN + b);
 	}
 	
 	public static void tranInfo(CommandSender sender, TB plugin, EnumTrans etran){
 		String tran = etran.getTran();
-		String desc = plugin.getLanguage().getString("translations." + tran);
-		String aliases = plugin.getLanguage().getString("aliases.none");
+		String desc = plugin.getLanguage(false).getString("translations." + tran);
+		String aliases = plugin.getLanguage(true).getString("aliases.none");
 		int i = 0;
 		if(etran.getAlias3() != null){
-			aliases = plugin.getLanguage().getString("aliases.three");
+			aliases = plugin.getLanguage(true).getString("aliases.three");
 			i = 3;
 		}else if(etran.getAlias2() != null){
-			aliases = plugin.getLanguage().getString("aliases.two");
+			aliases = plugin.getLanguage(true).getString("aliases.two");
 			i = 2;
 		}else if(etran.getAlias() != null){
-			aliases = plugin.getLanguage().getString("aliases.one");
+			aliases = plugin.getLanguage(true).getString("aliases.one");
 			i = 1;
 		}
 		if(i >= 1){

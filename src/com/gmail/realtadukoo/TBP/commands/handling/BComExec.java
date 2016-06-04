@@ -12,23 +12,23 @@ import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.commands.apocrypha.args.ApoHelp;
 import com.gmail.realtadukoo.TBP.commands.args.*;
-import com.gmail.realtadukoo.TC.commands.handling.CoreCommandExec;
+import com.gmail.realtadukoo.TC.commands.handling.CComExec;
 
-public class BibleComExec implements CommandExecutor {
+public class BComExec implements CommandExecutor {
 	private static TB plugin;
 	private static boolean permsOn;
-	public BibleComExec(TB plugin, boolean permsOn) {
-		BibleComExec.plugin = plugin;
-		BibleComExec.permsOn = permsOn;
+	public BComExec(TB plugin, boolean permsOn) {
+		BComExec.plugin = plugin;
+		BComExec.permsOn = permsOn;
 	}
 	
 	public static boolean onCommand(CommandSender sender, String cmd, String[] args, String playerType) {
 		EnumCmds cmds = EnumCmds.READ;
 		
-		String unknownSender = plugin.getLanguage().getString("command.error.unknownsender");
-		String notAvailable = plugin.getLanguage().getString("command.error.commandnotavailable");
-		String doesntExist = plugin.getLanguage().getString("command.error.commanddoesntexist");
-		String help = plugin.getLanguage().getString("command.error.help");
+		String unknownSender = plugin.getLanguage(true).getString("command.error.unknownsender");
+		String notAvailable = plugin.getLanguage(false).getString("command.error.commandnotavailable");
+		String doesntExist = plugin.getLanguage(true).getString("command.error.commanddoesntexist");
+		String help = plugin.getLanguage(true).getString("command.error.help");
 		
 		if((cmd.equalsIgnoreCase("bible")) && 
 				Checks.permCheck(playerType, plugin, sender, "Bible", "use", permsOn)){
@@ -190,26 +190,26 @@ public class BibleComExec implements CommandExecutor {
 								onCommand(sender, "apocrypha", args, playerType);
 							}else{
 								sender.sendMessage(ChatColor.RED + 
-										plugin.getLanguage().getString("command.args.unknownarg"));
+										plugin.getLanguage(true).getString("command.args.unknownarg"));
 							}
 						}else{
 							sender.sendMessage(ChatColor.GREEN + 
-									plugin.getLanguage().getString("thelp.title"));
+									plugin.getLanguage(false).getString("thelp.title"));
 							sender.sendMessage(ChatColor.GREEN + 
-									plugin.getLanguage().getString("thelp.line1"));
+									plugin.getLanguage(false).getString("thelp.line1"));
 							sender.sendMessage(ChatColor.GREEN + 
-									plugin.getLanguage().getString("thelp.line2"));
+									plugin.getLanguage(false).getString("thelp.line2"));
 						}
 					}
 				}else{
-					String error = plugin.getLanguage().getString("command.args.notenougherr");
+					String error = plugin.getLanguage(true).getString("command.error.notenoughargs");
 					sender.sendMessage(ChatColor.RED + error);
 				}
 			}else if(TB.TadukooCore){
-				CoreCommandExec ce = new CoreCommandExec(TB.TadukooCoreClass);
+				CComExec ce = new CComExec();
 				ce.onCommand(sender, cmd, commandLabel, args);
 			}else if(TB.otherTPlugin && !TB.TadukooCore){
-				String error = plugin.getLanguage().getString("command.error.trequirescore");
+				String error = plugin.getLanguage(false).getString("command.error.trequirescore");
 				sender.sendMessage(ChatColor.RED + error);
 			}
 			return true;

@@ -14,7 +14,8 @@ import com.gmail.realtadukoo.TBP.commands.handling.Args;
 
 public class Announce {
 	public static void run(TB plugin, CommandSender sender, String playerType, String[] args){
-		if(Args.argsLengthCheck(sender, args, 2, 7, plugin.getLanguage().getString("help.pages.ann.usage"))){
+		if(Args.argsLengthCheck(sender, args, 2, 7, plugin.getLanguage(false).
+				getString("help.pages.ann.usage"))){
 			return;
 		}
 		EnumBooks book = EnumBooks.GENESIS;
@@ -99,7 +100,7 @@ public class Announce {
 			vSet = true;
 		}
 		if(!bookSet || !chpSet || !vSet){
-			sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("help.pages.ann.usage"));
+			sender.sendMessage(ChatColor.RED + plugin.getLanguage(false).getString("help.pages.ann.usage"));
 			return;
 		}
 		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "announce", null, false, 

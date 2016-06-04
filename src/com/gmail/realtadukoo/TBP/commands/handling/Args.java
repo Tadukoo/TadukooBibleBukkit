@@ -24,6 +24,7 @@ public class Args {
 	
 	public static String tranCheck(CommandSender sender, String tran) {
 		EnumTrans etran = EnumTrans.KJV;
+		etran = etran.getDefault();
 		if(etran.fromString(tran) != null){
 			etran = etran.fromString(tran);
 			if(etran.isAvailable()){
@@ -137,7 +138,7 @@ public class Args {
 	}
 	
 	public static void unknownArg(TB plugin, CommandSender sender, String arg){
-		String error = plugin.getLanguage().getString("command.args.unknownarg");
+		String error = plugin.getLanguage(true).getString("command.error.unknownarg");
 		error = error.replaceAll("\\{arg\\}", arg);
 		sender.sendMessage(ChatColor.RED + error);
 	}

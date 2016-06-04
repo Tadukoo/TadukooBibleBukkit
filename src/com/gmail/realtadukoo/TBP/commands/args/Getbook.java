@@ -27,6 +27,7 @@ public class Getbook {
 		etran = etran.getDefault();
 		String bookName = book.getBook();
 		String tran = etran.getTran();
+		String specArg = null;
 		int i = 1;
 		boolean random = false, list = false, previous = false, next = false, last = false;
 		boolean bookSet = false, partSet = false, tranSet = false;
@@ -45,11 +46,13 @@ public class Getbook {
 				tran = Args.tranCheck(sender, args[i]);
 				tranSet = true;
 				i++;
-			}else if(!previous && cmds.fromString(args[i]) == EnumCmds.PREVIOUS){
+			}else if(!previous && cmds.containsCommand("previous", args[i])){
 				previous = true;
+				specArg = args[i];
 				i++;
-			}else if(!next && cmds.fromString(args[i]) == EnumCmds.NEXT){
+			}else if(!next && cmds.containsCommand("next", args[i])){
 				next = true;
+				specArg = args[i];
 				i++;
 			}else if(!last && cmds.fromString(args[i]) == EnumCmds.LAST){
 				last = true;
@@ -89,20 +92,45 @@ public class Getbook {
 				tran = TB.getpRec().getString(ID + ".lastbook.tran");
 			}
 			if(previous){
+				String type = "part";
+				if(specArg.contains(":")){
+					type = specArg.split(":")[1];
+				}
 				if(bookName.equalsIgnoreCase("Genesis") && part.equalsIgnoreCase("1")){
 					sender.sendMessage(ChatColor.RED + "Sorry, Genesis Part 1 is the first book. You can't go "
 							+ "before it!");
 					return;
+				}else if(type.equalsIgnoreCase("book") && bookName.equalsIgnoreCase("Genesis") && 
+						part.equalsIgnoreCase("1")){
+					sender.sendMessage(ChatColor.RED + "Sorry, Genesis is the first book of the Bible. You "
+							+ "can't go before it!");
+					return;
+				}else if(!(type.equalsIgnoreCase("part") || type.equalsIgnoreCase("book"))){
+					sender.sendMessage(ChatColor.RED + "Unknown previous type \"" + type + 
+							"\"! Valid types are part and book.");
+					return;
 				}
-				Book.previous(plugin, sender, playerType, bookName, part, tran, "get", pName, permsOn);
+				Book.previous(plugin, sender, playerType, bookName, part, tran, "get", pName, permsOn, type);
 				return;
 			}else if(next){
+				String type = "part";
+				if(specArg.contains(":")){
+					type = specArg.split(":")[1];
+				}
 				if(bookName.equalsIgnoreCase("Revelation") && part.equalsIgnoreCase("6")){
 					sender.sendMessage(ChatColor.RED + "Sorry, Revelation Part 6 is the last book. You can't "
 							+ "go after it!");
 					return;
+				}else if(type.equalsIgnoreCase("book") && bookName.equalsIgnoreCase("Revelation")){
+					sender.sendMessage(ChatColor.RED + "Sorry, Revelation is the last book of the Bible. You "
+							+ "can't go after it!");
+					return;
+				}else if(!(type.equalsIgnoreCase("part") || type.equalsIgnoreCase("book"))){
+					sender.sendMessage(ChatColor.RED + "Unknown next type \"" + type + 
+							"\"! Valid types are part and book.");
+					return;
 				}
-				Book.next(plugin, sender, playerType, bookName, part, tran, "get", pName, permsOn);
+				Book.next(plugin, sender, playerType, bookName, part, tran, "get", pName, permsOn, type);
 				return;
 			}
 		}

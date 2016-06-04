@@ -3,7 +3,8 @@ package com.gmail.realtadukoo.TBP.Enums;
 import com.gmail.realtadukoo.TBP.TB;
 
 public enum EnumTrans {
-	KJV("KJV", "KJB", "AV", "KJ", TB.config.getBoolean("KJV"), true, 1);
+	KJV("KJV", "KJB", "AV", "KJ", TB.config.getBoolean("KJV"), true),
+	OEB("OEB", "OE", "OEV", TB.config.getBoolean("OEB"), false);
 	
 	private String tran;
 	private String alias;
@@ -11,17 +12,39 @@ public enum EnumTrans {
 	private String alias3;
 	private boolean available;
 	private boolean complete;
-	private int num;
 	
+	/*
+	 * Constructor for 1 alias
+	 */
+	private EnumTrans(String tran, String alias, boolean available, boolean complete){
+		this.tran = tran;
+		this.alias = alias;
+		this.available = available;
+		this.complete = complete;
+	}
+	
+	/*
+	 * Constructor for 2 aliases
+	 */
+	private EnumTrans(String tran, String alias, String alias2, boolean available, boolean complete){
+		this.tran = tran;
+		this.alias = alias;
+		this.alias2 = alias2;
+		this.available = available;
+		this.complete = complete;
+	}
+	
+	/*
+	 * Constructor for 3 aliases
+	 */
 	private EnumTrans(String tran, String alias, String alias2, String alias3, boolean available, 
-			boolean complete, int num){
+			boolean complete){
 		this.tran = tran;
 		this.alias = alias;
 		this.alias2 = alias2;
 		this.alias3 = alias3;
 		this.available = available;
 		this.complete = complete;
-		this.num = num;
 	}
 	
 	public String getTran(){
@@ -49,7 +72,7 @@ public enum EnumTrans {
 	}
 	
 	public int getNum(){
-		return num;
+		return ordinal() + 1;
 	}
 	
 	public EnumTrans getDefault(){
@@ -62,15 +85,15 @@ public enum EnumTrans {
 	    if (tran != null) {
 	      for (EnumTrans c : EnumTrans.values()) {
 	        if (tran.equalsIgnoreCase(c.getTran()) || tran.equalsIgnoreCase(c.getAlias())
-	        		|| tran.equalsIgnoreCase(c.getAlias2()) || tran.equalsIgnoreCase(c.getAlias3())) {
+	        		|| tran.equalsIgnoreCase(c.getAlias2()) || tran.equalsIgnoreCase(c.getAlias3())){
 	          return c;
 	        }
 	      }
 	    }
 	    return null;
-	  }
+	}
 	
-	public String numtoTran(int num,String alter){
+	public String numtoTran(int num, String alter){
 		if(alter == "raise"){
 			num = num + 1;
 		}else if(alter == "lower"){

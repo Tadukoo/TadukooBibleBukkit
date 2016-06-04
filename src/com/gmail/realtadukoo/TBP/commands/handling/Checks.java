@@ -13,7 +13,7 @@ import com.gmail.realtadukoo.TBP.commands.References;
 public class Checks {
 	public static boolean consoleCheck(TB plugin, CommandSender sender, String playerType) {
 		if(playerType == "console"){
-			sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("command.error.mustbeplayer"));
+			sender.sendMessage(ChatColor.RED + plugin.getLanguage(true).getString("command.error.mustbeplayer"));
 			return false;
 		}else{
 			return true;
@@ -23,7 +23,7 @@ public class Checks {
 	public static boolean checkForYML(TB plugin, CommandSender sender, String bookName, String tran) {
 		if(plugin.getBook(bookName, tran) == null){
 			if(sender != null){
-				String error = plugin.getLanguage().getString("command.error.ymldoesntexist");
+				String error = plugin.getLanguage(false).getString("command.error.ymldoesntexist");
 				error = error.replaceAll("\\{tran\\}", tran);
 				error = error.replaceAll("\\{book\\}", bookName);
 				sender.sendMessage(ChatColor.RED + error);
@@ -38,8 +38,8 @@ public class Checks {
 			String perm, boolean permsOn){
 		if(permsOn && playerType == "player"){
 			Player player = (Player) sender;
-			String donthave = plugin.getLanguage().getString("permission.donthave");
-			String need = plugin.getLanguage().getString("permission.need");
+			String donthave = plugin.getLanguage(true).getString("permission.donthave");
+			String need = plugin.getLanguage(true).getString("permission.need");
 			if(type == "Bible"){
 				if(player.hasPermission("TadukooBible." + perm)){
 					return true;
@@ -59,7 +59,7 @@ public class Checks {
 					return false;
 				}
 			}else{
-				sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("command.error.generic"));
+				sender.sendMessage(ChatColor.RED + plugin.getLanguage(true).getString("command.error.generic"));
 				return false;
 			}
 		}else{
@@ -71,9 +71,9 @@ public class Checks {
 		EnumTrans etran = EnumTrans.KJV;
 		EnumTrans defaultTran = etran.getDefault();
 		boolean defTran;
-		String donthave = plugin.getLanguage().getString("permission.donthavetran");
+		String donthave = plugin.getLanguage(false).getString("permission.donthavetran");
 		donthave = donthave.replaceAll("\\{tran\\}", tran);
-		String need = plugin.getLanguage().getString("permission.need");
+		String need = plugin.getLanguage(true).getString("permission.need");
 		if(etran.fromString(tran) == defaultTran){
 			defTran = true;
 		}else{
@@ -106,21 +106,22 @@ public class Checks {
 			EnumChps echp = EnumChps.GENESIS;
 			echp = echp.fromString(bookName, 0);
 			if(Integer.parseInt(chp) > book.getChp()){
-				String chpdoesntexist = plugin.getLanguage().getString("command.error.chpdoesntexist");
+				String chpdoesntexist = plugin.getLanguage(false).getString("command.error.chpdoesntexist");
 				chpdoesntexist = chpdoesntexist.replaceAll("\\{book\\}", bookName);
 				sender.sendMessage(ChatColor.RED + chpdoesntexist);
 				return null;
 			}
 			if(Integer.parseInt(v) > echp.getNum(Integer.parseInt(chp))){
-				String vdoesntexist = plugin.getLanguage().getString("command.error.vdoesntexist");
+				String vdoesntexist = plugin.getLanguage(false).getString("command.error.vdoesntexist");
 				vdoesntexist = vdoesntexist.replaceAll("\\{book\\}", bookName);
 				vdoesntexist = vdoesntexist.replaceAll("\\{chp\\}", chp);
 				sender.sendMessage(ChatColor.RED + vdoesntexist);
 				return null;
 			}
 		}catch(NumberFormatException e){
-			sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("command.error.chpvmustbenums"));
-			sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("help.pages.ann.usage"));
+			sender.sendMessage(ChatColor.RED + plugin.getLanguage(false).
+					getString("command.error.chpvmustbenums"));
+			sender.sendMessage(ChatColor.RED + plugin.getLanguage(false).getString("help.pages.ann.usage"));
 			return null;
 		}
 		String ref = References.makeRef(book, chp, v);

@@ -3,6 +3,7 @@ package com.gmail.realtadukoo.TBP;
 import java.io.File;
 import java.io.IOException;
 import java.io.Reader;
+import java.util.UUID;
 import java.util.logging.Level;
 
 import org.bukkit.configuration.file.FileConfiguration;
@@ -10,10 +11,11 @@ import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.gmail.realtadukoo.TBP.commands.handling.BibleComExec;
+import com.gmail.realtadukoo.TBP.commands.handling.BComExec;
+import com.gmail.realtadukoo.TBPB.TBB;
 import com.gmail.realtadukoo.TC.TC;
 
-public class TB extends JavaPlugin {
+public class TB extends JavaPlugin{
 	// Used by other classes to use functions in here
 	public static TB plugin;
 	
@@ -53,8 +55,12 @@ public class TB extends JavaPlugin {
 	public static boolean TadukooCore;
 	public static TC TadukooCoreClass;
 	
+	// Used for Tadukoo Bible Books
+	public static boolean TadukooBibleBooks;
+	public static TBB TadukooBibleBooksClass;
+	
 	@Override
-	public void onDisable () {
+	public void onDisable(){
 		// Save player records
 		savepRec();
 		
@@ -72,7 +78,7 @@ public class TB extends JavaPlugin {
 		saveConfig();
 	}
 	@Override
-	public void onEnable () {
+	public void onEnable(){
 		// Load players.yml
 		reloadpRec();
 		
@@ -95,23 +101,24 @@ public class TB extends JavaPlugin {
 		perms = getConfig().getBoolean("permissions");
 		
 		//Check for other Tadukoo plugins.
-		checkForOtherTadukooPlugins();
+		checkTadukooPlugins();
 		
 		// Load commands from the command executor class.
-		getCommand("bible").setExecutor(new BibleComExec(this, perms));
-		getCommand("apocrypha").setExecutor(new BibleComExec(this, perms));
-		getCommand("t").setExecutor(new BibleComExec(this, perms));
+		getCommand("bible").setExecutor(new BComExec(this, perms));
+		getCommand("apocrypha").setExecutor(new BComExec(this, perms));
+		getCommand("t").setExecutor(new BComExec(this, perms));
 		
 		// Register event (PlayerJoinEvent saves UUID and player name)
-		getServer().getPluginManager().registerEvents(new BiblePlayerListener(this), this);
+		getServer().getPluginManager().registerEvents(new BPlayerListener(this), this);
 	}
 	
 	/*
 	 * Checks for other Tadukoo plugins (Used for /t)
 	 */
-	private void checkForOtherTadukooPlugins() {
+	private void checkTadukooPlugins(){
 		if(getServer().getPluginManager().getPlugin("Tadukoo_Adjustments") != null || 
 				getServer().getPluginManager().getPlugin("Tadukoo_Bible_Books") != null || 
+				getServer().getPluginManager().getPlugin("Tadukoo_Core") != null ||
 				getServer().getPluginManager().getPlugin("Tadukoo_Chat") != null ||
 				getServer().getPluginManager().getPlugin("Tadukoo_Essentials") != null ||
 				getServer().getPluginManager().getPlugin("Tadukoo_Fake_Op") != null ||
@@ -122,18 +129,51 @@ public class TB extends JavaPlugin {
 		}else{
 			otherTPlugin = false;
 		}
-		if(getServer().getPluginManager().getPlugin("Tadukoo_Core") != null){
-			TadukooCore = true;
-			TadukooCoreClass = (TC) getServer().getPluginManager().getPlugin("Tadukoo_Core");
+		if(otherTPlugin){
+			/*
+			 *  Add checks for other plugins and run the classes' updateTadukooPlugins functions.
+			 */
+			if(getServer().getPluginManager().getPlugin("Tadukoo_Core") != null){
+				TadukooCore = true;
+				TadukooCoreClass = (TC) getServer().getPluginManager().getPlugin("Tadukoo_Core");
+				TadukooCoreClass.updateTadukooPlugins(true, false, false, false, false, false, false, false, 
+						false);
+			}else{
+				TadukooCore = false;
+			}
+			
+			if(getServer().getPluginManager().getPlugin("Tadukoo_Bible_Books") != null){
+				TadukooBibleBooks = true;
+				TadukooBibleBooksClass = (TBB) getServer().getPluginManager().getPlugin("Tadukoo_Bible_Books");
+			}else{
+				TadukooBibleBooks = false;
+			}
 		}else{
 			TadukooCore = false;
+			TadukooBibleBooks = false;
+		}
+	}
+	
+	/*
+	 * Used by other Tadukoo plugins so that none are missed.
+	 */
+	public void updateTadukooPlugins(boolean Bible, boolean BibleBooks, boolean Chat, boolean Core, 
+			boolean Essentials, boolean FakeOp, boolean MobSpawning, boolean Perms, boolean VanillaFeel){
+		if(BibleBooks){
+			TadukooBibleBooks = true;
+			TadukooBibleBooksClass = (TBB) getServer().getPluginManager().getPlugin("Tadukoo_Bible_Books");
+		}else if(Core){
+			TadukooCore = true;
+			TadukooCoreClass = (TC) getServer().getPluginManager().getPlugin("Tadukoo_Core");
+		}else if(Chat || Essentials || FakeOp || MobSpawning || Perms || VanillaFeel){
+			otherTPlugin = true;
 		}
 	}
 	
 	/*
 	 * Gets a book of the Bible in the translation specified.
 	 */
-	public FileConfiguration getBook(String bookName, String tran) {
+	public FileConfiguration getBook(String bookName, String tran){
 		bookFile = new File(getDataFolder(), tran + "/" + bookName + ".yml");
 		book = YamlConfiguration.loadConfiguration(bookFile);
 		return book;
@@ -142,7 +182,7 @@ public class TB extends JavaPlugin {
 	/*
 	 * Loads a yml file for Minecraft books in the translation specified.
 	 */
-	public void reloadigBook(String bookName, String tran) {
+	public void reloadigBook(String bookName, String tran){
 	    igbookFile = new File(getDataFolder(), tran + "/" + bookName + "Book.yml");
 	    igbook = YamlConfiguration.loadConfiguration(igbookFile);
 	    igbookBook = bookName;
@@ -152,9 +192,9 @@ public class TB extends JavaPlugin {
 	/*
 	 * Gets a yml file for Minecraft books in the translation specified.
 	 */
-	public FileConfiguration getigBook(String bookName, String tran) {
-	    if (igbook == null || (igbookTran != null && tran != igbookTran) || 
-	    		(igbookBook != null && bookName != igbookBook)) {
+	public FileConfiguration getigBook(String bookName, String tran){
+	    if(igbook == null || (igbookTran != null && tran != igbookTran) || 
+	    		(igbookBook != null && bookName != igbookBook)){
 	        this.reloadigBook(bookName, tran);
 	    }
 	    return igbook;
@@ -163,15 +203,17 @@ public class TB extends JavaPlugin {
 	/*
 	 * Saves a yml file for Minecraft books in the translation specified.
 	 */
-	public void saveigBook(String bookName, String tran) {
-	    if (igbook == null || igbookFile == null) {
-	    return;
+	public void saveigBook(String bookName, String tran){
+	    if(igbook == null || igbookFile == null){
+	    	return;
 	    }
-	    try {
+	    
+	    try{
 	        getigBook(bookName, tran).save(igbookFile);
-	    } catch (IOException ex) {
+	    }catch(IOException ex){
 	        this.getLogger().log(Level.SEVERE, "Could not save config to " + igbookFile + ex);
 	    }
+	    
 	    igbook = null;
 	    igbookFile = null;
 	    igbookBook = null;
@@ -181,18 +223,19 @@ public class TB extends JavaPlugin {
 	/*
 	 * Load players.yml
 	 */
-	public void reloadpRec() {
-	    if (pRecFile == null) {
+	public void reloadpRec(){
+	    if(pRecFile == null){
 	    	pRecFile = new File(getDataFolder(), "players.yml");
 	    }
+	    
 	    pRec = YamlConfiguration.loadConfiguration(pRecFile);
 	}
 	
 	/*
 	 * Get players.yml
 	 */
-	public static FileConfiguration getpRec() {
-	    if (pRec == null) {
+	public static FileConfiguration getpRec(){
+	    if(pRec == null){
 	        plugin.reloadpRec();
 	    }
 	    return pRec;
@@ -201,13 +244,14 @@ public class TB extends JavaPlugin {
 	/*
 	 * Save players.yml
 	 */
-	public static void savepRec() {
-	    if (pRec == null || pRecFile == null) {
-	    return;
+	public static void savepRec(){
+	    if(pRec == null || pRecFile == null){
+	    	return;
 	    }
-	    try {
+	    
+	    try{
 	        getpRec().save(pRecFile);
-	    } catch (IOException ex) {
+	    }catch(IOException ex){
 	        plugin.getLogger().log(Level.SEVERE, "Could not save player records to " + pRecFile + ex);
 	    }
 	}
@@ -218,19 +262,21 @@ public class TB extends JavaPlugin {
 	public void reloadLanguage(){
 		String Language = config.getString("language");
 		
-	    if (languageFile == null) {
+	    if(languageFile == null){
 	    	languageFile = new File(getDataFolder(), "languages/" + Language + ".yml");
 	    }
+	    
 	    language = YamlConfiguration.loadConfiguration(languageFile);
 	 
 	    Reader defConfigFile = this.getTextResource("languages/" + Language + ".yml");
-	    if (defConfigFile == null) {
+	    if(defConfigFile == null){
 	    	this.getLogger().log(Level.WARNING, "Couldn't find " + Language + " language file in plugin!");
 	    	this.getLogger().log(Level.WARNING, "Setting to en_US...");
 	    	config.set("language", "en_US");
 	    	saveConfig();
 	    	defConfigFile = this.getTextResource("languages/en_US.yml");
 	    }
+	    
 	    YamlConfiguration defConfig = YamlConfiguration.loadConfiguration(defConfigFile);
 	    language.setDefaults(defConfig);
 	}
@@ -238,54 +284,77 @@ public class TB extends JavaPlugin {
 	/*
 	 * Get a language.
 	 */
-	public FileConfiguration getLanguage() {
-	    if (language == null) {
+	public FileConfiguration getLanguage(boolean Core){
+		if(Core && TadukooCore){
+			TadukooCoreClass.getLanguage();
+		}
+		
+	    if(language == null){
 	        this.reloadLanguage();
 	    }
+	    
 	    return language;
 	}
 	
 	/*
 	 * Load playerList.yml
 	 */
-	public void reloadPlayerList() {
+	public void reloadPlayerList(){
 		if(TadukooCore){
 			TadukooCoreClass.reloadPlayerList();
 		}else{
-			if (playersFile == null) {
+			if(playersFile == null){
 				playersFile = new File(getDataFolder(), "playerList.yml");
 			}
+			
 			players = YamlConfiguration.loadConfiguration(playersFile);
 		}
 	}
 	
 	/*
-	 * Get playerList.yml
+	 * Get a UUID from playerList.yml
 	 */
-	public FileConfiguration getPlayerList() {
+	public UUID getUUID(String player){
 		if(TadukooCore){
-			return TadukooCoreClass.getPlayerList();
+			return TadukooCoreClass.getUUID(player);
 		}else{
-			if (players == null) {
+			if(players == null){
 				plugin.reloadPlayerList();
 			}
-			return players;
+			
+			return UUID.fromString(players.getString(player));
+		}
+	}
+	
+	/*
+	 * Set a UUID in playerList.yml
+	 */
+	public void setUUID(String player, UUID ID){
+		if(TadukooCore){
+			TadukooCoreClass.setUUID(player, ID);
+		}else{
+			if(players == null){
+				plugin.reloadPlayerList();
+			}
+			
+			players.set(player, ID.toString());
 		}
 	}
 	
 	/*
 	 * Save playerList.yml
 	 */
-	public void savePlayerList() {
+	public void savePlayerList(){
 		if(TadukooCore){
 			TadukooCoreClass.savePlayerList();
 		}else{
-			if (players == null || playersFile == null) {
+			if(players == null || playersFile == null){
 				return;
 			}
-			try {
-				getPlayerList().save(playersFile);
-			} catch (IOException ex) {
+			
+			try{
+				players.save(playersFile);
+			}catch(IOException ex){
 				plugin.getLogger().log(Level.SEVERE, "Could not save player records to " + playersFile + ex);
 			}
 		}

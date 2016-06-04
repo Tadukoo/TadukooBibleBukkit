@@ -14,7 +14,7 @@ import com.gmail.realtadukoo.TBP.commands.handling.Checks;
 public class Favorite {
 	public static void run(TB plugin, CommandSender sender, String playerType, String[] args){
 		if(Args.argsLengthCheck(sender, args, 1, 7, 
-				plugin.getLanguage().getString("help.pages.favorite.usage"))){
+				plugin.getLanguage(false).getString("help.pages.favorite.usage"))){
 			return;
 		}
 		String rec[] = Records.getpRecs(plugin, playerType, "verse", sender.getName());

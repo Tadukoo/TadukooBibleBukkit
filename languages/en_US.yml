@@ -76,15 +76,12 @@ books:
   Jude: Jude warns us to avoid false teachers and remember the words of the prophets. It was written by Jude and has 1 chapter.
   Revelation: Revelation is a book of prophecy about what will happen in the future concerning the end times. It was written by John and has 22 chapters.
 command:
-  args:
-    notenougherr: 'Not enough args!'
-    unknownarg: 'Unknown argument {arg}!'
   announce:
     mustbebookerr: '{args1} must be a book!'
   error:
     unknownsender: 'Unknown sender!'
     commandnotavailable: 'Sorry, {cmd} is not available yet for {type}.'
-    commanddoesntexist: 'Sorry, that book/command does not exist.'
+    commanddoesntexist: 'Sorry, that command does not exist.'
     help: 'For help, please type /{type} help.'
     mustbeplayer: 'You must be a player!'
     ymldoesntexist: 'Sorry, {tran}/{book}.yml does not exist.'
@@ -95,6 +92,8 @@ command:
     chpdoesntexist: '{book} does not have that many chapters!'
     vdoesntexist: '{book} Chapter {chp} does not have that many verses!'
     trequirescore: '/t is disabled if two Tadukoo plugins are present, unless Tadukoo Core is present.'
+    notenoughargs: 'Not enough args!'
+    unknownarg: 'Unknown argument {arg}!'
   favorite:
     nextpage: 'Type /bible favorite list {num} for the next page'
   help: '/bible help [page|command]'
@@ -369,3 +368,4 @@ thelp:
   line2: 'apocrypha'
 translations:
   KJV: KJV is the King James Version. It was started in 1604 and finished in 1611, made for the Church of England after King James decided a new English translation was needed.
+  OEB: OEB is the Open English Bible.

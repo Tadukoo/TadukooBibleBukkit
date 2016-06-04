@@ -1,6 +1,6 @@
 name: Tadukoo_Bible
 main: com.gmail.realtadukoo.TBP.TB
-version: 1.0
+version: 1.1 BETA 1 SNAPSHOT
 description: Read the Bible using commands.
 author: Tadukoo
 prefix: TB
@@ -103,11 +103,15 @@ permissions:
       children:
          TadukooBible.translation.default: true
          TadukooBible.translation.KJV: true
+         TadukooBible.translation.OEB: true
    TadukooBible.translation.default:
       description: Allows you to use the default translation. Overrides that translation's permission.
       default: true
    TadukooBible.translation.KJV:
       description: Allows you to use the KJV.
+      default: true
+   TadukooBible.translation.OEB:
+      description: Allows you to use the OEB.
       default: true
    TadukooBible.verse.read:
       description: Allows use of /bible read (/bible [book] [chapter #] [verse #] [translation])

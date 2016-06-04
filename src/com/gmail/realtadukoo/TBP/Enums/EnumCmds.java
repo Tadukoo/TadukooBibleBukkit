@@ -260,16 +260,35 @@ public enum EnumCmds {
 	}
 	
 	// Returns a command from a string
-	public EnumCmds fromString(String command) {
-	    if (command != null) {
-	      for (EnumCmds c : EnumCmds.values()) {
-	        if (command.equalsIgnoreCase(c.getCmd()) || command.equalsIgnoreCase(c.getAlias()) ||
-	        		command.equalsIgnoreCase(c.getAlias2()) || command.equalsIgnoreCase(c.getAlias3()) || 
-	        		command.equalsIgnoreCase(c.getAlias4()) || command.equalsIgnoreCase(c.getAlias5())) {
-	          return c;
-	        }
-	      }
-	    }
-	    return null;
-	  }
+	public EnumCmds fromString(String command){
+		if(command != null){
+			for(EnumCmds c: EnumCmds.values()){
+				if(command.equalsIgnoreCase(c.getCmd()) || command.equalsIgnoreCase(c.getAlias()) ||
+					command.equalsIgnoreCase(c.getAlias2()) || command.equalsIgnoreCase(c.getAlias3()) || 
+					command.equalsIgnoreCase(c.getAlias4()) || command.equalsIgnoreCase(c.getAlias5())){
+					return c;
+				}
+			}
+		}
+		return null;
+	}
+	
+	// Returns whether the String contains the cmd or alias of the given Command.
+	public boolean containsCommand(String command, String checking){
+		if(command != null && checking != null){
+			for(EnumCmds c: EnumCmds.values()){
+				if(command.equalsIgnoreCase(c.getCmd())){
+					if(checking.contains(":")){
+						checking = checking.split(":")[0];
+					}
+					if(checking.equalsIgnoreCase(c.getCmd()) || checking.equalsIgnoreCase(c.getAlias()) || 
+						checking.equalsIgnoreCase(c.getAlias2()) || checking.equalsIgnoreCase(c.getAlias3()) ||
+						checking.equalsIgnoreCase(c.getAlias4()) || checking.equalsIgnoreCase(c.getAlias5())){
+						return true;
+					}
+				}
+			}
+		}
+		return false;
+	}
 }
