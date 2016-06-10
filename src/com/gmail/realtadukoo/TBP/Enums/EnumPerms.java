@@ -20,7 +20,8 @@ public enum EnumPerms {
 	
 	// Translation permissions
 	TRANSLATIONSTAR("TadukooBible.translation.*", "translation.*", "translationstar", true),
-	TRANSLATIONDEFAULT("TadukooBible.translation.default", "translation.default", "translationdefault", false),
+	TRANSLATIONDEFAULT("TadukooBible.translation.default", "translation.default", 
+			"translationdefault", false),
 	KJV("TadukooBible.translation.KJV", "translation.KJV", "KJV", false),
 	
 	// Verse permissions
@@ -38,6 +39,9 @@ public enum EnumPerms {
 	GETBOOK("TadukooBible.book.get", "book.get", "getbook", false),
 	SENDBOOK("TadukooBible.book.send", "book.send", "sendbook", false),
 	RECEIVEBOOK("TadukooBible.book.receive", "book.receive", "receivebook", false),
+	
+	// Statistics permissions
+	STATISTICSSELF("TadukooBible.statistics.self", "statistics.self", "statisticsself", false),
 	
 	// Info permissions
 	HELP("TadukooBible.info.help", "info.help", "help", false),
@@ -67,7 +71,8 @@ public enum EnumPerms {
 	
 	// Apocrypha permissions
 	APOCRYPHAUSE("TadukooBible.apocrypha.use", "apocrypha.use", "apocryphause", false),
-	APOCRYPHAHELP("TadukooBible.apocrypha.info.help", "apocrypha.info.help", "apocryphahelp", false),
+	APOCRYPHAHELP("TadukooBible.apocrypha.info.help", "apocrypha.info.help", "apocryphahelp", 
+			false),
 	
 	// Debug permission
 	DEBUG("TadukooBible.debug", "debug", "debug", false);
@@ -145,21 +150,25 @@ public enum EnumPerms {
 	    		}else if(perm.equalsIgnoreCase("block")){
 	    			return BLOCKVIEW;
 	    		}else if(check3 && (perm3.equalsIgnoreCase(c.getPerm()) || 
-	    				perm3.equalsIgnoreCase(c.getShortPerm()) || perm3.equalsIgnoreCase(c.getNick()) || 
+	    				perm3.equalsIgnoreCase(c.getShortPerm()) || 
+	    				perm3.equalsIgnoreCase(c.getNick()) || 
 	    				perm3.equalsIgnoreCase(c.getPerm().replaceAll(".", "")) || 
 	    				perm3.equalsIgnoreCase(c.getShortPerm().replaceAll(".", "")))){
 	    			return c;
 	    		}else if(check2 && (perm2.equalsIgnoreCase(c.getPerm()) || 
-	    				perm2.equalsIgnoreCase(c.getShortPerm()) || perm2.equalsIgnoreCase(c.getNick()) || 
+	    				perm2.equalsIgnoreCase(c.getShortPerm()) || 
+	    				perm2.equalsIgnoreCase(c.getNick()) || 
 	    				perm2.equalsIgnoreCase(c.getPerm().replaceAll(".", "")) || 
 	    				perm2.equalsIgnoreCase(c.getShortPerm().replaceAll(".", "")))){
 	    			return c;
 	    		}else if(check1 && (perm1.equalsIgnoreCase(c.getPerm()) || 
-	    				perm1.equalsIgnoreCase(c.getShortPerm()) || perm1.equalsIgnoreCase(c.getNick()) || 
+	    				perm1.equalsIgnoreCase(c.getShortPerm()) || 
+	    				perm1.equalsIgnoreCase(c.getNick()) || 
 	    				perm1.equalsIgnoreCase(c.getPerm().replaceAll(".", "")) || 
 	    				perm1.equalsIgnoreCase(c.getShortPerm().replaceAll(".", "")))){
 	    			return c;
-	    		}else if(perm.equalsIgnoreCase(c.getPerm()) || perm.equalsIgnoreCase(c.getShortPerm()) ||
+	    		}else if(perm.equalsIgnoreCase(c.getPerm()) || 
+	    				perm.equalsIgnoreCase(c.getShortPerm()) ||
 	    				perm.equalsIgnoreCase(c.getNick()) || 
 	    				perm.equalsIgnoreCase(c.getPerm().replaceAll(".", "")) || 
 	    				perm.equalsIgnoreCase(c.getShortPerm().replaceAll(".", ""))){

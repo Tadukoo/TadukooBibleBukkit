@@ -11,7 +11,7 @@ import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.gmail.realtadukoo.TBP.commands.handling.BComExec;
+import com.gmail.realtadukoo.TBP.cmds.handling.BComExec;
 import com.gmail.realtadukoo.TBPB.TBB;
 import com.gmail.realtadukoo.TC.TC;
 
