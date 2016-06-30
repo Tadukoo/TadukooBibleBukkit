@@ -3,7 +3,7 @@
 #       Tadukoo Bible Config             #
 ##########################################
 # NEVER change this setting!
-version: '1.0'
+version: '1.1 BETA 1'
 
 # Set this to whatever language you want to use. Using the name of the language instead of the actual language
 # file's name will change it to that language file on start up.
@@ -14,9 +14,10 @@ startup-checks: true
 
 # These decide whether to keep track of statistics.
 # player statistics is for statistics per player, while plugin statistics is for everyone on the server.
-statistics: 
-  player: true
+statistics:
   plugin: true
+  player:
+    enabled: true
 
 # This is the book, chapter, verse, and translation used for commands when none is specified.
 # DefaultChapter, DefaultVerse, and DefaultPart must be a number in parentheses.
@@ -47,3 +48,24 @@ debug: false
 #(Note: You must still have the files for that translation or it won't work.)
 KJV: true
 OEB: true
+
+##########################################
+#                                        #
+#               Auto-Announce            #
+##########################################
+# This section is for auto-broadcasting verses to the server every so often.
+# Randomize-list makes it so that a random reference is chosen each time, 
+# rather than going in order.
+# Delay is in minutes.
+# You can add or remove as many verses as you want.
+# Random as a verse reference will broadcast a random verse.
+# Random may be used in either a randomized-list, an ordered list, or by itself.
+auto-announce:
+  enabled: false
+  randomize-list: false
+  delay: 1
+  verses:
+  - Genesis 1:1
+  - John 3:16
+  - random
+  

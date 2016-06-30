@@ -144,7 +144,7 @@ public enum EnumCmds {
 			for(EnumCmds c: EnumCmds.values()){
 				if(command.equalsIgnoreCase(c.getCmd())){
 					return c;
-				}else{
+				}else if(c.getAliases() != null){
 					for(int i = 0; i < c.getAliases().length; i++){
 						if(command.equalsIgnoreCase(c.getAliases()[i])){
 							return c;

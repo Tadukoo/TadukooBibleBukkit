@@ -22,12 +22,12 @@ through a video game. Hopefully in the future, there will be new plugins and/or 
 
 Commands, Permissions, and Configuration
 ----------------------------------------
-Go to the [usage page on BukkitDev] (http://dev.bukkit.org/bukkit-plugins/tadukoo-bible/pages/usage/) to see the commands, permissions, and configuration.
+Go to the usage pages on my wiki to see the [commands] (http://tadukooverse.wikia.com/wiki/Tadukoo_Bible_Plugin_Commands), [permissions] (http://tadukooverse.wikia.com/wiki/Tadukoo_Bible_Plugin_Permissions), and [configuration]
+(http://tadukooverse.wikia.com/wiki/Tadukoo_Bible_Plugin_Commands).
 
 Upcoming Commands/Features
 --------------------------
-Go to the [upcoming features page on BukkitDev] (http://dev.bukkit.org/bukkit-plugins/tadukoo-bible/pages/upcoming-features/) to see the upcoming 
-commands and features.
+Go to the [upcoming features page on my wiki] (http://http://tadukooverse.wikia.com/wiki/Tadukoo_Bible_Plugin_Upcoming_Features) to see the upcoming commands and features.
 
 Known Issues
 ------------
@@ -35,14 +35,12 @@ None at the moment.
 
 Translations
 ------------
-Currently the only translation in the plugin is the King James Version (KJV), which is public domain. In the future, I will be requesting permission
-for other translations.
+Currently the only translation in the plugin is the King James Version (KJV), which is public domain. In the future, I will be requesting permission for other translations.
 
 Download
 --------
 This plugin is available [on BukkitDev] (http://dev.bukkit.org/bukkit-plugins/tadukoo-bible/).
 
-Alternately, you could download the classes, config.yml, and plugin.yml file, then import them into eclipse (or your choice of IDE),
-along with importing the Bukkit API (Currently this plugin is built off of [1.7.9-R0.2 Beta Build 1938] 
-(http://dl.bukkit.org/downloads/bukkit/view/02630_1.7.9-R0.2/)). Do not import the Tadukoo_Bible folder into eclipse. Simply place it in your plugins 
-folder.
+Alternately, you could download the classes, config.yml, and plugin.yml file, then import them into eclipse (or your choice of IDE), along with importing the Bukkit API (Currently this plugin is built off of [1.7.9-R0.2 Beta Build 1938] (http://dl.bukkit.org/downloads/bukkit/view/02630_1.7.9-R0.2/)).
+
+Do not import the Tadukoo_Bible folder into eclipse. Simply place it in your plugins folder.

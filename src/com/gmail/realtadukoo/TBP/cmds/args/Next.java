@@ -19,7 +19,7 @@ public class Next {
 		if(args.length == 2 && Args.tranCheck(sender, args[1]) != null){
 			tran = Args.tranCheck(sender, tran);
 		}
-		String rec[] = Records.getpRecs(plugin, playerType, "verse", sender.getName());
+		String rec[] = Records.getPlayerRecords(plugin, playerType, "verse", sender.getName());
 		if(rec[0].equalsIgnoreCase("Revelation") && rec[1].equalsIgnoreCase("22") && 
 				rec[2].equalsIgnoreCase("21")){
 			sender.sendMessage(ChatColor.RED + "Revelation 22:21 is the last verse of the Bible. You can't " +

@@ -1,5 +1,7 @@
 package com.gmail.realtadukoo.TBP.cmds;
 
+import java.util.logging.Level;
+
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
@@ -10,13 +12,17 @@ import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.cmds.handling.Checks;
 
 public class Verse{
-	public static void check(TB plugin, CommandSender sender, String playerType, String bookName, String chp, 
-			String v, String tran, EnumBooks book, EnumChps echp, String type, String pName, boolean anonymous, 
-			boolean bypass){
+	public static void check(TB plugin, CommandSender sender, String playerType, 
+			String bookName, String chp, String v, String tran, EnumBooks book, EnumChps echp, 
+			String type, String pName, boolean anonymous, boolean bypass){
 		if(Integer.parseInt(chp) > book.getChp()){
 			String error = plugin.getLanguage(false).getString("command.error.chpdoesntexist");
 			error = error.replaceAll("\\{book\\}", bookName);
-			sender.sendMessage(ChatColor.RED + error);
+			if(type.equalsIgnoreCase("auto-announce")){
+				plugin.getLogger().log(Level.WARNING, ChatColor.RED + error);
+			}else{
+				sender.sendMessage(ChatColor.RED + error);
+			}
 			return;
 		}
 		
@@ -24,7 +30,11 @@ public class Verse{
 			String error = plugin.getLanguage(false).getString("command.error.vdoesntexist");
 			error = error.replaceAll("\\{book\\}", bookName);
 			error = error.replaceAll("\\{chp\\}", chp);
-			sender.sendMessage(ChatColor.RED + error);
+			if(type.equalsIgnoreCase("auto-announce")){
+				plugin.getLogger().log(Level.WARNING, ChatColor.RED + error);
+			}else{
+				sender.sendMessage(ChatColor.RED + error);
+			}
 			return;
 		}
 		
@@ -35,26 +45,31 @@ public class Verse{
 			return;
 		}*/
 		
-		if(!Checks.checkForYML(plugin, sender, bookName, tran)){
+		if(!type.equalsIgnoreCase("auto-announce") && 
+				!Checks.checkForYML(plugin, sender, bookName, tran)){
 			return;
 		}
 		
-		if(pName == null){
+		if(pName == null && !type.equalsIgnoreCase("auto-announce")){
 			pName = sender.getName();
 		}
 		
 		String ref = References.makeRef(book, chp, v);
 		
-		if(!References.checkRef(plugin, sender, bookName, tran, ref)){
+		if(!type.equalsIgnoreCase("auto-announce") && 
+				!References.checkRef(plugin, sender, bookName, tran, ref)){
 			return;
 		}
 		
 		if(type == "get"){
 			Sending.getVerse(plugin, sender, playerType, pName, bookName, chp, v, tran, ref);
 		}else if(type == "send"){
-			Sending.sendVerseToOtherPlayer(plugin, sender, pName, bookName, chp, v, tran, ref, anonymous, bypass);
+			Sending.sendVerseToOtherPlayer(plugin, sender, pName, bookName, chp, v, tran, ref, 
+					anonymous, bypass);
 		}else if(type == "announce"){
 			Sending.broadcastVerse(plugin, sender, bookName, chp, v, tran, ref);
+		}else if(type == "auto-announce"){
+			Sending.broadcastVerse(plugin, bookName, chp, v, tran, ref);
 		}
 	}
 }

@@ -55,13 +55,13 @@ public class Book{
 		}
 		UUID ID = player.getUniqueId();
 		if(!bypass){
-			if(TB.getpRec().getString(ID + ".blocked." + sender.getName() + ".book") != null && 
-					!TB.getpRec().getBoolean(ID + ".blocked." + sender.getName() + ".book")){
+			if(TB.getPlayerRecords().getString(ID + ".blocked." + sender.getName() + ".book") != null && 
+					!TB.getPlayerRecords().getBoolean(ID + ".blocked." + sender.getName() + ".book")){
 				sender.sendMessage(ChatColor.RED + player.getName() + " has blocked you from sending books " +
 						"to him/her.");
 				return;
-			}else if(TB.getpRec().getString(ID + ".receive.book") != null && 
-					!TB.getpRec().getBoolean(ID + ".receive.book")){
+			}else if(TB.getPlayerRecords().getString(ID + ".receive.book") != null && 
+					!TB.getPlayerRecords().getBoolean(ID + ".receive.book")){
 				sender.sendMessage(ChatColor.RED + pName + "has opted out of receiving books.");
 				return;
 			}
@@ -98,9 +98,15 @@ public class Book{
 			}else{
 				senderName = sender.getName();
 			}
-			player.sendMessage(ChatColor.GREEN + senderName + " sent you " + bookName + " Part " + part + "!");
+			player.sendMessage(ChatColor.GREEN + senderName + " sent you " + bookName + 
+					" Part " + part + "!");
+			Records.bumpStatistic(plugin, "books-received", player);
+			Records.bumpStatistic(plugin, "books-sent", sender);
+		}else if(type == "get"){
+			Records.bumpStatistic(plugin, "books-requested", sender);
 		}
-		Records.savepRecs(plugin, playerType, "book", pName, bookName, null, null, tran, part);
+		Records.savePlayerRecords(plugin, playerType, "book", pName, bookName, null, null, 
+				tran, part);
 		sender.sendMessage(ChatColor.GREEN + "Book sent!");
 	}
 

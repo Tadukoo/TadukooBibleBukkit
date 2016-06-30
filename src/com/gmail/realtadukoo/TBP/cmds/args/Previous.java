@@ -38,7 +38,7 @@ public class Previous {
 			type = "book";
 		}
 		
-		String rec[] = Records.getpRecs(plugin, playerType, "verse", sender.getName());
+		String rec[] = Records.getPlayerRecords(plugin, playerType, "verse", sender.getName());
 		if(rec[0].equalsIgnoreCase("Genesis") && rec[1].equalsIgnoreCase("1") && rec[2].equalsIgnoreCase("1")){
 			sender.sendMessage(ChatColor.RED + "Genesis 1:1 is the first verse of the Bible. You can't " +
 					"go back any farther!");

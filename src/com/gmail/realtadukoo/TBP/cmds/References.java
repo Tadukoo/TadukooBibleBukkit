@@ -31,4 +31,19 @@ public class References {
 			return true;
 		}
 	}
+	
+	public static String[] breakDownRefNoTran(String ref){
+		String[] refBroken = new String[3];
+		String[] refBroken1 = ref.split(":");
+		String[] refBroken2 = refBroken1[0].split(" ");
+		
+		refBroken[0] = "";
+		for(int i = 0; i < refBroken2.length - 1; i++){
+			refBroken[0] += refBroken2[i];
+		}
+		refBroken[1] = refBroken2[refBroken2.length - 1];
+		refBroken[2] = refBroken1[1];
+		
+		return refBroken;
+	}
 }

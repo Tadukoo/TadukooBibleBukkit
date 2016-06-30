@@ -86,7 +86,8 @@ public class BComExec implements CommandExecutor{
 						Sendbook.run(plugin, playerType, sender, args, permsOn);
 						return true;
 					}else if(cmdType.equalsIgnoreCase("statistics")){
-						// TODO: Add statistics command.
+						Statistics.run(plugin, sender, args, playerType, permsOn);
+						return true;
 					}else if(cmdType.equalsIgnoreCase("info")){
 						Info.run(plugin, sender, args, playerType, permsOn);
 						return true;

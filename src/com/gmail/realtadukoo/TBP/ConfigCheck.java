@@ -1,5 +1,7 @@
 package com.gmail.realtadukoo.TBP;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Level;
 
 import org.bukkit.configuration.file.FileConfiguration;
@@ -9,7 +11,7 @@ import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
 //import com.gmail.realtadukoo.TBP.commands.handling.Checks; TODO: Add check for availability using EnumAvail.
 
-public class ConfigCheck {
+public class ConfigCheck{
 	/*
 	 * Checks config.yml for errors.
 	 */
@@ -30,6 +32,7 @@ public class ConfigCheck {
 			plugin.saveConfig();
 			check = true;
 		}
+		
 		// If check is still false, check startup-checks whether to check config or not.
 		if(config.getString("startup-checks") != null && !check){
 			check = config.getBoolean("startup-checks");
@@ -218,8 +221,8 @@ public class ConfigCheck {
 			}
 			
 			// If player statistics isn't set, set it to true.
-			if(config.getString("statistics.player") == null){
-				config.set("statistics.player", true);
+			if(config.getString("statistics.player.enabled") == null){
+				config.set("statistics.player.enabled", true);
 				plugin.saveConfig();
 			}
 			
@@ -233,6 +236,39 @@ public class ConfigCheck {
 			if(config.getString("KJV") == null){
 				config.set("KJV", true);
 			}
+			
+			// If OEB isn't set, set it to true.
+			if(config.getString("OEB") == null){
+				config.set("OEB", true);
+			}
+			
+			// If auto-announce.enabled isn't set, set it to false by default.
+			if(config.getString("auto-announce.enabled") == null){
+				config.set("auto-announce.enabled", false);
+			}
+			
+			// If auto-announce.randomize-list isn't set, set it to false by default.
+			if(config.getString("auto-announce.randomize-list") == null){
+				config.set("auto-announce.randomize-list", false);
+			}
+			
+			// If auto-announce.delay isn't set, set it to 1 minute by default.
+			if(config.getString("auto-announce.delay") == null){
+				config.set("auto-announce.delay", 1);
+			}
+			
+			// If auto-announce.verses isn't set, give it some verses.
+			if(config.getStringList("auto-announce.verses") == null ||
+					config.getStringList("auto-announce.verses").isEmpty()){
+				List<String> verses = new ArrayList<String>();
+				verses.add("Genesis 1:1");
+				verses.add("John 3:16");
+				verses.add("random");
+				config.set("auto-announce.verses", verses);
+			}
+			
+			// Save the config at this point.
+			plugin.saveConfig();
 		}
 	}
 }

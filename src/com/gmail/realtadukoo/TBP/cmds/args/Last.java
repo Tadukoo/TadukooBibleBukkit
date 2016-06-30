@@ -19,7 +19,7 @@ public class Last {
 		if(args.length == 2 && Args.tranCheck(sender, args[1]) != null){
 			tran = Args.tranCheck(sender, args[1]);
 		}
-		String rec[] = Records.getpRecs(plugin, playerType, "verse", sender.getName());
+		String rec[] = Records.getPlayerRecords(plugin, playerType, "verse", sender.getName());
 		String bookName = rec[0];
 		EnumBooks book = EnumBooks.GENESIS;
 		book = book.fromString(bookName);

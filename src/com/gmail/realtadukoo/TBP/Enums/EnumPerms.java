@@ -41,7 +41,10 @@ public enum EnumPerms {
 	RECEIVEBOOK("TadukooBible.book.receive", "book.receive", "receivebook", false),
 	
 	// Statistics permissions
-	STATISTICSSELF("TadukooBible.statistics.self", "statistics.self", "statisticsself", false),
+	STATISTICSUSE("TadukooBible.statistics.use", "statistics.use", "statistics", false),
+	STATISTICSOTHERS("TadukooBible.statistics.others", "statistics.others", "statisticsothers", 
+			false),
+	STATISTICSTOP("TadukooBible.statistics.top", "statistics.top", "statisticstop", false),
 	
 	// Info permissions
 	HELP("TadukooBible.info.help", "info.help", "help", false),

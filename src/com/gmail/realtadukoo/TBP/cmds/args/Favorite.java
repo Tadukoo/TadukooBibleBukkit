@@ -8,6 +8,7 @@ import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
 import com.gmail.realtadukoo.TBP.cmds.Records;
+import com.gmail.realtadukoo.TBP.cmds.Verse;
 import com.gmail.realtadukoo.TBP.cmds.handling.Args;
 import com.gmail.realtadukoo.TBP.cmds.handling.Checks;
 
@@ -17,7 +18,7 @@ public class Favorite {
 				plugin.getLanguage(false).getString("help.pages.favorite.usage"))){
 			return;
 		}
-		String rec[] = Records.getpRecs(plugin, playerType, "verse", sender.getName());
+		String rec[] = Records.getPlayerRecords(plugin, playerType, "verse", sender.getName());
 		String bookName = rec[0];
 		String chp = rec[1];
 		String v = rec[2];
@@ -86,8 +87,17 @@ public class Favorite {
 		String pName = sender.getName();
 		if(list){
 			Records.listFavorites(plugin, sender, playerType, pName, page);
+		}else if(chpSet && !bookSet && !vSet && !tranSet){
+			int c = Integer.parseInt(chp);
+			String[] favorite = Records.getFavorite(plugin, playerType, pName, c);
+			bookName = favorite[0];
+			chp = favorite[1];
+			v = favorite[2];
+			tran = favorite[3];
+			Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "get", 
+					null, false, false);
 		}else{
-			Records.saveFavorite(plugin, playerType, bookName, chp, v, tran, pName);
+			Records.saveFavorite(plugin, playerType, bookName, chp, v, tran, pName, sender);
 		}
 	}
 }

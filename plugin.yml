@@ -1,6 +1,6 @@
 name: Tadukoo_Bible
 main: com.gmail.realtadukoo.TBP.TB
-version: 1.1 BETA 1 SNAPSHOT
+version: 1.1 BETA 1
 description: Read the Bible using commands.
 author: Tadukoo
 prefix: TB
@@ -36,12 +36,19 @@ permissions:
          TadukooBible.translation.*: true
          TadukooBible.verse.*: true
          TadukooBible.book.*: true
+         TadukooBible.statistics.*: true
          TadukooBible.info.*: true
          TadukooBible.block.*: true
          TadukooBible.receive: true
          TadukooBible.op.*: true
          TadukooBible.anonymous.*: true
          TadukooBible.bypass.*: true
+   TadukooBible.translation.*:
+      description: Gives all translation permissions (default and KJV)
+      children:
+         TadukooBible.translation.default: true
+         TadukooBible.translation.KJV: true
+         TadukooBible.translation.OEB: true
    TadukooBible.verse.*:
       description: Gives all verse permissions (read, send, previous, next, last, favorite, and random).
       children:
@@ -60,6 +67,12 @@ permissions:
          TadukooBible.book.get: true
          TadukooBible.book.send: true
          TadukooBible.book.receive: true
+   TadukooBible.statistics.*:
+      description: Gives all statistics permissions (use, others, and top).
+      children:
+         TadukooBible.statistics.use: true
+         TadukooBible.statistics.others: true
+         TadukooBible.statistics.top: true
    TadukooBible.info.*:
       description: Gives all info permissions (help, plugin, book, translation, and permission).
       children:
@@ -98,12 +111,6 @@ permissions:
    TadukooBible.use:
       description: Gives access to the plugin.
       default: true
-   TadukooBible.translation.*:
-      description: Gives all translation permissions (default and KJV)
-      children:
-         TadukooBible.translation.default: true
-         TadukooBible.translation.KJV: true
-         TadukooBible.translation.OEB: true
    TadukooBible.translation.default:
       description: Allows you to use the default translation. Overrides that translation's permission.
       default: true
@@ -149,6 +156,15 @@ permissions:
    TadukooBible.book.receive:
       description: Allows you to receive books.
       default: true
+   TadukooBible.statistics.use:
+      description: Allows use of /bible statistics.
+      default: true
+   TadukooBible.statistics.others:
+      description: Allows viewing the statistics of other players.
+      default: op
+   TadukooBible.statistics.top:
+      description: Allows viewing top statistics.
+      default: op
    TadukooBible.info.help:
       description: Allows use of /bible help.
       default: true

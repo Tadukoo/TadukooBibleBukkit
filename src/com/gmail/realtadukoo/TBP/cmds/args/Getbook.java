@@ -86,10 +86,10 @@ public class Getbook {
 			@SuppressWarnings("deprecation")
 			Player player = plugin.getServer().getPlayer(pName);
 			String ID = player.getUniqueId().toString();
-			bookName = TB.getpRec().getString(ID + ".lastbook.book");
-			part = TB.getpRec().getString(ID + ".lastbook.part");
+			bookName = TB.getPlayerRecords().getString(ID + ".lastbook.book");
+			part = TB.getPlayerRecords().getString(ID + ".lastbook.part");
 			if(!tranSet){
-				tran = TB.getpRec().getString(ID + ".lastbook.tran");
+				tran = TB.getPlayerRecords().getString(ID + ".lastbook.tran");
 			}
 			if(previous){
 				String type = "part";

@@ -3,6 +3,7 @@ package com.gmail.realtadukoo.TBP;
 import java.io.File;
 import java.io.IOException;
 import java.io.Reader;
+import java.util.List;
 import java.util.UUID;
 import java.util.logging.Level;
 
@@ -10,6 +11,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.scheduler.BukkitRunnable;
 
 import com.gmail.realtadukoo.TBP.cmds.handling.BComExec;
 import com.gmail.realtadukoo.TBPB.TBB;
@@ -36,8 +38,12 @@ public class TB extends JavaPlugin{
 	public String igbookBook = null;
 	
 	// Used for players.yml file
-	public static FileConfiguration pRec = null;
-	public static File pRecFile = null;
+	public static FileConfiguration playerRecords = null;
+	public static File playerRecordsFile = null;
+	
+	// Used for statistics.yml file
+	public static FileConfiguration statistics = null;
+	public static File statisticsFile = null;
 	
 	// Used for language files
 	public static FileConfiguration language = null;
@@ -59,17 +65,20 @@ public class TB extends JavaPlugin{
 	public static boolean TadukooBibleBooks;
 	public static TBB TadukooBibleBooksClass;
 	
+	// Used for auto-announcing verses.
+	private AutoAnnounce announcer;
+	
 	@Override
 	public void onDisable(){
 		// Save player records
-		savepRec();
+		savePlayerRecords();
 		
 		// Set everything to null to prevent memory leaks
 		plugin = null;
 		pdfFile = null;
 		config = null;
-		pRec = null;
-		pRecFile = null;
+		playerRecords = null;
+		playerRecordsFile = null;
 		igbook = null;
 		igbookFile = null;
 		igbookTran = null;
@@ -80,10 +89,10 @@ public class TB extends JavaPlugin{
 	@Override
 	public void onEnable(){
 		// Load players.yml
-		reloadpRec();
+		reloadPlayerRecords();
 		
 		// Save players.yml in case the file didn't exist.
-		savepRec();
+		savePlayerRecords();
 		
 		// Set plugin so other classes may use this class through it.
 		plugin = this;
@@ -110,6 +119,20 @@ public class TB extends JavaPlugin{
 		
 		// Register event (PlayerJoinEvent saves UUID and player name)
 		getServer().getPluginManager().registerEvents(new BPlayerListener(this), this);
+		
+		if(config.getBoolean("auto-announce.enabled")){
+			announcer = new AutoAnnounce();
+			
+			new BukkitRunnable(){
+			    @Override
+			    public void run(){
+			    	boolean random = config.getBoolean("auto-announce.randomize-list");
+					List<String> verses = config.getStringList("auto-announce.verses");
+					
+			        announcer.doVerse(plugin, verses, random);
+			    }
+			}.runTaskTimer(this, 100, 1200*config.getInt("auto-announce.delay"));
+		}
 	}
 	
 	/*
@@ -223,36 +246,73 @@ public class TB extends JavaPlugin{
 	/*
 	 * Load players.yml
 	 */
-	public void reloadpRec(){
-	    if(pRecFile == null){
-	    	pRecFile = new File(getDataFolder(), "players.yml");
+	public void reloadPlayerRecords(){
+	    if(playerRecordsFile == null){
+	    	playerRecordsFile = new File(getDataFolder(), "players.yml");
 	    }
 	    
-	    pRec = YamlConfiguration.loadConfiguration(pRecFile);
+	    playerRecords = YamlConfiguration.loadConfiguration(playerRecordsFile);
 	}
 	
 	/*
 	 * Get players.yml
 	 */
-	public static FileConfiguration getpRec(){
-	    if(pRec == null){
-	        plugin.reloadpRec();
+	public static FileConfiguration getPlayerRecords(){
+	    if(playerRecords == null){
+	        plugin.reloadPlayerRecords();
 	    }
-	    return pRec;
+	    return playerRecords;
 	}
 	
 	/*
 	 * Save players.yml
 	 */
-	public static void savepRec(){
-	    if(pRec == null || pRecFile == null){
+	public static void savePlayerRecords(){
+	    if(playerRecords == null || playerRecordsFile == null){
 	    	return;
 	    }
 	    
 	    try{
-	        getpRec().save(pRecFile);
+	        getPlayerRecords().save(playerRecordsFile);
 	    }catch(IOException ex){
-	        plugin.getLogger().log(Level.SEVERE, "Could not save player records to " + pRecFile + ex);
+	        plugin.getLogger().log(Level.SEVERE, "Could not save player records to " + playerRecordsFile + ex);
+	    }
+	}
+	
+	/*
+	 * Load statistics.yml
+	 */
+	public void reloadStatistics(){
+	    if(statisticsFile == null){
+	    	statisticsFile = new File(getDataFolder(), "statistics.yml");
+	    }
+	    
+	    statistics = YamlConfiguration.loadConfiguration(statisticsFile);
+	}
+	
+	/*
+	 * Get statistics.yml
+	 */
+	public static FileConfiguration getStatistics(){
+	    if(statistics == null){
+	        plugin.reloadStatistics();
+	    }
+	    return statistics;
+	}
+	
+	/*
+	 * Save statistics.yml
+	 */
+	public static void saveStatistics(){
+	    if(statistics == null || statisticsFile == null){
+	    	return;
+	    }
+	    
+	    try{
+	        getStatistics().save(statisticsFile);
+	    }catch(IOException ex){
+	        plugin.getLogger().log(Level.SEVERE, "Could not save statistics to " + 
+	        	statisticsFile + ex);
 	    }
 	}
 	

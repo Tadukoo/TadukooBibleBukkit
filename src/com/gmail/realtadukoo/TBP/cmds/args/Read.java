@@ -110,6 +110,7 @@ public class Read {
 			v = rec[2];
 			tran = rec[3];
 		}
-		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "get", null, false, false);
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "get", 
+				null, false, false);
 	}
 }

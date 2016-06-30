@@ -27,7 +27,9 @@ public class Sending {
 		sender.sendMessage(ChatColor.GREEN + verse + " (" + bookName + " " + chp + ":" + v + " " + 
 		tran + ")");
 		// Record this verse in the players.yml file.
-		Records.savepRecs(plugin, playerType, "verse", pName, bookName, chp, v, tran, null);
+		Records.savePlayerRecords(plugin, playerType, "verse", pName, bookName, chp, v, tran, 
+				null);
+		Records.bumpStatistic(plugin, "verses-requested", sender);
 	}
 	
 	/*
@@ -45,7 +47,7 @@ public class Sending {
 		@SuppressWarnings("deprecation")
 		Player player = plugin.getServer().getPlayer(pName);
 		// Check if player is online.
-		if(!player.isOnline()){
+		if(player == null || !player.isOnline()){
 			sender.sendMessage(ChatColor.RED + pName + " is not online!");
 			return;
 		}
@@ -73,14 +75,14 @@ public class Sending {
 		UUID ID = player.getUniqueId(); // Used for in players.yml
 		if(!bypass){ // If not bypassed, do this.
 			// If the sender is blocked
-			if(TB.getpRec().getString(ID + ".blocked." + sender.getName() + ".verse") != null && 
-					!TB.getpRec().getBoolean(ID + ".blocked." + sender.getName() + ".verse")){
+			if(TB.getPlayerRecords().getString(ID + ".blocked." + sender.getName() + ".verse") != null && 
+					!TB.getPlayerRecords().getBoolean(ID + ".blocked." + sender.getName() + ".verse")){
 				// Return a message to the sender.
 				sender.sendMessage(ChatColor.RED + player.getName() + " has blocked you from sending verses " +
 						"to him/her.");
 				return;
-			}else if(TB.getpRec().getString(ID + ".receive.verse") != null && 
-					!TB.getpRec().getBoolean(ID + ".receive.verse")){
+			}else if(TB.getPlayerRecords().getString(ID + ".receive.verse") != null && 
+					!TB.getPlayerRecords().getBoolean(ID + ".receive.verse")){
 				// If the player has opted out of receiving verses, return a message to the sender.
 				sender.sendMessage(ChatColor.RED + player.getName() + "has opted out of receiving verses.");
 				return;
@@ -88,8 +90,10 @@ public class Sending {
 		}
 		// Send the player a message that the sender sent them a verse and then the verse and reference.
 		player.sendMessage(ChatColor.GOLD + "[" + senderName + "->" + player.getName() + "] " + 
-		ChatColor.GREEN + verse + " (" + bookName + " " + chp + ":" + v + " " + tran + ")");
+			ChatColor.GREEN + verse + " (" + bookName + " " + chp + ":" + v + " " + tran + ")");
 		sender.sendMessage(ChatColor.GREEN + "Verse sent!");
+		Records.bumpStatistic(plugin, "verses-sent", sender);
+		Records.bumpStatistic(plugin, "verses-received", player);
 	}
 	
 	// Sends information to a player.
@@ -108,5 +112,18 @@ public class Sending {
 		// Log this to the console.
 		plugin.getLogger().info(sender.getName() + " broadcasted " + bookName + " " + chp + ":" 
 				+ v + " from the " + tran + " translation.");
+		Records.bumpStatistic(plugin, "verses-announced", sender);
+	}
+	
+	// Broadcasts a verse to the server, from the auto-announcer.
+	public static void broadcastVerse(TB plugin, String bookName, String chp, String v,
+			String tran, String ref){
+		// Get verse from the file.
+		String verse = plugin.getBook(bookName, tran).getString(ref);
+		// Broadcast the verse to anyone who has the TadukooBible.verse.announceget permission.
+		Bukkit.broadcast(ChatColor.GREEN + "[TB] " + verse + " (" + bookName + " " + chp + 
+				":" + v + " " + tran + ")", "TadukooBible.verse.announceget");
+		// TODO: Make it so that the statistics get bumped
+		//Records.bumpStatistic(plugin, "verses-announced", null);
 	}
 }
