@@ -1,8 +1,5 @@
 package com.gmail.realtadukoo.TBP.cmds.handling;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.bukkit.ChatColor;
 import org.bukkit.command.*;
 import org.bukkit.entity.Player;
@@ -153,8 +150,7 @@ public class BComExec implements CommandExecutor{
 	}
 	
 	@Override
-	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, 
-			String[] args){
+	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
 		final String playerType;
 		if(sender instanceof Player){
 			playerType = "player";
@@ -172,58 +168,8 @@ public class BComExec implements CommandExecutor{
 		}else if(cmd.getName().equalsIgnoreCase("apocrypha")){
 			onCommand(sender, "apocrypha", args, playerType);
 			return true;
-		}else if(cmd.getName().equalsIgnoreCase("t")){
-			if(args.length >= 1){
-				if(args[0].equalsIgnoreCase("bible") || args[0].equalsIgnoreCase("b")){
-					args = switchArgs(args);
-					onCommand(sender, "bible", args, playerType);
-				}else if(args[0].equalsIgnoreCase("apocrypha") || 
-						args[0].equalsIgnoreCase("a")){
-					args = switchArgs(args);
-					onCommand(sender, "apocrypha", args, playerType);
-				}else if(args[0].equalsIgnoreCase("help")){
-					if(args.length >= 2){
-						if(args[1].equalsIgnoreCase("bible") || 
-								args[1].equalsIgnoreCase("b")){
-							args = switchArgs(args);
-							args = switchArgs(args);
-							onCommand(sender, "bible", args, playerType);
-						}else if(args[1].equalsIgnoreCase("apocrypha") || 
-								args[1].equalsIgnoreCase("a")){
-							args = switchArgs(args);
-							args = switchArgs(args);
-							onCommand(sender, "apocrypha", args, playerType);
-						}else{
-							sender.sendMessage(ChatColor.RED + 
-									plugin.getLanguage().getString("command.args.unknownarg"));
-						}
-					}else{
-						sender.sendMessage(ChatColor.GREEN + 
-								plugin.getLanguage().getString("thelp.title"));
-						sender.sendMessage(ChatColor.GREEN + 
-								plugin.getLanguage().getString("thelp.line1"));
-						sender.sendMessage(ChatColor.GREEN + 
-								plugin.getLanguage().getString("thelp.line2"));
-					}
-				}
-			}else{
-				String error = plugin.getLanguage().getString("command.error.notenoughargs");
-				sender.sendMessage(ChatColor.RED + error);
-			}
-			return true;
 		}else{
 			return false;
 		}
-	}
-	
-	public static String[] switchArgs(String[] args){
-		int i = 1;
-		int j = args.length;
-		List<String> newArgs = new ArrayList<String>();
-		while (i < j){
-			newArgs.add(args[i]);
-			i++;
-		}
-		return newArgs.toArray(args);
 	}
 }

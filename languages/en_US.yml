@@ -362,10 +362,6 @@ permissions:
     desc: 'Allows use of /apocrypha help.'
   debug:
     desc: 'Shows you debug messages.'
-thelp:
-  title: 'Tadukoo Plugins Help Page 1/1'
-  line1: 'bible'
-  line2: 'apocrypha'
 translations:
   KJV: KJV is the King James Version. It was started in 1604 and finished in 1611, made for the Church of England after King James decided a new English translation was needed.
   OEB: OEB is the Open English Bible.
