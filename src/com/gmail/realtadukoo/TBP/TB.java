@@ -14,7 +14,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 
 import com.gmail.realtadukoo.TBP.cmds.handling.BComExec;
-import com.gmail.realtadukoo.TBPB.TBB;
 
 public class TB extends JavaPlugin{
 	// Used by other classes to use functions in here
@@ -54,10 +53,6 @@ public class TB extends JavaPlugin{
 	
 	// Used for if permissions are on or off
 	public Boolean perms = null;
-	
-	// Used for Tadukoo Bible Books
-	public static boolean TadukooBibleBooks;
-	public static TBB TadukooBibleBooksClass;
 	
 	// Used for auto-announcing verses.
 	private AutoAnnounce announcer;
@@ -103,9 +98,6 @@ public class TB extends JavaPlugin{
 		// Set permissions to on or off.
 		perms = getConfig().getBoolean("permissions");
 		
-		//Check for other Tadukoo plugins.
-		checkTadukooPlugins();
-		
 		// Load commands from the command executor class.
 		getCommand("bible").setExecutor(new BComExec(this, perms));
 		getCommand("apocrypha").setExecutor(new BComExec(this, perms));
@@ -126,16 +118,6 @@ public class TB extends JavaPlugin{
 			        announcer.doVerse(plugin, verses, random);
 			    }
 			}.runTaskTimer(this, 100, 1200*config.getInt("auto-announce.delay"));
-		}
-	}
-	
-	/*
-	 * Checks for other Tadukoo plugins (Used for /t)
-	 */
-	private void checkTadukooPlugins(){
-		TadukooBibleBooks = getServer().getPluginManager().getPlugin("Tadukoo_Bible_Books") != null;
-		if(TadukooBibleBooks){
-			TadukooBibleBooksClass = (TBB) getServer().getPluginManager().getPlugin("Tadukoo_Bible_Books");
 		}
 	}
 	
