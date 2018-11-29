@@ -15,7 +15,6 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 import com.gmail.realtadukoo.TBP.cmds.handling.BComExec;
 import com.gmail.realtadukoo.TBPB.TBB;
-import com.gmail.realtadukoo.TC.TC;
 
 public class TB extends JavaPlugin{
 	// Used by other classes to use functions in here
@@ -55,11 +54,6 @@ public class TB extends JavaPlugin{
 	
 	// Used for if permissions are on or off
 	public Boolean perms = null;
-	
-	// Used for /t, for other Tadukoo plugins
-	public static boolean otherTPlugin;
-	public static boolean TadukooCore;
-	public static TC TadukooCoreClass;
 	
 	// Used for Tadukoo Bible Books
 	public static boolean TadukooBibleBooks;
@@ -139,57 +133,9 @@ public class TB extends JavaPlugin{
 	 * Checks for other Tadukoo plugins (Used for /t)
 	 */
 	private void checkTadukooPlugins(){
-		if(getServer().getPluginManager().getPlugin("Tadukoo_Adjustments") != null || 
-				getServer().getPluginManager().getPlugin("Tadukoo_Bible_Books") != null || 
-				getServer().getPluginManager().getPlugin("Tadukoo_Core") != null ||
-				getServer().getPluginManager().getPlugin("Tadukoo_Chat") != null ||
-				getServer().getPluginManager().getPlugin("Tadukoo_Essentials") != null ||
-				getServer().getPluginManager().getPlugin("Tadukoo_Fake_Op") != null ||
-				getServer().getPluginManager().getPlugin("Tadukoo_Mob_Spawning") != null ||
-				getServer().getPluginManager().getPlugin("Tadukoo_Perms") != null ||
-				getServer().getPluginManager().getPlugin("Tadukoo_Vanilla_Feel") != null){
-			otherTPlugin = true;
-		}else{
-			otherTPlugin = false;
-		}
-		if(otherTPlugin){
-			/*
-			 *  Add checks for other plugins and run the classes' updateTadukooPlugins functions.
-			 */
-			if(getServer().getPluginManager().getPlugin("Tadukoo_Core") != null){
-				TadukooCore = true;
-				TadukooCoreClass = (TC) getServer().getPluginManager().getPlugin("Tadukoo_Core");
-				TadukooCoreClass.updateTadukooPlugins(true, false, false, false, false, false, false, false, 
-						false);
-			}else{
-				TadukooCore = false;
-			}
-			
-			if(getServer().getPluginManager().getPlugin("Tadukoo_Bible_Books") != null){
-				TadukooBibleBooks = true;
-				TadukooBibleBooksClass = (TBB) getServer().getPluginManager().getPlugin("Tadukoo_Bible_Books");
-			}else{
-				TadukooBibleBooks = false;
-			}
-		}else{
-			TadukooCore = false;
-			TadukooBibleBooks = false;
-		}
-	}
-	
-	/*
-	 * Used by other Tadukoo plugins so that none are missed.
-	 */
-	public void updateTadukooPlugins(boolean Bible, boolean BibleBooks, boolean Chat, boolean Core, 
-			boolean Essentials, boolean FakeOp, boolean MobSpawning, boolean Perms, boolean VanillaFeel){
-		if(BibleBooks){
-			TadukooBibleBooks = true;
+		TadukooBibleBooks = getServer().getPluginManager().getPlugin("Tadukoo_Bible_Books") != null;
+		if(TadukooBibleBooks){
 			TadukooBibleBooksClass = (TBB) getServer().getPluginManager().getPlugin("Tadukoo_Bible_Books");
-		}else if(Core){
-			TadukooCore = true;
-			TadukooCoreClass = (TC) getServer().getPluginManager().getPlugin("Tadukoo_Core");
-		}else if(Chat || Essentials || FakeOp || MobSpawning || Perms || VanillaFeel){
-			otherTPlugin = true;
 		}
 	}
 	
@@ -345,10 +291,6 @@ public class TB extends JavaPlugin{
 	 * Get a language.
 	 */
 	public FileConfiguration getLanguage(boolean Core){
-		if(Core && TadukooCore){
-			TadukooCoreClass.getLanguage();
-		}
-		
 	    if(language == null){
 	        this.reloadLanguage();
 	    }
@@ -360,63 +302,47 @@ public class TB extends JavaPlugin{
 	 * Load playerList.yml
 	 */
 	public void reloadPlayerList(){
-		if(TadukooCore){
-			TadukooCoreClass.reloadPlayerList();
-		}else{
-			if(playersFile == null){
-				playersFile = new File(getDataFolder(), "playerList.yml");
-			}
-			
-			players = YamlConfiguration.loadConfiguration(playersFile);
+		if(playersFile == null){
+			playersFile = new File(getDataFolder(), "playerList.yml");
 		}
+		
+		players = YamlConfiguration.loadConfiguration(playersFile);
 	}
 	
 	/*
 	 * Get a UUID from playerList.yml
 	 */
 	public UUID getUUID(String player){
-		if(TadukooCore){
-			return TadukooCoreClass.getUUID(player);
-		}else{
-			if(players == null){
-				plugin.reloadPlayerList();
-			}
-			
-			return UUID.fromString(players.getString(player));
+		if(players == null){
+			plugin.reloadPlayerList();
 		}
+		
+		return UUID.fromString(players.getString(player));
 	}
 	
 	/*
 	 * Set a UUID in playerList.yml
 	 */
 	public void setUUID(String player, UUID ID){
-		if(TadukooCore){
-			TadukooCoreClass.setUUID(player, ID);
-		}else{
-			if(players == null){
-				plugin.reloadPlayerList();
-			}
-			
-			players.set(player, ID.toString());
+		if(players == null){
+			plugin.reloadPlayerList();
 		}
+		
+		players.set(player, ID.toString());
 	}
 	
 	/*
 	 * Save playerList.yml
 	 */
 	public void savePlayerList(){
-		if(TadukooCore){
-			TadukooCoreClass.savePlayerList();
-		}else{
-			if(players == null || playersFile == null){
-				return;
-			}
-			
-			try{
-				players.save(playersFile);
-			}catch(IOException ex){
-				plugin.getLogger().log(Level.SEVERE, "Could not save player records to " + playersFile + ex);
-			}
+		if(players == null || playersFile == null){
+			return;
+		}
+		
+		try{
+			players.save(playersFile);
+		}catch(IOException ex){
+			plugin.getLogger().log(Level.SEVERE, "Could not save player records to " + playersFile + ex);
 		}
 	}
 }
