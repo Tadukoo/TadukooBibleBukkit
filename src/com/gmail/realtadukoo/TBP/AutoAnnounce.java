@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Random;
 
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
-import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.cmds.Randomize;
 import com.gmail.realtadukoo.TBP.cmds.References;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
@@ -33,7 +32,6 @@ public class AutoAnnounce{
 	
 	private void handleReference(TB plugin, String ref){
 		EnumBooks book = EnumBooks.GENESIS;
-		EnumChps echp = EnumChps.GENESIS;
 		String bookName = "", chp = "", v = "";
 		String tran = "KJV";
 		
@@ -41,18 +39,15 @@ public class AutoAnnounce{
 			bookName = Randomize.book(book, tran);
 			book = book.fromString(bookName);
 			chp = Randomize.chapter(book, bookName);
-			echp = echp.fromString(bookName, 0);
-			v = Randomize.verse(book, echp, chp);
+			v = Randomize.verse(book, chp);
 		}else{
 			String[] refBroken = References.breakDownRefNoTran(ref);
 			bookName = refBroken[0];
 			chp = refBroken[1];
 			v = refBroken[2];
 			book = book.fromString(bookName);
-			echp = echp.fromString(bookName, 0);
 		}
 		
-		Verse.check(plugin, null, null, bookName, chp, v, tran, book, echp, "auto-announce", 
-				null, false, false);
+		Verse.check(plugin, null, null, bookName, chp, v, tran, book, "auto-announce", null, false, false);
 	}
 }

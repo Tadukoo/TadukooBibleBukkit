@@ -3,9 +3,9 @@ package com.gmail.realtadukoo.TBP.cmds.args;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleChapters;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
-import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.cmds.Records;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
 import com.gmail.realtadukoo.TBP.cmds.handling.Args;
@@ -27,12 +27,11 @@ public class Next {
 			return;
 		}
 		EnumBooks book = EnumBooks.GENESIS;
-		EnumChps echp = EnumChps.GENESIS;
 		String bookName = rec[0];
 		book = book.fromString(bookName);
 		String chp = rec[1];
 		int chapter = Integer.parseInt(chp);
-		echp = echp.fromString(bookName, 0);
+		EnumBibleChapters echp = EnumBibleChapters.fromBook(bookName);
 		int verse = Integer.parseInt(rec[2]) + 1;
 		if(tran == null){
 			tran = rec[3];
@@ -46,7 +45,7 @@ public class Next {
 				while(cont){
 					bookName = book.numtoBook(book.ordinal() + 1, "int", "raise", null);
 					book = book.fromString(bookName);
-					echp = echp.fromString(bookName, 0);
+					echp = EnumBibleChapters.fromBook(bookName);
 					cont = false;
 					/*
 					 * TODO: Add check for availability using EnumAvail.
@@ -58,6 +57,6 @@ public class Next {
 			chp = String.valueOf(chapter);
 		}
 		String v = String.valueOf(verse);
-		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "get", null, false, false);
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, "get", null, false, false);
 	}
 }

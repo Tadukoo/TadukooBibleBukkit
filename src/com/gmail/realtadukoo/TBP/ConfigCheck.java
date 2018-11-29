@@ -7,8 +7,8 @@ import java.util.logging.Level;
 import org.bukkit.configuration.file.FileConfiguration;
 
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleChapters;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
-import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 //import com.gmail.realtadukoo.TBP.commands.handling.Checks; TODO: Add check for availability using EnumAvail.
 
 public class ConfigCheck{
@@ -67,8 +67,6 @@ public class ConfigCheck{
 			
 			// Book = Genesis as default
 			EnumBooks book = EnumBooks.GENESIS;
-			EnumChps echp = EnumChps.GENESIS;
-			
 			
 			// If default translation is set in config, check that it exists, and set it to KJV if it doesn't. 
 			if(config.getString("default.translation") != null){
@@ -165,7 +163,7 @@ public class ConfigCheck{
 			if(config.getString("default.verse") != null){
 				// If so, check that it exists in the default chapter in the default book.
 				v = config.getString("default.verse");
-				echp = echp.fromString(bookName, 0);
+				EnumBibleChapters echp = EnumBibleChapters.fromBook(bookName);
 				verse = Integer.parseInt(v);
 				if(verse < 1 || verse > echp.getNum(chapter)){
 					// If not, set it to 1.

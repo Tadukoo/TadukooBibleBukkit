@@ -2,9 +2,9 @@ package com.gmail.realtadukoo.TBP.cmds;
 
 import java.util.Random;
 
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleChapters;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
-import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 
 public class Randomize {
 	public static Random generator = new Random();
@@ -34,8 +34,8 @@ public class Randomize {
 		return chp;
 	}
 	
-	public static String verse(EnumBooks book, EnumChps echp, String chp){
-		echp = echp.fromString(book.getBook(), 0);
+	public static String verse(EnumBooks book, String chp){
+		EnumBibleChapters echp = EnumBibleChapters.fromBook(book.getBook());
 		int lim = echp.getNum(Integer.parseInt(chp));
 		int rV = generator.nextInt(lim) + 1;
 		String v = Integer.toString(rV);

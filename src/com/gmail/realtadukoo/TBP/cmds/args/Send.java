@@ -6,7 +6,6 @@ import org.bukkit.command.CommandSender;
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
-import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.cmds.Records;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
@@ -19,10 +18,8 @@ public class Send {
 			return;
 		}
 		EnumBooks book = EnumBooks.GENESIS;
-		EnumChps echp = EnumChps.GENESIS;
 		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
 		book = book.getDefault();
-		echp = echp.getDefault();
 		String bookName = book.getBook();
 		String chp = TB.config.getString("default.chapter");
 		String v = TB.config.getString("default.verse");
@@ -39,7 +36,6 @@ public class Send {
 			if(!bookSet && Args.isBook(book, cmds, args, i) != null){
 				book = Args.isBook(book, cmds, args, i);
 				bookName = book.getBook();
-				echp = echp.fromString(bookName, 0);
 				i = Args.getCurrentArg(book, cmds, args, i);
 				bookSet = true;
 			}else if(!anonymous && ecmd.fromString(args[i]) == EnumCmds.ANONYMOUS){
@@ -123,7 +119,6 @@ public class Send {
 			sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("help.pages.send.usage"));
 			return;
 		}
-		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "send", pName, anonymous, 
-				bypass);
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, "send", pName, anonymous, bypass);
 	}
 }

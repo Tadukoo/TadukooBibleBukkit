@@ -5,15 +5,15 @@ import java.util.logging.Level;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleChapters;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
-import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 //import com.gmail.realtadukoo.TBP.commands.handling.Args; TODO: Add check for availability using EnumAvail.
 import com.gmail.realtadukoo.TBP.cmds.handling.Checks;
 
 public class Verse{
 	public static void check(TB plugin, CommandSender sender, String playerType, 
-			String bookName, String chp, String v, String tran, EnumBooks book, EnumChps echp, 
+			String bookName, String chp, String v, String tran, EnumBooks book, 
 			String type, String pName, boolean anonymous, boolean bypass){
 		if(Integer.parseInt(chp) > book.getChp()){
 			String error = plugin.getLanguage().getString("command.error.chpdoesntexist");
@@ -26,6 +26,7 @@ public class Verse{
 			return;
 		}
 		
+		EnumBibleChapters echp = EnumBibleChapters.fromBook(bookName);
 		if(Integer.parseInt(v) > echp.getNum(Integer.parseInt(chp))){
 			String error = plugin.getLanguage().getString("command.error.vdoesntexist");
 			error = error.replaceAll("\\{book\\}", bookName);

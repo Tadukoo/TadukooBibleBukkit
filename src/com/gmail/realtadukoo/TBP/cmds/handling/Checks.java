@@ -5,9 +5,9 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleChapters;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
-import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.cmds.References;
 
 public class Checks {
@@ -102,8 +102,7 @@ public class Checks {
 	public static String bookCheck(TB plugin, CommandSender sender, EnumBooks book, String bookName,
 			String chp, String v){
 		try{
-			EnumChps echp = EnumChps.GENESIS;
-			echp = echp.fromString(bookName, 0);
+			EnumBibleChapters echp = EnumBibleChapters.fromBook(bookName);
 			if(Integer.parseInt(chp) > book.getChp()){
 				String chpdoesntexist = plugin.getLanguage().getString("command.error.chpdoesntexist");
 				chpdoesntexist = chpdoesntexist.replaceAll("\\{book\\}", bookName);

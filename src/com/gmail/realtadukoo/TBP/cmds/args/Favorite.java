@@ -2,10 +2,8 @@ package com.gmail.realtadukoo.TBP.cmds.args;
 
 import org.bukkit.command.CommandSender;
 
-import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
-import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.cmds.Records;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
@@ -24,10 +22,7 @@ public class Favorite{
 		String v = rec[2];
 		String tran = rec[3];
 		EnumBooks book = EnumBooks.GENESIS;
-		EnumChps echp = EnumChps.GENESIS;
-		EnumTranslations etran = EnumTranslations.fromAbbreviation(tran);
 		book = book.fromString(bookName);
-		echp = echp.fromString(bookName, 0);
 		EnumCmds cmds = EnumCmds.FAVORITE;
 		int page = 1;
 		int i = 1;
@@ -40,7 +35,6 @@ public class Favorite{
 			}else if(!list && !bookSet && Args.isBook(book, cmds, args, i) != null){
 				book = Args.isBook(book, cmds, args, i);
 				bookName = book.getBook();
-				echp = echp.fromString(bookName, 0);
 				i = Args.getCurrentArg(book, cmds, args, i);
 				bookSet = true;
 			}else if(!list && !tranSet && Args.tranCheck(sender, args[i]) != null){
@@ -93,8 +87,7 @@ public class Favorite{
 			chp = favorite[1];
 			v = favorite[2];
 			tran = favorite[3];
-			Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "get", 
-					null, false, false);
+			Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, "get", null, false, false);
 		}else{
 			Records.saveFavorite(plugin, playerType, bookName, chp, v, tran, pName, sender);
 		}

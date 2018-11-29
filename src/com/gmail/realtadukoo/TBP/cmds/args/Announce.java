@@ -6,7 +6,6 @@ import org.bukkit.command.CommandSender;
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
-import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.cmds.Records;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
@@ -18,7 +17,6 @@ public class Announce {
 			return;
 		}
 		EnumBooks book = EnumBooks.GENESIS;
-		EnumChps echp = EnumChps.GENESIS;
 		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
 		String bookName = book.getBook();
 		String chp = null;
@@ -101,7 +99,6 @@ public class Announce {
 			sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("help.pages.ann.usage"));
 			return;
 		}
-		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "announce", null, false, 
-				false);
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, "announce", null, false, false);
 	}
 }

@@ -4,9 +4,9 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleChapters;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
-import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.cmds.Information;
 import com.gmail.realtadukoo.TBP.cmds.Records;
@@ -20,11 +20,11 @@ public class Read {
 			return;
 		}
 		EnumBooks book = EnumBooks.GENESIS;
-		EnumChps echp = EnumChps.GENESIS;
+		EnumBibleChapters echp;
 		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
 		book = book.getDefault();
-		echp = echp.getDefault();
 		String bookName = book.getBook();
+		echp = EnumBibleChapters.fromBook(bookName);
 		String chp = TB.config.getString("default.chapter");
 		String v = TB.config.getString("default.verse");
 		String tran = etran.getAbbreviation();
@@ -39,7 +39,7 @@ public class Read {
 			if(!bookSet && Args.isBook(book, cmds, args, i) != null){
 				book = Args.isBook(book, cmds, args, i);
 				bookName = book.getBook();
-				echp = echp.fromString(bookName, 0);
+				echp = EnumBibleChapters.fromBook(bookName);
 				i = Args.getCurrentArg(book, cmds, args, i);
 				bookSet = true;
 			}else if(args[i].equalsIgnoreCase("info") || args[i].equalsIgnoreCase("?") || 
@@ -107,7 +107,6 @@ public class Read {
 			v = rec[2];
 			tran = rec[3];
 		}
-		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "get", 
-				null, false, false);
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, "get", null, false, false);
 	}
 }

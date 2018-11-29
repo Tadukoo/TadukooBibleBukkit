@@ -4,7 +4,6 @@ import org.bukkit.command.CommandSender;
 
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
-import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.cmds.Records;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
 import com.gmail.realtadukoo.TBP.cmds.handling.Args;
@@ -14,7 +13,6 @@ public class Last {
 		if(Args.argsLengthCheck(sender, args, 1, 2, "/bible last [translation]")){
 			return;
 		}
-		EnumChps echp = EnumChps.GENESIS;
 		String tran = null;
 		if(args.length == 2 && Args.tranCheck(sender, args[1]) != null){
 			tran = Args.tranCheck(sender, args[1]);
@@ -34,6 +32,6 @@ public class Last {
 			Args.bookNotAvailable(sender, book, tran);
 			return;
 		}*/
-		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "get", null, false, false);
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, "get", null, false, false);
 	}
 }

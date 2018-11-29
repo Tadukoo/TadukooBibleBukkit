@@ -5,7 +5,6 @@ import org.bukkit.command.CommandSender;
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
-import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.cmds.Randomize;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
@@ -17,7 +16,6 @@ public class RandomCmd {
 			return;
 		}
 		EnumBooks book = EnumBooks.GENESIS;
-		EnumChps echp = EnumChps.GENESIS;
 		EnumCmds cmds = EnumCmds.RANDOM;
 		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
 		String bookName = null, chp = null, v = null;
@@ -54,14 +52,13 @@ public class RandomCmd {
 		if(bookSet == false){
 			bookName = Randomize.book(book, tran);
 			book = book.fromString(bookName);
-			echp = echp.fromString(bookName, 0);
 		}
 		if(chpSet == false){
 			chp = Randomize.chapter(book, bookName);
 		}
 		if(vSet == false){
-			v = Randomize.verse(book, echp, chp);
+			v = Randomize.verse(book, chp);
 		}
-		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "get", null, false, false);
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, "get", null, false, false);
 	}
 }

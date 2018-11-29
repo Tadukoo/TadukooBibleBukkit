@@ -4,9 +4,9 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleChapters;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
-import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumPerms;
 
 public class Information {
@@ -36,7 +36,7 @@ public class Information {
 		sender.sendMessage(ChatColor.GREEN + aliases);
 	}
 	
-	public static void chpInfo(CommandSender sender, TB plugin, EnumChps echp, String chp){
+	public static void chpInfo(CommandSender sender, TB plugin, EnumBibleChapters echp, String chp){
 		String msg = plugin.getLanguage().getString("command.info.chpinfo");
 		String bookName = echp.getBook();
 		msg = msg.replaceAll("\\{book\\}", bookName);
