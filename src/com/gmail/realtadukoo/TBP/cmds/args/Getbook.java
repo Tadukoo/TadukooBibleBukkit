@@ -4,10 +4,10 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
-import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
 import com.gmail.realtadukoo.TBP.cmds.Book;
 import com.gmail.realtadukoo.TBP.cmds.Randomize;
 import com.gmail.realtadukoo.TBP.cmds.handling.Args;
@@ -21,12 +21,11 @@ public class Getbook {
 		String pName = sender.getName();
 		EnumBooks book = EnumBooks.GENESIS;
 		EnumCmds cmds = EnumCmds.GETBOOK;
-		EnumTrans etran = EnumTrans.KJV;
+		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
 		book = book.getDefault();
 		String part = plugin.getConfig().getString("default.part");
-		etran = etran.getDefault();
 		String bookName = book.getBook();
-		String tran = etran.getTran();
+		String tran = etran.getAbbreviation();
 		String specArg = null;
 		int i = 1;
 		boolean random = false, list = false, previous = false, next = false, last = false;

@@ -9,7 +9,7 @@ import com.gmail.realtadukoo.TBP.cmds.handling.Args;
 
 public class Help {
 	public static void run(TB plugin, CommandSender sender, String[] args){
-		if(Args.argsLengthCheck(sender, args, 1, 2, plugin.getLanguage(false).getString("command.help"))){
+		if(Args.argsLengthCheck(sender, args, 1, 2, plugin.getLanguage().getString("command.help"))){
 			return;
 		}
 		EnumHelp ehelp = EnumHelp.TABLEOFCONTENTS;

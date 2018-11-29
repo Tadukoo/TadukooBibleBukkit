@@ -4,10 +4,10 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
-import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
 import com.gmail.realtadukoo.TBP.cmds.Book;
 import com.gmail.realtadukoo.TBP.cmds.handling.Args;
 import com.gmail.realtadukoo.TBP.cmds.handling.Checks;
@@ -21,11 +21,10 @@ public class Sendbook {
 		}
 		EnumBooks book = EnumBooks.GENESIS;
 		EnumCmds cmds = EnumCmds.SENDBOOK;
-		EnumTrans etran = EnumTrans.KJV;
-		etran = etran.getDefault();
+		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
 		String bookName = book.getBook();
 		String part = plugin.getConfig().getString("default.part");
-		String tran = etran.getTran();
+		String tran = etran.getAbbreviation();
 		Player player = null;
 		String pName = null;
 		boolean anonymous = false, bypass = false;

@@ -25,14 +25,10 @@ public class BComExec implements CommandExecutor{
 			String playerType){
 		EnumCmds cmds = EnumCmds.READ;
 		
-		String unknownSender = plugin.getLanguage(true).
-				getString("command.error.unknownsender");
-		String notAvailable = plugin.getLanguage(false).
-				getString("command.error.commandnotavailable");
-		String doesntExist = plugin.getLanguage(true).
-				getString("command.error.commanddoesntexist");
-		String help = plugin.getLanguage(true).
-				getString("command.error.help");
+		String unknownSender = plugin.getLanguage().getString("command.error.unknownsender");
+		String notAvailable = plugin.getLanguage().getString("command.error.commandnotavailable");
+		String doesntExist = plugin.getLanguage().getString("command.error.commanddoesntexist");
+		String help = plugin.getLanguage().getString("command.error.help");
 		
 		if((cmd.equalsIgnoreCase("bible")) && 
 				Checks.permCheck(playerType, plugin, sender, "Bible", "use", permsOn)){
@@ -199,21 +195,19 @@ public class BComExec implements CommandExecutor{
 							onCommand(sender, "apocrypha", args, playerType);
 						}else{
 							sender.sendMessage(ChatColor.RED + 
-									plugin.getLanguage(true).
-									getString("command.args.unknownarg"));
+									plugin.getLanguage().getString("command.args.unknownarg"));
 						}
 					}else{
 						sender.sendMessage(ChatColor.GREEN + 
-								plugin.getLanguage(false).getString("thelp.title"));
+								plugin.getLanguage().getString("thelp.title"));
 						sender.sendMessage(ChatColor.GREEN + 
-								plugin.getLanguage(false).getString("thelp.line1"));
+								plugin.getLanguage().getString("thelp.line1"));
 						sender.sendMessage(ChatColor.GREEN + 
-								plugin.getLanguage(false).getString("thelp.line2"));
+								plugin.getLanguage().getString("thelp.line2"));
 					}
 				}
 			}else{
-				String error = plugin.getLanguage(true).
-						getString("command.error.notenoughargs");
+				String error = plugin.getLanguage().getString("command.error.notenoughargs");
 				sender.sendMessage(ChatColor.RED + error);
 			}
 			return true;

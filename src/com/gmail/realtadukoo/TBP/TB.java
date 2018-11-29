@@ -272,7 +272,7 @@ public class TB extends JavaPlugin{
 	/*
 	 * Get a language.
 	 */
-	public FileConfiguration getLanguage(boolean Core){
+	public FileConfiguration getLanguage(){
 	    if(language == null){
 	        this.reloadLanguage();
 	    }

@@ -2,8 +2,8 @@ package com.gmail.realtadukoo.TBP.cmds.args;
 
 import org.bukkit.command.CommandSender;
 
+import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
 import com.gmail.realtadukoo.TBP.TB;
-import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
 import com.gmail.realtadukoo.TBP.cmds.Information;
 import com.gmail.realtadukoo.TBP.cmds.handling.Args;
 
@@ -14,8 +14,7 @@ public class Translation {
 		}
 		if(args.length == 2 && Args.tranCheck(sender, args[1]) != null){
 			String tran = Args.tranCheck(sender, args[1]);
-			EnumTrans etran = EnumTrans.KJV;
-			etran = etran.fromString(tran);
+			EnumTranslations etran = EnumTranslations.fromAbbreviation(tran);
 			Information.tranInfo(sender, plugin, etran);
 			return;
 		}

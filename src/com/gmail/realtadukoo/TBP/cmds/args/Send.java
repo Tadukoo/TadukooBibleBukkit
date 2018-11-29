@@ -3,11 +3,11 @@ package com.gmail.realtadukoo.TBP.cmds.args;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
+import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
-import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
 import com.gmail.realtadukoo.TBP.cmds.Records;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
 import com.gmail.realtadukoo.TBP.cmds.handling.Args;
@@ -15,20 +15,18 @@ import com.gmail.realtadukoo.TBP.cmds.handling.Checks;
 
 public class Send {
 	public static void run(TB plugin, String playerType, CommandSender sender, String[] args, boolean permsOn){
-		if(Args.argsLengthCheck(sender, args, 3, 10, plugin.getLanguage(false).
-				getString("help.pages.send.usage"))){
+		if(Args.argsLengthCheck(sender, args, 3, 10, plugin.getLanguage().getString("help.pages.send.usage"))){
 			return;
 		}
 		EnumBooks book = EnumBooks.GENESIS;
 		EnumChps echp = EnumChps.GENESIS;
-		EnumTrans etran = EnumTrans.KJV;
+		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
 		book = book.getDefault();
 		echp = echp.getDefault();
-		etran = etran.getDefault();
 		String bookName = book.getBook();
 		String chp = TB.config.getString("default.chapter");
 		String v = TB.config.getString("default.verse");
-		String tran = etran.getTran();
+		String tran = etran.getAbbreviation();
 		EnumCmds cmds = EnumCmds.READ;
 		int i = 1;
 		String pName = "";
@@ -122,7 +120,7 @@ public class Send {
 			vSet = true;
 		}
 		if(!playerSet || !bookSet || !chpSet || !vSet){
-			sender.sendMessage(ChatColor.RED + plugin.getLanguage(false).getString("help.pages.send.usage"));
+			sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("help.pages.send.usage"));
 			return;
 		}
 		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "send", pName, anonymous, 

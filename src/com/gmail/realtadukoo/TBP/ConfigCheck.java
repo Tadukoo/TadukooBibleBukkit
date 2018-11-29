@@ -6,9 +6,9 @@ import java.util.logging.Level;
 
 import org.bukkit.configuration.file.FileConfiguration;
 
+import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumChps;
-import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
 //import com.gmail.realtadukoo.TBP.commands.handling.Checks; TODO: Add check for availability using EnumAvail.
 
 public class ConfigCheck{
@@ -69,20 +69,18 @@ public class ConfigCheck{
 			EnumBooks book = EnumBooks.GENESIS;
 			EnumChps echp = EnumChps.GENESIS;
 			
-			// Translation = KJV as default
-			EnumTrans etran = EnumTrans.KJV;
 			
 			// If default translation is set in config, check that it exists, and set it to KJV if it doesn't. 
 			if(config.getString("default.translation") != null){
 				tran = config.getString("default.translation");
-				if(etran.fromString(tran) == null){
+				if(EnumTranslations.fromAbbreviation(tran) == null){
 					plugin.getLogger().log(Level.WARNING, "default.translation: " + tran + " does not exist!");
 					plugin.getLogger().log(Level.WARNING, "Setting default.translation to KJV...");
 					config.set("default.translation", "KJV");
 					plugin.saveConfig();
 				}else{
 					// If default translation set in config exists, set tran to it.
-					tran = etran.fromString(tran).getTran();
+					tran = EnumTranslations.fromAbbreviation(tran).getAbbreviation();
 				}
 			}else{
 				// If no default translation is set, set it to KJV.

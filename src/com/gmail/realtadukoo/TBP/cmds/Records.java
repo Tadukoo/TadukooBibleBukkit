@@ -66,7 +66,7 @@ public class Records {
 				i++;
 			}else{
 				if(i < lim){
-					String nextPage = plugin.getLanguage(false).getString("command.favorite.nextpage");
+					String nextPage = plugin.getLanguage().getString("command.favorite.nextpage");
 					String next = String.valueOf(page + 1);
 					nextPage = nextPage.replaceAll("\\{num\\}", next);
 					sender.sendMessage(ChatColor.GREEN + nextPage);

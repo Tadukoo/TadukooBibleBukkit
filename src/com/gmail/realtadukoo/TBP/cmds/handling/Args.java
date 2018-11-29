@@ -3,10 +3,10 @@ package com.gmail.realtadukoo.TBP.cmds.handling;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
+import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
-import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
 
 public class Args {	
 	public static boolean argsLengthCheck(CommandSender sender, String[] args, int min, int max, String usage){
@@ -23,13 +23,13 @@ public class Args {
 	}
 	
 	public static String tranCheck(CommandSender sender, String tran) {
-		EnumTrans etran = EnumTrans.KJV;
-		etran = etran.getDefault();
-		if(etran.fromString(tran) != null){
-			etran = etran.fromString(tran);
-			if(etran.isAvailable()){
+		if(EnumTranslations.fromAbbreviation(tran) != null){
+			EnumTranslations etran = EnumTranslations.fromAbbreviation(tran);
+			return etran.getAbbreviation();
+			// TODO: Work on availability
+			/*if(etran.isAvailable()){
 				return etran.getTran();
-			}
+			}*/
 		}
 		return null;
 	}
@@ -138,7 +138,7 @@ public class Args {
 	}
 	
 	public static void unknownArg(TB plugin, CommandSender sender, String arg){
-		String error = plugin.getLanguage(true).getString("command.error.unknownarg");
+		String error = plugin.getLanguage().getString("command.error.unknownarg");
 		error = error.replaceAll("\\{arg\\}", arg);
 		sender.sendMessage(ChatColor.RED + error);
 	}

@@ -3,11 +3,11 @@ package com.gmail.realtadukoo.TBP.cmds.args;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
+import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
-import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
 import com.gmail.realtadukoo.TBP.cmds.Information;
 import com.gmail.realtadukoo.TBP.cmds.Records;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
@@ -16,20 +16,18 @@ import com.gmail.realtadukoo.TBP.cmds.handling.Checks;
 
 public class Read {
 	public static void run(TB plugin, CommandSender sender, String playerType, String[] args){
-		if(Args.argsLengthCheck(sender, args, 0, 7, plugin.getLanguage(false).
-				getString("help.pages.read.usage"))){
+		if(Args.argsLengthCheck(sender, args, 0, 7, plugin.getLanguage().getString("help.pages.read.usage"))){
 			return;
 		}
 		EnumBooks book = EnumBooks.GENESIS;
 		EnumChps echp = EnumChps.GENESIS;
-		EnumTrans etran = EnumTrans.KJV;
+		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
 		book = book.getDefault();
 		echp = echp.getDefault();
-		etran = etran.getDefault();
 		String bookName = book.getBook();
 		String chp = TB.config.getString("default.chapter");
 		String v = TB.config.getString("default.verse");
-		String tran = etran.getTran();
+		String tran = etran.getAbbreviation();
 		EnumCmds cmds = EnumCmds.READ;
 		int i = 0;
 		if(args.length >= 1 && Args.isCmd(cmds, args[0]) == EnumCmds.READ){
@@ -47,8 +45,7 @@ public class Read {
 			}else if(args[i].equalsIgnoreCase("info") || args[i].equalsIgnoreCase("?") || 
 					args[i].equalsIgnoreCase("#")){
 				if(vSet || (chpSet && !bookSet)){
-					sender.sendMessage(ChatColor.RED + plugin.getLanguage(true).
-							getString("command.error.generic"));
+					sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("command.error.generic"));
 					return;
 				}else if(bookSet && !chpSet){
 					Information.bookInfo(sender, plugin, book);

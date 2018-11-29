@@ -3,29 +3,27 @@ package com.gmail.realtadukoo.TBP.cmds.args;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
+import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
-import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
 import com.gmail.realtadukoo.TBP.cmds.Records;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
 import com.gmail.realtadukoo.TBP.cmds.handling.Args;
 
 public class Announce {
 	public static void run(TB plugin, CommandSender sender, String playerType, String[] args){
-		if(Args.argsLengthCheck(sender, args, 2, 7, plugin.getLanguage(false).
-				getString("help.pages.ann.usage"))){
+		if(Args.argsLengthCheck(sender, args, 2, 7, plugin.getLanguage().getString("help.pages.ann.usage"))){
 			return;
 		}
 		EnumBooks book = EnumBooks.GENESIS;
 		EnumChps echp = EnumChps.GENESIS;
-		EnumTrans etran = EnumTrans.KJV;
-		etran = etran.getDefault();
+		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
 		String bookName = book.getBook();
 		String chp = null;
 		String v = null;
-		String tran = etran.getTran();
+		String tran = etran.getAbbreviation();
 		EnumCmds cmds = EnumCmds.ANNOUNCE;
 		boolean bookSet = false, chpSet = false, vSet = false, tranSet = false;
 		boolean favorite = false;
@@ -100,7 +98,7 @@ public class Announce {
 			vSet = true;
 		}
 		if(!bookSet || !chpSet || !vSet){
-			sender.sendMessage(ChatColor.RED + plugin.getLanguage(false).getString("help.pages.ann.usage"));
+			sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("help.pages.ann.usage"));
 			return;
 		}
 		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, echp, "announce", null, false, 

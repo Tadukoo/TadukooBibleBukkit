@@ -3,11 +3,11 @@ package com.gmail.realtadukoo.TBP.cmds;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
+import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumChps;
 import com.gmail.realtadukoo.TBP.Enums.EnumPerms;
-import com.gmail.realtadukoo.TBP.Enums.EnumTrans;
 
 public class Information {
 	public static void pluginInfo(TB plugin, CommandSender sender){
@@ -16,18 +16,18 @@ public class Information {
 		sender.sendMessage(ChatColor.GREEN + "Version: " + plugin.getDescription().getVersion());
 	}
 	
-	public static void bookInfo(CommandSender sender, TB plugin, EnumBooks book) {
+	public static void bookInfo(CommandSender sender, TB plugin, EnumBooks book){
 		String bookName = book.getBook();
-		String desc = plugin.getLanguage(false).getString("books." + bookName);
+		String desc = plugin.getLanguage().getString("books." + bookName);
 		String aliases = "";
 		if(book.getAlias() == null){
-			aliases = plugin.getLanguage(true).getString("aliases.none");
+			aliases = plugin.getLanguage().getString("aliases.none");
 		}else{
 			if(book.getAlias2() == null){
-				aliases = plugin.getLanguage(true).getString("aliases.one");
+				aliases = plugin.getLanguage().getString("aliases.one");
 				aliases = aliases.replaceAll("\\{alias1\\}", book.getAlias());
 			}else{
-				aliases = plugin.getLanguage(true).getString("aliases.two");
+				aliases = plugin.getLanguage().getString("aliases.two");
 				aliases = aliases.replaceAll("\\{alias1\\}", book.getAlias());
 				aliases = aliases.replaceAll("\\{alias2\\}", book.getAlias2());
 			}
@@ -37,7 +37,7 @@ public class Information {
 	}
 	
 	public static void chpInfo(CommandSender sender, TB plugin, EnumChps echp, String chp){
-		String msg = plugin.getLanguage(false).getString("command.info.chpinfo");
+		String msg = plugin.getLanguage().getString("command.info.chpinfo");
 		String bookName = echp.getBook();
 		msg = msg.replaceAll("\\{book\\}", bookName);
 		msg = msg.replaceAll("\\{chp\\}", chp);
@@ -97,33 +97,11 @@ public class Information {
 		sender.sendMessage(ChatColor.GREEN + b);
 	}
 	
-	public static void tranInfo(CommandSender sender, TB plugin, EnumTrans etran){
-		String tran = etran.getTran();
-		String desc = plugin.getLanguage(false).getString("translations." + tran);
-		String aliases = plugin.getLanguage(true).getString("aliases.none");
-		int i = 0;
-		if(etran.getAlias3() != null){
-			aliases = plugin.getLanguage(true).getString("aliases.three");
-			i = 3;
-		}else if(etran.getAlias2() != null){
-			aliases = plugin.getLanguage(true).getString("aliases.two");
-			i = 2;
-		}else if(etran.getAlias() != null){
-			aliases = plugin.getLanguage(true).getString("aliases.one");
-			i = 1;
-		}
-		if(i >= 1){
-			aliases = aliases.replaceAll("\\{alias1\\}", etran.getAlias());
-		}
-		if(i >= 2){
-			aliases = aliases.replaceAll("\\{alias2\\}", etran.getAlias2());
-		}
-		if(i == 3){
-			aliases = aliases.replaceAll("\\{alias3\\}", etran.getAlias3());
-		}
+	public static void tranInfo(CommandSender sender, TB plugin, EnumTranslations etran){
+		String tran = etran.getAbbreviation();
+		String desc = plugin.getLanguage().getString("translations." + tran);
 			
 		sender.sendMessage(ChatColor.GREEN + desc);
-		sender.sendMessage(ChatColor.GREEN + aliases);
 	}
 	
 	public static void settings(CommandSender sender) {

@@ -16,7 +16,7 @@ public class Verse{
 			String bookName, String chp, String v, String tran, EnumBooks book, EnumChps echp, 
 			String type, String pName, boolean anonymous, boolean bypass){
 		if(Integer.parseInt(chp) > book.getChp()){
-			String error = plugin.getLanguage(false).getString("command.error.chpdoesntexist");
+			String error = plugin.getLanguage().getString("command.error.chpdoesntexist");
 			error = error.replaceAll("\\{book\\}", bookName);
 			if(type.equalsIgnoreCase("auto-announce")){
 				plugin.getLogger().log(Level.WARNING, ChatColor.RED + error);
@@ -27,7 +27,7 @@ public class Verse{
 		}
 		
 		if(Integer.parseInt(v) > echp.getNum(Integer.parseInt(chp))){
-			String error = plugin.getLanguage(false).getString("command.error.vdoesntexist");
+			String error = plugin.getLanguage().getString("command.error.vdoesntexist");
 			error = error.replaceAll("\\{book\\}", bookName);
 			error = error.replaceAll("\\{chp\\}", chp);
 			if(type.equalsIgnoreCase("auto-announce")){
