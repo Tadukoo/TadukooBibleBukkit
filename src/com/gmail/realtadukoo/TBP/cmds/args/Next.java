@@ -3,9 +3,9 @@ package com.gmail.realtadukoo.TBP.cmds.args;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBible;
 import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleChapters;
 import com.gmail.realtadukoo.TBP.TB;
-import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.cmds.Records;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
 import com.gmail.realtadukoo.TBP.cmds.handling.Args;
@@ -26,9 +26,8 @@ public class Next {
 					"go forward any farther!");
 			return;
 		}
-		EnumBooks book = EnumBooks.GENESIS;
 		String bookName = rec[0];
-		book = book.fromString(bookName);
+		EnumBible book = EnumBible.fromBook(bookName);
 		String chp = rec[1];
 		int chapter = Integer.parseInt(chp);
 		EnumBibleChapters echp = EnumBibleChapters.fromBook(bookName);
@@ -39,12 +38,12 @@ public class Next {
 		if(verse > echp.getNum(chapter)){
 			verse = 1;
 			chapter++;
-			if(chapter > book.getChp()){
+			if(chapter > EnumBibleChapters.fromBook(bookName).getNumChapters()){
 				chapter = 1;
 				boolean cont = true;
 				while(cont){
-					bookName = book.numtoBook(book.ordinal() + 1, "int", "raise", null);
-					book = book.fromString(bookName);
+					book = EnumBible.fromInt(book.ordinal() + 2);
+					bookName = book.getBook();
 					echp = EnumBibleChapters.fromBook(bookName);
 					cont = false;
 					/*
@@ -57,6 +56,6 @@ public class Next {
 			chp = String.valueOf(chapter);
 		}
 		String v = String.valueOf(verse);
-		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, "get", null, false, false);
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, "get", null, false, false);
 	}
 }

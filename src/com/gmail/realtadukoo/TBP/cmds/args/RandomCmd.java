@@ -3,8 +3,8 @@ package com.gmail.realtadukoo.TBP.cmds.args;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBible;
 import com.gmail.realtadukoo.TBP.TB;
-import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.cmds.Randomize;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
@@ -15,7 +15,6 @@ public class RandomCmd {
 		if(Args.argsLengthCheck(sender, args, 1, 6, "/bible random [book] [chapter] [translation]")){
 			return;
 		}
-		EnumBooks book = EnumBooks.GENESIS;
 		EnumCmds cmds = EnumCmds.RANDOM;
 		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
 		String bookName = null, chp = null, v = null;
@@ -23,11 +22,11 @@ public class RandomCmd {
 		boolean bookSet = false, chpSet = false, vSet = false, tranSet = false;
 		int i = 1;
 		while(args.length >= i + 1 && args[i] != null){
-			if(!bookSet && Args.isBook(book, cmds, args, i) != null){
-				book = Args.isBook(book, cmds, args, i);
+			if(!bookSet && Args.isBook(cmds, args, i) != null){
+				EnumBible book = Args.isBook(cmds, args, i);
 				bookName = book.getBook();
 				bookSet = true;
-				i = Args.getCurrentArg(book, cmds, args, i);
+				i = Args.getCurrentArg(cmds, args, i);
 			}else if(!tranSet && Args.tranCheck(sender, args[i]) != null){
 				tran = Args.tranCheck(sender, args[i]);
 				tranSet = true;
@@ -50,15 +49,14 @@ public class RandomCmd {
 			}
 		}
 		if(bookSet == false){
-			bookName = Randomize.book(book, tran);
-			book = book.fromString(bookName);
+			bookName = Randomize.book(tran);
 		}
 		if(chpSet == false){
-			chp = Randomize.chapter(book, bookName);
+			chp = Randomize.chapter(bookName);
 		}
 		if(vSet == false){
-			v = Randomize.verse(book, chp);
+			v = Randomize.verse(bookName, chp);
 		}
-		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, "get", null, false, false);
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, "get", null, false, false);
 	}
 }

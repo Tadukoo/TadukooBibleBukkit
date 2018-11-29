@@ -4,9 +4,9 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBible;
 import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleChapters;
 import com.gmail.realtadukoo.TBP.TB;
-import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.cmds.Information;
 import com.gmail.realtadukoo.TBP.cmds.Records;
@@ -19,10 +19,9 @@ public class Read {
 		if(Args.argsLengthCheck(sender, args, 0, 7, plugin.getLanguage().getString("help.pages.read.usage"))){
 			return;
 		}
-		EnumBooks book = EnumBooks.GENESIS;
 		EnumBibleChapters echp;
 		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
-		book = book.getDefault();
+		EnumBible book = EnumBible.fromBook(TB.config.getString("default.book"));
 		String bookName = book.getBook();
 		echp = EnumBibleChapters.fromBook(bookName);
 		String chp = TB.config.getString("default.chapter");
@@ -36,11 +35,11 @@ public class Read {
 		boolean bookSet = false, chpSet = false, vSet = false, tranSet = false;
 		boolean favorite = false;
 		while(args.length >= i + 1 && args[i] != null){
-			if(!bookSet && Args.isBook(book, cmds, args, i) != null){
-				book = Args.isBook(book, cmds, args, i);
+			if(!bookSet && Args.isBook(cmds, args, i) != null){
+				book = Args.isBook(cmds, args, i);
 				bookName = book.getBook();
 				echp = EnumBibleChapters.fromBook(bookName);
-				i = Args.getCurrentArg(book, cmds, args, i);
+				i = Args.getCurrentArg(cmds, args, i);
 				bookSet = true;
 			}else if(args[i].equalsIgnoreCase("info") || args[i].equalsIgnoreCase("?") || 
 					args[i].equalsIgnoreCase("#")){
@@ -48,7 +47,7 @@ public class Read {
 					sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("command.error.generic"));
 					return;
 				}else if(bookSet && !chpSet){
-					Information.bookInfo(sender, plugin, book);
+					Information.bookInfo(sender, plugin, bookName);
 					return;
 				}else if(bookSet && chpSet){
 					Information.chpInfo(sender, plugin, echp, chp);
@@ -107,6 +106,6 @@ public class Read {
 			v = rec[2];
 			tran = rec[3];
 		}
-		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, "get", null, false, false);
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, "get", null, false, false);
 	}
 }

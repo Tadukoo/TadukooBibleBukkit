@@ -4,9 +4,9 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleAliases;
 import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleChapters;
 import com.gmail.realtadukoo.TBP.TB;
-import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumPerms;
 
 public class Information {
@@ -16,24 +16,26 @@ public class Information {
 		sender.sendMessage(ChatColor.GREEN + "Version: " + plugin.getDescription().getVersion());
 	}
 	
-	public static void bookInfo(CommandSender sender, TB plugin, EnumBooks book){
-		String bookName = book.getBook();
+	public static void bookInfo(CommandSender sender, TB plugin, String bookName){
 		String desc = plugin.getLanguage().getString("books." + bookName);
-		String aliases = "";
-		if(book.getAlias() == null){
-			aliases = plugin.getLanguage().getString("aliases.none");
-		}else{
-			if(book.getAlias2() == null){
-				aliases = plugin.getLanguage().getString("aliases.one");
-				aliases = aliases.replaceAll("\\{alias1\\}", book.getAlias());
-			}else{
-				aliases = plugin.getLanguage().getString("aliases.two");
-				aliases = aliases.replaceAll("\\{alias1\\}", book.getAlias());
-				aliases = aliases.replaceAll("\\{alias2\\}", book.getAlias2());
-			}
+		String aliasesString = "";
+		String[] aliases = EnumBibleAliases.fromBook(bookName).getAliases();
+		switch(aliases.length){
+			case 0:
+				aliasesString = plugin.getLanguage().getString("aliases.none");
+				break;
+			case 1:
+				aliasesString = plugin.getLanguage().getString("aliases.one");
+				aliasesString = aliasesString.replaceAll("\\{alias1\\}", aliases[0]);
+				break;
+			case 2:
+				aliasesString = plugin.getLanguage().getString("aliases.two");
+				aliasesString = aliasesString.replaceAll("\\{alias1\\}", aliases[0]);
+				aliasesString = aliasesString.replaceAll("\\{alias2\\}", aliases[1]);
+				break;
 		}
 		sender.sendMessage(ChatColor.GREEN + desc);
-		sender.sendMessage(ChatColor.GREEN + aliases);
+		sender.sendMessage(ChatColor.GREEN + aliasesString);
 	}
 	
 	public static void chpInfo(CommandSender sender, TB plugin, EnumBibleChapters echp, String chp){

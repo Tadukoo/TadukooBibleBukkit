@@ -8,7 +8,6 @@ import org.bukkit.configuration.file.FileConfiguration;
 
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
 import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleChapters;
-import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 //import com.gmail.realtadukoo.TBP.commands.handling.Checks; TODO: Add check for availability using EnumAvail.
 
 public class ConfigCheck{
@@ -65,9 +64,6 @@ public class ConfigCheck{
 			int chapter; // Chapter as a number rather than a string
 			int verse; // Verse as a number rather than a string
 			
-			// Book = Genesis as default
-			EnumBooks book = EnumBooks.GENESIS;
-			
 			// If default translation is set in config, check that it exists, and set it to KJV if it doesn't. 
 			if(config.getString("default.translation") != null){
 				tran = config.getString("default.translation");
@@ -98,11 +94,9 @@ public class ConfigCheck{
 			}
 			
 			// Check that the yml files exist for all available books for the default translation.
-			int i = 0;
+			/*int i = 0;
 			while(i < 66){
-				bookName = book.numtoBook(i + 1, "int", null, null);
-				book = book.fromString(bookName);
-				/*
+				EnumBible book = EnumBible.fromInt(i);
 				 * TODO: Add check for availability using EnumAvail.
 				 * if(book.isAvailable(tran)){
 					if(!Checks.checkForYML(plugin, null, bookName, tran)){
@@ -111,17 +105,15 @@ public class ConfigCheck{
 						plugin.getLogger().log(Level.SEVERE, "Please make sure you put the Tadukoo_Bible " +
 								"folder into your plugins folder.");
 					}
-				}*/
+				}
 				i++;
-			}
+			}*/
 			
 			// Check if default book is set.
 			if(config.getString("default.book") != null){
 				// If so, make sure it's available in the default translation.
 				bookName = config.getString("default.book");
-				book = book.fromString(bookName);
-				bookName = book.getBook();
-				/*
+				/*EnumBible book = EnumBible.fromBook(bookName);
 				 * TODO: Add check for availability using EnumAvail.
 				 * if(!book.isAvailable(tran)){
 					// If not, set it to Genesis.
@@ -141,9 +133,9 @@ public class ConfigCheck{
 			if(config.getString("default.chapter") != null){
 				// If so, make sure it exists for the default book.
 				chp = config.getString("default.chapter");
-				book = book.fromString(bookName);
+				EnumBibleChapters book = EnumBibleChapters.fromBook(bookName);
 				chapter = Integer.parseInt(chp);
-				if(chapter < 1 || chapter > book.getChp()){
+				if(chapter < 1 || chapter > book.getNumChapters()){
 					// Set it to 1 if it doesn't exist.
 					plugin.getLogger().log(Level.WARNING, "default.chapter: " + chp + " does not exist in " + 
 							bookName + ". Setting to 1.");
@@ -154,7 +146,6 @@ public class ConfigCheck{
 				// If default chapter is not set in the config, set it to 1.
 				chp = "1";
 				chapter = 1;
-				book = book.fromString(bookName);
 				config.set("default.chapter", "1");
 				plugin.saveConfig();
 			}

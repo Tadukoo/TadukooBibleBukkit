@@ -4,8 +4,8 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBible;
 import com.gmail.realtadukoo.TBP.TB;
-import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 
 public class Args {	
@@ -34,7 +34,7 @@ public class Args {
 		return null;
 	}
 	
-	public static EnumBooks isBook(EnumBooks book, EnumCmds cmds, String[] args, int start){
+	public static EnumBible isBook(EnumCmds cmds, String[] args, int start){
 		String name;
 		if(args.length >= start + 1 && cmds.fromString(args[start]) != null){
 			cmds = cmds.fromString(args[start]);
@@ -62,11 +62,8 @@ public class Args {
 		}else{
 			name = args[start];
 		}
-		if(book.fromString(name) != null){
-			return book.fromString(name);
-		}else{
-			return null;
-		}
+		EnumBible book = EnumBible.fromBook(name);
+		return book;
 	}
 	
 	public static EnumCmds isCmd(EnumCmds cmds, String name){
@@ -77,7 +74,7 @@ public class Args {
 		}
 	}
 	
-	public static int getCurrentArg(EnumBooks book, EnumCmds cmds, String[] args, int i) {
+	public static int getCurrentArg(EnumCmds cmds, String[] args, int i) {
 		String name;
 		if(args.length >= i + 1 && cmds.fromString(args[i]) != null){
 			cmds = cmds.fromString(args[i]);
@@ -85,7 +82,7 @@ public class Args {
 			if(cmd.equalsIgnoreCase("1") || cmd.equalsIgnoreCase("2") || cmd.equalsIgnoreCase("3")){
 				if(args.length > i + 1){
 					name = cmd + args[i + 1];
-					if(book.fromString(name) != null){
+					if(EnumBible.fromBook(name) != null){
 						i = i + 2;
 						return i;
 					}else{
@@ -101,7 +98,7 @@ public class Args {
 					if(args.length > i + 2 && (args[i + 2].equalsIgnoreCase("songs")|| 
 							args[i + 2].equalsIgnoreCase("solomon"))){
 						name = "SongofSongs";
-						if(book.fromString(name) != null){
+						if(EnumBible.fromBook(name) != null){
 							i = i + 3;
 							return i;
 						}else{
@@ -127,7 +124,7 @@ public class Args {
 		}
 	}
 	
-	public static void bookNotAvailable(CommandSender sender, EnumBooks book, String tran){
+	public static void bookNotAvailable(CommandSender sender, EnumBible book, String tran){
 		String bookMsg = book.getBook();
 		bookMsg = bookMsg.replace("1", "1 ");
 		bookMsg = bookMsg.replace("2", "2 ");

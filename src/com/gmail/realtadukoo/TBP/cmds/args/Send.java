@@ -4,8 +4,8 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBible;
 import com.gmail.realtadukoo.TBP.TB;
-import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.cmds.Records;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
@@ -17,9 +17,8 @@ public class Send {
 		if(Args.argsLengthCheck(sender, args, 3, 10, plugin.getLanguage().getString("help.pages.send.usage"))){
 			return;
 		}
-		EnumBooks book = EnumBooks.GENESIS;
 		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
-		book = book.getDefault();
+		EnumBible book = EnumBible.fromBook(TB.config.getString("default.book"));
 		String bookName = book.getBook();
 		String chp = TB.config.getString("default.chapter");
 		String v = TB.config.getString("default.verse");
@@ -33,10 +32,10 @@ public class Send {
 		boolean bookSet = false, chpSet = false, vSet = false, tranSet = false, playerSet = false;
 		boolean favorite = false;
 		while(args.length >= i + 1 && args[i] != null){
-			if(!bookSet && Args.isBook(book, cmds, args, i) != null){
-				book = Args.isBook(book, cmds, args, i);
+			if(!bookSet && Args.isBook(cmds, args, i) != null){
+				book = Args.isBook(cmds, args, i);
 				bookName = book.getBook();
-				i = Args.getCurrentArg(book, cmds, args, i);
+				i = Args.getCurrentArg(cmds, args, i);
 				bookSet = true;
 			}else if(!anonymous && ecmd.fromString(args[i]) == EnumCmds.ANONYMOUS){
 				if(Checks.permCheck(playerType, plugin, sender, "Bible", "anonymous.verse", permsOn)){
@@ -119,6 +118,6 @@ public class Send {
 			sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("help.pages.send.usage"));
 			return;
 		}
-		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, "send", pName, anonymous, bypass);
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, "send", pName, anonymous, bypass);
 	}
 }

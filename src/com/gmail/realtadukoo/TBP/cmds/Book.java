@@ -9,15 +9,15 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BookMeta;
 
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBible;
 import com.gmail.realtadukoo.TBP.TB;
-import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.cmds.handling.Checks;
 
 public class Book{
 	
 	@SuppressWarnings("deprecation")
 	public static void checkAndRun(TB plugin, CommandSender sender, String playerType, String bookName,
-			String part, String tran, EnumBooks book, String type, String pName, boolean anonymous, 
+			String part, String tran, String type, String pName, boolean anonymous, 
 			boolean bypass, boolean permsOn){
 		Player player = null;
 		/*
@@ -66,7 +66,7 @@ public class Book{
 				return;
 			}
 		}
-		book = book.fromString(bookName);
+		EnumBible book = EnumBible.fromBook(bookName);
 		String author = book.getAuthor();
 		String igbookName = book.getBook();
 		igbookName = igbookName.replace("1", "1 ");
@@ -126,7 +126,6 @@ public class Book{
 	public static void previous(TB plugin, CommandSender sender, String playerType, String bookName, 
 			String part, String tran, String type, String pName, boolean permsOn, String prevType){
 		String pNum = "";
-		EnumBooks ebook = EnumBooks.GENESIS;
 		String newBook = bookName;
 		if(prevType.equalsIgnoreCase("part")){
 			int bN = Integer.parseInt(part) - 1;
@@ -135,7 +134,8 @@ public class Book{
 			}else{
 				boolean cont = true;
 				while(cont){
-					newBook = ebook.numtoBook(0, "string", "lower", newBook);
+					// TODO: Figure out how to do this
+					//newBook = ebook.numtoBook(0, "string", "lower", newBook);
 					cont = false;
 					/*
 					 * TODO: Add check for availability using EnumAvail.
@@ -158,7 +158,8 @@ public class Book{
 			if(pNum.equalsIgnoreCase("1")){
 				boolean cont = true;
 				while(cont){
-					newBook = ebook.numtoBook(0, "string", "lower", newBook);
+					// TODO: Figure out how to do this
+					//newBook = ebook.numtoBook(0, "string", "lower", newBook);
 					cont = false;
 					/*
 					 * TODO: Add check for availability using EnumAvail.
@@ -170,13 +171,12 @@ public class Book{
 				pNum = "1";
 			}
 		}
-		checkAndRun(plugin, sender, playerType, newBook, pNum, tran, ebook, type, pName, false, false, permsOn);
+		checkAndRun(plugin, sender, playerType, newBook, pNum, tran, type, pName, false, false, permsOn);
 	}
 	
 	public static void next(TB plugin, CommandSender sender, String playerType, String bookName, String part,
 			String tran, String type, String pName, boolean permsOn, String nextType){
 		String pNum = "";
-		EnumBooks ebook = EnumBooks.GENESIS;
 		String newBook = bookName;
 		if(nextType.equalsIgnoreCase("part")){
 			int bN = Integer.parseInt(part) + 1;
@@ -185,7 +185,8 @@ public class Book{
 			}else{
 				boolean cont = true;
 				while(cont){
-					newBook = ebook.numtoBook(0, "string", "raise", newBook);
+					// TODO: Figure out how to do this
+					//newBook = ebook.numtoBook(0, "string", "raise", newBook);
 					cont = false;
 					/*
 					 * TODO: Add check for availability using EnumAvail.
@@ -198,7 +199,8 @@ public class Book{
 		}else if(nextType.equalsIgnoreCase("book")){
 			boolean cont = true;
 			while(cont){
-				newBook = ebook.numtoBook(0, "string", "raise", newBook);
+				// TODO: Figure out how to do this
+				//newBook = ebook.numtoBook(0, "string", "raise", newBook);
 				cont = false;
 				/*
 				 * TODO: Add check for availability using EnumAvail.
@@ -208,7 +210,7 @@ public class Book{
 			}
 			pNum = "1";
 		}
-		checkAndRun(plugin, sender, playerType, newBook, pNum, tran, ebook, type, pName, false, false, permsOn);
+		checkAndRun(plugin, sender, playerType, newBook, pNum, tran, type, pName, false, false, permsOn);
 	}
 	
 	public static void list(TB plugin, CommandSender sender, String tran){

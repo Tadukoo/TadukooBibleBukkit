@@ -2,8 +2,8 @@ package com.gmail.realtadukoo.TBP.cmds.args;
 
 import org.bukkit.command.CommandSender;
 
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBible;
 import com.gmail.realtadukoo.TBP.TB;
-import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.cmds.Information;
 import com.gmail.realtadukoo.TBP.cmds.handling.Args;
@@ -14,12 +14,11 @@ public class Books {
 			return;
 		}
 		String bookListPage = "1";
-		EnumBooks book = EnumBooks.GENESIS;
 		EnumCmds cmds = EnumCmds.BOOKS;
 		if(args.length >= 2){
-			if(Args.isBook(book, cmds, args, 1) != null){
-				book = Args.isBook(book, cmds, args, 1);
-				Information.bookInfo(sender, plugin, book);
+			if(Args.isBook(cmds, args, 1) != null){
+				EnumBible book = Args.isBook(cmds, args, 1);
+				Information.bookInfo(sender, plugin, book.getBook());
 				return;
 			}else{
 				bookListPage = args[1];

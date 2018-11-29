@@ -4,8 +4,8 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBible;
 import com.gmail.realtadukoo.TBP.TB;
-import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.cmds.Records;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
@@ -16,9 +16,9 @@ public class Announce {
 		if(Args.argsLengthCheck(sender, args, 2, 7, plugin.getLanguage().getString("help.pages.ann.usage"))){
 			return;
 		}
-		EnumBooks book = EnumBooks.GENESIS;
+		EnumBible book;
 		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
-		String bookName = book.getBook();
+		String bookName = null;
 		String chp = null;
 		String v = null;
 		String tran = etran.getAbbreviation();
@@ -28,10 +28,10 @@ public class Announce {
 		//boolean previous = false, next = false, last = false;
 		int i = 1;
 		while(args.length >= i + 1 && args[i] != null){
-			if(!bookSet && Args.isBook(book, cmds, args, i) != null){
-				book = Args.isBook(book, cmds, args, i);
+			if(!bookSet && Args.isBook(cmds, args, i) != null){
+				book = Args.isBook(cmds, args, i);
 				bookName = book.getBook();
-				i = Args.getCurrentArg(book, cmds, args, i);
+				i = Args.getCurrentArg(cmds, args, i);
 				bookSet = true;
 			}else if(!chpSet && !vSet && args[i].contains(":")){
 				String[] chpV = args[i].split(":");
@@ -99,6 +99,6 @@ public class Announce {
 			sender.sendMessage(ChatColor.RED + plugin.getLanguage().getString("help.pages.ann.usage"));
 			return;
 		}
-		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, book, "announce", null, false, false);
+		Verse.check(plugin, sender, playerType, bookName, chp, v, tran, "announce", null, false, false);
 	}
 }

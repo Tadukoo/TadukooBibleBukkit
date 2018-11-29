@@ -5,8 +5,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBible;
 import com.gmail.realtadukoo.TBP.TB;
-import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.cmds.Book;
 import com.gmail.realtadukoo.TBP.cmds.Randomize;
@@ -19,10 +19,9 @@ public class Getbook {
 			return;
 		}
 		String pName = sender.getName();
-		EnumBooks book = EnumBooks.GENESIS;
 		EnumCmds cmds = EnumCmds.GETBOOK;
 		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
-		book = book.getDefault();
+		EnumBible book = EnumBible.fromBook(TB.config.getString("default.book"));
 		String part = plugin.getConfig().getString("default.part");
 		String bookName = book.getBook();
 		String tran = etran.getAbbreviation();
@@ -37,10 +36,10 @@ public class Getbook {
 			}else if(!random && cmds.fromString(args[i]) == EnumCmds.RANDOM){
 				random = true;
 				i++;
-			}else if(!bookSet && Args.isBook(book, cmds, args, i) != null){
-				book = Args.isBook(book, cmds, args, i);
+			}else if(!bookSet && Args.isBook(cmds, args, i) != null){
+				book = Args.isBook(cmds, args, i);
 				bookName = book.getBook();
-				i = Args.getCurrentArg(book, cmds, args, i);
+				i = Args.getCurrentArg(cmds, args, i);
 			}else if(!tranSet && Args.tranCheck(sender, args[i]) != null){
 				tran = Args.tranCheck(sender, args[i]);
 				tranSet = true;
@@ -135,17 +134,16 @@ public class Getbook {
 		}
 		if(random){
 			if(!bookSet){
-				bookName = Randomize.book(book, tran);
+				bookName = Randomize.book(tran);
 			}
 			if(!partSet){
-				part = Randomize.part(plugin, book, bookName, tran);
+				part = Randomize.part(plugin, bookName, tran);
 			}
 		}
 		if(list){
 			Book.list(plugin, sender, tran);
 			return;
 		}
-		Book.checkAndRun(plugin, sender, playerType, bookName, part, tran, book, "get", pName, false, false, 
-				permsOn);
+		Book.checkAndRun(plugin, sender, playerType, bookName, part, tran, "get", pName, false, false, permsOn);
 	}
 }

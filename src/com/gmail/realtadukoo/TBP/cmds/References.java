@@ -4,15 +4,14 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import com.gmail.realtadukoo.TBP.TB;
-import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 
 public class References {
-	public static String makeRef(EnumBooks book, String chp, String v){
+	public static String makeRef(String bookName, String chp, String v){
 		String ref = null;
 		if(chp.equalsIgnoreCase("info") || chp.equalsIgnoreCase("?")){
-			ref = book.getAlias() + "Info";
+			ref = bookName + "Info";
 		}else if(chp.equalsIgnoreCase("#")){
-			ref = book.getAlias() + "#";
+			ref = bookName + "#";
 		}else if(v.equalsIgnoreCase("#") || v.equalsIgnoreCase("?") || v.equalsIgnoreCase("info")){
 			v = "info";
 		}

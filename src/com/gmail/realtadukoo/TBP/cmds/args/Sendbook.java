@@ -5,8 +5,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
+import com.gmail.realtadukoo.TB.Enums.Bible.EnumBible;
 import com.gmail.realtadukoo.TBP.TB;
-import com.gmail.realtadukoo.TBP.Enums.EnumBooks;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.cmds.Book;
 import com.gmail.realtadukoo.TBP.cmds.handling.Args;
@@ -19,10 +19,9 @@ public class Sendbook {
 				"or /bible sendbook <player> <book> <part> \"anonymous\" [translation]")){
 			return;
 		}
-		EnumBooks book = EnumBooks.GENESIS;
+		String bookName = null;
 		EnumCmds cmds = EnumCmds.SENDBOOK;
 		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
-		String bookName = book.getBook();
 		String part = plugin.getConfig().getString("default.part");
 		String tran = etran.getAbbreviation();
 		Player player = null;
@@ -31,10 +30,10 @@ public class Sendbook {
 		boolean bookSet = false, partSet = false, playerSet = false, tranSet = false;
 		int i = 1;
 		while(args.length >= i + 1 && args[i] != null){
-			if(!bookSet && Args.isBook(book, cmds, args, i) != null){
-				book = Args.isBook(book, cmds, args, i);
+			if(!bookSet && Args.isBook(cmds, args, i) != null){
+				EnumBible book = Args.isBook(cmds, args, i);
 				bookName = book.getBook();
-				i = Args.getCurrentArg(book, cmds, args, i);
+				i = Args.getCurrentArg(cmds, args, i);
 				bookSet = true;
 			}else if(!tranSet && Args.tranCheck(sender, args[i]) != null){
 				tran = Args.tranCheck(sender, args[i]);
@@ -85,7 +84,6 @@ public class Sendbook {
 				"or /bible sendbook <player> <book> <part> \"anonymous\" [translation]");
 			return;
 		}
-		Book.checkAndRun(plugin, sender, playerType, bookName, part, tran, book, "send", pName, anonymous, 
-				bypass, permsOn);
+		Book.checkAndRun(plugin, sender, playerType, bookName, part, tran, "send", pName, anonymous, bypass, permsOn);
 	}
 }
