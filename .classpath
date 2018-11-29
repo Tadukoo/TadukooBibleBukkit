@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="junit"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/Tadukoo/Desktop/Tadukoo/Programming/Minecraft Server Software/bukkit-1.10.2-R0.1-SNAPSHOT-shaded.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/TadukooBibleAPI"/>
