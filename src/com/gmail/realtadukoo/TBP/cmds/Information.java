@@ -3,9 +3,9 @@ package com.gmail.realtadukoo.TBP.cmds;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
-import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
-import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleAliases;
-import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleChapters;
+import com.gmail.realtadukoo.TB.Bible.EnumBibleAliases;
+import com.gmail.realtadukoo.TB.Bible.EnumBibleChapters;
+import com.gmail.realtadukoo.TB.Bible.EnumTranslations;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumPerms;
 

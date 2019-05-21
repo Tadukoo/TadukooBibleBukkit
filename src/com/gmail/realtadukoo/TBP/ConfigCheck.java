@@ -6,9 +6,8 @@ import java.util.logging.Level;
 
 import org.bukkit.configuration.file.FileConfiguration;
 
-import com.gmail.realtadukoo.TB.Enums.EnumTranslations;
-import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleChapters;
-//import com.gmail.realtadukoo.TBP.commands.handling.Checks; TODO: Add check for availability using EnumAvail.
+import com.gmail.realtadukoo.TB.Bible.EnumBibleChapters;
+import com.gmail.realtadukoo.TB.Bible.EnumTranslations;
 
 public class ConfigCheck{
 	/*

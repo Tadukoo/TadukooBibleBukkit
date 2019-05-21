@@ -5,7 +5,7 @@ import java.util.logging.Level;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
-import com.gmail.realtadukoo.TB.Enums.Bible.EnumBibleChapters;
+import com.gmail.realtadukoo.TB.Bible.EnumBibleChapters;
 import com.gmail.realtadukoo.TBP.TB;
 //import com.gmail.realtadukoo.TBP.commands.handling.Args; TODO: Add check for availability using EnumAvail.
 import com.gmail.realtadukoo.TBP.cmds.handling.Checks;
