@@ -3,8 +3,7 @@ package com.gmail.realtadukoo.TBP.cmds.args;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
-import com.gmail.realtadukoo.TB.Bible.EnumBible;
-import com.gmail.realtadukoo.TB.Bible.EnumBibleChapters;
+import com.gmail.realtadukoo.TB.Constants.EnumBible;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.cmds.Records;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
@@ -48,7 +47,6 @@ public class Previous {
 		EnumBible book = EnumBible.fromBook(bookName);
 		String chp = rec[1];
 		int chapter = Integer.parseInt(chp);
-		EnumBibleChapters echp = EnumBibleChapters.fromBook(bookName);
 		int verse = Integer.parseInt(rec[2]);
 		
 		if(type.equalsIgnoreCase("verse")){
@@ -62,7 +60,6 @@ public class Previous {
 					while(cont){
 						book = EnumBible.fromInt(book.ordinal());
 						bookName = book.getBook();
-						echp = EnumBibleChapters.fromBook(bookName);
 						cont = false;
 						/*
 						 * TODO: Add check for availability using EnumAvail.
@@ -70,9 +67,9 @@ public class Previous {
 							cont = false;
 						}*/
 					}
-					chapter = EnumBibleChapters.fromBook(bookName).getNumChapters();
+					chapter = book.getNumChapters();
 				}
-				verse = echp.getNum(chapter);
+				verse = book.getNum(chapter);
 				chp = String.valueOf(chapter);
 			}
 		}
@@ -88,7 +85,6 @@ public class Previous {
 					while(cont){
 						book = EnumBible.fromInt(book.ordinal());
 						bookName = book.getBook();
-						echp = EnumBibleChapters.fromBook(bookName);
 						cont = false;
 						/*
 						 * TODO: Add check for availability using EnumAvail.
@@ -96,7 +92,7 @@ public class Previous {
 							cont = false;
 						}*/
 					}
-					chapter = EnumBibleChapters.fromBook(bookName).getNumChapters();
+					chapter = book.getNumChapters();
 				}
 				chp = String.valueOf(chapter);
 			}
@@ -112,7 +108,6 @@ public class Previous {
 				while(cont){
 					book = EnumBible.fromInt(book.ordinal());
 					bookName = book.getBook();
-					echp = EnumBibleChapters.fromBook(bookName);
 					cont = false;
 					/*
 					 * TODO: Add check for availability using EnumAvail.

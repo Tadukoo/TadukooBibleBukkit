@@ -3,9 +3,8 @@ package com.gmail.realtadukoo.TBP.cmds;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
-import com.gmail.realtadukoo.TB.Bible.EnumBibleAliases;
-import com.gmail.realtadukoo.TB.Bible.EnumBibleChapters;
 import com.gmail.realtadukoo.TB.Bible.EnumTranslations;
+import com.gmail.realtadukoo.TB.Constants.EnumBible;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumPerms;
 
@@ -19,7 +18,7 @@ public class Information {
 	public static void bookInfo(CommandSender sender, TB plugin, String bookName){
 		String desc = plugin.getLanguage().getString("books." + bookName);
 		String aliasesString = "";
-		String[] aliases = EnumBibleAliases.fromBook(bookName).getAliases();
+		String[] aliases = EnumBible.fromBook(bookName).getAliases();
 		switch(aliases.length){
 			case 0:
 				aliasesString = plugin.getLanguage().getString("aliases.none");
@@ -38,12 +37,12 @@ public class Information {
 		sender.sendMessage(ChatColor.GREEN + aliasesString);
 	}
 	
-	public static void chpInfo(CommandSender sender, TB plugin, EnumBibleChapters echp, String chp){
+	public static void chpInfo(CommandSender sender, TB plugin, EnumBible book, String chp){
 		String msg = plugin.getLanguage().getString("command.info.chpinfo");
-		String bookName = echp.getBook();
+		String bookName = book.getBook();
 		msg = msg.replaceAll("\\{book\\}", bookName);
 		msg = msg.replaceAll("\\{chp\\}", chp);
-		int v = echp.getNum(Integer.parseInt(chp));
+		int v = book.getNum(Integer.parseInt(chp));
 		String vNum = String.valueOf(v);
 		msg = msg.replaceAll("\\{vNum\\}", vNum);
 		sender.sendMessage(ChatColor.GREEN + msg);

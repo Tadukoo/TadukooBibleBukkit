@@ -5,7 +5,7 @@ import java.util.logging.Level;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
-import com.gmail.realtadukoo.TB.Bible.EnumBibleChapters;
+import com.gmail.realtadukoo.TB.Constants.EnumBible;
 import com.gmail.realtadukoo.TBP.TB;
 //import com.gmail.realtadukoo.TBP.commands.handling.Args; TODO: Add check for availability using EnumAvail.
 import com.gmail.realtadukoo.TBP.cmds.handling.Checks;
@@ -14,7 +14,7 @@ public class Verse{
 	public static void check(TB plugin, CommandSender sender, String playerType, 
 			String bookName, String chp, String v, String tran, 
 			String type, String pName, boolean anonymous, boolean bypass){
-		if(Integer.parseInt(chp) > EnumBibleChapters.fromBook(bookName).getNumChapters()){
+		if(Integer.parseInt(chp) > EnumBible.fromBook(bookName).getNumChapters()){
 			String error = plugin.getLanguage().getString("command.error.chpdoesntexist");
 			error = error.replaceAll("\\{book\\}", bookName);
 			if(type.equalsIgnoreCase("auto-announce")){
@@ -25,8 +25,8 @@ public class Verse{
 			return;
 		}
 		
-		EnumBibleChapters echp = EnumBibleChapters.fromBook(bookName);
-		if(Integer.parseInt(v) > echp.getNum(Integer.parseInt(chp))){
+		EnumBible book = EnumBible.fromBook(bookName);
+		if(Integer.parseInt(v) > book.getNum(Integer.parseInt(chp))){
 			String error = plugin.getLanguage().getString("command.error.vdoesntexist");
 			error = error.replaceAll("\\{book\\}", bookName);
 			error = error.replaceAll("\\{chp\\}", chp);

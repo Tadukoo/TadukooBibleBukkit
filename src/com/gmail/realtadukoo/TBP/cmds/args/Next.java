@@ -3,8 +3,7 @@ package com.gmail.realtadukoo.TBP.cmds.args;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
-import com.gmail.realtadukoo.TB.Bible.EnumBible;
-import com.gmail.realtadukoo.TB.Bible.EnumBibleChapters;
+import com.gmail.realtadukoo.TB.Constants.EnumBible;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.cmds.Records;
 import com.gmail.realtadukoo.TBP.cmds.Verse;
@@ -30,21 +29,19 @@ public class Next {
 		EnumBible book = EnumBible.fromBook(bookName);
 		String chp = rec[1];
 		int chapter = Integer.parseInt(chp);
-		EnumBibleChapters echp = EnumBibleChapters.fromBook(bookName);
 		int verse = Integer.parseInt(rec[2]) + 1;
 		if(tran == null){
 			tran = rec[3];
 		}
-		if(verse > echp.getNum(chapter)){
+		if(verse > book.getNum(chapter)){
 			verse = 1;
 			chapter++;
-			if(chapter > EnumBibleChapters.fromBook(bookName).getNumChapters()){
+			if(chapter > book.getNumChapters()){
 				chapter = 1;
 				boolean cont = true;
 				while(cont){
 					book = EnumBible.fromInt(book.ordinal() + 2);
 					bookName = book.getBook();
-					echp = EnumBibleChapters.fromBook(bookName);
 					cont = false;
 					/*
 					 * TODO: Add check for availability using EnumAvail.

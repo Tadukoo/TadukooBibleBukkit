@@ -4,8 +4,8 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import com.gmail.realtadukoo.TB.Bible.EnumBibleChapters;
 import com.gmail.realtadukoo.TB.Bible.EnumTranslations;
+import com.gmail.realtadukoo.TB.Constants.EnumBible;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.cmds.References;
 
@@ -100,14 +100,14 @@ public class Checks {
 	
 	public static String bookCheck(TB plugin, CommandSender sender, String bookName, String chp, String v){
 		try{
-			EnumBibleChapters echp = EnumBibleChapters.fromBook(bookName);
-			if(Integer.parseInt(chp) > EnumBibleChapters.fromBook(bookName).getNumChapters()){
+			EnumBible book = EnumBible.fromBook(bookName);
+			if(Integer.parseInt(chp) > book.getNumChapters()){
 				String chpdoesntexist = plugin.getLanguage().getString("command.error.chpdoesntexist");
 				chpdoesntexist = chpdoesntexist.replaceAll("\\{book\\}", bookName);
 				sender.sendMessage(ChatColor.RED + chpdoesntexist);
 				return null;
 			}
-			if(Integer.parseInt(v) > echp.getNum(Integer.parseInt(chp))){
+			if(Integer.parseInt(v) > book.getNum(Integer.parseInt(chp))){
 				String vdoesntexist = plugin.getLanguage().getString("command.error.vdoesntexist");
 				vdoesntexist = vdoesntexist.replaceAll("\\{book\\}", bookName);
 				vdoesntexist = vdoesntexist.replaceAll("\\{chp\\}", chp);

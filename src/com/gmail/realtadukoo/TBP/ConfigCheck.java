@@ -6,8 +6,8 @@ import java.util.logging.Level;
 
 import org.bukkit.configuration.file.FileConfiguration;
 
-import com.gmail.realtadukoo.TB.Bible.EnumBibleChapters;
 import com.gmail.realtadukoo.TB.Bible.EnumTranslations;
+import com.gmail.realtadukoo.TB.Constants.EnumBible;
 
 public class ConfigCheck{
 	/*
@@ -132,7 +132,7 @@ public class ConfigCheck{
 			if(config.getString("default.chapter") != null){
 				// If so, make sure it exists for the default book.
 				chp = config.getString("default.chapter");
-				EnumBibleChapters book = EnumBibleChapters.fromBook(bookName);
+				EnumBible book = EnumBible.fromBook(bookName);
 				chapter = Integer.parseInt(chp);
 				if(chapter < 1 || chapter > book.getNumChapters()){
 					// Set it to 1 if it doesn't exist.
@@ -153,9 +153,9 @@ public class ConfigCheck{
 			if(config.getString("default.verse") != null){
 				// If so, check that it exists in the default chapter in the default book.
 				v = config.getString("default.verse");
-				EnumBibleChapters echp = EnumBibleChapters.fromBook(bookName);
+				EnumBible book = EnumBible.fromBook(bookName);
 				verse = Integer.parseInt(v);
-				if(verse < 1 || verse > echp.getNum(chapter)){
+				if(verse < 1 || verse > book.getNum(chapter)){
 					// If not, set it to 1.
 					plugin.getLogger().log(Level.WARNING, "default.verse: " + v + " does not exist in " + 
 							bookName + " Chapter " + chp + ". Setting to 1.");

@@ -3,9 +3,8 @@ package com.gmail.realtadukoo.TBP.cmds.args;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
-import com.gmail.realtadukoo.TB.Bible.EnumBible;
-import com.gmail.realtadukoo.TB.Bible.EnumBibleChapters;
 import com.gmail.realtadukoo.TB.Bible.EnumTranslations;
+import com.gmail.realtadukoo.TB.Constants.EnumBible;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.cmds.Information;
@@ -19,11 +18,9 @@ public class Read {
 		if(Args.argsLengthCheck(sender, args, 0, 7, plugin.getLanguage().getString("help.pages.read.usage"))){
 			return;
 		}
-		EnumBibleChapters echp;
 		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
 		EnumBible book = EnumBible.fromBook(TB.config.getString("default.book"));
 		String bookName = book.getBook();
-		echp = EnumBibleChapters.fromBook(bookName);
 		String chp = TB.config.getString("default.chapter");
 		String v = TB.config.getString("default.verse");
 		String tran = etran.getAbbreviation();
@@ -38,7 +35,6 @@ public class Read {
 			if(!bookSet && Args.isBook(cmds, args, i) != null){
 				book = Args.isBook(cmds, args, i);
 				bookName = book.getBook();
-				echp = EnumBibleChapters.fromBook(bookName);
 				i = Args.getCurrentArg(cmds, args, i);
 				bookSet = true;
 			}else if(args[i].equalsIgnoreCase("info") || args[i].equalsIgnoreCase("?") || 
@@ -50,7 +46,7 @@ public class Read {
 					Information.bookInfo(sender, plugin, bookName);
 					return;
 				}else if(bookSet && chpSet){
-					Information.chpInfo(sender, plugin, echp, chp);
+					Information.chpInfo(sender, plugin, book, chp);
 					return;
 				}
 			}else if(!tranSet && Args.tranCheck(sender, args[i]) != null){

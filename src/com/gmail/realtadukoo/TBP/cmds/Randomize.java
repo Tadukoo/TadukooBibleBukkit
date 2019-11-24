@@ -2,8 +2,7 @@ package com.gmail.realtadukoo.TBP.cmds;
 
 import java.util.Random;
 
-import com.gmail.realtadukoo.TB.Bible.EnumBible;
-import com.gmail.realtadukoo.TB.Bible.EnumBibleChapters;
+import com.gmail.realtadukoo.TB.Constants.EnumBible;
 import com.gmail.realtadukoo.TBP.TB;
 
 public class Randomize {
@@ -26,16 +25,16 @@ public class Randomize {
 	}
 	
 	public static String chapter(String bookName){
-		EnumBibleChapters book = EnumBibleChapters.fromBook(bookName);
+		EnumBible book = EnumBible.fromBook(bookName);
 		int lim = book.getNumChapters();
 		int rC = generator.nextInt(lim) + 1;
 		String chp = Integer.toString(rC);
 		return chp;
 	}
 	
-	public static String verse(String book, String chp){
-		EnumBibleChapters echp = EnumBibleChapters.fromBook(book);
-		int lim = echp.getNum(Integer.parseInt(chp));
+	public static String verse(String bookName, String chp){
+		EnumBible book = EnumBible.fromBook(bookName);
+		int lim = book.getNum(Integer.parseInt(chp));
 		int rV = generator.nextInt(lim) + 1;
 		String v = Integer.toString(rV);
 		return v;
