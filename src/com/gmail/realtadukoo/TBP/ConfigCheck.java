@@ -6,8 +6,8 @@ import java.util.logging.Level;
 
 import org.bukkit.configuration.file.FileConfiguration;
 
-import com.gmail.realtadukoo.TB.Bible.EnumTranslations;
 import com.gmail.realtadukoo.TB.Constants.EnumBible;
+import com.gmail.realtadukoo.TB.Constants.EnumTranslation;
 
 public class ConfigCheck{
 	/*
@@ -66,14 +66,14 @@ public class ConfigCheck{
 			// If default translation is set in config, check that it exists, and set it to KJV if it doesn't. 
 			if(config.getString("default.translation") != null){
 				tran = config.getString("default.translation");
-				if(EnumTranslations.fromAbbreviation(tran) == null){
+				if(EnumTranslation.fromAbbreviation(tran) == null){
 					plugin.getLogger().log(Level.WARNING, "default.translation: " + tran + " does not exist!");
 					plugin.getLogger().log(Level.WARNING, "Setting default.translation to KJV...");
 					config.set("default.translation", "KJV");
 					plugin.saveConfig();
 				}else{
 					// If default translation set in config exists, set tran to it.
-					tran = EnumTranslations.fromAbbreviation(tran).getAbbreviation();
+					tran = EnumTranslation.fromAbbreviation(tran).getAbbreviation();
 				}
 			}else{
 				// If no default translation is set, set it to KJV.
@@ -155,7 +155,7 @@ public class ConfigCheck{
 				v = config.getString("default.verse");
 				EnumBible book = EnumBible.fromBook(bookName);
 				verse = Integer.parseInt(v);
-				if(verse < 1 || verse > book.getNum(chapter)){
+				if(verse < 1 || verse > book.getNumVersesInChp(chapter)){
 					// If not, set it to 1.
 					plugin.getLogger().log(Level.WARNING, "default.verse: " + v + " does not exist in " + 
 							bookName + " Chapter " + chp + ". Setting to 1.");

@@ -3,8 +3,8 @@ package com.gmail.realtadukoo.TBP.cmds.args;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
-import com.gmail.realtadukoo.TB.Bible.EnumTranslations;
 import com.gmail.realtadukoo.TB.Constants.EnumBible;
+import com.gmail.realtadukoo.TB.Constants.EnumTranslation;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.cmds.Records;
@@ -17,7 +17,7 @@ public class Send {
 		if(Args.argsLengthCheck(sender, args, 3, 10, plugin.getLanguage().getString("help.pages.send.usage"))){
 			return;
 		}
-		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
+		EnumTranslation etran = EnumTranslation.fromAbbreviation(TB.config.getString("default.translation"));
 		EnumBible book = EnumBible.fromBook(TB.config.getString("default.book"));
 		String bookName = book.getBook();
 		String chp = TB.config.getString("default.chapter");

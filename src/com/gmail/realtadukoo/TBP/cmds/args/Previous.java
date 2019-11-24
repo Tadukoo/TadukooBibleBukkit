@@ -69,7 +69,7 @@ public class Previous {
 					}
 					chapter = book.getNumChapters();
 				}
-				verse = book.getNum(chapter);
+				verse = book.getNumVersesInChp(chapter);
 				chp = String.valueOf(chapter);
 			}
 		}

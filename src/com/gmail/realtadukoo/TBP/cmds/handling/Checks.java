@@ -4,8 +4,8 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import com.gmail.realtadukoo.TB.Bible.EnumTranslations;
 import com.gmail.realtadukoo.TB.Constants.EnumBible;
+import com.gmail.realtadukoo.TB.Constants.EnumTranslation;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.cmds.References;
 
@@ -67,12 +67,12 @@ public class Checks {
 	}
 	
 	public static boolean tranPerm(TB plugin, CommandSender sender, String tran){
-		EnumTranslations defaultTran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
+		EnumTranslation defaultTran = EnumTranslation.fromAbbreviation(TB.config.getString("default.translation"));
 		boolean defTran;
 		String donthave = plugin.getLanguage().getString("permission.donthavetran");
 		donthave = donthave.replaceAll("\\{tran\\}", tran);
 		String need = plugin.getLanguage().getString("permission.need");
-		if(EnumTranslations.fromAbbreviation(tran) == defaultTran){
+		if(EnumTranslation.fromAbbreviation(tran) == defaultTran){
 			defTran = true;
 		}else{
 			defTran = false;
@@ -107,7 +107,7 @@ public class Checks {
 				sender.sendMessage(ChatColor.RED + chpdoesntexist);
 				return null;
 			}
-			if(Integer.parseInt(v) > book.getNum(Integer.parseInt(chp))){
+			if(Integer.parseInt(v) > book.getNumVersesInChp(Integer.parseInt(chp))){
 				String vdoesntexist = plugin.getLanguage().getString("command.error.vdoesntexist");
 				vdoesntexist = vdoesntexist.replaceAll("\\{book\\}", bookName);
 				vdoesntexist = vdoesntexist.replaceAll("\\{chp\\}", chp);

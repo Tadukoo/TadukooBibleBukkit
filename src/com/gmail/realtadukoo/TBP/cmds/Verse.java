@@ -26,7 +26,7 @@ public class Verse{
 		}
 		
 		EnumBible book = EnumBible.fromBook(bookName);
-		if(Integer.parseInt(v) > book.getNum(Integer.parseInt(chp))){
+		if(Integer.parseInt(v) > book.getNumVersesInChp(Integer.parseInt(chp))){
 			String error = plugin.getLanguage().getString("command.error.vdoesntexist");
 			error = error.replaceAll("\\{book\\}", bookName);
 			error = error.replaceAll("\\{chp\\}", chp);

@@ -34,7 +34,7 @@ public class Randomize {
 	
 	public static String verse(String bookName, String chp){
 		EnumBible book = EnumBible.fromBook(bookName);
-		int lim = book.getNum(Integer.parseInt(chp));
+		int lim = book.getNumVersesInChp(Integer.parseInt(chp));
 		int rV = generator.nextInt(lim) + 1;
 		String v = Integer.toString(rV);
 		return v;

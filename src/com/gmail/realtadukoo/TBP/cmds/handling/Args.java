@@ -3,8 +3,8 @@ package com.gmail.realtadukoo.TBP.cmds.handling;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
-import com.gmail.realtadukoo.TB.Bible.EnumTranslations;
 import com.gmail.realtadukoo.TB.Constants.EnumBible;
+import com.gmail.realtadukoo.TB.Constants.EnumTranslation;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 
@@ -23,8 +23,8 @@ public class Args {
 	}
 	
 	public static String tranCheck(CommandSender sender, String tran) {
-		if(EnumTranslations.fromAbbreviation(tran) != null){
-			EnumTranslations etran = EnumTranslations.fromAbbreviation(tran);
+		if(EnumTranslation.fromAbbreviation(tran) != null){
+			EnumTranslation etran = EnumTranslation.fromAbbreviation(tran);
 			return etran.getAbbreviation();
 			// TODO: Work on availability
 			/*if(etran.isAvailable()){

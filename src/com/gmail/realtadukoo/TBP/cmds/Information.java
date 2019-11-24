@@ -3,8 +3,8 @@ package com.gmail.realtadukoo.TBP.cmds;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
-import com.gmail.realtadukoo.TB.Bible.EnumTranslations;
 import com.gmail.realtadukoo.TB.Constants.EnumBible;
+import com.gmail.realtadukoo.TB.Constants.EnumTranslation;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumPerms;
 
@@ -42,7 +42,7 @@ public class Information {
 		String bookName = book.getBook();
 		msg = msg.replaceAll("\\{book\\}", bookName);
 		msg = msg.replaceAll("\\{chp\\}", chp);
-		int v = book.getNum(Integer.parseInt(chp));
+		int v = book.getNumVersesInChp(Integer.parseInt(chp));
 		String vNum = String.valueOf(v);
 		msg = msg.replaceAll("\\{vNum\\}", vNum);
 		sender.sendMessage(ChatColor.GREEN + msg);
@@ -98,7 +98,7 @@ public class Information {
 		sender.sendMessage(ChatColor.GREEN + b);
 	}
 	
-	public static void tranInfo(CommandSender sender, TB plugin, EnumTranslations etran){
+	public static void tranInfo(CommandSender sender, TB plugin, EnumTranslation etran){
 		String tran = etran.getAbbreviation();
 		String desc = plugin.getLanguage().getString("translations." + tran);
 			

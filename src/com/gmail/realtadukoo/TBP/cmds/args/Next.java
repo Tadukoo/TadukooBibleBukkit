@@ -33,7 +33,7 @@ public class Next {
 		if(tran == null){
 			tran = rec[3];
 		}
-		if(verse > book.getNum(chapter)){
+		if(verse > book.getNumVersesInChp(chapter)){
 			verse = 1;
 			chapter++;
 			if(chapter > book.getNumChapters()){

@@ -2,8 +2,8 @@ package com.gmail.realtadukoo.TBP.cmds.args;
 
 import org.bukkit.command.CommandSender;
 
-import com.gmail.realtadukoo.TB.Bible.EnumTranslations;
 import com.gmail.realtadukoo.TB.Constants.EnumBible;
+import com.gmail.realtadukoo.TB.Constants.EnumTranslation;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.Enums.EnumPerms;
@@ -20,9 +20,9 @@ public class Info {
 		EnumCmds cmds = EnumCmds.INFO;
 		EnumPerms perms = EnumPerms.STAR;
 		if(args.length >= 2){
-			if(EnumTranslations.fromAbbreviation(args[1]) != null && Checks.permCheck(playerType, plugin, sender, "bible",
+			if(EnumTranslation.fromAbbreviation(args[1]) != null && Checks.permCheck(playerType, plugin, sender, "bible",
 					"info.translation", permsOn)){
-				Information.tranInfo(sender, plugin, EnumTranslations.fromAbbreviation(args[1]));
+				Information.tranInfo(sender, plugin, EnumTranslation.fromAbbreviation(args[1]));
 				return;
 			}else if(Args.isBook(cmds, args, 1) != null && Checks.permCheck(playerType, plugin, sender,
 					"bible", "info.book", permsOn)){

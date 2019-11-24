@@ -2,8 +2,8 @@ package com.gmail.realtadukoo.TBP.cmds.args;
 
 import org.bukkit.command.CommandSender;
 
-import com.gmail.realtadukoo.TB.Bible.EnumTranslations;
 import com.gmail.realtadukoo.TB.Constants.EnumBible;
+import com.gmail.realtadukoo.TB.Constants.EnumTranslation;
 import com.gmail.realtadukoo.TBP.TB;
 import com.gmail.realtadukoo.TBP.Enums.EnumCmds;
 import com.gmail.realtadukoo.TBP.cmds.Randomize;
@@ -16,7 +16,7 @@ public class RandomCmd {
 			return;
 		}
 		EnumCmds cmds = EnumCmds.RANDOM;
-		EnumTranslations etran = EnumTranslations.fromAbbreviation(TB.config.getString("default.translation"));
+		EnumTranslation etran = EnumTranslation.fromAbbreviation(TB.config.getString("default.translation"));
 		String bookName = null, chp = null, v = null;
 		String tran = etran.getAbbreviation();
 		boolean bookSet = false, chpSet = false, vSet = false, tranSet = false;
